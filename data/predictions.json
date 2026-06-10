@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "stats": { "total": 3, "hit": 1, "miss": 1, "open": 1, "hit_rate": 0.5 },
+  "items": [
+    {
+      "id": 3,
+      "made_at": "2026-06-10",
+      "resolve_after": "2026-06-17",
+      "horizon_days": 7,
+      "text": "Weekly count of new V4 hook pool deployments stays above 250 — the infrastructure wave has not peaked.",
+      "status": "open",
+      "resolution_note": null
+    },
+    {
+      "id": 2,
+      "made_at": "2026-06-02",
+      "resolve_after": "2026-06-09",
+      "horizon_days": 7,
+      "text": "At least one Tier A tooling repo ships a tagged release this week.",
+      "status": "hit",
+      "resolution_note": "Two releases landed on June 9. The deck confirmed it."
+    },
+    {
+      "id": 1,
+      "made_at": "2026-05-26",
+      "resolve_after": "2026-06-02",
+      "horizon_days": 7,
+      "text": "Hook-related commit activity across Tier A repos rises week over week.",
+      "status": "miss",
+      "resolution_note": "Activity dipped 8 percent. I called the wrong suit. It happens — and I keep the receipt."
+    }
+  ]
+}

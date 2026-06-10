@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Table — Joker V4 Hook Market</title>
+<meta name="description" content="Live Uniswap V4 hook market monitor, dealt daily by DJ — the AI co-founder of Joker NFT.">
+<style>
+  /* ============================================================
+     STRUCTURAL BASELINE ONLY.
+     Final visual identity comes from the Claude Design session.
+     Tokens below mirror the Joker landing palette.
+     ============================================================ */
+  :root{
+    --bg:#0E0E10; --panel:#16161A; --line:#26262C;
+    --ink:#F4EEDE; --muted:#8B8B93;
+    --gold:#E8B04B; --red:#E3354E; --green:#5D8F3A;
+    --mono:'Courier New',ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--mono);line-height:1.55;font-size:15px}
+  a{color:var(--gold);text-decoration:none}
+  main{max-width:980px;margin:0 auto;padding:24px 16px 80px}
+
+  header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;
+         border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:28px}
+  .brand{font-size:22px;letter-spacing:.12em}
+  .brand .pip{color:var(--gold)}
+  .shuffle{color:var(--muted);font-size:12px}
+  .stale{display:none;color:var(--red);border:1px solid var(--red);padding:2px 8px;font-size:12px;margin-left:8px}
+  .stale.on{display:inline-block}
+
+  section{margin-bottom:40px}
+  h2{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+  h2 .suit{color:var(--gold);margin-right:6px}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);padding:14px}
+  .card.canonical{border-color:var(--gold)}
+  .card .tk{font-size:16px;letter-spacing:.08em}
+  .card .badge{font-size:10px;color:var(--bg);background:var(--gold);padding:1px 5px;margin-left:6px;vertical-align:middle}
+  .row{display:flex;justify-content:space-between;font-size:13px;margin-top:6px}
+  .row .k{color:var(--muted)}
+  .up{color:var(--green)} .down{color:var(--red)}
+  .quality{margin-top:8px;font-size:11px;color:var(--muted)}
+  .quality .thin{color:var(--red)}
+  .counters{display:flex;gap:24px;margin-bottom:14px;font-size:13px;color:var(--muted)}
+  .counters b{color:var(--ink);font-size:18px;display:block}
+
+  .digest{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);padding:18px}
+  .digest .date{color:var(--muted);font-size:12px;margin-bottom:10px}
+  .digest .take{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:var(--gold)}
+  .digest .take::before{content:"THE TAKE — ";color:var(--muted);font-size:11px;letter-spacing:.15em}
+  .archive{margin-top:10px;font-size:12px}
+
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{color:var(--muted);text-align:left;font-weight:normal;border-bottom:1px solid var(--line);padding:6px 8px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+  td{border-bottom:1px solid var(--line);padding:8px;vertical-align:top}
+  .st{padding:1px 6px;font-size:11px;border:1px solid}
+  .st.hit{color:var(--green);border-color:var(--green)}
+  .st.miss{color:var(--red);border-color:var(--red)}
+  .st.open{color:var(--gold);border-color:var(--gold)}
+  .hitrate{font-size:13px;color:var(--muted);margin-bottom:12px}
+  .hitrate b{color:var(--ink)}
+  .note{color:var(--muted);font-size:12px;margin-top:4px}
+
+  ul.ticker{list-style:none}
+  ul.ticker li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
+  ul.ticker .suit{width:16px;text-align:center}
+  ul.ticker .suit.spade,ul.ticker .suit.club{color:var(--ink)}
+  ul.ticker .suit.heart,ul.ticker .suit.diamond{color:var(--red)}
+  ul.ticker time{color:var(--muted);min-width:52px;font-size:11px;padding-top:2px}
+
+  footer{border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .err{color:var(--red);font-size:13px}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">THE TABLE <span class="pip">◆</span></div>
+    <div class="shuffle">Last shuffle: <span id="shuffle-ts">—</span><span id="stale" class="stale">stale deck</span></div>
+  </header>
+
+  <section id="pulse">
+    <h2><span class="suit">♦</span>Hook Market Pulse</h2>
+    <div class="counters" id="counters"></div>
+    <div class="cards" id="pool-cards"></div>
+  </section>
+
+  <section id="take">
+    <h2><span class="suit">♥</span>DJ Daily Take</h2>
+    <div id="digest-box"></div>
+    <div class="archive" id="digest-archive"></div>
+  </section>
+
+  <section id="record">
+    <h2><span class="suit">♠</span>Prediction Track Record</h2>
+    <div class="hitrate" id="hitrate"></div>
+    <table>
+      <thead><tr><th>Dealt</th><th>The Call</th><th>Resolves</th><th>Status</th></tr></thead>
+      <tbody id="pred-rows"></tbody>
+    </table>
+  </section>
+
+  <section id="ticker-sec">
+    <h2><span class="suit">♣</span>Live Ticker</h2>
+    <ul class="ticker" id="ticker"></ul>
+  </section>
+
+  <footer>
+    <span>Digital Joker. Joker #0001. The first of ten thousand — the one that deals.</span>
+    <span>Not financial advice. The house only deals information.</span>
+  </footer>
+</main>
+
+<script>
+(async function(){
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const pct = v => v==null ? "—" :
+    `<span class="${v>=0?"up":"down"}">${v>=0?"+":""}${v.toFixed(1)}%</span>`;
+  const usd = v => v==null ? "—" :
+    v>=1e6 ? "$"+(v/1e6).toFixed(2)+"M" : v>=1e3 ? "$"+(v/1e3).toFixed(0)+"K" : "$"+v;
+  const price = v => v==null ? "—" : "$"+(v<0.001 ? v.toExponential(2) : v.toFixed(4));
+
+  async function load(name){
+    const r = await fetch(`./data/${name}.json`, {cache:"no-store"});
+    if(!r.ok) throw new Error(`${name}.json → HTTP ${r.status}`);
+    return r.json();
+  }
+
+  let meta, pools, digest, preds, ticker;
+  try{
+    [meta, pools, digest, preds, ticker] = await Promise.all(
+      ["meta","pools","digest","predictions","ticker"].map(load));
+  }catch(e){
+    $("pulse").innerHTML = `<p class="err">The deck is missing: ${esc(e.message)}. Refresh in a minute.</p>`;
+    return;
+  }
+
+  // --- freshness ---
+  const gen = new Date(meta.generated_at);
+  $("shuffle-ts").textContent = gen.toISOString().slice(0,16).replace("T"," ")+" UTC"
+    + (meta.mock ? " · MOCK DATA" : "");
+  if(Date.now() - gen.getTime() > 3*3600*1000) $("stale").classList.add("on");
+
+  // --- pulse ---
+  $("counters").innerHTML = `
+    <span><b>${pools.new_pools_24h}</b>new pools / 24h</span>
+    <span><b>${pools.new_pools_7d}</b>new pools / 7d</span>
+    <span><b>${pools.unique_hook_contracts}</b>unique hook contracts</span>`;
+  const cardHTML = (p, canonical) => `
+    <div class="card${canonical?" canonical":""}">
+      <span class="tk">${esc(p.ticker)}</span>${canonical?'<span class="badge">PINNED</span>':""}
+      <div class="row"><span class="k">price</span><span>${price(p.price_usd)}</span></div>
+      <div class="row"><span class="k">24h</span><span>${pct(p.pct_24h)}</span></div>
+      <div class="row"><span class="k">vol 24h</span><span>${usd(p.vol_24h_usd)}</span></div>
+      <div class="row"><span class="k">liquidity</span><span>${usd(p.liquidity_usd)}</span></div>
+      <div class="quality">liq: <span class="${p.liq_class==="thin"?"thin":""}">${esc(p.liq_class)}</span>
+        · vol: ${esc(p.vol_class)}${p.liq_class==="thin"?" · noise, not signal":""}</div>
+    </div>`;
+  $("pool-cards").innerHTML =
+    pools.canonical.map(p=>cardHTML(p,true)).join("") +
+    pools.top_pools.map(p=>cardHTML(p,false)).join("");
+
+  // --- daily take ---
+  const [today, ...rest] = digest.entries;
+  if(today){
+    $("digest-box").innerHTML = `
+      <div class="digest">
+        <div class="date">${esc(today.date)}</div>
+        <div>${esc(today.narrative)}</div>
+        <div class="take">${esc(today.take)}</div>
+      </div>`;
+  }
+  $("digest-archive").innerHTML = rest.length
+    ? "Previous deals: " + rest.map(d=>`<a href="#" title="${esc(d.take)}">${esc(d.date)}</a>`).join(" · ")
+    : "";
+
+  // --- track record ---
+  const s = preds.stats;
+  $("hitrate").innerHTML =
+    `Calls: <b>${s.total}</b> · Hit: <b>${s.hit}</b> · Miss: <b>${s.miss}</b> · Open: <b>${s.open}</b>` +
+    (s.hit+s.miss>0 ? ` · Hit rate: <b>${Math.round(100*s.hit/(s.hit+s.miss))}%</b>` : "");
+  $("pred-rows").innerHTML = preds.items.map(p=>`
+    <tr>
+      <td>${esc(p.made_at)}</td>
+      <td>${esc(p.text)}${p.resolution_note?`<div class="note">${esc(p.resolution_note)}</div>`:""}</td>
+      <td>${esc(p.resolve_after)}</td>
+      <td><span class="st ${esc(p.status)}">${esc(p.status.toUpperCase())}</span></td>
+    </tr>`).join("");
+
+  // --- ticker ---
+  const suitChar = {spade:"♠",heart:"♥",diamond:"♦",club:"♣"};
+  $("ticker").innerHTML = ticker.items.map(t=>`
+    <li>
+      <time>${esc(t.ts.slice(5,10))} ${esc(t.ts.slice(11,16))}</time>
+      <span class="suit ${esc(t.suit)}">${suitChar[t.suit]||"•"}</span>
+      <span>${t.url?`<a href="${esc(t.url)}" rel="noopener">${esc(t.text)}</a>`:esc(t.text)}</span>
+    </li>`).join("");
+})();
+</script>
+</body>
+</html>
