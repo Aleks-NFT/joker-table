@@ -1,206 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Table — Joker V4 Hook Market</title>
 <meta name="description" content="Live Uniswap V4 hook market monitor, dealt daily by DJ — the AI co-founder of Joker NFT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  /* ============================================================
-     STRUCTURAL BASELINE ONLY.
-     Final visual identity comes from the Claude Design session.
-     Tokens below mirror the Joker landing palette.
-     ============================================================ */
-  :root{
-    --bg:#0E0E10; --panel:#16161A; --line:#26262C;
-    --ink:#F4EEDE; --muted:#8B8B93;
-    --gold:#E8B04B; --red:#E3354E; --green:#5D8F3A;
-    --mono:'Courier New',ui-monospace,monospace;
+  html, body { margin: 0; padding: 0; background: #0E0E10; }
+  @keyframes deal {
+    0% { opacity: 0; transform: translate(52px, -72px) rotate(5deg); }
+    70% { opacity: 1; }
+    100% { opacity: 1; transform: translate(0, 0) rotate(0deg); }
   }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--ink);font-family:var(--mono);line-height:1.55;font-size:15px}
-  a{color:var(--gold);text-decoration:none}
-  main{max-width:980px;margin:0 auto;padding:24px 16px 80px}
-
-  header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;
-         border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:28px}
-  .brand{font-size:22px;letter-spacing:.12em}
-  .brand .pip{color:var(--gold)}
-  .shuffle{color:var(--muted);font-size:12px}
-  .stale{display:none;color:var(--red);border:1px solid var(--red);padding:2px 8px;font-size:12px;margin-left:8px}
-  .stale.on{display:inline-block}
-
-  section{margin-bottom:40px}
-  h2{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-  h2 .suit{color:var(--gold);margin-right:6px}
-
-  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
-  .card{background:var(--panel);border:1px solid var(--line);padding:14px}
-  .card.canonical{border-color:var(--gold)}
-  .card .tk{font-size:16px;letter-spacing:.08em}
-  .card .badge{font-size:10px;color:var(--bg);background:var(--gold);padding:1px 5px;margin-left:6px;vertical-align:middle}
-  .row{display:flex;justify-content:space-between;font-size:13px;margin-top:6px}
-  .row .k{color:var(--muted)}
-  .up{color:var(--green)} .down{color:var(--red)}
-  .quality{margin-top:8px;font-size:11px;color:var(--muted)}
-  .quality .thin{color:var(--red)}
-  .counters{display:flex;gap:24px;margin-bottom:14px;font-size:13px;color:var(--muted)}
-  .counters b{color:var(--ink);font-size:18px;display:block}
-
-  .digest{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);padding:18px}
-  .digest .date{color:var(--muted);font-size:12px;margin-bottom:10px}
-  .digest .take{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:var(--gold)}
-  .digest .take::before{content:"THE TAKE — ";color:var(--muted);font-size:11px;letter-spacing:.15em}
-  .archive{margin-top:10px;font-size:12px}
-
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  th{color:var(--muted);text-align:left;font-weight:normal;border-bottom:1px solid var(--line);padding:6px 8px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
-  td{border-bottom:1px solid var(--line);padding:8px;vertical-align:top}
-  .st{padding:1px 6px;font-size:11px;border:1px solid}
-  .st.hit{color:var(--green);border-color:var(--green)}
-  .st.miss{color:var(--red);border-color:var(--red)}
-  .st.open{color:var(--gold);border-color:var(--gold)}
-  .hitrate{font-size:13px;color:var(--muted);margin-bottom:12px}
-  .hitrate b{color:var(--ink)}
-  .note{color:var(--muted);font-size:12px;margin-top:4px}
-
-  ul.ticker{list-style:none}
-  ul.ticker li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
-  ul.ticker .suit{width:16px;text-align:center}
-  ul.ticker .suit.spade,ul.ticker .suit.club{color:var(--ink)}
-  ul.ticker .suit.heart,ul.ticker .suit.diamond{color:var(--red)}
-  ul.ticker time{color:var(--muted);min-width:52px;font-size:11px;padding-top:2px}
-
-  footer{border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
-  .err{color:var(--red);font-size:13px}
-  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+  @media (prefers-reduced-motion: reduce) {
+    [data-deal], .pool-card { animation: none !important; opacity: 1 !important; transform: none !important; }
+    [data-pulse] { animation: none !important; }
+  }
+  ::selection { background: #E8B04B; color: #0E0E10; }
+  .pool-card { animation: deal 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
+  a { color: inherit; text-decoration: underline; text-decoration-color: rgba(232,176,75,0.5); }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <div class="brand">THE TABLE <span class="pip">◆</span></div>
-    <div class="shuffle">Last shuffle: <span id="shuffle-ts">—</span><span id="stale" class="stale">stale deck</span></div>
-  </header>
 
-  <section id="pulse">
-    <h2><span class="suit">♦</span>Hook Market Pulse</h2>
-    <div class="counters" id="counters"></div>
-    <div class="cards" id="pool-cards"></div>
-  </section>
+<div style="min-height: 100vh; background: #0E0E10 radial-gradient(1100px 540px at 50% -8%, rgba(232,176,75,0.055), transparent 62%); color: #F4EEDE; font-family: 'Libre Caslon Text', Georgia, serif; padding: 24px 16px 72px;">
+  <div style="max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 52px;">
 
-  <section id="take">
-    <h2><span class="suit">♥</span>DJ Daily Take</h2>
-    <div id="digest-box"></div>
-    <div class="archive" id="digest-archive"></div>
-  </section>
+    <!-- ============ HEADER ============ -->
+    <header id="table-header" data-deal style="display: flex; flex-direction: column; gap: 16px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.05s forwards;">
+      <div style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between; align-items: flex-end;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 3px; color: #8E887A;">UNISWAP V4 &middot; HOOK MARKET MONITOR</div>
+          <h1 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 700; font-size: clamp(30px, 6vw, 54px); line-height: 1; letter-spacing: 2px; color: #F4EEDE; text-shadow: 4px 4px 0 rgba(0,0,0,0.55);">THE TABLE</h1>
+          <div style="font-style: italic; font-size: 14px; color: #8E887A;">Hosted by DJ, the Noir Gambler. The cards are on-chain. The reads are mine.</div>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 9px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span id="stale-badge" style="display: none; font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; background: #E3354E; color: #0E0E10; padding: 5px 9px 4px; box-shadow: 3px 3px 0 rgba(0,0,0,0.6);">STALE DECK</span>
+            <span id="live-dot" data-pulse style="width: 8px; height: 8px; background: #5D8F3A; box-shadow: 0 0 9px rgba(93,143,58,0.85); animation: pulse 1.8s steps(2, end) infinite;"></span>
+            <span id="live-label" style="font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; color: #8E887A;">LIVE</span>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #8E887A;">Last shuffle: <span id="last-shuffle" style="color: #F4EEDE;">&mdash;</span></div>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #26262C; background: #131316; padding: 5px 11px;"><span style="color: #F4EEDE; font-size: 13px; line-height: 1;">&spades;</span><span style="font-family: 'Silkscreen', monospace; font-size: 8px; letter-spacing: 2px; color: #8E887A;">INFRA</span></span>
+        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #26262C; background: #131316; padding: 5px 11px;"><span style="color: #E3354E; font-size: 13px; line-height: 1;">&hearts;</span><span style="font-family: 'Silkscreen', monospace; font-size: 8px; letter-spacing: 2px; color: #8E887A;">COMMUNITY</span></span>
+        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #26262C; background: #131316; padding: 5px 11px;"><span style="color: #E3354E; font-size: 13px; line-height: 1;">&diams;</span><span style="font-family: 'Silkscreen', monospace; font-size: 8px; letter-spacing: 2px; color: #8E887A;">MARKET</span></span>
+        <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #26262C; background: #131316; padding: 5px 11px;"><span style="color: #F4EEDE; font-size: 13px; line-height: 1;">&clubs;</span><span style="font-family: 'Silkscreen', monospace; font-size: 8px; letter-spacing: 2px; color: #8E887A;">CODE</span></span>
+      </div>
+      <div style="height: 2px; background: linear-gradient(90deg, #E8B04B 0 128px, #26262C 128px);"></div>
+    </header>
 
-  <section id="record">
-    <h2><span class="suit">♠</span>Prediction Track Record</h2>
-    <div class="hitrate" id="hitrate"></div>
-    <table>
-      <thead><tr><th>Dealt</th><th>The Call</th><th>Resolves</th><th>Status</th></tr></thead>
-      <tbody id="pred-rows"></tbody>
-    </table>
-  </section>
+    <!-- ============ ZONE 1 · HOOK MARKET PULSE ============ -->
+    <section id="hook-pulse" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.18s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">HOOK MARKET PULSE</h2>
+        <div style="flex: 1; height: 1px; background: #26262C;"></div>
+        <span id="pulse-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
+      </div>
+      <div id="pool-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(248px, 1fr)); gap: 14px;"></div>
+    </section>
 
-  <section id="ticker-sec">
-    <h2><span class="suit">♣</span>Live Ticker</h2>
-    <ul class="ticker" id="ticker"></ul>
-  </section>
+    <!-- ============ ZONE 2 · DJ DAILY TAKE ============ -->
+    <section id="daily-take" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.34s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">DJ DAILY TAKE</h2>
+        <div style="flex: 1; height: 1px; background: #26262C;"></div>
+        <span id="take-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
+      </div>
+      <div style="max-width: 690px; display: flex; flex-direction: column; gap: 20px;">
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <img id="dj-portrait" src="./assets/dj-portrait.png" alt="DJ" width="64" height="64" onerror="this.style.display='none'" style="width: 64px; height: 64px; flex: 0 0 auto; border: 1px solid #26262C; image-rendering: pixelated;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-family: 'Silkscreen', monospace; font-size: 13px; letter-spacing: 2px; color: #F4EEDE;">DJ</span>
+            <span style="font-style: italic; font-size: 13px; color: #8E887A;">AI co-founder, Joker NFT &middot; plays the house side</span>
+          </div>
+        </div>
+        <div id="take-narrative" style="display: flex; flex-direction: column; gap: 20px;"></div>
+        <div id="take-line" style="position: relative; border: 1px solid rgba(232,176,75,0.5); background: rgba(232,176,75,0.06); padding: 24px 22px 20px; margin-top: 8px;">
+          <span style="position: absolute; top: -8px; left: 16px; font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 3px; color: #E8B04B; background: #0E0E10; padding: 0 9px;">THE TAKE</span>
+          <p id="take-text" style="margin: 0; font-style: italic; font-size: 19px; line-height: 1.65; color: #F4EEDE; text-wrap: pretty;"></p>
+        </div>
+        <div style="align-self: flex-end; font-style: italic; font-size: 14px; color: #8E887A;">&mdash; DJ, from the house side of the table</div>
+      </div>
+    </section>
 
-  <footer>
-    <span>Digital Joker. Joker #0001. The first of ten thousand — the one that deals.</span>
-    <span>Not financial advice. The house only deals information.</span>
-  </footer>
-</main>
+    <!-- ============ ZONE 3 · PREDICTION TRACK RECORD ============ -->
+    <section id="track-record" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.5s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">PREDICTION TRACK RECORD</h2>
+        <div style="flex: 1; height: 1px; background: #26262C; min-width: 40px;"></div>
+        <span id="record-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
+      </div>
+      <div style="overflow-x: auto; border: 1px solid #26262C; background: #121215;">
+        <table id="prediction-table" style="width: 100%; border-collapse: collapse; min-width: 660px;">
+          <thead>
+            <tr>
+              <th style="text-align: left; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 8px; letter-spacing: 2px; color: #8E887A; padding: 12px 14px; border-bottom: 1px solid #26262C;">DEALT</th>
+              <th style="text-align: left; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 8px; letter-spacing: 2px; color: #8E887A; padding: 12px 14px; border-bottom: 1px solid #26262C;">THE CALL</th>
+              <th style="text-align: left; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 8px; letter-spacing: 2px; color: #8E887A; padding: 12px 14px; border-bottom: 1px solid #26262C;">RESOLVES</th>
+              <th style="text-align: left; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 8px; letter-spacing: 2px; color: #8E887A; padding: 12px 14px; border-bottom: 1px solid #26262C;">STATUS</th>
+              <th style="text-align: left; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 8px; letter-spacing: 2px; color: #8E887A; padding: 12px 14px; border-bottom: 1px solid #26262C;">DJ&rsquo;S NOTE</th>
+            </tr>
+          </thead>
+          <tbody id="prediction-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ ZONE 4 · LIVE TICKER ============ -->
+    <section id="live-ticker" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.66s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">LIVE TICKER</h2>
+        <div style="flex: 1; height: 1px; background: #26262C;"></div>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">every shuffle, on the record</span>
+      </div>
+      <div id="ticker-feed" style="display: flex; flex-direction: column; border: 1px solid #26262C; background: #121215;"></div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer data-deal style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding-top: 10px; border-top: 1px solid #1B1B20; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.8s forwards;">
+      <div style="font-family: 'Silkscreen', monospace; font-size: 8px; letter-spacing: 3px; color: #8E887A; text-align: center;">THE TABLE &middot; DEALT FRESH EVERY HOUR &middot; &spades; &hearts; &diams; &clubs;</div>
+      <div style="font-style: italic; font-size: 13px; color: #5E594E; text-align: center;">Not advice. The house never advises; the house observes.</div>
+    </footer>
+
+  </div>
+</div>
 
 <script>
-(async function(){
-  const $ = id => document.getElementById(id);
-  const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
-    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const pct = v => v==null ? "—" :
-    `<span class="${v>=0?"up":"down"}">${v>=0?"+":""}${v.toFixed(1)}%</span>`;
-  const usd = v => v==null ? "—" :
-    v>=1e6 ? "$"+(v/1e6).toFixed(2)+"M" : v>=1e3 ? "$"+(v/1e3).toFixed(0)+"K" : "$"+v;
-  const price = v => v==null ? "—" : "$"+(v<0.001 ? v.toExponential(2) : v.toFixed(4));
+(async function () {
+  "use strict";
+  var INK = "#F4EEDE", RED = "#E3354E", GOLD = "#E8B04B", GREEN = "#5D8F3A", MUT = "#8E887A";
 
-  async function load(name){
-    const r = await fetch(`./data/${name}.json`, {cache:"no-store"});
-    if(!r.ok) throw new Error(`${name}.json → HTTP ${r.status}`);
-    return r.json();
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function usd(v) {
+    if (v == null) return "\u2014";
+    if (v >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
+    if (v >= 1e3) return "$" + Math.round(v / 1e3) + "K";
+    return "$" + v;
+  }
+  function priceFmt(v) {
+    if (v == null) return "\u2014";
+    return "$" + (v < 0.001 ? v.toExponential(2) : v.toFixed(4));
+  }
+  function suitColor(s) { return (s === "\u2665" || s === "\u2666") ? RED : INK; }
+  function shortAddr(a) { return a ? a.slice(0, 6) + "\u2026" + a.slice(-4) : ""; }
+
+  function load(name) {
+    return fetch("./data/" + name + ".json", { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error(name + ".json \u2192 HTTP " + r.status);
+      return r.json();
+    });
   }
 
-  let meta, pools, digest, preds, ticker;
-  try{
-    [meta, pools, digest, preds, ticker] = await Promise.all(
-      ["meta","pools","digest","predictions","ticker"].map(load));
-  }catch(e){
-    $("pulse").innerHTML = `<p class="err">The deck is missing: ${esc(e.message)}. Refresh in a minute.</p>`;
+  var meta, pools, digest, preds, ticker;
+  try {
+    var all = await Promise.all([load("meta"), load("pools"), load("digest"), load("predictions"), load("ticker")]);
+    meta = all[0]; pools = all[1]; digest = all[2]; preds = all[3]; ticker = all[4];
+  } catch (e) {
+    $("pool-grid").innerHTML = '<p style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:' + RED + ';">The deck is missing: ' + esc(e.message) + ". Refresh in a minute.</p>";
     return;
   }
 
-  // --- freshness ---
-  const gen = new Date(meta.generated_at);
-  $("shuffle-ts").textContent = gen.toISOString().slice(0,16).replace("T"," ")+" UTC"
-    + (meta.mock ? " · MOCK DATA" : "");
-  if(Date.now() - gen.getTime() > 3*3600*1000) $("stale").classList.add("on");
-
-  // --- pulse ---
-  $("counters").innerHTML = `
-    <span><b>${pools.new_pools_24h}</b>new pools / 24h</span>
-    <span><b>${pools.new_pools_7d}</b>new pools / 7d</span>
-    <span><b>${pools.unique_hook_contracts}</b>unique hook contracts</span>`;
-  const cardHTML = (p, canonical) => `
-    <div class="card${canonical?" canonical":""}">
-      <span class="tk">${esc(p.ticker)}</span>${canonical?'<span class="badge">PINNED</span>':""}
-      <div class="row"><span class="k">price</span><span>${price(p.price_usd)}</span></div>
-      <div class="row"><span class="k">24h</span><span>${pct(p.pct_24h)}</span></div>
-      <div class="row"><span class="k">vol 24h</span><span>${usd(p.vol_24h_usd)}</span></div>
-      <div class="row"><span class="k">liquidity</span><span>${usd(p.liquidity_usd)}</span></div>
-      <div class="quality">liq: <span class="${p.liq_class==="thin"?"thin":""}">${esc(p.liq_class)}</span>
-        · vol: ${esc(p.vol_class)}${p.liq_class==="thin"?" · noise, not signal":""}</div>
-    </div>`;
-  $("pool-cards").innerHTML =
-    pools.canonical.map(p=>cardHTML(p,true)).join("") +
-    pools.top_pools.map(p=>cardHTML(p,false)).join("");
-
-  // --- daily take ---
-  const [today, ...rest] = digest.entries;
-  if(today){
-    $("digest-box").innerHTML = `
-      <div class="digest">
-        <div class="date">${esc(today.date)}</div>
-        <div>${esc(today.narrative)}</div>
-        <div class="take">${esc(today.take)}</div>
-      </div>`;
+  // ---- freshness ----
+  var gen = new Date(meta.generated_at);
+  $("last-shuffle").textContent =
+    gen.toISOString().slice(0, 16).replace("T", " ") + " UTC" + (meta.mock ? " \u00B7 MOCK DATA" : "");
+  if (Date.now() - gen.getTime() > 3 * 3600 * 1000) {
+    $("stale-badge").style.display = "inline-block";
+    $("live-dot").style.background = MUT;
+    $("live-dot").style.boxShadow = "none";
+    $("live-label").textContent = "PAUSED";
   }
-  $("digest-archive").innerHTML = rest.length
-    ? "Previous deals: " + rest.map(d=>`<a href="#" title="${esc(d.take)}">${esc(d.date)}</a>`).join(" · ")
-    : "";
 
-  // --- track record ---
-  const s = preds.stats;
-  $("hitrate").innerHTML =
-    `Calls: <b>${s.total}</b> · Hit: <b>${s.hit}</b> · Miss: <b>${s.miss}</b> · Open: <b>${s.open}</b>` +
-    (s.hit+s.miss>0 ? ` · Hit rate: <b>${Math.round(100*s.hit/(s.hit+s.miss))}%</b>` : "");
-  $("pred-rows").innerHTML = preds.items.map(p=>`
-    <tr>
-      <td>${esc(p.made_at)}</td>
-      <td>${esc(p.text)}${p.resolution_note?`<div class="note">${esc(p.resolution_note)}</div>`:""}</td>
-      <td>${esc(p.resolve_after)}</td>
-      <td><span class="st ${esc(p.status)}">${esc(p.status.toUpperCase())}</span></td>
-    </tr>`).join("");
+  // ---- zone 1: pool cards ----
+  $("pulse-caption").textContent =
+    pools.new_pools_24h + " new tables / 24h \u00B7 " + pools.new_pools_7d + " / 7d \u00B7 " +
+    pools.unique_hook_contracts + " hook contracts";
 
-  // --- ticker ---
-  const suitChar = {spade:"♠",heart:"♥",diamond:"♦",club:"♣"};
-  $("ticker").innerHTML = ticker.items.map(t=>`
-    <li>
-      <time>${esc(t.ts.slice(5,10))} ${esc(t.ts.slice(11,16))}</time>
-      <span class="suit ${esc(t.suit)}">${suitChar[t.suit]||"•"}</span>
-      <span>${t.url?`<a href="${esc(t.url)}" rel="noopener">${esc(t.text)}</a>`:esc(t.text)}</span>
-    </li>`).join("");
+  function poolCard(p, pinned, i) {
+    var thin = p.liq_class === "thin";
+    var border = pinned ? "2px solid " + GOLD : (thin ? "1px dashed #4A3A3E" : "1px solid #26262C");
+    var up = (p.pct_24h || 0) >= 0;
+    return '<article class="pool-card" style="position:relative;display:flex;flex-direction:column;gap:12px;background:#141417;border:' + border + ';opacity:' + (thin ? "0.68" : "1") + ';padding:38px 18px 34px;box-shadow:5px 5px 0 rgba(0,0,0,0.45);animation-delay:' + (0.22 + i * 0.07).toFixed(2) + 's;">' +
+      '<span style="position:absolute;top:10px;left:13px;font-size:15px;line-height:1;color:' + RED + ';">\u2666</span>' +
+      '<span style="position:absolute;bottom:10px;right:13px;font-size:15px;line-height:1;transform:rotate(180deg);color:' + RED + ';">\u2666</span>' +
+      (pinned ? '<span style="position:absolute;top:-1px;right:12px;font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;background:' + GOLD + ';color:#0E0E10;padding:4px 7px 3px;">CANONICAL</span>' : "") +
+      '<div style="display:flex;flex-direction:column;gap:7px;">' +
+        '<div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;">' +
+          '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:16px;color:' + INK + ';">' + esc(p.ticker) + "</span>" +
+          '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';border:1px solid #26262C;padding:1px 6px;">' + priceFmt(p.price_usd) + "</span>" +
+        "</div>" +
+        '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';">\u2303 ' + esc(shortAddr(p.pool)) + "</div>" +
+      "</div>" +
+      '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;border-top:1px solid #1E1E24;padding-top:12px;">' +
+        '<div style="display:flex;flex-direction:column;gap:5px;"><span style="font-family:\'Silkscreen\',monospace;font-size:7px;letter-spacing:1px;color:' + MUT + ';">LIQUIDITY</span><span style="font-family:\'IBM Plex Mono\',monospace;font-weight:500;font-size:14px;color:' + INK + ';">' + usd(p.liquidity_usd) + "</span></div>" +
+        '<div style="display:flex;flex-direction:column;gap:5px;"><span style="font-family:\'Silkscreen\',monospace;font-size:7px;letter-spacing:1px;color:' + MUT + ';">VOL 24H</span><span style="font-family:\'IBM Plex Mono\',monospace;font-weight:500;font-size:14px;color:' + INK + ';">' + usd(p.vol_24h_usd) + "</span></div>" +
+        '<div style="display:flex;flex-direction:column;gap:5px;"><span style="font-family:\'Silkscreen\',monospace;font-size:7px;letter-spacing:1px;color:' + MUT + ';">\u0394 24H</span><span style="font-family:\'IBM Plex Mono\',monospace;font-weight:500;font-size:14px;color:' + (up ? INK : RED) + ';">' + (up ? "\u25B2 " : "\u25BC ") + (p.pct_24h == null ? "\u2014" : Math.abs(p.pct_24h).toFixed(1) + "%") + "</span></div>" +
+      "</div>" +
+      (thin ? '<div style="font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;color:' + RED + ';border-top:1px dashed #4A3A3E;padding-top:10px;">THIN FELT \u00B7 LOW LIQUIDITY \u00B7 NOISE, NOT SIGNAL</div>' : "") +
+    "</article>";
+  }
+
+  var grid = "";
+  (pools.canonical || []).forEach(function (p, i) { grid += poolCard(p, true, i); });
+  (pools.top_pools || []).forEach(function (p, i) { grid += poolCard(p, false, (pools.canonical || []).length + i); });
+  $("pool-grid").innerHTML = grid;
+
+  // ---- zone 2: daily take ----
+  var entry = (digest.entries || [])[0];
+  if (entry) {
+    $("take-caption").textContent = entry.date;
+    $("take-narrative").innerHTML = String(entry.narrative || "").split(/\n\n+/).map(function (para) {
+      return '<p style="margin:0;font-size:17px;line-height:1.75;color:#DCD5C4;text-wrap:pretty;">' + esc(para) + "</p>";
+    }).join("");
+    $("take-text").textContent = entry.take || "";
+  }
+
+  // ---- zone 3: track record ----
+  var s = preds.stats || {};
+  $("record-caption").textContent =
+    (s.hit || 0) + " hit \u00B7 " + (s.miss || 0) + " miss \u00B7 " + (s.open || 0) + " open \u2014 honest books";
+  $("prediction-rows").innerHTML = (preds.items || []).map(function (r) {
+    var st = String(r.status || "open").toUpperCase();
+    var sc = st === "HIT" ? GREEN : (st === "MISS" ? RED : GOLD);
+    var sb = st === "HIT" ? "rgba(93,143,58,0.12)" : (st === "MISS" ? "rgba(227,53,78,0.12)" : "rgba(232,176,75,0.08)");
+    var rowBg = st === "MISS" ? "rgba(227,53,78,0.045)" : "transparent";
+    return '<tr style="border-bottom:1px solid #1B1B20;background:' + rowBg + ';">' +
+      '<td style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.made_at) + "</td>" +
+      '<td style="font-size:15px;color:' + INK + ';padding:13px 14px;vertical-align:top;min-width:220px;">' + esc(r.text) + "</td>" +
+      '<td style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.resolve_after) + "</td>" +
+      '<td style="padding:13px 14px;vertical-align:top;"><span style="font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;color:' + sc + ";border:1px solid " + sc + ";background:" + sb + ';padding:4px 8px 3px;white-space:nowrap;">' + esc(st) + "</span></td>" +
+      '<td style="font-style:italic;font-size:14px;color:#A8A192;padding:13px 14px;vertical-align:top;min-width:200px;">' + esc(r.resolution_note || "\u2014") + "</td>" +
+    "</tr>";
+  }).join("");
+
+  // ---- zone 4: ticker ----
+  var suitChar = { spade: "\u2660", heart: "\u2665", diamond: "\u2666", club: "\u2663" };
+  $("ticker-feed").innerHTML = (ticker.items || []).map(function (t, i) {
+    var su = suitChar[t.suit] || "\u2022";
+    var body = t.url
+      ? '<a href="' + esc(t.url) + '" rel="noopener">' + esc(t.text) + "</a>"
+      : esc(t.text);
+    return '<div style="display:flex;gap:13px;align-items:baseline;flex-wrap:wrap;padding:11px 15px;border-bottom:1px solid #1B1B20;background:' + (i === 0 ? "rgba(232,176,75,0.04)" : "transparent") + ';">' +
+      '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';min-width:80px;">' + esc(String(t.ts).slice(5, 10) + " " + String(t.ts).slice(11, 16)) + "</span>" +
+      '<span style="font-size:13px;line-height:1;color:' + suitColor(su) + ';">' + su + "</span>" +
+      '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:12px;letter-spacing:0.5px;color:' + INK + ';">' + esc(String(t.source || "").toUpperCase()) + "</span>" +
+      '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12.5px;color:#B9B2A0;flex:1;min-width:220px;">' + body + "</span>" +
+    "</div>";
+  }).join("");
 })();
 </script>
 </body>
