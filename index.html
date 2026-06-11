@@ -43,6 +43,9 @@
             <span id="stale-badge" style="display: none; font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; background: #E3354E; color: #0E0E10; padding: 5px 9px 4px; box-shadow: 3px 3px 0 rgba(0,0,0,0.6);">STALE DECK</span>
             <span id="live-dot" data-pulse style="width: 8px; height: 8px; background: #5D8F3A; box-shadow: 0 0 9px rgba(93,143,58,0.85); animation: pulse 1.8s steps(2, end) infinite;"></span>
             <span id="live-label" style="font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; color: #8E887A;">LIVE</span>
+            <span style="width: 1px; height: 14px; background: #26262C; margin: 0 2px;"></span>
+            <button id="lang-en" style="font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; background: none; border: 1px solid #26262C; color: #E8B04B; padding: 4px 8px 3px; cursor: pointer;">EN</button>
+            <button id="lang-zh" style="font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; background: none; border: 1px solid #26262C; color: #8E887A; padding: 4px 8px 3px; cursor: pointer;">中文</button>
           </div>
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #8E887A;">Last shuffle: <span id="last-shuffle" style="color: #F4EEDE;">&mdash;</span></div>
         </div>
@@ -201,7 +204,7 @@
           '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:16px;color:' + INK + ';">' + esc(p.ticker) + "</span>" +
           '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';border:1px solid #26262C;padding:1px 6px;">' + priceFmt(p.price_usd) + "</span>" +
         "</div>" +
-        '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';">\u2303 ' + esc(shortAddr(p.pool)) + "</div>" +
+        (p.pool ? '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';">\u2303 ' + esc(shortAddr(p.pool)) + "</div>" : "") +
       "</div>" +
       '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;border-top:1px solid #1E1E24;padding-top:12px;">' +
         '<div style="display:flex;flex-direction:column;gap:5px;"><span style="font-family:\'Silkscreen\',monospace;font-size:7px;letter-spacing:1px;color:' + MUT + ';">LIQUIDITY</span><span style="font-family:\'IBM Plex Mono\',monospace;font-weight:500;font-size:14px;color:' + INK + ';">' + usd(p.liquidity_usd) + "</span></div>" +
@@ -217,15 +220,51 @@
   (pools.top_pools || []).forEach(function (p, i) { grid += poolCard(p, false, (pools.canonical || []).length + i); });
   $("pool-grid").innerHTML = grid;
 
-  // ---- zone 2: daily take ----
-  var entry = (digest.entries || [])[0];
-  if (entry) {
+  // ---- zone 2: daily take (bilingual: chrome stays EN, DJ voice switches) ----
+  var LANG = "en";
+  try { if (localStorage.getItem("dj_lang") === "zh") LANG = "zh"; } catch (e) {}
+
+  function pick(field) {
+    if (!field) return "";
+    if (typeof field === "string") return field;
+    return field[LANG] || field.en || "";
+  }
+
+  function renderTake() {
+    var entry = (digest.entries || [])[0];
+    if (!entry) return;
     $("take-caption").textContent = entry.date;
-    $("take-narrative").innerHTML = String(entry.narrative || "").split(/\n\n+/).map(function (para) {
+    var narrative = pick(entry.narrative);
+    $("take-narrative").innerHTML = String(narrative).split(/\n\n+/).map(function (para) {
       return '<p style="margin:0;font-size:17px;line-height:1.75;color:#DCD5C4;text-wrap:pretty;">' + esc(para) + "</p>";
     }).join("");
-    $("take-text").textContent = entry.take || "";
+    var take = pick(entry.take);
+    if (take) {
+      $("take-line").style.display = "";
+      $("take-text").textContent = take;
+    } else {
+      $("take-line").style.display = "none";
+    }
   }
+
+  function paintLangButtons() {
+    $("lang-en").style.color = LANG === "en" ? "#E8B04B" : "#8E887A";
+    $("lang-en").style.borderColor = LANG === "en" ? "#E8B04B" : "#26262C";
+    $("lang-zh").style.color = LANG === "zh" ? "#E8B04B" : "#8E887A";
+    $("lang-zh").style.borderColor = LANG === "zh" ? "#E8B04B" : "#26262C";
+  }
+
+  function setLang(l) {
+    LANG = l;
+    try { localStorage.setItem("dj_lang", l); } catch (e) {}
+    paintLangButtons();
+    renderTake();
+  }
+  $("lang-en").onclick = function () { setLang("en"); };
+  $("lang-zh").onclick = function () { setLang("zh"); };
+
+  paintLangButtons();
+  renderTake();
 
   // ---- zone 3: track record ----
   var s = preds.stats || {};
