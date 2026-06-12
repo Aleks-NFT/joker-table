@@ -147,18 +147,29 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  function subDigits(n) {
+    var S = "\u2080\u2081\u2082\u2083\u2084\u2085\u2086\u2087\u2088\u2089";
+    return String(n).split("").map(function (d) { return S[+d]; }).join("");
+  }
+  function tinyUsd(v) {
+    var m = v.toExponential(2).split("e");
+    var zeros = -Number(m[1]) - 1;
+    if (zeros < 1) return "$" + v.toFixed(4);
+    return "$0.0" + subDigits(zeros) + m[0].replace(".", "");
+  }
   function usd(v) {
     if (v == null) return "\u2014";
     if (v >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
     if (v >= 1e3) return "$" + Math.round(v / 1e3) + "K";
     if (v >= 1) return "$" + v.toFixed(2);
     if (v >= 0.01) return "$" + v.toFixed(3);
-    if (v > 0) return "$" + v.toExponential(2);
+    if (v > 0) return tinyUsd(v);
     return "$0";
   }
   function priceFmt(v) {
     if (v == null) return "\u2014";
-    return "$" + (v < 0.001 ? v.toExponential(2) : v.toFixed(4));
+    if (v < 0.001) return tinyUsd(v);
+    return "$" + v.toFixed(4);
   }
   function suitColor(s) { return (s === "\u2665" || s === "\u2666") ? RED : INK; }
   function shortAddr(a) { return a ? a.slice(0, 6) + "\u2026" + a.slice(-4) : ""; }
