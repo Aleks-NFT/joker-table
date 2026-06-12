@@ -90,6 +90,7 @@
           <p id="take-text" style="margin: 0; font-style: italic; font-size: 19px; line-height: 1.65; color: #F4EEDE; text-wrap: pretty;"></p>
         </div>
         <div style="align-self: flex-end; font-style: italic; font-size: 14px; color: #8E887A;">&mdash; DJ, from the house side of the table</div>
+        <div id="take-archive" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px;"></div>
       </div>
     </section>
 
@@ -150,7 +151,10 @@
     if (v == null) return "\u2014";
     if (v >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
     if (v >= 1e3) return "$" + Math.round(v / 1e3) + "K";
-    return "$" + v;
+    if (v >= 1) return "$" + v.toFixed(2);
+    if (v >= 0.01) return "$" + v.toFixed(3);
+    if (v > 0) return "$" + v.toExponential(2);
+    return "$0";
   }
   function priceFmt(v) {
     if (v == null) return "\u2014";
@@ -230,10 +234,18 @@
     return field[LANG] || field.en || "";
   }
 
+  var TAKE_IDX = 0;
+  function fmtDate(d) {
+    if (LANG === "zh" && /^\d{4}-\d{2}-\d{2}$/.test(String(d))) {
+      var p = String(d).split("-");
+      return p[0] + "\u5E74" + Number(p[1]) + "\u6708" + Number(p[2]) + "\u65E5";
+    }
+    return d;
+  }
   function renderTake() {
-    var entry = (digest.entries || [])[0];
+    var entry = (digest.entries || [])[TAKE_IDX] || (digest.entries || [])[0];
     if (!entry) return;
-    $("take-caption").textContent = entry.date;
+    $("take-caption").textContent = fmtDate(entry.date);
     var narrative = pick(entry.narrative);
     $("take-narrative").innerHTML = String(narrative).split(/\n\n+/).map(function (para) {
       return '<p style="margin:0;font-size:17px;line-height:1.75;color:#DCD5C4;text-wrap:pretty;">' + esc(para) + "</p>";
@@ -263,8 +275,23 @@
   $("lang-en").onclick = function () { setLang("en"); };
   $("lang-zh").onclick = function () { setLang("zh"); };
 
+  function renderArchive() {
+    var es = digest.entries || [];
+    var host = $("take-archive");
+    if (!host) return;
+    if (es.length < 2) { host.style.display = "none"; return; }
+    host.innerHTML = es.map(function (e, i) {
+      var on = i === TAKE_IDX;
+      return '<button type="button" data-idx="' + i + '" style="cursor:pointer;font-family:\'IBM Plex Mono\',monospace;font-size:11px;letter-spacing:0.5px;padding:4px 9px;background:' + (on ? "rgba(232,176,75,0.1)" : "transparent") + ";border:1px solid " + (on ? GOLD : "#26262C") + ";color:" + (on ? GOLD : MUT) + ';">' + esc(e.date) + "</button>";
+    }).join("");
+    Array.prototype.forEach.call(host.querySelectorAll("button"), function (b) {
+      b.onclick = function () { TAKE_IDX = Number(b.getAttribute("data-idx")); renderTake(); renderArchive(); };
+    });
+  }
+
   paintLangButtons();
   renderTake();
+  renderArchive();
 
   // ---- zone 3: track record ----
   var s = preds.stats || {};
