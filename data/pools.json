@@ -1,29 +1,29 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-12T21:19:45Z",
- "new_pools_24h": 125,
- "new_pools_7d": 3584,
- "unique_hook_contracts": 1175,
+ "generated_at": "2026-06-12T22:15:13Z",
+ "new_pools_24h": 124,
+ "new_pools_7d": 3593,
+ "unique_hook_contracts": 1178,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 565.169577527068,
-   "pct_24h": 7.291,
-   "vol_24h_usd": 123363.438838065,
-   "liquidity_usd": 996888.8857,
+   "price_usd": 578.340613751254,
+   "pct_24h": 10.282,
+   "vol_24h_usd": 120435.718193481,
+   "liquidity_usd": 997448.1931,
    "liq_class": "deep",
    "vol_class": "high"
   },
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.293249091073554,
-   "pct_24h": 1.631,
-   "vol_24h_usd": 93924.3735512986,
-   "liquidity_usd": 290762.0433,
+   "price_usd": 0.296750459869218,
+   "pct_24h": 0.07,
+   "vol_24h_usd": 102341.868419322,
+   "liquidity_usd": 288083.0679,
    "liq_class": "deep",
-   "vol_class": "mid"
+   "vol_class": "high"
   },
   {
    "ticker": "UPEGSTR",
@@ -31,91 +31,10 @@
    "price_usd": 8.67202970569874e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 212.3202483033,
-   "liquidity_usd": 78194.3526,
+   "liquidity_usd": 78159.2233,
    "liq_class": "mid",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "Slonks",
-   "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
-   "price_usd": 2.911894456e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 9.2102,
-   "liq_class": "thin",
    "vol_class": "low"
   }
  ],
- "top_pools": [
-  {
-   "ticker": "HID",
-   "pool": "",
-   "price_usd": 1.4021637258496,
-   "pct_24h": -56.572,
-   "vol_24h_usd": 9274.3640393413,
-   "liquidity_usd": 27379.6033,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKS",
-   "pool": "",
-   "price_usd": 9.65580069644683e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 16.7129156978,
-   "liquidity_usd": 1381.3336,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKUVL",
-   "pool": "",
-   "price_usd": 2.40242464870948e-07,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 1.9977,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKSID",
-   "pool": "",
-   "price_usd": 4.67613866008231,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 2.659576442e-08,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOK",
-   "pool": "",
-   "price_usd": 1.63411539730345e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 7.0013,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKS.ID",
-   "pool": "",
-   "price_usd": 9.28875420136053,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 7.0136,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKRADAR",
-   "pool": "",
-   "price_usd": 2.07664976787891e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 2.8304,
-   "liq_class": "thin",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
