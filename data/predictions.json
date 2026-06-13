@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 2,
+  "total": 3,
   "hit": 0,
   "miss": 0,
-  "open": 2,
+  "open": 3,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 3,
+   "made_at": "2026-06-13",
+   "text": "Within seven days, the hook 0x1b15...aacc will deploy at least five more pools with the same pattern or a new token suffix.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-20",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 2,
    "made_at": "2026-06-12",

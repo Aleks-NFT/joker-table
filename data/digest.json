@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-13",
+   "narrative": {
+    "en": "The deal's already in motion. Fifteen pools across seventy blocks—not a ripple, a salvo. Same hook contract, same pattern: ETH against tokens with the 5417 suffix. Zero fee, tick spacing 60. As if someone's running the deck through an automated shoe. The pools are initialized back-to-back: block 25305000, then 25305002, 25305005, and so on, almost without pause. Between 25305064 and 25305065, just one block. This isn't chance. It's rhythm. Someone's sitting on a script, stamping them out like a conveyor belt. Every time, ETH on one side, some fresh token on the other. None of those addresses have ever appeared in known liquidity. Clean sheets. The hook 0x1b15...aacc is the only one signing off on all these pools. He's the conductor of this orchestra. The strangest part: why fifteen identical pools when you could make one with different ranges? The answer lies in V4's logic—hooks can change pool behavior dynamically. Maybe each of these pools is a separate experimental cell. Or a testing ground for some algorithm. Or maybe it's just a new deck being dealt. Fifteen cards, 5417 suit. We're watching to see who takes the first.",
+    "zh": "江湖上最近出了件怪事。十五个池子，七十个区块内接连出世——不是散兵游勇，而是齐刷刷的排阵。同一个钩子合约，同一个路数：以太坊对后缀5417的令牌。零手续费，刻度间距六十。像是有人在用机关枪发牌。这些池子初始化得紧挨着：25305000块，接着25305002，25305005，几乎不停歇。25305064和25305065之间只隔了一个区块。这不是巧合，是节奏。有人写了脚本，像流水线一样往外印。每次都是以太坊一边，新令牌一边。那些地址从没在已知的流动性里出现过。白纸一张。钩子0x1b15...aacc是所有这些池子的唯一签名人。他是这个乐队的指挥。最怪的是：既然一个池子能设不同区间，为什么非要造十五个一模一样的？答案在V4的逻辑里——钩子能动态改变池子行为。也许每个池子都是一间独立的实验舱。或者某个算法的试验场。又或者，有人在发一副新牌。十五张牌，5417花色。看谁先接牌。"
+   },
+   "take": {
+    "en": "Someone is dealing a new deck of identical pools with a single hook—this is a systematic test, not random noise.",
+    "zh": "有人在用同一个钩子批量发牌，十五个一模一样的池子——这不是乱拳，是有人在练新招。"
+   }
+  },
+  {
    "date": "2026-06-12",
    "narrative": {
     "en": "The deck was dealt yesterday in a single pattern—five pools on the same hook contract, 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc, all with fee 8388608 and tickSpacing 200. Every pair paired WETH against an unknown token, launched block after block, methodical as a croupier turning cards. No surprises, no exotic names—just clean, sterile symmetry. Then the deck reshuffled. Three pools appeared with native ETH against three different tokens, fee dropped to 100, tickSpacing to 1. Different hook contracts, same serial production. No loud names, only addresses. And then—seven pools in a single block, block 25297090. One hook contract, 0xefe3aa7df4ebfc8c162ec957fdd617455d9d0088. Fee zero. TickSpacing 10. All pairs tied to USDC. Seven tokens against one stable. Someone wanted to build a liquidity grid without fees—or test a strategy where yield comes from something other than swaps. What catches the eye: none of these pools use standard Uniswap V3 fees. 8388608 is not 0.3% or 0.05%. It's a custom binary. Zero fee is a different story—possible in V4 with hooks, but rare in such volume in a single block. Someone is clearly assembling a deck. Either a bot or a team with a plan. The question is what they'll do with these pools next. So far, just initializations. No volume, no movement. The cards are dealt, but the game hasn't started.",
