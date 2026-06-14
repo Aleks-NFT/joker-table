@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-14T08:15:24Z",
+ "generated_at": "2026-06-14T09:15:24Z",
  "new_pools_24h": 43,
  "new_pools_7d": 3906,
  "unique_hook_contracts": 1211,
@@ -8,10 +8,10 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 515.052417968082,
-   "pct_24h": -7.59,
-   "vol_24h_usd": 66432.0559051737,
-   "liquidity_usd": 937344.196,
+   "price_usd": 518.851461037023,
+   "pct_24h": -5.644,
+   "vol_24h_usd": 61783.2576906581,
+   "liquidity_usd": 928606.4685,
    "liq_class": "deep",
    "vol_class": "mid"
   },
@@ -21,31 +21,10 @@
    "price_usd": 8.67202970569874e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 78698.1634,
+   "liquidity_usd": 78688.5568,
    "liq_class": "mid",
    "vol_class": "low"
   }
  ],
- "top_pools": [
-  {
-   "ticker": "PRISM",
-   "pool": "",
-   "price_usd": 516.396625217099,
-   "pct_24h": 5.173,
-   "vol_24h_usd": 109949.601655513,
-   "liquidity_usd": 405101.1905,
-   "liq_class": "deep",
-   "vol_class": "high"
-  },
-  {
-   "ticker": "MKUSD",
-   "pool": "",
-   "price_usd": 0.973653244811631,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 85.2941991157,
-   "liquidity_usd": 119709.4113,
-   "liq_class": "mid",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
