@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 3,
+  "total": 4,
   "hit": 0,
   "miss": 0,
-  "open": 3,
+  "open": 4,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 4,
+   "made_at": "2026-06-14",
+   "text": "Within seven days, at least one new hook contract will be deployed on Ethereum mainnet V4 pools, likely for dynamic fee or MEV protection, as builders test the joker's power.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-21",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 3,
    "made_at": "2026-06-13",
