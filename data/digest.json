@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-15",
+   "narrative": {
+    "en": "The V4 deck is shuffled again, and nine new pools hit the felt overnight. The zero address dominates—eight of nine are tethered to ETH. Only two stable pairs, USDC/USDT, both at 1 bps fee and tickSpacing 1, but with different hooks: 0x8abdde86 and 0xa778c93f. This is no coincidence. Someone is preparing ultra-low slippage corridors for stable liquidity, and these two hooks will duel for dominance. The ETH pools span every fee tier: 100, 3000, 10000, and even one at zero fee. That zero-fee pool, 0x0d625293 with tickSpacing 200, is pure volume speculation—either a bid to capture the entire order book or a staging ground for MEV strategies where speed trumps cost. Two pools at fee 10000 and tickSpacing 200, on tokens 0x2ba419 and 0x595dec, signal institutional-grade instruments: wide spreads, high fees, likely with oracles or dynamic management. And then there's the WBTC pair at fee 10 and tickSpacing 1, 0xf671bcab—a BTC pair with microscopic spread and low fee. Someone wants ETH/WBTC to be the new benchmark. Watch that hook; if it carries dynamic fees, it could set the standard.",
+    "zh": "V4 江湖一夜之间多了九座新池，八座以 ETH 为根基，只有两座是 USDC/USDT 的稳定币池，手续费 1 bps，tickSpacing 1，但各自挂着不同的钩子——0x8abdde86 和 0xa778c93f。这不是巧合，有人在铺设极低滑落的稳定币通道，两派钩法必将争夺内力。ETH 池的手续费层级从 100 到 3000 到 10000，甚至有一座零手续费池 0x0d625293，tickSpacing 200——纯粹赌成交量，要么想吞下整个订单簿，要么为 MEV 策略铺路，速度就是一切。两座 fee 10000 且 tickSpacing 200 的池子，分别对应 0x2ba419 和 0x595dec 令牌，宽价差、高手续费，显然不是给散户准备的，这是大侠们用的重器，可能配有预言机或动态心法。最诡异的是 WBTC 池，手续费仅 10，tickSpacing 1，地址 0xf671bcab——BTC 对居然微利差低费用，有人想让 ETH/WBTC 成为新的标杆。盯着那个钩子，若它身怀动态费用，便可能改写江湖规矩。"
+   },
+   "take": {
+    "en": "The house is laying out two competing stable pools and a zero-fee ETH trap—the real play is watching which hook claims the liquidity first.",
+    "zh": "一夜之间，两座稳定币池分庭抗礼，一座零费 ETH 池暗藏杀机——接下来就看谁的钩子先吸住流动性。"
+   }
+  },
+  {
    "date": "2026-06-14",
    "narrative": {
     "en": "A new pool on V4—always that moment of stillness before the deck begins to deal. Last night, at block 25311500, someone shuffled the cards: a pair, 0x000...0000 and 0xc757...6272. The zero address is ether, a suit that needs no introduction. The second token is a dark horse, no loud name, but a contract already living on the network. The fee is set to zero. This is no mistake, no accident. In the V4 world, zero is not the absence of charge—it's an invitation. You can enter, exit, rearrange liquidity without leaving tracks at every step. TickSpacing at 200 gives a corridor narrow enough for maneuver but not for microscopic spreads. This is a bet on volume, not on speculation with a magnifying glass. The real protagonist of this deal is the hook contract: 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Hooks are the jokers in the V4 deck. They can change pool logic before, after, and during a swap. Some use them for dynamic fees, some for MEV protection, some for orders that live their own lives. Here, without additional data, one can only guess what mechanics hide behind that address. Pool ID: 0x41a52bcaebea1808282d540289b41bc5a26907600b2520d8630cd2ad14804c8b. A long hash, like a fingerprint on glass. No one knows who dealt this hand, but the fact remains: a new pair is on the felt, and the first move has been made. The rest will watch how the cards fall.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is building rails, not flipping cards — infrastructure hooks are the real edge.",
     "zh": "庄家在铺铁轨，不是在翻牌——基础设施钩子才是今天的真功夫。"
-   }
-  },
-  {
-   "date": "2026-06-01",
-   "narrative": {
-    "en": "The deck is being cut again, and I can feel the new suit sliding into play. DeFi isn't just coming back—it's already here, wearing different colors. Look at the top five hook pools on Uniswap V4 by 24-hour volume. First place: USDC/USDT at $206 million. That's not just stablecoins, that's the artery. The blood flow that never stops. And $55 million TVL isn't a number—it's proof that liquidity has found a new home on the felt. Next to it, apxUSD/USDC with $14 million volume and $21 million TVL. Some will call it small, but I see the pattern. These aren't just pools; they're a new architecture. USDT/USDS, USDe/USDT—each taking its cut, and the $427 million TVL in USDe/USDT is no joke. This isn't a penny-ante game anymore. Then there's Twitter. @lo0pio quietly but firmly declares: 'DEFI is back.' And I agree. lo0p.launch isn't just a name—it's a promise. Fair launches plus instant ETH borrowing on Uniswap V4 Hooks. That's a mechanic that rewrites the deal. And the GitHub READMEs—six repositories updated in one day. uniswap-v4-hooks, v4-template, v4-core. These aren't just commits; they're a synchronized pulse. Someone is preparing the deck for the next hand. And the quietest, maybe most important, is @sato_hub. 'I am ethereum. My vitality has already surpassed most projects.' That's not rhetoric. That's fact. While hype dies, Ethereum remains. And Uniswap V4 isn't just part of it—it's its new suit. The deck is shuffling. Watch both eyes.",
-    "zh": "这牌局又在重新洗牌了，我能感觉到新花色正悄悄滑入桌面。DeFi不是要回来了，它已经在这里，只是换了门派的衣裳。看看Uniswap V4上24小时交易量前五的hook池子。头把交椅：USDC/USDT，两亿零六百万美元。这哪是什么稳定币对，这是经脉。血流不息的经脉。五亿五千万的TVL不是数字，是内力找到了新丹田的实证。旁边的apxUSD/USDC，交易量一千四百万，TVL两千一百万。有人会说：小打小闹。但我看到的是格局。这不是池子，这是新架构。USDT/USDS、USDe/USDT——各占一席，而USDe/USDT那四亿两千七百万的TVL，已经不是玩笑了。这里没人下小注。再看江湖传言。@lo0pio 不声不响，却掷地有声：'DEFI is back。' 我信。lo0p.launch 不只是个名号，是个承诺。公平发行加上Uniswap V4 Hooks的即时ETH借贷。这套功法，能改写江湖规矩。还有GitHub上的README——一天之内，六个仓库更新。uniswap-v4-hooks、v4-template、v4-core。这不是随手提交，是同步的心跳。有人在磨刀，准备下一局。最安静也最要紧的，是 @sato_hub。'I am ethereum. My vitality has already surpassed most projects。' 这不是狂言，是实情。热潮会死，以太坊不会。Uniswap V4不只是它的一块拼图，是它的新剑法。牌在洗，眼睛睁大。"
-   },
-   "take": {
-    "en": "The house is dealing a new hand, and the smart money is already reading the cards—DeFi's pulse is in the hooks, not the hype.",
-    "zh": "江湖新令已下，真正的侠客不看热闹看内力——DeFi的命门在hook里，不在口号里。"
    }
   }
  ]

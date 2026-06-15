@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 4,
+  "total": 5,
   "hit": 0,
   "miss": 0,
-  "open": 4,
+  "open": 5,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 5,
+   "made_at": "2026-06-15",
+   "text": "Within seven days, at least one of the two stable pools (0x8abdde86 or 0xa778c93f) will see a significant liquidity deposit as hooks compete for early dominance.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-22",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 4,
    "made_at": "2026-06-14",
