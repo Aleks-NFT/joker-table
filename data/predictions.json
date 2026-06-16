@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 5,
+  "total": 6,
   "hit": 0,
   "miss": 0,
-  "open": 5,
+  "open": 6,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 6,
+   "made_at": "2026-06-16",
+   "text": "Within seven days, at least three more hook contracts will appear with custom tickSpacing below 10, mimicking the microscope pool at block 25326706.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-23",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 5,
    "made_at": "2026-06-15",

@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-16",
+   "narrative": {
+    "en": "The deck shuffles itself tonight. Fourteen new V4 pools in hours—only those the blockchain caught before midnight. One hook contract, 0x653314b5175877266fcf5f76b953e4181d262acc, takes seven consecutive deals. ETH against tokens with the same suffix 5417—serial printing, like stamping cards of the same suit. Zero fee, tickSpacing 60—standard test layout, but someone is clearly laying groundwork. Then pools with another hook, 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc, twice, blocks apart. Again zero fee, but tickSpacing 200—a wider step, meaning liquidity range is spread thinner. Then 0xab78ee9dbf7b25c060e5abb3debc948406558044 enters—this hook is its own token, its own pool. Fee zero, spacing 200. A closed system. The real play is the pool at block 25326706. Fee 999300, tickSpacing 1. This isn't a step—it's a microscope. Hook 0xdfa04b8b60bf496594a3c256512409fba5a94080 takes control down to a single tick. Someone means to catch every price movement. These settings aren't for volume; they're for control. And the final chord: a pool with fee 3000 and its own hook 0x8329e7dd9454818828f1d77adef42cb0277d84c0. Same pattern: token becomes hook, hook becomes pool. Referee and player in one. No loud names, no memes. Only cold pool assembly, where each chooses the tool for the task. Some test, some print, some set an ambush. The deck is full, and every move is a bet.",
+    "zh": "夜深了，牌局自己洗牌。几个小时内冒出十四个V4池子——这只是区块链在午夜前捕捉到的。一个钩子合约，0x653314b5175877266fcf5f76b953e4181d262acc，连吃七把。ETH对上同一后缀5417的代币——批量印刷，像印同一花色的牌。零手续费，tick间距60——标准测试布局，但有人在铺路。接着另一个钩子，0x627fa6f76fa96b10bae1b6fba280a3c9264500cc，隔几个区块出现两次。还是零费，但间距200——步幅更大，流动性范围铺得更薄。然后0xab78ee9dbf7b25c060e5abb3debc948406558044入场——这个钩子自己就是代币，自己就是池子。零费，间距200。封闭系统。最妙的是区块25326706上的池子。手续费999300，tick间距1。这不是步长——是显微镜。钩子0xdfa04b8b60bf496594a3c256512409fba5a94080控制到单个tick。有人要捕捉每一次价格波动。这种设置不为量，而为控。最后一曲：手续费3000的池子，自带钩子0x8329e7dd9454818828f1d77adef42cb0277d84c0。老套路：代币变钩子，钩子变池子。自己当裁判，自己当玩家。没有响亮的名字，没有meme。只有冰冷的池子组装，每个人选自己的工具。有人在测试，有人在批量生产，有人在设伏。牌堆已满，每一步都是赌注。"
+   },
+   "take": {
+    "en": "The house is not dealing cards tonight—it's minting new decks, each with its own rules, and the players are becoming the game.",
+    "zh": "庄家今晚发的不是牌，是新的牌桌——每张桌子有自己的规矩，而玩家正在变成游戏本身。"
+   }
+  },
+  {
    "date": "2026-06-15",
    "narrative": {
     "en": "The V4 deck is shuffled again, and nine new pools hit the felt overnight. The zero address dominates—eight of nine are tethered to ETH. Only two stable pairs, USDC/USDT, both at 1 bps fee and tickSpacing 1, but with different hooks: 0x8abdde86 and 0xa778c93f. This is no coincidence. Someone is preparing ultra-low slippage corridors for stable liquidity, and these two hooks will duel for dominance. The ETH pools span every fee tier: 100, 3000, 10000, and even one at zero fee. That zero-fee pool, 0x0d625293 with tickSpacing 200, is pure volume speculation—either a bid to capture the entire order book or a staging ground for MEV strategies where speed trumps cost. Two pools at fee 10000 and tickSpacing 200, on tokens 0x2ba419 and 0x595dec, signal institutional-grade instruments: wide spreads, high fees, likely with oracles or dynamic management. And then there's the WBTC pair at fee 10 and tickSpacing 1, 0xf671bcab—a BTC pair with microscopic spread and low fee. Someone wants ETH/WBTC to be the new benchmark. Watch that hook; if it carries dynamic fees, it could set the standard.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is the player now — deflationary hooks let the protocol eat its own supply, while lending hooks starve the oracles.",
     "zh": "庄家亲自下场了——通缩钩子让协议吃掉自己的供应，借贷钩子则让预言机饿死。"
-   }
-  },
-  {
-   "date": "2026-06-02",
-   "narrative": {
-    "en": "The deck shuffled itself tonight, and eight new hook pools cut into the top fifty on GeckoTerminal. The USDC/USDT pair turned over two hundred million in a day — that's the quiet floor, not the ceiling. But look past volume to total value locked: fifty-five million against four hundred twenty-seven for USDe/USDT. A 0.005% hook on stablecoins with nearly half a billion locked? That's not speculation; that's infrastructure breathing under the felt. Someone's stacking liquidity for silent yield, while others chase millions through DAI/USDT with thirty-eight million in the pool. The deal's running on different suits.",
-    "zh": "今晚牌局自己洗了一轮，GeckoTerminal 前五十名里冒出八个新钩子池。USDC/USDT 日交易量两亿——这是底牌，不是天花板。但看锁仓量才知深浅：五千五百万对四亿两千七百万，USDe/USDT 那桌才是真内力。0.005% 的钩子配上近五亿 TVL，这不是赌大小，是江湖里的暗桩，躺着收息。有人攒内力，有人过手千万，DAI/USDT 那池三千八百万，各走各路。"
-   },
-   "take": {
-    "en": "The house is building rails, not flipping cards — infrastructure hooks are the real edge.",
-    "zh": "庄家在铺铁轨，不是在翻牌——基础设施钩子才是今天的真功夫。"
    }
   }
  ]
