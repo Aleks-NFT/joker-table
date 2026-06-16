@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-16T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25329901. Tokens: 0x0000000000000000000000000000000000000000 / 0x2254e2fa4b6d57282845e3b9d98782167ef2f682. Fee:...",
+   "url": "https://etherscan.io/tx/0x8b62d8c541cdb2e3f54d27d601c9e717b9e9bda2f52465be7293d66588c4c803"
+  },
+  {
+   "ts": "2026-06-16T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25329765. Tokens: 0x0000000000000000000000000000000000000000 / 0xa1924162bf381fb1f2461db43000002fd119fda2. Fee:...",
+   "url": "https://etherscan.io/tx/0x1129bedc32d88a799818b27874032d812d3c92c81ec05d8378a3d4190c2e5813"
+  },
+  {
    "ts": "2026-06-16T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "hookrank",
    "text": "ETH / USDT 0.05% volume surged 76% to $15,939,301 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0x72331fcb696b0151904c03584b66dc8365bc63f8a144d89a773384e3a579ca73"
-  },
-  {
-   "ts": "2026-06-16T04:30:02Z",
-   "suit": "spade",
-   "source": "hookrank",
-   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $2,747,580 24h volume, $1,582,392 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-06-16T04:30:02Z",
-   "suit": "spade",
-   "source": "hookrank",
-   "text": "New hook pool entered top-50 on GeckoTerminal: tBTC / cbBTC 0.01% — $3,206,921 24h volume, $1,302,460 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x5459f9d1f649b9f1353a50fd0c8d796b4feb11926bec295cb0614a135febdf9a"
   }
  ]
 }
