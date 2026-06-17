@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 6,
+  "total": 7,
   "hit": 0,
   "miss": 0,
-  "open": 6,
+  "open": 7,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 7,
+   "made_at": "2026-06-17",
+   "text": "Within the next seven days, at least three more V4 hook pools with non-standard fee tiers (either zero or maximum) will be deployed by the same deployer address or its affiliates, continuing the pattern of strategic testing.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-24",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 6,
    "made_at": "2026-06-16",

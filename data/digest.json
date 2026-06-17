@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-17",
+   "narrative": {
+    "en": "The night dealt a new hand. Eight V4 hook pools emerged within a few blocks, each with its own character. Scanning the deck, I see seven of the eight use the minimum fee—100 basis points, tickSpacing 1. This is no coincidence. Someone is tuning fine-grained strategies where every tick matters. The hooks on these pools aren't mere decoration; they govern liquidity logic in real time. But one pool catches the eye—block 25332981. Fee 8388608. Not a mistake, not a bug. It's the maximum possible fee in V4—100%. The hook contract here, 0xc73eedd, is the same address as the token. Such a pairing usually means one thing: a pool for specific operations where fees are not earned but burned or redirected. No one sets a 100% fee for trading. This is a tool, not a market. Another pool with zero fee and tickSpacing 200—block 25333406. Also hooked. Also not for casual passes. With zero fee, liquidity flows without loss, but with a step of 200 ticks—this is territory where volumes must be serious, or there's no point. The rest are standard pairs with ETH, but each time a new token, a new hook contract. Seven different hooks in one evening. Someone is clearly testing combinations, searching for working setups before the deck is reshuffled. No panic, no euphoria. Just a night full of initiatives. Someone is shuffling the cards, preparing the next deal. And we watch.",
+    "zh": "夜深了，牌局又翻新。几个区块之内，八个 V4 hook 池子接连登场，各有各的脾性。扫一眼牌面，七个用了最低费率——100 基点，tickSpacing 1。这不是巧合。有人在布细密的局，每一 tick 都算得清清楚楚。这些池子上的 hook 不是摆设，它们在实时操盘流动性逻辑。但有一个池子扎眼——区块 25332981。费率 8388608。不是错，不是 bug。这是 V4 允许的最高费率——100%。hook 合约地址 0xc73eedd，和代币地址一样。这种搭配通常意味着一件事：这个池子不是用来交易的，而是做特定操作，费率要么销毁要么转走。没人会用 100% 费率做市。这是工具，不是市场。还有一个零费率池子，tickSpacing 200——区块 25333406。也有 hook。也不是给路人用的。零费率，流动性来去无损耗，但 200 tick 的步长，意味着成交量必须够大，否则没意义。剩下的都是和 ETH 的标准对，但每次都是新代币、新 hook 合约。一晚七个不同的 hook。有人在试组合，找能用的搭配，等牌洗好之前先摸清底牌。没有恐慌，没有狂热。只是充满试探的一夜。有人在洗牌，准备下一局。我们看着。"
+   },
+   "take": {
+    "en": "Seven distinct hook contracts deployed in a single night signal a deliberate testing spree—someone is mapping the combinatorial space before the real game begins.",
+    "zh": "一夜七种不同 hook 合约接连部署，说明有人在系统性地测试组合空间——真正的江湖风雨还在后头。"
+   }
+  },
+  {
    "date": "2026-06-16",
    "narrative": {
     "en": "The deck shuffles itself tonight. Fourteen new V4 pools in hours—only those the blockchain caught before midnight. One hook contract, 0x653314b5175877266fcf5f76b953e4181d262acc, takes seven consecutive deals. ETH against tokens with the same suffix 5417—serial printing, like stamping cards of the same suit. Zero fee, tickSpacing 60—standard test layout, but someone is clearly laying groundwork. Then pools with another hook, 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc, twice, blocks apart. Again zero fee, but tickSpacing 200—a wider step, meaning liquidity range is spread thinner. Then 0xab78ee9dbf7b25c060e5abb3debc948406558044 enters—this hook is its own token, its own pool. Fee zero, spacing 200. A closed system. The real play is the pool at block 25326706. Fee 999300, tickSpacing 1. This isn't a step—it's a microscope. Hook 0xdfa04b8b60bf496594a3c256512409fba5a94080 takes control down to a single tick. Someone means to catch every price movement. These settings aren't for volume; they're for control. And the final chord: a pool with fee 3000 and its own hook 0x8329e7dd9454818828f1d77adef42cb0277d84c0. Same pattern: token becomes hook, hook becomes pool. Referee and player in one. No loud names, no memes. Only cold pool assembly, where each chooses the tool for the task. Some test, some print, some set an ambush. The deck is full, and every move is a bet.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is tightening the rails — the next round won't be for the faint of heart.",
     "zh": "庄家在收窄护栏——下一轮不是给心软的人玩的。"
-   }
-  },
-  {
-   "date": "2026-06-03",
-   "narrative": {
-    "en": "The deal splits two ways tonight. On one side of the felt, lo0pio lays down a full security review for the V4 lending stack — sixty-eight tests, twelve attack vectors: pump-and-borrow, JIT-LP, share inflation, donation, read-only reentrancy, oracle manipulation. An immutable factory contract, non-custodial hook, no oracles. He tweets this and then asks Vitalik about idle liquidity — 80% of liquidity in Uniswap pools never trades, nearly $2.5 billion just sitting there. Hook Summer, Pandaking_SATO answers. On the other side, unipegv4 shows how deflationary mechanics work through V4 hooks. The microPEG contract became the largest holder of Unipeg — 129 uPEG absorbed. Every wrap and redeem burns part of the supply. A collection within a collection. And it's all on Uniswap v4 hooks. A link to coypto_shitou explains: before, you bought NFTs and money went to the project; now mint mPEG and uPEG goes straight into the protocol. The protocol itself becomes the largest holder. Meanwhile, Uniswap officially: $100M+ processed on Polygon in 24 hours. Baseline Markets launches on V4. Mercury hook in the routing allowlist. Cambrian Network gets the answer: Uniswap is for agents. The night stats from HookRank via GeckoTerminal show the real distribution. Top 5 V4 hook pools by volume: USDC/USDT with $234M — that's the base layer, stablecoins. Then USDe/USDT 0.005% — $15.4M. USDT/USDS — $13.4M. cbBTC/WBTC 0.005% with volume up 189% in a day — Bitcoin wraps start moving. apxUSD/USDC 0.01% closes the five with $7.7M. Separate: sUSDe/USDT 0.008% — $5.9M volume on $43M TVL. And ETH/USDT 0.05% with TVL up 113% to $21.3M. The deck shuffles on two planes: infrastructure hooks for lending and deflationary mechanics for collections. lo0pio builds a lending stack with zero trust in oracles; unipegv4 uses the same hooks to make the protocol the house.",
-    "zh": "今晚的江湖，两股内力在暗流中交锋。一边，lo0pio 亮出了 V4 借贷栈的完整安全审计——六十八道测试，十二个攻击向量：泵借、JIT-LP、份额通胀、捐赠、只读重入、预言机操纵。一个不可变的工厂合约，非托管钩子，没有预言机。他发完这条推，紧接着问 Vitalik 关于闲置流动性的事——Uniswap 池子里 80% 的流动性从不交易，近 25 亿美元就这么躺着。Hook Summer，Pandaking_SATO 接话。另一边，unipegv4 展示了如何通过 V4 钩子实现通缩机制。microPEG 合约成了 Unipeg 的最大持有者——吸收了 129 个 uPEG。每次打包和解包都会销毁一部分供应量。收藏品里的收藏品。全在 Uniswap v4 钩子上。coypto_shitou 解释：以前买 NFT，钱流向项目方；现在铸造 mPEG，uPEG 直接进入协议。协议自己成了最大持有者。与此同时，Uniswap 官方数据：Polygon 上 24 小时处理了超过 1 亿美元。Baseline Markets 在 V4 上线。Mercury 钩子进入路由白名单。Cambrian Network 得到回答：Uniswap 是为代理准备的。HookRank 通过 GeckoTerminal 的夜间数据揭示了真实分布。V4 钩子池前五名按交易量：USDC/USDT 2.34 亿美元——这是基础层，稳定币。接着 USDe/USDT 0.005%——1540 万。USDT/USDS——1340 万。cbBTC/WBTC 0.005% 日交易量增长 189%——比特币包装开始动了。apxUSD/USDC 0.01% 以 770 万收尾。单独看：sUSDe/USDT 0.008%——590 万交易量，TVL 4300 万。ETH/USDT 0.05% TVL 增长 113%，达到 2130 万。牌局在两个层面洗牌：借贷的基础设施钩子和收藏品的通缩机制。lo0pio 在建造一个不信任预言机的借贷栈；unipegv4 用同样的钩子让协议变成庄家。"
-   },
-   "take": {
-    "en": "The house is the player now — deflationary hooks let the protocol eat its own supply, while lending hooks starve the oracles.",
-    "zh": "庄家亲自下场了——通缩钩子让协议吃掉自己的供应，借贷钩子则让预言机饿死。"
    }
   }
  ]
