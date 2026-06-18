@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-18",
+   "narrative": {
+    "en": "The deck dealt four V4 pools yesterday, and three of them carry zero fees. One pool at 0.01% with tick spacing 200, the rest at zero with spacings of 1, 200, and 400. That spread is no accident—someone is testing the mechanics, or simply claiming territory on the board. The zero-fee pools are a signal: in V4, hooks can extract value from rebalancing, oracles, internal swaps, dynamic fees. If the pool fee is zero, the money lives somewhere else—probably inside the hook itself. All pairs use native ETH as the first leg, no stablecoins. This is built for volatility, not stability. Someone is assembling a portfolio of zero-fee V4 hooks with varying tick spacings and different hook contracts. It looks like marking the felt before a big hand, or a test drive before a larger launch. No advice—just the fact that the deck is being laid out with intention.",
+    "zh": "昨日江湖上现了四个 V4 池子，三个挂着零费率。唯一一个收 0.01% 的，tickSpacing 是 200，剩下三个零费率，间距分别是 1、200、400。这步法不像是随手落子——有人在试招，或者干脆在棋盘上占位。零费率是个信号：V4 的钩子能从重排、预言机、内部兑换、动态费率里抽内力。池子不收租，那钱一定藏在别处——多半就在钩子里。所有池子第一脚都是原生 ETH，没有稳定币。这是为波动打造的，不是为安稳。有人在攒一套零费率 V4 钩子，间距不同，契约不同。看着像是大战前夜在桌上画线，或者大戏开场前的试演。不说指点——只是牌局在铺开，不是偶然。"
+   },
+   "take": {
+    "en": "Three zero-fee pools in one day is not noise—it's a deliberate strategy to shift fee revenue from the pool to the hook layer.",
+    "zh": "一天之内三个零费率池，不是杂音——是有人故意把抽水从池子挪到钩子层。"
+   }
+  },
+  {
    "date": "2026-06-17",
    "narrative": {
     "en": "The night dealt a new hand. Eight V4 hook pools emerged within a few blocks, each with its own character. Scanning the deck, I see seven of the eight use the minimum fee—100 basis points, tickSpacing 1. This is no coincidence. Someone is tuning fine-grained strategies where every tick matters. The hooks on these pools aren't mere decoration; they govern liquidity logic in real time. But one pool catches the eye—block 25332981. Fee 8388608. Not a mistake, not a bug. It's the maximum possible fee in V4—100%. The hook contract here, 0xc73eedd, is the same address as the token. Such a pairing usually means one thing: a pool for specific operations where fees are not earned but burned or redirected. No one sets a 100% fee for trading. This is a tool, not a market. Another pool with zero fee and tickSpacing 200—block 25333406. Also hooked. Also not for casual passes. With zero fee, liquidity flows without loss, but with a step of 200 ticks—this is territory where volumes must be serious, or there's no point. The rest are standard pairs with ETH, but each time a new token, a new hook contract. Seven different hooks in one evening. Someone is clearly testing combinations, searching for working setups before the deck is reshuffled. No panic, no euphoria. Just a night full of initiatives. Someone is shuffling the cards, preparing the next deal. And we watch.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Three silent contracts, a wallet without a seed, and idle liquidity finding its edge—the table is set, but the cards are still face down.",
     "zh": "三枚暗棋、一个无种钱包、还有闲置内力找到了出口——棋局已布，但牌面仍扣在桌上。"
-   }
-  },
-  {
-   "date": "2026-06-04",
-   "narrative": {
-    "en": "The deck is dealing itself tonight, and I'm just watching the cards fall. @lo0pio keeps shuffling the same theme — Lo0p Pools, $2.5 billion in idle liquidity he wants to bring back into play. He doesn't ask, he states. 'The world wants DeFi' is no longer a slogan, it's a rhyme that @Uniswap and @unipegv4 pick up, and you can't tell who's quoting whom. The deck speaks to itself. On the felt, the numbers: USDT/USDS jumped 76% in a day, to $8.4 million. But that's not the main event. A new AZTEC/ETH 0.05% pool slid into the GeckoTerminal top 50 with $3 million in volume and $14.5 million TVL. Someone played that card in silence, no noise. ETH/WBTC 0.05% saw volume climb 95% to $9.4 million, but TVL cratered 53%. That means the same money is chasing its tail, never settling. Nobody wants to hold. The top slots are old friends: USDC/USDT leads steady at $266 million. But look at the top five: USDe/USDT, cbBTC/WBTC, ETH/WBTC, USDT/USDS. These aren't just stable pairs. This is structure. Someone is building bridges between synthetics, wrapped assets, and stablecoins. The question isn't who wins, but which suit becomes trump in the next deal. And at the end — a closed PR #93 in v4-template from hunterinvariants: 'Add optional Hunter invariant workflow.' Sounds like a technical note, but it's a guardrail. Someone is putting protection against value loss. When the deck shuffles this fast, that's not just code. It's a sign: the game is getting harder, and the stakes are higher.",
-    "zh": "牌局自己翻开了，我只是看着。@lo0pio 反复洗同一副牌——Lo0p Pools，250亿美元闲置内力，他想让它们重新入江湖。他不是在问，是在说。'世界想要DeFi'，这已经不是口号，是韵脚，@Uniswap 和 @unipegv4 跟着念，你已经分不清谁在引谁。牌自己说话。桌上数字：USDT/USDS 一天涨了76%，到840万。但这不算主菜。新池子 AZTEC/ETH 0.05% 静悄悄进了 GeckoTerminal 前50，成交量300万，内力1450万。有人无声出牌。ETH/WBTC 0.05% 成交量涨95%，到940万，但内力跌了53%。意思是同一笔钱在转圈，没人想留。上头几把交椅是老面孔：USDC/USDT 稳在2.66亿。但看前五：USDe/USDT、cbBTC/WBTC、ETH/WBTC、USDT/USDS。这不是稳定对。这是骨架。有人在搭桥，连起合成资产、包裹资产和稳定币。问题不是谁赢，是下一把什么花色成王牌。最后——v4-template 里有个闭门 PR #93，来自 hunterinvariants：'添加可选 Hunter 不变性工作流。'听着像技术笔记，其实是护栏。有人在防价值流失。牌洗得这么快，这不是代码。是信号：江湖变硬了，赌注更高了。"
-   },
-   "take": {
-    "en": "The house is tightening the rails — the next round won't be for the faint of heart.",
-    "zh": "庄家在收窄护栏——下一轮不是给心软的人玩的。"
    }
   }
  ]

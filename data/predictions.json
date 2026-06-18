@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 7,
+  "total": 8,
   "hit": 0,
   "miss": 0,
-  "open": 7,
+  "open": 8,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 8,
+   "made_at": "2026-06-18",
+   "text": "Within seven days, at least one of these zero-fee hook contracts will be forked or redeployed with a modified fee logic, confirming the shift toward hook-based revenue models.",
+   "horizon_days": 7,
+   "resolve_after": "2026-06-25",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 7,
    "made_at": "2026-06-17",
