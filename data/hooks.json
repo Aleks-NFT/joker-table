@@ -1,0 +1,356 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-06-19T08:22:00Z",
+ "total_hooks": 1463,
+ "total_pools": 5062,
+ "multi_pool_hooks": 103,
+ "shown": 10,
+ "more_count": 93,
+ "hooks": [
+  {
+   "address": "0x60b8fe787789a6e01415181ba80e68358e67c088",
+   "address_short": "0x60b8…c088",
+   "pool_count": 484,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25256988,
+   "last_block": 25257053,
+   "top_pairs": [
+    {
+     "c0": "0x7f39…2ca0",
+     "c1": "0xd9a4…6a72",
+     "pools": 2
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0100…7ee6",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x1394…463b",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
+   "address_short": "0x6c24…e8cc",
+   "pool_count": 418,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118924,
+   "last_block": 25347477,
+   "top_pairs": [
+    {
+     "c0": "0x0015…d29c",
+     "c1": "0xc02a…6cc2",
+     "pools": 1
+    },
+    {
+     "c0": "0x0033…2355",
+     "c1": "0xc02a…6cc2",
+     "pools": 1
+    },
+    {
+     "c0": "0x0132…3b07",
+     "c1": "0xc02a…6cc2",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x1b153a4ed40929dc2e699b6020296843ad98aacc",
+   "address_short": "0x1b15…aacc",
+   "pool_count": 317,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25303338,
+   "last_block": 25325243,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0064…5417",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x007f…5417",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x03a3…5417",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x0d62529346ac2c61f5c0582210d01214687bc0cc",
+   "address_short": "0x0d62…c0cc",
+   "pool_count": 283,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118578,
+   "last_block": 25348443,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x00fd…8a6c",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x021b…bfb2",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0279…aa76",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "address_short": "0x627f…00cc",
+   "pool_count": 282,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25117494,
+   "last_block": 25347640,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0168…1110",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x02ed…1110",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0335…1110",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0xefe3aa7df4ebfc8c162ec957fdd617455d9d0088",
+   "address_short": "0xefe3…0088",
+   "pool_count": 264,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25259403,
+   "last_block": 25334800,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x7f39…2ca0",
+     "pools": 3
+    },
+    {
+     "c0": "0x6b17…1d0f",
+     "c1": "0x9d39…3497",
+     "pools": 3
+    },
+    {
+     "c0": "0x7f39…2ca0",
+     "c1": "0xa0b8…eb48",
+     "pools": 3
+    }
+   ]
+  },
+  {
+   "address": "0x89ddb5acd945070f06c2de77a5379e2086be8088",
+   "address_short": "0x89dd…8088",
+   "pool_count": 235,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25256732,
+   "last_block": 25256797,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0bc5…d93e",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x16ea…f7c0",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x1ceb…5a44",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x361ea7acf29855ab26e44ebc03a001ea8eb6c088",
+   "address_short": "0x361e…c088",
+   "pool_count": 199,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25256827,
+   "last_block": 25256869,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x1c5f…996b",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x6435…5160",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x821a…5c0c",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "address_short": "0x96b8…e0cc",
+   "pool_count": 195,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118285,
+   "last_block": 25348855,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x10dd…460a",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x1300…8e2f",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x14b3…8e90",
+     "pools": 1
+    }
+   ]
+  },
+  {
+   "address": "0xdee7a2ffa963f82facbb12a4e3e8909e4a51a444",
+   "address_short": "0xdee7…a444",
+   "pool_count": 121,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25130773,
+   "last_block": 25216572,
+   "top_pairs": [
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x0127…a16b",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x036e…def5",
+     "pools": 1
+    },
+    {
+     "c0": "0x0000…0000",
+     "c1": "0x065f…7d6b",
+     "pools": 1
+    }
+   ]
+  }
+ ]
+}
