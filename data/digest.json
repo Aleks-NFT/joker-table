@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-19",
+   "narrative": {
+    "en": "The deck was dealt dense by midnight — fourteen fresh V4 pools across a single blockchain day. I study them like a solitaire spread: every pair has WETH on one side and a dozen different tokens on the other. The first thing that catches the eye is a cluster of pools with zero fee. USDT, USDC, and a few obscure addresses start at zero rate with a tick step of one. This isn't trading in the classic sense — it's infrastructure for precision liquidity management. The spread is too narrow to earn fees, but perfect for algorithmic strategies. Then there are two pools with a fee of 999300 basis points — nearly 100%. That's no mistake; it's a trap. The hook contract 0xdfa04b surfaces three times tonight, each time with different tokens. Such a percentage means a trade only goes through if the hook allows it — either a dynamic swap, an auction, or simply a lockout for everyone except a whitelist. Someone is building a private order inside a public deck. Three pools from hook 0x96b893 with a tick step of 200 and zero fee look like preparation for a cross-chain bridge or stablecoin aggregation. The token addresses are young, without history. Likely test deployments before launch. And separately, a pool with fee 3000 and tick step 60 — a classic Uniswap, but with a hook. The only one with any margin for LPs. Possibly the only one where anyone will actually trade, not just initialize. Nobody asks why anyone would need fourteen pools in an hour. The answer lies on the surface: not for liquidity, but for control. Every new contract is another memory slot, another chance to intercept the flow. The game is played not on volumes, but on order.",
+    "zh": "子夜时分，牌局已密不透风——单日之内，十四条V4池在链上落定。我望着它们，如同摊开一副接龙牌：所有交易对都以WETH为一端，另一端是十来个不同的令牌。首先入眼的是一簇零费率池。USDT、USDC，外加几个无名地址，皆以零费率起步，刻度步长为一。这并非传统意义上的交易——这是为精准流动性管理搭建的根基。价差太窄，赚不到手续费，却完美适配算法策略。接着是两池，费率高达999300基点——近乎百分之百。这不是失误，是陷阱。钩子合约0xdfa04b一夜现身三次，每次搭配不同令牌。如此费率意味着，交易只有经钩子允许才能执行——或是动态兑换，或是拍卖，或是仅限白名单的封锁。有人在公开牌局内构建私序。钩子0x96b893的三池，刻度步长两百、零费率，看似为跨链桥或稳定币聚合做准备。令牌地址年轻，无历史痕迹，多半是上线前的测试部署。另有一池，费率三千、刻度步长六十——经典Uniswap，但带钩子。这是唯一能让流动性提供者有些许利润的池子，或许也是唯一会有人真正交易、而非仅仅初始化的池子。无人追问，为何有人在一小时内建十四条池。答案摆在台面上：不为流动性，而为控制。每份新合约，都是内存中的一个槽位，一次拦截流量的机会。这场博弈，赌的不是成交量，而是秩序。"
+   },
+   "take": {
+    "en": "The house is laying down infrastructure, not gambling chips — fourteen pools in one night, all rigged for control, not trade.",
+    "zh": "庄家铺的是阵，不是筹码——一夜十四条池，皆为控盘，不为交易。"
+   }
+  },
+  {
    "date": "2026-06-18",
    "narrative": {
     "en": "The deck dealt four V4 pools yesterday, and three of them carry zero fees. One pool at 0.01% with tick spacing 200, the rest at zero with spacings of 1, 200, and 400. That spread is no accident—someone is testing the mechanics, or simply claiming territory on the board. The zero-fee pools are a signal: in V4, hooks can extract value from rebalancing, oracles, internal swaps, dynamic fees. If the pool fee is zero, the money lives somewhere else—probably inside the hook itself. All pairs use native ETH as the first leg, no stablecoins. This is built for volatility, not stability. Someone is assembling a portfolio of zero-fee V4 hooks with varying tick spacings and different hook contracts. It looks like marking the felt before a big hand, or a test drive before a larger launch. No advice—just the fact that the deck is being laid out with intention.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The deal is clear: the biggest players want infrastructure, not products, and DeFi is being rebuilt in the bear—just like before.",
     "zh": "大玩家要的是硬功夫，不是花招——DeFi在熊市中重练内功，历史不会简单重复，但韵脚总在回荡。"
-   }
-  },
-  {
-   "date": "2026-06-05",
-   "narrative": {
-    "en": "The night's deal came off a different shuffle. Three contracts—Slonks, sato, uPEG—verified in a single day, each with its own compiler, each silent on its suit. Versions 0.8.30, 0.8.26, 0.8.33 scattered like a deck gathered from separate tables. No tickets, no announcements. Just facts on Etherscan, and nothing more. The house deals, but it doesn't explain the hand. Uniswap rolls out an in-app wallet through Privy—no seed phrase, FaceID and passkey only. Hayden writes he's been through the regulator's wringer for the right to build open software. Now a user can create a wallet in seconds, then export the seed if they choose. This isn't a UX patch—it's a paradigm shift: entry without fear, exit without loss of control. Privy confirms: Uniswap uses their tech. One tweet just says 'You love to see it 🦄.' And that's all. On the side, the Strato auction from Uniswap Auctions runs until June 11. Pull factor: new coin, new round, new stake. Loop launches lending from idle liquidity. Borrow against a token at contract 0x6982...1933. No name, no context—just an address and the phrase 'Idle liquidity is finally getting put to work.' Someone clearly knows what sits in that contract and bets the liquidity will stop being dead. V4 hooks show the usual picture: USDC/USDT at $355M in a day, USDT/USDS at $21.7M with 156% growth, cbBTC/WBTC at $15M, ETH/WBTC at $8.6M. Stable pairs dominate, but the USDS pair adds volume—maybe someone is shifting or hedging. You have three unrevealed contracts, a new Uniswap wallet, an auction, a lending protocol, and stable hooks. The deck is assembled. The only question is who moves first.",
-    "zh": "夜里的牌局换了套路。Slonks、sato、uPEG——三个合约，一天内验证通过，各自用不同的编译器，各自沉默不语。版本号0.8.30、0.8.26、0.8.33散落一地，像是有人从不同的赌桌凑了一副牌。没有公告，没有风声。只有Etherscan上的事实，再无其他。江湖上，有人悄悄布了三枚暗棋，却无人知晓它们的门派。Uniswap通过Privy推出了内置钱包——无需助记词，只用FaceID和passkey。Hayden说，为了能建开放软件，他和监管层周旋到了极限。现在用户几秒就能建一个钱包，之后如果想，也可以导出助记词。这不止是用户体验的修补——这是范式的转变：入场无惧，离场不失控。Privy确认：Uniswap用了他们的技术。一条推文只说了一句‘You love to see it 🦄。’就这些。另一边，Uniswap Auctions的Strato拍卖持续到6月11日。拉力因素：新币、新轮、新注。Loop推出了从闲置流动性中借贷的服务。借出对象是合约0x6982...1933上的代币。没有名字，没有背景——只有一个地址和一句话：‘闲置的流动性终于被派上用场了。’显然有人知道那个合约里藏着什么，押注流动性不再沉寂。V4钩子显示熟悉的景象：USDC/USDT一天35.5亿美元，USDT/USDS 2.17亿美元增长156%，cbBTC/WBTC 1.5亿美元，ETH/WBTC 8600万美元。稳定对占据主导，但USDS对在放量——也许有人在调仓或对冲。你有三个未揭晓的合约、一个Uniswap新钱包、一场拍卖、一个借贷协议、还有稳定的钩子。牌已齐备。问题只在于——谁先出手。"
-   },
-   "take": {
-    "en": "Three silent contracts, a wallet without a seed, and idle liquidity finding its edge—the table is set, but the cards are still face down.",
-    "zh": "三枚暗棋、一个无种钱包、还有闲置内力找到了出口——棋局已布，但牌面仍扣在桌上。"
    }
   }
  ]
