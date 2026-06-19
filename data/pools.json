@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-19T16:15:13Z",
+ "generated_at": "2026-06-19T17:15:23Z",
  "new_pools_24h": 704,
  "new_pools_7d": 1522,
  "unique_hook_contracts": 1476,
@@ -8,22 +8,12 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 491.026929353489,
-   "pct_24h": -8.671,
-   "vol_24h_usd": 195899.580162558,
-   "liquidity_usd": 925818.5437,
+   "price_usd": 500.092020737627,
+   "pct_24h": -5.935,
+   "vol_24h_usd": 196342.110549545,
+   "liquidity_usd": 922432.3727,
    "liq_class": "deep",
    "vol_class": "high"
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.289884444501977,
-   "pct_24h": 1.311,
-   "vol_24h_usd": 39572.9207787661,
-   "liquidity_usd": 272728.4385,
-   "liq_class": "deep",
-   "vol_class": "mid"
   },
   {
    "ticker": "UPEGSTR",
@@ -31,7 +21,7 @@
    "price_usd": 8.86669628551835e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 78932.0757,
+   "liquidity_usd": 78514.5501,
    "liq_class": "mid",
    "vol_class": "low"
   }
