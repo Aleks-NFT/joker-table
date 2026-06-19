@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-19T21:36:36Z",
+   "suit": "spade",
+   "source": "ormi",
+   "text": "Ormi check: pool 0x8b027db2… (hook 0xf2ca4a44…) in subgraph but missing from our hook_pools. Ingest may have missed.",
+   "url": null
+  },
+  {
+   "ts": "2026-06-19T21:36:36Z",
+   "suit": "spade",
+   "source": "ormi",
+   "text": "Ormi check: pool 0x5ada6fb6… (hook 0x627fa6f7…) in subgraph but missing from our hook_pools. Ingest may have missed.",
+   "url": null
+  },
+  {
    "ts": "2026-06-19T20:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25352229. Tokens: 0x0000000000000000000000000000000000000000 / 0x51d384d2d9abddb6ab36da1960df3fcd07e9ae68. Fee:...",
    "url": "https://etherscan.io/tx/0x5ae63c1fa64566f3096998b4ea9a7f67e70e71ee89e6f2723d58790afeab3bbc"
-  },
-  {
-   "ts": "2026-06-19T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25352214. Tokens: 0x0000000000000000000000000000000000000000 / 0xd8a5693ba83d1c92408a4a8deeacd66c560860cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x8fda1d444e13743dcb961090f14a65c945f6245df014ebf7faf009ae690179a5"
-  },
-  {
-   "ts": "2026-06-19T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25352186. Tokens: 0x0000000000000000000000000000000000000000 / 0xb904c99e263f243e3fcf494df8d426a26be860cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x513d2a1d9bdc00b6248fc87678712ef93d4b40e1e89fbf4f7dff486e54ad251a"
   }
  ]
 }
