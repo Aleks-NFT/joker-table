@@ -69,6 +69,17 @@
       <div id="pool-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(248px, 1fr)); gap: 14px;"></div>
     </section>
 
+    <!-- ============ ZONE · HOOK FACTORIES ============ -->
+    <section id="hook-factories" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.26s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">HOOK FACTORIES</h2>
+        <div style="flex: 1; height: 1px; background: #26262C;"></div>
+        <span id="hooks-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
+      </div>
+      <div id="hook-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px;"></div>
+      <div id="hook-more" style="text-align: center; font-family: 'Silkscreen', monospace; font-size: 9px; letter-spacing: 2px; color: #8E887A; border-top: 1px solid #1B1B20; padding-top: 14px;"></div>
+    </section>
+
     <!-- ============ ZONE 2 · DJ DAILY TAKE ============ -->
     <section id="daily-take" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.34s forwards;">
       <div style="display: flex; align-items: baseline; gap: 14px;">
@@ -181,10 +192,10 @@
     });
   }
 
-  var meta, pools, digest, preds, ticker;
+  var meta, pools, digest, preds, ticker, hooks;
   try {
-    var all = await Promise.all([load("meta"), load("pools"), load("digest"), load("predictions"), load("ticker")]);
-    meta = all[0]; pools = all[1]; digest = all[2]; preds = all[3]; ticker = all[4];
+    var all = await Promise.all([load("meta"), load("pools"), load("digest"), load("predictions"), load("ticker"), load("hooks")]);
+    meta = all[0]; pools = all[1]; digest = all[2]; preds = all[3]; ticker = all[4]; hooks = all[5];
   } catch (e) {
     $("pool-grid").innerHTML = '<p style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:' + RED + ';">The deck is missing: ' + esc(e.message) + ". Refresh in a minute.</p>";
     return;
@@ -234,6 +245,40 @@
   (pools.canonical || []).forEach(function (p, i) { grid += poolCard(p, true, i); });
   (pools.top_pools || []).forEach(function (p, i) { grid += poolCard(p, false, (pools.canonical || []).length + i); });
   $("pool-grid").innerHTML = grid;
+
+  // ---- zone: hook factories ----
+  if (hooks && hooks.hooks && hooks.hooks.length) {
+    $("hooks-caption").textContent =
+      hooks.multi_pool_hooks + " multi-pool hooks \u00B7 top " + hooks.shown + " dealt";
+    var hg = "";
+    hooks.hooks.forEach(function (h, i) {
+      var top = i === 0;
+      var border = top ? "2px solid " + GOLD : "1px solid #26262C";
+      var perms = (h.permissions_human || []).map(function (p, j) {
+        var tech = (h.permissions_technical || [])[j] || p;
+        return '<span title="' + esc(tech) + '" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;letter-spacing:0.5px;color:#DCD5C4;border:1px solid #4A4636;background:rgba(232,176,75,0.07);padding:4px 8px;cursor:help;">' + esc(p) + '</span>';
+      }).join("");
+      hg += '<article class="pool-card" style="position:relative;background:#141417;border:' + border + ';padding:18px;box-shadow:5px 5px 0 rgba(0,0,0,0.45);animation-delay:' + (0.28 + i * 0.05).toFixed(2) + 's;">' +
+        (top ? '<span style="position:absolute;top:-1px;right:12px;font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;background:' + GOLD + ';color:#0E0E10;padding:4px 7px 3px;">#1 BIGGEST</span>' : "") +
+        '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px;">' +
+          '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:15px;color:' + INK + ';">' + esc(h.address_short) + '</span>' +
+          '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';">\u2303 ' + (h.last_block / 1e6).toFixed(2) + 'M</span>' +
+        '</div>' +
+        '<div style="display:flex;align-items:baseline;gap:8px;border-top:1px solid #1E1E24;padding-top:12px;margin-bottom:14px;">' +
+          '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:30px;color:' + GOLD + ';line-height:1;">' + h.pool_count + '</span>' +
+          '<span style="font-family:\'Silkscreen\',monospace;font-size:9px;letter-spacing:1px;color:' + MUT + ';">POOLS</span>' +
+        '</div>' +
+        '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + perms + '</div>' +
+      '</article>';
+    });
+    $("hook-grid").innerHTML = hg;
+    if (hooks.more_count > 0) {
+      $("hook-more").innerHTML = "\u2660 AND " + hooks.more_count + " MORE MULTI-POOL HOOKS AT THE TABLE";
+    }
+  } else {
+    var hs = document.getElementById("hook-factories");
+    if (hs) hs.style.display = "none";
+  }
 
   // ---- zone 2: daily take (bilingual: chrome stays EN, DJ voice switches) ----
   var LANG = "en";
