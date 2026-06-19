@@ -247,39 +247,66 @@
   $("pool-grid").innerHTML = grid;
 
   // ---- zone: hook factories ----
+  function hookCard(h, i) {
+    var top = i === 0;
+    var border = top ? "2px solid " + GOLD : "1px solid #26262C";
+    var perms = (h.permissions_human || []).map(function (p, j) {
+      var tech = (h.permissions_technical || [])[j] || p;
+      return '<span title="' + esc(tech) + '" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;letter-spacing:0.5px;color:#DCD5C4;border:1px solid #4A4636;background:rgba(232,176,75,0.07);padding:4px 8px;cursor:help;">' + esc(p) + '</span>';
+    }).join("");
+    var url = h.etherscan_url || ("https://etherscan.io/address/" + h.address);
+    var nameLine = "";
+    if (h.name) {
+      nameLine = '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + GOLD + ';margin-bottom:3px;display:flex;align-items:center;gap:6px;">' + esc(h.name) +
+        (h.verified ? '<span title="verified on Etherscan" style="font-size:10px;color:' + GREEN + ';">\u2714</span>' : "") + '</div>';
+    }
+    return '<article class="pool-card" style="position:relative;background:#141417;border:' + border + ';padding:18px;box-shadow:5px 5px 0 rgba(0,0,0,0.45);animation-delay:' + (0.28 + i * 0.04).toFixed(2) + 's;">' +
+      (top ? '<span style="position:absolute;top:-1px;right:12px;font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;background:' + GOLD + ';color:#0E0E10;padding:4px 7px 3px;">#1 BIGGEST</span>' : "") +
+      nameLine +
+      '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px;">' +
+        '<a href="' + esc(url) + '" rel="noopener" target="_blank" style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:15px;color:' + INK + ';text-decoration:underline;text-decoration-color:rgba(232,176,75,0.5);">' + esc(h.address_short) + '</a>' +
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';">\u2303 ' + (h.last_block / 1e6).toFixed(2) + 'M</span>' +
+      '</div>' +
+      '<div style="display:flex;align-items:baseline;gap:8px;border-top:1px solid #1E1E24;padding-top:12px;margin-bottom:14px;">' +
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:30px;color:' + GOLD + ';line-height:1;">' + h.pool_count + '</span>' +
+        '<span style="font-family:\'Silkscreen\',monospace;font-size:9px;letter-spacing:1px;color:' + MUT + ';">POOLS</span>' +
+      '</div>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + perms + '</div>' +
+    '</article>';
+  }
+
   if (hooks && hooks.hooks && hooks.hooks.length) {
     $("hooks-caption").textContent =
-      hooks.multi_pool_hooks + " multi-pool hooks \u00B7 top " + hooks.shown + " dealt";
-    var hg = "";
-    hooks.hooks.forEach(function (h, i) {
-      var top = i === 0;
-      var border = top ? "2px solid " + GOLD : "1px solid #26262C";
-      var perms = (h.permissions_human || []).map(function (p, j) {
-        var tech = (h.permissions_technical || [])[j] || p;
-        return '<span title="' + esc(tech) + '" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;letter-spacing:0.5px;color:#DCD5C4;border:1px solid #4A4636;background:rgba(232,176,75,0.07);padding:4px 8px;cursor:help;">' + esc(p) + '</span>';
-      }).join("");
-      hg += '<article class="pool-card" style="position:relative;background:#141417;border:' + border + ';padding:18px;box-shadow:5px 5px 0 rgba(0,0,0,0.45);animation-delay:' + (0.28 + i * 0.05).toFixed(2) + 's;">' +
-        (top ? '<span style="position:absolute;top:-1px;right:12px;font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;background:' + GOLD + ';color:#0E0E10;padding:4px 7px 3px;">#1 BIGGEST</span>' : "") +
-        '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px;">' +
-          '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:15px;color:' + INK + ';">' + esc(h.address_short) + '</span>' +
-          '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';">\u2303 ' + (h.last_block / 1e6).toFixed(2) + 'M</span>' +
-        '</div>' +
-        '<div style="display:flex;align-items:baseline;gap:8px;border-top:1px solid #1E1E24;padding-top:12px;margin-bottom:14px;">' +
-          '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:30px;color:' + GOLD + ';line-height:1;">' + h.pool_count + '</span>' +
-          '<span style="font-family:\'Silkscreen\',monospace;font-size:9px;letter-spacing:1px;color:' + MUT + ';">POOLS</span>' +
-        '</div>' +
-        '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + perms + '</div>' +
-      '</article>';
-    });
-    $("hook-grid").innerHTML = hg;
-    if (hooks.more_count > 0) {
-      $("hook-more").innerHTML = "\u2660 AND " + hooks.more_count + " MORE MULTI-POOL HOOKS AT THE TABLE";
+      hooks.multi_pool_hooks + " multi-pool hooks \u00B7 click any address to verify on Etherscan";
+    var visible = hooks.hooks.filter(function (h) { return h.visible !== false; });
+    var hidden = hooks.hooks.filter(function (h) { return h.visible === false; });
+
+    $("hook-grid").innerHTML = visible.map(hookCard).join("");
+
+    var moreHost = $("hook-more");
+    if (hidden.length > 0) {
+      moreHost.innerHTML = '<button id="hook-toggle" type="button" style="cursor:pointer;font-family:\'Silkscreen\',monospace;font-size:9px;letter-spacing:2px;background:none;border:1px solid #26262C;color:#E8B04B;padding:8px 16px;">\u2660 SHOW ' + hidden.length + ' MORE HOOKS</button>' +
+        '<div id="hook-grid-more" style="display:none;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:14px;"></div>';
+      var btn = document.getElementById("hook-toggle");
+      var moreGrid = document.getElementById("hook-grid-more");
+      var shown = false;
+      btn.onclick = function () {
+        if (!shown) {
+          moreGrid.innerHTML = hidden.map(function (h, k) { return hookCard(h, k + 1); }).join("");
+          moreGrid.style.display = "grid";
+          btn.textContent = "\u2660 HIDE";
+          shown = true;
+        } else {
+          moreGrid.style.display = "none";
+          btn.textContent = "\u2660 SHOW " + hidden.length + " MORE HOOKS";
+          shown = false;
+        }
+      };
     }
   } else {
     var hs = document.getElementById("hook-factories");
     if (hs) hs.style.display = "none";
   }
-
   // ---- zone 2: daily take (bilingual: chrome stays EN, DJ voice switches) ----
   var LANG = "en";
   try { if (localStorage.getItem("dj_lang") === "zh") LANG = "zh"; } catch (e) {}
