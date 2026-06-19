@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-19T19:15:13Z",
- "total_hooks": 1480,
- "total_pools": 5103,
+ "generated_at": "2026-06-19T20:15:13Z",
+ "total_hooks": 1484,
+ "total_pools": 5110,
  "multi_pool_hooks": 104,
  "shown": 104,
  "more_count": 0,
@@ -182,7 +182,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 198,
+   "pool_count": 199,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -196,7 +196,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25352867,
+   "last_block": 25353751,
    "visible": true
   },
   {
@@ -411,6 +411,32 @@
    "visible": false
   },
   {
+   "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
+   "address_short": "0x6533…2acc",
+   "name": "Sa1tHookV2",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
+   "pool_count": 18,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25326152,
+   "last_block": 25353764,
+   "visible": false
+  },
+  {
    "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
    "address_short": "0x68c4…eacc",
    "name": "LaunchHookLending",
@@ -455,32 +481,6 @@
    ],
    "first_block": 25124597,
    "last_block": 25202653,
-   "visible": false
-  },
-  {
-   "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
-   "address_short": "0x6533…2acc",
-   "name": "Sa1tHookV2",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
-   "pool_count": 16,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25326152,
-   "last_block": 25352961,
    "visible": false
   },
   {
