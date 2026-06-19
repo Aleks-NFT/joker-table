@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-19T13:15:14Z",
- "total_hooks": 1470,
- "total_pools": 5072,
+ "generated_at": "2026-06-19T14:15:15Z",
+ "total_hooks": 1472,
+ "total_pools": 5078,
  "multi_pool_hooks": 103,
  "shown": 103,
  "more_count": 0,
@@ -83,7 +83,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 283,
+   "pool_count": 284,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -95,7 +95,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25348443,
+   "last_block": 25351819,
    "visible": true
   },
   {
@@ -527,6 +527,26 @@
    "visible": false
   },
   {
+   "address": "0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
+   "address_short": "0x4440…c0c4",
+   "name": "UniswapV4KEMHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
+   "pool_count": 9,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25124485,
+   "last_block": 25351695,
+   "visible": false
+  },
+  {
    "address": "0xc4c408d261b549ab370ec00f6f5e071176bf0088",
    "address_short": "0xc4c4…0088",
    "name": "",
@@ -654,26 +674,6 @@
    ],
    "first_block": 25330074,
    "last_block": 25330118,
-   "visible": false
-  },
-  {
-   "address": "0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
-   "address_short": "0x4440…c0c4",
-   "name": "UniswapV4KEMHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
-   "pool_count": 6,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25124485,
-   "last_block": 25240187,
    "visible": false
   },
   {
