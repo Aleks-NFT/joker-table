@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-20T09:15:14Z",
+ "generated_at": "2026-06-20T10:15:14Z",
  "total_hooks": 1486,
- "total_pools": 5117,
+ "total_pools": 5118,
  "multi_pool_hooks": 104,
  "shown": 104,
  "more_count": 0,
@@ -411,6 +411,32 @@
    "visible": false
   },
   {
+   "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
+   "address_short": "0x6533…2acc",
+   "name": "Sa1tHookV2",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
+   "pool_count": 19,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25326152,
+   "last_block": 25357870,
+   "visible": false
+  },
+  {
    "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
    "address_short": "0x68c4…eacc",
    "name": "LaunchHookLending",
@@ -434,32 +460,6 @@
    ],
    "first_block": 25274267,
    "last_block": 25354958,
-   "visible": false
-  },
-  {
-   "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
-   "address_short": "0x6533…2acc",
-   "name": "Sa1tHookV2",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
-   "pool_count": 18,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25326152,
-   "last_block": 25353764,
    "visible": false
   },
   {
