@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-20T19:15:13Z",
- "total_hooks": 1495,
- "total_pools": 5135,
+ "generated_at": "2026-06-20T20:15:23Z",
+ "total_hooks": 1497,
+ "total_pools": 5141,
  "multi_pool_hooks": 104,
  "shown": 104,
  "more_count": 0,
@@ -163,7 +163,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 207,
+   "pool_count": 210,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -177,7 +177,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25360166,
+   "last_block": 25361030,
    "visible": true
   },
   {
@@ -416,7 +416,7 @@
    "name": "Sa1tHookV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
-   "pool_count": 19,
+   "pool_count": 20,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -433,7 +433,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25326152,
-   "last_block": 25357870,
+   "last_block": 25360852,
    "visible": false
   },
   {
