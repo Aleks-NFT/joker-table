@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-20T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25358638. Tokens: 0x0000000000000000000000000000000000000000 / 0x3d92b7b88d5af418351f635566d2ac7f171dd283. Fee:...",
+   "url": "https://etherscan.io/tx/0x64523e82e8c04b4174c13a93788c1a158b0fb3473de770544caaa73fd79fba36"
+  },
+  {
+   "ts": "2026-06-20T10:24:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "impetus82 opened PR #134 in uniswap-hooks: 'ReHypothecationHook: add slippage protection to add/remove liquidity (#122)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/134"
+  },
+  {
    "ts": "2026-06-20T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25352911. Tokens: 0x0000000000000000000000000000000000000000 / 0x4fa90f42d880cb132dcc15b516d2d0a117b8ad7c. Fee:...",
    "url": "https://etherscan.io/tx/0x924215681ffc55060b929cc9641543885faab45fc9ef57c3529907058787c3aa"
-  },
-  {
-   "ts": "2026-06-19T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25352893. Tokens: 0x0000000000000000000000000000000000000000 / 0xcd8a38faafe0548d63db64eb884f88323c9d5417. Fee:...",
-   "url": "https://etherscan.io/tx/0x3895c6db396aace68e4a66eebdc85aba19631c349d236215b1a1d0965ffc71a4"
-  },
-  {
-   "ts": "2026-06-19T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25352867. Tokens: 0x0000000000000000000000000000000000000000 / 0x89e06449930a6da130004da6f20942a4c1920ed9. Fee:...",
-   "url": "https://etherscan.io/tx/0x5052ec6a3d1b36b19236729aad0ca63b6e01652fbc783556921a6c613280ee47"
   }
  ]
 }
