@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-20T21:15:14Z",
- "total_hooks": 1497,
- "total_pools": 5141,
+ "generated_at": "2026-06-20T22:15:24Z",
+ "total_hooks": 1498,
+ "total_pools": 5146,
  "multi_pool_hooks": 104,
  "shown": 104,
  "more_count": 0,
@@ -83,7 +83,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 286,
+   "pool_count": 288,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -95,7 +95,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25353177,
+   "last_block": 25361550,
    "visible": true
   },
   {
@@ -163,7 +163,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 210,
+   "pool_count": 211,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -177,7 +177,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25361030,
+   "last_block": 25361103,
    "visible": true
   },
   {
@@ -463,6 +463,27 @@
    "visible": false
   },
   {
+   "address": "0xa2dcd7bf7ff3c014a855bf00799ccf07e6c800cc",
+   "address_short": "0xa2dc…00cc",
+   "name": "FeeHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xa2dcd7bf7ff3c014a855bf00799ccf07e6c800cc",
+   "pool_count": 17,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25138273,
+   "last_block": 25361289,
+   "visible": false
+  },
+  {
    "address": "0xafe727f2288e531184f5b9a81d3049b2f69a6880",
    "address_short": "0xafe7…6880",
    "name": "UnicurveHook",
@@ -481,27 +502,6 @@
    ],
    "first_block": 25124597,
    "last_block": 25202653,
-   "visible": false
-  },
-  {
-   "address": "0xa2dcd7bf7ff3c014a855bf00799ccf07e6c800cc",
-   "address_short": "0xa2dc…00cc",
-   "name": "FeeHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xa2dcd7bf7ff3c014a855bf00799ccf07e6c800cc",
-   "pool_count": 16,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25138273,
-   "last_block": 25287838,
    "visible": false
   },
   {
