@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-20T05:56:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "impetus82 opened PR #133 in uniswap-hooks: 'LimitOrderHook: guard _fillOrder against filling non-converted positions (#132)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/133"
+  },
+  {
    "ts": "2026-06-20T04:30:01Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25352802. Tokens: 0x0000000000000000000000000000000000000000 / 0x76ba21fced5c9fe01dab02c83b1d578b188a5417. Fee:...",
    "url": "https://etherscan.io/tx/0xa72b2a821d37c753c9c9d6ae99927a7303c1304b6b75560fff2d07e5abe710a6"
-  },
-  {
-   "ts": "2026-06-19T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25352766. Tokens: 0x0000000000000000000000000000000000000000 / 0xe9a97e0ac65e47cffcc5bcefacec668b967ac511. Fee:...",
-   "url": "https://etherscan.io/tx/0xd857b843c4093d86fa3ec7f2175903c69392450b270b530c0c7ecfa0ce60d918"
   }
  ]
 }
