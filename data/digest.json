@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-21",
+   "narrative": {
+    "en": "Four pools in an hour. Same pattern: zero fee, tick spacing 200, and three of them share the same hook contract: 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc. Only the third pool breaks the mold with a different hook, 0x68c463f0c8ad1131eac043b035618223d3caeacc. But the structure is identical: WETH (zero address) paired with tokens ending in 1110 or 3000. Three tokens share the 1110 suffix: 0xcfa67a2fcbc6d3f373f0005daa765eb1cb5d1110, 0xda5e4d175f2dcb6009d80f81ee6efb68d9411110, 0xa2152be54519ccd7840a43736619ec78551d1110. The fourth token, 0x8adc1ae730f7632e8b809085409b8d89d7b63000, follows a different pattern with a different hook. Coincidence? Unlikely. Zero-fee pools with hooks in V4 aren't for retail trading—they're for mechanics. These pools are typically test beds, internal routing, or preparation for something larger. Three pools with the same hook suggest one developer or team deploying a series. The fourth might be a parallel branch or a different player with the same idea. Blocks come in a steady rhythm: 25361654, 25361695, 25362058, 25362196—gaps of 41, 363, and 138 blocks. Not a rush, but confident pacing. Someone is sitting calmly, clicking 'create.' Pool ID is a hash of tokens, fee, and hook. Same hook, different tokens, different pools. What they'll do is a question for the hook. V4 hooks can do anything: dynamic fees, TWAP oracles, MEV protection, even entry restrictions. But for now, it's a quiet deal on the felt.",
+    "zh": "一小时之内，四个池子。同样的模式：手续费为零，tickSpacing 为 200，其中三个池子用的是同一个 hook 合约：0x627fa6f76fa96b10bae1b6fba280a3c9264500cc。只有第三个池子不同，用的是另一个 hook：0x68c463f0c8ad1131eac043b035618223d3caeacc。但结构一致：WETH（零地址）对上后缀为 1110 或 3000 的代币。三个代币以 1110 结尾：0xcfa67a2fcbc6d3f373f0005daa765eb1cb5d1110、0xda5e4d175f2dcb6009d80f81ee6efb68d9411110、0xa2152be54519ccd7840a43736619ec78551d1110。第四个代币 0x8adc1ae730f7632e8b809085409b8d89d7b63000 则是另一种模式，hook 也不同。巧合？不太可能。V4 中零手续费的 hook 池不是给散户交易用的——它们是机制设计。这些池子通常是测试床、内部路由或为更大布局做准备。三个相同 hook 的池子暗示同一个开发者或团队在部署系列。第四个可能是平行分支或另一个玩家，但思路相同。区块间隔稳定：25361654、25361695、25362058、25362196——间隔分别为 41、363、138 个区块。不紧不慢，节奏从容。有人在冷静地点击“创建”。池子 ID 由代币、手续费和 hook 哈希而成。hook 相同，代币不同，池子就不同。它们会做什么，取决于 hook。V4 的 hook 无所不能：动态手续费、TWAP 预言机、MEV 防护、甚至准入限制。但目前，这只是江湖上的一次低调出手。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates; this signals deliberate economic design, not an organic token launch.",
+    "zh": "建造者正在部署非标准手续费的池子——要么为零，要么为最高档——而非市场常规费率；这暗示着刻意的经济设计，而非自然的代币发行。"
+   }
+  },
+  {
    "date": "2026-06-20",
    "narrative": {
     "en": "Three V4 pools dropped overnight, all with zero swap fees. Tick spacing 200 — that's a bet on tight spreads, on pairs where volatility won't eat the liquidity at the edges. First pool on block 25355373: native ETH paired with contract 0x2244...1110, hook at 0x627f...00cc. Second on block 25354958: same ETH, token 0xbe75...b000. Third on 25354993: ETH plus 0x22d4...cf5. No WETH — only the native coin. Zero fee in V4 isn't a bug, it's a signal. Either someone is seeding liquidity for tests, or they're laying groundwork for dynamic fees via hooks. The hook contracts are different on each pool — so not one dev cloning a scheme. Three different hook addresses, three different tokens, one ETH. Someone is building a deck. Tick spacing 200 for ETH pairs is fairly dense. Usually 30 bps gets 60, 5 bps gets 10. 200 tick spacing at zero fee is almost an order book. Someone clearly wants liquidity distributed across a narrow range, without losing anything to fees. Look at the block order — the second pool appeared before the first (25354958 vs 25355373), the third in between (25354993). So not a sequential deal, but parallel. Transactions came in the same window, possibly from one multi-sender wallet. No emoji, no advice. Just fact: overnight someone laid three cards on the V4 table. Suit: ETH. Bet: zero-fee liquidity. What's in the sleeve — we'll see when the hook fires.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The V4 deck is not about splashy listings; it's about silent hook experiments and organic volume growth—the market's structure is rewriting itself inside the pools, not on the order books.",
     "zh": "V4这盘棋，不在大张旗鼓的上线，而在钩子实验和成交量的暗涌——市场的筋骨，正在池子深处重写。"
-   }
-  },
-  {
-   "date": "2026-06-07",
-   "narrative": {
-    "en": "The chain logged a tokenization night. Uniswap and unipegv4 dropped the same word — 'Tokenization' — into the tape simultaneously. No context, no explanation. Just a mark sewn into the ribbon. Some will call it coincidence, but I've seen the deck shuffled from both hands in the same rhythm. uPEG keeps moving. Fifth place by MR shifted from @cutepanda to @DBSdabaisha. The community overflowed the first two groups, a third opened. Unicorns gather in a herd — this isn't noise, it's structure. When holders shift positions not through orders but through direct hands, the deck changes weight. On the other side of the suit, UNI burned a new daily record — 186,000 tokens in 24 hours. Burning accelerates, while Bankr crossed $4B+ in total volume on the Uniswap protocol. Numbers don't lie: the mechanism runs to exhaustion, and the ash from burned tokens settles on rising volume. The deep distribution on GeckoTerminal shows where real liquidity lives. USDC/USDT on V4 hook pools — $308 million in a day. That's not a speculative spike, it's base infrastructure. ETH/USDT 0.05% jumped 1286% in volume to $82 million, with TVL up 198%. People are moving capital into tight spreads. DAI/ETH reversed — volume up 140%, but TVL down 87%. Someone's pulling collateral but keeps trading. HaydenzAdams tweeted a link to the latest version — no explanation, just 'this is current.' And @lo0pio replied in thread: 'Bear markets for building.' Bears build. Everything else is noise. The night showed: tokenization isn't a word, it's a process. The deck is being reshuffled mid-hand.",
-    "zh": "链上昨夜刻下了一道‘代币化’的印记。Uniswap 和 unipegv4 同时扔出同一个词——‘Tokenization’——没有上下文，没有解释。只是嵌入链带的一个标记。有人会说这是巧合，但我见过两副牌用同一只手洗。uPEG 仍在移动。MR 第五把交椅从 @cutepanda 换到了 @DBSdabaisha。社区挤满了一群和二群，三群已经开启。独角兽聚集成群——这不是杂音，这是结构。当持有者不通过订单、而是直接用手转移仓位时，牌局的重心就变了。另一面，UNI 烧出了新的日纪录——24 小时内 186,000 枚代币。燃烧在加速，而 Bankr 在 Uniswap 协议上的总交易量突破了 40 亿美元。数字不会说谎：机制在极限运转，烧毁的灰烬落在增长的量上。GeckoTerminal 上的深度分布揭示了真实流动性所在。USDC/USDT 在 V4 hook 池——单日 3.08 亿美元。这不是投机性的脉冲，这是底层基础设施。ETH/USDT 0.05% 交易量飙升 1286% 至 8200 万美元，TVL 增长 198%。人们正把资本注入窄利差。DAI/ETH 则相反——交易量增长 140%，但 TVL 下跌 87%。有人在抽走抵押品，却继续交易。HaydenzAdams 发了一条推文，链接到最新版本——没有解释，只是‘这是最新的’。而 @lo0pio 在回复中写道：‘熊市是用来建设的。’熊在建设。其他都是杂音。昨夜揭示了：代币化不是词汇，而是过程。牌局正在行进中重新洗牌。"
-   },
-   "take": {
-    "en": "Tokenization is the mark on the felt; the deck is already moving beneath it.",
-    "zh": "代币化是刻在江湖上的印记；牌局已在暗处重新洗过。"
    }
   }
  ]
