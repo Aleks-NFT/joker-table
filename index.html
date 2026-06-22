@@ -23,8 +23,6 @@
   ::selection { background: #E8B04B; color: #0E0E10; }
   .pool-card { animation: deal 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
   a { color: inherit; text-decoration: underline; text-decoration-color: rgba(232,176,75,0.5); }
-  @keyframes wirepulse { 0%,100%{opacity:1;} 50%{opacity:0.25;} }
-  @keyframes wirein { from{opacity:0;transform:translateY(-6px);} to{opacity:1;transform:translateY(0);} }
 </style>
 </head>
 <body>
@@ -137,13 +135,6 @@
         <div style="flex: 1; height: 1px; background: #26262C;"></div>
         <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">every shuffle, on the record</span>
       </div>
-      <div style="display: flex; align-items: baseline; gap: 14px;">
-        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">LIVE WIRE</h2>
-        <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#E3354E;animation:wirepulse 1.6s ease-in-out infinite;"></span>
-        <div style="flex: 1; height: 1px; background: #26262C;"></div>
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">realtime &middot; straight from the chain</span>
-      </div>
-      <div id="live-wire-feed" style="display: flex; flex-direction: column; border: 1px solid #26262C; background: #121215; min-height: 44px;"></div>
       <div id="ticker-feed" style="display: flex; flex-direction: column; border: 1px solid #26262C; background: #121215;"></div>
     </section>
 
@@ -417,35 +408,6 @@
       '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12.5px;color:#B9B2A0;flex:1;min-width:220px;">' + body + "</span>" +
     "</div>";
   }).join("");
-
-  // ---- LIVE WIRE: realtime-хвост, опрос ticker_live.json каждые 30с ----
-  var wireSuit = { spade: "\u2660", heart: "\u2665", diamond: "\u2666", club: "\u2663" };
-  function renderWire(items) {
-    var feed = document.getElementById("live-wire-feed");
-    if (!feed) return;
-    if (!items || !items.length) {
-      feed.innerHTML = '<div style="padding:11px 15px;font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:#8E887A;">Waiting for the next deal\u2026</div>';
-      return;
-    }
-    feed.innerHTML = items.map(function (t, i) {
-      var su = wireSuit[t.suit] || "\u2666";
-      var body = t.url ? '<a href="' + esc(t.url) + '" rel="noopener">' + esc(t.text) + "</a>" : esc(t.text);
-      return '<div style="display:flex;gap:13px;align-items:baseline;flex-wrap:wrap;padding:11px 15px;border-bottom:1px solid #1B1B20;background:' + (i === 0 ? "rgba(227,53,78,0.05)" : "transparent") + ';animation:wirein 0.45s ease forwards;">' +
-        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';min-width:80px;">' + esc(String(t.ts).slice(5, 10) + " " + String(t.ts).slice(11, 16)) + "</span>" +
-        '<span style="font-size:13px;line-height:1;color:' + suitColor(su) + ';">' + su + "</span>" +
-        '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:12px;letter-spacing:0.5px;color:' + INK + ';">' + esc(String(t.source || "").toUpperCase()) + "</span>" +
-        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12.5px;color:#B9B2A0;flex:1;min-width:220px;">' + body + "</span>" +
-      "</div>";
-    }).join("");
-  }
-  function pollWire() {
-    fetch("./data/ticker_live.json", { cache: "no-store" })
-      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
-      .then(function (d) { renderWire(d.items || []); })
-      .catch(function () { /* тихо: лента не должна падать */ });
-  }
-  pollWire();
-  setInterval(pollWire, 30000);
 })();
 </script>
 </body>
