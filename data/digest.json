@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-22",
+   "narrative": {
+    "en": "Two decks on the felt. One stack holds zeros. The other holds an address that is both hook and token in a single hand. Pool ID 0x594e8b83eb1ff6ffada65542d3881bd2aafbf89f28ccbeba1d8ab04dae97b1e4 fixed itself on block 25369082. You look at the fee tier 3000 and tickSpacing 60 — standard cut for pairs where volatility hasn't yet turned to noise. But the hooks contract matches one of the tokens. That's not a bug. It's a declaration: the contract decides for itself when and how to shuffle liquidity. No one asked permission. V4 pools don't knock on the door — they just appear. And this particular hook is written so its logic is inseparable from the token. If anyone wants to pull liquidity, they'll have to talk to their own mirror. The night is quiet. No alarms in the mempool. No one flash-loaned to probe the edges. Just someone laid out the deck and left it on the table. Maybe a test. Maybe the first move in a game where zeros and addresses have swapped roles. Watch that pool ID. It doesn't shout. It waits for someone else to make the first move.",
+    "zh": "两副牌摊在桌上。一叠是零，另一叠是一个地址，它既是钩子又是代币，合二为一。池子ID 0x594e8b83eb1ff6ffada65542d3881bd2aafbf89f28ccbeba1d8ab04dae97b1e4在区块25369082上定了位。你看那费率层级3000和tick间距60——对于波动尚未变成噪音的交易对来说，这是标准切法。但钩子合约与其中一个代币相同。这不是bug，这是声明：合约自己决定何时以及如何洗牌流动性。没人问过许可。V4池子不敲门——它们直接出现。而这个特定钩子的写法使得其逻辑与代币不可分割。如果有人想抽走流动性，他得跟自己的镜像对话。夜很静。内存池里没有警报。没人用闪电贷试探边界。只是有人摆好了牌，留在了桌上。也许是测试，也许是零和地址互换角色的第一手。盯着那个池子ID。它不喊叫。它在等别人先出招。"
+   },
+   "take": {
+    "en": "The hook is the token, the token is the hook — this pool is a closed loop, and the house is the mirror.",
+    "zh": "钩即是币，币即是钩——这个池子是个闭环，庄家就是自己的影子。"
+   }
+  },
+  {
    "date": "2026-06-21",
    "narrative": {
     "en": "Four pools in an hour. Same pattern: zero fee, tick spacing 200, and three of them share the same hook contract: 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc. Only the third pool breaks the mold with a different hook, 0x68c463f0c8ad1131eac043b035618223d3caeacc. But the structure is identical: WETH (zero address) paired with tokens ending in 1110 or 3000. Three tokens share the 1110 suffix: 0xcfa67a2fcbc6d3f373f0005daa765eb1cb5d1110, 0xda5e4d175f2dcb6009d80f81ee6efb68d9411110, 0xa2152be54519ccd7840a43736619ec78551d1110. The fourth token, 0x8adc1ae730f7632e8b809085409b8d89d7b63000, follows a different pattern with a different hook. Coincidence? Unlikely. Zero-fee pools with hooks in V4 aren't for retail trading—they're for mechanics. These pools are typically test beds, internal routing, or preparation for something larger. Three pools with the same hook suggest one developer or team deploying a series. The fourth might be a parallel branch or a different player with the same idea. Blocks come in a steady rhythm: 25361654, 25361695, 25362058, 25362196—gaps of 41, 363, and 138 blocks. Not a rush, but confident pacing. Someone is sitting calmly, clicking 'create.' Pool ID is a hash of tokens, fee, and hook. Same hook, different tokens, different pools. What they'll do is a question for the hook. V4 hooks can do anything: dynamic fees, TWAP oracles, MEV protection, even entry restrictions. But for now, it's a quiet deal on the felt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Twelve unique hook contracts in one night, zero repeats—someone is stress-testing the V4 playbook, and the market is the lab.",
     "zh": "十二个钩子合约一夜之间全换了新面孔，一个重复的都没有——有人在拿市场当练功房，V4这套拳法已经打熟了。"
-   }
-  },
-  {
-   "date": "2026-06-08",
-   "narrative": {
-    "en": "The night was quiet, but the Uniswap V4 deck is being reshuffled with fresh force. Two fresh hook-enabled pools have cracked the GeckoTerminal top 50: CTM/ETH with volume just shy of two and a half million and TVL of two million, and OPN/USDT 0.3%—one point five million in volume, one point one million in liquidity. Someone is clearly testing new mechanics, sliding liquidity into off-suit hands. The ETH/USDT 0.05% pair added 110% to its volume—172 million in a single day. That's no ripple; that's a wave. DAI/ETH 0.3% posted 135% volume growth and a 338% TVL surge to 21.5 million. A stablecoin paired with ether is gaining traction, as if someone is quietly building a position under the noise. Meanwhile, cbBTC/WBTC 0.005% tanked 85% to four million. Bitcoin pairs are losing their grip, ceding ground to ether's deals. Among the top five hooks by volume, the picture is clear: ETH/USDT 0.05% leads, followed by USDC/USDT at 145 million, USDT/USDS at 46.5, DAI/ETH at 41.4, and USDe/USDT 0.005% closing with 11 million. Stable pairs dominate, but the ether suit is cutting through with increasing aggression. A separate line: tweets from @unipegv4. A retweet about ethereum:native, another about the community starting to mint merch around address 0x44b2...125505. The idea: a store selling goods for USDT, with profits flowing into the treasury. For now, it's a whisper, but if the community picks it up, it could spark a new wave of liquidity. The V4 deck is revealing itself not through loud listings, but through quiet experiments with hooks and organic volume growth. Those who track these currents see how the market's structure is shifting—not on exchanges, but inside the pools themselves.",
-    "zh": "昨夜江湖风平浪静，但Uniswap V4这盘棋，暗流涌动。GeckoTerminal前五十名里，两个新池子悄然杀入：CTM/ETH，成交二百五十万，锁仓二百万；OPN/USDT 0.3%，成交一百五十万，流动性一百一十万。有人在试新招式，把内力注入非常规的池子。ETH/USDT 0.05%日成交暴涨110%，一亿七千二百万——这不是涟漪，是浪头。DAI/ETH 0.3%成交涨135%，锁仓量狂飙338%，冲到两千一百五十万。稳定币配以太坊，像是有人趁乱悄悄布阵。反观cbBTC/WBTC 0.005%，暴跌85%，只剩四百万。比特币门派的气力在消退，以太坊的牌面越来越硬。交易量前五的钩子池，格局分明：ETH/USDT 0.05%领跑，USDC/USDT一亿四千五百万紧随，USDT/USDS四千六百五十万，DAI/ETH四千一百四十万，USDe/USDT 0.005%收尾一千万。稳定币对子占山为王，但以太坊的剑气越来越凌厉。另一条线：@unipegv4的推文。转推了ethereum:native，又转推社区开始围绕地址0x44b2...125505做周边。主意是开个店，卖货收USDT，利润归金库。眼下只是风声，但若社区响应，可能引来新一波内力。V4这盘棋，不是靠大张旗鼓的上线，而是靠钩子实验和成交量的自然生长。看透这些暗流的人，才明白市场筋骨在变——不在交易所，而在池子深处。"
-   },
-   "take": {
-    "en": "The V4 deck is not about splashy listings; it's about silent hook experiments and organic volume growth—the market's structure is rewriting itself inside the pools, not on the order books.",
-    "zh": "V4这盘棋，不在大张旗鼓的上线，而在钩子实验和成交量的暗涌——市场的筋骨，正在池子深处重写。"
    }
   }
  ]
