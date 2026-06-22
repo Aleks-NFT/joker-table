@@ -16,6 +16,8 @@
     100% { opacity: 1; transform: translate(0, 0) rotate(0deg); }
   }
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+  @keyframes wirepulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+  @keyframes wirein { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
   @media (prefers-reduced-motion: reduce) {
     [data-deal], .pool-card { animation: none !important; opacity: 1 !important; transform: none !important; }
     [data-pulse] { animation: none !important; }
@@ -128,7 +130,18 @@
       </div>
     </section>
 
-    <!-- ============ ZONE 4 · LIVE TICKER ============ -->
+    <!-- ============ ZONE 4 · LIVE WIRE (realtime, Goldsky webhook) ============ -->
+    <section id="live-wire" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.62s forwards;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">LIVE WIRE</h2>
+        <span style="display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #E3354E; align-self: center; animation: wirepulse 1.6s ease-in-out infinite;"></span>
+        <div style="flex: 1; height: 1px; background: #26262C;"></div>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">realtime &middot; straight from the chain</span>
+      </div>
+      <div id="live-wire-feed" style="display: flex; flex-direction: column; border: 1px solid #26262C; background: #121215; min-height: 44px;"></div>
+    </section>
+
+    <!-- ============ ZONE 5 · LIVE TICKER ============ -->
     <section id="live-ticker" data-deal style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.66s forwards;">
       <div style="display: flex; align-items: baseline; gap: 14px;">
         <h2 style="margin: 0; font-family: 'Silkscreen', monospace; font-weight: 400; font-size: 13px; letter-spacing: 3px; color: #E8B04B;">LIVE TICKER</h2>
@@ -394,7 +407,7 @@
     "</tr>";
   }).join("");
 
-  // ---- zone 4: ticker ----
+  // ---- zone 5: ticker ----
   var suitChar = { spade: "\u2660", heart: "\u2665", diamond: "\u2666", club: "\u2663" };
   $("ticker-feed").innerHTML = (ticker.items || []).map(function (t, i) {
     var su = suitChar[t.suit] || "\u2022";
@@ -410,5 +423,52 @@
   }).join("");
 })();
 </script>
+
+<!-- ============ LIVE WIRE · independent realtime poller (Goldsky webhook -> ticker_live.json) ============ -->
+<script>
+(function () {
+  "use strict";
+  var INK = "#F4EEDE", RED = "#E3354E", MUT = "#8E887A";
+  function escW(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  var wireSuit = { spade: "\u2660", heart: "\u2665", diamond: "\u2666", club: "\u2663" };
+  function suitColorW(su) { return (su === "\u2665" || su === "\u2666") ? RED : INK; }
+
+  function renderWire(items) {
+    var feed = document.getElementById("live-wire-feed");
+    if (!feed) return;
+    if (!items || !items.length) {
+      feed.innerHTML = '<div style="padding:11px 15px;font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:#8E887A;">Waiting for the next deal\u2026</div>';
+      return;
+    }
+    feed.innerHTML = items.map(function (t, i) {
+      var su = wireSuit[t.suit] || "\u2666";
+      var body = t.url ? '<a href="' + escW(t.url) + '" rel="noopener">' + escW(t.text) + "</a>" : escW(t.text);
+      return '<div style="display:flex;gap:13px;align-items:baseline;flex-wrap:wrap;padding:11px 15px;border-bottom:1px solid #1B1B20;background:' + (i === 0 ? "rgba(227,53,78,0.05)" : "transparent") + ';animation:wirein 0.45s ease forwards;">' +
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';min-width:80px;">' + escW(String(t.ts).slice(5, 10) + " " + String(t.ts).slice(11, 16)) + "</span>" +
+        '<span style="font-size:13px;line-height:1;color:' + suitColorW(su) + ';">' + su + "</span>" +
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:12px;letter-spacing:0.5px;color:' + INK + ';">' + escW(String(t.source || "").toUpperCase()) + "</span>" +
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12.5px;color:#B9B2A0;flex:1;min-width:220px;">' + body + "</span>" +
+      "</div>";
+    }).join("");
+  }
+
+  function pollWire() {
+    fetch("./data/ticker_live.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : { items: [] }; })
+      .then(function (d) { renderWire((d && d.items) || []); })
+      .catch(function () { /* lent silently; wire must never break the page */ });
+  }
+
+  // показать заглушку сразу, потом начать опрос
+  renderWire([]);
+  pollWire();
+  setInterval(pollWire, 30000);
+})();
+</script>
+
 </body>
 </html>
