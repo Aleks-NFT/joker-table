@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-22T13:15:36Z",
- "total_hooks": 1515,
- "total_pools": 5228,
- "multi_pool_hooks": 105,
- "shown": 105,
+ "generated_at": "2026-06-22T14:15:36Z",
+ "total_hooks": 1525,
+ "total_pools": 5249,
+ "multi_pool_hooks": 106,
+ "shown": 106,
  "more_count": 0,
  "hooks": [
   {
@@ -163,7 +163,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 215,
+   "pool_count": 216,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -177,7 +177,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25372615,
+   "last_block": 25373446,
    "visible": true
   },
   {
@@ -356,6 +356,23 @@
    "visible": false
   },
   {
+   "address": "0xdfa04b8b60bf496594a3c256512409fba5a94080",
+   "address_short": "0xdfa0…4080",
+   "name": "WhitelistHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
+   "pool_count": 26,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap"
+   ],
+   "first_block": 25324826,
+   "last_block": 25373373,
+   "visible": false
+  },
+  {
    "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
    "address_short": "0x6533…2acc",
    "name": "Sa1tHookV2",
@@ -379,23 +396,6 @@
    ],
    "first_block": 25326152,
    "last_block": 25371427,
-   "visible": false
-  },
-  {
-   "address": "0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "address_short": "0xdfa0…4080",
-   "name": "WhitelistHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "pool_count": 23,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeSwap"
-   ],
-   "first_block": 25324826,
-   "last_block": 25352229,
    "visible": false
   },
   {
@@ -633,6 +633,29 @@
    ],
    "first_block": 25221360,
    "last_block": 25338942,
+   "visible": false
+  },
+  {
+   "address": "0x3dd864a80cc5dc3d6e3f4e1a6af92b0d2047e888",
+   "address_short": "0x3dd8…e888",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x3dd864a80cc5dc3d6e3f4e1a6af92b0d2047e888",
+   "pool_count": 8,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25373181,
+   "last_block": 25373232,
    "visible": false
   },
   {
