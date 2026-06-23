@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-23T04:15:44Z",
+ "generated_at": "2026-06-23T05:15:34Z",
  "total_hooks": 1550,
  "total_pools": 5307,
  "multi_pool_hooks": 108,
@@ -638,8 +638,8 @@
   {
    "address": "0x3dd864a80cc5dc3d6e3f4e1a6af92b0d2047e888",
    "address_short": "0x3dd8…e888",
-   "name": "",
-   "verified": false,
+   "name": "RingAggregatorHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x3dd864a80cc5dc3d6e3f4e1a6af92b0d2047e888",
    "pool_count": 8,
    "permissions_human": [
@@ -661,8 +661,8 @@
   {
    "address": "0xa3580c07cd34627c38f5965310a9b37196b9b0c8",
    "address_short": "0xa358…b0c8",
-   "name": "",
-   "verified": false,
+   "name": "OrbitHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa3580c07cd34627c38f5965310a9b37196b9b0c8",
    "pool_count": 8,
    "permissions_human": [
@@ -860,8 +860,8 @@
   {
    "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
    "address_short": "0x2cb7…68cc",
-   "name": "",
-   "verified": false,
+   "name": "ClankerHookStaticFeeV2",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
    "pool_count": 4,
    "permissions_human": [
