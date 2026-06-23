@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-23",
+   "narrative": {
+    "en": "The deal hits the felt again. Ten new V4 hook pools in a single day, and if you think that's just blockchain noise, you've already folded. Most are paired with ETH — standard play — but the real tell is the hook contracts. Four pools share the same hook address: 0x96b893683afbfec071e90f78d00de4bb932fe0cc. That address laid down three pools with tokens 0x631aa4f8d097fe71ff44892f929d513019d0a62d, 0x1c60350d6efb580fa30d7f5714834c961e14ac6a, and 0x7eaa630332a02baf70e3ec4ad24b9f101f662b50 — all with zero swap fee. This isn't about trading; it's about something else. The hook is running its own logic, independent of the swap fee. Zero fee with a wide liquidity funnel — no LP sits there for yield. Another pattern: pools with fee set to 8388608. That's not a standard fee — it's a flag in hex, 0x800000. The hook uses a bitmask for custom fee math or distribution. Two such pools: one with token 0x1c66cb13b9a33b5e9c4f62a82ea9ae6ac62fa0cc — and note, the hook contract is the same as the token. Self-hook, the contract calls itself. The second with token 0xa4e2af01f1c06fcb46f88aa90fb226086258bb8c and hook 0x37343de810954364944ce92935cbb8f4c67100cc. And one more: a WETH pool with token 0x00000000c8e2db16f28bb8c89e5cea85ff266836, standard fee 3000, standard tick spacing 60. But the hook contract is 0xf455785a5fb80cd22078c47ac98193b0. The house is stacking the deck with custom hooks, not standard liquidity.",
+    "zh": "牌局又开了一轮。一天之内，十个新的 V4 hook 池子落地。如果觉得这只是链上技术标记，那你已经输了。多数池子对的是 ETH——常规打法——但真正的门道在 hook 合约里。四个池子共用同一个 hook 地址：0x96b893683afbfec071e90f78d00de4bb932fe0cc。这个地址布下了三个池子，代币分别是 0x631aa4f8d097fe71ff44892f929d513019d0a62d、0x1c60350d6efb580fa30d7f5714834c961e14ac6a 和 0x7eaa630332a02baf70e3ec4ad24b9f101f662b50——全部零手续费。这不是为了交易，是为了别的东西。hook 在运行自己的逻辑，跟交易费无关。零手续费加宽流动性漏斗——没有 LP 会为了收益坐在这里。另一个模式：手续费设为 8388608 的池子。这不是标准费率——十六进制是 0x800000，一个标志位。hook 用位掩码实现自定义费用计算或分配。两个这样的池子：一个代币是 0x1c66cb13b9a33b5e9c4f62a82ea9ae6ac62fa0cc——注意，hook 合约和代币是同一个地址。自 hook，合约调用自己。另一个代币 0xa4e2af01f1c06fcb46f88aa90fb226086258bb8c，hook 是 0x37343de810954364944ce92935cbb8f4c67100cc。还有一个 WETH 池子，代币 0x00000000c8e2db16f28bb8c89e5cea85ff266836，标准费率 3000，标准 tick 间距 60。但 hook 合约是 0xf455785a5fb80cd22078c47ac98193b0。庄家在牌里做了手脚，用的不是标准流动性，而是自定义 hook。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
+    "zh": "建造者正在部署非标准手续费的池子——要么零费率，要么最高档——而不是常见的市场费率。这说明经济设计别有用心：收入通过 hook 而非交易收取，不是自然的代币发行。"
+   }
+  },
+  {
    "date": "2026-06-22",
    "narrative": {
     "en": "Two decks on the felt. One stack holds zeros. The other holds an address that is both hook and token in a single hand. Pool ID 0x594e8b83eb1ff6ffada65542d3881bd2aafbf89f28ccbeba1d8ab04dae97b1e4 fixed itself on block 25369082. You look at the fee tier 3000 and tickSpacing 60 — standard cut for pairs where volatility hasn't yet turned to noise. But the hooks contract matches one of the tokens. That's not a bug. It's a declaration: the contract decides for itself when and how to shuffle liquidity. No one asked permission. V4 pools don't knock on the door — they just appear. And this particular hook is written so its logic is inseparable from the token. If anyone wants to pull liquidity, they'll have to talk to their own mirror. The night is quiet. No alarms in the mempool. No one flash-loaned to probe the edges. Just someone laid out the deck and left it on the table. Maybe a test. Maybe the first move in a game where zeros and addresses have swapped roles. Watch that pool ID. It doesn't shout. It waits for someone else to make the first move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is dealing a quiet hand: twelve V4 pools, zero fees, hook-driven — this isn't a trade floor, it's a laboratory.",
     "zh": "江湖夜雨，十二池无声起——零费率、hook 驱动，这不是赌桌，是演武场。"
-   }
-  },
-  {
-   "date": "2026-06-09",
-   "narrative": {
-    "en": "Twelve fresh V4 pools hit the felt in a single night, hooks and all, dealt out block by block like a slow roll. The first hand opened with a zero-address token and 0x49a..., thirty basis points on the vig, tick sixty. The hook contract 0x8048... had already been spotted in earlier rounds—nothing new under the house lights. Then came USDC/USDT, zero fee, tick one—the classic stablecoin corridor, but with hooks from a different deck, 0x2cf7..., a face I hadn't seen before. Another zero-address pair followed with 0x69b5..., tick two hundred, and the same hook set 0x96b8... that would show up again later with 0x693e.... Mid-block at 25276538, a token 0x5b76... paired with hooks 0xeeb8...—a fresh contract, no history on the table. From there, five pools in a row, a run of familiar hooks 0xb453... mixed with new ones: 0x068f..., 0x2ad8..., 0x6c24.... The outlier came at block 25275975: tokens 0x268b... and WETH, commission 8,388,608—that's no typo, eight million three hundred eighty-eight thousand six hundred eight. Tick two hundred, hooks 0x6c24.... That kind of fee suggests something off-book, maybe dynamic pricing or a custom logic trap. The last pool of the night closed with token 0x0f35..., hooks 0x9676..., zero fee, tick sixty. Final block: 25276648. Not a single hook contract repeated across the entire deal—every one unique. Someone's running a full suite of tests in one session, mixing stablecoins, memes, and WETH pairs like a dealer shuffling suits. V4 with hooks isn't an experiment anymore; it's the new routine. The night shift is over, but the house is still taking bets.",
-    "zh": "一夜之间，十二个新的V4池子带着钩子落桌，几十个区块的间隔里，牌局没停过。第一手是零地址和0x49a...代币，三十基点手续费，步长六十——钩子合约0x8048...之前已经亮过相，不算生面孔。接着USDC/USDT上场，零费率，步长一，典型的稳定币走廊，但钩子换了，0x2cf7...，不是老熟人。然后又一对零地址配0x69b5...，步长两百，钩子0x96b8...，后来又在0x693e...的池子里露了脸。区块25276538中段跳出一个池子，代币0x5b76...，钩子0xeeb8...——全新合约，江湖上没听过。之后一连五个池子，老钩子0xb453...和新面孔0x068f...、0x2ad8...、0x6c24...交替登场。最扎眼的是区块25275975那个池子：代币0x268b...配WETH，手续费8388608——不是笔误，八百三十八万八千六百零八。步长两百，钩子0x6c24...。这个费率不像常规路子，要么是动态定价，要么藏着什么特殊逻辑。最后一手在区块25276648收场，代币0x0f35...，钩子0x9676...，零费率，步长六十。整晚十二个池子，钩子合约一个没重样——每个都是独门。有人在一次交易会话里试遍了不同策略，稳定币、迷因、WETH对子，花色全混着来。V4带钩子已经不是试验了，成了日常。夜场散了，但庄家还在发牌。"
-   },
-   "take": {
-    "en": "Twelve unique hook contracts in one night, zero repeats—someone is stress-testing the V4 playbook, and the market is the lab.",
-    "zh": "十二个钩子合约一夜之间全换了新面孔，一个重复的都没有——有人在拿市场当练功房，V4这套拳法已经打熟了。"
    }
   }
  ]
