@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-23T15:15:34Z",
- "total_hooks": 1562,
- "total_pools": 5321,
+ "generated_at": "2026-06-23T16:15:35Z",
+ "total_hooks": 1564,
+ "total_pools": 5331,
  "multi_pool_hooks": 108,
  "shown": 108,
  "more_count": 0,
@@ -32,7 +32,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 418,
+   "pool_count": 422,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -48,7 +48,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25347477,
+   "last_block": 25381326,
    "visible": true
   },
   {
@@ -139,6 +139,29 @@
    "visible": true
   },
   {
+   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "address_short": "0x96b8…e0cc",
+   "name": "UniversalKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "pool_count": 237,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118285,
+   "last_block": 25381259,
+   "visible": true
+  },
+  {
    "address": "0x89ddb5acd945070f06c2de77a5379e2086be8088",
    "address_short": "0x89dd…8088",
    "name": "",
@@ -155,29 +178,6 @@
    ],
    "first_block": 25256732,
    "last_block": 25256797,
-   "visible": true
-  },
-  {
-   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "address_short": "0x96b8…e0cc",
-   "name": "UniversalKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 233,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25118285,
-   "last_block": 25380711,
    "visible": true
   },
   {
