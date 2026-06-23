@@ -1,19 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-23T03:15:45Z",
- "new_pools_24h": 89,
- "new_pools_7d": 1195,
+ "generated_at": "2026-06-23T04:15:44Z",
+ "new_pools_24h": 91,
+ "new_pools_7d": 1191,
  "unique_hook_contracts": 1550,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 421.072993551526,
-   "pct_24h": -7.405,
-   "vol_24h_usd": 93224.8047137604,
-   "liquidity_usd": 870719.1783,
+   "price_usd": 404.791375856222,
+   "pct_24h": -12.391,
+   "vol_24h_usd": 115853.564817024,
+   "liquidity_usd": 841181.7687,
    "liq_class": "deep",
-   "vol_class": "mid"
+   "vol_class": "high"
   },
   {
    "ticker": "UPEGSTR",
@@ -21,7 +21,7 @@
    "price_usd": 8.79563211336619e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 2.6134189778,
-   "liquidity_usd": 79794.4234,
+   "liquidity_usd": 79707.592,
    "liq_class": "mid",
    "vol_class": "low"
   }
