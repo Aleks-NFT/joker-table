@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-24T15:15:34Z",
- "total_hooks": 1595,
- "total_pools": 5393,
+ "generated_at": "2026-06-24T16:15:35Z",
+ "total_hooks": 1597,
+ "total_pools": 5396,
  "multi_pool_hooks": 111,
  "shown": 111,
  "more_count": 0,
@@ -356,29 +356,12 @@
    "visible": false
   },
   {
-   "address": "0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "address_short": "0xdfa0…4080",
-   "name": "WhitelistHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "pool_count": 26,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeSwap"
-   ],
-   "first_block": 25324826,
-   "last_block": 25373373,
-   "visible": false
-  },
-  {
    "address": "0x653314b5175877266fcf5f76b953e4181d262acc",
    "address_short": "0x6533…2acc",
    "name": "Sa1tHookV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
-   "pool_count": 25,
+   "pool_count": 26,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -395,7 +378,24 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25326152,
-   "last_block": 25384272,
+   "last_block": 25388511,
+   "visible": false
+  },
+  {
+   "address": "0xdfa04b8b60bf496594a3c256512409fba5a94080",
+   "address_short": "0xdfa0…4080",
+   "name": "WhitelistHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
+   "pool_count": 26,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap"
+   ],
+   "first_block": 25324826,
+   "last_block": 25373373,
    "visible": false
   },
   {
