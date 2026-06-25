@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T04:15:34Z",
+ "generated_at": "2026-06-25T05:15:34Z",
  "total_hooks": 1610,
  "total_pools": 5419,
  "multi_pool_hooks": 111,
@@ -2156,8 +2156,8 @@
   {
    "address": "0xbba49ba998fc656136bb841d676ec676512840c0",
    "address_short": "0xbba4…40c0",
-   "name": "",
-   "verified": false,
+   "name": "DynamicFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbba49ba998fc656136bb841d676ec676512840c0",
    "pool_count": 2,
    "permissions_human": [
