@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T19:15:45Z",
- "total_hooks": 1633,
- "total_pools": 5466,
+ "generated_at": "2026-06-25T20:15:34Z",
+ "total_hooks": 1638,
+ "total_pools": 5474,
  "multi_pool_hooks": 113,
  "shown": 113,
  "more_count": 0,
@@ -144,7 +144,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 255,
+   "pool_count": 257,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -158,7 +158,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25395590,
+   "last_block": 25396519,
    "visible": true
   },
   {
@@ -573,6 +573,29 @@
    "visible": false
   },
   {
+   "address": "0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
+   "address_short": "0x0025…0fc0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
+   "pool_count": 9,
+   "permissions_human": [
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeAddLiquidity",
+    "afterAddLiquidity",
+    "beforeRemoveLiquidity",
+    "afterRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 25176212,
+   "last_block": 25396743,
+   "visible": false
+  },
+  {
    "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
    "address_short": "0x2cb7…68cc",
    "name": "ClankerHookStaticFeeV2",
@@ -614,29 +637,6 @@
    ],
    "first_block": 25248809,
    "last_block": 25248809,
-   "visible": false
-  },
-  {
-   "address": "0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
-   "address_short": "0x0025…0fc0",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
-   "pool_count": 8,
-   "permissions_human": [
-    "manages liquidity",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeAddLiquidity",
-    "afterAddLiquidity",
-    "beforeRemoveLiquidity",
-    "afterRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap"
-   ],
-   "first_block": 25176212,
-   "last_block": 25276973,
    "visible": false
   },
   {
