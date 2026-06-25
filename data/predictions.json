@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 14,
+  "total": 15,
   "hit": 0,
   "miss": 0,
-  "open": 14,
+  "open": 15,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 15,
+   "made_at": "2026-06-25",
+   "text": "Over the next 7 days the count will exceed 357, as builders continue deploying pools with deliberately extreme fee tiers to test hook-based revenue models.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-02",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 14,
    "made_at": "2026-06-24",

@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-25",
+   "narrative": {
+    "en": "The night was quiet, but the deck dealt its cards anyway. Five new V4 pools on Uniswap, all in a single block — 25391128 — and these aren't just numbers. Two of them launched simultaneously, sharing the same WETH but paired with different tokens and built with opposing architectures. The first pairs WETH with USDT, using a minimal swap fee and the tightest price step — a classic stable pair. Its hook contract watches liquidity breathe. The second pairs WETH with an unknown token, but charges the maximum possible swap fee — near 84 basis points. That's not a mistake. That's a signal: either high volatility is expected, or retail liquidity providers are being deliberately shut out. A third pool appears one block later, again with a minimal fee and tight spread, same WETH, another unknown token. Then a standard mid-volatility pool with a 0.3% fee. And finally a USDC/USDT stable pair with the tightest spread. Every single one uses hooks. Not a single bare V4 pool. Two pools with the same WETH but wildly different fees — like two hands playing against the same deck. No big names among the tokens. Only USDT, USDC, and three unknown contracts. Who launched them is invisible. But they know exactly what they're doing. Especially the one who set that near-84-basis-point fee. He's either expecting a storm, or he's about to make one.",
+    "zh": "昨夜江湖风平浪静，但牌局依然在发牌。Uniswap V4 在一夜之间连开五座新池，其中两座几乎同时诞生，共享同一个 WETH，却配了不同的对手和截然不同的内力架构。第一座池子，WETH 对 USDT，手续费极低，价格步长最窄——这是稳定币对的标准打法。它的钩子合约像一位隐士，静静观察着流动性的呼吸。第二座池子，WETH 对一枚无名代币，手续费却拉到了最高——接近八十四基点。这不是失误。这是明牌：要么预期风浪将至，要么故意将散户做市商挡在门外。第三座池子紧随其后，同样是低手续费、窄步长，WETH 对另一枚无名币。然后是标准的中等波动池，手续费千分之三。最后是一座 USDC/USDT 稳定币池，窄步长。所有池子都装了钩子，没有一座是裸奔的 V4。两座池子用同一个 WETH，手续费却天差地别——就像两只手在跟同一副牌。代币里没有大派名号，只有 USDT、USDC 和三枚不知底细的合约。谁布的局，看不穿。但他们显然知道自己在做什么。尤其是那个设了最高手续费的人——他要么在等一场风暴，要么自己就是风暴。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with deliberately non-standard swap fees — either the minimum or the maximum — signaling that revenue is extracted through the hook, not the swap, and that these are engineered economic experiments, not organic token launches.",
+    "zh": "建造者们正在部署手续费极低或极高的池子，而非市场常规费率——这意味着收入通过钩子而非交换来抽取，这些是精心设计的经济实验，而非自然的代币发行。"
+   }
+  },
+  {
    "date": "2026-06-24",
    "narrative": {
     "en": "The table's been set, and the cards are no accident. Fourteen fresh V4 hook pools in a single day, each with its own signature. First wave: three pools sharing one hook contract, same ETH base, three different tokens. Fee at 100, tick spacing at 1 — a scalper's delight, micro-stepping through the spread. Then the twist: a pool where the token address and the hook address are one and the same. Fee maxed at 8388608, spacing 60. This isn't a bug; it's a private club, a closed-loop design where the hook is its own token. Next, six zero-fee pools in a row, three different hooks, spacings of 60 or 200. Zero fees on V4 with hooks isn't charity — it's a data play, an oracle strategy, a prelude to something that only reveals itself after the first swap. And then the clincher: three pools on the same pair, same hook, but three different parameter sets — 50000/1000, 50100/1002, 49900/998. A deliberate offset of 100 basis points and 2 ticks. Real-time A/B testing on the felt. Finally, a max-fee pool on ETH/TokenX, followed immediately by another pool linking that same token to a second token, all under the same hook. Two pools, one hook — a bridge, not just liquidity. The deck is stacked. Someone is setting up for a move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is stacking custom-fee pools in silence—when the volume comes, the edge will be theirs.",
     "zh": "庄家在暗处布下自定义费率的池子——等流水一来，赢面就在他们手里。"
-   }
-  },
-  {
-   "date": "2026-06-11",
-   "narrative": {
-    "en": "The deal's already on the table before the first chip is laid. Block 25290599 shows a V4 pool, and the first thing that hits the felt is the zero-address paired with 0x748249be31ab2c05450b4a2c328d68028df09ab9 — not some random token, but the unmistakable signature of native currency wrapped in hook logic. The commission is 500, a standard play for mid-frequency pairs, neither aggressive nor dead. Tick spacing of 10 means a fine grid, someone expecting tight liquidity in a narrow range — not for wild candle swings, but for quiet scalping or stable swaps. The real tell is the hook contract at 0x9963ad53742fb596bc9c1ae5178d850b05d10144. V4 without hooks is a deck without jokers. This contract can shift fees dynamically, add limit orders, manage liquidity against oracles. Right now it's just appeared, but its behavior is the key to the pool's strategy. Pool ID 0xc6fc02... — long as a vault number, each one a unique combination of tokens, fee, and hook settings. This isn't standard Uniswap, it's a custom build. The pool's empty for now, but the code's on the table. The question isn't whether liquidity will show, but who will place it and how. Hooks aren't decoration — they're tools to intercept control. If this contract can influence swaps or redistribute fees, we'll see unusual dynamics. I'm watching the hook. Its first calls will tell what game they're running.",
-    "zh": "江湖上又起了一座新寨。25290599号区块，V4池子刚立，眼尖的已经看见——零地址配上了0x748249be31ab2c05450b4a2c328d68028df09ab9。这不是寻常令牌，是原生币裹着钩子逻辑的暗号。佣金五百，不高不低，中频路数，不凶不僵。tick间距十格，细网密布，有人要在窄巷子里摆摊——不是给大起大落的浪人，是给稳扎稳打的刀客。真正的杀招在钩子合约：0x9963ad53742fb596bc9c1ae5178d850b05d10144。V4没有钩子，就像剑客没有剑鞘。这钩子能调佣金、挂限价单、借预言机控流动性。现在它刚露面，但一动就露底。池子ID 0xc6fc02...，长如密匣暗码，每个ID都是令牌、佣金、钩子的独门配方。这不是寻常的Uniswap，是定制工坊。池子现在还空着，但图纸已经摊开。问题不是有没有人来，是谁来，怎么摆。钩子不是装饰，是夺权的暗器。若这合约能调换汇路、分佣金，那就有好戏看了。我盯着钩子，它头一回出手，就能看出是哪门哪派的功夫。"
-   },
-   "take": {
-    "en": "The hook is the play — its first execution reveals the strategy behind the pool.",
-    "zh": "钩子才是真章，它头一回出手，池子的底牌就亮了。"
    }
   }
  ]
