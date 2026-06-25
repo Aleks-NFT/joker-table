@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T03:15:36Z",
- "total_hooks": 1607,
- "total_pools": 5412,
+ "generated_at": "2026-06-25T04:15:34Z",
+ "total_hooks": 1610,
+ "total_pools": 5419,
  "multi_pool_hooks": 111,
  "shown": 111,
  "more_count": 0,
@@ -144,7 +144,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 248,
+   "pool_count": 249,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -158,7 +158,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25389216,
+   "last_block": 25391552,
    "visible": true
   },
   {
@@ -682,6 +682,31 @@
    "visible": false
   },
   {
+   "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
+   "address_short": "0x2cb7…68cc",
+   "name": "ClankerHookStaticFeeV2",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
+   "pool_count": 7,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25375276,
+   "last_block": 25392103,
+   "visible": false
+  },
+  {
    "address": "0x8f29bd5c8429730fa4c46e6295c4e679ededd0cc",
    "address_short": "0x8f29…d0cc",
    "name": "AegisHook",
@@ -855,31 +880,6 @@
    ],
    "first_block": 25161306,
    "last_block": 25242757,
-   "visible": false
-  },
-  {
-   "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
-   "address_short": "0x2cb7…68cc",
-   "name": "ClankerHookStaticFeeV2",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
-   "pool_count": 4,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25375276,
-   "last_block": 25377326,
    "visible": false
   },
   {
