@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-25T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25392579. Tokens: 0x0000000000000000000000000000000000000000 / 0x22f7cb13d44e6da722d92d137a7635d05b206a96. Fee:...",
+   "url": "https://etherscan.io/tx/0xedab38805671bc08078ffc852bc61ba1d2d68fec03d46d35b98b1e7dc03290c4"
+  },
+  {
+   "ts": "2026-06-25T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25392329. Tokens: 0xc64a9da9d241763e5cad5ab2c8472c6a2d4361b7 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0xa4c78ab05f3ccd290d4e173aa75b859f95cb7184b364462413c9c9980f11b09b"
+  },
+  {
+   "ts": "2026-06-25T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25392324. Tokens: 0x0000000000000000000000000000000000000000 / 0xd2c26e902511e3b1a7dcfe956918022c577fb0d8. Fee:...",
+   "url": "https://etherscan.io/tx/0x166ff3e4514f118b36d3d4794cb1541410dbfdbf1ca1c9b1009929e6d82340e7"
+  },
+  {
+   "ts": "2026-06-25T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25392159. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xd551c75fff035956d49110c6a6c46a20387fe989. Fee:...",
+   "url": "https://etherscan.io/tx/0xcdf56c514664bee195adb41de5f924d08359eb380059e76e97504fb3cbd8c02e"
+  },
+  {
    "ts": "2026-06-25T05:00:48Z",
    "suit": "spade",
    "source": "ormi",
@@ -21,6 +49,13 @@
    "source": "ormi",
    "text": "Ormi check: pool 0xdbb5af26… (hook 0x2cb78e8b…) in subgraph but missing from our hook_pools. Ingest may have missed.",
    "url": null
+  },
+  {
+   "ts": "2026-06-25T04:58:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "BhariGowda opened PR #565 in v4-periphery: 'fix: replace deprecated fuzz_runs with fuzz.runs in foundry.toml'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/565"
   },
   {
    "ts": "2026-06-25T04:30:02Z",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25389786. Tokens: 0x0000000000000000000000000000000000000000 / 0xb57017ab82a1e3949b33617d5608f34a575fc24a. Fee:...",
    "url": "https://etherscan.io/tx/0x5b8e01eafc39794f237f2d8ff6ffd3fca6f78101942981c28b647c93d26fe958"
-  },
-  {
-   "ts": "2026-06-24T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25389782. Tokens: 0x0000000000000000000000000000000000000000 / 0x5a38429878f684bcc425e0d712536864f473ccc6. Fee:...",
-   "url": "https://etherscan.io/tx/0xf5dee7effec82327a9d3873c27b956a027e468e730f382f849ba871389300969"
-  },
-  {
-   "ts": "2026-06-24T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25389549. Tokens: 0x0000000000000000000000000000000000000000 / 0x6982508145454ce325ddbe47a25d4ec3d2311933. Fee:...",
-   "url": "https://etherscan.io/tx/0x10984241b3311a1710cfc0216079fbe98270094b0bfc54ea201c1912af897932"
-  },
-  {
-   "ts": "2026-06-24T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25389361. Tokens: 0x0000000000000000000000000000000000000000 / 0xc33a2d746407d677e199b6424dcbd9458a171110. Fee:...",
-   "url": "https://etherscan.io/tx/0xbb1585faf55d28a8162bd3c609900037dc07b4e718a4c11d8a28e53694d629b4"
-  },
-  {
-   "ts": "2026-06-24T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25389216. Tokens: 0x0000000000000000000000000000000000000000 / 0x69fde50491fcd9ded7f941fb9dea24eddf0c6035. Fee:...",
-   "url": "https://etherscan.io/tx/0x86fa6e09b3553cd646f8e444623367b7c7d8b26ba9be4aa2f66a24c93d07a0df"
-  },
-  {
-   "ts": "2026-06-24T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25389187. Tokens: 0x6e71a95d5fb1b0be7adc2b24ec2fa826d4cd0bbc / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x9b028907851f1ca2ee27dfb87d33cc3d48e073b3f511f9e1a5f58a463a1a5024"
   }
  ]
 }

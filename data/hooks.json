@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T05:15:34Z",
- "total_hooks": 1610,
- "total_pools": 5419,
- "multi_pool_hooks": 111,
- "shown": 111,
+ "generated_at": "2026-06-25T06:15:34Z",
+ "total_hooks": 1612,
+ "total_pools": 5423,
+ "multi_pool_hooks": 112,
+ "shown": 112,
  "more_count": 0,
  "hooks": [
   {
@@ -636,6 +636,31 @@
    "visible": false
   },
   {
+   "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
+   "address_short": "0x2cb7…68cc",
+   "name": "ClankerHookStaticFeeV2",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
+   "pool_count": 8,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25375276,
+   "last_block": 25392159,
+   "visible": false
+  },
+  {
    "address": "0x3dd864a80cc5dc3d6e3f4e1a6af92b0d2047e888",
    "address_short": "0x3dd8…e888",
    "name": "RingAggregatorHook",
@@ -679,31 +704,6 @@
    ],
    "first_block": 25374715,
    "last_block": 25374725,
-   "visible": false
-  },
-  {
-   "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
-   "address_short": "0x2cb7…68cc",
-   "name": "ClankerHookStaticFeeV2",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
-   "pool_count": 7,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25375276,
-   "last_block": 25392103,
    "visible": false
   },
   {
@@ -1813,6 +1813,27 @@
    ],
    "first_block": 25314430,
    "last_block": 25314442,
+   "visible": false
+  },
+  {
+   "address": "0x8cec12bc7ea6b92cd330b77e163fe5dbde88c0cc",
+   "address_short": "0x8cec…c0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x8cec12bc7ea6b92cd330b77e163fe5dbde88c0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25253535,
+   "last_block": 25392579,
    "visible": false
   },
   {
