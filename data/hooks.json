@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-24T23:15:35Z",
- "total_hooks": 1603,
- "total_pools": 5407,
+ "generated_at": "2026-06-25T00:15:34Z",
+ "total_hooks": 1604,
+ "total_pools": 5409,
  "multi_pool_hooks": 111,
  "shown": 111,
  "more_count": 0,
@@ -1019,6 +1019,27 @@
    "visible": false
   },
   {
+   "address": "0xd994cfdc5464577426cbb282cdf4a3db2354e088",
+   "address_short": "0xd994…e088",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xd994cfdc5464577426cbb282cdf4a3db2354e088",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25275251,
+   "last_block": 25390776,
+   "visible": false
+  },
+  {
    "address": "0x09532ab0cdd5ceae49feaaaf67ab26b7de6ea8cc",
    "address_short": "0x0953…a8cc",
    "name": "RebelProtocol",
@@ -1194,27 +1215,6 @@
    ],
    "first_block": 25320721,
    "last_block": 25320721,
-   "visible": false
-  },
-  {
-   "address": "0xd994cfdc5464577426cbb282cdf4a3db2354e088",
-   "address_short": "0xd994…e088",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xd994cfdc5464577426cbb282cdf4a3db2354e088",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25275251,
-   "last_block": 25371435,
    "visible": false
   },
   {

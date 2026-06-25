@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-25T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25390776. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0xfc81d8d41fe85ee9dba777a23c459d68da41cf1108b413be5d2ab52ab927c2a8"
+  },
+  {
+   "ts": "2026-06-25T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25390669. Tokens: 0x0000000000000000000000000000000000000000 / 0x44f53301214488afbf61720283f7f979a2b198e1. Fee:...",
+   "url": "https://etherscan.io/tx/0x98053721650847c38b62914ae64eded4d211ef40b1b99113af56e17a6a521485"
+  },
+  {
    "ts": "2026-06-24T22:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25386716. Tokens: 0x0000000000000000000000000000000000000000 / 0xc536fad400e63b5a9d1d54d054e0adcab759be82. Fee:...",
    "url": "https://etherscan.io/tx/0x26a2a176f6f76e999ae4d8171be06cdb05df1e332cebdb518832938d76ad124a"
-  },
-  {
-   "ts": "2026-06-24T09:59:29Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 opened PR #94 in v4-template: 'Remove ignored hookData arg from initializePool call (#64)'",
-   "url": "https://github.com/Uniswap/v4-template/pull/94"
-  },
-  {
-   "ts": "2026-06-24T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25385861. Tokens: 0x0000000000000000000000000000000000000000 / 0xc0f2007fdee845023128f5a28605947d13c07ff5. Fee:...",
-   "url": "https://etherscan.io/tx/0x6a673a80ec4e5aa00e9c2eeaf80712c05d56e91442a6bffe43b9a02cfd2cfd48"
   }
  ]
 }
