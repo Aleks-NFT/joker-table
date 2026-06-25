@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394473. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x98412b8bc14c68b74f9cf6315d0ea24f32de803ac53cbb654627a417423f0c97"
+  },
+  {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394461. Tokens: 0x0000000000000000000000000000000000000000 / 0x69b02e67d81eca1e4a0467a0a3b3d263d12cd197. Fee:...",
+   "url": "https://etherscan.io/tx/0xbabe83d73faf33e7fec2db182f154965acfa109ca07955ce698d58ad84fb30b7"
+  },
+  {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394452. Tokens: 0x0000000000000000000000000000000000000000 / 0xf94ac1af0e72e910548d79af62a40ce6332fad65. Fee:...",
+   "url": "https://etherscan.io/tx/0x5045070bed97dbb0f8ce421842657b169181f17797019bdcd0815ba0f29cc442"
+  },
+  {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394287. Tokens: 0x0000000000000000000000000000000000000000 / 0x9d1a04924f4dbeac553fab8450bccb96999187b0. Fee:...",
+   "url": "https://etherscan.io/tx/0x3e5437fde64ca3c5cba20107efb2d9d2ac4e05d5af4fb6c1b03cd7527cc65a28"
+  },
+  {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394215. Tokens: 0x0000000000000000000000000000000000000000 / 0x731c49d5102bc356ac7a1ca1021c7ece374cbd28. Fee:...",
+   "url": "https://etherscan.io/tx/0x1d18e3cb21935439de4e19797373150a16034482d98e7037440f574de923a33b"
+  },
+  {
+   "ts": "2026-06-25T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25394186. Tokens: 0x0000000000000000000000000000000000000000 / 0x928e7f69e01bff4c22a5041a9123c1bbe9dfa0cc. Fee:...",
+   "url": "https://etherscan.io/tx/0x0817faef88c74a0e822ab2819691dcfea9418370585e43208a68ced43025d232"
+  },
+  {
    "ts": "2026-06-25T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "ormi",
    "text": "Ormi check: pool 0xdbb5af26… (hook 0x2cb78e8b…) in subgraph but missing from our hook_pools. Ingest may have missed.",
    "url": null
-  },
-  {
-   "ts": "2026-06-25T04:58:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "BhariGowda opened PR #565 in v4-periphery: 'fix: replace deprecated fuzz_runs with fuzz.runs in foundry.toml'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/565"
-  },
-  {
-   "ts": "2026-06-25T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $133,473,238   #2 USDe / USDT 0.005% — $34,571,239   #3 ETH / USDT 0.05% — $20,81...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-06-25T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDT / WETH TVL shrank 88% to $1,181,540",
-   "url": "https://www.geckoterminal.com/eth/pools/0x90078845bceb849b171873cfbc92db8540e9c803ff57d9d21b1215ec158e79b3"
-  },
-  {
-   "ts": "2026-06-25T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDT / WETH volume dropped 86% to $4,417,373 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x90078845bceb849b171873cfbc92db8540e9c803ff57d9d21b1215ec158e79b3"
-  },
-  {
-   "ts": "2026-06-25T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "cbBTC / WBTC 0.005% volume surged 80% to $6,044,579 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
-  },
-  {
-   "ts": "2026-06-25T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDT 0.005% volume surged 141% to $34,571,239 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x63bb22f47c7ede6578a25c873e77eb782ec8e4c19778e36ce64d37877b5bd1e7"
   }
  ]
 }

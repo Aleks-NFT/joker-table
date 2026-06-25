@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T11:15:35Z",
- "total_hooks": 1615,
- "total_pools": 5440,
+ "generated_at": "2026-06-25T12:15:35Z",
+ "total_hooks": 1619,
+ "total_pools": 5446,
  "multi_pool_hooks": 112,
  "shown": 112,
  "more_count": 0,
@@ -144,7 +144,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 253,
+   "pool_count": 254,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -158,7 +158,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25393128,
+   "last_block": 25394461,
    "visible": true
   },
   {
@@ -1108,6 +1108,27 @@
    "visible": false
   },
   {
+   "address": "0x650994840837126d972faf6f9b6275e5d52c2088",
+   "address_short": "0x6509…2088",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x650994840837126d972faf6f9b6275e5d52c2088",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25275187,
+   "last_block": 25394473,
+   "visible": false
+  },
+  {
    "address": "0x6dc2d37a153505e569dc39153df23beb639dca40",
    "address_short": "0x6dc2…ca40",
    "name": "",
@@ -1687,27 +1708,6 @@
    ],
    "first_block": 25336724,
    "last_block": 25336725,
-   "visible": false
-  },
-  {
-   "address": "0x650994840837126d972faf6f9b6275e5d52c2088",
-   "address_short": "0x6509…2088",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x650994840837126d972faf6f9b6275e5d52c2088",
-   "pool_count": 2,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25275187,
-   "last_block": 25342760,
    "visible": false
   },
   {
