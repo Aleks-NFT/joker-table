@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-25T18:15:35Z",
+ "generated_at": "2026-06-25T19:15:45Z",
  "new_pools_24h": 66,
  "new_pools_7d": 1076,
  "unique_hook_contracts": 1633,
@@ -8,22 +8,11 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 296.359752637624,
-   "pct_24h": -6.4,
-   "vol_24h_usd": 82470.2543218468,
-   "liquidity_usd": 678776.4269,
+   "price_usd": 286.168363275031,
+   "pct_24h": -7.747,
+   "vol_24h_usd": 85511.0831646074,
+   "liquidity_usd": 674304.8059,
    "liq_class": "deep",
-   "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.225668457399234,
-   "pct_24h": 3.713,
-   "vol_24h_usd": 28743.1884243112,
-   "liquidity_usd": 224025.2653,
-   "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -39,6 +28,17 @@
    "stale_hours": 0
   },
   {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.225668457399234,
+   "pct_24h": 3.713,
+   "vol_24h_usd": 28743.1884243112,
+   "liquidity_usd": 224025.2653,
+   "liq_class": "mid",
+   "vol_class": "mid",
+   "stale_hours": 1
+  },
+  {
    "ticker": "Slonks",
    "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
    "price_usd": 2.911894456e-05,
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 16
+   "stale_hours": 17
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 103653.5976,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 4
+   "stale_hours": 5
   }
  ],
  "top_pools": []
