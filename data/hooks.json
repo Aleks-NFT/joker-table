@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-26T21:15:35Z",
- "total_hooks": 1673,
- "total_pools": 5554,
+ "generated_at": "2026-06-26T22:15:45Z",
+ "total_hooks": 1680,
+ "total_pools": 5569,
  "multi_pool_hooks": 116,
  "shown": 116,
  "more_count": 0,
@@ -32,7 +32,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 426,
+   "pool_count": 429,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -48,7 +48,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25393225,
+   "last_block": 25404496,
    "visible": true
   },
   {
@@ -83,7 +83,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 313,
+   "pool_count": 314,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -95,7 +95,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25403603,
+   "last_block": 25404269,
    "visible": true
   },
   {
@@ -125,7 +125,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 280,
+   "pool_count": 283,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -139,7 +139,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25403292,
+   "last_block": 25404603,
    "visible": true
   },
   {
@@ -378,7 +378,7 @@
    "name": "Sa1tHookV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x653314b5175877266fcf5f76b953e4181d262acc",
-   "pool_count": 26,
+   "pool_count": 27,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -395,7 +395,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25326152,
-   "last_block": 25388511,
+   "last_block": 25404565,
    "visible": false
   },
   {
