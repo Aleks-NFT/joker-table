@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-26T07:15:34Z",
- "total_hooks": 1648,
- "total_pools": 5508,
+ "generated_at": "2026-06-26T08:15:34Z",
+ "total_hooks": 1651,
+ "total_pools": 5514,
  "multi_pool_hooks": 115,
  "shown": 115,
  "more_count": 0,
@@ -144,7 +144,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 269,
+   "pool_count": 270,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -158,7 +158,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25399505,
+   "last_block": 25400155,
    "visible": true
   },
   {
@@ -361,7 +361,7 @@
    "name": "WhitelistHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "pool_count": 30,
+   "pool_count": 32,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -369,7 +369,7 @@
     "beforeSwap"
    ],
    "first_block": 25324826,
-   "last_block": 25396931,
+   "last_block": 25399761,
    "visible": false
   },
   {
