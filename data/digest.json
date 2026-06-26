@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-26",
+   "narrative": {
+    "en": "The deal's already in motion before you even sit down. Eight fresh Uniswap V4 pools dropped inside an hour, and if you think that's random, you haven't looked at the hook contracts. One hook — 0x96b893683afbfec071e90f78d00de4bb932fe0cc — appears in four pools. All zero swap fees, all with the same tight tick spacing, all paired with tokens that smell like fresh mints. Four names, one operator, one strategy. Someone is stamping liquidity under the same hook, and this is no casual farmer.",
+    "zh": "夜深了，牌局却刚刚开始。一个时辰之内，Uniswap V4 上冒出了八个新池子。你要是觉得这是巧合，那就没看那钩子合约。同一个钩子——0x96b893683afbfec071e90f78d00de4bb932fe0cc——出现在四个池子里。全零手续费，同样的窄间距，配的都是刚出炉的代币。四个名号，一个操盘手，一套路数。有人在用同一把钩子批量铸造流动性，这不是散户干的事。"
+   },
+   "take": {
+    "en": "The house is stacking identical hooks across multiple pools — this isn't noise, it's a pattern.",
+    "zh": "同一个钩子，四个池子——这不是散兵游勇，这是有备而来。"
+   }
+  },
+  {
    "date": "2026-06-25",
    "narrative": {
     "en": "The night was quiet, but the deck dealt its cards anyway. Five new V4 pools on Uniswap, all in a single block — 25391128 — and these aren't just numbers. Two of them launched simultaneously, sharing the same WETH but paired with different tokens and built with opposing architectures. The first pairs WETH with USDT, using a minimal swap fee and the tightest price step — a classic stable pair. Its hook contract watches liquidity breathe. The second pairs WETH with an unknown token, but charges the maximum possible swap fee — near 84 basis points. That's not a mistake. That's a signal: either high volatility is expected, or retail liquidity providers are being deliberately shut out. A third pool appears one block later, again with a minimal fee and tight spread, same WETH, another unknown token. Then a standard mid-volatility pool with a 0.3% fee. And finally a USDC/USDT stable pair with the tightest spread. Every single one uses hooks. Not a single bare V4 pool. Two pools with the same WETH but wildly different fees — like two hands playing against the same deck. No big names among the tokens. Only USDT, USDC, and three unknown contracts. Who launched them is invisible. But they know exactly what they're doing. Especially the one who set that near-84-basis-point fee. He's either expecting a storm, or he's about to make one.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Someone is dealing a new deck of identical pools with a single hook—this is a systematic test, not random noise.",
     "zh": "有人在用同一个钩子批量发牌，十五个一模一样的池子——这不是乱拳，是有人在练新招。"
-   }
-  },
-  {
-   "date": "2026-06-12",
-   "narrative": {
-    "en": "The deck was dealt yesterday in a single pattern—five pools on the same hook contract, 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc, all with fee 8388608 and tickSpacing 200. Every pair paired WETH against an unknown token, launched block after block, methodical as a croupier turning cards. No surprises, no exotic names—just clean, sterile symmetry. Then the deck reshuffled. Three pools appeared with native ETH against three different tokens, fee dropped to 100, tickSpacing to 1. Different hook contracts, same serial production. No loud names, only addresses. And then—seven pools in a single block, block 25297090. One hook contract, 0xefe3aa7df4ebfc8c162ec957fdd617455d9d0088. Fee zero. TickSpacing 10. All pairs tied to USDC. Seven tokens against one stable. Someone wanted to build a liquidity grid without fees—or test a strategy where yield comes from something other than swaps. What catches the eye: none of these pools use standard Uniswap V3 fees. 8388608 is not 0.3% or 0.05%. It's a custom binary. Zero fee is a different story—possible in V4 with hooks, but rare in such volume in a single block. Someone is clearly assembling a deck. Either a bot or a team with a plan. The question is what they'll do with these pools next. So far, just initializations. No volume, no movement. The cards are dealt, but the game hasn't started.",
-    "zh": "昨夜江湖，牌局套路分明。五个池子同出一门——同一钩子合约 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc，手续费 8388608，tickSpacing 200，全是 WETH 对无名代币，一个区块接一个区块，像是有人在按顺序发牌。没有意外，没有花哨，干干净净的流水线。接着牌局一变。三个池子用原生 ETH 对三种不同代币，手续费降到 100，tickSpacing 降到 1。钩子合约不同，但手法一样：批量生产。没有响亮的名号，只有地址。然后——一个区块里冒出七个池子。区块 25297090。同一个钩子合约 0xefe3aa7df4ebfc8c162ec957fdd617455d9d0088。手续费为零。tickSpacing 10。所有池子都绑着 USDC。七种代币对同一个稳定币。有人想搭一张免手续费的流动性网——或者是在测试一种不从交换赚钱的策略。最扎眼的是：这些池子没一个用 Uniswap V3 的标准费率。8388608 不是 0.3% 也不是 0.05%，是自定义的二进制数。零费率更是另一回事——V4 钩子能做到，但一个区块里出现这么多，少见。有人在摆牌。要么是机器人，要么是有计划的团队。问题是他们接下来要拿这些池子做什么。目前只是初始化。没有成交量，没有动静。牌已发完，但局还没开。"
-   },
-   "take": {
-    "en": "The house is stacking custom-fee pools in silence—when the volume comes, the edge will be theirs.",
-    "zh": "庄家在暗处布下自定义费率的池子——等流水一来，赢面就在他们手里。"
    }
   }
  ]
