@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-27T05:15:30Z",
- "total_hooks": 1684,
- "total_pools": 5587,
+ "generated_at": "2026-06-27T06:15:34Z",
+ "total_hooks": 1685,
+ "total_pools": 5589,
  "multi_pool_hooks": 117,
  "shown": 117,
  "more_count": 0,
@@ -361,7 +361,7 @@
    "name": "WhitelistHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xdfa04b8b60bf496594a3c256512409fba5a94080",
-   "pool_count": 34,
+   "pool_count": 35,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -369,7 +369,7 @@
     "beforeSwap"
    ],
    "first_block": 25324826,
-   "last_block": 25405962,
+   "last_block": 25406896,
    "visible": false
   },
   {
