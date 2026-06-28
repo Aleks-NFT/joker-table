@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-28",
+   "narrative": {
+    "en": "Six fresh v4 pools, all spawned within a single block range. Three of them share the same hook contract — 0x96b893. That's not coincidence; that's a pattern. Fee=0, tickSpacing=200 — these parameters aren't for casual trading. Someone is stacking liquidity in specific zones, likely for a strategy involving dynamic fees or oracles. The hook contract is the key. If it's controlled, the owner can change logic after the fact. This is either an experiment or preparation for something more complex. The other three pools carry fee=100 and tickSpacing=1 — classics for memes or low-liquidity pairs. Each with its own unique hook: 0xd62b5a, 0xe6b43b, 0x6e7b24 — different hands, different intentions. TickSpacing=1 means orders can be placed on every tick, a rarity. Usually used for high-volatility pairs or bots wanting pinpoint range capture. WETH is the constant; the tokens are unfamiliar. None appear in top listings. These pools are built for specific tasks — testnet migrations, fresh mints, hidden allocations. The block span from 25411905 to 25412713 covers roughly 800 blocks, about 2.5 to 3 hours. Someone spent time deploying six pools with varied configs. Not a spontaneous move. The observer should remember address 0x96b893. If that hook starts interacting with other protocols or changing state, it will be a signal. For now, silence. But the deck has been dealt.",
+    "zh": "六个新池子，同一段区块区间内诞生。其中三个共用一个 hook 合约，0x96b893。这不是巧合，这是路数。手续费为零，tick 间距 200——这些参数不是给随便交易用的。有人在特定区域布下流动性，可能是为动态费率或预言机策略做准备。那个 hook 合约是关键。如果它是可控制的，主人事后能改逻辑。这不是实验，就是更复杂局面的前奏。另外三个池子，手续费 100，tick 间距 1——江湖上 meme 币或低流动性对子的老套路。每个池子有自己的独门 hook：0xd62b5a、0xe6b43b、0x6e7b24——不同的人，不同的算盘。tick 间距为 1，意味着每个 tick 上都能挂单，少见。通常用于高波动的对子，或者那些想精准卡位的机器人。WETH 是铁打的营盘，代币都是生面孔。没有一个在主流榜单上。这些池子是为特定任务造的——测试网迁移、新鲜铸造、暗仓分配。区块跨度从 25411905 到 25412713，大约 800 个区块，两三个时辰的功夫。有人花时间部署了六个配置各异的池子。不是心血来潮。看客该记住 0x96b893 这个地址。如果这个 hook 开始与其他门派互动或改变状态，那就是信号。眼下风平浪静。但牌已发下。"
+   },
+   "take": {
+    "en": "The deal is on the felt: three pools with the same hook and zero fees signal a deliberate strategy, not random noise.",
+    "zh": "牌已发下：三个同 hook 的零费率池子，不是闲棋，是杀招。"
+   }
+  },
+  {
    "date": "2026-06-27",
    "narrative": {
     "en": "The deal is cut. Thirteen fresh pools on the Uniswap V4 felt today, but the cards are marked. Three zero-fee pools landed in block 25405340, tick spacing 200, paired with odd tokens against WETH. The hooks are different, but the intent is the same: someone is testing how the market behaves when the house takes nothing at the door. Then, a tight-spread pool with fee 100 and tick spacing 1 appears in block 25405522 — a sniper's setup, controlling every tick. But the real play is the seven-pool series, all fee 3000, tick spacing 60, same hook, all against USDC. That's a network, not a lottery. And then the joker: a pool in block 25404703 with fee 8388608 — eight million basis points — against WETH. That's not a fee, it's a flag. The hook is the real game. These aren't organic launches; they're engineered plays. Builders are taking their revenue through the hook, not the swap. Watch the pattern, not the noise.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is laying out two competing stable pools and a zero-fee ETH trap—the real play is watching which hook claims the liquidity first.",
     "zh": "一夜之间，两座稳定币池分庭抗礼，一座零费 ETH 池暗藏杀机——接下来就看谁的钩子先吸住流动性。"
-   }
-  },
-  {
-   "date": "2026-06-14",
-   "narrative": {
-    "en": "A new pool on V4—always that moment of stillness before the deck begins to deal. Last night, at block 25311500, someone shuffled the cards: a pair, 0x000...0000 and 0xc757...6272. The zero address is ether, a suit that needs no introduction. The second token is a dark horse, no loud name, but a contract already living on the network. The fee is set to zero. This is no mistake, no accident. In the V4 world, zero is not the absence of charge—it's an invitation. You can enter, exit, rearrange liquidity without leaving tracks at every step. TickSpacing at 200 gives a corridor narrow enough for maneuver but not for microscopic spreads. This is a bet on volume, not on speculation with a magnifying glass. The real protagonist of this deal is the hook contract: 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Hooks are the jokers in the V4 deck. They can change pool logic before, after, and during a swap. Some use them for dynamic fees, some for MEV protection, some for orders that live their own lives. Here, without additional data, one can only guess what mechanics hide behind that address. Pool ID: 0x41a52bcaebea1808282d540289b41bc5a26907600b2520d8630cd2ad14804c8b. A long hash, like a fingerprint on glass. No one knows who dealt this hand, but the fact remains: a new pair is on the felt, and the first move has been made. The rest will watch how the cards fall.",
-    "zh": "V4上又开新池子，江湖上总得静一静，等牌发完。昨夜，区块25311500，有人洗了牌：一对，0x000...0000和0xc757...6272。零地址是ETH，江湖上谁不认识这位老侠客。另一个代币，名不见经传，但合约已在链上活着。手续费设为零。这不是失误，不是巧合。V4江湖里，零不是不要钱，是请帖。你可以进，可以出，可以挪动内力，不必每一步都留痕迹。TickSpacing设200，够窄，能走位，但不至于细到显微镜下玩。这是赌量，不是赌眼力。真正的暗棋是那个钩子合约：0x0d62529346ac2c61f5c0582210d01214687bc0cc。钩子，V4牌局里的百搭牌。它们能在交换前、交换中、交换后改变池子的规矩。有人用它调动态手续费，有人用它防MEV偷袭，有人用它造活着的订单。这里，没更多消息，只能猜这钩子后面藏着什么功夫。池子ID：0x41a52bcaebea1808282d540289b41bc5a26907600b2520d8630cd2ad14804c8b。一串长印，像玻璃上的指痕。没人知道谁发的这手牌，但牌已上桌，第一招已出。剩下的，看牌怎么落。"
-   },
-   "take": {
-    "en": "A zero-fee pool with a hook contract is a signal that someone is building a new game on V4—the house is letting you play for free, but the real action is in the hook.",
-    "zh": "零手续费加钩子合约，这是有人在V4上立新门派——庄家请客，但真正的功夫在钩子里。"
    }
   }
  ]
