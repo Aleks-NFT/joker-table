@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-28T10:15:46Z",
+ "generated_at": "2026-06-28T11:15:34Z",
  "new_pools_24h": 36,
  "new_pools_7d": 424,
  "unique_hook_contracts": 1713,
@@ -8,11 +8,22 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 289.111225172475,
-   "pct_24h": -13.921,
-   "vol_24h_usd": 70480.9354106344,
-   "liquidity_usd": 677660.5158,
+   "price_usd": 281.320726971708,
+   "pct_24h": -16.209,
+   "vol_24h_usd": 71710.1866799999,
+   "liquidity_usd": 670196.3189,
    "liq_class": "deep",
+   "vol_class": "mid",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.225055778608652,
+   "pct_24h": -5.818,
+   "vol_24h_usd": 20932.7475506236,
+   "liquidity_usd": 228907.0519,
+   "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -22,21 +33,10 @@
    "price_usd": 7.69309879097533e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 71653.3222,
+   "liquidity_usd": 71581.7599,
    "liq_class": "mid",
    "vol_class": "low",
    "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.214897952115459,
-   "pct_24h": -12.681,
-   "vol_24h_usd": 17472.4781081161,
-   "liquidity_usd": 225296.3935,
-   "liq_class": "mid",
-   "vol_class": "mid",
-   "stale_hours": 1
   },
   {
    "ticker": "Slonks",
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 10
+   "stale_hours": 11
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 105907.507,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 29
+   "stale_hours": 30
   },
   {
    "ticker": "LODE",
@@ -72,76 +72,5 @@
    "stale_hours": 36
   }
  ],
- "top_pools": [
-  {
-   "ticker": "HOOKS",
-   "pool": "",
-   "price_usd": 8.91588671197812e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 1289.5506,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "SENSOR",
-   "pool": "",
-   "price_usd": 0.144558256935259,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 0.6256,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HKSR",
-   "pool": "",
-   "price_usd": 0.01524007242,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 32.4597,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HSENS",
-   "pool": "",
-   "price_usd": 0.01472218322,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 3.5595,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "NFH",
-   "pool": "",
-   "price_usd": 0.0925091708634373,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 5.3152,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HCC",
-   "pool": "",
-   "price_usd": 1.005587722e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 1024.7999,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HSOR",
-   "pool": "",
-   "price_usd": 0.0117058155,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 1.5968,
-   "liq_class": "thin",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
