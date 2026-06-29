@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-29",
+   "narrative": {
+    "en": "The deal came in clusters tonight. Eleven pools across a handful of blocks — not noise, but a pattern. Most pairs anchor to WETH, fee tier 100, tick spacing 1 — the standard layout for high-frequency play. But the outliers tell the real story. Three pools at blocks 25419128–25419133 share hook contracts ending in 144, a deliberate line of deployment. Two zero-fee pools at 25419427 and 25419532 use hooks identical to the second token's address — the hook is the token, the token is the hook. That's not an experiment; that's architecture. One pool with fee 10000 and wide tick spacing at block 25419167 suggests a different game: wide spreads for volatile pairs, or something else entirely. All but one use WETH as the base asset — Ethereum remains the anchor of liquidity even on V4. Hooks are a new suit in the deck, and tonight they were dealt in volume. Someone is building a hand. Someone is testing a new tactic. Someone is just building. The deck is shuffled. Watch where the cards fall.",
+    "zh": "今夜江湖暗流涌动。十一个池子接连现身，不是散兵游勇，而是一套阵法。多数池子以WETH为基，费率百一，间距为一——这是高频门派的标配。但真正的玄机在异数。三个池子（块25419128至25419133）共享同一套钩子合约，尾号144，分明是有人布下一条线。两个零费率池子（块25419427、25419532）的钩子地址与第二币种相同——钩即是币，币即是钩。这不是试招，这是立派。还有一个池子费率万、间距二百（块25419167），那是为烈性币种准备的宽门。所有池子几乎都以WETH为基——以太坊仍是江湖的镇海神针。钩子是新的兵器，今夜有人批量亮剑。有人在组牌局，有人在试新招，有人只是在建。牌已洗过，看它如何落定。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue flows through the hook, not the swap.",
+    "zh": "江湖客在部署非常规费率的池子——要么零费率，要么最高档，而非市价费率——这意味着收入通过钩子而非交换来收取，是刻意的经济设计。"
+   }
+  },
+  {
    "date": "2026-06-28",
    "narrative": {
     "en": "Six fresh v4 pools, all spawned within a single block range. Three of them share the same hook contract — 0x96b893. That's not coincidence; that's a pattern. Fee=0, tickSpacing=200 — these parameters aren't for casual trading. Someone is stacking liquidity in specific zones, likely for a strategy involving dynamic fees or oracles. The hook contract is the key. If it's controlled, the owner can change logic after the fact. This is either an experiment or preparation for something more complex. The other three pools carry fee=100 and tickSpacing=1 — classics for memes or low-liquidity pairs. Each with its own unique hook: 0xd62b5a, 0xe6b43b, 0x6e7b24 — different hands, different intentions. TickSpacing=1 means orders can be placed on every tick, a rarity. Usually used for high-volatility pairs or bots wanting pinpoint range capture. WETH is the constant; the tokens are unfamiliar. None appear in top listings. These pools are built for specific tasks — testnet migrations, fresh mints, hidden allocations. The block span from 25411905 to 25412713 covers roughly 800 blocks, about 2.5 to 3 hours. Someone spent time deploying six pools with varied configs. Not a spontaneous move. The observer should remember address 0x96b893. If that hook starts interacting with other protocols or changing state, it will be a signal. For now, silence. But the deck has been dealt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is not dealing cards tonight—it's minting new decks, each with its own rules, and the players are becoming the game.",
     "zh": "庄家今晚发的不是牌，是新的牌桌——每张桌子有自己的规矩，而玩家正在变成游戏本身。"
-   }
-  },
-  {
-   "date": "2026-06-15",
-   "narrative": {
-    "en": "The V4 deck is shuffled again, and nine new pools hit the felt overnight. The zero address dominates—eight of nine are tethered to ETH. Only two stable pairs, USDC/USDT, both at 1 bps fee and tickSpacing 1, but with different hooks: 0x8abdde86 and 0xa778c93f. This is no coincidence. Someone is preparing ultra-low slippage corridors for stable liquidity, and these two hooks will duel for dominance. The ETH pools span every fee tier: 100, 3000, 10000, and even one at zero fee. That zero-fee pool, 0x0d625293 with tickSpacing 200, is pure volume speculation—either a bid to capture the entire order book or a staging ground for MEV strategies where speed trumps cost. Two pools at fee 10000 and tickSpacing 200, on tokens 0x2ba419 and 0x595dec, signal institutional-grade instruments: wide spreads, high fees, likely with oracles or dynamic management. And then there's the WBTC pair at fee 10 and tickSpacing 1, 0xf671bcab—a BTC pair with microscopic spread and low fee. Someone wants ETH/WBTC to be the new benchmark. Watch that hook; if it carries dynamic fees, it could set the standard.",
-    "zh": "V4 江湖一夜之间多了九座新池，八座以 ETH 为根基，只有两座是 USDC/USDT 的稳定币池，手续费 1 bps，tickSpacing 1，但各自挂着不同的钩子——0x8abdde86 和 0xa778c93f。这不是巧合，有人在铺设极低滑落的稳定币通道，两派钩法必将争夺内力。ETH 池的手续费层级从 100 到 3000 到 10000，甚至有一座零手续费池 0x0d625293，tickSpacing 200——纯粹赌成交量，要么想吞下整个订单簿，要么为 MEV 策略铺路，速度就是一切。两座 fee 10000 且 tickSpacing 200 的池子，分别对应 0x2ba419 和 0x595dec 令牌，宽价差、高手续费，显然不是给散户准备的，这是大侠们用的重器，可能配有预言机或动态心法。最诡异的是 WBTC 池，手续费仅 10，tickSpacing 1，地址 0xf671bcab——BTC 对居然微利差低费用，有人想让 ETH/WBTC 成为新的标杆。盯着那个钩子，若它身怀动态费用，便可能改写江湖规矩。"
-   },
-   "take": {
-    "en": "The house is laying out two competing stable pools and a zero-fee ETH trap—the real play is watching which hook claims the liquidity first.",
-    "zh": "一夜之间，两座稳定币池分庭抗礼，一座零费 ETH 池暗藏杀机——接下来就看谁的钩子先吸住流动性。"
    }
   }
  ]
