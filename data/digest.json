@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-06-30",
+   "narrative": {
+    "en": "The night dealt five new pools in rapid succession, each one a fresh card from a newly opened deck. Five initializations across a handful of blocks — this isn't noise, it's a rhythm. The first pair, native ETH against a contract, carries zero swap fee and a wide tick spacing. Someone isn't planning to earn from swaps; this pool is an infrastructure layer. The hook is fresh, unmarked, without history. Next comes another: different tokens, a maximum fee tier and tight tick spacing — built for volatility. Another clean hook. Then three pools in a row, all with ETH, all with a moderate fee and tight spacing, but each with a different contract and a different hook, none repeated. What catches the eye: not a single pool uses a known, battle-tested hook. Every contract is new, with no trace of prior deployments. This isn't random testing. Someone is laying out a whole network of specialized pools, each with its own hook, each tuned to its own logic. Zero fee on one, maximum on another — the spectrum is wide. ETH is the base in every case. It looks like the assembly of infrastructure for some scenario where hooks do all the work and fees are just a tuning parameter. The night was quiet, but the deck is being shuffled. The only question left: who's dealing?",
+    "zh": "昨夜江湖暗流涌动，五个新池子接连出世，如同赌桌上刚开封的牌。第一对，原生ETH配一个陌生合约，零手续费，价差间距极宽。这人显然不靠兑换赚钱，池子只是他的内力根基。钩子崭新，无门无派，没有过往。紧接着第二池：不同令牌，万分之一手续费，极窄价差——专为暴烈波动而设。又一个无名钩子。再连三池，皆以ETH为基，手续费中等，价差紧凑，但每池合约不同，钩子各异，无一重复。蹊跷的是，没有一个池子用了江湖上成名已久的钩子。所有合约都是新面孔，从未在过往交易中现身。这不是随性试招，而是有人在布阵——一张由专属钩子驱动的池子网络，每池一套心法，各司其职。零费与天价费并存，ETH始终是根基。这不像散兵游勇的试探，更像在搭建一套完整的武学体系：钩子承载全部招式，手续费不过是调节内息。夜虽静，牌已洗。只待看谁落座发牌。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
+    "zh": "有人在部署手续费非标——要么零费，要么最高档——而非市价中档的池子。这不是偶然，是刻意布局：收益不走兑换，而是通过钩子抽取。"
+   }
+  },
+  {
    "date": "2026-06-29",
    "narrative": {
     "en": "The deal came in clusters tonight. Eleven pools across a handful of blocks — not noise, but a pattern. Most pairs anchor to WETH, fee tier 100, tick spacing 1 — the standard layout for high-frequency play. But the outliers tell the real story. Three pools at blocks 25419128–25419133 share hook contracts ending in 144, a deliberate line of deployment. Two zero-fee pools at 25419427 and 25419532 use hooks identical to the second token's address — the hook is the token, the token is the hook. That's not an experiment; that's architecture. One pool with fee 10000 and wide tick spacing at block 25419167 suggests a different game: wide spreads for volatile pairs, or something else entirely. All but one use WETH as the base asset — Ethereum remains the anchor of liquidity even on V4. Hooks are a new suit in the deck, and tonight they were dealt in volume. Someone is building a hand. Someone is testing a new tactic. Someone is just building. The deck is shuffled. Watch where the cards fall.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Seven distinct hook contracts deployed in a single night signal a deliberate testing spree—someone is mapping the combinatorial space before the real game begins.",
     "zh": "一夜七种不同 hook 合约接连部署，说明有人在系统性地测试组合空间——真正的江湖风雨还在后头。"
-   }
-  },
-  {
-   "date": "2026-06-16",
-   "narrative": {
-    "en": "The deck shuffles itself tonight. Fourteen new V4 pools in hours—only those the blockchain caught before midnight. One hook contract, 0x653314b5175877266fcf5f76b953e4181d262acc, takes seven consecutive deals. ETH against tokens with the same suffix 5417—serial printing, like stamping cards of the same suit. Zero fee, tickSpacing 60—standard test layout, but someone is clearly laying groundwork. Then pools with another hook, 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc, twice, blocks apart. Again zero fee, but tickSpacing 200—a wider step, meaning liquidity range is spread thinner. Then 0xab78ee9dbf7b25c060e5abb3debc948406558044 enters—this hook is its own token, its own pool. Fee zero, spacing 200. A closed system. The real play is the pool at block 25326706. Fee 999300, tickSpacing 1. This isn't a step—it's a microscope. Hook 0xdfa04b8b60bf496594a3c256512409fba5a94080 takes control down to a single tick. Someone means to catch every price movement. These settings aren't for volume; they're for control. And the final chord: a pool with fee 3000 and its own hook 0x8329e7dd9454818828f1d77adef42cb0277d84c0. Same pattern: token becomes hook, hook becomes pool. Referee and player in one. No loud names, no memes. Only cold pool assembly, where each chooses the tool for the task. Some test, some print, some set an ambush. The deck is full, and every move is a bet.",
-    "zh": "夜深了，牌局自己洗牌。几个小时内冒出十四个V4池子——这只是区块链在午夜前捕捉到的。一个钩子合约，0x653314b5175877266fcf5f76b953e4181d262acc，连吃七把。ETH对上同一后缀5417的代币——批量印刷，像印同一花色的牌。零手续费，tick间距60——标准测试布局，但有人在铺路。接着另一个钩子，0x627fa6f76fa96b10bae1b6fba280a3c9264500cc，隔几个区块出现两次。还是零费，但间距200——步幅更大，流动性范围铺得更薄。然后0xab78ee9dbf7b25c060e5abb3debc948406558044入场——这个钩子自己就是代币，自己就是池子。零费，间距200。封闭系统。最妙的是区块25326706上的池子。手续费999300，tick间距1。这不是步长——是显微镜。钩子0xdfa04b8b60bf496594a3c256512409fba5a94080控制到单个tick。有人要捕捉每一次价格波动。这种设置不为量，而为控。最后一曲：手续费3000的池子，自带钩子0x8329e7dd9454818828f1d77adef42cb0277d84c0。老套路：代币变钩子，钩子变池子。自己当裁判，自己当玩家。没有响亮的名字，没有meme。只有冰冷的池子组装，每个人选自己的工具。有人在测试，有人在批量生产，有人在设伏。牌堆已满，每一步都是赌注。"
-   },
-   "take": {
-    "en": "The house is not dealing cards tonight—it's minting new decks, each with its own rules, and the players are becoming the game.",
-    "zh": "庄家今晚发的不是牌，是新的牌桌——每张桌子有自己的规矩，而玩家正在变成游戏本身。"
    }
   }
  ]
