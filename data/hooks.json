@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-01T04:15:34Z",
+ "generated_at": "2026-07-01T05:15:36Z",
  "total_hooks": 1826,
  "total_pools": 5777,
  "multi_pool_hooks": 123,
@@ -2578,8 +2578,8 @@
   {
    "address": "0xf9ced7d0f5292af02385410eda5b7570b10b50c4",
    "address_short": "0xf9ce…50c4",
-   "name": "",
-   "verified": false,
+   "name": "BVCCDynamicFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf9ced7d0f5292af02385410eda5b7570b10b50c4",
    "pool_count": 2,
    "permissions_human": [
