@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-01T07:15:35Z",
+ "generated_at": "2026-07-01T08:15:37Z",
  "total_hooks": 1827,
- "total_pools": 5780,
+ "total_pools": 5783,
  "multi_pool_hooks": 123,
  "shown": 123,
  "more_count": 0,
@@ -99,6 +99,27 @@
    "visible": true
   },
   {
+   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "address_short": "0x627f…00cc",
+   "name": "LivoSwapHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "pool_count": 303,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25117494,
+   "last_block": 25436310,
+   "visible": true
+  },
+  {
    "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
    "address_short": "0x96b8…e0cc",
    "name": "UniversalKlikHook",
@@ -119,27 +140,6 @@
    ],
    "first_block": 25118285,
    "last_block": 25431820,
-   "visible": true
-  },
-  {
-   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "address_short": "0x627f…00cc",
-   "name": "LivoSwapHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 301,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25117494,
-   "last_block": 25433534,
    "visible": true
   },
   {
@@ -596,6 +596,27 @@
    "visible": false
   },
   {
+   "address": "0x068241d20c59980abeaeded990d2441f05f5c0cc",
+   "address_short": "0x0682…c0cc",
+   "name": "LivoSwapHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x068241d20c59980abeaeded990d2441f05f5c0cc",
+   "pool_count": 9,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25221360,
+   "last_block": 25436012,
+   "visible": false
+  },
+  {
    "address": "0x2cb78e8b725a51bc6215184c24c8626de7d868cc",
    "address_short": "0x2cb7…68cc",
    "name": "ClankerHookStaticFeeV2",
@@ -660,27 +681,6 @@
    ],
    "first_block": 25248809,
    "last_block": 25248809,
-   "visible": false
-  },
-  {
-   "address": "0x068241d20c59980abeaeded990d2441f05f5c0cc",
-   "address_short": "0x0682…c0cc",
-   "name": "LivoSwapHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x068241d20c59980abeaeded990d2441f05f5c0cc",
-   "pool_count": 8,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25221360,
-   "last_block": 25338942,
    "visible": false
   },
   {
