@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-06-30T23:15:34Z",
- "total_hooks": 1821,
- "total_pools": 5770,
+ "generated_at": "2026-07-01T00:15:36Z",
+ "total_hooks": 1826,
+ "total_pools": 5777,
  "multi_pool_hooks": 123,
  "shown": 123,
  "more_count": 0,
@@ -57,7 +57,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 325,
+   "pool_count": 326,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -69,7 +69,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25433213,
+   "last_block": 25433492,
    "visible": true
   },
   {
@@ -127,7 +127,7 @@
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 300,
+   "pool_count": 301,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -139,7 +139,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25117494,
-   "last_block": 25416125,
+   "last_block": 25433534,
    "visible": true
   },
   {
