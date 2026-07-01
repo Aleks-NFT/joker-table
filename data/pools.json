@@ -1,29 +1,18 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-01T01:15:34Z",
- "new_pools_24h": 52,
- "new_pools_7d": 412,
+ "generated_at": "2026-07-01T02:15:45Z",
+ "new_pools_24h": 50,
+ "new_pools_7d": 406,
  "unique_hook_contracts": 1826,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 267.797141458607,
-   "pct_24h": -12.883,
-   "vol_24h_usd": 49183.128424325,
-   "liquidity_usd": 640951.4287,
+   "price_usd": 271.765443460927,
+   "pct_24h": -12.848,
+   "vol_24h_usd": 45846.1099616035,
+   "liquidity_usd": 654508.1113,
    "liq_class": "deep",
-   "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.207267412578735,
-   "pct_24h": -2.91,
-   "vol_24h_usd": 23183.2727157063,
-   "liquidity_usd": 210762.7524,
-   "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -39,6 +28,17 @@
    "stale_hours": 0
   },
   {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.207267412578735,
+   "pct_24h": -2.91,
+   "vol_24h_usd": 23183.2727157063,
+   "liquidity_usd": 210762.7524,
+   "liq_class": "mid",
+   "vol_class": "mid",
+   "stale_hours": 1
+  },
+  {
    "ticker": "Slonks",
    "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
    "price_usd": 2.911894456e-05,
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 73
+   "stale_hours": 74
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 107485.5597,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 38
+   "stale_hours": 39
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 30842.3738,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 98
+   "stale_hours": 100
   }
  ],
  "top_pools": []
