@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-01",
+   "narrative": {
+    "en": "The deck's been shuffled again, and seven fresh pools just hit the felt on the same blockchain. Every pair uses ETH as the base asset — no stablecoins, no memecoins, just pure volatility. The hooks are all different, each a distinct card in the dealer's sleeve. Two pools appeared almost back-to-back: one with zero commission and a wide tick step for the heavy hitters who don't need constant recalculations, the other with a high commission and tight step for those who like it dense. Then came three more in quick succession, all with the same high commission and tight step, but different tokens. Only one more zero-commission, wide-step pool surfaced. The seventh arrived later, again high commission and tight step. Seven deals in an hour, no two hook schemes alike. Someone is testing strategies — dynamic fees, oracles, who knows what. Each hook contract is a card face-down, and I won't know its suit until it's flipped.",
+    "zh": "今夜又无眠，但牌局已重新洗过。同一链上，七口V4池子，七种钩子，每口都不同。所有池子都以ETH为底——没有稳定币，没有土狗币，纯粹波动。前两口几乎同时落地，一池零费率、宽步距，给大户准备，不需频繁计算；另一池高费率、窄步距，适合喜欢密集交易的人。接着三池接连而至，都是高费率、窄步距，但代币不同。只有一口是零费率、宽步距。第七口姗姗来迟，仍是高费率、窄步距。一个时辰七局，钩子无一重复。有人在试各种策略：动态费率、预言机，天知道还有什么。每张钩子合约都是扣着的牌，不翻面不知花色。"
+   },
+   "take": {
+    "en": "Seven pools, all ETH-based, all with non-standard fees — someone is building a system, not launching a token.",
+    "zh": "七口池，全用ETH，全是非常规费率——这是有人在搭台，不是发币。"
+   }
+  },
+  {
    "date": "2026-06-30",
    "narrative": {
     "en": "The night dealt five new pools in rapid succession, each one a fresh card from a newly opened deck. Five initializations across a handful of blocks — this isn't noise, it's a rhythm. The first pair, native ETH against a contract, carries zero swap fee and a wide tick spacing. Someone isn't planning to earn from swaps; this pool is an infrastructure layer. The hook is fresh, unmarked, without history. Next comes another: different tokens, a maximum fee tier and tight tick spacing — built for volatility. Another clean hook. Then three pools in a row, all with ETH, all with a moderate fee and tight spacing, but each with a different contract and a different hook, none repeated. What catches the eye: not a single pool uses a known, battle-tested hook. Every contract is new, with no trace of prior deployments. This isn't random testing. Someone is laying out a whole network of specialized pools, each with its own hook, each tuned to its own logic. Zero fee on one, maximum on another — the spectrum is wide. ETH is the base in every case. It looks like the assembly of infrastructure for some scenario where hooks do all the work and fees are just a tuning parameter. The night was quiet, but the deck is being shuffled. The only question left: who's dealing?",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Three zero-fee pools in one day is not noise—it's a deliberate strategy to shift fee revenue from the pool to the hook layer.",
     "zh": "一天之内三个零费率池，不是杂音——是有人故意把抽水从池子挪到钩子层。"
-   }
-  },
-  {
-   "date": "2026-06-17",
-   "narrative": {
-    "en": "The night dealt a new hand. Eight V4 hook pools emerged within a few blocks, each with its own character. Scanning the deck, I see seven of the eight use the minimum fee—100 basis points, tickSpacing 1. This is no coincidence. Someone is tuning fine-grained strategies where every tick matters. The hooks on these pools aren't mere decoration; they govern liquidity logic in real time. But one pool catches the eye—block 25332981. Fee 8388608. Not a mistake, not a bug. It's the maximum possible fee in V4—100%. The hook contract here, 0xc73eedd, is the same address as the token. Such a pairing usually means one thing: a pool for specific operations where fees are not earned but burned or redirected. No one sets a 100% fee for trading. This is a tool, not a market. Another pool with zero fee and tickSpacing 200—block 25333406. Also hooked. Also not for casual passes. With zero fee, liquidity flows without loss, but with a step of 200 ticks—this is territory where volumes must be serious, or there's no point. The rest are standard pairs with ETH, but each time a new token, a new hook contract. Seven different hooks in one evening. Someone is clearly testing combinations, searching for working setups before the deck is reshuffled. No panic, no euphoria. Just a night full of initiatives. Someone is shuffling the cards, preparing the next deal. And we watch.",
-    "zh": "夜深了，牌局又翻新。几个区块之内，八个 V4 hook 池子接连登场，各有各的脾性。扫一眼牌面，七个用了最低费率——100 基点，tickSpacing 1。这不是巧合。有人在布细密的局，每一 tick 都算得清清楚楚。这些池子上的 hook 不是摆设，它们在实时操盘流动性逻辑。但有一个池子扎眼——区块 25332981。费率 8388608。不是错，不是 bug。这是 V4 允许的最高费率——100%。hook 合约地址 0xc73eedd，和代币地址一样。这种搭配通常意味着一件事：这个池子不是用来交易的，而是做特定操作，费率要么销毁要么转走。没人会用 100% 费率做市。这是工具，不是市场。还有一个零费率池子，tickSpacing 200——区块 25333406。也有 hook。也不是给路人用的。零费率，流动性来去无损耗，但 200 tick 的步长，意味着成交量必须够大，否则没意义。剩下的都是和 ETH 的标准对，但每次都是新代币、新 hook 合约。一晚七个不同的 hook。有人在试组合，找能用的搭配，等牌洗好之前先摸清底牌。没有恐慌，没有狂热。只是充满试探的一夜。有人在洗牌，准备下一局。我们看着。"
-   },
-   "take": {
-    "en": "Seven distinct hook contracts deployed in a single night signal a deliberate testing spree—someone is mapping the combinatorial space before the real game begins.",
-    "zh": "一夜七种不同 hook 合约接连部署，说明有人在系统性地测试组合空间——真正的江湖风雨还在后头。"
    }
   }
  ]
