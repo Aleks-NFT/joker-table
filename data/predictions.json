@@ -1,13 +1,22 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 21,
+  "total": 22,
   "hit": 0,
   "miss": 0,
-  "open": 21,
+  "open": 22,
   "hit_rate": null
  },
  "items": [
+  {
+   "id": 22,
+   "made_at": "2026-07-02",
+   "text": "Over the next 7 days the count will exceed 222, as builders deploy pools with deliberately non-standard swap fees—zero or maximum—signaling revenue capture through the hook, not organic trading.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-09",
+   "status": "open",
+   "resolution_note": null
+  },
   {
    "id": 21,
    "made_at": "2026-07-01",

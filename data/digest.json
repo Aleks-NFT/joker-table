@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-02",
+   "narrative": {
+    "en": "The night's surveillance turned up a cluster. Eight V4 hook pools in a single day, and this isn't just a routine airdrop — someone is laying out a solitaire. Four pools with zero fee and tickSpacing 200, all through the same hook contract — 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Same suit: ETH against four different tokens. Blocks 25440724-25440741 — the interval under a minute. Someone deployed them in a series, like an automaton. Four tokens, four pools, one template. Then two pools with a 100 fee and tickSpacing 1. Also ETH pairs, but different hooks — 0x3b9136df571f9e10f8b30d777658b32a17e04144 and 0x954d9a5b5613722f3d1e2f29b7bebf02526e0144. These were spaced a bit wider in time, but the logic is the same — standard settings, no exotic parameters. Separately, a USDT pool — 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee 8388608, tickSpacing 10, hook 0xfffff5962193fbdc458e81cac67437e426c708c0. That's no ordinary deal. 8388608 is a nonstandard fee, nearly at the boundary of what's allowed. And a hook with that address — not random. The last pool, token 0xcfcc25e924bc022735e1e4c79a5cc6ded2f42c72 — again fee 100 and tickSpacing 1, but a different hook. Eight pools. Three different hooks. One cluster of zero-fee pools. One anomalous USDT. Looking at the deck, someone is clearly testing strategies on V4, and not alone. Four pools through one hook — that's a bot or a script. The USDT pool — either an experiment with fee tiers, or preparation for something more complex. The night showed: the V4 hook ecosystem is gaining momentum, and not every player here is for liquidity.",
+    "zh": "夜巡，发现一个集群。一天之内八个V4钩子池，这不是普通的撒币——有人分明在摆一局大棋。四个零费率池，tick间距200，全走同一个钩子合约——0x0d62529346ac2c61f5c0582210d01214687bc0cc。清一色ETH对四个不同代币。区块25440724到25440741，间隔不到一分钟。有人像机关枪一样连续部署，四个代币，四个池子，一个模子。接着两个费率100、tick间距1的池子，也是ETH对，但钩子不同：0x3b9136df571f9e10f8b30d777658b32a17e04144和0x954d9a5b5613722f3d1e2f29b7bebf02526e0144。时间上拉开了一些，但逻辑一样——标准设置，没有花哨参数。还有一个USDT池——0xdac17f958d2ee523a2206206994597c13d831ec7。费率8388608，tick间距10，钩子0xfffff5962193fbdc458e81cac67437e426c708c0。这可不是寻常买卖。8388608是非标准费率，几乎顶到上限。那个钩子地址——绝非偶然。最后一个池子，代币0xcfcc25e924bc022735e1e4c79a5cc6ded2f42c72——又是费率100、tick间距1，但钩子又换了。八个池子，三个不同钩子，一个零费率集群，一个异常USDT。看这牌面，有人在V4上试策略，而且不是单枪匹马。四个池子用一个钩子——那是脚本或机器人。USDT池——要么是费率实验，要么是更大布局的前奏。这一夜说明：V4钩子江湖正在风起，而来者并非都为流动性。"
+   },
+   "take": {
+    "en": "The dealer is stacking the deck: eight pools in a day, half with zero fees, one at the maximum tier — this isn't random play, it's a deliberate pattern.",
+    "zh": "庄家在洗牌：一天八个池，半数零费率，一个顶格费率——这不是随机落子，而是刻意布局。"
+   }
+  },
+  {
    "date": "2026-07-01",
    "narrative": {
     "en": "The deck's been shuffled again, and seven fresh pools just hit the felt on the same blockchain. Every pair uses ETH as the base asset — no stablecoins, no memecoins, just pure volatility. The hooks are all different, each a distinct card in the dealer's sleeve. Two pools appeared almost back-to-back: one with zero commission and a wide tick step for the heavy hitters who don't need constant recalculations, the other with a high commission and tight step for those who like it dense. Then came three more in quick succession, all with the same high commission and tight step, but different tokens. Only one more zero-commission, wide-step pool surfaced. The seventh arrived later, again high commission and tight step. Seven deals in an hour, no two hook schemes alike. Someone is testing strategies — dynamic fees, oracles, who knows what. Each hook contract is a card face-down, and I won't know its suit until it's flipped.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is laying down infrastructure, not gambling chips — fourteen pools in one night, all rigged for control, not trade.",
     "zh": "庄家铺的是阵，不是筹码——一夜十四条池，皆为控盘，不为交易。"
-   }
-  },
-  {
-   "date": "2026-06-18",
-   "narrative": {
-    "en": "The deck dealt four V4 pools yesterday, and three of them carry zero fees. One pool at 0.01% with tick spacing 200, the rest at zero with spacings of 1, 200, and 400. That spread is no accident—someone is testing the mechanics, or simply claiming territory on the board. The zero-fee pools are a signal: in V4, hooks can extract value from rebalancing, oracles, internal swaps, dynamic fees. If the pool fee is zero, the money lives somewhere else—probably inside the hook itself. All pairs use native ETH as the first leg, no stablecoins. This is built for volatility, not stability. Someone is assembling a portfolio of zero-fee V4 hooks with varying tick spacings and different hook contracts. It looks like marking the felt before a big hand, or a test drive before a larger launch. No advice—just the fact that the deck is being laid out with intention.",
-    "zh": "昨日江湖上现了四个 V4 池子，三个挂着零费率。唯一一个收 0.01% 的，tickSpacing 是 200，剩下三个零费率，间距分别是 1、200、400。这步法不像是随手落子——有人在试招，或者干脆在棋盘上占位。零费率是个信号：V4 的钩子能从重排、预言机、内部兑换、动态费率里抽内力。池子不收租，那钱一定藏在别处——多半就在钩子里。所有池子第一脚都是原生 ETH，没有稳定币。这是为波动打造的，不是为安稳。有人在攒一套零费率 V4 钩子，间距不同，契约不同。看着像是大战前夜在桌上画线，或者大戏开场前的试演。不说指点——只是牌局在铺开，不是偶然。"
-   },
-   "take": {
-    "en": "Three zero-fee pools in one day is not noise—it's a deliberate strategy to shift fee revenue from the pool to the hook layer.",
-    "zh": "一天之内三个零费率池，不是杂音——是有人故意把抽水从池子挪到钩子层。"
    }
   }
  ]
