@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-02T14:19:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xAxiom closed PR #1038 in v4-core: 'fix(comment): drop duplicate 'in' in Pool.SwapStepState NatSpec'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1038"
+  },
+  {
+   "ts": "2026-07-02T14:19:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xAxiom closed PR #1039 in v4-core: 'docs(IHooks): fix duplicate word in hookData NatSpec comments'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1039"
+  },
+  {
    "ts": "2026-07-02T12:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25440741. Tokens: 0x0000000000000000000000000000000000000000 / 0x6477e0e9731c9cdbd22194b768c7dd4f354ec938. Fee:...",
    "url": "https://etherscan.io/tx/0x149d101480f30b05deb2a05879e5b87965ce7352f66baa1d5d298c85ffc0bf15"
-  },
-  {
-   "ts": "2026-07-02T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25440740. Tokens: 0x0000000000000000000000000000000000000000 / 0xc12b9e554a754f848588502dcf9023ac17652620. Fee:...",
-   "url": "https://etherscan.io/tx/0x0234b3d0e1194b464fd2c1354441d182f06c2b4183188a04a3275de7f9dc27f2"
-  },
-  {
-   "ts": "2026-07-02T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25440725. Tokens: 0x0000000000000000000000000000000000000000 / 0x437973ac4c1afb12b0f454e5fba91c7267b6ef54. Fee:...",
-   "url": "https://etherscan.io/tx/0xb0ec70263630b7d6738f9632e7ad52081a0918df95d7010426978e32144664e9"
   }
  ]
 }
