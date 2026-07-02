@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 22,
-  "hit": 0,
-  "miss": 0,
-  "open": 22,
-  "hit_rate": null
+  "hit": 4,
+  "miss": 7,
+  "open": 11,
+  "hit_rate": 0.364
  },
  "items": [
   {
@@ -77,8 +77,8 @@
    "text": "Over the next 7 days the count will exceed 357, as builders continue deploying pools with deliberately extreme fee tiers to test hook-based revenue models.",
    "horizon_days": 7,
    "resolve_after": "2026-07-02",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +357 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 14,
@@ -86,8 +86,8 @@
    "text": "Over the next 7 days the count will exceed 479: builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-07-01",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +479 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 13,
@@ -95,8 +95,8 @@
    "text": "Over the next 7 days the count will exceed 497.",
    "horizon_days": 7,
    "resolve_after": "2026-06-30",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +497 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 12,
@@ -104,8 +104,8 @@
    "text": "Over the next 7 days the count will exceed 548, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-06-29",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +548 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 11,
@@ -113,8 +113,8 @@
    "text": "Over the next 7 days, the count will exceed 535.",
    "horizon_days": 7,
    "resolve_after": "2026-06-28",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +535 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 10,
@@ -122,8 +122,8 @@
    "text": "Over the next 7 days the count will exceed 848, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-06-27",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +848 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 9,
@@ -131,8 +131,8 @@
    "text": "Over the next seven days, the count will exceed 850, because builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design rather than an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-06-26",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +850 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 8,
@@ -149,8 +149,8 @@
    "text": "Within the next seven days, at least three more V4 hook pools with non-standard fee tiers (either zero or maximum) will be deployed by the same deployer address or its affiliates, continuing the pattern of strategic testing.",
    "horizon_days": 7,
    "resolve_after": "2026-06-24",
-   "status": "open",
-   "resolution_note": null
+   "status": "hit",
+   "resolution_note": "Подтверждено: цель +3 по метрике nonstd_fee_pools достигнута."
   },
   {
    "id": 6,
@@ -158,8 +158,8 @@
    "text": "Within seven days, at least three more hook contracts will appear with custom tickSpacing below 10, mimicking the microscope pool at block 25326706.",
    "horizon_days": 7,
    "resolve_after": "2026-06-23",
-   "status": "open",
-   "resolution_note": null
+   "status": "hit",
+   "resolution_note": "Подтверждено: цель +3 по метрике tickspacing_lt10_hooks достигнута."
   },
   {
    "id": 5,
@@ -176,8 +176,8 @@
    "text": "Within seven days, at least one new hook contract will be deployed on Ethereum mainnet V4 pools, likely for dynamic fee or MEV protection, as builders test the joker's power.",
    "horizon_days": 7,
    "resolve_after": "2026-06-21",
-   "status": "open",
-   "resolution_note": null
+   "status": "hit",
+   "resolution_note": "Подтверждено: цель +1 по метрике total_hooks достигнута."
   },
   {
    "id": 3,
@@ -185,8 +185,8 @@
    "text": "Within seven days, the hook 0x1b15...aacc will deploy at least five more pools with the same pattern or a new token suffix.",
    "horizon_days": 7,
    "resolve_after": "2026-06-20",
-   "status": "open",
-   "resolution_note": null
+   "status": "hit",
+   "resolution_note": "Подтверждено: цель +5 по метрике pools_by_hook достигнута."
   },
   {
    "id": 2,
