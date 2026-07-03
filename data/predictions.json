@@ -3,9 +3,9 @@
  "stats": {
   "total": 23,
   "hit": 4,
-  "miss": 7,
-  "open": 12,
-  "hit_rate": 0.364
+  "miss": 8,
+  "open": 11,
+  "hit_rate": 0.333
  },
  "items": [
   {
@@ -77,8 +77,8 @@
    "text": "Over the next 7 days the count will exceed 349, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design rather than an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-07-03",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +349 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 15,
