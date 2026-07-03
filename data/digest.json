@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-03",
+   "narrative": {
+    "en": "The deal keeps coming, and tonight the deck is stacked with thirteen fresh pools in a single day. Thirteen. Nearly all of them take ETH at the door. One hook contract appears in four consecutive pools, three tokens minted in a single block. It's a production line, not a launch. Tick spacing at 200, fee at zero — no cushion against volatility, pure speculation dressed as liquidity. Another hook runs two pools with the maximum fee tier but a tight tick spacing of 60. Someone wants to catch every price tick and charge top dollar for it. And then there's the pool with fee 100 and tick spacing 1 — a gas guzzler for those who fear no transaction cost. Precision at any price. Meanwhile, the GitHub is silent except for two NatSpec typo fixes from 0xAxiom. Someone reads the fine print while the house deals from the bottom. The hooks are the new jokers, but who's shuffling and why remains unseen. Only the stakes feel higher.",
+    "zh": "江湖又起波澜。今日十三池齐开，十三。几乎都以ETH为入门之资。一个钩子合约连现四池，同一区块内连铸三枚代币——这不是开池，是流水线。tick间距二百，手续费为零，毫无波动缓冲，纯是投机披着流动性的皮。另一钩子双池皆取最高费率，却配六十的细密tick间距——要捕尽每一丝价差，且收最重的过路钱。更有费率一百、tick间距一的池子，那是烧着gas买精准，只为某种不容偏差的暗器。GitHub上却静默如夜，唯0xAxiom修了两处NatSpec错字。有人细读秘籍，有人暗布棋局。钩子便是新式暗器，但执棋之手与落子之意，仍隐于迷雾。只觉内力暗涌，赌注已悄然加码。"
+   },
+   "take": {
+    "en": "Thirteen pools in a day, all with non-standard fee structures: either zero or maximum tier, signaling deliberate economic design through the hook, not organic token launches.",
+    "zh": "今日十三池齐发，皆用非常规费率——零费或最高档，明示收入仰仗钩子而非交易，绝非寻常开池之举。"
+   }
+  },
+  {
    "date": "2026-07-02",
    "narrative": {
     "en": "The night's surveillance turned up a cluster. Eight V4 hook pools in a single day, and this isn't just a routine airdrop — someone is laying out a solitaire. Four pools with zero fee and tickSpacing 200, all through the same hook contract — 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Same suit: ETH against four different tokens. Blocks 25440724-25440741 — the interval under a minute. Someone deployed them in a series, like an automaton. Four tokens, four pools, one template. Then two pools with a 100 fee and tickSpacing 1. Also ETH pairs, but different hooks — 0x3b9136df571f9e10f8b30d777658b32a17e04144 and 0x954d9a5b5613722f3d1e2f29b7bebf02526e0144. These were spaced a bit wider in time, but the logic is the same — standard settings, no exotic parameters. Separately, a USDT pool — 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee 8388608, tickSpacing 10, hook 0xfffff5962193fbdc458e81cac67437e426c708c0. That's no ordinary deal. 8388608 is a nonstandard fee, nearly at the boundary of what's allowed. And a hook with that address — not random. The last pool, token 0xcfcc25e924bc022735e1e4c79a5cc6ded2f42c72 — again fee 100 and tickSpacing 1, but a different hook. Eight pools. Three different hooks. One cluster of zero-fee pools. One anomalous USDT. Looking at the deck, someone is clearly testing strategies on V4, and not alone. Four pools through one hook — that's a bot or a script. The USDT pool — either an experiment with fee tiers, or preparation for something more complex. The night showed: the V4 hook ecosystem is gaining momentum, and not every player here is for liquidity.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Three zero-fee pools on native ETH, different hooks, same night — someone is deliberately building a liquidity structure that bypasses swap fees, probably to route revenue through the hook instead.",
     "zh": "三个零费率池子，不同挂钩，同一夜 —— 有人故意搭建绕过交易费的结构，八成是想通过挂钩来收钱。"
-   }
-  },
-  {
-   "date": "2026-06-19",
-   "narrative": {
-    "en": "The deck was dealt dense by midnight — fourteen fresh V4 pools across a single blockchain day. I study them like a solitaire spread: every pair has WETH on one side and a dozen different tokens on the other. The first thing that catches the eye is a cluster of pools with zero fee. USDT, USDC, and a few obscure addresses start at zero rate with a tick step of one. This isn't trading in the classic sense — it's infrastructure for precision liquidity management. The spread is too narrow to earn fees, but perfect for algorithmic strategies. Then there are two pools with a fee of 999300 basis points — nearly 100%. That's no mistake; it's a trap. The hook contract 0xdfa04b surfaces three times tonight, each time with different tokens. Such a percentage means a trade only goes through if the hook allows it — either a dynamic swap, an auction, or simply a lockout for everyone except a whitelist. Someone is building a private order inside a public deck. Three pools from hook 0x96b893 with a tick step of 200 and zero fee look like preparation for a cross-chain bridge or stablecoin aggregation. The token addresses are young, without history. Likely test deployments before launch. And separately, a pool with fee 3000 and tick step 60 — a classic Uniswap, but with a hook. The only one with any margin for LPs. Possibly the only one where anyone will actually trade, not just initialize. Nobody asks why anyone would need fourteen pools in an hour. The answer lies on the surface: not for liquidity, but for control. Every new contract is another memory slot, another chance to intercept the flow. The game is played not on volumes, but on order.",
-    "zh": "子夜时分，牌局已密不透风——单日之内，十四条V4池在链上落定。我望着它们，如同摊开一副接龙牌：所有交易对都以WETH为一端，另一端是十来个不同的令牌。首先入眼的是一簇零费率池。USDT、USDC，外加几个无名地址，皆以零费率起步，刻度步长为一。这并非传统意义上的交易——这是为精准流动性管理搭建的根基。价差太窄，赚不到手续费，却完美适配算法策略。接着是两池，费率高达999300基点——近乎百分之百。这不是失误，是陷阱。钩子合约0xdfa04b一夜现身三次，每次搭配不同令牌。如此费率意味着，交易只有经钩子允许才能执行——或是动态兑换，或是拍卖，或是仅限白名单的封锁。有人在公开牌局内构建私序。钩子0x96b893的三池，刻度步长两百、零费率，看似为跨链桥或稳定币聚合做准备。令牌地址年轻，无历史痕迹，多半是上线前的测试部署。另有一池，费率三千、刻度步长六十——经典Uniswap，但带钩子。这是唯一能让流动性提供者有些许利润的池子，或许也是唯一会有人真正交易、而非仅仅初始化的池子。无人追问，为何有人在一小时内建十四条池。答案摆在台面上：不为流动性，而为控制。每份新合约，都是内存中的一个槽位，一次拦截流量的机会。这场博弈，赌的不是成交量，而是秩序。"
-   },
-   "take": {
-    "en": "The house is laying down infrastructure, not gambling chips — fourteen pools in one night, all rigged for control, not trade.",
-    "zh": "庄家铺的是阵，不是筹码——一夜十四条池，皆为控盘，不为交易。"
    }
   }
  ]
