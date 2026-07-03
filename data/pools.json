@@ -1,18 +1,29 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-03T19:15:44Z",
- "new_pools_24h": 36,
- "new_pools_7d": 372,
- "unique_hook_contracts": 1908,
+ "generated_at": "2026-07-03T20:15:34Z",
+ "new_pools_24h": 34,
+ "new_pools_7d": 368,
+ "unique_hook_contracts": 1909,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 298.524230776916,
-   "pct_24h": 10.471,
-   "vol_24h_usd": 57797.1131782443,
-   "liquidity_usd": 716906.7566,
+   "price_usd": 300.733890777588,
+   "pct_24h": 11.289,
+   "vol_24h_usd": 57797.2703459328,
+   "liquidity_usd": 728716.8403,
    "liq_class": "deep",
+   "vol_class": "mid",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.223743803710325,
+   "pct_24h": 1.218,
+   "vol_24h_usd": 11460.7918994185,
+   "liquidity_usd": 239698.7859,
+   "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -28,17 +39,6 @@
    "stale_hours": 0
   },
   {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.221417328685526,
-   "pct_24h": -3.936,
-   "vol_24h_usd": 12498.7614070217,
-   "liquidity_usd": 235807.8556,
-   "liq_class": "mid",
-   "vol_class": "mid",
-   "stale_hours": 1
-  },
-  {
    "ticker": "Slonks",
    "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
    "price_usd": 2.911894456e-05,
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 139
+   "stale_hours": 140
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 107485.5597,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 104
+   "stale_hours": 105
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 30842.3738,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 164
+   "stale_hours": 165
   }
  ],
  "top_pools": []
