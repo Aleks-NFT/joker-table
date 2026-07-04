@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-04T15:15:35Z",
- "total_hooks": 1910,
- "total_pools": 5926,
+ "generated_at": "2026-07-04T16:15:34Z",
+ "total_hooks": 1912,
+ "total_pools": 5942,
  "multi_pool_hooks": 126,
  "shown": 126,
  "more_count": 0,
@@ -57,7 +57,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 347,
+   "pool_count": 355,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -69,7 +69,30 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25452955,
+   "last_block": 25460003,
+   "visible": true
+  },
+  {
+   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "address_short": "0x96b8…e0cc",
+   "name": "UniversalKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "pool_count": 318,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118285,
+   "last_block": 25459842,
    "visible": true
   },
   {
@@ -99,35 +122,12 @@
    "visible": true
   },
   {
-   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "address_short": "0x96b8…e0cc",
-   "name": "UniversalKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 314,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25118285,
-   "last_block": 25452809,
-   "visible": true
-  },
-  {
    "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
    "address_short": "0x627f…00cc",
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 305,
+   "pool_count": 307,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -139,7 +139,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25117494,
-   "last_block": 25445664,
+   "last_block": 25459876,
    "visible": true
   },
   {
