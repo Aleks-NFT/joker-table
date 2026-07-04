@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-04",
+   "narrative": {
+    "en": "The deal is done, and a new hand begins on block 25455400. A Uniswap V4 pool with hooks is not just another liquidity pair—it's a bid for new mechanics. The pair: native ETH against contract 0x63ee...c0c0. And here's the kicker: that same address serves as the hooks. A closed loop—the contract services itself, audits itself. The fee of 8388608 is no mistake. In V4, that code means a dynamic or custom fee structure, not the standard 0.01%, 0.05%, or 0.30%. It's manual tuning, hinting at non-standard logic. Tick spacing 200—the step between ticks is wide, so the pool is built for volatile pairs or large orders where precision doesn't matter, but less gas on crossing. But the real card is the hooks contract itself. It is the token, it is the manager. That means every swap, every added or removed liquidity, passes through its filters. Whoever controls that contract controls the flow. And pool ID 0x9450...991—now a marker on the blockchain worth watching. No conclusions—only the fact: a new hand is on the felt. And its suit is yet unknown.",
+    "zh": "新的一局在区块 25455400 开启。Uniswap V4 带钩子的池子，不是普通的流动性——它是在争夺新的门派心法。对子：原生 ETH 对阵合约 0x63ee...c0c0。有意思的是，同一个地址就是钩子本身。自成一统——合约自己服务自己，自己审核自己。手续费 8388608 不是笔误。在 V4 里，这个代码代表动态或自定义收费结构，不是标准的 0.01%、0.05% 或 0.30%。这是手动调校，暗示着非常规的机关。Tick 间距 200——步宽大，说明这池子是为波动大的对子或大单准备的，精度不重要，但省 gas。真正的王牌是这个钩子合约。它既是代币，又是掌门。每一笔交换、每一次增减流动性，都得过它的关口。谁控制这合约，谁就控制了水流。池子 ID 0x9450...991——链上又多了一个值得留意的标记。不下定论——只摆事实：桌上多了一手新牌。花色未明。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
+    "zh": "建设者们正在部署使用非标准 swap 费用的池子——要么是零，要么是最高档——而不是常见的市场费率。这表明了刻意的经济设计：收入通过钩子而非 swap 本身收取。"
+   }
+  },
+  {
    "date": "2026-07-03",
    "narrative": {
     "en": "The deal keeps coming, and tonight the deck is stacked with thirteen fresh pools in a single day. Thirteen. Nearly all of them take ETH at the door. One hook contract appears in four consecutive pools, three tokens minted in a single block. It's a production line, not a launch. Tick spacing at 200, fee at zero — no cushion against volatility, pure speculation dressed as liquidity. Another hook runs two pools with the maximum fee tier but a tight tick spacing of 60. Someone wants to catch every price tick and charge top dollar for it. And then there's the pool with fee 100 and tick spacing 1 — a gas guzzler for those who fear no transaction cost. Precision at any price. Meanwhile, the GitHub is silent except for two NatSpec typo fixes from 0xAxiom. Someone reads the fine print while the house deals from the bottom. The hooks are the new jokers, but who's shuffling and why remains unseen. Only the stakes feel higher.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates; this signals deliberate economic design, not an organic token launch.",
     "zh": "建造者正在部署非标准手续费的池子——要么为零，要么为最高档——而非市场常规费率；这暗示着刻意的经济设计，而非自然的代币发行。"
-   }
-  },
-  {
-   "date": "2026-06-20",
-   "narrative": {
-    "en": "Three V4 pools dropped overnight, all with zero swap fees. Tick spacing 200 — that's a bet on tight spreads, on pairs where volatility won't eat the liquidity at the edges. First pool on block 25355373: native ETH paired with contract 0x2244...1110, hook at 0x627f...00cc. Second on block 25354958: same ETH, token 0xbe75...b000. Third on 25354993: ETH plus 0x22d4...cf5. No WETH — only the native coin. Zero fee in V4 isn't a bug, it's a signal. Either someone is seeding liquidity for tests, or they're laying groundwork for dynamic fees via hooks. The hook contracts are different on each pool — so not one dev cloning a scheme. Three different hook addresses, three different tokens, one ETH. Someone is building a deck. Tick spacing 200 for ETH pairs is fairly dense. Usually 30 bps gets 60, 5 bps gets 10. 200 tick spacing at zero fee is almost an order book. Someone clearly wants liquidity distributed across a narrow range, without losing anything to fees. Look at the block order — the second pool appeared before the first (25354958 vs 25355373), the third in between (25354993). So not a sequential deal, but parallel. Transactions came in the same window, possibly from one multi-sender wallet. No emoji, no advice. Just fact: overnight someone laid three cards on the V4 table. Suit: ETH. Bet: zero-fee liquidity. What's in the sleeve — we'll see when the hook fires.",
-    "zh": "一夜之间，V4 江湖上多了三个池子，全部零手续费。Tick spacing 200 —— 这是要打窄幅对局，波动再大也吃不到边缘的流动性。第一个池子在区块 25355373，原生 ETH 对上合约 0x2244...1110，挂钩 0x627f...00cc。第二个在 25354958，同样 ETH，代币 0xbe75...b000。第三个在 25354993，ETH 加 0x22d4...cf5。没有 WETH，只有原生币。零费率不是 bug，是信号。要么有人在测试流动性，要么在铺路 —— 以后通过挂钩收动态费用。三个挂钩地址各不相同，不是同一个开发者复制粘贴。三个不同的挂钩，三个不同的代币，同一个 ETH。有人在组牌。Tick spacing 200 对于 ETH 对局来说相当密集。通常 30 bps 用 60，5 bps 用 10。零费率下 200 的 tick spacing 几乎就是订单簿。有人显然想要流动性分布在窄区间内，而且不损失任何手续费。看区块顺序 —— 第二个池子比第一个还早出现（25354958 对 25355373），第三个在中间（25354993）。不是顺序部署，而是并行。交易在同一个窗口内发出，可能来自同一个多发送钱包。没有表情，没有建议。事实就是：夜里有人在 V4 桌上摆了三张牌。花色：ETH。赌注：零费率流动性。袖子里藏着什么 —— 等挂钩发动便知。"
-   },
-   "take": {
-    "en": "Three zero-fee pools on native ETH, different hooks, same night — someone is deliberately building a liquidity structure that bypasses swap fees, probably to route revenue through the hook instead.",
-    "zh": "三个零费率池子，不同挂钩，同一夜 —— 有人故意搭建绕过交易费的结构，八成是想通过挂钩来收钱。"
    }
   }
  ]
