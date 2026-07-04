@@ -1,17 +1,17 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-04T11:15:44Z",
- "new_pools_24h": 35,
- "new_pools_7d": 336,
+ "generated_at": "2026-07-04T12:15:45Z",
+ "new_pools_24h": 23,
+ "new_pools_7d": 335,
  "unique_hook_contracts": 1910,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 296.907291518283,
-   "pct_24h": -0.566,
-   "vol_24h_usd": 54838.2969860038,
-   "liquidity_usd": 725642.4033,
+   "price_usd": 299.710166045524,
+   "pct_24h": 1.182,
+   "vol_24h_usd": 54306.7754405145,
+   "liquidity_usd": 727654.3448,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0
@@ -36,7 +36,7 @@
    "liquidity_usd": 246179.9627,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 1
+   "stale_hours": 2
   },
   {
    "ticker": "Slonks",
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 10
+   "stale_hours": 11
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 107485.5597,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 120
+   "stale_hours": 121
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 30842.3738,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 180
+   "stale_hours": 182
   }
  ],
  "top_pools": []
