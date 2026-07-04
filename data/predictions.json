@@ -3,9 +3,9 @@
  "stats": {
   "total": 24,
   "hit": 4,
-  "miss": 8,
-  "open": 12,
-  "hit_rate": 0.333
+  "miss": 9,
+  "open": 11,
+  "hit_rate": 0.308
  },
  "items": [
   {
@@ -77,8 +77,8 @@
    "text": "Over the next 7 days the count will exceed 320.",
    "horizon_days": 7,
    "resolve_after": "2026-07-04",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Подтверждено: цель +320 по метрике nonstd_fee_pools не достигнута."
   },
   {
    "id": 16,
