@@ -129,6 +129,7 @@
     <section id="hook-pulse" data-deal data-rise style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.18s forwards;">
       <div style="display: flex; align-items: baseline; gap: 14px;">
         <h2 class="zone-title">HOOK MARKET PULSE</h2>
+        <span style="font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:2px;background:rgba(227,53,78,0.15);border:1px solid rgba(227,53,78,0.4);color:#E3354E;padding:4px 8px 3px;white-space:nowrap;">DIR A &middot; MEMECOIN</span>
         <div style="flex: 1; height: 1px; background: #26262C;"></div>
         <span id="pulse-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
       </div>
@@ -139,6 +140,7 @@
     <section id="hook-factories" data-deal data-rise style="display: flex; flex-direction: column; gap: 18px; opacity: 0; animation: deal 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) 0.26s forwards;">
       <div style="display: flex; align-items: baseline; gap: 14px;">
         <h2 class="zone-title">HOOK FACTORIES</h2>
+        <span style="font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:2px;background:rgba(93,143,58,0.12);border:1px solid rgba(93,143,58,0.4);color:#5D8F3A;padding:4px 8px 3px;white-space:nowrap;">DIR B &middot; INFRA</span>
         <div style="flex: 1; height: 1px; background: #26262C;"></div>
         <span id="hooks-caption" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #8E887A;">&mdash;</span>
       </div>
@@ -544,12 +546,32 @@
     var anim = isFresh ? "wireStrike 1.1s cubic-bezier(0.2,0.7,0.2,1) forwards"
                        : (i === 0 ? "" : "");
     var bg = isFresh ? "rgba(227,53,78,0.05)" : (i === 0 ? "rgba(232,176,75,0.04)" : "transparent");
+    var djBlock = "";
+    if (t.dj && t.dj.voiced && t.dj.line) {
+      var challenge = "";
+      if (t.dj.challenge) {
+        challenge = '<a href="https://twitter.com/FirstNFT" rel="noopener" ' +
+          'style="display:inline-block;margin-top:7px;font-family:\'IBM Plex Mono\',monospace;' +
+          'font-size:11px;letter-spacing:0.5px;color:#8E887A;text-decoration:none;' +
+          'border-bottom:1px dashed #4A4636;padding-bottom:1px;" ' +
+          'onmouseover="this.style.color=\'#E8B04B\';this.style.borderColor=\'#E8B04B\';" ' +
+          'onmouseout="this.style.color=\'#8E887A\';this.style.borderColor=\'#4A4636\';">' +
+          "answer the dealer \u2192 @FirstNFT</a>";
+      }
+      djBlock = '<div style="flex-basis:100%;margin:8px 0 2px 93px;padding-left:13px;' +
+        'border-left:2px solid #E8B04B;">' +
+        '<span style="font-family:Georgia,\'Times New Roman\',serif;font-style:italic;' +
+        'font-size:13.5px;line-height:1.5;color:#E8B04B;">\u2666 ' + escW(t.dj.line) + "</span>" +
+        (challenge ? "<br>" + challenge : "") +
+      "</div>";
+    }
     return '<div style="display:flex;gap:13px;align-items:baseline;flex-wrap:wrap;padding:11px 15px;border-bottom:1px solid #1B1B20;background:' + bg + ';' +
       (anim ? "animation:" + anim + ";" : "") + '">' +
       '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:' + MUT + ';min-width:80px;">' + escW(String(t.ts).slice(5, 10) + " " + String(t.ts).slice(11, 16)) + "</span>" +
       '<span style="font-size:13px;line-height:1;color:' + suitColorW(su) + ';">' + su + "</span>" +
       '<span style="font-family:\'IBM Plex Mono\',monospace;font-weight:600;font-size:12px;letter-spacing:0.5px;color:' + INK + ';">' + escW(String(t.source || "").toUpperCase()) + "</span>" +
       '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12.5px;color:#B9B2A0;flex:1;min-width:220px;">' + body + "</span>" +
+      djBlock +
     "</div>";
   }
 
