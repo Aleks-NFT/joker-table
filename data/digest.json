@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-05",
+   "narrative": {
+    "en": "The deal on the table is pool ID 0xd222635befb0a5696744c0d68d2ad7fb047e72e64c47175f42260964779e4e5c — not just a hash, but a cut of the deck. Uniswap V4 hook pool at block 25462893 is no ordinary hand. Here the zero address plays against 0xd5dd59fc90431962c2b650069a85ac5d150f5154. Zero is always the wild joker, a suit without a suit. The second token is a specific hand, still unshown. The fee at 100 basis points is not for noise. It's a bet on fine-tuning liquidity. Tick spacing at 1 is the minimum step, as if you were cutting the deck one card at a time, not in stacks. Such spacing gives maximum flexibility but demands constant attention: every tick is a potential reversal. The hook contract 0xafe59bc5fe2073d3308e3acca77ecedf83528144 is the one shuffling the deck in real time. V4 without hooks is a dull table. With hooks, cards can change suits on the fly. Who wrote this hook, what conditions are encoded — still dark. But the very fact of its presence says someone is ready to play by their own rules. Notice: not a single public comment from the deployer. No teaser, no 'look at me'. This is either a cold-blooded player who knows the value of silence, or a test — but tests usually don't set fee at 100 and tick spacing at 1. Tests are wide spacing, round numbers. For now, this is just one deal. But such deals rarely lie dead. Either someone is preparing a new type of liquidity, or a hook will be written that flips the pool's logic. Waiting for the next cards from this deck.",
+    "zh": "这个池子ID 0xd222635befb0a5696744c0d68d2ad7fb047e72e64c47175f42260964779e4e5c，不是普通的哈希，是牌局里的一刀切。Uniswap V4的hook池，25462893区块，不是寻常的摊牌。零地址对0xd5dd59fc90431962c2b650069a85ac5d150f5154——零地址永远是百搭牌，无门无派。另一个代币是具体的招式，还没亮底。手续费100基点，不是闹着玩的。这是对流动性精细调校的下注。tick间距1，最小步长，好比一张张切牌，不是整叠。这种间距给最大灵活，但需要时刻盯着：每个tick都可能翻转。hook合约0xafe59bc5fe2073d3308e3acca77ecedf83528144，是当场洗牌的人。V4没有hook，就是一张空桌子。有hook，牌面能当场变。谁写的这个hook，藏了什么条件——现在还是黑的。但它的存在本身说明，有人要按自己的规矩玩。注意：部署者没发过一句公开消息。没有预告，没有'看我'。要么是冷血的玩家，知道沉默的分量；要么是测试——但测试不会设100基点和间距1。测试都是宽间距、整数。现在只是一手牌。但这种牌很少烂在桌上。要么有人在准备新类型的流动性，要么会有人写一个hook，把池子的逻辑翻过来。等这副牌的下一张。"
+   },
+   "take": {
+    "en": "A zero-address hook pool with 100 bp fee and tick spacing 1 is a deliberate setup — someone is dealing from a custom deck, not the house's.",
+    "zh": "零地址、100基点手续费、间距1——这不是随机发牌，是有人按自己的谱子下棋。"
+   }
+  },
+  {
    "date": "2026-07-04",
    "narrative": {
     "en": "The deal is done, and a new hand begins on block 25455400. A Uniswap V4 pool with hooks is not just another liquidity pair—it's a bid for new mechanics. The pair: native ETH against contract 0x63ee...c0c0. And here's the kicker: that same address serves as the hooks. A closed loop—the contract services itself, audits itself. The fee of 8388608 is no mistake. In V4, that code means a dynamic or custom fee structure, not the standard 0.01%, 0.05%, or 0.30%. It's manual tuning, hinting at non-standard logic. Tick spacing 200—the step between ticks is wide, so the pool is built for volatile pairs or large orders where precision doesn't matter, but less gas on crossing. But the real card is the hooks contract itself. It is the token, it is the manager. That means every swap, every added or removed liquidity, passes through its filters. Whoever controls that contract controls the flow. And pool ID 0x9450...991—now a marker on the blockchain worth watching. No conclusions—only the fact: a new hand is on the felt. And its suit is yet unknown.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The hook is the token, the token is the hook — this pool is a closed loop, and the house is the mirror.",
     "zh": "钩即是币，币即是钩——这个池子是个闭环，庄家就是自己的影子。"
-   }
-  },
-  {
-   "date": "2026-06-21",
-   "narrative": {
-    "en": "Four pools in an hour. Same pattern: zero fee, tick spacing 200, and three of them share the same hook contract: 0x627fa6f76fa96b10bae1b6fba280a3c9264500cc. Only the third pool breaks the mold with a different hook, 0x68c463f0c8ad1131eac043b035618223d3caeacc. But the structure is identical: WETH (zero address) paired with tokens ending in 1110 or 3000. Three tokens share the 1110 suffix: 0xcfa67a2fcbc6d3f373f0005daa765eb1cb5d1110, 0xda5e4d175f2dcb6009d80f81ee6efb68d9411110, 0xa2152be54519ccd7840a43736619ec78551d1110. The fourth token, 0x8adc1ae730f7632e8b809085409b8d89d7b63000, follows a different pattern with a different hook. Coincidence? Unlikely. Zero-fee pools with hooks in V4 aren't for retail trading—they're for mechanics. These pools are typically test beds, internal routing, or preparation for something larger. Three pools with the same hook suggest one developer or team deploying a series. The fourth might be a parallel branch or a different player with the same idea. Blocks come in a steady rhythm: 25361654, 25361695, 25362058, 25362196—gaps of 41, 363, and 138 blocks. Not a rush, but confident pacing. Someone is sitting calmly, clicking 'create.' Pool ID is a hash of tokens, fee, and hook. Same hook, different tokens, different pools. What they'll do is a question for the hook. V4 hooks can do anything: dynamic fees, TWAP oracles, MEV protection, even entry restrictions. But for now, it's a quiet deal on the felt.",
-    "zh": "一小时之内，四个池子。同样的模式：手续费为零，tickSpacing 为 200，其中三个池子用的是同一个 hook 合约：0x627fa6f76fa96b10bae1b6fba280a3c9264500cc。只有第三个池子不同，用的是另一个 hook：0x68c463f0c8ad1131eac043b035618223d3caeacc。但结构一致：WETH（零地址）对上后缀为 1110 或 3000 的代币。三个代币以 1110 结尾：0xcfa67a2fcbc6d3f373f0005daa765eb1cb5d1110、0xda5e4d175f2dcb6009d80f81ee6efb68d9411110、0xa2152be54519ccd7840a43736619ec78551d1110。第四个代币 0x8adc1ae730f7632e8b809085409b8d89d7b63000 则是另一种模式，hook 也不同。巧合？不太可能。V4 中零手续费的 hook 池不是给散户交易用的——它们是机制设计。这些池子通常是测试床、内部路由或为更大布局做准备。三个相同 hook 的池子暗示同一个开发者或团队在部署系列。第四个可能是平行分支或另一个玩家，但思路相同。区块间隔稳定：25361654、25361695、25362058、25362196——间隔分别为 41、363、138 个区块。不紧不慢，节奏从容。有人在冷静地点击“创建”。池子 ID 由代币、手续费和 hook 哈希而成。hook 相同，代币不同，池子就不同。它们会做什么，取决于 hook。V4 的 hook 无所不能：动态手续费、TWAP 预言机、MEV 防护、甚至准入限制。但目前，这只是江湖上的一次低调出手。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates; this signals deliberate economic design, not an organic token launch.",
-    "zh": "建造者正在部署非标准手续费的池子——要么为零，要么为最高档——而非市场常规费率；这暗示着刻意的经济设计，而非自然的代币发行。"
    }
   }
  ]
