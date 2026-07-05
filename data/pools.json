@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-05T15:07:08Z",
+ "generated_at": "2026-07-05T15:08:27Z",
  "new_pools_24h": 31,
  "new_pools_7d": 314,
  "unique_hook_contracts": 1922,
@@ -72,66 +72,5 @@
    "stale_hours": 208
   }
  ],
- "top_pools": [
-  {
-   "ticker": "HOOK",
-   "pool": "",
-   "price_usd": 3.84236674632645e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 0.3586,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKS",
-   "pool": "",
-   "price_usd": 8.604116104e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 1417.7289,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKEN",
-   "pool": "",
-   "price_usd": 0.1727372638,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 0.06029616483,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HID",
-   "pool": "",
-   "price_usd": 0.01137529096,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 0.1788,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "SENSE",
-   "pool": "",
-   "price_usd": 2.663756548e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 3.3644,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HSENSOR",
-   "pool": "",
-   "price_usd": 1.76903169e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 0.0820724674677994,
-   "liq_class": "thin",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
