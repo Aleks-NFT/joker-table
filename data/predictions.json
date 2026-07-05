@@ -15,7 +15,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-12",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 24,
@@ -24,7 +25,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-11",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 23,
@@ -33,7 +35,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-10",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 22,
@@ -42,7 +45,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-09",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 21,
@@ -51,7 +55,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-08",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 20,
@@ -60,7 +65,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-07",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 19,
@@ -69,7 +75,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-06",
    "status": "open",
-   "resolution_note": null
+   "resolution_note": null,
+   "phase": "v1"
   },
   {
    "id": 18,
@@ -78,7 +85,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-05",
    "status": "miss",
-   "resolution_note": "Confirmed: target +302 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +302 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 17,
@@ -87,7 +95,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-04",
    "status": "miss",
-   "resolution_note": "Confirmed: target +320 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +320 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 16,
@@ -96,7 +105,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-03",
    "status": "miss",
-   "resolution_note": "Confirmed: target +349 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +349 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 15,
@@ -105,7 +115,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-02",
    "status": "miss",
-   "resolution_note": "Confirmed: target +357 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +357 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 14,
@@ -114,7 +125,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-07-01",
    "status": "miss",
-   "resolution_note": "Confirmed: target +479 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +479 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 13,
@@ -123,7 +135,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-30",
    "status": "miss",
-   "resolution_note": "Confirmed: target +497 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +497 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 12,
@@ -132,7 +145,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-29",
    "status": "miss",
-   "resolution_note": "Confirmed: target +548 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +548 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 11,
@@ -141,7 +155,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-28",
    "status": "miss",
-   "resolution_note": "Confirmed: target +535 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +535 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 10,
@@ -150,7 +165,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-27",
    "status": "miss",
-   "resolution_note": "Confirmed: target +848 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +848 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 9,
@@ -159,7 +175,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-26",
    "status": "miss",
-   "resolution_note": "Confirmed: target +850 on metric nonstd_fee_pools not reached."
+   "resolution_note": "Confirmed: target +850 on metric nonstd_fee_pools not reached.",
+   "phase": "v1"
   },
   {
    "id": 8,
@@ -168,7 +185,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-25",
    "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify."
+   "resolution_note": "Voided manually — event-based, too old to verify.",
+   "phase": "v1"
   },
   {
    "id": 7,
@@ -177,7 +195,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-24",
    "status": "hit",
-   "resolution_note": "Confirmed: target +3 on metric nonstd_fee_pools reached."
+   "resolution_note": "Confirmed: target +3 on metric nonstd_fee_pools reached.",
+   "phase": "v1"
   },
   {
    "id": 6,
@@ -186,7 +205,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-23",
    "status": "hit",
-   "resolution_note": "Confirmed: target +3 on metric tickspacing_lt10_hooks reached."
+   "resolution_note": "Confirmed: target +3 on metric tickspacing_lt10_hooks reached.",
+   "phase": "v1"
   },
   {
    "id": 5,
@@ -195,7 +215,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-22",
    "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify."
+   "resolution_note": "Voided manually — event-based, too old to verify.",
+   "phase": "v1"
   },
   {
    "id": 4,
@@ -204,7 +225,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-21",
    "status": "hit",
-   "resolution_note": "Confirmed: target +1 on metric total_hooks reached."
+   "resolution_note": "Confirmed: target +1 on metric total_hooks reached.",
+   "phase": "v1"
   },
   {
    "id": 3,
@@ -213,7 +235,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-20",
    "status": "hit",
-   "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached."
+   "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached.",
+   "phase": "v1"
   },
   {
    "id": 2,
@@ -222,7 +245,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-19",
    "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify."
+   "resolution_note": "Voided manually — event-based, too old to verify.",
+   "phase": "v1"
   },
   {
    "id": 1,
@@ -231,7 +255,8 @@
    "horizon_days": 7,
    "resolve_after": "2026-06-18",
    "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify."
+   "resolution_note": "Voided manually — event-based, too old to verify.",
+   "phase": "v1"
   }
  ]
 }
