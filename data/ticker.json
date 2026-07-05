@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-05T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25463898. Tokens: 0x0000000000000000000000000000000000000000 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x4d762cf6388129279b2235ce393c45a078efb97e72d39fe4fffbc00d8d8e0665"
+  },
+  {
    "ts": "2026-07-05T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -203,13 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $139,977,709   #2 USDT / USDS — $61,435,701   #3 PYUSD / USDS — $24,660,790   #4 ...",
    "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-07-04T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "sUSDe / USDT 0.008% volume surged 79% to $8,603,261 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
   }
  ]
 }
