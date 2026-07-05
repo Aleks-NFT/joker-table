@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-05T11:21:37Z",
+ "generated_at": "2026-07-05T12:15:46Z",
  "total_hooks": 1920,
- "total_pools": 5954,
+ "total_pools": 5955,
  "multi_pool_hooks": 126,
  "shown": 126,
  "more_count": 0,
@@ -510,7 +510,7 @@
    "name": "UniswapV4KEMHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
-   "pool_count": 15,
+   "pool_count": 16,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -521,7 +521,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25124485,
-   "last_block": 25437278,
+   "last_block": 25466071,
    "visible": false
   },
   {

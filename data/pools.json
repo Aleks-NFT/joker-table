@@ -1,41 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-05T11:21:37Z",
- "new_pools_24h": 28,
- "new_pools_7d": 328,
+ "generated_at": "2026-07-05T12:15:46Z",
+ "new_pools_24h": 29,
+ "new_pools_7d": 324,
  "unique_hook_contracts": 1920,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 261.494668789806,
-   "pct_24h": -12.307,
-   "vol_24h_usd": 31381.4140547186,
-   "liquidity_usd": 681944.7974,
+   "price_usd": 267.158247542274,
+   "pct_24h": -9.156,
+   "vol_24h_usd": 34493.6775892521,
+   "liquidity_usd": 686843.837,
    "liq_class": "deep",
    "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.224248609030003,
-   "pct_24h": -4.9,
-   "vol_24h_usd": 18382.1686092277,
-   "liquidity_usd": 237932.6183,
-   "liq_class": "mid",
-   "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SLOP",
-   "pool": "0xa40f7c9bf63bafe3d3bcd09066dabb6322e51bb9c4c4ae0e3c2758b4755031b5",
-   "price_usd": 0.253826984607956,
-   "pct_24h": -6.939,
-   "vol_24h_usd": 2965.0679910594,
-   "liquidity_usd": 111029.287,
-   "liq_class": "mid",
-   "vol_class": "low",
    "stale_hours": 0
   },
   {
@@ -50,6 +28,17 @@
    "stale_hours": 0
   },
   {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.224248609030003,
+   "pct_24h": -4.9,
+   "vol_24h_usd": 18382.1686092277,
+   "liquidity_usd": 237932.6183,
+   "liq_class": "mid",
+   "vol_class": "mid",
+   "stale_hours": 0
+  },
+  {
    "ticker": "Slonks",
    "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
    "price_usd": 2.911894456e-05,
@@ -57,6 +46,17 @@
    "vol_24h_usd": 0.0,
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
+   "vol_class": "low",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SLOP",
+   "pool": "0xa40f7c9bf63bafe3d3bcd09066dabb6322e51bb9c4c4ae0e3c2758b4755031b5",
+   "price_usd": 0.253826984607956,
+   "pct_24h": -6.939,
+   "vol_24h_usd": 2965.0679910594,
+   "liquidity_usd": 111029.287,
+   "liq_class": "mid",
    "vol_class": "low",
    "stale_hours": 0
   },
@@ -69,7 +69,7 @@
    "liquidity_usd": 30842.3738,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 205
+   "stale_hours": 206
   }
  ],
  "top_pools": []
