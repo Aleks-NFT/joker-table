@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-05T15:05:33Z",
+ "generated_at": "2026-07-05T15:07:08Z",
  "new_pools_24h": 31,
  "new_pools_7d": 314,
  "unique_hook_contracts": 1922,
@@ -11,7 +11,7 @@
    "price_usd": 246.961611152652,
    "pct_24h": -17.407,
    "vol_24h_usd": 51025.5939978039,
-   "liquidity_usd": 662378.9069,
+   "liquidity_usd": 663991.8654,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0
@@ -19,10 +19,10 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.2339668500762,
-   "pct_24h": -0.736,
-   "vol_24h_usd": 19574.0647911882,
-   "liquidity_usd": 240770.2747,
+   "price_usd": 0.235255265362516,
+   "pct_24h": 2.203,
+   "vol_24h_usd": 19899.0063266857,
+   "liquidity_usd": 242755.9024,
    "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
@@ -72,5 +72,66 @@
    "stale_hours": 208
   }
  ],
- "top_pools": []
+ "top_pools": [
+  {
+   "ticker": "HOOK",
+   "pool": "",
+   "price_usd": 3.84236674632645e-06,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.3586,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HOOKS",
+   "pool": "",
+   "price_usd": 8.604116104e-06,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 1417.7289,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HOOKEN",
+   "pool": "",
+   "price_usd": 0.1727372638,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.06029616483,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HID",
+   "pool": "",
+   "price_usd": 0.01137529096,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.1788,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "SENSE",
+   "pool": "",
+   "price_usd": 2.663756548e-05,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 3.3644,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HSENSOR",
+   "pool": "",
+   "price_usd": 1.76903169e-05,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.0820724674677994,
+   "liq_class": "thin",
+   "vol_class": "low"
+  }
+ ]
 }
