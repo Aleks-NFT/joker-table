@@ -3,9 +3,9 @@
  "stats": {
   "total": 25,
   "hit": 4,
-  "miss": 9,
-  "open": 12,
-  "hit_rate": 0.308
+  "miss": 10,
+  "open": 7,
+  "hit_rate": 0.286
  },
  "items": [
   {
@@ -77,8 +77,8 @@
    "text": "Over the next 7 days the count will exceed 302, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-07-05",
-   "status": "open",
-   "resolution_note": null
+   "status": "miss",
+   "resolution_note": "Confirmed: target +302 on metric nonstd_fee_pools not reached."
   },
   {
    "id": 17,
@@ -167,8 +167,8 @@
    "text": "Within seven days, at least one of these zero-fee hook contracts will be forked or redeployed with a modified fee logic, confirming the shift toward hook-based revenue models.",
    "horizon_days": 7,
    "resolve_after": "2026-06-25",
-   "status": "open",
-   "resolution_note": null
+   "status": "void",
+   "resolution_note": "Voided manually — event-based, too old to verify."
   },
   {
    "id": 7,
@@ -194,8 +194,8 @@
    "text": "Within seven days, at least one of the two stable pools (0x8abdde86 or 0xa778c93f) will see a significant liquidity deposit as hooks compete for early dominance.",
    "horizon_days": 7,
    "resolve_after": "2026-06-22",
-   "status": "open",
-   "resolution_note": null
+   "status": "void",
+   "resolution_note": "Voided manually — event-based, too old to verify."
   },
   {
    "id": 4,
@@ -221,8 +221,8 @@
    "text": "Within seven days, at least one of the zero-fee pools deployed on block 25297090 will see its first swap, triggered by a hook-based strategy rather than organic flow.",
    "horizon_days": 7,
    "resolve_after": "2026-06-19",
-   "status": "open",
-   "resolution_note": null
+   "status": "void",
+   "resolution_note": "Voided manually — event-based, too old to verify."
   },
   {
    "id": 1,
@@ -230,8 +230,8 @@
    "text": "Within seven days, the hook contract at 0x9963ad53742fb596bc9c1ae5178d850b05d10144 will execute its first non-trivial call—either a fee override or a liquidity rebalance—revealing the pool's intended strategy.",
    "horizon_days": 7,
    "resolve_after": "2026-06-18",
-   "status": "open",
-   "resolution_note": null
+   "status": "void",
+   "resolution_note": "Voided manually — event-based, too old to verify."
   }
  ]
 }
