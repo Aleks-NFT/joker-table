@@ -460,19 +460,42 @@
   var s = preds.stats || {};
   $("record-caption").textContent =
     (s.hit || 0) + " hit \u00B7 " + (s.miss || 0) + " miss \u00B7 " + (s.open || 0) + " open \u2014 honest books";
-  $("prediction-rows").innerHTML = (preds.items || []).map(function (r) {
+  function predRow(r) {
     var st = String(r.status || "open").toUpperCase();
     var sc = st === "HIT" ? GREEN : (st === "MISS" ? RED : GOLD);
     var sb = st === "HIT" ? "rgba(93,143,58,0.12)" : (st === "MISS" ? "rgba(227,53,78,0.12)" : "rgba(232,176,75,0.08)");
     var rowBg = st === "MISS" ? "rgba(227,53,78,0.045)" : "transparent";
     return '<tr style="border-bottom:1px solid #1B1B20;background:' + rowBg + ';">' +
-      '<td style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.made_at) + "</td>" +
+      '<td style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.made_at) + "</td>" +
       '<td style="font-size:15px;color:' + INK + ';padding:13px 14px;vertical-align:top;min-width:220px;">' + esc(r.text) + "</td>" +
-      '<td style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.resolve_after) + "</td>" +
-      '<td style="padding:13px 14px;vertical-align:top;"><span style="font-family:\'Silkscreen\',monospace;font-size:8px;letter-spacing:2px;color:' + sc + ";border:1px solid " + sc + ";background:" + sb + ';padding:4px 8px 3px;white-space:nowrap;">' + esc(st) + "</span></td>" +
+      '<td style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:' + MUT + ';padding:13px 14px;white-space:nowrap;vertical-align:top;">' + esc(r.resolve_after) + "</td>" +
+      '<td style="padding:13px 14px;vertical-align:top;"><span style="font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:2px;color:' + sc + ";border:1px solid " + sc + ";background:" + sb + ';padding:4px 8px 3px;white-space:nowrap;">' + esc(st) + "</span></td>" +
       '<td style="font-style:italic;font-size:14px;color:#A8A192;padding:13px 14px;vertical-align:top;min-width:200px;">' + esc(r.resolution_note || "\u2014") + "</td>" +
     "</tr>";
-  }).join("");
+  }
+  var v2items = (preds.items || []).filter(function(r) { return r.phase === "v2"; });
+  var v1items = (preds.items || []).filter(function(r) { return r.phase !== "v2"; });
+  var v2html = v2items.map(predRow).join("");
+  var v1shown = false;
+  var v1divider = '<tr><td colspan="5" style="padding:0;">' +
+    '<div style="border-top:1px solid #26262C;border-bottom:1px solid #26262C;background:#0E0E10;padding:16px 14px;">' +
+    '<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;">' +
+    '<span style="font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:2px;color:#8E887A;border:1px solid #26262C;padding:4px 8px 3px;white-space:nowrap;">v1 · CALIBRATION PHASE</span>' +
+    '<span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#5E594E;flex:1;min-width:200px;">June market dropped 5× — model was tuned for growth, not decline. Spot calls on specific contracts: 4/4. Pool-count calls: 0/10. Algorithm updated July 5.</span>' +
+    '<button id="v1-toggle" type="button" style="cursor:pointer;font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:2px;background:none;border:1px solid #26262C;color:#8E887A;padding:5px 10px 4px;white-space:nowrap;">SHOW ' + v1items.length + ' CALLS</button>' +
+    '</div></div></td></tr>';
+  $("prediction-rows").innerHTML = v2html + v1divider;
+  var v1tbody = document.createElement("tbody");
+  v1tbody.id = "v1-rows";
+  v1tbody.style.display = "none";
+  v1tbody.innerHTML = v1items.map(predRow).join("");
+  document.getElementById("prediction-table").appendChild(v1tbody);
+  document.getElementById("v1-toggle").onclick = function() {
+    v1shown = !v1shown;
+    v1tbody.style.display = v1shown ? "" : "none";
+    this.textContent = v1shown ? "HIDE CALLS" : ("SHOW " + v1items.length + " CALLS");
+  };
+
 
   // ---- zone 5: ticker ----
   var suitChar = { spade: "\u2660", heart: "\u2665", diamond: "\u2666", club: "\u2663" };
