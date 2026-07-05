@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-05T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $83,831,670   #2 USDT / USDS — $29,573,983   #3 ETH / USDT 0.05% — $8,497,676   #...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-07-05T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume dropped 91% to $2,173,551 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
    "ts": "2026-07-05T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "sUSDe / USDT 0.008% volume surged 79% to $8,603,261 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
-  },
-  {
-   "ts": "2026-07-04T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $1,748,610 24h volume, $1,586,890 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-07-04T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25455400. Tokens: 0x0000000000000000000000000000000000000000 / 0x63ee8768cf2686a9c78845ea15de51678c6ac0c0. Fee:...",
-   "url": "https://etherscan.io/tx/0x7e2133889717eadd3756715b106c33edffbf98d45ac50c434cd7b6449e041bd0"
   }
  ]
 }
