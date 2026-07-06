@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-06T11:15:35Z",
- "total_hooks": 1926,
- "total_pools": 5966,
+ "generated_at": "2026-07-06T12:15:36Z",
+ "total_hooks": 1928,
+ "total_pools": 5970,
  "multi_pool_hooks": 127,
  "shown": 127,
  "more_count": 0,
@@ -57,7 +57,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 361,
+   "pool_count": 363,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -69,7 +69,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25468088,
+   "last_block": 25473190,
    "visible": true
   },
   {
