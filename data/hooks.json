@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-06T17:15:34Z",
- "total_hooks": 1935,
- "total_pools": 5979,
+ "generated_at": "2026-07-06T18:15:36Z",
+ "total_hooks": 1937,
+ "total_pools": 5989,
  "multi_pool_hooks": 127,
  "shown": 127,
  "more_count": 0,
@@ -32,7 +32,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 436,
+   "pool_count": 437,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -48,7 +48,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25418663,
+   "last_block": 25475054,
    "visible": true
   },
   {
@@ -57,7 +57,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 364,
+   "pool_count": 366,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -69,7 +69,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25474207,
+   "last_block": 25474954,
    "visible": true
   },
   {
@@ -78,7 +78,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 320,
+   "pool_count": 322,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -92,7 +92,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25469955,
+   "last_block": 25475130,
    "visible": true
   },
   {
@@ -127,7 +127,7 @@
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 308,
+   "pool_count": 311,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -139,7 +139,7 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25117494,
-   "last_block": 25473632,
+   "last_block": 25474985,
    "visible": true
   },
   {
