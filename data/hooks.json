@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-05T23:15:34Z",
- "total_hooks": 1923,
- "total_pools": 5961,
- "multi_pool_hooks": 126,
- "shown": 126,
+ "generated_at": "2026-07-06T00:15:34Z",
+ "total_hooks": 1924,
+ "total_pools": 5963,
+ "multi_pool_hooks": 127,
+ "shown": 127,
  "more_count": 0,
  "hooks": [
   {
@@ -2545,6 +2545,25 @@
    ],
    "first_block": 25334194,
    "last_block": 25341079,
+   "visible": false
+  },
+  {
+   "address": "0xd237942a13dad6c8e82e84803b215a80ccc0d080",
+   "address_short": "0xd237…d080",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xd237942a13dad6c8e82e84803b215a80ccc0d080",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "beforeSwap"
+   ],
+   "first_block": 25415492,
+   "last_block": 25469592,
    "visible": false
   },
   {
