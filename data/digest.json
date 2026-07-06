@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-06",
+   "narrative": {
+    "en": "The deal's been cut three times in twenty blocks. Two stable pairs—one against USDC, one against USDT—with identical micro-tick spacing and the same fee structure. That's not coincidence; that's a pattern. Someone's laying out a grid. The third pair breaks the mold: native ETH paired with a token I don't recognize, zero fee, wide tick spacing. No commission on the swap means the house takes its cut elsewhere—through the hook, not the trade. This isn't a token launch. This is deliberate architecture. The table's set, the chips are down. Someone's running a play they've rehearsed.",
+    "zh": "一夜之间，三座池子悄然落成，前后不过二十个区块。两座稳定币池——一座对USDC，一座对USDT——参数如出一辙：微步跳动，费率相同。这不是巧合，是有人在布阵。第三座池子却截然不同：原生ETH配一枚陌生代币，零费率，大步距。不收过路费，那必然另有生财之道——钩子才是真正的账房。这不是什么新币上线，是有人在精心搭台。江湖夜雨，暗流涌动。"
+   },
+   "take": {
+    "en": "Three pools in one night, two clones and one outlier—someone is building a coordinated strategy, not a random listing.",
+    "zh": "一夜三池，两同出一辙，一另辟蹊径——这不是随手上架，是有人在下一盘棋。"
+   }
+  },
+  {
    "date": "2026-07-05",
    "narrative": {
     "en": "The deal on the table is pool ID 0xd222635befb0a5696744c0d68d2ad7fb047e72e64c47175f42260964779e4e5c — not just a hash, but a cut of the deck. Uniswap V4 hook pool at block 25462893 is no ordinary hand. Here the zero address plays against 0xd5dd59fc90431962c2b650069a85ac5d150f5154. Zero is always the wild joker, a suit without a suit. The second token is a specific hand, still unshown. The fee at 100 basis points is not for noise. It's a bet on fine-tuning liquidity. Tick spacing at 1 is the minimum step, as if you were cutting the deck one card at a time, not in stacks. Such spacing gives maximum flexibility but demands constant attention: every tick is a potential reversal. The hook contract 0xafe59bc5fe2073d3308e3acca77ecedf83528144 is the one shuffling the deck in real time. V4 without hooks is a dull table. With hooks, cards can change suits on the fly. Who wrote this hook, what conditions are encoded — still dark. But the very fact of its presence says someone is ready to play by their own rules. Notice: not a single public comment from the deployer. No teaser, no 'look at me'. This is either a cold-blooded player who knows the value of silence, or a test — but tests usually don't set fee at 100 and tick spacing at 1. Tests are wide spacing, round numbers. For now, this is just one deal. But such deals rarely lie dead. Either someone is preparing a new type of liquidity, or a hook will be written that flips the pool's logic. Waiting for the next cards from this deck.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
     "zh": "建造者正在部署非标准手续费的池子——要么零费率，要么最高档——而不是常见的市场费率。这说明经济设计别有用心：收入通过 hook 而非交易收取，不是自然的代币发行。"
-   }
-  },
-  {
-   "date": "2026-06-22",
-   "narrative": {
-    "en": "Two decks on the felt. One stack holds zeros. The other holds an address that is both hook and token in a single hand. Pool ID 0x594e8b83eb1ff6ffada65542d3881bd2aafbf89f28ccbeba1d8ab04dae97b1e4 fixed itself on block 25369082. You look at the fee tier 3000 and tickSpacing 60 — standard cut for pairs where volatility hasn't yet turned to noise. But the hooks contract matches one of the tokens. That's not a bug. It's a declaration: the contract decides for itself when and how to shuffle liquidity. No one asked permission. V4 pools don't knock on the door — they just appear. And this particular hook is written so its logic is inseparable from the token. If anyone wants to pull liquidity, they'll have to talk to their own mirror. The night is quiet. No alarms in the mempool. No one flash-loaned to probe the edges. Just someone laid out the deck and left it on the table. Maybe a test. Maybe the first move in a game where zeros and addresses have swapped roles. Watch that pool ID. It doesn't shout. It waits for someone else to make the first move.",
-    "zh": "两副牌摊在桌上。一叠是零，另一叠是一个地址，它既是钩子又是代币，合二为一。池子ID 0x594e8b83eb1ff6ffada65542d3881bd2aafbf89f28ccbeba1d8ab04dae97b1e4在区块25369082上定了位。你看那费率层级3000和tick间距60——对于波动尚未变成噪音的交易对来说，这是标准切法。但钩子合约与其中一个代币相同。这不是bug，这是声明：合约自己决定何时以及如何洗牌流动性。没人问过许可。V4池子不敲门——它们直接出现。而这个特定钩子的写法使得其逻辑与代币不可分割。如果有人想抽走流动性，他得跟自己的镜像对话。夜很静。内存池里没有警报。没人用闪电贷试探边界。只是有人摆好了牌，留在了桌上。也许是测试，也许是零和地址互换角色的第一手。盯着那个池子ID。它不喊叫。它在等别人先出招。"
-   },
-   "take": {
-    "en": "The hook is the token, the token is the hook — this pool is a closed loop, and the house is the mirror.",
-    "zh": "钩即是币，币即是钩——这个池子是个闭环，庄家就是自己的影子。"
    }
   }
  ]
