@@ -3,9 +3,9 @@
  "stats": {
   "total": 27,
   "hit": 4,
-  "miss": 11,
-  "open": 8,
-  "hit_rate": 0.267
+  "miss": 12,
+  "open": 7,
+  "hit_rate": 0.25
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count will exceed 218.",
    "horizon_days": 7,
    "resolve_after": "2026-07-07",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +218 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   },
   {
