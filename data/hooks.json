@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-06T23:15:35Z",
- "total_hooks": 1943,
- "total_pools": 6006,
+ "generated_at": "2026-07-07T00:15:35Z",
+ "total_hooks": 1947,
+ "total_pools": 6012,
  "multi_pool_hooks": 127,
  "shown": 127,
  "more_count": 0,
@@ -1097,6 +1097,25 @@
    ],
    "first_block": 25336328,
    "last_block": 25336505,
+   "visible": false
+  },
+  {
+   "address": "0xd237942a13dad6c8e82e84803b215a80ccc0d080",
+   "address_short": "0xd237…d080",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xd237942a13dad6c8e82e84803b215a80ccc0d080",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "beforeSwap"
+   ],
+   "first_block": 25415492,
+   "last_block": 25476840,
    "visible": false
   },
   {
@@ -2545,25 +2564,6 @@
    ],
    "first_block": 25334194,
    "last_block": 25341079,
-   "visible": false
-  },
-  {
-   "address": "0xd237942a13dad6c8e82e84803b215a80ccc0d080",
-   "address_short": "0xd237…d080",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xd237942a13dad6c8e82e84803b215a80ccc0d080",
-   "pool_count": 2,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "afterInitialize",
-    "beforeSwap"
-   ],
-   "first_block": 25415492,
-   "last_block": 25469592,
    "visible": false
   },
   {
