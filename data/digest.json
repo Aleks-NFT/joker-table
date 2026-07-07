@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-07",
+   "narrative": {
+    "en": "The deal was laid on the felt yesterday, and it wasn't a single hand. Seven pools surfaced within minutes, each with a hook contract wired into its spine—no accidents here. Two pools paired the zero address against USDC: one with a fat tick spacing that whispers of wide-ranging liquidity, maybe for order-book mechanics; the other, tighter, with a different hook. Then a DAI/USDC pool, zero fee, unit tick spacing—this isn't for trading, it's a conversion bridge between stablecoins, slippage-free. A USDC/USDT pool followed, same parameters, different hook. Either competition or a coordinated spread across pairs. The real tell: three pools all using the same hook contract but with three different tick spacings—1, 10, 60—against the same counterparty. Someone is deploying a strategy, not just testing. And finally, a zero-address-against-USDT pool with zero fee—a rare beast indeed. Every hook is custom logic; every pool is a deliberate bet on how liquidity should behave. The house is watching, and the house knows these aren't random deals—they're the opening moves of a deeper game.",
+    "zh": "昨夜江湖暗流涌动，不是一两个池子，而是七道真气同时破土。零地址对USDC，两道池子：一道宽间距如大漠长风，似为做市机关蓄势；一道窄间距如银针探穴，钩子不同，各有玄机。DAI/USDC池，零费率，单位间距——这不是买卖，是两派内功的转换桥梁，无滑无震。USDC/USDT池，同样零费率，钩子却换了面孔。要么是两派较劲，要么是同门分路布局。最耐人寻味的是：同一个钩子，连出三池，间距分别为1、10、60——全对同一对手。这不是试招，这是布阵。最后，零地址对USDT，零费率，钩子暗藏。七池齐出，无一是闲棋。每个钩子都是独门心法，每个池子都是刻意为之。江湖老人看得出：这不是散兵游勇，是有人在搭台子，要唱一出大戏。"
+   },
+   "take": {
+    "en": "Seven pools in minutes, each with a tailored hook—this isn't noise, it's the sound of builders laying down infrastructure for a new liquidity architecture.",
+    "zh": "七池同出，钩法各异——这不是偶然，是有人在江湖深处布下一盘大棋。"
+   }
+  },
+  {
    "date": "2026-07-06",
    "narrative": {
     "en": "The deal's been cut three times in twenty blocks. Two stable pairs—one against USDC, one against USDT—with identical micro-tick spacing and the same fee structure. That's not coincidence; that's a pattern. Someone's laying out a grid. The third pair breaks the mold: native ETH paired with a token I don't recognize, zero fee, wide tick spacing. No commission on the swap means the house takes its cut elsewhere—through the hook, not the trade. This isn't a token launch. This is deliberate architecture. The table's set, the chips are down. Someone's running a play they've rehearsed.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The hand is not random: fourteen pools, each parameter tweaked with surgical intent — zero fees for data, max fees for exclusivity, and a triple calibration test — all pointing to a coordinated strategy, not a scatter of liquidity.",
     "zh": "十四个池子，参数各有玄机——零费率是布阵，最高费率是关门，三重校准是亮剑——这不是散兵游勇，是有人在下一盘大棋。"
-   }
-  },
-  {
-   "date": "2026-06-23",
-   "narrative": {
-    "en": "The deal hits the felt again. Ten new V4 hook pools in a single day, and if you think that's just blockchain noise, you've already folded. Most are paired with ETH — standard play — but the real tell is the hook contracts. Four pools share the same hook address: 0x96b893683afbfec071e90f78d00de4bb932fe0cc. That address laid down three pools with tokens 0x631aa4f8d097fe71ff44892f929d513019d0a62d, 0x1c60350d6efb580fa30d7f5714834c961e14ac6a, and 0x7eaa630332a02baf70e3ec4ad24b9f101f662b50 — all with zero swap fee. This isn't about trading; it's about something else. The hook is running its own logic, independent of the swap fee. Zero fee with a wide liquidity funnel — no LP sits there for yield. Another pattern: pools with fee set to 8388608. That's not a standard fee — it's a flag in hex, 0x800000. The hook uses a bitmask for custom fee math or distribution. Two such pools: one with token 0x1c66cb13b9a33b5e9c4f62a82ea9ae6ac62fa0cc — and note, the hook contract is the same as the token. Self-hook, the contract calls itself. The second with token 0xa4e2af01f1c06fcb46f88aa90fb226086258bb8c and hook 0x37343de810954364944ce92935cbb8f4c67100cc. And one more: a WETH pool with token 0x00000000c8e2db16f28bb8c89e5cea85ff266836, standard fee 3000, standard tick spacing 60. But the hook contract is 0xf455785a5fb80cd22078c47ac98193b0. The house is stacking the deck with custom hooks, not standard liquidity.",
-    "zh": "牌局又开了一轮。一天之内，十个新的 V4 hook 池子落地。如果觉得这只是链上技术标记，那你已经输了。多数池子对的是 ETH——常规打法——但真正的门道在 hook 合约里。四个池子共用同一个 hook 地址：0x96b893683afbfec071e90f78d00de4bb932fe0cc。这个地址布下了三个池子，代币分别是 0x631aa4f8d097fe71ff44892f929d513019d0a62d、0x1c60350d6efb580fa30d7f5714834c961e14ac6a 和 0x7eaa630332a02baf70e3ec4ad24b9f101f662b50——全部零手续费。这不是为了交易，是为了别的东西。hook 在运行自己的逻辑，跟交易费无关。零手续费加宽流动性漏斗——没有 LP 会为了收益坐在这里。另一个模式：手续费设为 8388608 的池子。这不是标准费率——十六进制是 0x800000，一个标志位。hook 用位掩码实现自定义费用计算或分配。两个这样的池子：一个代币是 0x1c66cb13b9a33b5e9c4f62a82ea9ae6ac62fa0cc——注意，hook 合约和代币是同一个地址。自 hook，合约调用自己。另一个代币 0xa4e2af01f1c06fcb46f88aa90fb226086258bb8c，hook 是 0x37343de810954364944ce92935cbb8f4c67100cc。还有一个 WETH 池子，代币 0x00000000c8e2db16f28bb8c89e5cea85ff266836，标准费率 3000，标准 tick 间距 60。但 hook 合约是 0xf455785a5fb80cd22078c47ac98193b0。庄家在牌里做了手脚，用的不是标准流动性，而是自定义 hook。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
-    "zh": "建造者正在部署非标准手续费的池子——要么零费率，要么最高档——而不是常见的市场费率。这说明经济设计别有用心：收入通过 hook 而非交易收取，不是自然的代币发行。"
    }
   }
  ]

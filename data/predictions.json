@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 26,
+  "total": 27,
   "hit": 4,
   "miss": 11,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.267
  },
  "items": [
+  {
+   "id": 27,
+   "made_at": "2026-07-07",
+   "text": "Over the next 7 days the count will exceed 150, because builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-14",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 26,
    "made_at": "2026-07-06",
