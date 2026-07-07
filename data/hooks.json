@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-07T20:15:35Z",
+ "generated_at": "2026-07-07T21:15:35Z",
  "total_hooks": 1961,
  "total_pools": 6031,
  "multi_pool_hooks": 128,
@@ -575,8 +575,8 @@
   {
    "address": "0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
    "address_short": "0x0025…0fc0",
-   "name": "",
-   "verified": false,
+   "name": "ERC1967Proxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0025040f0c0c0eba9daa45db1ad3d7748eeb0fc0",
    "pool_count": 9,
    "permissions_human": [
@@ -1121,8 +1121,8 @@
   {
    "address": "0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
    "address_short": "0xd81e…d5c8",
-   "name": "",
-   "verified": false,
+   "name": "JBUniswapV4Hook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
    "pool_count": 4,
    "permissions_human": [
@@ -1146,8 +1146,8 @@
   {
    "address": "0xd994cfdc5464577426cbb282cdf4a3db2354e088",
    "address_short": "0xd994…e088",
-   "name": "",
-   "verified": false,
+   "name": "TurbineHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd994cfdc5464577426cbb282cdf4a3db2354e088",
    "pool_count": 4,
    "permissions_human": [
@@ -1258,8 +1258,8 @@
   {
    "address": "0x650994840837126d972faf6f9b6275e5d52c2088",
    "address_short": "0x6509…2088",
-   "name": "",
-   "verified": false,
+   "name": "TurbineHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x650994840837126d972faf6f9b6275e5d52c2088",
    "pool_count": 3,
    "permissions_human": [
@@ -1474,8 +1474,8 @@
   {
    "address": "0x0244b2a4aeffee4f6628d1a2ac64578e274c6088",
    "address_short": "0x0244…6088",
-   "name": "",
-   "verified": false,
+   "name": "TurbineHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0244b2a4aeffee4f6628d1a2ac64578e274c6088",
    "pool_count": 2,
    "permissions_human": [
@@ -2590,8 +2590,8 @@
   {
    "address": "0xd26f8f3549f3651ba881f7748579783016a03fff",
    "address_short": "0xd26f…3fff",
-   "name": "",
-   "verified": false,
+   "name": "ERC1967Proxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd26f8f3549f3651ba881f7748579783016a03fff",
    "pool_count": 2,
    "permissions_human": [
