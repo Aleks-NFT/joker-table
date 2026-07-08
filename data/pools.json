@@ -1,30 +1,19 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-08T07:15:35Z",
- "new_pools_24h": 20,
- "new_pools_7d": 257,
+ "generated_at": "2026-07-08T08:15:45Z",
+ "new_pools_24h": 18,
+ "new_pools_7d": 254,
  "unique_hook_contracts": 1967,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 184.005910117475,
-   "pct_24h": -25.043,
-   "vol_24h_usd": 153612.595862801,
-   "liquidity_usd": 530791.2742,
+   "price_usd": 185.911963247994,
+   "pct_24h": -24.3,
+   "vol_24h_usd": 155841.758013499,
+   "liquidity_usd": 530396.2105,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.200721523421062,
-   "pct_24h": -13.915,
-   "vol_24h_usd": 25206.3352718568,
-   "liquidity_usd": 223220.6661,
-   "liq_class": "mid",
-   "vol_class": "mid",
    "stale_hours": 0
   },
   {
@@ -39,6 +28,17 @@
    "stale_hours": 0
   },
   {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.200721523421062,
+   "pct_24h": -13.915,
+   "vol_24h_usd": 25206.3352718568,
+   "liquidity_usd": 223220.6661,
+   "liq_class": "mid",
+   "vol_class": "mid",
+   "stale_hours": 1
+  },
+  {
    "ticker": "Slonks",
    "pool": "0xbc3286d21df5cdae021494f1304f0c39a7a48605d85cfefac56eba1fe96cf22b",
    "price_usd": 2.911894456e-05,
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 64
+   "stale_hours": 65
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 102634.5628,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 28
+   "stale_hours": 29
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 34429.9766,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 20
+   "stale_hours": 22
   }
  ],
  "top_pools": []
