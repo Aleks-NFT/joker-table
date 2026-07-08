@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-08T15:15:35Z",
- "total_hooks": 1969,
- "total_pools": 6039,
+ "generated_at": "2026-07-08T16:15:34Z",
+ "total_hooks": 1970,
+ "total_pools": 6041,
  "multi_pool_hooks": 128,
  "shown": 128,
  "more_count": 0,
@@ -1033,6 +1033,31 @@
    "visible": false
   },
   {
+   "address": "0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
+   "address_short": "0x2877…6444",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25238162,
+   "last_block": 25488765,
+   "last_deploy": "2026-07-08T16:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x46df328a24cb43a2cead3d28e03fa4de1411e444",
    "address_short": "0x46df…e444",
    "name": "TTTHook",
@@ -1321,31 +1346,6 @@
    "first_block": 25334146,
    "last_block": 25334161,
    "last_deploy": "2026-06-17T04:00:02Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
-   "address_short": "0x2877…6444",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25238162,
-   "last_block": 25420377,
-   "last_deploy": "2026-06-29T04:00:02Z",
    "active": false,
    "visible": false
   },
