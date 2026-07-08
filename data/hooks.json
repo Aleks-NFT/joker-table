@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-08T21:15:36Z",
+ "generated_at": "2026-07-08T22:15:35Z",
  "total_hooks": 1971,
- "total_pools": 6042,
+ "total_pools": 6043,
  "multi_pool_hooks": 128,
  "shown": 128,
  "more_count": 0,
@@ -1012,6 +1012,33 @@
    "visible": false
   },
   {
+   "address": "0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
+   "address_short": "0xd81e…d5c8",
+   "name": "JBUniswapV4Hook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "afterAddLiquidity",
+    "afterRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25453874,
+   "last_block": 25490662,
+   "last_deploy": "2026-07-08T22:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xe551d395ab1c9c57684c8e0d94615c0e98b5c088",
    "address_short": "0xe551…c088",
    "name": "",
@@ -1244,33 +1271,6 @@
    "first_block": 25415492,
    "last_block": 25476840,
    "last_deploy": "2026-07-07T00:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
-   "address_short": "0xd81e…d5c8",
-   "name": "JBUniswapV4Hook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xd81ece6cf73b18a1b109e48c86ffdbd284f6d5c8",
-   "pool_count": 4,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "afterInitialize",
-    "afterAddLiquidity",
-    "afterRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25453874,
-   "last_block": 25454748,
-   "last_deploy": "2026-07-03T22:00:02Z",
    "active": true,
    "visible": false
   },
