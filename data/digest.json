@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-09",
+   "narrative": {
+    "en": "The deck was shuffled tight last night. On Ethereum mainnet, five fresh V4 pools with hooks—and all but one tied to native ETH. A USDC/USDT pair at 0.05% fee and tickSpacing 10—not for speculative churn, but for stablecoins to slide without slippage. The hook contract 0x326a1580… sits there too. And then Uniswap tweets that routing now goes through LitePSM, closing the DAI/USDS/USDC leg into parity. Sky PSM gives hundreds of millions in depth with zero slippage. This isn't news—it's laying the foundation. But the real meat is on Unichain. Hook contract 0x2ea5eac8… loaded pools in batches. Nine pools with the same b3fca863… token. All with fee 8388608—dynamic fee baked into the hook. TickSpacing 60. Same hook, same pattern. Someone is stacking liquidity around one asset, building a concentration layer. And a second hook 0xbc6e5abd…—three more pools, also paired with WETH and the same dynamic fee. On Unichain, these aren't tests—this is a cluster. Separately, a pool on Unichain with ETH and token ea7cb0eb…, fee 100, tickSpacing 1—the tightest possible range. Someone wants to trade with almost no spread. And another pool on mainnet with hook 0x2877bf78…—zero fee, tickSpacing 60, token b44c4eca… against native ETH. Zero fee is either bait for arbitrageurs or an entry into a system where revenue comes from outside the pool fee. Hayden writes about importing Phantom seed phrases into the Uniswap wallet for access to the Robinhood chain. Infrastructure is closing: Phantom users enter the RH order book, and Uniswap routes through PSM. All of it looks like the assembly of a single liquidity layer, where hooks aren't experiments—they're working gears. The deck is laid out.",
+    "zh": "深夜，牌局重新洗过。以太坊主网上五个新V4池子带着钩子——除了一个，全绑着原生ETH。USDC/USDT对，手续费0.05%，tick间距10——不是给投机客玩的，是让稳定币滑点归零。钩子合约0x326a1580…也在那儿。紧接着Uniswap发推说路由走LitePSM，DAI/USDS/USDC这条腿闭合成平价。Sky PSM提供数亿深度，零滑点。这不是新闻——这是在打地基。但真正的肉在Unichain上。钩子合约0x2ea5eac8…一口气铺了九个池子，全是同一个b3fca863…代币。手续费8388608——动态费率嵌在钩子里。tick间距60。同一个钩子，同一个套路。有人在围着一个资产堆流动性，像在筑一个浓度层。第二个钩子0xbc6e5abd…又三个池子，也是WETH对，同款动态费率。在Unichain上，这不是测试——这是集群。另外，Unichain上有个ETH对ea7cb0eb…的池子，手续费100，tick间距1——最窄的区间。有人想几乎零价差交易。主网上还有个池子，钩子0x2877bf78…，零手续费，tick间距60，代币b44c4eca…对原生ETH。零手续费要么是钓鱼引套利者，要么是入口——收入不从池子手续费来。Hayden说可以把Phantom钱包的助记词导入Uniswap钱包，直接上Robinhood链。基础设施在合拢：Phantom用户进RH订单簿，Uniswap路由走PSM。这一切看着像在拼一个统一的流动性层，钩子不是实验——是齿轮。牌已铺好。"
+   },
+   "take": {
+    "en": "The house is building a unified liquidity machine, and the hooks are the cogs—watch the gears turn.",
+    "zh": "江湖在筑一个统一的流动性大阵，钩子就是阵眼——看齿轮怎么转。"
+   }
+  },
+  {
    "date": "2026-07-08",
    "narrative": {
     "en": "Four new V4 pools dropped overnight, and that's not just scanner noise. The first one pairs a zero address with a token that looks like a junk contract, but hooks at 0x65c… betray a professional hand. Fee tier at 100, tick spacing at 1 — standard setup for an ETH pair, but someone chose to keep liquidity hidden for now. The second pool is more interesting: 0x1aba… paired with USDC, zero fee, tick spacing 1. Hooks at 0x8af… are no random drop. Zero fee on a stable pair usually means one thing: someone is ready to pay for volume, not spread. Either a test or a setup for something that will stir in the coming days. Two pools in the same block 25483556 — a rare event. Both with zero address, but one carries a fee of 8388608 (no typo, that's the dynamic fee flag), the other standard 100. Hooks at 0xd8e… and 0xd98… — contract names don't repeat, so different teams or different strategies. The first pool has tick spacing 60 — for volatile pairs; the second has spacing 1 — for tight ranges. The last pool again zero fee, but tick spacing 200. That's not for retail trading. That's for big moves, for whales who don't want to pay on every flip. Hooks at 0x225… and block 25483822, six blocks later than the others. The deck is being shuffled. Four pools, four different parameter sets, four hooks — and not a single repeated contract. Someone is clearly setting up a deal, but the suit isn't visible yet. Watching what appears first in these pools matters more than the pools themselves.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is stacking identical hooks across multiple pools — this isn't noise, it's a pattern.",
     "zh": "同一个钩子，四个池子——这不是散兵游勇，这是有备而来。"
-   }
-  },
-  {
-   "date": "2026-06-25",
-   "narrative": {
-    "en": "The night was quiet, but the deck dealt its cards anyway. Five new V4 pools on Uniswap, all in a single block — 25391128 — and these aren't just numbers. Two of them launched simultaneously, sharing the same WETH but paired with different tokens and built with opposing architectures. The first pairs WETH with USDT, using a minimal swap fee and the tightest price step — a classic stable pair. Its hook contract watches liquidity breathe. The second pairs WETH with an unknown token, but charges the maximum possible swap fee — near 84 basis points. That's not a mistake. That's a signal: either high volatility is expected, or retail liquidity providers are being deliberately shut out. A third pool appears one block later, again with a minimal fee and tight spread, same WETH, another unknown token. Then a standard mid-volatility pool with a 0.3% fee. And finally a USDC/USDT stable pair with the tightest spread. Every single one uses hooks. Not a single bare V4 pool. Two pools with the same WETH but wildly different fees — like two hands playing against the same deck. No big names among the tokens. Only USDT, USDC, and three unknown contracts. Who launched them is invisible. But they know exactly what they're doing. Especially the one who set that near-84-basis-point fee. He's either expecting a storm, or he's about to make one.",
-    "zh": "昨夜江湖风平浪静，但牌局依然在发牌。Uniswap V4 在一夜之间连开五座新池，其中两座几乎同时诞生，共享同一个 WETH，却配了不同的对手和截然不同的内力架构。第一座池子，WETH 对 USDT，手续费极低，价格步长最窄——这是稳定币对的标准打法。它的钩子合约像一位隐士，静静观察着流动性的呼吸。第二座池子，WETH 对一枚无名代币，手续费却拉到了最高——接近八十四基点。这不是失误。这是明牌：要么预期风浪将至，要么故意将散户做市商挡在门外。第三座池子紧随其后，同样是低手续费、窄步长，WETH 对另一枚无名币。然后是标准的中等波动池，手续费千分之三。最后是一座 USDC/USDT 稳定币池，窄步长。所有池子都装了钩子，没有一座是裸奔的 V4。两座池子用同一个 WETH，手续费却天差地别——就像两只手在跟同一副牌。代币里没有大派名号，只有 USDT、USDC 和三枚不知底细的合约。谁布的局，看不穿。但他们显然知道自己在做什么。尤其是那个设了最高手续费的人——他要么在等一场风暴，要么自己就是风暴。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with deliberately non-standard swap fees — either the minimum or the maximum — signaling that revenue is extracted through the hook, not the swap, and that these are engineered economic experiments, not organic token launches.",
-    "zh": "建造者们正在部署手续费极低或极高的池子，而非市场常规费率——这意味着收入通过钩子而非交换来抽取，这些是精心设计的经济实验，而非自然的代币发行。"
    }
   }
  ]
