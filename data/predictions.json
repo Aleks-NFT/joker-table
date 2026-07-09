@@ -3,9 +3,9 @@
  "stats": {
   "total": 29,
   "hit": 4,
-  "miss": 13,
-  "open": 8,
-  "hit_rate": 0.235
+  "miss": 14,
+  "open": 7,
+  "hit_rate": 0.222
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count will exceed 222, as builders deploy pools with deliberately non-standard swap fees—zero or maximum—signaling revenue capture through the hook, not organic trading.",
    "horizon_days": 7,
    "resolve_after": "2026-07-09",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +222 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   },
   {
