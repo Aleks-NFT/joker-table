@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-10",
+   "narrative": {
+    "en": "Four new V4 pools hit the table last night, all zero-fee. Three of them share the same hook contract—0x627fa6f76fa96b10bae1b6fba280a3c9264500cc—tethered to different tokens. Someone is clearly testing a strategy on ETH pairs with no fee, tick spacing 200. The bet is that order flow alone will generate yield through additional hooks: dynamic fees, MEV protection, or something only the contract sees. The house watches, the cards speak.",
+    "zh": "昨夜江湖新立四座V4分坛，皆设零税。其中三坛共用一个心法口诀——0x627fa6f76fa96b10bae1b6fba280a3c9264500cc，只是换了不同令牌。明眼人一看便知，有人在ETH门派里试水零税策略，步法间距二百。赌的是流水本身能靠暗器——动态税、MEV护体之类——生出内力来。老江湖只看得分，不急着下注。"
+   },
+   "take": {
+    "en": "The house is laying down zero-fee tables and waiting to see if the action pays off through the hooks—this is the quiet before the real game begins.",
+    "zh": "零税摆台，暗器生财——这局棋刚落子，胜负还远。"
+   }
+  },
+  {
    "date": "2026-07-09",
    "narrative": {
     "en": "The deck was shuffled tight last night. On Ethereum mainnet, five fresh V4 pools with hooks—and all but one tied to native ETH. A USDC/USDT pair at 0.05% fee and tickSpacing 10—not for speculative churn, but for stablecoins to slide without slippage. The hook contract 0x326a1580… sits there too. And then Uniswap tweets that routing now goes through LitePSM, closing the DAI/USDS/USDC leg into parity. Sky PSM gives hundreds of millions in depth with zero slippage. This isn't news—it's laying the foundation. But the real meat is on Unichain. Hook contract 0x2ea5eac8… loaded pools in batches. Nine pools with the same b3fca863… token. All with fee 8388608—dynamic fee baked into the hook. TickSpacing 60. Same hook, same pattern. Someone is stacking liquidity around one asset, building a concentration layer. And a second hook 0xbc6e5abd…—three more pools, also paired with WETH and the same dynamic fee. On Unichain, these aren't tests—this is a cluster. Separately, a pool on Unichain with ETH and token ea7cb0eb…, fee 100, tickSpacing 1—the tightest possible range. Someone wants to trade with almost no spread. And another pool on mainnet with hook 0x2877bf78…—zero fee, tickSpacing 60, token b44c4eca… against native ETH. Zero fee is either bait for arbitrageurs or an entry into a system where revenue comes from outside the pool fee. Hayden writes about importing Phantom seed phrases into the Uniswap wallet for access to the Robinhood chain. Infrastructure is closing: Phantom users enter the RH order book, and Uniswap routes through PSM. All of it looks like the assembly of a single liquidity layer, where hooks aren't experiments—they're working gears. The deck is laid out.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design through the hook, not an organic token launch.",
     "zh": "有人在布阵：池子的手续费要么挂零，要么顶格，不走寻常路——内力不从过路费里取，全藏在钩子里。这不是新芽出土，是有人故意挖坑。"
-   }
-  },
-  {
-   "date": "2026-06-26",
-   "narrative": {
-    "en": "The deal's already in motion before you even sit down. Eight fresh Uniswap V4 pools dropped inside an hour, and if you think that's random, you haven't looked at the hook contracts. One hook — 0x96b893683afbfec071e90f78d00de4bb932fe0cc — appears in four pools. All zero swap fees, all with the same tight tick spacing, all paired with tokens that smell like fresh mints. Four names, one operator, one strategy. Someone is stamping liquidity under the same hook, and this is no casual farmer.",
-    "zh": "夜深了，牌局却刚刚开始。一个时辰之内，Uniswap V4 上冒出了八个新池子。你要是觉得这是巧合，那就没看那钩子合约。同一个钩子——0x96b893683afbfec071e90f78d00de4bb932fe0cc——出现在四个池子里。全零手续费，同样的窄间距，配的都是刚出炉的代币。四个名号，一个操盘手，一套路数。有人在用同一把钩子批量铸造流动性，这不是散户干的事。"
-   },
-   "take": {
-    "en": "The house is stacking identical hooks across multiple pools — this isn't noise, it's a pattern.",
-    "zh": "同一个钩子，四个池子——这不是散兵游勇，这是有备而来。"
    }
   }
  ]

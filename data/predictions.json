@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 29,
+  "total": 30,
   "hit": 4,
   "miss": 14,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.222
  },
  "items": [
+  {
+   "id": 30,
+   "made_at": "2026-07-10",
+   "text": "Over the next 7 days the count of pools using dynamic-fee hooks will exceed 10.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-17",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 29,
    "made_at": "2026-07-09",
