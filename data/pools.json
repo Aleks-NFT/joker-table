@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-10T08:15:24Z",
+ "generated_at": "2026-07-10T09:15:46Z",
  "new_pools_24h": 8,
  "new_pools_7d": 161,
  "unique_hook_contracts": 1976,
@@ -8,12 +8,23 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 191.712991083972,
-   "pct_24h": -0.217,
-   "vol_24h_usd": 21458.299188675,
-   "liquidity_usd": 546499.9854,
+   "price_usd": 193.598181164736,
+   "pct_24h": 2.99,
+   "vol_24h_usd": 21064.9668280321,
+   "liquidity_usd": 554698.5918,
    "liq_class": "deep",
    "vol_class": "mid",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "UPEGSTR",
+   "pool": "0x302e30f2a48f0d0d4ebf531a31fe4561fb47c3e4d5aaf89b92769993e35eefdc",
+   "price_usd": 7.97155092333458e-05,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 124.0835521568,
+   "liquidity_usd": 77963.0038,
+   "liq_class": "mid",
+   "vol_class": "low",
    "stale_hours": 0
   },
   {
@@ -25,29 +36,7 @@
    "liquidity_usd": 221300.003,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "UPEGSTR",
-   "pool": "0x302e30f2a48f0d0d4ebf531a31fe4561fb47c3e4d5aaf89b92769993e35eefdc",
-   "price_usd": 7.97155092333458e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 124.0835521568,
-   "liquidity_usd": 77478.9625,
-   "liq_class": "mid",
-   "vol_class": "low",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "LODE",
-   "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
-   "price_usd": 0.000704868415426496,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 34210.4474,
-   "liq_class": "thin",
-   "vol_class": "low",
-   "stale_hours": 0
+   "stale_hours": 1
   },
   {
    "ticker": "Slonks",
@@ -58,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 29
+   "stale_hours": 31
   },
   {
    "ticker": "SLOP",
@@ -69,6 +58,17 @@
    "liquidity_usd": 146750.4693,
    "liq_class": "mid",
    "vol_class": "high",
+   "stale_hours": 2
+  },
+  {
+   "ticker": "LODE",
+   "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
+   "price_usd": 0.000704868415426496,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 34210.4474,
+   "liq_class": "thin",
+   "vol_class": "low",
    "stale_hours": 1
   }
  ],
