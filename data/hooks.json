@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-10T17:15:36Z",
- "total_hooks": 1977,
- "total_pools": 6054,
- "multi_pool_hooks": 128,
- "shown": 128,
+ "generated_at": "2026-07-10T18:15:35Z",
+ "total_hooks": 2027,
+ "total_pools": 6106,
+ "multi_pool_hooks": 129,
+ "shown": 129,
  "more_count": 0,
  "hooks": [
   {
@@ -1489,6 +1489,31 @@
    "visible": false
   },
   {
+   "address": "0xc1f87e0e0a568b1bb44260aa9f010fc74efce888",
+   "address_short": "0xc1f8…e888",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xc1f87e0e0a568b1bb44260aa9f010fc74efce888",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25503399,
+   "last_block": 25503399,
+   "last_deploy": "2026-07-10T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xccdf8d8fb5e37f04c09ce91c4d343a046cedaa88",
    "address_short": "0xccdf…aa88",
    "name": "EquityPegHook",
@@ -1627,7 +1652,7 @@
    "first_block": 25453263,
    "last_block": 25453279,
    "last_deploy": "2026-07-03T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
