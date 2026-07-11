@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-11T19:15:35Z",
- "total_hooks": 2289,
- "total_pools": 6380,
+ "generated_at": "2026-07-11T20:15:34Z",
+ "total_hooks": 2292,
+ "total_pools": 6394,
  "multi_pool_hooks": 130,
  "shown": 130,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 386,
+   "pool_count": 391,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -73,8 +73,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25510623,
-   "last_deploy": "2026-07-11T18:00:02Z",
+   "last_block": 25511285,
+   "last_deploy": "2026-07-11T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -104,6 +104,29 @@
    "visible": true
   },
   {
+   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "address_short": "0x627f…00cc",
+   "name": "LivoSwapHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "pool_count": 320,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25117494,
+   "last_block": 25511600,
+   "last_deploy": "2026-07-11T20:00:02Z",
+   "active": true,
+   "visible": true
+  },
+  {
    "address": "0x1b153a4ed40929dc2e699b6020296843ad98aacc",
    "address_short": "0x1b15…aacc",
    "name": "Sa1tHook",
@@ -129,29 +152,6 @@
    "last_block": 25325243,
    "last_deploy": "2026-06-15T22:00:02Z",
    "active": false,
-   "visible": true
-  },
-  {
-   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "address_short": "0x627f…00cc",
-   "name": "LivoSwapHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 314,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25117494,
-   "last_block": 25495605,
-   "last_deploy": "2026-07-09T16:00:02Z",
-   "active": true,
    "visible": true
   },
   {
