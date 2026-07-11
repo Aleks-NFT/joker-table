@@ -658,6 +658,14 @@
     "</div>";
   }
 
+  var QUIET_THRESHOLD_MS = 3 * 60 * 60 * 1000; // 3h of silence -> show the quiet banner
+
+  function quietBannerHtml() {
+    return '<div style="padding:14px 15px;font-family:Georgia,\'Times New Roman\',serif;' +
+      'font-style:italic;font-size:13px;color:#8E887A;border-bottom:1px solid #1B1B20;">' +
+      "\u2666 Quiet on the chain right now \u2014 no new deals to call.</div>";
+  }
+
   function renderWire(items) {
     var feed = document.getElementById("live-wire-feed");
     if (!feed) return;
@@ -669,10 +677,13 @@
     var topKey = String(items[0].ts) + "|" + String(items[0].text);
     var hasNew = (lastTopKey !== null && topKey !== lastTopKey);
     var firstLoad = (lastTopKey === null);
-    feed.innerHTML = items.map(function (t, i) {
+    var rows = items.map(function (t, i) {
       var isFresh = (i === 0 && hasNew);
       return rowHtml(t, i, isFresh);
     }).join("");
+    var latestMs = Date.parse(items[0].ts);
+    var isQuiet = !isNaN(latestMs) && (Date.now() - latestMs > QUIET_THRESHOLD_MS);
+    feed.innerHTML = (isQuiet ? quietBannerHtml() : "") + rows;
     if (hasNew) { playDeal(); }
     lastTopKey = topKey;
   }
