@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 30,
+  "total": 31,
   "hit": 4,
   "miss": 15,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.211
  },
  "items": [
+  {
+   "id": 31,
+   "made_at": "2026-07-11",
+   "text": "Over the next 7 days the count will exceed 472 as more pools appear with very small tick spacing below 10, enabling fine-grained, concentrated liquidity placement.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-18",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 30,
    "made_at": "2026-07-10",

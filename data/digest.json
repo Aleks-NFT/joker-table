@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-11",
+   "narrative": {
+    "en": "The deck dealt nine fresh cards tonight, and every one bears the hook brand. Uniswap V4 is gathering steam, and if you're not watching the hooks, you're just staring at the table without seeing who's marked the cards. The first two pools are classic: WETH against USDT and USDC. Zero fee, tick spacing of one. This isn't trading in the usual sense—it's infrastructure. The hook contracts at 0xbf2...888 and 0x495...888 keep their logic hidden, but the mere fact that someone seeds zero-fee pairs with blue chips says one thing: they're here to build volume, not to earn on the spread. Then comes the meat. Pool 0x43e...9922 versus 0xd1b...bb5 with a fee of 100—this is no joke. Hook 0xc24...888, and the pair is clearly non-mainstream. Someone is pooling liquidity for a specific strategy, maybe an order book or dynamic fees. Next, three pools in a row with USDC paired against different tokens. 0x52c...8a0, 0x09a...599, all with fee 100. Hooks—0xc28...888, 0xc23...888. Notice the pattern: hook addresses ending in 888. That's no accident. Either the same deployer or the same factory. Repetition hints at a system, not a one-off. The sixth pool—0x38e...a6a versus 0x98a...665. Fee 100, hook 0xc23...888. Again 888. Again a strange pair. Seventh—WETH against USDT, zero fee, hook 0xc2e...888. Eighth—0x1ab...33c versus 0x888...e51. Fee 100. And ninth—0xc0c...ddf versus USDT, fee 200, hook 0xc21...888. Nine pools. Eight hooks with suffix 888. One with 0xbf2...888. Seven pairs with USDC or USDT. Two zero-fee pools. The felt is laid out. The house is dealing hooks. Watch the cards.",
+    "zh": "昨夜江湖又起波澜，九张新牌落桌，张张带钩。Uniswap V4 门派正在暗中蓄力，若不盯紧这些钩子，你便只是看客，不知牌局已被做了手脚。头两池是经典对局：WETH 对 USDT 与 USDC，分文不取，步距为一。这非寻常交易，而是根基。钩子合约 0xbf2...888 与 0x495...888 的招式尚隐于雾中，但有人竟为蓝筹对子设下零费池，用意昭然：他们要的是量，而非吃价差。接着便是硬仗。池 0x43e...9922 对 0xd1b...bb5，费率百点，钩子 0xc24...888，对子明显非主流。有人正为特定策略聚拢内力，或许是订单簿或动态费率。随后三池连珠，USDC 对阵不同令牌，费率皆百点，钩子 0xc28...888、0xc23...888。留意那规律：钩子地址皆以 888 收尾。绝非偶然。要么同一人部署，要么同出一门。重复意味着体系，而非孤例。第六池——0x38e...a6a 对 0x98a...665，费率百点，钩子 0xc23...888，又是 888，又是怪对。第七池——WETH 对 USDT，零费，钩子 0xc2e...888。第八池——0x1ab...33c 对 0x888...e51，费率百点。第九池——0xc0c...ddf 对 USDT，费率两百，钩子 0xc21...888。九池之中，八钩以 888 结尾，七对涉及 USDC 或 USDT，两池分文不取。棋盘已布，庄家亮钩。看客当心。"
+   },
+   "take": {
+    "en": "The house is dealing hooks—nine pools, eight with the 888 suffix—and this is not a random deal; it's a systematic build of Uniswap V4 infrastructure, likely by a single entity.",
+    "zh": "庄家亮钩，九池八钩皆以 888 收尾，绝非散手，而是同一势力在系统性地搭建 Uniswap V4 根基。"
+   }
+  },
+  {
    "date": "2026-07-10",
    "narrative": {
     "en": "Four new V4 pools hit the table last night, all zero-fee. Three of them share the same hook contract—0x627fa6f76fa96b10bae1b6fba280a3c9264500cc—tethered to different tokens. Someone is clearly testing a strategy on ETH pairs with no fee, tick spacing 200. The bet is that order flow alone will generate yield through additional hooks: dynamic fees, MEV protection, or something only the contract sees. The house watches, the cards speak.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The deal is on the felt: three pools with the same hook and zero fees signal a deliberate strategy, not random noise.",
     "zh": "牌已发下：三个同 hook 的零费率池子，不是闲棋，是杀招。"
-   }
-  },
-  {
-   "date": "2026-06-27",
-   "narrative": {
-    "en": "The deal is cut. Thirteen fresh pools on the Uniswap V4 felt today, but the cards are marked. Three zero-fee pools landed in block 25405340, tick spacing 200, paired with odd tokens against WETH. The hooks are different, but the intent is the same: someone is testing how the market behaves when the house takes nothing at the door. Then, a tight-spread pool with fee 100 and tick spacing 1 appears in block 25405522 — a sniper's setup, controlling every tick. But the real play is the seven-pool series, all fee 3000, tick spacing 60, same hook, all against USDC. That's a network, not a lottery. And then the joker: a pool in block 25404703 with fee 8388608 — eight million basis points — against WETH. That's not a fee, it's a flag. The hook is the real game. These aren't organic launches; they're engineered plays. Builders are taking their revenue through the hook, not the swap. Watch the pattern, not the noise.",
-    "zh": "江湖上今天又多了十三座新寨子，全是Uniswap V4的门派。头三座在区块25405340立起来，香火钱分文不取，tick间距200，配的都是些生面孔的令牌，跟WETH搭伙。两个寨主用的钩子不同，但心思一样——想看看不收过路费，这江湖怎么走。接着，区块25405522冒出一座窄门，手续费100，tick间距1，像一把暗器，专盯每一个点位。真正的大手笔在后面：七座寨子，手续费都是3000，tick间距60，同一种钩子，全对着USDC。这不是散兵游勇，是有人在布阵。最邪门的是区块25404703那一座——手续费8388608，八百万个基点，对WETH。这不是收钱，是立旗。钩子里藏着真功夫。这些不是新芽出土，是有人故意挖坑。内力不从过路费里取，全藏在钩子里。江湖路远，看招不看出身。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design through the hook, not an organic token launch.",
-    "zh": "有人在布阵：池子的手续费要么挂零，要么顶格，不走寻常路——内力不从过路费里取，全藏在钩子里。这不是新芽出土，是有人故意挖坑。"
    }
   }
  ]
