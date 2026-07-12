@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@lo0pio: States \"And Uniswap V4\"",
+   "url": "https://x.com/lo0pio/status/2075963059986653590"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@haydenzadams: States issue not about base pairs, asks if using a launchpad and which one",
+   "url": "https://x.com/haydenzadams/status/2075965550442717287"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@haydenzadams: Explains doppler uses custom accounting hooks needing allowlist in routing, and vanilla pools do not have same issue",
+   "url": "https://x.com/haydenzadams/status/2075966188702593249"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@haydenzadams: Explains form for custom accounting hooks and ETH to USDG to MEME routing example, linking support article",
+   "url": "https://x.com/haydenzadams/status/2075967873369928151"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@lo0pio: States \"Onchain looks good on Robinhood\", quoting Robinhood post",
+   "url": "https://x.com/lo0pio/status/2075972361367491071"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@lo0pio: Asks if user tried lo0p, calling it best fun for liquidity",
+   "url": "https://x.com/lo0pio/status/2076044117088391488"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@haydenzadams: Notes that DEX volume on Robinhood Chain is 99.5% from @Uniswap, quoting Robinhood Chain metrics post",
+   "url": "https://x.com/haydenzadams/status/2076045203786350936"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@lo0pio: States need for more volume on V4",
+   "url": "https://x.com/lo0pio/status/2076098526623195584"
+  },
+  {
+   "ts": "2026-07-12T07:30:14Z",
+   "suit": "heart",
+   "source": "twitter",
+   "text": "@Uniswap: States \"never left\"",
+   "url": "https://x.com/Uniswap/status/2076102839709950409"
+  },
+  {
    "ts": "2026-07-12T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25511235. Tokens: 0x0000000000000000000000000000000000000000 / 0x9c8df4075feea1a72c1d2e30d0aa6594aae4ea6f. Fee:...",
    "url": "https://etherscan.io/tx/0x79a8ca2aa789cf11c6fea57684ca5b5ee9e8e2bdf52f62542ec2d8803dde81b7"
-  },
-  {
-   "ts": "2026-07-11T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25511095. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x460c856499cbf92dda65aad00e862c0018cb8dc3c10d8edd4a6254246067c65a"
-  },
-  {
-   "ts": "2026-07-11T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25511087. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x9f82d88f4c21d696f25907aaf1b7168d7ef7441f97cef7da5fc97b6fba426150"
-  },
-  {
-   "ts": "2026-07-11T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25511070. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x5420c9c0bf2e566e5b84c81b39949ca527a8599d091640a59c8e8731da856752"
-  },
-  {
-   "ts": "2026-07-11T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25511028. Tokens: 0x0000000000000000000000000000000000000000 / 0xe0600e147abf3d13f63dc14623f277440d1f1a8c. Fee:...",
-   "url": "https://etherscan.io/tx/0xbbc2540293d18a7b21c2709b801269f6ee0436e19282cc78b5532443914d2435"
-  },
-  {
-   "ts": "2026-07-11T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25511027. Tokens: 0x0000000000000000000000000000000000000000 / 0xd481ac01e88f81302e0476bcaed71924528d1248. Fee:...",
-   "url": "https://etherscan.io/tx/0xedab06f30c00c90e8f4cbbe8fba018065894bd2817e49950681c98d569fd0587"
-  },
-  {
-   "ts": "2026-07-11T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25510623. Tokens: 0x0000000000000000000000000000000000000000 / 0xb34057c9694a486859f233e66a9dc3500413da9c. Fee:...",
-   "url": "https://etherscan.io/tx/0xf7b6dce19f53f002c00056afe0cf1e5a6538b7d1bc11033fdc907126a9623db5"
-  },
-  {
-   "ts": "2026-07-11T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25510610. Tokens: 0x0000000000000000000000000000000000000000 / 0xf5b453c068df12a4b5a92ef039b3900bca0d5c60. Fee:...",
-   "url": "https://etherscan.io/tx/0x6c97d39498230167e339659a449ef54703149f916bd6939876920430a4322cc9"
-  },
-  {
-   "ts": "2026-07-11T12:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25508798. Tokens: 0x0000000000000000000000000000000000000000 / 0x2836c449b4492820f168eeaeebd725c22726bb22. Fee:...",
-   "url": "https://etherscan.io/tx/0xbec49f4f16ab4d4f1279eabe4ba47a1e0650cb30349ef167a0bb845db0aff175"
-  },
-  {
-   "ts": "2026-07-11T12:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25508711. Tokens: 0x0000000000000000000000000000000000000000 / 0x9f5e684d3f36496cdcc0b36455938138b5e96e11. Fee:...",
-   "url": "https://etherscan.io/tx/0x09c4f9081cd2f75eec6e492ea4ce9e9fd8ea6711e6c1754ad6d80f56bf901d68"
   }
  ]
 }
