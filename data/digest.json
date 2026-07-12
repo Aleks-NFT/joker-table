@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-12",
+   "narrative": {
+    "en": "Two new pools hit the felt tonight, both V4, both with hooks—but neither carries a single chip of liquidity. The first on Ethereum, block 25512927, pairs native ETH with a token address that smells like a ghost—b792ea99. Zero initial stake, spread of 200 ticks, hooks at 0d6252. The pool ID is long as a losing streak. The second landed on Unichain, block 53064415: WETH paired with contract 6c31e2, a token I've seen in previous deals. Fee set at 8388608—that's no typo, it's a hook-friendly 0.5% precise to eight decimals. Same tick spacing, different hook contract—bc6e5a. The hooks differ between chains, same structure, different logic. That's the tell: someone is laying infrastructure before the game begins. V4 lets hooks intercept swaps before they hit the pool—MEV shields, complex orders, anything. The Unichain pool with WETH and a strange token might be a bridge or cross-chain hook. The Ethereum pool with native ETH and an unknown token is a classic liquidity trap. But without a single transaction, these are just two entries in the log. Watch the hooks. If they start moving, a deal is being set up. For now, silence. But silence before the storm is the loudest sound at the table.",
+    "zh": "昨夜江湖风平浪静，但暗流已在链上涌动。两张新牌翻在桌上——都是V4版本，都带着钩子，却无分文内力。第一张落在以太坊，区块25512927：原生币配一个来路不明的地址b792ea99，初始赌注为零，价差200跳，钩子挂在0d6252。池子ID长得像我的失眠夜。第二张去了Unichain，区块53064415：WETH配合约6c31e2，这令牌我在别的分派中见过。手续费8388608——不是笔误，是钩子友好的0.5%，精确到八位小数。相同的跳距，不同的钩子合约bc6e5a。两条链上钩子不同，结构一样，逻辑却分道扬镳。这不是巧合，是有人在提前布阵。V4的钩子能在交易进池前截胡——MEV护盾、复杂订单，什么都可能。Unichain那池子WETH配怪令牌，许是想搭桥或做跨链钩。以太坊那池子原生币配无名令牌，是经典的吸内力陷阱。但至今没有一笔交易，不过是日志里的两行字。盯紧钩子。若它们开始动弹，便是有人要起牌了。眼下只有寂静。可暴风雨前的寂静，最是震耳欲聋。"
+   },
+   "take": {
+    "en": "Two V4 pools with hooks and zero liquidity are infrastructure plays, not trades—someone is building a hidden strategy.",
+    "zh": "两个V4池子带钩子却无流动性，是布阵而非交易——有人在暗处织网。"
+   }
+  },
+  {
    "date": "2026-07-11",
    "narrative": {
     "en": "The deck dealt nine fresh cards tonight, and every one bears the hook brand. Uniswap V4 is gathering steam, and if you're not watching the hooks, you're just staring at the table without seeing who's marked the cards. The first two pools are classic: WETH against USDT and USDC. Zero fee, tick spacing of one. This isn't trading in the usual sense—it's infrastructure. The hook contracts at 0xbf2...888 and 0x495...888 keep their logic hidden, but the mere fact that someone seeds zero-fee pairs with blue chips says one thing: they're here to build volume, not to earn on the spread. Then comes the meat. Pool 0x43e...9922 versus 0xd1b...bb5 with a fee of 100—this is no joke. Hook 0xc24...888, and the pair is clearly non-mainstream. Someone is pooling liquidity for a specific strategy, maybe an order book or dynamic fees. Next, three pools in a row with USDC paired against different tokens. 0x52c...8a0, 0x09a...599, all with fee 100. Hooks—0xc28...888, 0xc23...888. Notice the pattern: hook addresses ending in 888. That's no accident. Either the same deployer or the same factory. Repetition hints at a system, not a one-off. The sixth pool—0x38e...a6a versus 0x98a...665. Fee 100, hook 0xc23...888. Again 888. Again a strange pair. Seventh—WETH against USDT, zero fee, hook 0xc2e...888. Eighth—0x1ab...33c versus 0x888...e51. Fee 100. And ninth—0xc0c...ddf versus USDT, fee 200, hook 0xc21...888. Nine pools. Eight hooks with suffix 888. One with 0xbf2...888. Seven pairs with USDC or USDT. Two zero-fee pools. The felt is laid out. The house is dealing hooks. Watch the cards.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue flows through the hook, not the swap.",
     "zh": "江湖客在部署非常规费率的池子——要么零费率，要么最高档，而非市价费率——这意味着收入通过钩子而非交换来收取，是刻意的经济设计。"
-   }
-  },
-  {
-   "date": "2026-06-28",
-   "narrative": {
-    "en": "Six fresh v4 pools, all spawned within a single block range. Three of them share the same hook contract — 0x96b893. That's not coincidence; that's a pattern. Fee=0, tickSpacing=200 — these parameters aren't for casual trading. Someone is stacking liquidity in specific zones, likely for a strategy involving dynamic fees or oracles. The hook contract is the key. If it's controlled, the owner can change logic after the fact. This is either an experiment or preparation for something more complex. The other three pools carry fee=100 and tickSpacing=1 — classics for memes or low-liquidity pairs. Each with its own unique hook: 0xd62b5a, 0xe6b43b, 0x6e7b24 — different hands, different intentions. TickSpacing=1 means orders can be placed on every tick, a rarity. Usually used for high-volatility pairs or bots wanting pinpoint range capture. WETH is the constant; the tokens are unfamiliar. None appear in top listings. These pools are built for specific tasks — testnet migrations, fresh mints, hidden allocations. The block span from 25411905 to 25412713 covers roughly 800 blocks, about 2.5 to 3 hours. Someone spent time deploying six pools with varied configs. Not a spontaneous move. The observer should remember address 0x96b893. If that hook starts interacting with other protocols or changing state, it will be a signal. For now, silence. But the deck has been dealt.",
-    "zh": "六个新池子，同一段区块区间内诞生。其中三个共用一个 hook 合约，0x96b893。这不是巧合，这是路数。手续费为零，tick 间距 200——这些参数不是给随便交易用的。有人在特定区域布下流动性，可能是为动态费率或预言机策略做准备。那个 hook 合约是关键。如果它是可控制的，主人事后能改逻辑。这不是实验，就是更复杂局面的前奏。另外三个池子，手续费 100，tick 间距 1——江湖上 meme 币或低流动性对子的老套路。每个池子有自己的独门 hook：0xd62b5a、0xe6b43b、0x6e7b24——不同的人，不同的算盘。tick 间距为 1，意味着每个 tick 上都能挂单，少见。通常用于高波动的对子，或者那些想精准卡位的机器人。WETH 是铁打的营盘，代币都是生面孔。没有一个在主流榜单上。这些池子是为特定任务造的——测试网迁移、新鲜铸造、暗仓分配。区块跨度从 25411905 到 25412713，大约 800 个区块，两三个时辰的功夫。有人花时间部署了六个配置各异的池子。不是心血来潮。看客该记住 0x96b893 这个地址。如果这个 hook 开始与其他门派互动或改变状态，那就是信号。眼下风平浪静。但牌已发下。"
-   },
-   "take": {
-    "en": "The deal is on the felt: three pools with the same hook and zero fees signal a deliberate strategy, not random noise.",
-    "zh": "牌已发下：三个同 hook 的零费率池子，不是闲棋，是杀招。"
    }
   }
  ]

@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 31,
+  "total": 32,
   "hit": 4,
   "miss": 16,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.2
  },
  "items": [
+  {
+   "id": 32,
+   "made_at": "2026-07-12",
+   "text": "Over the next 7 days the count will exceed 23, as a single hook contract deploys pools in rapid succession, far above the pace of typical deployers.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-19",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 31,
    "made_at": "2026-07-11",
