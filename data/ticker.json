@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-12T00:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53064415. Tokens: 0x4200000000000000000000000000000000000006 / 0x6c31e2e88c8bf30c9d017b406cf5b8c131...",
+   "url": "https://uniscan.xyz/tx/0x977d36f7326e7d2deeca7f3d57d2230f1488f5df6309ab151ccfb1f382bb3fd5"
+  },
+  {
    "ts": "2026-07-11T20:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "USDe / USDC volume surged 691% to $145,584,951 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0xcb52d0503d4177d166a338d51d975492583556879c17cf0aed64a6b1932e4735"
-  },
-  {
-   "ts": "2026-07-11T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: GHO / USDT 0.01% — $2,069,195 24h volume, $510,894 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x4eceeb5adaa1cabd56451c1f1ea82b33effb6de62097a19734936f574e9a2de2"
   }
  ]
 }
