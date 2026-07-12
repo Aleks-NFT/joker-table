@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-12T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (8 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162"
+  },
+  {
+   "ts": "2026-07-12T05:00:01Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap governance (Snapshot) active: [Temp Check] Protocol Fee Expansion: Robinhood Chain (ends 2026-07-16)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xc5fd6e916655b293c903b060906c994ff1ff1df348336b3b3e22ceecd2d13d7c"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $85,436,934   #2 USDe / USDC — $58,650,202   #3 USDT / USDS — $45,615,638   #4 PY...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "CTM / ETH volume surged 85% to $5,327,236 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xdb4c4d91f12ce76f5c9ac0eae193cf3b4d6684cd5f09bf35d03dd9ae6d8a43b1"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.01% TVL grew 58% to $1,920,502",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.01% volume surged 85% to $16,859,518 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: nes / USDC 0.01% — $1,653,980 24h volume, $816,931 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
+  },
+  {
+   "ts": "2026-07-12T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: thUSD / USDC 0.01% — $2,003,558 24h volume, $4,710,402 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb30bf32e26a35328286df33c17dd01e1051b5e3a0ec55a4a211e6957594b5a0d"
+  },
+  {
    "ts": "2026-07-12T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25508711. Tokens: 0x0000000000000000000000000000000000000000 / 0x9f5e684d3f36496cdcc0b36455938138b5e96e11. Fee:...",
    "url": "https://etherscan.io/tx/0x09c4f9081cd2f75eec6e492ea4ce9e9fd8ea6711e6c1754ad6d80f56bf901d68"
-  },
-  {
-   "ts": "2026-07-11T10:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25508466. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
-   "url": "https://etherscan.io/tx/0x14cf16d64f03b0132f9e108ad63893571945a5e194d8212c88bfe79eda70c46b"
-  },
-  {
-   "ts": "2026-07-11T10:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25508372. Tokens: 0x0000000000000000000000000000000000000000 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
-   "url": "https://etherscan.io/tx/0x9cf9950b53b56f60a23d87b1a45be30828e854754367d14a9e87408d8b327b13"
-  },
-  {
-   "ts": "2026-07-11T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25507726. Tokens: 0x0000000000000000000000000000000000000000 / 0x2b7ce29ec36fe235198b0979f5fd807d1284fc70. Fee:...",
-   "url": "https://etherscan.io/tx/0x8d3115637ffe00af0b338077fa7bc617fbcb8abf616e36033573df0fa8ce9870"
-  },
-  {
-   "ts": "2026-07-11T07:30:14Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: Uniswap surpassed $1B+ in volume on Robinhood Chain.",
-   "url": "https://x.com/Uniswap/status/2075613354605875580"
-  },
-  {
-   "ts": "2026-07-11T06:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25507183. Tokens: 0x0000000000000000000000000000000000000000 / 0x6e5392a597a4029bc6fec4d3c178df3ceb315e41. Fee:...",
-   "url": "https://etherscan.io/tx/0x8a3370d4123dad83bba459dfefe4f42fde8fd646546d01c636e32bf56c608484"
-  },
-  {
-   "ts": "2026-07-11T05:00:02Z",
-   "suit": "spade",
-   "source": "governance",
-   "text": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (7 posts)",
-   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162"
-  },
-  {
-   "ts": "2026-07-11T05:00:02Z",
-   "suit": "spade",
-   "source": "governance",
-   "text": "Uniswap gov forum active thread: Argonaut Delegate Platform (64 posts)",
-   "url": "https://gov.uniswap.org/t/argonaut-delegate-platform/24417"
-  },
-  {
-   "ts": "2026-07-11T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $169,859,014   #2 USDe / USDC — $145,584,951   #3 USDT / USDS — $62,376,084   #4 ...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
   }
  ]
 }
