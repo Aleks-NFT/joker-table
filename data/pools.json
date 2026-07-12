@@ -1,19 +1,30 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-12T05:15:35Z",
- "new_pools_24h": 25,
- "new_pools_7d": 445,
+ "generated_at": "2026-07-12T06:15:45Z",
+ "new_pools_24h": 24,
+ "new_pools_7d": 444,
  "unique_hook_contracts": 2292,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 174.624887499507,
-   "pct_24h": 3.052,
-   "vol_24h_usd": 102390.494162586,
-   "liquidity_usd": 530726.402,
+   "price_usd": 173.522963649983,
+   "pct_24h": 14.117,
+   "vol_24h_usd": 86897.4609989041,
+   "liquidity_usd": 531376.4836,
    "liq_class": "deep",
-   "vol_class": "high",
+   "vol_class": "mid",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "UPEGSTR",
+   "pool": "0x302e30f2a48f0d0d4ebf531a31fe4561fb47c3e4d5aaf89b92769993e35eefdc",
+   "price_usd": 8.24463843382597e-05,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 440.8250981376,
+   "liquidity_usd": 76656.7452,
+   "liq_class": "mid",
+   "vol_class": "low",
    "stale_hours": 0
   },
   {
@@ -25,18 +36,7 @@
    "liquidity_usd": 224854.1853,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "UPEGSTR",
-   "pool": "0x302e30f2a48f0d0d4ebf531a31fe4561fb47c3e4d5aaf89b92769993e35eefdc",
-   "price_usd": 8.24463843382597e-05,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 440.8250981376,
-   "liquidity_usd": 76775.8692,
-   "liq_class": "mid",
-   "vol_class": "low",
-   "stale_hours": 0
+   "stale_hours": 1
   },
   {
    "ticker": "Slonks",
@@ -47,7 +47,7 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 74
+   "stale_hours": 76
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 122282.7993,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 6
+   "stale_hours": 7
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 34210.4474,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 6
+   "stale_hours": 7
   }
  ],
  "top_pools": []
