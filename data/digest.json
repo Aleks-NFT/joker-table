@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-13",
+   "narrative": {
+    "en": "Two Uniswap V4 pools blink into existence on the same block, then again ten blocks later. Same pair: USDC and USDT. Zero fee, tickSpacing set to one. This is not coincidence. The first hook at 0x858f...6888, the second at 0x457c...888 — different contracts, identical parameters. Someone is dealing two identical pools with different hooks. Why? Perhaps testing behavior: one hook might manage liquidity dynamically, the other something like siphoning fees to itself. But zero fee means it's not about yield. Zero fee on stablecoins is not for trading — it's for something else. Rebalancing, maybe, or arbitrage between the two pools. If the hooks are tuned to different strategies, a price spread between them could be engineered. And someone will be there to catch it. Or it's simply infrastructure deployment for future operations. V4 with hooks offers flexibility — oracles, scheduled swaps, anything. But two copies with the same tokens and zero fee smells like preparation for something specific. Blocks 25519822 and 25519832 — ten blocks apart, about two minutes. Someone sat and waited for the first to confirm before launching the second. Or two addresses acting in sync. For now, it's a hole in the deck — empty pools with no liquidity. But when the money pours in, it will get interesting. Especially if one of the hooks has a trigger for imbalances.",
+    "zh": "两个 Uniswap V4 池子在同一区块里闪亮登场，十块之后又来一对。同样的对子——USDC 和 USDT。零手续费，tickSpacing 设为一。这不是巧合。第一个钩子 0x858f...6888，第二个 0x457c...888——不同合约，相同参数。有人摆下了两个一模一样的池子，却配了不同的钩子。为什么？也许在测试武功：一个钩子可能动态调内力，另一个或许把手续费吸到自己身上。但零手续费，说明不是冲着收益来的。稳定币上零手续费，不是用来交易的——是为了别的。可能是重新平衡，或者两个池子之间的套利。如果钩子各自依不同策略运转，价差就能被人为造出来。而有人会等着抓它。或者，这只是为将来布下的基础设施。V4 的钩子很灵活——可以当预言机，做定时兑换，什么都行。但两个副本，同样的代币，零手续费——闻着像在准备什么特别的活儿。区块 25519822 和 25519832 ——相隔十块，大约两分钟。有人坐着等第一个确认，才启动第二个。或者两个地址在同步出手。眼下，这只是牌桌上一道裂缝——空池子，没有流动性。但等资金涌入，就有好戏看了。尤其如果其中一个钩子藏着触发失衡的机关。"
+   },
+   "take": {
+    "en": "Zero-fee stable pools with identical parameters but different hooks are a deliberate setup, not a random deployment — someone is preparing the felt for a specific play.",
+    "zh": "零手续费的稳定币池，参数一致但钩子不同——这不是随机的部署，而是有人在棋盘上摆好了棋子。"
+   }
+  },
+  {
    "date": "2026-07-12",
    "narrative": {
     "en": "Two new pools hit the felt tonight, both V4, both with hooks—but neither carries a single chip of liquidity. The first on Ethereum, block 25512927, pairs native ETH with a token address that smells like a ghost—b792ea99. Zero initial stake, spread of 200 ticks, hooks at 0d6252. The pool ID is long as a losing streak. The second landed on Unichain, block 53064415: WETH paired with contract 6c31e2, a token I've seen in previous deals. Fee set at 8388608—that's no typo, it's a hook-friendly 0.5% precise to eight decimals. Same tick spacing, different hook contract—bc6e5a. The hooks differ between chains, same structure, different logic. That's the tell: someone is laying infrastructure before the game begins. V4 lets hooks intercept swaps before they hit the pool—MEV shields, complex orders, anything. The Unichain pool with WETH and a strange token might be a bridge or cross-chain hook. The Ethereum pool with native ETH and an unknown token is a classic liquidity trap. But without a single transaction, these are just two entries in the log. Watch the hooks. If they start moving, a deal is being set up. For now, silence. But silence before the storm is the loudest sound at the table.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
     "zh": "有人在部署手续费非标——要么零费，要么最高档——而非市价中档的池子。这不是偶然，是刻意布局：收益不走兑换，而是通过钩子抽取。"
-   }
-  },
-  {
-   "date": "2026-06-29",
-   "narrative": {
-    "en": "The deal came in clusters tonight. Eleven pools across a handful of blocks — not noise, but a pattern. Most pairs anchor to WETH, fee tier 100, tick spacing 1 — the standard layout for high-frequency play. But the outliers tell the real story. Three pools at blocks 25419128–25419133 share hook contracts ending in 144, a deliberate line of deployment. Two zero-fee pools at 25419427 and 25419532 use hooks identical to the second token's address — the hook is the token, the token is the hook. That's not an experiment; that's architecture. One pool with fee 10000 and wide tick spacing at block 25419167 suggests a different game: wide spreads for volatile pairs, or something else entirely. All but one use WETH as the base asset — Ethereum remains the anchor of liquidity even on V4. Hooks are a new suit in the deck, and tonight they were dealt in volume. Someone is building a hand. Someone is testing a new tactic. Someone is just building. The deck is shuffled. Watch where the cards fall.",
-    "zh": "今夜江湖暗流涌动。十一个池子接连现身，不是散兵游勇，而是一套阵法。多数池子以WETH为基，费率百一，间距为一——这是高频门派的标配。但真正的玄机在异数。三个池子（块25419128至25419133）共享同一套钩子合约，尾号144，分明是有人布下一条线。两个零费率池子（块25419427、25419532）的钩子地址与第二币种相同——钩即是币，币即是钩。这不是试招，这是立派。还有一个池子费率万、间距二百（块25419167），那是为烈性币种准备的宽门。所有池子几乎都以WETH为基——以太坊仍是江湖的镇海神针。钩子是新的兵器，今夜有人批量亮剑。有人在组牌局，有人在试新招，有人只是在建。牌已洗过，看它如何落定。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue flows through the hook, not the swap.",
-    "zh": "江湖客在部署非常规费率的池子——要么零费率，要么最高档，而非市价费率——这意味着收入通过钩子而非交换来收取，是刻意的经济设计。"
    }
   }
  ]
