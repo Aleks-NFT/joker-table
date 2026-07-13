@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 33,
-  "hit": 4,
+  "hit": 5,
   "miss": 17,
-  "open": 8,
-  "hit_rate": 0.19
+  "open": 7,
+  "hit_rate": 0.227
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count will exceed 100; builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-07-13",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +100 on metric nonstd_fee_pools reached.",
    "phase": "v2"
   },
   {
