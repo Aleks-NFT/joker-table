@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-13T16:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25524687. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x8eabc34e171b343741b262d45ac23e9ba956bb8051383225ce9438c2b29599b0"
+  },
+  {
+   "ts": "2026-07-13T16:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25524448. Tokens: 0x0000000000000000000000000000000000000000 / 0x85ae8162bd09c97871e248f25eb316f714bac2ac. Fee:...",
+   "url": "https://etherscan.io/tx/0x3f99cb8d818284865fc4b8fd74fd3ed3f36e35d1e210d307b3591f0ee10c73ed"
+  },
+  {
+   "ts": "2026-07-13T15:34:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "marktoda merged PR #574 in v4-periphery: 'feat(lens): add cross-chain v4 pool reserves lens'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/574"
+  },
+  {
+   "ts": "2026-07-13T15:34:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "marktoda pushed to v4-periphery: 'feat(lens): add cross-chain v4 pool reserves lens (#574)'",
+   "url": "https://github.com/Uniswap/v4-periphery/commit/ee6748ccfdda3a018c915a79c58d6ebb84d47e61"
+  },
+  {
    "ts": "2026-07-13T14:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170256. Tokens: 0xb3fca863dd0f6b496ccddf6497da5dad67857f56 / 0xfcf7246ed5c41527bbcebb53b30a7f1352...",
    "url": "https://uniscan.xyz/tx/0x723b03b4e6e4489a0baf1476da30f6ac823ff636181f6ffd2231febf22aab561"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170256. Tokens: 0x5643cd1f5538d61d5f8f4da0040e74fbe8e5718f / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
-   "url": "https://uniscan.xyz/tx/0x723b03b4e6e4489a0baf1476da30f6ac823ff636181f6ffd2231febf22aab561"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170164. Tokens: 0xb3fca863dd0f6b496ccddf6497da5dad67857f56 / 0xfebe139c965789604728b39bb10a153bed...",
-   "url": "https://uniscan.xyz/tx/0x945c484d49c40e4e5d6ad85242cf93ac38bc4fc3780024ef0c50b90c16fdd8a0"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170164. Tokens: 0xb3fca863dd0f6b496ccddf6497da5dad67857f56 / 0xdfef63aff766ab82754a4df5045e258301...",
-   "url": "https://uniscan.xyz/tx/0x945c484d49c40e4e5d6ad85242cf93ac38bc4fc3780024ef0c50b90c16fdd8a0"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170164. Tokens: 0x03fba5faa9183573b8512c34511d9ec7078f523a / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
-   "url": "https://uniscan.xyz/tx/0x945c484d49c40e4e5d6ad85242cf93ac38bc4fc3780024ef0c50b90c16fdd8a0"
   }
  ]
 }
