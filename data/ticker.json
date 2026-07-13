@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-13T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: Curia Delegate Platform (53 posts)",
+   "url": "https://gov.uniswap.org/t/curia-delegate-platform/24140"
+  },
+  {
+   "ts": "2026-07-13T05:00:01Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap governance (Snapshot) closed: [Temp Check] Activate v4 Protocol Fees (ended 2026-07-12)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0x3fda3c04fa106ad45173011ef4dfa5db2f14cd35c3c3a7a40f067a44cbadd5f4"
+  },
+  {
+   "ts": "2026-07-13T04:30:04Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $94,282,241   #2 USDe / USDC — $66,157,443   #3 USDT / USDS — $54,669,871   #4 PY...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-07-13T04:30:04Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDT 0.05% volume surged 77% to $11,232,010 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x72331fcb696b0151904c03584b66dc8365bc63f8a144d89a773384e3a579ca73"
+  },
+  {
+   "ts": "2026-07-13T04:30:04Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: syBTC / WBTC 0.01% — $1,605,909 24h volume, $560,427 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x94ae557b1f24e1360ea34283686ef3af173d89d7d1bab66d8ae19198a9a0cde0"
+  },
+  {
+   "ts": "2026-07-13T04:30:04Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $2,862,185 24h volume, $1,187,829 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
    "ts": "2026-07-13T04:15:01Z",
    "suit": "spade",
    "source": "defillama",
@@ -168,48 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $85,436,934   #2 USDe / USDC — $58,650,202   #3 USDT / USDS — $45,615,638   #4 PY...",
    "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-07-12T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "CTM / ETH volume surged 85% to $5,327,236 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xdb4c4d91f12ce76f5c9ac0eae193cf3b4d6684cd5f09bf35d03dd9ae6d8a43b1"
-  },
-  {
-   "ts": "2026-07-12T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDG / USDC 0.01% TVL grew 58% to $1,920,502",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
-  },
-  {
-   "ts": "2026-07-12T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDG / USDC 0.01% volume surged 85% to $16,859,518 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
-  },
-  {
-   "ts": "2026-07-12T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: nes / USDC 0.01% — $1,653,980 24h volume, $816,931 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
-  },
-  {
-   "ts": "2026-07-12T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: thUSD / USDC 0.01% — $2,003,558 24h volume, $4,710,402 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb30bf32e26a35328286df33c17dd01e1051b5e3a0ec55a4a211e6957594b5a0d"
-  },
-  {
-   "ts": "2026-07-12T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25513735. Tokens: 0x0000000000000000000000000000000000000000 / 0x8e45ab9dd5a32551310373209ee6520bf2741110. Fee:...",
-   "url": "https://etherscan.io/tx/0xa7b1f1c3448661099f7000f13be2417f146f4103d0c8fcc618a000d94182d430"
   }
  ]
 }
