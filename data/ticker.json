@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-13T17:58:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "david-uniswap merged PR #578 in v4-periphery: 'fix(lens): degrade per-call gas backstop to INSUFFICIENT_GAS instead of reverting'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/578"
+  },
+  {
+   "ts": "2026-07-13T16:11:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "marktoda opened PR #577 in v4-periphery: 'fix(lens): ReservesLens follow-ups — graceful gas degradation, cursor hardening, default-parameter overloads'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/577"
+  },
+  {
    "ts": "2026-07-13T16:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170353. Tokens: 0xb17bd788b7339d861e138c0d4141e6b3aea0798b / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
    "url": "https://uniscan.xyz/tx/0x75ed4a6428f809cc0ae46d5e99750cb674782be7590f5fc2084929aaae48029a"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170256. Tokens: 0xb3fca863dd0f6b496ccddf6497da5dad67857f56 / 0xe5d0b8a2f1a4633eb84e256ae05385186e...",
-   "url": "https://uniscan.xyz/tx/0x723b03b4e6e4489a0baf1476da30f6ac823ff636181f6ffd2231febf22aab561"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170256. Tokens: 0xb3fca863dd0f6b496ccddf6497da5dad67857f56 / 0xfcf7246ed5c41527bbcebb53b30a7f1352...",
-   "url": "https://uniscan.xyz/tx/0x723b03b4e6e4489a0baf1476da30f6ac823ff636181f6ffd2231febf22aab561"
   }
  ]
 }
