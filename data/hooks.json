@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-13T13:15:35Z",
- "total_hooks": 2296,
- "total_pools": 6408,
+ "generated_at": "2026-07-13T14:15:35Z",
+ "total_hooks": 2297,
+ "total_pools": 6413,
  "multi_pool_hooks": 130,
  "shown": 130,
  "more_count": 0,
@@ -79,6 +79,29 @@
    "visible": true
   },
   {
+   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "address_short": "0x627f…00cc",
+   "name": "LivoSwapHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
+   "pool_count": 326,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25117494,
+   "last_block": 25523730,
+   "last_deploy": "2026-07-13T14:00:02Z",
+   "active": true,
+   "visible": true
+  },
+  {
    "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
    "address_short": "0x96b8…e0cc",
    "name": "UniversalKlikHook",
@@ -100,29 +123,6 @@
    "first_block": 25118285,
    "last_block": 25518139,
    "last_deploy": "2026-07-12T18:00:02Z",
-   "active": true,
-   "visible": true
-  },
-  {
-   "address": "0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "address_short": "0x627f…00cc",
-   "name": "LivoSwapHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x627fa6f76fa96b10bae1b6fba280a3c9264500cc",
-   "pool_count": 322,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25117494,
-   "last_block": 25513735,
-   "last_deploy": "2026-07-12T04:00:02Z",
    "active": true,
    "visible": true
   },
