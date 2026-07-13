@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-13T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25525951. Tokens: 0x0000000000000000000000000000000000000000 / 0xb0c235d53fa04c7045eab1f8fdd637eedb358f7b. Fee:...",
+   "url": "https://etherscan.io/tx/0xa3f263184c1290619ab8718c1110d11759b4f87ac2c3a3fb37ad7baacc54a6e3"
+  },
+  {
+   "ts": "2026-07-13T18:34:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "marktoda merged PR #577 in v4-periphery: 'fix(lens): ReservesLens follow-ups — graceful gas degradation, cursor hardening, default-parameter overloads'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/577"
+  },
+  {
+   "ts": "2026-07-13T18:34:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "marktoda pushed to v4-periphery: 'fix(lens): ReservesLens follow-ups — graceful gas degradation, cursor hardening, default-parameter overloads (#577)'",
+   "url": "https://github.com/Uniswap/v4-periphery/commit/3245c3cb99c48fa1dc2459c3b60abc37d4294aba"
+  },
+  {
    "ts": "2026-07-13T17:58:34Z",
    "suit": "club",
    "source": "github",
@@ -188,27 +209,6 @@
    "suit": "spade",
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170353. Tokens: 0x67d7b6fc4e550c9840eb7e0fbb07b2d63a80ac33 / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
-   "url": "https://uniscan.xyz/tx/0x75ed4a6428f809cc0ae46d5e99750cb674782be7590f5fc2084929aaae48029a"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170353. Tokens: 0x49404f491b3818116cafc01bc263f87424f34a5a / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
-   "url": "https://uniscan.xyz/tx/0x75ed4a6428f809cc0ae46d5e99750cb674782be7590f5fc2084929aaae48029a"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170353. Tokens: 0x2c5b459244652b3602383d6a8723e917bd0347af / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
-   "url": "https://uniscan.xyz/tx/0x75ed4a6428f809cc0ae46d5e99750cb674782be7590f5fc2084929aaae48029a"
-  },
-  {
-   "ts": "2026-07-13T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 53170353. Tokens: 0xb17bd788b7339d861e138c0d4141e6b3aea0798b / 0xb3fca863dd0f6b496ccddf6497da5dad67...",
    "url": "https://uniscan.xyz/tx/0x75ed4a6428f809cc0ae46d5e99750cb674782be7590f5fc2084929aaae48029a"
   }
  ]
