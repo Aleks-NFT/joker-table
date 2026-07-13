@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-13T21:15:35Z",
+ "generated_at": "2026-07-13T22:15:34Z",
  "total_hooks": 2298,
- "total_pools": 6416,
+ "total_pools": 6442,
  "multi_pool_hooks": 130,
  "shown": 130,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 400,
+   "pool_count": 403,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -73,8 +73,33 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25525951,
-   "last_deploy": "2026-07-13T20:00:02Z",
+   "last_block": 25526524,
+   "last_deploy": "2026-07-13T22:00:02Z",
+   "active": true,
+   "visible": true
+  },
+  {
+   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "address_short": "0x96b8…e0cc",
+   "name": "UniversalKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "pool_count": 348,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118285,
+   "last_block": 25526548,
+   "last_deploy": "2026-07-13T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -98,31 +123,6 @@
    "first_block": 25117494,
    "last_block": 25523730,
    "last_deploy": "2026-07-13T14:00:02Z",
-   "active": true,
-   "visible": true
-  },
-  {
-   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "address_short": "0x96b8…e0cc",
-   "name": "UniversalKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 325,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25118285,
-   "last_block": 25518139,
-   "last_deploy": "2026-07-12T18:00:02Z",
    "active": true,
    "visible": true
   },
