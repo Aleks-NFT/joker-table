@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-14T03:15:35Z",
+ "generated_at": "2026-07-14T04:15:35Z",
  "history": [
   {
    "date": "2026-07-08",
@@ -37,17 +37,23 @@
    "volume_24h_usd": 1166976846.0,
    "fees_24h_usd": 1217169.0,
    "eth_share_pct": 25.0
+  },
+  {
+   "date": "2026-07-14",
+   "volume_24h_usd": 1440018839.0,
+   "fees_24h_usd": 2059185.0,
+   "eth_share_pct": 42.9
   }
  ],
  "chains_top": {
-  "BSC": 627397771,
-  "Ethereum": 290746436,
-  "Robinhood Chain": 133660430,
-  "X Layer": 34161527,
-  "Polygon": 32176769,
-  "Base": 17739669,
-  "Arbitrum": 16983542,
-  "Monad": 10474903
+  "Ethereum": 615530190,
+  "Base": 366631441,
+  "BSC": 213576741,
+  "Robinhood Chain": 157738441,
+  "Polygon": 30347235,
+  "Arbitrum": 27693977,
+  "Monad": 13144309,
+  "X Layer": 8738888
  },
  "governance": [
   {
