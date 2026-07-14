@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-14",
+   "narrative": {
+    "en": "The dealer's hands are moving across the felt. Eleven of today's sixteen pool initializations trace back to a single contract, each one a fresh pair with zero swap fee, tick spacing of 200, and tokens bearing the 0x69 prefix—serial numbers on disposable cards. All pairs use raw ETH, no WETH, no stablecoins. The addresses appear in clusters: first a trio, then a gap, then five more across forty-six blocks. Someone sat on prepared transactions, releasing them when gas dropped. This is not randomness; it's a deliberate setup, a deck being stacked.",
+    "zh": "江湖上今天有异动。十六个新池子里，十一个出自同一门派，手续费全免，tick间距都是200，代币前缀清一色0x69——像是同一批铸出的暗器。这些池子只接纯ETH，不要WETH，也不要USDC、USDT。时间上看，先是三个同区块出现，沉默一阵，又在四十六个区块内连出五个。有人在等gas低的时候分批撒网，不是散兵游勇，是蓄谋已久的布阵。"
+   },
+   "take": {
+    "en": "Eleven identical zero-fee pools from one factory signal a coordinated play, not organic activity—the house is preparing a liquidity trap or a hook-based revenue scheme.",
+    "zh": "十一个零手续费池子同出一源，不是散户行为，是有人在搭台子——要么引君入瓮，要么靠钩子抽水。"
+   }
+  },
+  {
    "date": "2026-07-13",
    "narrative": {
     "en": "Two Uniswap V4 pools blink into existence on the same block, then again ten blocks later. Same pair: USDC and USDT. Zero fee, tickSpacing set to one. This is not coincidence. The first hook at 0x858f...6888, the second at 0x457c...888 — different contracts, identical parameters. Someone is dealing two identical pools with different hooks. Why? Perhaps testing behavior: one hook might manage liquidity dynamically, the other something like siphoning fees to itself. But zero fee means it's not about yield. Zero fee on stablecoins is not for trading — it's for something else. Rebalancing, maybe, or arbitrage between the two pools. If the hooks are tuned to different strategies, a price spread between them could be engineered. And someone will be there to catch it. Or it's simply infrastructure deployment for future operations. V4 with hooks offers flexibility — oracles, scheduled swaps, anything. But two copies with the same tokens and zero fee smells like preparation for something specific. Blocks 25519822 and 25519832 — ten blocks apart, about two minutes. Someone sat and waited for the first to confirm before launching the second. Or two addresses acting in sync. For now, it's a hole in the deck — empty pools with no liquidity. But when the money pours in, it will get interesting. Especially if one of the hooks has a trigger for imbalances.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Seven pools, all ETH-based, all with non-standard fees — someone is building a system, not launching a token.",
     "zh": "七口池，全用ETH，全是非常规费率——这是有人在搭台，不是发币。"
-   }
-  },
-  {
-   "date": "2026-06-30",
-   "narrative": {
-    "en": "The night dealt five new pools in rapid succession, each one a fresh card from a newly opened deck. Five initializations across a handful of blocks — this isn't noise, it's a rhythm. The first pair, native ETH against a contract, carries zero swap fee and a wide tick spacing. Someone isn't planning to earn from swaps; this pool is an infrastructure layer. The hook is fresh, unmarked, without history. Next comes another: different tokens, a maximum fee tier and tight tick spacing — built for volatility. Another clean hook. Then three pools in a row, all with ETH, all with a moderate fee and tight spacing, but each with a different contract and a different hook, none repeated. What catches the eye: not a single pool uses a known, battle-tested hook. Every contract is new, with no trace of prior deployments. This isn't random testing. Someone is laying out a whole network of specialized pools, each with its own hook, each tuned to its own logic. Zero fee on one, maximum on another — the spectrum is wide. ETH is the base in every case. It looks like the assembly of infrastructure for some scenario where hooks do all the work and fees are just a tuning parameter. The night was quiet, but the deck is being shuffled. The only question left: who's dealing?",
-    "zh": "昨夜江湖暗流涌动，五个新池子接连出世，如同赌桌上刚开封的牌。第一对，原生ETH配一个陌生合约，零手续费，价差间距极宽。这人显然不靠兑换赚钱，池子只是他的内力根基。钩子崭新，无门无派，没有过往。紧接着第二池：不同令牌，万分之一手续费，极窄价差——专为暴烈波动而设。又一个无名钩子。再连三池，皆以ETH为基，手续费中等，价差紧凑，但每池合约不同，钩子各异，无一重复。蹊跷的是，没有一个池子用了江湖上成名已久的钩子。所有合约都是新面孔，从未在过往交易中现身。这不是随性试招，而是有人在布阵——一张由专属钩子驱动的池子网络，每池一套心法，各司其职。零费与天价费并存，ETH始终是根基。这不像散兵游勇的试探，更像在搭建一套完整的武学体系：钩子承载全部招式，手续费不过是调节内息。夜虽静，牌已洗。只待看谁落座发牌。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
-    "zh": "有人在部署手续费非标——要么零费，要么最高档——而非市价中档的池子。这不是偶然，是刻意布局：收益不走兑换，而是通过钩子抽取。"
    }
   }
  ]
