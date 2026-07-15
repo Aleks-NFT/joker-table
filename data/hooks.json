@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-15T19:15:35Z",
+ "generated_at": "2026-07-15T20:15:45Z",
  "total_hooks": 2307,
- "total_pools": 6507,
- "multi_pool_hooks": 132,
- "shown": 132,
+ "total_pools": 6510,
+ "multi_pool_hooks": 133,
+ "shown": 133,
  "more_count": 0,
  "hooks": [
   {
@@ -61,7 +61,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 412,
+   "pool_count": 413,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -73,8 +73,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25539581,
-   "last_deploy": "2026-07-15T18:00:14Z",
+   "last_block": 25539971,
+   "last_deploy": "2026-07-15T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -84,7 +84,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 389,
+   "pool_count": 390,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -98,8 +98,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25538843,
-   "last_deploy": "2026-07-15T16:00:02Z",
+   "last_block": 25539817,
+   "last_deploy": "2026-07-15T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -2331,6 +2331,29 @@
    "last_block": 25314442,
    "last_deploy": "2026-06-14T10:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x8a22e2a5768c72751f2da3e3b904365203b100cc",
+   "address_short": "0x8a22…00cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x8a22e2a5768c72751f2da3e3b904365203b100cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25495961,
+   "last_block": 25540041,
+   "last_deploy": "2026-07-15T20:00:02Z",
+   "active": true,
    "visible": false
   },
   {
