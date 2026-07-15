@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-15",
+   "narrative": {
+    "en": "Four fresh deals hit the table last night — all hooks, all V4. The first pool at block 25534390 looked almost classic: two tokens, a fixed fee of 30 basis points, tick spacing of 60. The hook contract at 0xbbe88e sits there, but what it does is anyone's guess. No hook call logs at initialization, so the logic behind it stays face-down. Then came a tight run. Three pools in a row, all with zero fee, all with tick spacing 200 — that's no accident. The second and third pools share the same hook contract, 0x96b893, both with ether as the first token. Feels like someone is rolling out a family of pools under one mechanic — maybe dynamic fees, maybe some averaging strategy. Without a dump of hook events, you're just guessing. The fourth pool at block 25534595 uses a different hook, 0x0d6253. Also ether-based, also zero fee. Eight blocks between the third and fourth — someone worked fast, no pause to think. What sticks: none of these pools have any trade activity at the time of writing. They hang on the chain like blank cards. Hooks without calls are cards dealt but not yet flipped. Makes you wonder if any of these hands will see a first trade, or if they'll only live on as a line in the initialization logs. The V4 deck is growing, but it's a quiet growth. Without events from the hooks, you can't tell who's the ace and who's just filling the seat.",
+    "zh": "昨夜江湖又添四座新池，皆是V4门派，个个带钩。首池生于区块25534390，看似规矩：双币，固定手续费三十基点，步阶六十。钩子藏于0xbbe88e，却不知其用意——开池时无钩子日志，内功心法无从窥探。紧接着三池连出，皆零手续费，步阶二百，绝非巧合。第二、第三池共用一钩，契约0x96b893，皆以以太为基币。看来有人在布阵，同一钩法，或为动态收费，或为某种均值策略。无钩子事件可查，只能揣测。第四池在区块25534595，换了钩子，0x0d6253，仍是以太为基，零手续费。与第三池相隔八块，出手极快，毫无迟疑。引人注意的是，这些池至今无一笔交易。它们悬于链上，如白纸一张。钩子无调用，好比宝剑未出鞘。不知这些池中，谁能等到第一笔买卖，还是终将成为初始化日志里的一行记录。V4江湖在扩张，但只是暗流涌动。钩子不响，难辨谁是真正的高手，谁只是占个位置。"
+   },
+   "take": {
+    "en": "The house is dealing V4 pools with zero fees and idle hooks — no action yet, but the pattern says someone is building a system, not just flipping tokens.",
+    "zh": "庄家连开零费池，钩子未动，却已布下阵法——这不是散兵游勇，而是有人在搭台唱戏。"
+   }
+  },
+  {
    "date": "2026-07-14",
    "narrative": {
     "en": "The dealer's hands are moving across the felt. Eleven of today's sixteen pool initializations trace back to a single contract, each one a fresh pair with zero swap fee, tick spacing of 200, and tokens bearing the 0x69 prefix—serial numbers on disposable cards. All pairs use raw ETH, no WETH, no stablecoins. The addresses appear in clusters: first a trio, then a gap, then five more across forty-six blocks. Someone sat on prepared transactions, releasing them when gas dropped. This is not randomness; it's a deliberate setup, a deck being stacked.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The dealer is stacking the deck: eight pools in a day, half with zero fees, one at the maximum tier — this isn't random play, it's a deliberate pattern.",
     "zh": "庄家在洗牌：一天八个池，半数零费率，一个顶格费率——这不是随机落子，而是刻意布局。"
-   }
-  },
-  {
-   "date": "2026-07-01",
-   "narrative": {
-    "en": "The deck's been shuffled again, and seven fresh pools just hit the felt on the same blockchain. Every pair uses ETH as the base asset — no stablecoins, no memecoins, just pure volatility. The hooks are all different, each a distinct card in the dealer's sleeve. Two pools appeared almost back-to-back: one with zero commission and a wide tick step for the heavy hitters who don't need constant recalculations, the other with a high commission and tight step for those who like it dense. Then came three more in quick succession, all with the same high commission and tight step, but different tokens. Only one more zero-commission, wide-step pool surfaced. The seventh arrived later, again high commission and tight step. Seven deals in an hour, no two hook schemes alike. Someone is testing strategies — dynamic fees, oracles, who knows what. Each hook contract is a card face-down, and I won't know its suit until it's flipped.",
-    "zh": "今夜又无眠，但牌局已重新洗过。同一链上，七口V4池子，七种钩子，每口都不同。所有池子都以ETH为底——没有稳定币，没有土狗币，纯粹波动。前两口几乎同时落地，一池零费率、宽步距，给大户准备，不需频繁计算；另一池高费率、窄步距，适合喜欢密集交易的人。接着三池接连而至，都是高费率、窄步距，但代币不同。只有一口是零费率、宽步距。第七口姗姗来迟，仍是高费率、窄步距。一个时辰七局，钩子无一重复。有人在试各种策略：动态费率、预言机，天知道还有什么。每张钩子合约都是扣着的牌，不翻面不知花色。"
-   },
-   "take": {
-    "en": "Seven pools, all ETH-based, all with non-standard fees — someone is building a system, not launching a token.",
-    "zh": "七口池，全用ETH，全是非常规费率——这是有人在搭台，不是发币。"
    }
   }
  ]
