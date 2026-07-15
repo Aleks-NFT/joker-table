@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-15T09:15:35Z",
+ "generated_at": "2026-07-15T10:15:36Z",
  "total_hooks": 2305,
- "total_pools": 6498,
- "multi_pool_hooks": 131,
- "shown": 131,
+ "total_pools": 6500,
+ "multi_pool_hooks": 132,
+ "shown": 132,
  "more_count": 0,
  "hooks": [
   {
@@ -1347,6 +1347,32 @@
    "last_block": 25334161,
    "last_deploy": "2026-06-17T04:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
+   "address_short": "0x38fd…f6c0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterInitialize",
+    "afterAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 25524687,
+   "last_block": 25537299,
+   "last_deploy": "2026-07-15T10:00:02Z",
+   "active": true,
    "visible": false
   },
   {
