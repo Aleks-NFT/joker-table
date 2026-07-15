@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $172,976,439   #2 USDC / USDT — $141,737,264   #3 PYUSD / USDS — $114,982,898   #...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-07-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.01% TVL shrank 38% to $1,172,357",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
+  },
+  {
+   "ts": "2026-07-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.01% volume surged 272% to $9,214,317 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
+  },
+  {
+   "ts": "2026-07-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDT / USDS volume surged 78% to $172,976,439 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
+  },
+  {
    "ts": "2026-07-15T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25529172. Tokens: 0x0000000000000000000000000000000000000000 / 0x691c3939c88e73685c627ee84ddeeae043299437. Fee:...",
    "url": "https://etherscan.io/tx/0x0d9b9264cb497f9ea7aaa7a69b7da7c9a4b96d3c29df3546837621c6d3ff2dd7"
-  },
-  {
-   "ts": "2026-07-14T07:30:16Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: CCA and Uniswap Auctions now live on Robinhood Chain enabling onchain token auctions price discovery and Uniswap v4 liquidity bootstrap",
-   "url": "https://x.com/Uniswap/status/2076690351591436437"
-  },
-  {
-   "ts": "2026-07-14T07:30:16Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: Robinhood Chain auctions will be listed on Uniswap Web App for launch browse bid claim",
-   "url": "https://x.com/Uniswap/status/2076690354422583419"
-  },
-  {
-   "ts": "2026-07-14T07:30:16Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: For more on Uniswap Auctions",
-   "url": "https://x.com/Uniswap/status/2076690355714507150"
-  },
-  {
-   "ts": "2026-07-14T06:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25528735. Tokens: 0x0000000000000000000000000000000000000000 / 0x62b0f103b55b36a92fc3f29365f1ef667f7c24a6. Fee:...",
-   "url": "https://etherscan.io/tx/0x852c1b03464f8ed41dad09074543829c66aa906a9fd64c8bcb67c4a369a6a757"
   }
  ]
 }
