@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-16T04:15:34Z",
+ "generated_at": "2026-07-16T05:15:34Z",
  "total_hooks": 2310,
  "total_pools": 6526,
  "multi_pool_hooks": 133,
@@ -1020,8 +1020,8 @@
   {
    "address": "0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
    "address_short": "0x38fd…f6c0",
-   "name": "",
-   "verified": false,
+   "name": "SimHookMVP",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
    "pool_count": 5,
    "permissions_human": [
@@ -2336,8 +2336,8 @@
   {
    "address": "0x8a22e2a5768c72751f2da3e3b904365203b100cc",
    "address_short": "0x8a22…00cc",
-   "name": "",
-   "verified": false,
+   "name": "FeeHookV2",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8a22e2a5768c72751f2da3e3b904365203b100cc",
    "pool_count": 2,
    "permissions_human": [
