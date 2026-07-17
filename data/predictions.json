@@ -3,9 +3,9 @@
  "stats": {
   "total": 37,
   "hit": 7,
-  "miss": 18,
-  "open": 8,
-  "hit_rate": 0.28
+  "miss": 19,
+  "open": 7,
+  "hit_rate": 0.269
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count of pools using dynamic-fee hooks will exceed 10.",
    "horizon_days": 7,
    "resolve_after": "2026-07-17",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +10 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   },
   {
