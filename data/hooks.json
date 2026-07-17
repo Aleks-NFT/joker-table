@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-17T13:15:35Z",
- "total_hooks": 2333,
- "total_pools": 6664,
- "multi_pool_hooks": 145,
- "shown": 145,
+ "generated_at": "2026-07-17T14:15:34Z",
+ "total_hooks": 2336,
+ "total_pools": 6695,
+ "multi_pool_hooks": 148,
+ "shown": 148,
  "more_count": 0,
  "hooks": [
   {
@@ -34,7 +34,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 442,
+   "pool_count": 443,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -46,8 +46,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25551407,
-   "last_deploy": "2026-07-17T10:00:05Z",
+   "last_block": 25552641,
+   "last_deploy": "2026-07-17T14:00:08Z",
    "active": true,
    "visible": true
   },
@@ -627,6 +627,44 @@
    "visible": false
   },
   {
+   "address": "0x01ace8bc990270fbb742b27892b149a7f0e71000",
+   "address_short": "0x01ac…1000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x01ace8bc990270fbb742b27892b149a7f0e71000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25552719,
+   "last_block": 25552719,
+   "last_deploy": "2026-07-17T14:00:08Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x099ac33b384b467a9b00bda79a48ebc4fa945000",
+   "address_short": "0x099a…5000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x099ac33b384b467a9b00bda79a48ebc4fa945000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25552271,
+   "last_block": 25552271,
+   "last_deploy": "2026-07-17T14:00:08Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x111157d643499ed3870cb7bdb848303c85fb9000",
    "address_short": "0x1111…9000",
    "name": "SaturnOmnichainV4Hook",
@@ -680,6 +718,25 @@
    "first_block": 25551800,
    "last_block": 25551800,
    "last_deploy": "2026-07-17T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x7b1ce7d1c40ec53d6e8a426282b30d493b4c9000",
+   "address_short": "0x7b1c…9000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x7b1ce7d1c40ec53d6e8a426282b30d493b4c9000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25552495,
+   "last_block": 25552495,
+   "last_deploy": "2026-07-17T14:00:08Z",
    "active": true,
    "visible": false
   },
