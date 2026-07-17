@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-17",
+   "narrative": {
+    "en": "The evening of July 17th saw the same hook contract—0x96b8...fe0cc—run two identical deals with different tokens. Both pools at zero fee, tick spacing 200. First at block 25548686, second at 25548692. Six blocks apart. Someone clearly testing the mechanics on a couple of different assets, but with the same set of parameters. No liquidity, just initialization. Then the real fireworks hit at block 25548709. One token 0x00009de46ef19cc00580e4855a6e3e4d8bcd8e2c and one hook contract 0x1111...b9000. Ten pools. Ten fee tiers from 1 to 50 basis points. Each with its own tick spacing—from 1 to 1000. Someone fanned the deck. Every possible configuration for one pair. No doubt—this isn't chance, it's a measurement. Someone wanted to see how the router would behave when choosing among ten pools identical in tokens but different in fees. The hooks are likely just collecting statistics or emulating dynamic fees. 81 blocks later, another pattern. Same handwriting, different contract: 0xdf0a...1000. Three pools for token 0x3572...164c. Fees 100, 200, 500. Tick spacings 1, 2, 10. Again a series, again without liquidity. Someone methodically seeding the field. None of these pools have been touched—no swaps, no additions. Pure markup. What is this? Preparation for launching hooks with dynamic rules. Testing routing. Or just someone with a large gas budget deciding to see how many pools can be created in one block. The deck is being shuffled, but the cards haven't been dealt yet.",
+    "zh": "7月17日晚，同一个hooks合约——0x96b8...fe0cc——用两个不同的代币做了两笔一模一样的部署。两个池子都是零费率，tickSpacing 200。第一个在区块25548686，第二个在25548692，相隔六个区块。显然有人在用同一套参数测试不同资产上的机制。没有流动性，只是初始化。真正的烟花在区块25548709绽放。一个代币0x00009de46ef19cc00580e4855a6e3e4d8bcd8e2c和一个hooks合约0x1111...b9000。十个池子。十个从1到50基点的费率档位，每个对应不同的tickSpacing——从1到1000。有人把牌摊开了。同一对代币的所有可能配置。毫无疑问——这不是偶然，是一次测量。有人想看看路由器在面对十个代币相同但费率不同的池子时会如何选择。hooks很可能只是在收集统计数据或模拟动态费率。81个区块后，又一个模式。同样的笔迹，不同的合约：0xdf0a...1000。代币0x3572...164c的三个池子。费率100、200、500。tickSpacing 1、2、10。又是一系列部署，同样没有流动性。有人在有条不紊地播种。这些池子至今无人触碰——没有交换，没有添加。纯粹是标记。这是什么？为启动带动态规则的hooks做准备。测试路由。或者只是某个gas充裕的人想看看一个区块内能创建多少个池子。牌在洗，但还没发。"
+   },
+   "take": {
+    "en": "A single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
+    "zh": "单个hooks合约正以远超典型部署者的速度连续部署池子。"
+   }
+  },
+  {
    "date": "2026-07-16",
    "narrative": {
     "en": "Three pools on V4, same blockchain range, same hook contract: 0x0d62529346ac2c61f5c0582210d01214687bc0cc. This is not coincidence, it's a pattern. Someone is laying out a deck where the hook isn't just a modifier—it's the centerpiece of the deal. Zero fee, tickSpacing 200—classic setup for high-frequency or specialized liquidity. But with no fee, the pool doesn't live on the spread; it lives on something else. The hook can charge separately, redistribute, alter swap logic—it's a black box. Three pools with the same hook means a strategy is being tested across different pairs. ETH against three tokens, each a small, obscure address: 0xce5fd93f, 0x7d450533, 0x069f0862. None ring a bell. Fresh, likely recently deployed or unwrapped for this specific mechanic. Could be the same deployer stamping pools like cards of one suit. Or a bot auto-creating pairs for a certain hook scenario. Blocks 25540991, 25541114, 25541228—237 blocks between first and last. Not rushed, but rhythmic. No frenzy, just work. Someone is calmly building infrastructure. The question isn't what these tokens are. It's what that hook does. If it manipulates orders, emulates dynamic fees, or hides a liquidation mechanism—that's a new mechanic on the felt. For now, three silent pools. But silence in crypto is often the prelude to a loud hand.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
     "zh": "建设者们正在部署使用非标准 swap 费用的池子——要么是零，要么是最高档——而不是常见的市场费率。这表明了刻意的经济设计：收入通过钩子而非 swap 本身收取。"
-   }
-  },
-  {
-   "date": "2026-07-03",
-   "narrative": {
-    "en": "The deal keeps coming, and tonight the deck is stacked with thirteen fresh pools in a single day. Thirteen. Nearly all of them take ETH at the door. One hook contract appears in four consecutive pools, three tokens minted in a single block. It's a production line, not a launch. Tick spacing at 200, fee at zero — no cushion against volatility, pure speculation dressed as liquidity. Another hook runs two pools with the maximum fee tier but a tight tick spacing of 60. Someone wants to catch every price tick and charge top dollar for it. And then there's the pool with fee 100 and tick spacing 1 — a gas guzzler for those who fear no transaction cost. Precision at any price. Meanwhile, the GitHub is silent except for two NatSpec typo fixes from 0xAxiom. Someone reads the fine print while the house deals from the bottom. The hooks are the new jokers, but who's shuffling and why remains unseen. Only the stakes feel higher.",
-    "zh": "江湖又起波澜。今日十三池齐开，十三。几乎都以ETH为入门之资。一个钩子合约连现四池，同一区块内连铸三枚代币——这不是开池，是流水线。tick间距二百，手续费为零，毫无波动缓冲，纯是投机披着流动性的皮。另一钩子双池皆取最高费率，却配六十的细密tick间距——要捕尽每一丝价差，且收最重的过路钱。更有费率一百、tick间距一的池子，那是烧着gas买精准，只为某种不容偏差的暗器。GitHub上却静默如夜，唯0xAxiom修了两处NatSpec错字。有人细读秘籍，有人暗布棋局。钩子便是新式暗器，但执棋之手与落子之意，仍隐于迷雾。只觉内力暗涌，赌注已悄然加码。"
-   },
-   "take": {
-    "en": "Thirteen pools in a day, all with non-standard fee structures: either zero or maximum tier, signaling deliberate economic design through the hook, not organic token launches.",
-    "zh": "今日十三池齐发，皆用非常规费率——零费或最高档，明示收入仰仗钩子而非交易，绝非寻常开池之举。"
    }
   }
  ]
