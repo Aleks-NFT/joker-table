@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-18T17:15:45Z",
- "total_hooks": 2366,
- "total_pools": 6983,
- "multi_pool_hooks": 177,
- "shown": 177,
+ "generated_at": "2026-07-18T18:15:39Z",
+ "total_hooks": 2368,
+ "total_pools": 7003,
+ "multi_pool_hooks": 179,
+ "shown": 179,
  "more_count": 0,
  "hooks": [
   {
@@ -1102,6 +1102,25 @@
    "visible": false
   },
   {
+   "address": "0x9147abfc25e446e5a1c2aafdead8cf3e707ad000",
+   "address_short": "0x9147…d000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9147abfc25e446e5a1c2aafdead8cf3e707ad000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25560802,
+   "last_block": 25560802,
+   "last_deploy": "2026-07-18T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x96b18f9db4a90a92bad3ae026dfe97fb452a1000",
    "address_short": "0x96b1…1000",
    "name": "SaturnOmnichainV4Hook",
@@ -1117,6 +1136,25 @@
    "first_block": 25553173,
    "last_block": 25553173,
    "last_deploy": "2026-07-17T16:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x9c99ed3c8127977311d1e8cc37e882c421141000",
+   "address_short": "0x9c99…1000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9c99ed3c8127977311d1e8cc37e882c421141000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25561104,
+   "last_block": 25561104,
+   "last_deploy": "2026-07-18T18:00:02Z",
    "active": true,
    "visible": false
   },
