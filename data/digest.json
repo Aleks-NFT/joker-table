@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-18",
+   "narrative": {
+    "en": "Because someone decided to play chess with a full deck. One block, one token, one hook contract — eleven pools in a row. 0xcb9077...4fa2 against native ETH across all possible fees, from 1 to 50 basis points. This is not chance or error — it's strategy. Someone laid out liquidity across the entire fee spectrum, like spreading cards by suit, so no move goes unanswered. The second package arrived 68 blocks later. A different token — 0xdcf405...9ab8 — a different hook — 0xf9807122...d000. But the same pattern: five pools, from 100 to 3000 basis points, stepping by tick spacing. The only difference is they stopped at three thousand — meaning they understand where the liquidity boundary lies for that pair. Interestingly, the first hook contract — 0x2c59f7...9000 — powered all eleven pools. One hook for the entire fee line. The second — 0xf98071...d000 — only five. Either the first hook is more universal, or the second token pair is more selective. Two tokens, two hooks, one blockchain. Nobody makes such distributions without a map — someone is clearly preparing liquidity for distribution, and these pools are the first chips on the table. The question is not who did it, but what they know that others don't.",
+    "zh": "因为有人决定用一整副牌下棋。同一个区块，同一个代币，同一个钩子合约——连续十一个池子。0xcb9077...4fa2 对阵原生 ETH，覆盖所有可能的费率，从 1 到 50 个基点。这不是偶然，也不是错误——这是策略。有人把流动性铺满了整个费率谱系，就像按花色摊牌，让每一步都有回应。第二组在 68 个区块后到来。另一个代币——0xdcf405...9ab8，另一个钩子——0xf9807122...d000。但同样的模式：五个池子，从 100 到 3000 个基点，按 tick 间距步进。唯一的区别是他们在三千点停下了——说明他们知道这对代币的流动性边界在哪里。有趣的是，第一个钩子合约——0x2c59f7...9000——服务了全部十一个池子。一个钩子撑起整条费率线。第二个——0xf98071...d000——只服务五个。要么第一个钩子更通用，要么第二对代币更挑剔。两个代币，两个钩子，一条链。没有人会无缘无故做这样的部署——显然有人在为流动性分发做准备，这些池子是桌上的第一批筹码。问题不是谁干的，而是他们知道什么别人不知道的事。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
+    "zh": "建造者正在部署非标准兑换费的池子——要么零费率，要么最高档——而不是常见的市场费率，这表明他们有意通过钩子合约而不是兑换来获取收入，这不是一次普通的代币发行。"
+   }
+  },
+  {
    "date": "2026-07-17",
    "narrative": {
     "en": "The evening of July 17th saw the same hook contract—0x96b8...fe0cc—run two identical deals with different tokens. Both pools at zero fee, tick spacing 200. First at block 25548686, second at 25548692. Six blocks apart. Someone clearly testing the mechanics on a couple of different assets, but with the same set of parameters. No liquidity, just initialization. Then the real fireworks hit at block 25548709. One token 0x00009de46ef19cc00580e4855a6e3e4d8bcd8e2c and one hook contract 0x1111...b9000. Ten pools. Ten fee tiers from 1 to 50 basis points. Each with its own tick spacing—from 1 to 1000. Someone fanned the deck. Every possible configuration for one pair. No doubt—this isn't chance, it's a measurement. Someone wanted to see how the router would behave when choosing among ten pools identical in tokens but different in fees. The hooks are likely just collecting statistics or emulating dynamic fees. 81 blocks later, another pattern. Same handwriting, different contract: 0xdf0a...1000. Three pools for token 0x3572...164c. Fees 100, 200, 500. Tick spacings 1, 2, 10. Again a series, again without liquidity. Someone methodically seeding the field. None of these pools have been touched—no swaps, no additions. Pure markup. What is this? Preparation for launching hooks with dynamic rules. Testing routing. Or just someone with a large gas budget deciding to see how many pools can be created in one block. The deck is being shuffled, but the cards haven't been dealt yet.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "A zero-address hook pool with 100 bp fee and tick spacing 1 is a deliberate setup — someone is dealing from a custom deck, not the house's.",
     "zh": "零地址、100基点手续费、间距1——这不是随机发牌，是有人按自己的谱子下棋。"
-   }
-  },
-  {
-   "date": "2026-07-04",
-   "narrative": {
-    "en": "The deal is done, and a new hand begins on block 25455400. A Uniswap V4 pool with hooks is not just another liquidity pair—it's a bid for new mechanics. The pair: native ETH against contract 0x63ee...c0c0. And here's the kicker: that same address serves as the hooks. A closed loop—the contract services itself, audits itself. The fee of 8388608 is no mistake. In V4, that code means a dynamic or custom fee structure, not the standard 0.01%, 0.05%, or 0.30%. It's manual tuning, hinting at non-standard logic. Tick spacing 200—the step between ticks is wide, so the pool is built for volatile pairs or large orders where precision doesn't matter, but less gas on crossing. But the real card is the hooks contract itself. It is the token, it is the manager. That means every swap, every added or removed liquidity, passes through its filters. Whoever controls that contract controls the flow. And pool ID 0x9450...991—now a marker on the blockchain worth watching. No conclusions—only the fact: a new hand is on the felt. And its suit is yet unknown.",
-    "zh": "新的一局在区块 25455400 开启。Uniswap V4 带钩子的池子，不是普通的流动性——它是在争夺新的门派心法。对子：原生 ETH 对阵合约 0x63ee...c0c0。有意思的是，同一个地址就是钩子本身。自成一统——合约自己服务自己，自己审核自己。手续费 8388608 不是笔误。在 V4 里，这个代码代表动态或自定义收费结构，不是标准的 0.01%、0.05% 或 0.30%。这是手动调校，暗示着非常规的机关。Tick 间距 200——步宽大，说明这池子是为波动大的对子或大单准备的，精度不重要，但省 gas。真正的王牌是这个钩子合约。它既是代币，又是掌门。每一笔交换、每一次增减流动性，都得过它的关口。谁控制这合约，谁就控制了水流。池子 ID 0x9450...991——链上又多了一个值得留意的标记。不下定论——只摆事实：桌上多了一手新牌。花色未明。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
-    "zh": "建设者们正在部署使用非标准 swap 费用的池子——要么是零，要么是最高档——而不是常见的市场费率。这表明了刻意的经济设计：收入通过钩子而非 swap 本身收取。"
    }
   }
  ]
