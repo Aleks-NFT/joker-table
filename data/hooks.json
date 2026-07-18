@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-18T11:15:35Z",
- "total_hooks": 2356,
- "total_pools": 6882,
- "multi_pool_hooks": 167,
- "shown": 167,
+ "generated_at": "2026-07-18T12:15:35Z",
+ "total_hooks": 2359,
+ "total_pools": 6912,
+ "multi_pool_hooks": 170,
+ "shown": 170,
  "more_count": 0,
  "hooks": [
   {
@@ -836,6 +836,25 @@
    "visible": false
   },
   {
+   "address": "0x5ed9a793f7ce3f23c9077121f3e47ea259b6d000",
+   "address_short": "0x5ed9…d000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x5ed9a793f7ce3f23c9077121f3e47ea259b6d000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25558912,
+   "last_block": 25558912,
+   "last_deploy": "2026-07-18T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x75c19fdd847803c68ffe3b7df216b531b0a45000",
    "address_short": "0x75c1…5000",
    "name": "SaturnOmnichainV4Hook",
@@ -946,6 +965,44 @@
    "first_block": 25549102,
    "last_block": 25549102,
    "last_deploy": "2026-07-17T02:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x83647f76b2961029ab305036546df71d4c0b5000",
+   "address_short": "0x8364…5000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x83647f76b2961029ab305036546df71d4c0b5000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25559082,
+   "last_block": 25559082,
+   "last_deploy": "2026-07-18T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x8ddebd7f31c744beeaad6d3759f195f9e05e1000",
+   "address_short": "0x8dde…1000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x8ddebd7f31c744beeaad6d3759f195f9e05e1000",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25559400,
+   "last_block": 25559400,
+   "last_deploy": "2026-07-18T12:00:02Z",
    "active": true,
    "visible": false
   },
