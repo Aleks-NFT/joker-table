@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 39,
-  "hit": 7,
+  "hit": 8,
   "miss": 20,
-  "open": 8,
-  "hit_rate": 0.259
+  "open": 7,
+  "hit_rate": 0.286
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count will exceed 23, as a single hook contract deploys pools in rapid succession, far above the pace of typical deployers.",
    "horizon_days": 7,
    "resolve_after": "2026-07-19",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +23 on metric pools_by_hook reached.",
    "phase": "v2"
   },
   {
