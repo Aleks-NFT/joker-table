@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 38,
+  "total": 39,
   "hit": 7,
   "miss": 20,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.259
  },
  "items": [
+  {
+   "id": 39,
+   "made_at": "2026-07-19",
+   "text": "Over the next 7 days the count of pools with tick spacing below 10 will exceed 52, as the behavior of placing more pools with very small tick spacing for fine-grained concentrated liquidity continues.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-26",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 38,
    "made_at": "2026-07-18",

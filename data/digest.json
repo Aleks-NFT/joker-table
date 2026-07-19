@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-19",
+   "narrative": {
+    "en": "The deal unfolds in layers. First, five pools with the same token inside ten minutes—only those with zero address. Contract 0x96b893683afbfec071e90f78d00de4bb932fe0cc stamps pairs with WETH at zero fee, tick spacing 200—typical markup for high-frequency trading or test runs. But the real firework starts at block 25563128. Token 0x30c3aa3b6010d18fc40ccf5c2103cf2207a84382. One issuer, one hook contract 0x0eddd960839444ddc68be768eba48b508136d000, and eleven pools with different fees. From 1 basis point to 50. Tick spacing from 1 to 100. This is no accident—someone is loading an entire grid of liquidity under one asset. A fan of fees: 100, 150, 200, 250, 500, 750, 1000, 2000, 3000, 5000. Each pool is a separate curve, a separate strategy. I watched from the start. First four pools with different tokens—standard distribution, nothing unusual. Then a hook on USDC/WETH with fee 30 basis points and tick spacing 60—classic, but a different contract, 0x85ecf88d5e6357630fc802ff2dcc2930d0e640c0. Then this massive salvo on one token. Curious that all pools with token 0x30c3aa3... use the same hook. Usually that's done when the hook manages dynamic fees or switching between strategies. But here fees are hardcoded at initialization. So either a test deployment for audit, or preparation for a major launch with different trader types. Each fee is its own segment: small swaps, arbitrage, long-term positions. All happened within one block. Someone clearly didn't want to wait. Or knew the window was narrow.",
+    "zh": "江湖上，今日暗流涌动。先有五个池子，同一令牌，十分钟内接连现身——全是零地址。合约0x96b893683afbfec071e90f78d00de4bb932fe0cc以零费率配对WETH，间距200——典型的快攻或试阵标记。但真正的风云起于区块25563128。令牌0x30c3aa3b6010d18fc40ccf5c2103cf2207a84382，单一掌门，单一钩子合约0x0eddd960839444ddc68be768eba48b508136d000，却布下十一个池子，费率从1到50个基点，间距从1到100。这不是巧合——有人在为一个令牌铺设完整的流动性网格。费率如扇面展开：100、150、200、250、500、750、1000、2000、3000、5000。每一池，一条曲线，一种心法。我从头看到尾。先是四个不同令牌的池子——寻常撒网，不足为奇。随后一个USDC/WETH的钩子池，费率30，间距60——经典套路，但钩子换成了0x85ecf88d5e6357630fc802ff2dcc2930d0e640c0。接着便是这一轮密集的令牌齐射。有趣的是，所有0x30c3aa3...的池子共用同一个钩子。通常，这般布置是为了动态费率或策略切换。但此处费率在开池时便已定死。所以，要么是审计前的试阵，要么是为大举进攻做准备——针对不同门派的交易者：小散、套利客、长线庄家。这一切发生在同一区块内。出手之人显然不愿等待，或是深知时机稍纵即逝。"
+   },
+   "take": {
+    "en": "This is not random noise—someone is systematically laying out a full-spectrum liquidity grid for a single asset, signaling a coordinated deployment with segmented trader targeting.",
+    "zh": "今日异象非散兵游勇，而是有人为一枚令牌布下天罗地网，以不同费率划分战场，意在引各路豪杰入瓮。"
+   }
+  },
+  {
    "date": "2026-07-18",
    "narrative": {
     "en": "Because someone decided to play chess with a full deck. One block, one token, one hook contract — eleven pools in a row. 0xcb9077...4fa2 against native ETH across all possible fees, from 1 to 50 basis points. This is not chance or error — it's strategy. Someone laid out liquidity across the entire fee spectrum, like spreading cards by suit, so no move goes unanswered. The second package arrived 68 blocks later. A different token — 0xdcf405...9ab8 — a different hook — 0xf9807122...d000. But the same pattern: five pools, from 100 to 3000 basis points, stepping by tick spacing. The only difference is they stopped at three thousand — meaning they understand where the liquidity boundary lies for that pair. Interestingly, the first hook contract — 0x2c59f7...9000 — powered all eleven pools. One hook for the entire fee line. The second — 0xf98071...d000 — only five. Either the first hook is more universal, or the second token pair is more selective. Two tokens, two hooks, one blockchain. Nobody makes such distributions without a map — someone is clearly preparing liquidity for distribution, and these pools are the first chips on the table. The question is not who did it, but what they know that others don't.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Three pools in one night, two clones and one outlier—someone is building a coordinated strategy, not a random listing.",
     "zh": "一夜三池，两同出一辙，一另辟蹊径——这不是随手上架，是有人在下一盘棋。"
-   }
-  },
-  {
-   "date": "2026-07-05",
-   "narrative": {
-    "en": "The deal on the table is pool ID 0xd222635befb0a5696744c0d68d2ad7fb047e72e64c47175f42260964779e4e5c — not just a hash, but a cut of the deck. Uniswap V4 hook pool at block 25462893 is no ordinary hand. Here the zero address plays against 0xd5dd59fc90431962c2b650069a85ac5d150f5154. Zero is always the wild joker, a suit without a suit. The second token is a specific hand, still unshown. The fee at 100 basis points is not for noise. It's a bet on fine-tuning liquidity. Tick spacing at 1 is the minimum step, as if you were cutting the deck one card at a time, not in stacks. Such spacing gives maximum flexibility but demands constant attention: every tick is a potential reversal. The hook contract 0xafe59bc5fe2073d3308e3acca77ecedf83528144 is the one shuffling the deck in real time. V4 without hooks is a dull table. With hooks, cards can change suits on the fly. Who wrote this hook, what conditions are encoded — still dark. But the very fact of its presence says someone is ready to play by their own rules. Notice: not a single public comment from the deployer. No teaser, no 'look at me'. This is either a cold-blooded player who knows the value of silence, or a test — but tests usually don't set fee at 100 and tick spacing at 1. Tests are wide spacing, round numbers. For now, this is just one deal. But such deals rarely lie dead. Either someone is preparing a new type of liquidity, or a hook will be written that flips the pool's logic. Waiting for the next cards from this deck.",
-    "zh": "这个池子ID 0xd222635befb0a5696744c0d68d2ad7fb047e72e64c47175f42260964779e4e5c，不是普通的哈希，是牌局里的一刀切。Uniswap V4的hook池，25462893区块，不是寻常的摊牌。零地址对0xd5dd59fc90431962c2b650069a85ac5d150f5154——零地址永远是百搭牌，无门无派。另一个代币是具体的招式，还没亮底。手续费100基点，不是闹着玩的。这是对流动性精细调校的下注。tick间距1，最小步长，好比一张张切牌，不是整叠。这种间距给最大灵活，但需要时刻盯着：每个tick都可能翻转。hook合约0xafe59bc5fe2073d3308e3acca77ecedf83528144，是当场洗牌的人。V4没有hook，就是一张空桌子。有hook，牌面能当场变。谁写的这个hook，藏了什么条件——现在还是黑的。但它的存在本身说明，有人要按自己的规矩玩。注意：部署者没发过一句公开消息。没有预告，没有'看我'。要么是冷血的玩家，知道沉默的分量；要么是测试——但测试不会设100基点和间距1。测试都是宽间距、整数。现在只是一手牌。但这种牌很少烂在桌上。要么有人在准备新类型的流动性，要么会有人写一个hook，把池子的逻辑翻过来。等这副牌的下一张。"
-   },
-   "take": {
-    "en": "A zero-address hook pool with 100 bp fee and tick spacing 1 is a deliberate setup — someone is dealing from a custom deck, not the house's.",
-    "zh": "零地址、100基点手续费、间距1——这不是随机发牌，是有人按自己的谱子下棋。"
    }
   }
  ]
