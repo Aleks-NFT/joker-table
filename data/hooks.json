@@ -1,12 +1,37 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-19T19:15:35Z",
+ "generated_at": "2026-07-19T20:15:45Z",
  "total_hooks": 2411,
- "total_pools": 7687,
+ "total_pools": 7702,
  "multi_pool_hooks": 218,
  "shown": 218,
  "more_count": 0,
  "hooks": [
+  {
+   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "address_short": "0x96b8…e0cc",
+   "name": "UniversalKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
+   "pool_count": 497,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25118285,
+   "last_block": 25569001,
+   "last_deploy": "2026-07-19T20:00:01Z",
+   "active": true,
+   "visible": true
+  },
   {
    "address": "0x60b8fe787789a6e01415181ba80e68358e67c088",
    "address_short": "0x60b8…c088",
@@ -29,37 +54,12 @@
    "visible": true
   },
   {
-   "address": "0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "address_short": "0x96b8…e0cc",
-   "name": "UniversalKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 483,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25118285,
-   "last_block": 25568382,
-   "last_deploy": "2026-07-19T18:00:02Z",
-   "active": true,
-   "visible": true
-  },
-  {
    "address": "0x0d62529346ac2c61f5c0582210d01214687bc0cc",
    "address_short": "0x0d62…c0cc",
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 454,
+   "pool_count": 455,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -71,8 +71,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25567999,
-   "last_deploy": "2026-07-19T18:00:02Z",
+   "last_block": 25568876,
+   "last_deploy": "2026-07-19T20:00:01Z",
    "active": true,
    "visible": true
   },
