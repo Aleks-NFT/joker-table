@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-20T09:15:34Z",
- "total_hooks": 2417,
- "total_pools": 7828,
- "multi_pool_hooks": 224,
- "shown": 224,
+ "generated_at": "2026-07-20T10:15:35Z",
+ "total_hooks": 2418,
+ "total_pools": 7852,
+ "multi_pool_hooks": 225,
+ "shown": 225,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 517,
+   "pool_count": 525,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25572513,
-   "last_deploy": "2026-07-20T08:00:02Z",
+   "last_block": 25573172,
+   "last_deploy": "2026-07-20T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -59,7 +59,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 469,
+   "pool_count": 470,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -71,8 +71,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25572478,
-   "last_deploy": "2026-07-20T08:00:02Z",
+   "last_block": 25572733,
+   "last_deploy": "2026-07-20T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -894,6 +894,25 @@
    "first_block": 25562837,
    "last_block": 25562837,
    "last_deploy": "2026-07-19T00:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x6928d9a28fdcd8fe6de64a309f8f0d90b209d000",
+   "address_short": "0x6928…d000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x6928d9a28fdcd8fe6de64a309f8f0d90b209d000",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25572645,
+   "last_block": 25572645,
+   "last_deploy": "2026-07-20T10:00:02Z",
    "active": true,
    "visible": false
   },
