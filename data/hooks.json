@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-20T21:15:34Z",
- "total_hooks": 2426,
- "total_pools": 7960,
- "multi_pool_hooks": 230,
- "shown": 230,
+ "generated_at": "2026-07-20T22:15:34Z",
+ "total_hooks": 2427,
+ "total_pools": 7979,
+ "multi_pool_hooks": 232,
+ "shown": 232,
  "more_count": 0,
  "hooks": [
   {
@@ -38,7 +38,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 485,
+   "pool_count": 488,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25575433,
-   "last_deploy": "2026-07-20T18:00:01Z",
+   "last_block": 25576538,
+   "last_deploy": "2026-07-20T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1407,6 +1407,25 @@
    "first_block": 25564890,
    "last_block": 25564890,
    "last_deploy": "2026-07-19T08:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0xe38f8cc409a94489d751949934cbfebb6cd21000",
+   "address_short": "0xe38f…1000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xe38f8cc409a94489d751949934cbfebb6cd21000",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25576269,
+   "last_block": 25576269,
+   "last_deploy": "2026-07-20T22:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4336,6 +4355,32 @@
    "last_block": 25223682,
    "last_deploy": "2026-06-08T19:22:07Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x924e5c44c3b82c2c0ba231cd0de7b581180e1bc0",
+   "address_short": "0x924e…1bc0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x924e5c44c3b82c2c0ba231cd0de7b581180e1bc0",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "afterRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 25576010,
+   "last_block": 25576582,
+   "last_deploy": "2026-07-20T22:00:02Z",
+   "active": true,
    "visible": false
   },
   {
