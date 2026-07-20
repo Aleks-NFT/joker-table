@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 39,
+  "total": 40,
   "hit": 8,
   "miss": 20,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.286
  },
  "items": [
+  {
+   "id": 40,
+   "made_at": "2026-07-20",
+   "text": "Over the next 7 days the count will exceed 16.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-27",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 39,
    "made_at": "2026-07-19",
