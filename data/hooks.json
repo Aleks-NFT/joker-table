@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-21T19:15:45Z",
+ "generated_at": "2026-07-21T20:15:35Z",
  "total_hooks": 2435,
- "total_pools": 8109,
+ "total_pools": 8115,
  "multi_pool_hooks": 238,
  "shown": 238,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 563,
+   "pool_count": 567,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25581886,
-   "last_deploy": "2026-07-21T16:00:02Z",
+   "last_block": 25582942,
+   "last_deploy": "2026-07-21T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -512,7 +512,7 @@
    "name": "UniswapV4KEMHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
-   "pool_count": 18,
+   "pool_count": 20,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -523,8 +523,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25124485,
-   "last_block": 25582368,
-   "last_deploy": "2026-07-21T18:00:02Z",
+   "last_block": 25583311,
+   "last_deploy": "2026-07-21T20:00:02Z",
    "active": true,
    "visible": false
   },
