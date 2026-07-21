@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-21T01:15:35Z",
- "total_hooks": 2429,
- "total_pools": 8025,
- "multi_pool_hooks": 234,
- "shown": 234,
+ "generated_at": "2026-07-21T02:15:35Z",
+ "total_hooks": 2430,
+ "total_pools": 8041,
+ "multi_pool_hooks": 235,
+ "shown": 235,
  "more_count": 0,
  "hooks": [
   {
@@ -38,7 +38,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 490,
+   "pool_count": 491,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25577127,
-   "last_deploy": "2026-07-21T00:00:02Z",
+   "last_block": 25577738,
+   "last_deploy": "2026-07-21T02:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1217,6 +1217,25 @@
    "first_block": 25562982,
    "last_block": 25562982,
    "last_deploy": "2026-07-19T00:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x921effef9aabbdc75685edf73e9dc1dea8a85000",
+   "address_short": "0x921e…5000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x921effef9aabbdc75685edf73e9dc1dea8a85000",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "afterInitialize"
+   ],
+   "first_block": 25577649,
+   "last_block": 25577649,
+   "last_deploy": "2026-07-21T02:00:02Z",
    "active": true,
    "visible": false
   },
