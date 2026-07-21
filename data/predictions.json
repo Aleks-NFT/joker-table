@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 40,
+  "total": 41,
   "hit": 9,
   "miss": 20,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.31
  },
  "items": [
+  {
+   "id": 41,
+   "made_at": "2026-07-21",
+   "text": "Over the next 7 days the count will exceed 11 — builders are deploying pools where the hook sets the swap fee in real time, not a fixed tier, and this is the clearest sign that hooks are being used as economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-28",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 40,
    "made_at": "2026-07-20",

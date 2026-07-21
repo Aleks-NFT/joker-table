@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-21",
+   "narrative": {
+    "en": "The deal was laid out in a single block, 25577649 — fifteen pools on Uniswap V4, all with the same hook contract, same token pair: native ETH and a fresh address, 0x9295974ca63488151586f91050a483ab7917add8. This isn't a casual placement; it's a systematic sweep across the entire commission grid, from a single basis point up to five hundred. The house is building infrastructure, not making a single bet. Tick spacing scales with the fee — one tick for the lowest, a thousand for the highest — and the same hook governs all. This is a strategy, likely an automatic rebalancer that shifts capital between fee levels as volatility dictates. The token partner is no known stable, no blue chip — it's a fresh contract, and all fifteen pools are bare, no swaps yet. But the gas spent on a full fee table in one block tells you this isn't a toy. Someone is preparing for a launch, a listing, a farming campaign. The felt is clean, but the chips are stacked. We wait for liquidity to flow — then we'll see who holds the hook.",
+    "zh": "江湖上出了件怪事——一个区块之内，Uniswap V4上连开十五个池子，用的全是同一个钩子合约，配的也是同一对：原生ETH和一个新面孔，0x9295974ca63488151586f91050a483ab7917add8。这不是一时兴起的落子，而是把整张费率棋盘都铺开了：从最低的一个基点，到最高的五百个基点，一格不落。出手的人显然是在搭台子，不是来赌一把的。池子的刻度间距跟费率走，费率越低间距越窄，越高越宽，而那个钩子合约管着所有池子——八成是个自动调内力的大阵，行情一波动，资金就在不同费率之间流转。那个搭档代币不是什么名门正派的稳定币，看着像刚出炉的新合约。十五个池子眼下都是空架子，一笔交易都没有。可谁会在一个块里烧掉那么多gas，把整张费率表都铺齐？这不是玩票，是准备开山立派。等着看吧，等内力灌进来，就知道钩子后面是谁了。"
+   },
+   "take": {
+    "en": "Fifteen pools in one block, same hook, full fee spectrum — someone is building a liquidity machine, not placing a single bet.",
+    "zh": "一个块里连开十五池，同一钩子，全费率——有人不是在落子，是在布阵。"
+   }
+  },
+  {
    "date": "2026-07-20",
    "narrative": {
     "en": "The deal's on the table, and it's not a single hand — it's a full spread laid out over two blocks. First, at block 25570320, a lone pool appears: WETH paired with token 0x5db9da52, zero fee, tick spacing 200, hook 0x0d6252. A single order, like a scout before the storm. Then, nine blocks later, the avalanche. Same hook contract 0x843795, same token 0xa407d3 against WETH. Fifteen pools, fees ranging from a base hundred to thirty thousand. Tick spacing crawls from 1 to 600. Someone is systematically testing the entire liquidity field: they want to know where density will bite, where slippage eats profit, where the hook intercepts the flow. This isn't random. It's a systemic deal: the operator lays out a spectrum of fees like a fan of cards. The question is what token 0xa407d3 is. If it's a new asset, someone is preparing the ground for deep liquidity. If it's an old one, it's a strategy reset. Note: none of these pools have volume yet. It's just a skeleton — the bones on which trade meat will grow. The first pool, with zero fee and wide spacing, might be for arbitrage routes. The rest for retail flow with varying tolerance for transaction cost. The deck is dealt. Now we watch who makes the first move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is laying out four distinct hands with different hooks and parameters — the real play isn't the pools themselves, but the first liquidity that hits them.",
     "zh": "四张牌已摊开，钩子不同、步法各异——真正的杀招不在池子本身，而在第一笔落进去的流动性。"
-   }
-  },
-  {
-   "date": "2026-07-07",
-   "narrative": {
-    "en": "The deal was laid on the felt yesterday, and it wasn't a single hand. Seven pools surfaced within minutes, each with a hook contract wired into its spine—no accidents here. Two pools paired the zero address against USDC: one with a fat tick spacing that whispers of wide-ranging liquidity, maybe for order-book mechanics; the other, tighter, with a different hook. Then a DAI/USDC pool, zero fee, unit tick spacing—this isn't for trading, it's a conversion bridge between stablecoins, slippage-free. A USDC/USDT pool followed, same parameters, different hook. Either competition or a coordinated spread across pairs. The real tell: three pools all using the same hook contract but with three different tick spacings—1, 10, 60—against the same counterparty. Someone is deploying a strategy, not just testing. And finally, a zero-address-against-USDT pool with zero fee—a rare beast indeed. Every hook is custom logic; every pool is a deliberate bet on how liquidity should behave. The house is watching, and the house knows these aren't random deals—they're the opening moves of a deeper game.",
-    "zh": "昨夜江湖暗流涌动，不是一两个池子，而是七道真气同时破土。零地址对USDC，两道池子：一道宽间距如大漠长风，似为做市机关蓄势；一道窄间距如银针探穴，钩子不同，各有玄机。DAI/USDC池，零费率，单位间距——这不是买卖，是两派内功的转换桥梁，无滑无震。USDC/USDT池，同样零费率，钩子却换了面孔。要么是两派较劲，要么是同门分路布局。最耐人寻味的是：同一个钩子，连出三池，间距分别为1、10、60——全对同一对手。这不是试招，这是布阵。最后，零地址对USDT，零费率，钩子暗藏。七池齐出，无一是闲棋。每个钩子都是独门心法，每个池子都是刻意为之。江湖老人看得出：这不是散兵游勇，是有人在搭台子，要唱一出大戏。"
-   },
-   "take": {
-    "en": "Seven pools in minutes, each with a tailored hook—this isn't noise, it's the sound of builders laying down infrastructure for a new liquidity architecture.",
-    "zh": "七池同出，钩法各异——这不是偶然，是有人在江湖深处布下一盘大棋。"
    }
   }
  ]
