@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-22",
+   "narrative": {
+    "en": "The deal was already closing when the cards started falling. Seven pools in two hundred blocks—not a whisper, a stampede. Six of them pair the native token with contracts that smell of fresh deployment: zero fee, tick spacing 200. This isn't trading, this is assembly. Two hooks repeat like a dealer's tell: one appears twice, another three times. Either the same architect is laying track, or it's a template spreading like a meme. Then there's the outlier: USDC/WETH with fee 100 and spacing 1—classic. But the last pool carries a fee of 8388608, a flag for dynamic logic. Spacing 60—built for bots, not bag holders. Now watch the liquidity. If millions pour in within hours, someone is playing a deep combo. If they stay empty, it's a dress rehearsal. My chips are on the first.",
+    "zh": "夜半收摊，牌局却未散。七个池子，两百个区块——不是低语，是奔雷。六个对子都绑着原生币，合约气味新鲜：零费率，间距二百。这不是交易，是布阵。两个钩子反复出现，像老江湖的暗号：一个两次，一个三次。要么是同一侠客在铺路，要么是套路成了口诀。唯一例外是USDC/WETH，费率一百，间距一——经典走法。但末池费率八百三十八万，这是动态内功的旗号。间距六十——为机器而设，非为散人。现在看内力如何注入。若两时辰内涌入百万，那是有人在推大棋。若空置，便是演练。我押前者。"
+   },
+   "take": {
+    "en": "The house is stacking the deck with dynamic-fee hooks—this is the first real signal that builders are using hooks as economic levers, not ornaments.",
+    "zh": "江湖正以动态费率钩子为暗器布阵——这是门派将钩子炼成经济兵刃的首个实招，绝非花架。"
+   }
+  },
+  {
    "date": "2026-07-21",
    "narrative": {
     "en": "The deal was laid out in a single block, 25577649 — fifteen pools on Uniswap V4, all with the same hook contract, same token pair: native ETH and a fresh address, 0x9295974ca63488151586f91050a483ab7917add8. This isn't a casual placement; it's a systematic sweep across the entire commission grid, from a single basis point up to five hundred. The house is building infrastructure, not making a single bet. Tick spacing scales with the fee — one tick for the lowest, a thousand for the highest — and the same hook governs all. This is a strategy, likely an automatic rebalancer that shifts capital between fee levels as volatility dictates. The token partner is no known stable, no blue chip — it's a fresh contract, and all fifteen pools are bare, no swaps yet. But the gas spent on a full fee table in one block tells you this isn't a toy. Someone is preparing for a launch, a listing, a farming campaign. The felt is clean, but the chips are stacked. We wait for liquidity to flow — then we'll see who holds the hook.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is building a unified liquidity machine, and the hooks are the cogs—watch the gears turn.",
     "zh": "江湖在筑一个统一的流动性大阵，钩子就是阵眼——看齿轮怎么转。"
-   }
-  },
-  {
-   "date": "2026-07-08",
-   "narrative": {
-    "en": "Four new V4 pools dropped overnight, and that's not just scanner noise. The first one pairs a zero address with a token that looks like a junk contract, but hooks at 0x65c… betray a professional hand. Fee tier at 100, tick spacing at 1 — standard setup for an ETH pair, but someone chose to keep liquidity hidden for now. The second pool is more interesting: 0x1aba… paired with USDC, zero fee, tick spacing 1. Hooks at 0x8af… are no random drop. Zero fee on a stable pair usually means one thing: someone is ready to pay for volume, not spread. Either a test or a setup for something that will stir in the coming days. Two pools in the same block 25483556 — a rare event. Both with zero address, but one carries a fee of 8388608 (no typo, that's the dynamic fee flag), the other standard 100. Hooks at 0xd8e… and 0xd98… — contract names don't repeat, so different teams or different strategies. The first pool has tick spacing 60 — for volatile pairs; the second has spacing 1 — for tight ranges. The last pool again zero fee, but tick spacing 200. That's not for retail trading. That's for big moves, for whales who don't want to pay on every flip. Hooks at 0x225… and block 25483822, six blocks later than the others. The deck is being shuffled. Four pools, four different parameter sets, four hooks — and not a single repeated contract. Someone is clearly setting up a deal, but the suit isn't visible yet. Watching what appears first in these pools matters more than the pools themselves.",
-    "zh": "一夜之间，江湖上多了四个新的V4池子。第一个池子，零地址配一个看着像垃圾合约的代币，但钩子是0x65c…，出手就是老江湖的手笔。费率100，步长1，标准的ETH对配置，但有人故意不亮底牌，把流动性藏了起来。第二个池子更有看头：0x1aba…配USDC，零费率，步长1。钩子0x8af…不是随便丢的。零费率配稳定币，通常只意味着一件事：有人愿意为交易量买单，而不是吃价差。要么是试探，要么是未来几天要动手的伏笔。同一个区块25483556里出了两个池子，少见。都是零地址，但一个费率是8388608（不是笔误，这是动态费率的标记），另一个是标准的100。钩子分别是0xd8e…和0xd98…，合约名不重复，说明是不同门派或者不同路数。第一个池子步长60，适合波动大的对子；第二个步长1，适合窄幅区间。最后一个池子又是零费率，但步长200。这不是给散户玩的，是给大鳄准备的——他们不想每挪一步都交过路费。钩子是0x225…，区块25483822，比前面几个晚了六个区块。牌局在洗牌。四个池子，四套参数，四个钩子，没有重复的合约。有人在布阵，但阵眼还没亮。盯着这些池子里最先出现的流动性，比盯着池子本身重要。"
-   },
-   "take": {
-    "en": "The house is laying out four distinct hands with different hooks and parameters — the real play isn't the pools themselves, but the first liquidity that hits them.",
-    "zh": "四张牌已摊开，钩子不同、步法各异——真正的杀招不在池子本身，而在第一笔落进去的流动性。"
    }
   }
  ]
