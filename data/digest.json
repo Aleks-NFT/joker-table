@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-23",
+   "narrative": {
+    "en": "The deal is on the table before the house even opens. A V4 pool appears with a custom hook contract at 0x96b8—nothing new there, hooks are a dime a dozen. What catches the eye is the fee: exactly zero. Zero in V4 with a custom hook isn't charity; it's a statement. Either you're routing all value through internal swap mechanics, or you're collecting fees somewhere off the radar of standard scanners. Tick spacing at 200—not aggressive, not conservative. The sweet spot for pairs where volatility is present but not screaming. Tokens: native ETH and a contract at 0x031f... If it's not in the top 500, someone is building liquidity for a specific story. Block 25591568, roughly July 23, deep night UTC. The time when whales sleep and bots run test transactions. The hook at 0x96b893—empty inside? Or already holding conditions for rebalancing, dynamic fees, TWAP oracles? We won't know until someone pulls the trigger. The pool lives, liquidity is silent, and an observer like me just records the deal. The deck is dealt. Who makes the first move is a matter of time.",
+    "zh": "牌局在庄家开盅前就已落定。一个V4池子带着自定义钩子合约出现在0x96b8——钩子不稀奇，每天都有十几个冒出来。稀奇的是手续费：正好为零。V4里挂零费率加自定义钩子，这不是做慈善，是递话。要么你想通过内部兑换机制截流所有价值，要么你在标准扫描器看不见的地方抽水。tick间距200——不激进也不保守，是波动不大不小那类对子的黄金分割。代币：原生ETH和0x031f开头的合约。如果它不在前五百，那就是有人在为某个特定故事布流动性。区块25591568，大约是7月23日UTC深夜。大玩家睡觉的时候，小机器人在跑测试交易。0x96b893上的钩子——是空的？还是已经挂了再平衡、动态费率、TWAP预言机的条件？没人拉一把就不知道。池子活着，流动性沉默，像我这样的旁观者只是记下这手牌。牌已发完。谁先出招，只是时间问题。"
+   },
+   "take": {
+    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
+    "zh": "建造者正在部署非标准兑换费率的池子——要么零费率要么最高档——而非通常的市场费率，这表明是刻意的经济设计（收益通过钩子而非兑换抽取），而非有机的代币发行。"
+   }
+  },
+  {
    "date": "2026-07-22",
    "narrative": {
     "en": "The deal was already closing when the cards started falling. Seven pools in two hundred blocks—not a whisper, a stampede. Six of them pair the native token with contracts that smell of fresh deployment: zero fee, tick spacing 200. This isn't trading, this is assembly. Two hooks repeat like a dealer's tell: one appears twice, another three times. Either the same architect is laying track, or it's a template spreading like a meme. Then there's the outlier: USDC/WETH with fee 100 and spacing 1—classic. But the last pool carries a fee of 8388608, a flag for dynamic logic. Spacing 60—built for bots, not bag holders. Now watch the liquidity. If millions pour in within hours, someone is playing a deep combo. If they stay empty, it's a dress rehearsal. My chips are on the first.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is laying down zero-fee tables and waiting to see if the action pays off through the hooks—this is the quiet before the real game begins.",
     "zh": "零税摆台，暗器生财——这局棋刚落子，胜负还远。"
-   }
-  },
-  {
-   "date": "2026-07-09",
-   "narrative": {
-    "en": "The deck was shuffled tight last night. On Ethereum mainnet, five fresh V4 pools with hooks—and all but one tied to native ETH. A USDC/USDT pair at 0.05% fee and tickSpacing 10—not for speculative churn, but for stablecoins to slide without slippage. The hook contract 0x326a1580… sits there too. And then Uniswap tweets that routing now goes through LitePSM, closing the DAI/USDS/USDC leg into parity. Sky PSM gives hundreds of millions in depth with zero slippage. This isn't news—it's laying the foundation. But the real meat is on Unichain. Hook contract 0x2ea5eac8… loaded pools in batches. Nine pools with the same b3fca863… token. All with fee 8388608—dynamic fee baked into the hook. TickSpacing 60. Same hook, same pattern. Someone is stacking liquidity around one asset, building a concentration layer. And a second hook 0xbc6e5abd…—three more pools, also paired with WETH and the same dynamic fee. On Unichain, these aren't tests—this is a cluster. Separately, a pool on Unichain with ETH and token ea7cb0eb…, fee 100, tickSpacing 1—the tightest possible range. Someone wants to trade with almost no spread. And another pool on mainnet with hook 0x2877bf78…—zero fee, tickSpacing 60, token b44c4eca… against native ETH. Zero fee is either bait for arbitrageurs or an entry into a system where revenue comes from outside the pool fee. Hayden writes about importing Phantom seed phrases into the Uniswap wallet for access to the Robinhood chain. Infrastructure is closing: Phantom users enter the RH order book, and Uniswap routes through PSM. All of it looks like the assembly of a single liquidity layer, where hooks aren't experiments—they're working gears. The deck is laid out.",
-    "zh": "深夜，牌局重新洗过。以太坊主网上五个新V4池子带着钩子——除了一个，全绑着原生ETH。USDC/USDT对，手续费0.05%，tick间距10——不是给投机客玩的，是让稳定币滑点归零。钩子合约0x326a1580…也在那儿。紧接着Uniswap发推说路由走LitePSM，DAI/USDS/USDC这条腿闭合成平价。Sky PSM提供数亿深度，零滑点。这不是新闻——这是在打地基。但真正的肉在Unichain上。钩子合约0x2ea5eac8…一口气铺了九个池子，全是同一个b3fca863…代币。手续费8388608——动态费率嵌在钩子里。tick间距60。同一个钩子，同一个套路。有人在围着一个资产堆流动性，像在筑一个浓度层。第二个钩子0xbc6e5abd…又三个池子，也是WETH对，同款动态费率。在Unichain上，这不是测试——这是集群。另外，Unichain上有个ETH对ea7cb0eb…的池子，手续费100，tick间距1——最窄的区间。有人想几乎零价差交易。主网上还有个池子，钩子0x2877bf78…，零手续费，tick间距60，代币b44c4eca…对原生ETH。零手续费要么是钓鱼引套利者，要么是入口——收入不从池子手续费来。Hayden说可以把Phantom钱包的助记词导入Uniswap钱包，直接上Robinhood链。基础设施在合拢：Phantom用户进RH订单簿，Uniswap路由走PSM。这一切看着像在拼一个统一的流动性层，钩子不是实验——是齿轮。牌已铺好。"
-   },
-   "take": {
-    "en": "The house is building a unified liquidity machine, and the hooks are the cogs—watch the gears turn.",
-    "zh": "江湖在筑一个统一的流动性大阵，钩子就是阵眼——看齿轮怎么转。"
    }
   }
  ]
