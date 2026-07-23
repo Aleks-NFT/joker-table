@@ -3,9 +3,9 @@
  "stats": {
   "total": 43,
   "hit": 11,
-  "miss": 20,
-  "open": 8,
-  "hit_rate": 0.355
+  "miss": 21,
+  "open": 7,
+  "hit_rate": 0.344
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count will exceed 442, as more pools appear with very small tick spacing—a tool for fine-grained, concentrated liquidity placement.",
    "horizon_days": 7,
    "resolve_after": "2026-07-23",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +442 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   },
   {
