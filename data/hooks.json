@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-23T17:15:45Z",
- "total_hooks": 2448,
- "total_pools": 8205,
+ "generated_at": "2026-07-23T18:15:35Z",
+ "total_hooks": 2449,
+ "total_pools": 8212,
  "multi_pool_hooks": 240,
  "shown": 240,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 615,
+   "pool_count": 617,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25595768,
-   "last_deploy": "2026-07-23T14:00:02Z",
+   "last_block": 25596970,
+   "last_deploy": "2026-07-23T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -38,7 +38,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 526,
+   "pool_count": 529,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25596347,
-   "last_deploy": "2026-07-23T16:00:02Z",
+   "last_block": 25596739,
+   "last_deploy": "2026-07-23T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -2774,6 +2774,31 @@
    "visible": false
   },
   {
+   "address": "0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
+   "address_short": "0x2877…6444",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
+   "pool_count": 6,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25238162,
+   "last_block": 25596935,
+   "last_deploy": "2026-07-23T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x2efa284e024db1b5ae8e90aa316586543f364088",
    "address_short": "0x2efa…4088",
    "name": "",
@@ -2988,31 +3013,6 @@
    "first_block": 25548447,
    "last_block": 25548447,
    "last_deploy": "2026-07-17T00:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
-   "address_short": "0x2877…6444",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x2877bf78beb9b7723c65f45821ecc4bd89e06444",
-   "pool_count": 5,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25238162,
-   "last_block": 25578307,
-   "last_deploy": "2026-07-21T04:00:02Z",
    "active": true,
    "visible": false
   },
