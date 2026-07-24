@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-24T04:15:34Z",
+ "generated_at": "2026-07-24T05:15:36Z",
  "total_hooks": 2450,
  "total_pools": 8223,
  "multi_pool_hooks": 241,
@@ -3980,8 +3980,8 @@
   {
    "address": "0x3a3a9a072ab438335a52e0cf064f7ec91d824080",
    "address_short": "0x3a3a…4080",
-   "name": "",
-   "verified": false,
+   "name": "TransparentUpgradeableProxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x3a3a9a072ab438335a52e0cf064f7ec91d824080",
    "pool_count": 2,
    "permissions_human": [
