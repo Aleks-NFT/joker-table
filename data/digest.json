@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-24",
+   "narrative": {
+    "en": "The night's mempool reveals seven V4 pools on Ethereum and one on Unichain. On Ethereum, six of seven pair WETH against various tokens, spread across three hook contracts. One hook deployed two pools with the same token but different fee tiers (0.1% and 0.3%). Another hook set two zero-fee pools with distinct tokens. The third hook launched three zero-fee pools, all with a 200-tick spread, and one token repeats from earlier. That token appears in three pools with different hooks—someone is stress-testing liquidity on a single asset through multiple mechanisms. On Unichain, a single pool stands out: WETH against a token with a non-standard fee of 0.8388608% and a 200-tick spread, using a hook not seen on Ethereum. The night's distribution is no chaos; it's a puzzle being assembled. Six zero-fee pools on Ethereum aren't for direct trading—likely premium hooks with dynamic fees, oracles, or MEV protection. The high-fee Unichain pool suggests a specific instrument: stablecoin, RWA, or synthetic. The deck is being shuffled deliberately. Someone is placing chips on V4 as the new liquidity standard, working in the quiet hours when mainnet traffic subsides.",
+    "zh": "昨夜mempool浮出七個V4池在以太坊，一個在Unichain。以太坊上六個池都是WETH對不同代幣，三個鉤子合約各顯神通。第一個鉤子用同一代幣開了兩個池，手續費分別0.1%和0.3%；第二個鉤子兩個零費池，代幣不同；第三個鉤子三個零費池，tick間距200，其中一個代幣重複出現。這個代幣在三種鉤子下現身——有人在用不同機制測試同一資產的流動性。Unichain上一個池格外扎眼：WETH對某代幣，手續費0.8388608%，tick間距200，鉤子與以太坊不同。夜間佈局不是亂局，而是拼圖。六個零費池顯然不是為直接交易——要麼是動態收費的高級鉤子，要麼是預言機或MEV防護。Unichain的高費池更像特定工具：穩定幣、RWA或合成資產。牌局正在重洗。有人悄悄押注V4為新流動性標準，趁主網喧囂褪去時佈子。"
+   },
+   "take": {
+    "en": "The house is dealing V4 pools as the new standard, and the quiet hours are when the real cards are laid.",
+    "zh": "夜裡出牌的人不是賭徒，是莊家。V4這副新牌，已經有人開始洗了。"
+   }
+  },
+  {
    "date": "2026-07-23",
    "narrative": {
     "en": "The deal is on the table before the house even opens. A V4 pool appears with a custom hook contract at 0x96b8—nothing new there, hooks are a dime a dozen. What catches the eye is the fee: exactly zero. Zero in V4 with a custom hook isn't charity; it's a statement. Either you're routing all value through internal swap mechanics, or you're collecting fees somewhere off the radar of standard scanners. Tick spacing at 200—not aggressive, not conservative. The sweet spot for pairs where volatility is present but not screaming. Tokens: native ETH and a contract at 0x031f... If it's not in the top 500, someone is building liquidity for a specific story. Block 25591568, roughly July 23, deep night UTC. The time when whales sleep and bots run test transactions. The hook at 0x96b893—empty inside? Or already holding conditions for rebalancing, dynamic fees, TWAP oracles? We won't know until someone pulls the trigger. The pool lives, liquidity is silent, and an observer like me just records the deal. The deck is dealt. Who makes the first move is a matter of time.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is dealing hooks—nine pools, eight with the 888 suffix—and this is not a random deal; it's a systematic build of Uniswap V4 infrastructure, likely by a single entity.",
     "zh": "庄家亮钩，九池八钩皆以 888 收尾，绝非散手，而是同一势力在系统性地搭建 Uniswap V4 根基。"
-   }
-  },
-  {
-   "date": "2026-07-10",
-   "narrative": {
-    "en": "Four new V4 pools hit the table last night, all zero-fee. Three of them share the same hook contract—0x627fa6f76fa96b10bae1b6fba280a3c9264500cc—tethered to different tokens. Someone is clearly testing a strategy on ETH pairs with no fee, tick spacing 200. The bet is that order flow alone will generate yield through additional hooks: dynamic fees, MEV protection, or something only the contract sees. The house watches, the cards speak.",
-    "zh": "昨夜江湖新立四座V4分坛，皆设零税。其中三坛共用一个心法口诀——0x627fa6f76fa96b10bae1b6fba280a3c9264500cc，只是换了不同令牌。明眼人一看便知，有人在ETH门派里试水零税策略，步法间距二百。赌的是流水本身能靠暗器——动态税、MEV护体之类——生出内力来。老江湖只看得分，不急着下注。"
-   },
-   "take": {
-    "en": "The house is laying down zero-fee tables and waiting to see if the action pays off through the hooks—this is the quiet before the real game begins.",
-    "zh": "零税摆台，暗器生财——这局棋刚落子，胜负还远。"
    }
   }
  ]

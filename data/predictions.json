@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 43,
+  "total": 44,
   "hit": 11,
   "miss": 21,
-  "open": 7,
+  "open": 8,
   "hit_rate": 0.344
  },
  "items": [
+  {
+   "id": 44,
+   "made_at": "2026-07-24",
+   "text": "Over the next seven days the count clears 67; the likely landing sits between 46 and 183, and I give the over about 63%. More pools are appearing with very small tick spacing, a tool for fine-grained, concentrated liquidity placement.",
+   "horizon_days": 7,
+   "resolve_after": "2026-07-31",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 43,
    "made_at": "2026-07-23",
