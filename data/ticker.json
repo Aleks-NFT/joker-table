@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-24T00:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54104153. Tokens: 0x4200000000000000000000000000000000000006 / 0xe547dc0326cccba697257a425b2c773252...",
+   "url": "https://uniscan.xyz/tx/0xf09d1333d7e4cbcb025de805b632daa0d900d2e11ce3cac7dbbe4ac8f4c42663"
+  },
+  {
    "ts": "2026-07-24T00:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "twitter",
    "text": "@Uniswap: Shares link to Twitter broadcast",
    "url": "https://x.com/Uniswap/status/2079989879186845964"
-  },
-  {
-   "ts": "2026-07-23T07:30:17Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@UniswapBuilders: Shares link to article on DualPool hook",
-   "url": "https://x.com/UniswapBuilders/status/2080003385215049824"
   }
  ]
 }
