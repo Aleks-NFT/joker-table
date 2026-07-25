@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 44,
-  "hit": 12,
+  "hit": 13,
   "miss": 21,
-  "open": 7,
-  "hit_rate": 0.364
+  "open": 6,
+  "hit_rate": 0.382
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count will exceed 136.",
    "horizon_days": 7,
    "resolve_after": "2026-07-25",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +136 on metric nonstd_fee_pools reached.",
    "phase": "v2"
   },
   {
