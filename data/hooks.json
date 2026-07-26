@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-26T17:15:34Z",
- "total_hooks": 2476,
- "total_pools": 8335,
+ "generated_at": "2026-07-26T18:15:34Z",
+ "total_hooks": 2481,
+ "total_pools": 8346,
  "multi_pool_hooks": 241,
  "shown": 241,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 660,
+   "pool_count": 662,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25613108,
-   "last_deploy": "2026-07-26T00:00:02Z",
+   "last_block": 25618081,
+   "last_deploy": "2026-07-26T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -38,7 +38,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 570,
+   "pool_count": 574,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25617734,
-   "last_deploy": "2026-07-26T16:00:02Z",
+   "last_block": 25618291,
+   "last_deploy": "2026-07-26T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -590,7 +590,7 @@
    "first_block": 25567864,
    "last_block": 25567864,
    "last_deploy": "2026-07-19T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -723,7 +723,7 @@
    "first_block": 25568168,
    "last_block": 25568168,
    "last_deploy": "2026-07-19T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -1274,7 +1274,7 @@
    "first_block": 25568014,
    "last_block": 25568014,
    "last_deploy": "2026-07-19T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
