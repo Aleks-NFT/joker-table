@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 44,
+  "total": 45,
   "hit": 13,
   "miss": 21,
-  "open": 6,
+  "open": 7,
   "hit_rate": 0.382
  },
  "items": [
+  {
+   "id": 45,
+   "made_at": "2026-07-26",
+   "text": "Over the next seven days, the count clears 266; the likely landing sits between 189 and 555, and I give the over about 52%. What is happening: Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates. This signals deliberate economic design (revenue taken through the hook rather than the swap), not an organic token launch.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-02",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 44,
    "made_at": "2026-07-24",
