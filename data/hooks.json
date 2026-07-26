@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-26T11:15:34Z",
- "total_hooks": 2466,
- "total_pools": 8320,
+ "generated_at": "2026-07-26T12:15:34Z",
+ "total_hooks": 2467,
+ "total_pools": 8322,
  "multi_pool_hooks": 241,
  "shown": 241,
  "more_count": 0,
@@ -932,7 +932,7 @@
    "first_block": 25566089,
    "last_block": 25566089,
    "last_deploy": "2026-07-19T12:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -1008,7 +1008,7 @@
    "first_block": 25566237,
    "last_block": 25566237,
    "last_deploy": "2026-07-19T12:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -1616,7 +1616,7 @@
    "first_block": 25566390,
    "last_block": 25566390,
    "last_deploy": "2026-07-19T12:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -2627,6 +2627,35 @@
    "visible": false
   },
   {
+   "address": "0x803d9db0f5dc76591663c1991fe4f0ba4156bacc",
+   "address_short": "0x803d…bacc",
+   "name": "BDeFiHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x803d9db0f5dc76591663c1991fe4f0ba4156bacc",
+   "pool_count": 9,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25553045,
+   "last_block": 25616617,
+   "last_deploy": "2026-07-26T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xa6d34d6ac8be369072ccacc6700c1a7363997acc",
    "address_short": "0xa6d3…7acc",
    "name": "BDeFiHook",
@@ -2698,35 +2727,6 @@
    "first_block": 25373181,
    "last_block": 25373232,
    "last_deploy": "2026-06-22T14:00:02Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x803d9db0f5dc76591663c1991fe4f0ba4156bacc",
-   "address_short": "0x803d…bacc",
-   "name": "BDeFiHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x803d9db0f5dc76591663c1991fe4f0ba4156bacc",
-   "pool_count": 8,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25553045,
-   "last_block": 25564052,
-   "last_deploy": "2026-07-19T04:00:02Z",
    "active": false,
    "visible": false
   },
