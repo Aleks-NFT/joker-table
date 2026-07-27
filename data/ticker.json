@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-27T15:12:41Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker autonomy roadmap (27 July 2026). Phase A VISION, in progress: give DJ read access to project state — extend the MCP server with tools for project_state...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T15:12:41Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project CANON (27 July 2026, founder decision): Joker gradually takes over management of the project — all tasks and the development vector. He decides...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T14:33:57Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T14:33:57Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T14:33:57Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T14:33:57Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-27T14:30:01Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54413806. Tokens: 0x4200000000000000000000000000000000000006 / 0x7765fe2ecba5d1b511c7b051cb977c322f...",
+   "url": "https://uniscan.xyz/tx/0x37dff57d523843a59264e542c6f9f07898845de0b871222d8377540c4b040236"
+  },
+  {
+   "ts": "2026-07-27T14:30:01Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54413766. Tokens: 0x4200000000000000000000000000000000000006 / 0xfabb7fe11e4fb1f15fa73d186721c021ab...",
+   "url": "https://uniscan.xyz/tx/0xcd08a05f0222a70602b8d6ab80f46db00ae49321694cdd5463021d5e4a5176e8"
+  },
+  {
    "ts": "2026-07-27T14:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25622597. Tokens: 0x0000000000000000000000000000000000000000 / 0x568b6fd0e554310868fc706a1765266d50e901c0. Fee:...",
    "url": "https://etherscan.io/tx/0xa75bcb835b2a7bf29653d1d6f9446552c862b2100b7e619ebfd69cb363f9f119"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622537. Tokens: 0x0000000000000000000000000000000000000000 / 0x9b6e744940be1916bf57379f428a0dac8c01d887. Fee:...",
-   "url": "https://etherscan.io/tx/0x0efc451fb8844e9b5adf6c7e7afc38c7cfbf5d94851a13ffa7a2b2885a5a1c21"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622471. Tokens: 0x0000000000000000000000000000000000000000 / 0x671cec2eca0294e709068ca8c9df430e00c5b8bb. Fee:...",
-   "url": "https://etherscan.io/tx/0xa8e37de539d5f9e48d7c685f5413b10b5aeccb488f150da1bb70ecb8a57ddc5b"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622424. Tokens: 0x0000000000000000000000000000000000000000 / 0x449487648a3238533ef5531016fccb26d1908ead. Fee:...",
-   "url": "https://etherscan.io/tx/0x50091c14614e027a6fe1c62ea364705a0dd78ce31b84399f13db69a9f68df295"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622374. Tokens: 0x0000000000000000000000000000000000000000 / 0x3b29079c07370567b1f37595226805568b72058e. Fee:...",
-   "url": "https://etherscan.io/tx/0xc71b89b28cd505467375ef0ba66107f2286c6380f1bd863918a5dc43de1dd0ee"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622324. Tokens: 0x0000000000000000000000000000000000000000 / 0x6903df79f58b7f5f4b3c294472f455a72353ff77. Fee:...",
-   "url": "https://etherscan.io/tx/0x9c349dc27798e5103067234a58cb4386b119f7eb12dd04d9eb23d650a0531224"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622245. Tokens: 0x0000000000000000000000000000000000000000 / 0x060fdd83004efc99da741434c0b53a7f851e3a0a. Fee:...",
-   "url": "https://etherscan.io/tx/0xe66e935534b1422543031442676ab510e574194ad420d95da9b51bb01a50eeaa"
-  },
-  {
-   "ts": "2026-07-27T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25622244. Tokens: 0x0000000000000000000000000000000000000000 / 0x06596ab712b5e568cfe83fde427fd004b7b9f476. Fee:...",
-   "url": "https://etherscan.io/tx/0x219509c21d87f8a719c02fc327d17e246a3f627023dbf2399792bce38fb8f497"
-  },
-  {
-   "ts": "2026-07-27T07:30:48Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@unipegv4: Quotes post calling a contract a dark horse and responds \"// show your stable\" with unicorn emojis.",
-   "url": "https://x.com/unipegv4/status/2081341831867195477"
   }
  ]
 }
