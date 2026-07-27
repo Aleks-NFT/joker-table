@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-27T18:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54427242. Tokens: 0x0000000000000000000000000000000000000000 / 0x8f187aa05619a017077f5308904739877c...",
+   "url": "https://uniscan.xyz/tx/0x91f6af57268730db23e87f4bf42bf56030a009a26125f58d19b3ad442376f85c"
+  },
+  {
    "ts": "2026-07-27T18:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25624380. Tokens: 0x0000000000000000000000000000000000000000 / 0xbe9895146f7af43049ca1c1ae358b0541ea49704. Fee:...",
    "url": "https://etherscan.io/tx/0x72183c1b1a6e96838fbe93a4a0d76e8ff3bac9e42ebcaa476d7c7d3482a088d3"
-  },
-  {
-   "ts": "2026-07-27T14:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25624125. Tokens: 0x0000000000000000000000000000000000000000 / 0x6950295a61e7b345a22c8cfc6dfd029af49d8b5c. Fee:...",
-   "url": "https://etherscan.io/tx/0x9c1b23c22bce0fc1ae43920d2990338f8083dd2d79110758b6bba7066aa60e08"
   }
  ]
 }
