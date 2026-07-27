@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-27",
+   "narrative": {
+    "en": "The night dealt its hand again, sixteen pools sliding onto the felt—each a fresh deal from Uniswap V4's deck. Most showed a dead hook, the zero address, like a card with no face. One pool broke the pattern: a hook married to a fine-grained tick spacing of 1, as if someone wanted to squeeze liquidity into the tightest of gaps. Three hook contracts kept reappearing, stamped across multiple pools with zero fees and wide spacing—a dealer's tell, a signature repeated too often to be coincidence. Then there was the fee set as a bitmask, 8388608, a number that whispers of a hidden mechanism, a joker that can change value mid-hand. The blocks came in a dense flurry, all between 25619958 and 25620975, less than an hour's worth of gas burned. The other side of each pool wore fresh addresses, unknown to the mainnet, like masked players at a backroom table. This wasn't random seeding. Someone is building a long-tail minefield, laying hooks like traps, waiting for liquidity to wander in.",
+    "zh": "夜幕降临，江湖上又起风云。今日十六个池子悄然现身，暗流涌动。多数池子挂着空钩——那零地址如同无字令牌，唯独一池配了真钩，间距细密如发丝，仿佛有人要在方寸之间布下内力阵。三个钩子反复出现，像是同一门派的手法：零费率，宽间距，连铸十六池而不改。更有奇者，一池费率写成八三八八六零八，此数藏于位掩之中，如同暗器机关，可随战局翻转。这些池子皆生于弹指之间——从二五六一九九五八到二五六二零九七五，区区数百区块，一气呵成。池中另一侧尽是生面孔，合约新建，无名无号，恍若蒙面客夜闯江湖。这不是随意布子。有人在长尾深处设下连环阵，静待流动性上门入彀。"
+   },
+   "take": {
+    "en": "This isn't random seeding—someone is systematically stamping out identical hooks, laying traps for liquidity across a long tail of unknown tokens.",
+    "zh": "看似散乱的池子，实则暗藏章法——有人在幕后布下连环阵，静待猎物上钩。"
+   }
+  },
+  {
    "date": "2026-07-26",
    "narrative": {
     "en": "Because when the same hook contract keeps surfacing in initialization after initialization, that's no longer coincidence—it's a pattern. 0x0d62529346ac2c61f5c0582210d01214687bc0cc is the hand that holds the deck. Thirteen pools, all WETH pairs with zero fee and a wide tick spread of 200. No swap percentages—only pure margin from the spread. Someone is assembling a line of tokens for high-turnover trade where the mainnet is the table and slippage is the trump card.\n\nNearly parallel, two other contracts deal: 0x96b893... and 0x83e25f..., each with a couple of their own hands. Also WETH as base, zero or minimal fees. But the second's deck is denser—tickSpacing 1, meaning liquidity tight as a stack of diamonds in a knee brace. A bet on stability or entry into a coin that won't drop three pennies.\n\nStanding apart, a pool between 0xc496aa and 0xddb522—no WETH, a full 1% fee, wide spread. Different hooks (0xa6d34d...). This isn't a hand for quick spins. Either catching a rare card or cementing a pair where volatility is a feature, not a bug. That mix is worth remembering.\n\nThe night passed in a whisper of bytes. From block 25612724 to 25613481—15 pools. Someone shuffled the deck on a test hand, laying out one token per block. If it's one player, he knows which cards he needs. If several, they play by different rules on the same table. I'd say the deal hasn't started yet, but the cards are dealt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Zero-fee stable pools with identical parameters but different hooks are a deliberate setup, not a random deployment — someone is preparing the felt for a specific play.",
     "zh": "零手续费的稳定币池，参数一致但钩子不同——这不是随机的部署，而是有人在棋盘上摆好了棋子。"
-   }
-  },
-  {
-   "date": "2026-07-12",
-   "narrative": {
-    "en": "Two new pools hit the felt tonight, both V4, both with hooks—but neither carries a single chip of liquidity. The first on Ethereum, block 25512927, pairs native ETH with a token address that smells like a ghost—b792ea99. Zero initial stake, spread of 200 ticks, hooks at 0d6252. The pool ID is long as a losing streak. The second landed on Unichain, block 53064415: WETH paired with contract 6c31e2, a token I've seen in previous deals. Fee set at 8388608—that's no typo, it's a hook-friendly 0.5% precise to eight decimals. Same tick spacing, different hook contract—bc6e5a. The hooks differ between chains, same structure, different logic. That's the tell: someone is laying infrastructure before the game begins. V4 lets hooks intercept swaps before they hit the pool—MEV shields, complex orders, anything. The Unichain pool with WETH and a strange token might be a bridge or cross-chain hook. The Ethereum pool with native ETH and an unknown token is a classic liquidity trap. But without a single transaction, these are just two entries in the log. Watch the hooks. If they start moving, a deal is being set up. For now, silence. But silence before the storm is the loudest sound at the table.",
-    "zh": "昨夜江湖风平浪静，但暗流已在链上涌动。两张新牌翻在桌上——都是V4版本，都带着钩子，却无分文内力。第一张落在以太坊，区块25512927：原生币配一个来路不明的地址b792ea99，初始赌注为零，价差200跳，钩子挂在0d6252。池子ID长得像我的失眠夜。第二张去了Unichain，区块53064415：WETH配合约6c31e2，这令牌我在别的分派中见过。手续费8388608——不是笔误，是钩子友好的0.5%，精确到八位小数。相同的跳距，不同的钩子合约bc6e5a。两条链上钩子不同，结构一样，逻辑却分道扬镳。这不是巧合，是有人在提前布阵。V4的钩子能在交易进池前截胡——MEV护盾、复杂订单，什么都可能。Unichain那池子WETH配怪令牌，许是想搭桥或做跨链钩。以太坊那池子原生币配无名令牌，是经典的吸内力陷阱。但至今没有一笔交易，不过是日志里的两行字。盯紧钩子。若它们开始动弹，便是有人要起牌了。眼下只有寂静。可暴风雨前的寂静，最是震耳欲聋。"
-   },
-   "take": {
-    "en": "Two V4 pools with hooks and zero liquidity are infrastructure plays, not trades—someone is building a hidden strategy.",
-    "zh": "两个V4池子带钩子却无流动性，是布阵而非交易——有人在暗处织网。"
    }
   }
  ]
