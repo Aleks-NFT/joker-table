@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 46,
-  "hit": 14,
+  "hit": 15,
   "miss": 21,
-  "open": 7,
-  "hit_rate": 0.4
+  "open": 6,
+  "hit_rate": 0.417
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count will exceed 16.",
    "horizon_days": 7,
    "resolve_after": "2026-07-27",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +16 on metric pools_by_hook reached.",
    "phase": "v2"
   },
   {
