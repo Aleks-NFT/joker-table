@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-27T19:15:34Z",
- "total_hooks": 2520,
- "total_pools": 8461,
- "multi_pool_hooks": 242,
- "shown": 242,
+ "generated_at": "2026-07-27T20:15:35Z",
+ "total_hooks": 2522,
+ "total_pools": 8476,
+ "multi_pool_hooks": 243,
+ "shown": 243,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 676,
+   "pool_count": 679,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25625128,
-   "last_deploy": "2026-07-27T16:00:02Z",
+   "last_block": 25626169,
+   "last_deploy": "2026-07-27T20:00:03Z",
    "active": true,
    "visible": true
   },
@@ -38,7 +38,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 625,
+   "pool_count": 633,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25625304,
-   "last_deploy": "2026-07-27T18:00:02Z",
+   "last_block": 25626168,
+   "last_deploy": "2026-07-27T20:00:03Z",
    "active": true,
    "visible": true
   },
@@ -1160,7 +1160,7 @@
    "first_block": 25575663,
    "last_block": 25575663,
    "last_deploy": "2026-07-20T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -3067,6 +3067,31 @@
    "visible": false
   },
   {
+   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "address_short": "0x8ff5…e0cc",
+   "name": "LiquidGuard",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25194721,
+   "last_block": 25626155,
+   "last_deploy": "2026-07-27T20:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xe551d395ab1c9c57684c8e0d94615c0e98b5c088",
    "address_short": "0xe551…c088",
    "name": "",
@@ -3224,31 +3249,6 @@
    "first_block": 25214652,
    "last_block": 25257456,
    "last_deploy": "2026-06-18T21:57:21Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "address_short": "0x8ff5…e0cc",
-   "name": "LiquidGuard",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "pool_count": 4,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25194721,
-   "last_block": 25352307,
-   "last_deploy": "2026-06-19T16:00:02Z",
    "active": false,
    "visible": false
   },
@@ -3730,6 +3730,31 @@
    "last_block": 25453279,
    "last_deploy": "2026-07-03T18:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
+   "address_short": "0x025a…20cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x025a386eaa79f6067d29848fd05ccc71beab20cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25624511,
+   "last_block": 25626329,
+   "last_deploy": "2026-07-27T20:00:03Z",
+   "active": true,
    "visible": false
   },
   {
