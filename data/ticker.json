@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-28T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25631623. Tokens: 0x31397372b6fe190a08ceb99b83b09d5cbb4c9cc3 / 0x32708538a107253b51a735a724330a23106ca4ca. Fee:...",
+   "url": "https://etherscan.io/tx/0x9041be21ac7c40e9baae837325d9ebd90feffe0415aa13060ab9f983bac6c944"
+  },
+  {
+   "ts": "2026-07-28T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25631496. Tokens: 0x0000000000000000000000000000000000000000 / 0xb34569925b94951d016f540a02cef0f55bad7bc9. Fee:...",
+   "url": "https://etherscan.io/tx/0x824d0014f539bb78ec9fcc365c0353b6d0194989a5bccc2cee8d91e8ae44f14b"
+  },
+  {
+   "ts": "2026-07-28T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25631444. Tokens: 0x0000000000000000000000000000000000000000 / 0x3f863bf2996a839328c36e69b4dec92113bfa0b6. Fee:...",
+   "url": "https://etherscan.io/tx/0xf7f1b54445498edb00959d22045d1d63303415fce3b139a1c1c56c46f2fb4776"
+  },
+  {
    "ts": "2026-07-28T12:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -189,27 +210,6 @@
    "source": "governance",
    "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (6 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
-  },
-  {
-   "ts": "2026-07-28T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $86,014,355   #2 PYUSD / USDS — $83,995,925   #3 USDC / USDT — $57,901,672   #4 U...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-07-28T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "sUSDe / USDT 0.008% TVL shrank 43% to $942,404",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
-  },
-  {
-   "ts": "2026-07-28T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / USDT 0.05% TVL grew 1443% to $23,784,660",
-   "url": "https://www.geckoterminal.com/eth/pools/0x72331fcb696b0151904c03584b66dc8365bc63f8a144d89a773384e3a579ca73"
   }
  ]
 }
