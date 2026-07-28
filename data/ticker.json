@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-28T04:15:02Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume up 63% to $1.03B (fees $1044k, Ethereum share 38.9%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
+   "ts": "2026-07-28T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25628418. Tokens: 0x0000000000000000000000000000000000000000 / 0x0ee05036411a10e75f2fc6fa22479bf2ea4c75e5. Fee:...",
+   "url": "https://etherscan.io/tx/0x9972ea59a41d38f71929a7069e4a9f0e7a3e378f3a7f5121d5bd1fb9d4337da3"
+  },
+  {
    "ts": "2026-07-28T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25626542. Tokens: 0x0000000000000000000000000000000000000000 / 0x847e4add197a5ae69db809bc1486f2772e81c5fa. Fee:...",
    "url": "https://etherscan.io/tx/0xbe58ee181a42439e178e50d66eafba0d7e67143865df7a25c997e398cab30b5b"
-  },
-  {
-   "ts": "2026-07-27T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25626529. Tokens: 0x0000000000000000000000000000000000000000 / 0x6713b6e50c63d60e7c5e797c647b8191da6c9e4d. Fee:...",
-   "url": "https://etherscan.io/tx/0xd5ede953b76ca2fc97064c6e2c91de77121cf20b987952efc5c22706a490f374"
-  },
-  {
-   "ts": "2026-07-27T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25626529. Tokens: 0x0000000000000000000000000000000000000000 / 0xd6a77f657c4ebcad76d074054d6592b5beca8e1d. Fee:...",
-   "url": "https://etherscan.io/tx/0xb89e2d30b5a211ac02d4cc2984815ba3bb5b1b5367a5f2d157ea16b83261ecc0"
   }
  ]
 }
