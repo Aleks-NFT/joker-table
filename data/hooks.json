@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-28T09:15:35Z",
+ "generated_at": "2026-07-28T10:15:35Z",
  "total_hooks": 2527,
- "total_pools": 8530,
+ "total_pools": 8533,
  "multi_pool_hooks": 243,
  "shown": 243,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 689,
+   "pool_count": 691,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -27,8 +27,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25629229,
-   "last_deploy": "2026-07-28T06:00:02Z",
+   "last_block": 25630174,
+   "last_deploy": "2026-07-28T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -82,7 +82,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 446,
+   "pool_count": 447,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -98,8 +98,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25627187,
-   "last_deploy": "2026-07-28T00:00:02Z",
+   "last_block": 25630090,
+   "last_deploy": "2026-07-28T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1590,7 +1590,7 @@
    "first_block": 25580175,
    "last_block": 25580175,
    "last_deploy": "2026-07-21T10:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {

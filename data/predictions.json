@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 47,
-  "hit": 15,
+  "hit": 16,
   "miss": 21,
-  "open": 7,
-  "hit_rate": 0.417
+  "open": 6,
+  "hit_rate": 0.432
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count will exceed 11 — builders are deploying pools where the hook sets the swap fee in real time, not a fixed tier, and this is the clearest sign that hooks are being used as economic primitives, not decorative add-ons.",
    "horizon_days": 7,
    "resolve_after": "2026-07-28",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +11 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
