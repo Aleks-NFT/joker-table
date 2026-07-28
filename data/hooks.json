@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-28T04:15:35Z",
+ "generated_at": "2026-07-28T05:15:39Z",
  "total_hooks": 2527,
  "total_pools": 8523,
  "multi_pool_hooks": 243,
@@ -602,8 +602,8 @@
   {
    "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
    "address_short": "0x025a…20cc",
-   "name": "",
-   "verified": false,
+   "name": "EthCreatorFeeHookV2",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x025a386eaa79f6067d29848fd05ccc71beab20cc",
    "pool_count": 15,
    "permissions_human": [
