@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-28",
+   "narrative": {
+    "en": "Sixteen fresh cells on the V4 board, and the deck is shuffled so the eye keeps catching the same backs. Seven pools share one hook—0x025a—then it surfaces again alongside 0x7987 and others, eight times in total. Every pair pairs the zero address with a junk token, zero fee, tick spacing 200. Two more hooks repeat: 0x0d6252 and 0x96b893, each twice, same pattern. Only one pool breaks the mold—block 25627187, where 0x2cfb3a faces WETH with a near-0.84% fee and its own hook 0x6c24d0. That one is a foreign body among the clones. The first fix is also odd: block 25627610, fee 10000 (0.1%), hook 0xb3733e—the only pool with a nonzero charge. The other fourteen sit on zero. Cheap entry tickets, low threshold. Someone is clearly seeding the net with identical pairs, testing the same hook logic across different coins. The lone paid pool is like a joker who chose not to hide. The hooks are silent—no swaps, no liquidity—only initializations. This isn't trading; it's setting the deck. Someone is preparing the table for the next deal. The question is only what suit the next move will be.",
+    "zh": "江湖中，V4棋盘上凭空落下十六枚新子。一眼望去，七枚棋子背后刻着同一道印记——0x025a。这印记阴魂不散，连同0x7987等同类，竟出现了八次。每一对都是零地址搭配杂牌代币，零手续费，tick间隔200。另有两条印记各现两次：0x0d6252和0x96b893，套路如出一辙。唯有一枚棋子与众不同——区块25627187那一池，0x2cfb3a对WETH，手续费近0.84%，背着独门印记0x6c24d0。它像混入批量兵俑里的异乡人。最早落子的一枚也透着古怪：区块25627610，手续费10000（0.1%），印记0xb3733e——这是唯一一枚要收过路费的池子。其余十四枚分文不取。入门票贱如草纸，门槛低到尘土里。明摆着有人在用同一套钩子功夫，批量撒网，测试不同门派的反应。那枚独行侠式的收费池，倒像是故意不藏拙的暗桩。所有钩子静默无声——无swap，无流动性，只有池子建立。这不是交易，这是布阵。有人在为下一把赌局铺桌子。问题只有一个：下一手是什么花色。"
+   },
+   "take": {
+    "en": "A single hook contract is flooding the V4 board with pools at a pace that outruns any normal deployer—this isn't gambling, it's rigging the table.",
+    "zh": "同一个钩子合约以远超常人的手速撒下成片池子——这不是江湖过招，而是在偷偷布阵。"
+   }
+  },
+  {
    "date": "2026-07-27",
    "narrative": {
     "en": "The night dealt its hand again, sixteen pools sliding onto the felt—each a fresh deal from Uniswap V4's deck. Most showed a dead hook, the zero address, like a card with no face. One pool broke the pattern: a hook married to a fine-grained tick spacing of 1, as if someone wanted to squeeze liquidity into the tightest of gaps. Three hook contracts kept reappearing, stamped across multiple pools with zero fees and wide spacing—a dealer's tell, a signature repeated too often to be coincidence. Then there was the fee set as a bitmask, 8388608, a number that whispers of a hidden mechanism, a joker that can change value mid-hand. The blocks came in a dense flurry, all between 25619958 and 25620975, less than an hour's worth of gas burned. The other side of each pool wore fresh addresses, unknown to the mainnet, like masked players at a backroom table. This wasn't random seeding. Someone is building a long-tail minefield, laying hooks like traps, waiting for liquidity to wander in.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Eleven identical zero-fee pools from one factory signal a coordinated play, not organic activity—the house is preparing a liquidity trap or a hook-based revenue scheme.",
     "zh": "十一个零手续费池子同出一源，不是散户行为，是有人在搭台子——要么引君入瓮，要么靠钩子抽水。"
-   }
-  },
-  {
-   "date": "2026-07-13",
-   "narrative": {
-    "en": "Two Uniswap V4 pools blink into existence on the same block, then again ten blocks later. Same pair: USDC and USDT. Zero fee, tickSpacing set to one. This is not coincidence. The first hook at 0x858f...6888, the second at 0x457c...888 — different contracts, identical parameters. Someone is dealing two identical pools with different hooks. Why? Perhaps testing behavior: one hook might manage liquidity dynamically, the other something like siphoning fees to itself. But zero fee means it's not about yield. Zero fee on stablecoins is not for trading — it's for something else. Rebalancing, maybe, or arbitrage between the two pools. If the hooks are tuned to different strategies, a price spread between them could be engineered. And someone will be there to catch it. Or it's simply infrastructure deployment for future operations. V4 with hooks offers flexibility — oracles, scheduled swaps, anything. But two copies with the same tokens and zero fee smells like preparation for something specific. Blocks 25519822 and 25519832 — ten blocks apart, about two minutes. Someone sat and waited for the first to confirm before launching the second. Or two addresses acting in sync. For now, it's a hole in the deck — empty pools with no liquidity. But when the money pours in, it will get interesting. Especially if one of the hooks has a trigger for imbalances.",
-    "zh": "两个 Uniswap V4 池子在同一区块里闪亮登场，十块之后又来一对。同样的对子——USDC 和 USDT。零手续费，tickSpacing 设为一。这不是巧合。第一个钩子 0x858f...6888，第二个 0x457c...888——不同合约，相同参数。有人摆下了两个一模一样的池子，却配了不同的钩子。为什么？也许在测试武功：一个钩子可能动态调内力，另一个或许把手续费吸到自己身上。但零手续费，说明不是冲着收益来的。稳定币上零手续费，不是用来交易的——是为了别的。可能是重新平衡，或者两个池子之间的套利。如果钩子各自依不同策略运转，价差就能被人为造出来。而有人会等着抓它。或者，这只是为将来布下的基础设施。V4 的钩子很灵活——可以当预言机，做定时兑换，什么都行。但两个副本，同样的代币，零手续费——闻着像在准备什么特别的活儿。区块 25519822 和 25519832 ——相隔十块，大约两分钟。有人坐着等第一个确认，才启动第二个。或者两个地址在同步出手。眼下，这只是牌桌上一道裂缝——空池子，没有流动性。但等资金涌入，就有好戏看了。尤其如果其中一个钩子藏着触发失衡的机关。"
-   },
-   "take": {
-    "en": "Zero-fee stable pools with identical parameters but different hooks are a deliberate setup, not a random deployment — someone is preparing the felt for a specific play.",
-    "zh": "零手续费的稳定币池，参数一致但钩子不同——这不是随机的部署，而是有人在棋盘上摆好了棋子。"
    }
   }
  ]
