@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-28T22:15:34Z",
+ "generated_at": "2026-07-28T23:15:37Z",
  "new_pools_24h": 84,
  "new_pools_7d": 467,
  "unique_hook_contracts": 2538,
@@ -8,23 +8,12 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 246.894198702618,
-   "pct_24h": -5.912,
-   "vol_24h_usd": 115154.504428769,
-   "liquidity_usd": 656055.5514,
+   "price_usd": 246.235976310685,
+   "pct_24h": -1.122,
+   "vol_24h_usd": 116080.061130877,
+   "liquidity_usd": 651001.2886,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.225180291816047,
-   "pct_24h": -9.068,
-   "vol_24h_usd": 9094.5011532341,
-   "liquidity_usd": 237940.9985,
-   "liq_class": "mid",
-   "vol_class": "low",
    "stale_hours": 0
   },
   {
@@ -33,7 +22,7 @@
    "price_usd": 8.95390435648692e-05,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 82079.7345,
+   "liquidity_usd": 81543.8294,
    "liq_class": "mid",
    "vol_class": "low",
    "stale_hours": 0
@@ -47,7 +36,18 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 11
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.225180291816047,
+   "pct_24h": -9.068,
+   "vol_24h_usd": 9094.5011532341,
+   "liquidity_usd": 237940.9985,
+   "liq_class": "mid",
+   "vol_class": "low",
+   "stale_hours": 1
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 90365.5592,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 27
+   "stale_hours": 28
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 36227.6921,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 7
+   "stale_hours": 8
   }
  ],
  "top_pools": []
