@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 47,
+  "total": 48,
   "hit": 16,
   "miss": 21,
-  "open": 6,
+  "open": 7,
   "hit_rate": 0.432
  },
  "items": [
+  {
+   "id": 48,
+   "made_at": "2026-07-29",
+   "text": "Over the next seven days, the count of pools with very fine-grained liquidity placement (tick spacing below 10) will clear 54; the likely landing sits between 41 and 165, and I give the over about 62%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-05",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 47,
    "made_at": "2026-07-28",

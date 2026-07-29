@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-29",
+   "narrative": {
+    "en": "Four of tonight's five pools come with zero commission and a shared hook contract. 0x0d62529346ac2c61f5c0582210d01214687bc0cc is like a master key opening the same door for different tokens: first 0x8ccefb90cb7afe478a6200594c4271d1f2b5c57c, then 0xb719371f480b701eb2180bf30f3bffe3dffafdad, then 0x25369b78d5f7bbf761e3d5c1c4ea67c8752322d3. TickSpacing 200, fee 0 — someone is reshuffling the deck, leaving only the form without a markup for entry. The fifth pool, with 1% fee and its own hook 0x1dcd26990874b58a840dc228e9d061a7471f4088, breaks the pattern. One more pool with fee 0 but a different hook — 0x96b893683afbfec071e90f78d00de4bb932fe0cc — and a different token confirms not all zero fees are tied to a single hook: someone is building multiple decks with identical rules but different handlers. Seven pools in a night is not a spike, it's the start of a new deal. V4 hooks are no longer exotic; they're being minted in batches like standard cards of the same suit. The question isn't who deals first, but who pulls the joker from this stack.",
+    "zh": "昨夜江湖中，七个新池子悄然立起。四个池子不收分文入场费，共享同一枚令牌（hook合约），仿佛同一门派的不同分舵，内力流转一致。那枚令牌0x0d6252...如同万能钥匙，先后为三个不同代币打开了关口。而第五个池子却收1%的过路费，有着自己的独门令牌，像是暗藏的一记杀手锏，专为特定对局准备。另一个零费池子令牌又不同，可见零费联盟内也分不同的流派。七个池子一夜之间出现，不是偶然的涟漪，而是新一轮棋局的开端。V4钩子不再是稀罕物，就像江湖中批量锻造的兵器，人人可得。问题不是谁先出手，而是谁能在这一堆牌中抽到那张王牌。"
+   },
+   "take": {
+    "en": "The market is slowly turning the cards, and the house is already stacking the deck with zero-fee hooks — the real play begins when the joker appears.",
+    "zh": "零费池子已成常态，钩子像雨后的暗器一样多——真正的猎手，在等那张不一样的牌。"
+   }
+  },
+  {
    "date": "2026-07-28",
    "narrative": {
     "en": "Sixteen fresh cells on the V4 board, and the deck is shuffled so the eye keeps catching the same backs. Seven pools share one hook—0x025a—then it surfaces again alongside 0x7987 and others, eight times in total. Every pair pairs the zero address with a junk token, zero fee, tick spacing 200. Two more hooks repeat: 0x0d6252 and 0x96b893, each twice, same pattern. Only one pool breaks the mold—block 25627187, where 0x2cfb3a faces WETH with a near-0.84% fee and its own hook 0x6c24d0. That one is a foreign body among the clones. The first fix is also odd: block 25627610, fee 10000 (0.1%), hook 0xb3733e—the only pool with a nonzero charge. The other fourteen sit on zero. Cheap entry tickets, low threshold. Someone is clearly seeding the net with identical pairs, testing the same hook logic across different coins. The lone paid pool is like a joker who chose not to hide. The hooks are silent—no swaps, no liquidity—only initializations. This isn't trading; it's setting the deck. Someone is preparing the table for the next deal. The question is only what suit the next move will be.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is dealing V4 pools with zero fees and idle hooks — no action yet, but the pattern says someone is building a system, not just flipping tokens.",
     "zh": "庄家连开零费池，钩子未动，却已布下阵法——这不是散兵游勇，而是有人在搭台唱戏。"
-   }
-  },
-  {
-   "date": "2026-07-14",
-   "narrative": {
-    "en": "The dealer's hands are moving across the felt. Eleven of today's sixteen pool initializations trace back to a single contract, each one a fresh pair with zero swap fee, tick spacing of 200, and tokens bearing the 0x69 prefix—serial numbers on disposable cards. All pairs use raw ETH, no WETH, no stablecoins. The addresses appear in clusters: first a trio, then a gap, then five more across forty-six blocks. Someone sat on prepared transactions, releasing them when gas dropped. This is not randomness; it's a deliberate setup, a deck being stacked.",
-    "zh": "江湖上今天有异动。十六个新池子里，十一个出自同一门派，手续费全免，tick间距都是200，代币前缀清一色0x69——像是同一批铸出的暗器。这些池子只接纯ETH，不要WETH，也不要USDC、USDT。时间上看，先是三个同区块出现，沉默一阵，又在四十六个区块内连出五个。有人在等gas低的时候分批撒网，不是散兵游勇，是蓄谋已久的布阵。"
-   },
-   "take": {
-    "en": "Eleven identical zero-fee pools from one factory signal a coordinated play, not organic activity—the house is preparing a liquidity trap or a hook-based revenue scheme.",
-    "zh": "十一个零手续费池子同出一源，不是散户行为，是有人在搭台子——要么引君入瓮，要么靠钩子抽水。"
    }
   }
  ]
