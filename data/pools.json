@@ -1,17 +1,28 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-29T18:15:35Z",
+ "generated_at": "2026-07-29T19:15:46Z",
  "new_pools_24h": 79,
  "new_pools_7d": 482,
  "unique_hook_contracts": 2552,
  "canonical": [
   {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.230683882963704,
+   "pct_24h": 2.557,
+   "vol_24h_usd": 131028.986442638,
+   "liquidity_usd": 195084.1188,
+   "liq_class": "mid",
+   "vol_class": "high",
+   "stale_hours": 0
+  },
+  {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 241.60570217021,
-   "pct_24h": -5.362,
-   "vol_24h_usd": 42435.0036359659,
-   "liquidity_usd": 649228.5579,
+   "price_usd": 244.543142191793,
+   "pct_24h": -7.25,
+   "vol_24h_usd": 44328.7943922871,
+   "liquidity_usd": 639678.2247,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0
@@ -36,17 +47,6 @@
    "liquidity_usd": 9.2102,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.221400731106017,
-   "pct_24h": -1.098,
-   "vol_24h_usd": 10073.1799939167,
-   "liquidity_usd": 234701.9145,
-   "liq_class": "mid",
-   "vol_class": "mid",
    "stale_hours": 1
   },
   {
@@ -58,7 +58,7 @@
    "liquidity_usd": 82871.0915,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 8
+   "stale_hours": 9
   },
   {
    "ticker": "LODE",
@@ -69,8 +69,49 @@
    "liquidity_usd": 36227.6921,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 27
+   "stale_hours": 28
   }
  ],
- "top_pools": []
+ "top_pools": [
+  {
+   "ticker": "PRISM",
+   "pool": "",
+   "price_usd": 7.66298734615627,
+   "pct_24h": -3.533,
+   "vol_24h_usd": 1774.1272404764,
+   "liquidity_usd": 106380.0997,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "SATOSHI",
+   "pool": "",
+   "price_usd": 0.304984162262971,
+   "pct_24h": -0.406,
+   "vol_24h_usd": 638.3664334011,
+   "liquidity_usd": 147933.0096,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "MKUSD",
+   "pool": "",
+   "price_usd": 0.994110472242677,
+   "pct_24h": 0.204,
+   "vol_24h_usd": 95.4045933005,
+   "liquidity_usd": 119022.5,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "PRISMA",
+   "pool": "",
+   "price_usd": 0.00718174998612664,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 14.6432697864,
+   "liquidity_usd": 15443.825,
+   "liq_class": "thin",
+   "vol_class": "low"
+  }
+ ]
 }
