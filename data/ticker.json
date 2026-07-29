@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-29T11:12:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-29T11:12:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-29T11:12:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-29T11:12:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
    "ts": "2026-07-29T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: CTM / ETH — $1,953,863 24h volume, $2,166,720 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xdb4c4d91f12ce76f5c9ac0eae193cf3b4d6684cd5f09bf35d03dd9ae6d8a43b1"
-  },
-  {
-   "ts": "2026-07-29T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $9,710,711 24h volume, $1,509,443 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-07-29T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25635520. Tokens: 0x0000000000000000000000000000000000000000 / 0xf885b4548989f70d9bf886c1f709a06b57d5e59c. Fee:...",
-   "url": "https://etherscan.io/tx/0x26c1e8cac99f538e1c25c6fe85ac04f53aae9316ed02f2f73ec87a5760599b65"
-  },
-  {
-   "ts": "2026-07-29T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25635520. Tokens: 0x0000000000000000000000000000000000000000 / 0x693b8597e83cd2603b920c0d84cb6767d880bebc. Fee:...",
-   "url": "https://etherscan.io/tx/0xc4add6ffc7b3f2007e0ec6ffd12b7585893a7a758dd0f832c57baa5e61f34ded"
-  },
-  {
-   "ts": "2026-07-29T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25635518. Tokens: 0x0000000000000000000000000000000000000000 / 0x69ad21f601122f76cb5f2c69d11ab0d197b874c4. Fee:...",
-   "url": "https://etherscan.io/tx/0x21db07aeabb36d1d47b0aedb71f404836f8d8e25be60ddc07ade9d67fe71289c"
   }
  ]
 }
