@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-29T04:15:34Z",
+ "generated_at": "2026-07-29T05:15:34Z",
  "total_hooks": 2539,
  "total_pools": 8597,
  "multi_pool_hooks": 244,
@@ -4103,8 +4103,8 @@
   {
    "address": "0x48dc3009ec1d3298bba31f718a9a29d02fc9b0cc",
    "address_short": "0x48dc…b0cc",
-   "name": "",
-   "verified": false,
+   "name": "LiquidityGrowthFeeOracleHookV1",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x48dc3009ec1d3298bba31f718a9a29d02fc9b0cc",
    "pool_count": 2,
    "permissions_human": [
