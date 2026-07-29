@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-29T16:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54591586. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x15d0e0c55a3e7ee67152ad7e89acf16425...",
+   "url": "https://uniscan.xyz/tx/0x1e4caff8b00ffd35b4411dc9cc2dcc81cb476fcd000b3a81064e3f5ed19a66e4"
+  },
+  {
    "ts": "2026-07-29T16:00:41Z",
    "suit": "club",
    "source": "github",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "Repo Miko-Protocol/miko-fee-hook matches a hook deployed on-chain (feehook, 0xa2dcd7bf…) — code we can read behind a live contract",
    "url": "https://github.com/Miko-Protocol/miko-fee-hook"
-  },
-  {
-   "ts": "2026-07-29T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25639319. Tokens: 0x0000000000000000000000000000000000000000 / 0xd41ec69c37dd0b7a63026dc10bc3cc58030e923e. Fee:...",
-   "url": "https://etherscan.io/tx/0xb5b87d6e5ea4c4a04b559db4742b85b2a4651e0d168eb1fbd15c1802666e9d95"
   }
  ]
 }
