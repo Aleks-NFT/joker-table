@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-07-30",
+   "narrative": {
+    "en": "The night just when I was about to fold, blocks started falling one after another. Thirteen new V4 hook pools in a matter of hours—nine of them at zero fee, tickSpacing 200, all paired with native ETH. The pattern is unmistakable: three hook contracts—0x90c67, 0x35fe2, 0x0d625—dealing the same hand. Someone is assembling the deck template-style: fast, serial, no excess noise. The outlier pool at block 25642351 breaks the rhythm: 0x6d7ae59 paired with USDC, fee 0.01%, tickSpacing 1000. That’s not a template—that’s a deliberate move. Liquidity with a real stablecoin means someone is readying for more than a test deal. But the real prize lies in the adjacent channel: 0xprogrammable closed PR #16 with the message 'Document the Stock-Paired production activation.' Stock-Paired is no card slang—it’s a real asset. The updated README now confirms a production candidate deployed. When you map this activation onto the wave of identical hook pools shuffling WETH with all sorts of tokens, you see not randomness but assembly. The deck shows one hand: programmable hooks as the infrastructure skeleton, Stock-Paired as the trump still tucked in the sleeve. Don’t ask me where it leads—I only read the cards already on the felt.",
+    "zh": "昨夜正当我要收牌时，区块一个接一个地来了。短短几个小时内，出现了十三个新的V4 hook池——其中九个零手续费，tickSpacing 200，全部与原生ETH配对。模式一目了然：三个hook合约——0x90c67、0x35fe2、0x0d625——在发同一副牌。有人在用模板打法快速批量建池，悄无声息。唯一打破节奏的，是第25642351号区块上的那个池：0x6d7ae59，配对USDC，手续费0.01%，tickSpacing 1000。这不是模板，而是有意识的一步。与真实稳定币的流动性，意味着有人正在为比测试更大的场面做准备。但真正的收获不在池中，而在隔壁的频道：0xprogrammable关闭了PR #16，留言为“记录Stock-Paired生产激活”。Stock-Paired可不是牌桌黑话，它是真实的资产。更新后的README确认了生产候选版已部署。如果把这次激活与那波用WETH洗不同代币的同类hook池对照，看到的不是随机，而是装配。牌面揭示了一手牌：programmable hooks是基础设施骨架，Stock-Paired则是藏在袖中的绝招。别问我结局——我只读桌上的牌。"
+   },
+   "take": {
+    "en": "The table is set: systematic hook deployment and a documented production activation point to a coordinated infrastructure build, with the real payout still hidden.",
+    "zh": "牌局已布：系统性的hook部署加上一个已记录的生产激活，指向协同的基础设施构建，真正的赌注仍藏在暗处。"
+   }
+  },
+  {
    "date": "2026-07-29",
    "narrative": {
     "en": "Four of tonight's five pools come with zero commission and a shared hook contract. 0x0d62529346ac2c61f5c0582210d01214687bc0cc is like a master key opening the same door for different tokens: first 0x8ccefb90cb7afe478a6200594c4271d1f2b5c57c, then 0xb719371f480b701eb2180bf30f3bffe3dffafdad, then 0x25369b78d5f7bbf761e3d5c1c4ea67c8752322d3. TickSpacing 200, fee 0 — someone is reshuffling the deck, leaving only the form without a markup for entry. The fifth pool, with 1% fee and its own hook 0x1dcd26990874b58a840dc228e9d061a7471f4088, breaks the pattern. One more pool with fee 0 but a different hook — 0x96b893683afbfec071e90f78d00de4bb932fe0cc — and a different token confirms not all zero fees are tied to a single hook: someone is building multiple decks with identical rules but different handlers. Seven pools in a night is not a spike, it's the start of a new deal. V4 hooks are no longer exotic; they're being minted in batches like standard cards of the same suit. The question isn't who deals first, but who pulls the joker from this stack.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Someone is quietly laying down three identical hook-driven pools—this isn't random noise, it's a deliberate setup for a new play.",
     "zh": "有人在悄悄布下三个同 hook 的池子——这不是杂音，是蓄谋的新局。"
-   }
-  },
-  {
-   "date": "2026-07-15",
-   "narrative": {
-    "en": "Four fresh deals hit the table last night — all hooks, all V4. The first pool at block 25534390 looked almost classic: two tokens, a fixed fee of 30 basis points, tick spacing of 60. The hook contract at 0xbbe88e sits there, but what it does is anyone's guess. No hook call logs at initialization, so the logic behind it stays face-down. Then came a tight run. Three pools in a row, all with zero fee, all with tick spacing 200 — that's no accident. The second and third pools share the same hook contract, 0x96b893, both with ether as the first token. Feels like someone is rolling out a family of pools under one mechanic — maybe dynamic fees, maybe some averaging strategy. Without a dump of hook events, you're just guessing. The fourth pool at block 25534595 uses a different hook, 0x0d6253. Also ether-based, also zero fee. Eight blocks between the third and fourth — someone worked fast, no pause to think. What sticks: none of these pools have any trade activity at the time of writing. They hang on the chain like blank cards. Hooks without calls are cards dealt but not yet flipped. Makes you wonder if any of these hands will see a first trade, or if they'll only live on as a line in the initialization logs. The V4 deck is growing, but it's a quiet growth. Without events from the hooks, you can't tell who's the ace and who's just filling the seat.",
-    "zh": "昨夜江湖又添四座新池，皆是V4门派，个个带钩。首池生于区块25534390，看似规矩：双币，固定手续费三十基点，步阶六十。钩子藏于0xbbe88e，却不知其用意——开池时无钩子日志，内功心法无从窥探。紧接着三池连出，皆零手续费，步阶二百，绝非巧合。第二、第三池共用一钩，契约0x96b893，皆以以太为基币。看来有人在布阵，同一钩法，或为动态收费，或为某种均值策略。无钩子事件可查，只能揣测。第四池在区块25534595，换了钩子，0x0d6253，仍是以太为基，零手续费。与第三池相隔八块，出手极快，毫无迟疑。引人注意的是，这些池至今无一笔交易。它们悬于链上，如白纸一张。钩子无调用，好比宝剑未出鞘。不知这些池中，谁能等到第一笔买卖，还是终将成为初始化日志里的一行记录。V4江湖在扩张，但只是暗流涌动。钩子不响，难辨谁是真正的高手，谁只是占个位置。"
-   },
-   "take": {
-    "en": "The house is dealing V4 pools with zero fees and idle hooks — no action yet, but the pattern says someone is building a system, not just flipping tokens.",
-    "zh": "庄家连开零费池，钩子未动，却已布下阵法——这不是散兵游勇，而是有人在搭台唱戏。"
    }
   }
  ]

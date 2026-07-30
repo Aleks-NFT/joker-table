@@ -1,13 +1,23 @@
 {
  "schema_version": 1,
  "stats": {
-  "total": 48,
+  "total": 49,
   "hit": 17,
   "miss": 21,
-  "open": 6,
+  "open": 7,
   "hit_rate": 0.447
  },
  "items": [
+  {
+   "id": 49,
+   "made_at": "2026-07-30",
+   "text": "Over the next 7 days the count clears 5; the likely landing sits between 5 and 6, and I give the over about 52%. What is happening: Builders are deploying pools with the dynamic-fee flag: the hook contract sets the swap fee in real time instead of a fixed tier. This is the clearest sign of hooks used as economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-06",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 48,
    "made_at": "2026-07-29",
