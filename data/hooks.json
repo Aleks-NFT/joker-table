@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-30T04:15:36Z",
+ "generated_at": "2026-07-30T05:15:35Z",
  "total_hooks": 2562,
  "total_pools": 8713,
  "multi_pool_hooks": 253,
@@ -411,8 +411,8 @@
   {
    "address": "0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
    "address_short": "0x35fe…20cc",
-   "name": "",
-   "verified": false,
+   "name": "EthCreatorFeeHookV3",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
    "pool_count": 30,
    "permissions_human": [
@@ -3168,8 +3168,8 @@
   {
    "address": "0x90c67c1e866f86526f0e338459cd435e1f23a0cc",
    "address_short": "0x90c6…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "QuoteAssetCreatorFeeHookV1",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x90c67c1e866f86526f0e338459cd435e1f23a0cc",
    "pool_count": 5,
    "permissions_human": [
@@ -3429,8 +3429,8 @@
   {
    "address": "0x10392843021a1af0abe3b1a21f14673dc05340cc",
    "address_short": "0x1039…40cc",
-   "name": "",
-   "verified": false,
+   "name": "LivoSwapHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x10392843021a1af0abe3b1a21f14673dc05340cc",
    "pool_count": 3,
    "permissions_human": [
@@ -5027,8 +5027,8 @@
   {
    "address": "0xaa49adadd33c5e953b645567afb10cbbba63afc4",
    "address_short": "0xaa49…afc4",
-   "name": "",
-   "verified": false,
+   "name": "NFTXV4Hook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xaa49adadd33c5e953b645567afb10cbbba63afc4",
    "pool_count": 2,
    "permissions_human": [
@@ -5277,8 +5277,8 @@
   {
    "address": "0xce6a59a06615b55a5126e0c80fb3c8374df9d880",
    "address_short": "0xce6a…d880",
-   "name": "",
-   "verified": false,
+   "name": "AntiSniperHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xce6a59a06615b55a5126e0c80fb3c8374df9d880",
    "pool_count": 2,
    "permissions_human": [
