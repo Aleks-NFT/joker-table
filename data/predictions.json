@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 49,
-  "hit": 17,
+  "hit": 18,
   "miss": 21,
-  "open": 7,
-  "hit_rate": 0.447
+  "open": 6,
+  "hit_rate": 0.462
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count clears 213; the likely landing sits between 124 and 365, and I give the over about 50%.",
    "horizon_days": 7,
    "resolve_after": "2026-07-30",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +213 on metric nonstd_fee_pools reached.",
    "phase": "v2"
   },
   {
