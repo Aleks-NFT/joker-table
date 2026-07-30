@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-30T07:15:34Z",
+ "generated_at": "2026-07-30T08:15:34Z",
  "total_hooks": 2563,
- "total_pools": 8723,
+ "total_pools": 8725,
  "multi_pool_hooks": 254,
  "shown": 254,
  "more_count": 0,
@@ -462,6 +462,34 @@
    "visible": false
   },
   {
+   "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
+   "address_short": "0x68c4…eacc",
+   "name": "LaunchHookLending",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x68c463f0c8ad1131eac043b035618223d3caeacc",
+   "pool_count": 27,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25274267,
+   "last_block": 25643797,
+   "last_deploy": "2026-07-30T08:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
    "address_short": "0x025a…20cc",
    "name": "EthCreatorFeeHookV2",
@@ -484,34 +512,6 @@
    "last_block": 25643040,
    "last_deploy": "2026-07-30T04:00:02Z",
    "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
-   "address_short": "0x68c4…eacc",
-   "name": "LaunchHookLending",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x68c463f0c8ad1131eac043b035618223d3caeacc",
-   "pool_count": 25,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25274267,
-   "last_block": 25504109,
-   "last_deploy": "2026-07-10T20:00:02Z",
-   "active": false,
    "visible": false
   },
   {
