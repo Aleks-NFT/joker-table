@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-30T08:17:45Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-30T08:17:45Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-30T08:17:45Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-07-30T08:17:45Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
    "ts": "2026-07-30T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25643158. Tokens: 0x0000000000000000000000000000000000000000 / 0xe4f696df6653bd0b93dadee18327ef6724eb0797. Fee:...",
    "url": "https://etherscan.io/tx/0x67f03e1cc4507173e8dce578687beb997318b7a0c6db0b1c22db21daca0e9818"
-  },
-  {
-   "ts": "2026-07-30T05:39:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #18 in programmable: 'Define production branch workflow'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/18"
-  },
-  {
-   "ts": "2026-07-30T05:20:30Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #17 in programmable: 'Remove Deep keeper'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/17"
-  },
-  {
-   "ts": "2026-07-30T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 PYUSD / USDS — $106,197,284   #2 USDC / USDT — $57,032,689   #3 USDe / USDC 0.003% — $26,423,61...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-07-30T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "sUSDe / USDT 0.008% TVL grew 52% to $1,547,213",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
   }
  ]
 }
