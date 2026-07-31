@@ -2,6 +2,76 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-31T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (7 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-07-31T04:35:17Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "Swing contract 0x89cf...31df verified on Etherscan: SWING, compiler v0.8.29+commit.ab55807c",
+   "url": "https://etherscan.io/address/0x89cf5c1b3bc04ea54795b37a85258f1dfc9c31df"
+  },
+  {
+   "ts": "2026-07-31T04:35:14Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "LODE contract 0xadaf...d5e9 verified on Etherscan: LodeToken, compiler v0.8.26+commit.8a97fa7a",
+   "url": "https://etherscan.io/address/0xadaf95906c05c5c5de12db00a38e0b02d7ffd5e9"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 PYUSD / USDS — $162,121,941   #2 USDC / USDT — $79,807,349   #3 USDT / USDS — $61,421,333   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.01% TVL shrank 94% to $1,514,834",
+   "url": "https://www.geckoterminal.com/eth/pools/0x00b9edc1583bf6ef09ff3a09f6c23ecb57fd7d0bb75625717ec81eed181e22d7"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "V4 / ETH TVL grew 31% to $194,892",
+   "url": "https://www.geckoterminal.com/eth/pools/0xd9ca22573437a06a12d5c757b151aa1a76265c1dfdde4b76507233d7ad2b6df0"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "V4 / ETH volume surged 161% to $6,319,788 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xd9ca22573437a06a12d5c757b151aa1a76265c1dfdde4b76507233d7ad2b6df0"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDT / USDS volume surged 190% to $61,421,333 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: tBTC / cbBTC 0.01% — $2,311,955 24h volume, $1,444,698 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x5459f9d1f649b9f1353a50fd0c8d796b4feb11926bec295cb0614a135febdf9a"
+  },
+  {
+   "ts": "2026-07-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $7,330,726 24h volume, $1,489,931 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
+  },
+  {
    "ts": "2026-07-31T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -140,76 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25649735. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xeb9e32a5babb05b2dc3c35440fd726480a64c088. Fee:...",
    "url": "https://etherscan.io/tx/0x93625260c775e034c859a0b2fc4a523c921422855d84b646506e817d96509c62"
-  },
-  {
-   "ts": "2026-07-31T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Arb-Capital/wstgbp-univ4-hook promoted to core tracking: 5 commits in 14 days —",
-   "url": "https://github.com/Arb-Capital/wstgbp-univ4-hook"
-  },
-  {
-   "ts": "2026-07-31T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82/il-aware-limit-order-hook promoted to core tracking: 8 commits in 14 days — Impermanent Loss Aware Limit Order Hook for Uniswap V4 (UHI9 Hookathon)",
-   "url": "https://github.com/impetus82/il-aware-limit-order-hook"
-  },
-  {
-   "ts": "2026-07-31T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "elabify/musnad-contracts promoted to core tracking: 5 commits in 14 days — Musnad protocol Solidity contracts: identity, revocation and CSCA registries, plus...",
-   "url": "https://github.com/elabify/musnad-contracts"
-  },
-  {
-   "ts": "2026-07-31T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: elabify/musnad-contracts — 0★ — Musnad protocol Solidity contracts: identity, revocation and CSCA registries, plus the ONCHAINID/ER...",
-   "url": "https://github.com/elabify/musnad-contracts"
-  },
-  {
-   "ts": "2026-07-31T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voltgzer0/limit-orders — 0★ — Uniswap v4 take-profit limit order hook, built for the UHI cohort — orders fill automatically when a ...",
-   "url": "https://github.com/voltgzer0/limit-orders"
-  },
-  {
-   "ts": "2026-07-31T03:16:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #42 in programmable: 'Harden Stock-Paired Explore indexing'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/42"
-  },
-  {
-   "ts": "2026-07-31T02:53:57Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #41 in programmable: 'Harden Classic V3 Explore indexing'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/41"
-  },
-  {
-   "ts": "2026-07-31T02:37:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #40 in programmable: 'Serialize Explore bootstrap RPC reads'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/40"
-  },
-  {
-   "ts": "2026-07-31T02:18:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #39 in programmable: 'Adapt Explore log reads to RPC limits'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/39"
-  },
-  {
-   "ts": "2026-07-31T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25649594. Tokens: 0x0000000000000000000000000000000000000000 / 0x779bbc537e2aef404f6000606a599e178e424f98. Fee:...",
-   "url": "https://etherscan.io/tx/0xcec783c6e0a64756e175bf6f8a5287c571808a5a8afc16911582c8d0f0942e03"
   }
  ]
 }
