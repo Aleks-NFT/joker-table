@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-31T07:15:45Z",
- "total_hooks": 2596,
- "total_pools": 8995,
+ "generated_at": "2026-07-31T08:15:35Z",
+ "total_hooks": 2597,
+ "total_pools": 9000,
  "multi_pool_hooks": 254,
  "shown": 254,
  "more_count": 0,
@@ -223,7 +223,7 @@
    "name": "EthCreatorFeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
-   "pool_count": 170,
+   "pool_count": 173,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -237,8 +237,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25639700,
-   "last_block": 25650840,
-   "last_deploy": "2026-07-31T06:00:02Z",
+   "last_block": 25651179,
+   "last_deploy": "2026-07-31T08:00:02Z",
    "active": true,
    "visible": true
   },
@@ -357,7 +357,7 @@
    "name": "QuoteAssetCreatorFeeHookV1",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x90c67c1e866f86526f0e338459cd435e1f23a0cc",
-   "pool_count": 50,
+   "pool_count": 51,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -371,8 +371,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25640676,
-   "last_block": 25650885,
-   "last_deploy": "2026-07-31T06:00:02Z",
+   "last_block": 25651223,
+   "last_deploy": "2026-07-31T08:00:02Z",
    "active": true,
    "visible": false
   },
