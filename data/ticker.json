@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-07-31T00:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54704593. Tokens: 0x071a35e9e417fa193c7e00c643b1194c536c0b07 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x92249e4fe6eda63f1e0deeb91e7b126813c1c21e0546d772a6b7d33aaa67504e"
+  },
+  {
    "ts": "2026-07-31T00:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25648046. Tokens: 0x0000000000000000000000000000000000000000 / 0xe32f95411fe30aaf6649b69b06a5a5cf991be042. Fee:...",
    "url": "https://etherscan.io/tx/0x9219b54da25c6c9e747ee77eaa8ca39fa52bdaffc1e9f84807027684b2a928f0"
-  },
-  {
-   "ts": "2026-07-30T20:22:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "zhongeric opened PR #53 in v4-hooks-public: 'feat: factory deployment model for ERC4626 wrapper hooks'",
-   "url": "https://github.com/Uniswap/v4-hooks-public/pull/53"
   }
  ]
 }
