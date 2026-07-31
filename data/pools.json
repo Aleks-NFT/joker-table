@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-31T20:15:25Z",
+ "generated_at": "2026-07-31T21:15:45Z",
  "new_pools_24h": 198,
  "new_pools_7d": 879,
  "unique_hook_contracts": 2621,
@@ -8,12 +8,23 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 462.877969734015,
-   "pct_24h": 11.156,
-   "vol_24h_usd": 552391.580290698,
-   "liquidity_usd": 846881.8398,
+   "price_usd": 415.510728403358,
+   "pct_24h": 1.552,
+   "vol_24h_usd": 549634.9023501,
+   "liquidity_usd": 815851.7099,
    "liq_class": "deep",
    "vol_class": "high",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.299293561421979,
+   "pct_24h": 8.811,
+   "vol_24h_usd": 20825.7780221398,
+   "liquidity_usd": 257842.2033,
+   "liq_class": "deep",
+   "vol_class": "mid",
    "stale_hours": 0
   },
   {
@@ -25,29 +36,7 @@
    "liquidity_usd": 232111.802,
    "liq_class": "mid",
    "vol_class": "high",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.31178640003942,
-   "pct_24h": 10.628,
-   "vol_24h_usd": 20780.225768267,
-   "liquidity_usd": 260552.8163,
-   "liq_class": "deep",
-   "vol_class": "mid",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "LODE",
-   "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
-   "price_usd": 0.000767352719081578,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
-   "liquidity_usd": 37007.0278,
-   "liq_class": "thin",
-   "vol_class": "low",
-   "stale_hours": 0
+   "stale_hours": 1
   },
   {
    "ticker": "01",
@@ -58,7 +47,7 @@
    "liquidity_usd": 2353033.2736,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 23
+   "stale_hours": 25
   },
   {
    "ticker": "SLOP",
@@ -69,79 +58,19 @@
    "liquidity_usd": 96422.3664,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 8
+   "stale_hours": 10
+  },
+  {
+   "ticker": "LODE",
+   "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
+   "price_usd": 0.000767352719081578,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 37007.0278,
+   "liq_class": "thin",
+   "vol_class": "low",
+   "stale_hours": 1
   }
  ],
- "top_pools": [
-  {
-   "ticker": "HOOKS",
-   "pool": "",
-   "price_usd": 3.18552552700102e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 572.4724767284,
-   "liquidity_usd": 3703.2834,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOK",
-   "pool": "",
-   "price_usd": 3.27266344036243e-06,
-   "pct_24h": -7.444,
-   "vol_24h_usd": 300.1947189031,
-   "liquidity_usd": 3217.7476,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "PUDGE",
-   "pool": "",
-   "price_usd": 2.74218448362376e-06,
-   "pct_24h": -11.788,
-   "vol_24h_usd": 186.3430715618,
-   "liquidity_usd": 2815.8091,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HSMITH",
-   "pool": "",
-   "price_usd": 2.61634451785944e-06,
-   "pct_24h": -9.402,
-   "vol_24h_usd": 135.6569843492,
-   "liquidity_usd": 2745.9855,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "WORM",
-   "pool": "",
-   "price_usd": 2.67465744641387e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 98.6982764671,
-   "liquidity_usd": 2821.2205,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKTOPUS",
-   "pool": "",
-   "price_usd": 2.77354444335582e-06,
-   "pct_24h": 0.0,
-   "vol_24h_usd": 87.2086854267,
-   "liquidity_usd": 2814.8761,
-   "liq_class": "thin",
-   "vol_class": "low"
-  },
-  {
-   "ticker": "HOOKI",
-   "pool": "",
-   "price_usd": 2.68090487052787e-06,
-   "pct_24h": 3.914,
-   "vol_24h_usd": 58.2356539625,
-   "liquidity_usd": 2586.6631,
-   "liq_class": "thin",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
