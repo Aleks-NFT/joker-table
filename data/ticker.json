@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-01T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25659544. Tokens: 0x0000000000000000000000000000000000000000 / 0x0b834976b38249152941a7d66ae7f2ecde731566. Fee:...",
+   "url": "https://etherscan.io/tx/0x9f1e703f7b52039a054210d926e68a767eaad2b7fc68b4e222aec9a1f83eb66a"
+  },
+  {
+   "ts": "2026-08-01T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25659429. Tokens: 0x0000000000000000000000000000000000000000 / 0x17460a4da58b1c9b360c486eee6034edc9fc3f95. Fee:...",
+   "url": "https://etherscan.io/tx/0x291bd4f2abd4fb88f75be3901309e0b21328c3cf99d5b0ff6d3a7a7f27929eb3"
+  },
+  {
+   "ts": "2026-08-01T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-01T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-01T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-01T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-01T11:24:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #48 in programmable: 'Redesign the Programmable UI'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/48"
+  },
+  {
    "ts": "2026-08-01T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "twitter",
    "text": "@haydenzadams: I don’t think so, no. Search is having some issues this am that might be affecting it - team is working quickly and will push a fix",
    "url": "https://x.com/haydenzadams/status/2082841669989179536"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: UNI burn popping off post RH + v4 proposal. Yesterday was the third highest burn day ever with 106,000 UNI. Thats $170,000,000 in annual UNI b...",
-   "url": "https://x.com/haydenzadams/status/2082883746395501001"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Twitter trends looking good here",
-   "url": "https://x.com/haydenzadams/status/2082929283064889765"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Another day another major launch!! Users can now deposit USDC, USDT, or ETH to earn yield directly in our web app and wallet",
-   "url": "https://x.com/haydenzadams/status/2083216271139606962"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: same to y'all!!",
-   "url": "https://x.com/haydenzadams/status/2083257886763819238"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: How it works: Deposits allocate across onchain lending markets. Borrowers pay interest. Interest flows back as yield. Powered by Morpho. Curated by...",
-   "url": "https://x.com/Uniswap/status/2083206519852593602"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: Earning yield on your assets is simple: Open the Uniswap Web App or Wallet, go to a supported asset, deposit and confirm. Assets begin earning imme...",
-   "url": "https://x.com/Uniswap/status/2083206520993390744"
-  },
-  {
-   "ts": "2026-08-01T07:30:49Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: You can now earn yield in the same Uniswap Web App and Wallet you already use to swap across chains, buy crypto, and track your portfolio. Link to ...",
-   "url": "https://x.com/Uniswap/status/2083206522499117262"
   }
  ]
 }
