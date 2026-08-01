@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-01T22:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54868745. Tokens: 0x4200000000000000000000000000000000000006 / 0x8b74bfaeaab132a6e2962818f48b4d026d...",
+   "url": "https://uniscan.xyz/tx/0x552b27a5d688c9b28fad57fa97922a34f14724a494d6473a65a8684847d4021c"
+  },
+  {
    "ts": "2026-08-01T22:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25661691. Tokens: 0x0000000000000000000000000000000000000000 / 0x8266eee96d99fba7222ca8fa12a7e5e5353a7c8a. Fee:...",
    "url": "https://etherscan.io/tx/0x4bc4d2581dfcec90ccde54941dba9da996f4be7dba1615d1c228612cd612ac53"
-  },
-  {
-   "ts": "2026-08-01T19:55:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #60 in programmable: 'Release Programmable Builder v0.2.1'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/60"
   }
  ]
 }
