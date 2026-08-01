@@ -2,6 +2,160 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-01T20:00:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "programmable updated README (sha 63d141d)",
+   "url": "https://github.com/0xprogrammable/programmable/blob/main/README.md"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25662217. Tokens: 0x0000000000000000000000000000000000000000 / 0xd9da4809e57caf820d192656a1efe35dcff8f13d. Fee:...",
+   "url": "https://etherscan.io/tx/0x5cd69d323d7912116130bda17801cf65d09b9d719f1e0ce10e4cb39fd58c30a8"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25662175. Tokens: 0x73055d8312ade01ef48fdf4d6b5b9b9746cbb22e / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x6ada86bf1846e0a51639c5458bb30b2f0d63bc019b5a83fd677464510b457b03"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25662145. Tokens: 0xa7cf8c2218b084de4d6b64ff9ecb37e77f00d6cf / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xffc1919b217356c0fa01ef92ebed367130ec2a3d093444cb1abdaa9475f999a5"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25662135. Tokens: 0x0ff418bf12679ba5eb023e1acafb123865897b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xddcebffd42f710241cf825d2d784930fccaaa762493658498476090aad07dfad"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25662082. Tokens: 0x075149f50210d511e25710244c34393332c8b5d9 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xbcd728fc0f405399e3531b03bc1ab4c0daa5551273c797674c3ec7e8977ba0af"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25661998. Tokens: 0x84c1400a4e21f0ad3220cc0fe46bae949faffb07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x6f48e01bc9b835dc40210ff30354cdae79fd4f571dbeda05418ab9a96e767380"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25661769. Tokens: 0x0000000000000000000000000000000000000000 / 0xb8a84ce8a2d4ad1dcef32c07489c7626be843900. Fee:...",
+   "url": "https://etherscan.io/tx/0x780edb073be580ec0be2ffad6d7ce4237508855d6fa68319426622e812fb8ac5"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25661759. Tokens: 0x0000000000000000000000000000000000000000 / 0x0dae987fc7d221b1542d49beddaa7562dc52a6a0. Fee:...",
+   "url": "https://etherscan.io/tx/0xca25e4b1459b7c7350a647312b36f83ec5229b1cd2dfe58ee047d9e9f986ca75"
+  },
+  {
+   "ts": "2026-08-01T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25661691. Tokens: 0x0000000000000000000000000000000000000000 / 0x8266eee96d99fba7222ca8fa12a7e5e5353a7c8a. Fee:...",
+   "url": "https://etherscan.io/tx/0x4bc4d2581dfcec90ccde54941dba9da996f4be7dba1615d1c228612cd612ac53"
+  },
+  {
+   "ts": "2026-08-01T19:55:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #60 in programmable: 'Release Programmable Builder v0.2.1'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/60"
+  },
+  {
+   "ts": "2026-08-01T19:52:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable closed PR #58 in programmable: '[Builder Beta] arena-bounty'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/58"
+  },
+  {
+   "ts": "2026-08-01T19:46:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #59 in programmable: 'Accept fee evidence from declared contract paths'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/59"
+  },
+  {
+   "ts": "2026-08-01T19:46:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Accept fee evidence from declared contract paths (#59)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/2eb62c545fbe34dbe0b5670834beb354ed5aba03"
+  },
+  {
+   "ts": "2026-08-01T19:34:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "programmable released programmable-v4-builder-v0.2.0 (programmable-v4-builder-v0.2.0): '## What's Changed'",
+   "url": "https://github.com/0xprogrammable/programmable/releases/tag/programmable-v4-builder-v0.2.0"
+  },
+  {
+   "ts": "2026-08-01T19:29:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #57 in programmable: 'Fix bounded Git measurement race'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/57"
+  },
+  {
+   "ts": "2026-08-01T19:29:05Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix bounded Git measurement race (#57)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/1d6a14cf963e534b25e8e70bf2987f04f3d07cce"
+  },
+  {
+   "ts": "2026-08-01T19:16:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #56 in programmable: 'Builder v0.2.0: require Programmable volume fee'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/56"
+  },
+  {
+   "ts": "2026-08-01T19:16:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Builder v0.2.0: require Programmable volume fee (#56)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/f40c8215aeab4340515b22b88b527cb6cdbe1520"
+  },
+  {
+   "ts": "2026-08-01T18:25:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #55 in programmable: 'Document one-command Builder install'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/55"
+  },
+  {
+   "ts": "2026-08-01T18:25:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Document one-command Builder install (#55)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/4c0cbdb1ab396e1652d7f0dd2cef5c51e964ce13"
+  },
+  {
+   "ts": "2026-08-01T18:03:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable closed PR #53 in programmable: '[Builder Beta] arena-bounty'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/53"
+  },
+  {
    "ts": "2026-08-01T18:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -56,160 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25661275. Tokens: 0x0000000000000000000000000000000000000000 / 0x5447f2a8a0ca355c71aafb10465c4a03a515a867. Fee:...",
    "url": "https://etherscan.io/tx/0xee19fda08f36a8bef5eed934e7900408a905376dc4e6752cb258c96e558638f5"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661269. Tokens: 0x18084fba666a33d37592fa2633fd49a74dd93a88 / 0x5275bcbdd4f1c263132567e3c2aa3df2374c569c. Fee:...",
-   "url": "https://etherscan.io/tx/0xc8728d77ba834257bae0babc8969af4e76da6f03123dffefeaa5c2342486e128"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661246. Tokens: 0x0000000000000000000000000000000000000000 / 0x6a8611fa474255c610772db5b1dfe599e805b6e0. Fee:...",
-   "url": "https://etherscan.io/tx/0xd63de22af7087c4149bad363dbd083782879549d53c1b14be09f36ebf8c8af02"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661146. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xfffac8f3fea0ea0ea6ffef8907f101bd9a77583f. Fee:...",
-   "url": "https://etherscan.io/tx/0x3cdd4afa4ea63b630b9c3a5195ecc6f9123bedaa5d68865b55534817cb734a50"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661142. Tokens: 0x18084fba666a33d37592fa2633fd49a74dd93a88 / 0x8fca6a106bf35be4352a14a0d70713104d27c157. Fee:...",
-   "url": "https://etherscan.io/tx/0xa74e0a2c72edbf7d95fc8df7c23ff7ac89e963e18a771eca574585cc70fabae6"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661115. Tokens: 0xcc7ed2ab6c3396ddbc4316d2d7c1b59ff9d2091f / 0xcdca2d80601204d6e00e84377cd53dffd925377c. Fee:...",
-   "url": "https://etherscan.io/tx/0x5619b085bb4ec7aabbd1a07a1c4810d47343968435c8272b5a03fcc3e9e46708"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661114. Tokens: 0x58d7fa7356d68c494c2de09f95d55c2ff2d38bd3 / 0xcdca2d80601204d6e00e84377cd53dffd925377c. Fee:...",
-   "url": "https://etherscan.io/tx/0x295414b7c0a3e4c1afb184f3c112c136b73e159b8f5dd2f32fe99587b548d2ca"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661113. Tokens: 0xc496aa020be20abbb22081833ef08af7bfed7f17 / 0xcdca2d80601204d6e00e84377cd53dffd925377c. Fee:...",
-   "url": "https://etherscan.io/tx/0x89d3abeff52339099bd5054799a1bb7b208656e346aa63e35d752009df5b784a"
-  },
-  {
-   "ts": "2026-08-01T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25661107. Tokens: 0x0000000000000000000000000000000000000000 / 0x2516ea2607ab448faff4c56ead118e0b923bf2b4. Fee:...",
-   "url": "https://etherscan.io/tx/0xd9dd517419b7b7ee67e7f2625127591524f50e3ea23ea93b93435ecac99c7c9b"
-  },
-  {
-   "ts": "2026-08-01T17:55:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "programmable released programmable-v4-builder-v0.1.1 (programmable-v4-builder-v0.1.1): '## What's Changed'",
-   "url": "https://github.com/0xprogrammable/programmable/releases/tag/programmable-v4-builder-v0.1.1"
-  },
-  {
-   "ts": "2026-08-01T17:54:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #54 in programmable: 'Fix runtime-independent Node protocol closure'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/54"
-  },
-  {
-   "ts": "2026-08-01T17:54:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Fix runtime-independent Node protocol closure'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/06d322d0bfc690379db2e43f1c0952ebcdce072e"
-  },
-  {
-   "ts": "2026-08-01T17:27:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #53 in programmable: '[Builder Beta] arena-bounty'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/53"
-  },
-  {
-   "ts": "2026-08-01T17:08:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "programmable released programmable-v4-builder-v0.1.0 (programmable-v4-builder-v0.1.0): '## What's Changed'",
-   "url": "https://github.com/0xprogrammable/programmable/releases/tag/programmable-v4-builder-v0.1.0"
-  },
-  {
-   "ts": "2026-08-01T17:02:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #52 in programmable: 'Release the Programmable v4 Hook Builder beta'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/52"
-  },
-  {
-   "ts": "2026-08-01T17:02:20Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Release the Programmable v4 Hook Builder beta'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/8b4d572990c9e0b353110088e7ce6179e452b1ec"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660945. Tokens: 0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c / 0xe66ed535722a6dd6e1c0b9f23fdff25b048146cf. Fee:...",
-   "url": "https://etherscan.io/tx/0x0eeabab8752efb9f4f90e86398451f30ec0f742d1a2a91b04470fe05e532011b"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660921. Tokens: 0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee / 0xc28fa810821db62d4a72347c58aceef6f9945868. Fee:...",
-   "url": "https://etherscan.io/tx/0xbc3dba02f7442ca15d5d586985ca3adfda0cf8e4c58ebb2cac10453f0fbcf6ba"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660894. Tokens: 0xf6b1117ec07684d3958cad8beb1b302bfd21103f / 0xf6f8c1a2e800ad3da82a1576bc30b78f0313a321. Fee:...",
-   "url": "https://etherscan.io/tx/0x9032d52bda875a8861c33e0c65b8884921b6dc667d164c67d472835ba445ee25"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660792. Tokens: 0x0000000000000000000000000000000000000000 / 0x0c01920735c712ed2804ae6139e5ec9d2e383ac5. Fee:...",
-   "url": "https://etherscan.io/tx/0xc325018b0ad3b2c1b8b3514d14f3e87c0d2e4987327a8015192f9c5855f672d0"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660774. Tokens: 0x0000000000000000000000000000000000000000 / 0x970041e2dd4c5da5832ac76de3b79925a4304478. Fee:...",
-   "url": "https://etherscan.io/tx/0x1847f2a0caca31e0cfa01240ce2e4f07aeb8380511703d96cf0b7f02425bf4e4"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660765. Tokens: 0x0000000000000000000000000000000000000000 / 0xf6466c66f65ff4901645385984c3dab93c688105. Fee:...",
-   "url": "https://etherscan.io/tx/0x0facd903d699da2ca697a94ff52bf1ea053fedaec2a42e222e9aacdaf161df5e"
-  },
-  {
-   "ts": "2026-08-01T16:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25660764. Tokens: 0x0000000000000000000000000000000000000000 / 0x8bca86a56c7d79ffbd0d7f317bc983a68fa5922a. Fee:...",
-   "url": "https://etherscan.io/tx/0x5ae6e8eb2fc190e552e829956df1e952397cead2f3fa5b25cb64a24855291cda"
   }
  ]
 }
