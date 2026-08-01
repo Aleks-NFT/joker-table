@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-01T04:15:01Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume down 27% to $0.60B (fees $1136k, Ethereum share 51.4%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
+   "ts": "2026-08-01T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25657392. Tokens: 0x019c835711731f26a18be5937d6ea631d4352707 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xed2e70ea83e1b69e7af2b69b5ff60a6d55fa01179dd4fc5e20680e2e624ae0a6"
+  },
+  {
+   "ts": "2026-08-01T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "brianfurryan/Allele-V4-Hooks promoted to core tracking: 10 commits in 14 days — Genetic algorithm trading agent living inside Uniswap v4 hooks. 7 biological ...",
+   "url": "https://github.com/brianfurryan/Allele-V4-Hooks"
+  },
+  {
+   "ts": "2026-08-01T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: brianfurryan/Allele-V4-Hooks — 0★ — Genetic algorithm trading agent living inside Uniswap v4 hooks. 7 biological systems — heartbea...",
+   "url": "https://github.com/brianfurryan/Allele-V4-Hooks"
+  },
+  {
    "ts": "2026-08-01T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25655236. Tokens: 0x0000000000000000000000000000000000000000 / 0x74b2439f72b14aefccefb20b53d9cb35b58d8adf. Fee:...",
    "url": "https://etherscan.io/tx/0x62ea0f7212bbc1c96485445c9118adf93b95d0e9141b058a0747422af49e8ecb"
-  },
-  {
-   "ts": "2026-07-31T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25655183. Tokens: 0x0000000000000000000000000000000000000000 / 0x555304655b1e1bb4a097fb66f4f52c80f9263df5. Fee:...",
-   "url": "https://etherscan.io/tx/0x95102031811f32306c33b2660ab23767315a82de856622aa5b3d0eaeb863c1ef"
-  },
-  {
-   "ts": "2026-07-31T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25655156. Tokens: 0x0000000000000000000000000000000000000000 / 0x2fdc18e928840796f3850a102e9a0b1e1dc20655. Fee:...",
-   "url": "https://etherscan.io/tx/0x2f1a9e0e24a696b60a76647b1b16c113f96e96b0972cd08586c394b5436eed0c"
-  },
-  {
-   "ts": "2026-07-31T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25655126. Tokens: 0x0000000000000000000000000000000000000000 / 0x4c9f23867baadb64c515a01f048046228e44f962. Fee:...",
-   "url": "https://etherscan.io/tx/0x8462b847a466fea4bf54089d8ab313efd664fa04c109a7ebda93dfa60795fec5"
-  },
-  {
-   "ts": "2026-07-31T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25655100. Tokens: 0x0000000000000000000000000000000000000000 / 0xad5224c038ccfe6742dcc0e8cff450de96eed519. Fee:...",
-   "url": "https://etherscan.io/tx/0x6b2f9d5d7c4dddfd7076484ad5054babf238e7572999ed0549e77e05c0b01faa"
   }
  ]
 }
