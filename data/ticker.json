@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-02T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (9 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-08-02T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (35 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $47,429,133   #2 USDC / USDT — $37,395,311   #3 PYUSD / USDS — $9,719,345   #4 ne...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "DAI / USDT 0.007% volume surged 162% to $5,195,069 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% TVL shrank 49% to $684,396",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "nes / USDC 0.01% volume surged 142% to $9,298,239 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume dropped 83% to $9,719,345 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $1,567,486 24h volume, $1,770,323 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
+   "ts": "2026-08-02T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: ENA / USDC 0.3% — $1,750,242 24h volume, $3,418,135 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x8c52de694f5a4ce27ea85fe4bc47e08d22c5dfb5f9b38b2a63765ed52cd3b147"
+  },
+  {
    "ts": "2026-08-02T04:15:01Z",
    "suit": "spade",
    "source": "defillama",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25663747. Tokens: 0x045ef4cd7bd8478f3069b9dc112f9c0640f90b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
    "url": "https://etherscan.io/tx/0xe4eb06b5bac7b0fb4c1de46744c9cb702f7cf24c1a5f6955f5b091b3a0bbd15e"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663690. Tokens: 0x0000000000000000000000000000000000000000 / 0xf951c95f90cfea8c8a28dc11adc46b551ed4959c. Fee:...",
-   "url": "https://etherscan.io/tx/0xe813ff98b1f160d6fe31ea150723ea40ecca8a499d4eda119fc6eb442c9e7640"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663689. Tokens: 0x65c0e98a4fe050e64e16754119c76eebd4e660cc / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0xbdaed3eab445f320f98cadda388f2da0ac40296bff645c7779a765619b58b9df"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663683. Tokens: 0x693add6d63f993a647aac79915c34f3cc14a9b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x96cecaf4cbbb056a4cfb3e7483b550f6e640f663d7517feebe940d8baa19f26f"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663673. Tokens: 0x0000000000000000000000000000000000000000 / 0x91b047b1096594f081acadb55c747c326b56c40f. Fee:...",
-   "url": "https://etherscan.io/tx/0x79fe95c68f6d85dfe7a697f9ae918faba8ee20102fb2d612d1ca1c1cd5ce15b3"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663600. Tokens: 0x0000000000000000000000000000000000000000 / 0x29afe16216f16dae1554ed47fee734f6c02f84c0. Fee:...",
-   "url": "https://etherscan.io/tx/0x8ee093f070948bdbdec9723b2cc2ef71d83ac2530a4f874d92aea2b951e71f97"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663580. Tokens: 0x0000000000000000000000000000000000000000 / 0x8398b5a7c070fe85deb7409aea3d6350411e1c6c. Fee:...",
-   "url": "https://etherscan.io/tx/0xbaa3d462c195cd209af5f2290a12bcf66d7d30ccf0084e7069fe6b6f6811ccad"
-  },
-  {
-   "ts": "2026-08-02T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663522. Tokens: 0x0000000000000000000000000000000000000000 / 0xba6f34ba08f7899eda4bed9f56bef0f155e53a9e. Fee:...",
-   "url": "https://etherscan.io/tx/0x675a5ebb69847455840df4fbafa94749cb2b518af8e457531e7378a9a37fb42a"
-  },
-  {
-   "ts": "2026-08-02T01:50:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #61 in programmable: 'Ship realtime read-model integration'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/61"
-  },
-  {
-   "ts": "2026-08-02T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25663444. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xe0b2ab547a41f3e58feb1be7788a070c13f3ab07. Fee:...",
-   "url": "https://etherscan.io/tx/0xa2ba5bd564d2aee5de404e7f33c61f3a3036685190f0f8152137f372fdd19091"
   }
  ]
 }

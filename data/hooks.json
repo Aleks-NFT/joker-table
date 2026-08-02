@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-02T04:15:34Z",
+ "generated_at": "2026-08-02T05:15:36Z",
  "total_hooks": 2665,
  "total_pools": 9258,
  "multi_pool_hooks": 260,
@@ -683,8 +683,8 @@
   {
    "address": "0x9efd44ab09640d3473778a40e8b560babf1d80cc",
    "address_short": "0x9efd…80cc",
-   "name": "",
-   "verified": false,
+   "name": "ZeroHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9efd44ab09640d3473778a40e8b560babf1d80cc",
    "pool_count": 21,
    "permissions_human": [
@@ -3928,8 +3928,8 @@
   {
    "address": "0x00bbc6fc07342cf80d14b60695cf0e1aa8de00cc",
    "address_short": "0x00bb…00cc",
-   "name": "",
-   "verified": false,
+   "name": "ActionFundingHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x00bbc6fc07342cf80d14b60695cf0e1aa8de00cc",
    "pool_count": 2,
    "permissions_human": [
@@ -5262,8 +5262,8 @@
   {
    "address": "0xb8a3be1ee585beaff86f68e4d3f8412eedf000cc",
    "address_short": "0xb8a3…00cc",
-   "name": "",
-   "verified": false,
+   "name": "PDAIBurnHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8a3be1ee585beaff86f68e4d3f8412eedf000cc",
    "pool_count": 2,
    "permissions_human": [
