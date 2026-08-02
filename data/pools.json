@@ -1,17 +1,17 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-02T01:15:34Z",
- "new_pools_24h": 97,
- "new_pools_7d": 932,
- "unique_hook_contracts": 2661,
+ "generated_at": "2026-08-02T02:15:34Z",
+ "new_pools_24h": 103,
+ "new_pools_7d": 942,
+ "unique_hook_contracts": 2664,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 403.90984168232,
-   "pct_24h": -4.504,
-   "vol_24h_usd": 242512.292149401,
-   "liquidity_usd": 795299.762,
+   "price_usd": 426.43137358008,
+   "pct_24h": 23.751,
+   "vol_24h_usd": 209279.258093351,
+   "liquidity_usd": 819774.1503,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,10 +19,10 @@
   {
    "ticker": "SWING",
    "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
-   "price_usd": 0.00632770253732384,
-   "pct_24h": 24.249,
-   "vol_24h_usd": 175933.328144277,
-   "liquidity_usd": 260030.2599,
+   "price_usd": 0.00644488502421835,
+   "pct_24h": 11.829,
+   "vol_24h_usd": 161631.42454179,
+   "liquidity_usd": 266720.3864,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -30,10 +30,10 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.286655517172282,
-   "pct_24h": 3.191,
-   "vol_24h_usd": 7232.7094700489,
-   "liquidity_usd": 251562.3077,
+   "price_usd": 0.296378318886791,
+   "pct_24h": 8.94,
+   "vol_24h_usd": 7400.6283205031,
+   "liquidity_usd": 256279.2889,
    "liq_class": "deep",
    "vol_class": "low",
    "stale_hours": 0
@@ -47,7 +47,7 @@
    "liquidity_usd": 2225909.135,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 1
+   "stale_hours": 2
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 92091.2199,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 5
+   "stale_hours": 6
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 37007.0278,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 29
+   "stale_hours": 30
   }
  ],
  "top_pools": []
