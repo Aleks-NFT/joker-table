@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-02T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25666813. Tokens: 0x5353e96beeb09704b955f0f9a4563d39923a7b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x35b9fdbbf31aae4c9af6f16e760cc2200f994bd3f49f9322300bf99bb371203e"
+  },
+  {
+   "ts": "2026-08-02T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25666712. Tokens: 0x18084fba666a33d37592fa2633fd49a74dd93a88 / 0x2ddae59d2917b3d77ff2d95bd604eed914052100. Fee:...",
+   "url": "https://etherscan.io/tx/0x09987566b96cc5d3bcab3a0fde8af83e82c8783517812ec36f028a5b2b485090"
+  },
+  {
+   "ts": "2026-08-02T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-02T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-02T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-02T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-02T11:46:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "brianfurryan opened PR #1 in Allele-V4-Hooks: 'fix: compilation errors, access control, and wire up reproduction/crossover'",
+   "url": "https://github.com/brianfurryan/Allele-V4-Hooks/pull/1"
+  },
+  {
    "ts": "2026-08-02T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "governance",
    "text": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (35 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $47,429,133   #2 USDC / USDT — $37,395,311   #3 PYUSD / USDS — $9,719,345   #4 ne...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "DAI / USDT 0.007% volume surged 162% to $5,195,069 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% TVL shrank 49% to $684,396",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "nes / USDC 0.01% volume surged 142% to $9,298,239 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "PYUSD / USDS volume dropped 83% to $9,719,345 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $1,567,486 24h volume, $1,770,323 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
-  },
-  {
-   "ts": "2026-08-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: ENA / USDC 0.3% — $1,750,242 24h volume, $3,418,135 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x8c52de694f5a4ce27ea85fe4bc47e08d22c5dfb5f9b38b2a63765ed52cd3b147"
   }
  ]
 }
