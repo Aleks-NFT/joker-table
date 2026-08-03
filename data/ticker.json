@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-03T06:00:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "antifragile-floor-hook updated README (sha d842437)",
+   "url": "https://github.com/ToanPham247/antifragile-floor-hook/blob/main/README.md"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672292. Tokens: 0x0000000000000000000000000000000000000000 / 0xa3cce2c3f91811b1e72d73bccd48f8c3daeba36b. Fee:...",
+   "url": "https://etherscan.io/tx/0xbec845e2be0480e2ee5ffa6d6a3e2736cab8415730f991652c4ac51c696103cc"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672186. Tokens: 0x0000000000000000000000000000000000000000 / 0xf006cf678ff5b4e2ede405f93007309c4f008cd5. Fee:...",
+   "url": "https://etherscan.io/tx/0x0b1ff74ce52e573bccec4c0ad0fc75f92e119acb32bbae492c27e877976d08b6"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672166. Tokens: 0x0000000000000000000000000000000000000000 / 0x1f238c6d15bd74de01c427e5874fc244ebbfe39f. Fee:...",
+   "url": "https://etherscan.io/tx/0xd132aa8bb5429cc76b776870a2b4f007750c512b0c4ea042b409683af2197322"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672110. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xc30c158e087806af7ada53273893e71a36701d91. Fee:...",
+   "url": "https://etherscan.io/tx/0x99f46077f42837604135855d9694928257af9a111a796a1e0e13f5e4f92cc50b"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672083. Tokens: 0xac0bdd78b1a1305a63593a8acafba98b661160a3 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xaa56d44f42f885f600d21b6fb0eef790227cbf9aab1b1e457013eab846756644"
+  },
+  {
+   "ts": "2026-08-03T06:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25672036. Tokens: 0x0000000000000000000000000000000000000000 / 0x45728dc7b8ad37fa6033f9d4ffe1cb93c6cc7f6a. Fee:...",
+   "url": "https://etherscan.io/tx/0x21161edc6b80e2816a5a64db752fb68b124c8aac466c481d8f025205f6e6a704"
+  },
+  {
+   "ts": "2026-08-03T05:57:54Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #82 in programmable: 'fix(release): attest Vercel sensitive runtime metadata'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/82"
+  },
+  {
+   "ts": "2026-08-03T05:57:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #81 in programmable: 'Polish Create and profile workspace'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/81"
+  },
+  {
+   "ts": "2026-08-03T05:49:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #80 in programmable: 'fix(data-pipeline): attest final candidate backups'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/80"
+  },
+  {
+   "ts": "2026-08-03T05:22:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #78 in programmable: 'fix(read-model): attest indexed market health'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/78"
+  },
+  {
+   "ts": "2026-08-03T05:16:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "dependabot[bot] opened PR #79 in programmable: 'ci: bump the actions group with 2 updates'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/79"
+  },
+  {
    "ts": "2026-08-03T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -126,90 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: voladelta/discovery-box-hook — 0★ — Discovery Box is a Uniswap v4 mechanism where users trade assets unopened or consume them for u...",
    "url": "https://github.com/voladelta/discovery-box-hook"
-  },
-  {
-   "ts": "2026-08-03T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: kerim-devs/launch-throttle — 0★ — A transparent Uniswap v4 launch-rate hook for Programmable.",
-   "url": "https://github.com/kerim-devs/launch-throttle"
-  },
-  {
-   "ts": "2026-08-03T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: goat-corporation/v4-strategy-hook — 0★ — Customizable Uniswap v4 fee, buyback and burn hook for Programmable launches",
-   "url": "https://github.com/goat-corporation/v4-strategy-hook"
-  },
-  {
-   "ts": "2026-08-03T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: ToanPham247/antifragile-floor-hook — 0★ — Antifragile Floor: a Uniswap v4 hook with a self-funded, monotonic on-chain price floor (...",
-   "url": "https://github.com/ToanPham247/antifragile-floor-hook"
-  },
-  {
-   "ts": "2026-08-03T03:08:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #77 in programmable: 'Polish the Programmable web experience'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/77"
-  },
-  {
-   "ts": "2026-08-03T02:00:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "HydeEcosystem updated README (sha 08d58e9)",
-   "url": "https://github.com/ryjin111/HydeEcosystem/blob/main/README.md"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670980. Tokens: 0x0000000000000000000000000000000000000000 / 0x70dd81fba580da6a333ad5e3ebf17715a938f4b5. Fee:...",
-   "url": "https://etherscan.io/tx/0x0c4b2320620289d2debffe75160b384836d3eb7f089bbc4869491eb90d051c70"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670922. Tokens: 0x0000000000000000000000000000000000000000 / 0x93012c9b43b260029035d6bdfd3a428f36be4eba. Fee:...",
-   "url": "https://etherscan.io/tx/0x681915e7691ba3fda845bbf027799988e470dd75d969890f958a59d741051ba4"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670846. Tokens: 0x0000000000000000000000000000000000000000 / 0x3c1d104913b84e8020147c1743c2b54679debb95. Fee:...",
-   "url": "https://etherscan.io/tx/0x97cda5f92cb7941e514fb9d6510071aa455203991e4cbd9e94fdd56c2183a6a3"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670840. Tokens: 0x0000000000000000000000000000000000000000 / 0x77a33be7df9f1b0723c34bb984cb33ef9d459c02. Fee:...",
-   "url": "https://etherscan.io/tx/0xc68a201084cfc48cf4fa28cba021eb871dd993e153cf2f2a8db6a130a0dd91ae"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670757. Tokens: 0x0000000000000000000000000000000000000000 / 0x93c5d5f12bcdc0fb7a3539547306d4b58b6da19f. Fee:...",
-   "url": "https://etherscan.io/tx/0xd2f781e23227facff727f507efde5b3ae221ce6bc40aae40db4155e5e40a5b60"
-  },
-  {
-   "ts": "2026-08-03T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25670726. Tokens: 0x0000000000000000000000000000000000000000 / 0xbd379c3fd8a1e54f1af7588828c8f36681f444c0. Fee:...",
-   "url": "https://etherscan.io/tx/0x906489b2f74bd5557aebbce07a9bba0cd4ccb1ba3104aad0253ea27a958ce3f8"
-  },
-  {
-   "ts": "2026-08-03T01:40:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "ryjin111 merged PR #10 in HydeEcosystem: 'Update V5 availability, fee claims, and indexing'",
-   "url": "https://github.com/ryjin111/HydeEcosystem/pull/10"
   }
  ]
 }
