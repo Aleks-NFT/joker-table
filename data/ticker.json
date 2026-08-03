@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-03T08:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54991123. Tokens: 0x8f187aa05619a017077f5308904739877ce9ea21 / 0x9b782dc2b2d20982b17c021692f832ec5b...",
+   "url": "https://uniscan.xyz/tx/0xcf6eaba5c4eba9e4a0f8c1fc892ba9a7b094c045800d881acd08abaa038d52f7"
+  },
+  {
    "ts": "2026-08-03T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 54986610. Tokens: 0x775970261062dc3baa5c8cbd420ff83b96353333 / 0x8f187aa05619a017077f5308904739877c...",
    "url": "https://uniscan.xyz/tx/0x48c9814d3be47ea181df3b715b88167aea722e426675a5737c2cb8c8eaf28f19"
-  },
-  {
-   "ts": "2026-08-03T06:13:26Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #82 in programmable: 'fix(release): attest Vercel sensitive runtime metadata'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/82"
   }
  ]
 }
