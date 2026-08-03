@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-03T06:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54987001. Tokens: 0x8a6294fdb590dca3fb9d6ea7c74567efd1df3333 / 0x8f187aa05619a017077f5308904739877c...",
+   "url": "https://uniscan.xyz/tx/0x66139707456f79615a49ac7dd6707311554834fea7c9135021ba924f66868852"
+  },
+  {
+   "ts": "2026-08-03T06:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54986610. Tokens: 0x775970261062dc3baa5c8cbd420ff83b96353333 / 0x8f187aa05619a017077f5308904739877c...",
+   "url": "https://uniscan.xyz/tx/0x48c9814d3be47ea181df3b715b88167aea722e426675a5737c2cb8c8eaf28f19"
+  },
+  {
    "ts": "2026-08-03T06:00:12Z",
    "suit": "club",
    "source": "github",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: Gomathi1806/lexifi-contracts — 0★ — Lexifi — Uniswap V4 compliance hook contracts (Base mainnet)",
    "url": "https://github.com/Gomathi1806/lexifi-contracts"
-  },
-  {
-   "ts": "2026-08-03T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: ToanPham247/harberger-amm-hook — 0★ — Harberger AMM: a Uniswap v4 hook applying Harberger (always-for-sale) taxation to custodied l...",
-   "url": "https://github.com/ToanPham247/harberger-amm-hook"
-  },
-  {
-   "ts": "2026-08-03T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voladelta/discovery-box-hook — 0★ — Discovery Box is a Uniswap v4 mechanism where users trade assets unopened or consume them for u...",
-   "url": "https://github.com/voladelta/discovery-box-hook"
   }
  ]
 }
