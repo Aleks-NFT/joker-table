@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-03T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25670454. Tokens: 0x0000000000000000000000000000000000000000 / 0x693d88c648fd5085879a9eace52281d7f0ad5b57. Fee:...",
+   "url": "https://etherscan.io/tx/0xc88d1873f1823015a32383c1b88e4f7a286ac338be57d677fb4ff6d28a1a48f0"
+  },
+  {
+   "ts": "2026-08-02T22:55:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "nullerout closed PR #73 in programmable: 'New model: Toll — time-weighted dynamic sell fees'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/73"
+  },
+  {
    "ts": "2026-08-02T22:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #71 in programmable: 'Bind staged runtime to release commit'",
    "url": "https://github.com/0xprogrammable/programmable/pull/71"
-  },
-  {
-   "ts": "2026-08-02T18:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54943700. Tokens: 0x193ea3317a5d0494d6d42b9ec6a057ed595d7b07 / 0x4200000000000000000000000000000000...",
-   "url": "https://uniscan.xyz/tx/0x11d46e6ffdfa3a5f3b7648cbe123be46beaaa98436d574281184642fe4072ba3"
-  },
-  {
-   "ts": "2026-08-02T18:02:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "goat-corporation opened PR #70 in programmable: '[Builder Beta] v4-strategy-hook'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/70"
   }
  ]
 }
