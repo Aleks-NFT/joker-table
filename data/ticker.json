@@ -2,11 +2,39 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-03T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25673614. Tokens: 0x0000000000000000000000000000000000000000 / 0x8b8a0490e5b757f7860c7bf71fd64b0568acec8b. Fee:...",
+   "url": "https://etherscan.io/tx/0xa8228cd273f7783c200d60bd234b937e18ad796f799ede27a5e2d193e1fe8730"
+  },
+  {
+   "ts": "2026-08-03T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25673236. Tokens: 0x0000000000000000000000000000000000000000 / 0x1bf9a75d05c031606b78b56267be41e08151aae7. Fee:...",
+   "url": "https://etherscan.io/tx/0x1a2fc512ac5464a4e44a0906b11b2e93cf755c28ea4e21511b19c0c3cebdf8af"
+  },
+  {
+   "ts": "2026-08-03T09:14:25Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #88 in programmable: 'Fix cutover lease lock role'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/88"
+  },
+  {
    "ts": "2026-08-03T08:30:02Z",
    "suit": "spade",
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 54991123. Tokens: 0x8f187aa05619a017077f5308904739877ce9ea21 / 0x9b782dc2b2d20982b17c021692f832ec5b...",
    "url": "https://uniscan.xyz/tx/0xcf6eaba5c4eba9e4a0f8c1fc892ba9a7b094c045800d881acd08abaa038d52f7"
+  },
+  {
+   "ts": "2026-08-03T08:12:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #87 in programmable: 'fix(release): attest sensitive stream secret'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/87"
   },
   {
    "ts": "2026-08-03T08:00:02Z",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #85 in programmable: 'fix: verify Vercel production alias directly'",
    "url": "https://github.com/0xprogrammable/programmable/pull/85"
-  },
-  {
-   "ts": "2026-08-03T06:37:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #83 in programmable: 'fix(release): pass bypass to indexed capture'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/83"
-  },
-  {
-   "ts": "2026-08-03T06:37:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #84 in programmable: 'fix(release): pass bypass to indexed capture'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/84"
-  },
-  {
-   "ts": "2026-08-03T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54987001. Tokens: 0x8a6294fdb590dca3fb9d6ea7c74567efd1df3333 / 0x8f187aa05619a017077f5308904739877c...",
-   "url": "https://uniscan.xyz/tx/0x66139707456f79615a49ac7dd6707311554834fea7c9135021ba924f66868852"
-  },
-  {
-   "ts": "2026-08-03T06:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 54986610. Tokens: 0x775970261062dc3baa5c8cbd420ff83b96353333 / 0x8f187aa05619a017077f5308904739877c...",
-   "url": "https://uniscan.xyz/tx/0x48c9814d3be47ea181df3b715b88167aea722e426675a5737c2cb8c8eaf28f19"
   }
  ]
 }
