@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-03T12:15:35Z",
+ "generated_at": "2026-08-03T13:15:34Z",
  "new_pools_24h": 83,
  "new_pools_7d": 917,
  "unique_hook_contracts": 2700,
@@ -8,10 +8,10 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 740.229631307266,
-   "pct_24h": 41.894,
-   "vol_24h_usd": 736688.999773776,
-   "liquidity_usd": 1120280.5436,
+   "price_usd": 722.356452784422,
+   "pct_24h": 28.659,
+   "vol_24h_usd": 726304.663161474,
+   "liquidity_usd": 1089283.552,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,10 +19,10 @@
   {
    "ticker": "SWING",
    "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
-   "price_usd": 0.00747450025091454,
-   "pct_24h": -15.418,
-   "vol_24h_usd": 256258.997684429,
-   "liquidity_usd": 290262.9362,
+   "price_usd": 0.00747482390248289,
+   "pct_24h": -18.057,
+   "vol_24h_usd": 278405.540197631,
+   "liquidity_usd": 290833.9007,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -30,10 +30,10 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.337517581456162,
-   "pct_24h": 2.692,
-   "vol_24h_usd": 17537.3161066835,
-   "liquidity_usd": 267183.105,
+   "price_usd": 0.33740120784117,
+   "pct_24h": 5.536,
+   "vol_24h_usd": 17834.246068103,
+   "liquidity_usd": 264378.4998,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0
@@ -47,7 +47,7 @@
    "liquidity_usd": 2210101.6962,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 16
+   "stale_hours": 17
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 92091.2199,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 40
+   "stale_hours": 41
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 37007.0278,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 17
+   "stale_hours": 18
   }
  ],
  "top_pools": []
