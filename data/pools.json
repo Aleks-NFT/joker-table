@@ -1,19 +1,30 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-03T01:15:34Z",
- "new_pools_24h": 68,
- "new_pools_7d": 923,
- "unique_hook_contracts": 2683,
+ "generated_at": "2026-08-03T02:15:44Z",
+ "new_pools_24h": 61,
+ "new_pools_7d": 917,
+ "unique_hook_contracts": 2688,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 711.580874405559,
-   "pct_24h": 76.173,
-   "vol_24h_usd": 411275.840194701,
-   "liquidity_usd": 1113352.2226,
+   "price_usd": 689.552051500085,
+   "pct_24h": 65.857,
+   "vol_24h_usd": 427115.0448637,
+   "liquidity_usd": 1065226.618,
    "liq_class": "deep",
    "vol_class": "high",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SATO",
+   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
+   "price_usd": 0.308079270671891,
+   "pct_24h": 1.47,
+   "vol_24h_usd": 12006.8930547088,
+   "liquidity_usd": 260048.9312,
+   "liq_class": "deep",
+   "vol_class": "mid",
    "stale_hours": 0
   },
   {
@@ -25,18 +36,7 @@
    "liquidity_usd": 315763.6798,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 0
-  },
-  {
-   "ticker": "SATO",
-   "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.325435806593492,
-   "pct_24h": 13.529,
-   "vol_24h_usd": 11390.7404345599,
-   "liquidity_usd": 265912.7397,
-   "liq_class": "deep",
-   "vol_class": "mid",
-   "stale_hours": 0
+   "stale_hours": 1
   },
   {
    "ticker": "01",
@@ -47,7 +47,7 @@
    "liquidity_usd": 2210101.6962,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 5
+   "stale_hours": 6
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 92091.2199,
    "liq_class": "mid",
    "vol_class": "mid",
-   "stale_hours": 29
+   "stale_hours": 30
   },
   {
    "ticker": "LODE",
@@ -69,7 +69,7 @@
    "liquidity_usd": 37007.0278,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 6
+   "stale_hours": 8
   }
  ],
  "top_pools": []
