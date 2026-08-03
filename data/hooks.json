@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-03T21:15:35Z",
- "total_hooks": 2726,
- "total_pools": 9418,
+ "generated_at": "2026-08-03T22:15:34Z",
+ "total_hooks": 2729,
+ "total_pools": 9427,
  "multi_pool_hooks": 262,
  "shown": 262,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 795,
+   "pool_count": 798,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25676536,
-   "last_deploy": "2026-08-03T20:00:02Z",
+   "last_block": 25676887,
+   "last_deploy": "2026-08-03T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -679,7 +679,7 @@
    "first_block": 25404400,
    "last_block": 25626452,
    "last_deploy": "2026-07-27T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -1893,6 +1893,31 @@
    "visible": false
   },
   {
+   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "address_short": "0xb8d9…e0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "pool_count": 11,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25676343,
+   "last_block": 25676775,
+   "last_deploy": "2026-08-03T22:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x01ace8bc990270fbb742b27892b149a7f0e71000",
    "address_short": "0x01ac…1000",
    "name": "SaturnOmnichainV4Hook",
@@ -2916,31 +2941,6 @@
    "last_block": 25374725,
    "last_deploy": "2026-06-22T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "address_short": "0xb8d9…e0cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 8,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25676343,
-   "last_block": 25676606,
-   "last_deploy": "2026-08-03T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
