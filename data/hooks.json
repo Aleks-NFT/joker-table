@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-03T19:15:35Z",
- "total_hooks": 2717,
- "total_pools": 9394,
- "multi_pool_hooks": 261,
- "shown": 261,
+ "generated_at": "2026-08-03T20:15:26Z",
+ "total_hooks": 2726,
+ "total_pools": 9418,
+ "multi_pool_hooks": 262,
+ "shown": 262,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 789,
+   "pool_count": 795,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25675671,
-   "last_deploy": "2026-08-03T18:00:02Z",
+   "last_block": 25676536,
+   "last_deploy": "2026-08-03T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 752,
+   "pool_count": 754,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25675332,
-   "last_deploy": "2026-08-03T16:00:02Z",
+   "last_block": 25676537,
+   "last_deploy": "2026-08-03T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -2919,6 +2919,31 @@
    "visible": false
   },
   {
+   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "address_short": "0xb8d9…e0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "pool_count": 8,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25676343,
+   "last_block": 25676606,
+   "last_deploy": "2026-08-03T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x8f29bd5c8429730fa4c46e6295c4e679ededd0cc",
    "address_short": "0x8f29…d0cc",
    "name": "AegisHook",
@@ -3296,7 +3321,7 @@
    "first_block": 25194721,
    "last_block": 25626155,
    "last_deploy": "2026-07-27T20:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
