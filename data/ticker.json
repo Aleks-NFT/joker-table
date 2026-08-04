@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681908. Tokens: 0x0000000000000000000000000000000000000000 / 0x3d27cc43e387c106c2a544ef67956781b02f41be. Fee:...",
+   "url": "https://etherscan.io/tx/0x9f87c6905f2ece6b86e0694d87d791d37f65e52d6854fa0381f7eb125c8f9908"
+  },
+  {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681861. Tokens: 0x0000000000000000000000000000000000000000 / 0xfb7286605e9c593be663404e44415b718aa364a1. Fee:...",
+   "url": "https://etherscan.io/tx/0xe952bc460c3a82dc664f018e9978dd9b4ad9ce99adc34ab9f26661bc4dcdbe75"
+  },
+  {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681821. Tokens: 0x1e40c8daba3955165a2afc7744af9e00808edb07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x40b985e8a2c4975c9aa3dfa75326a639c651c6f7e148e91e235f8a48f00f101d"
+  },
+  {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681650. Tokens: 0x0000000000000000000000000000000000000000 / 0x7f02d5a01ce23b01ab4170a69589fb9f33de589c. Fee:...",
+   "url": "https://etherscan.io/tx/0xbe8d2b37b5568554740d9d79eba536fd38a9e3f67782b64b25721c57b1c59c0c"
+  },
+  {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681618. Tokens: 0x0000000000000000000000000000000000000000 / 0x8bf29d36832852faab96910dac59b531c757a93a. Fee:...",
+   "url": "https://etherscan.io/tx/0xf3357475b899a73493beed53ca6f7e985de0ca589e462c8a198583c75b96c292"
+  },
+  {
+   "ts": "2026-08-04T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25681508. Tokens: 0x0000000000000000000000000000000000000000 / 0x16e3dcdd5d0e004a3ab62b5ef5b34618ca9156c1. Fee:...",
+   "url": "https://etherscan.io/tx/0xb293a86fbfbca17d8e78a00ecf8f276a8be04ff8022adffd2e30ec43da382986"
+  },
+  {
+   "ts": "2026-08-04T13:47:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "voladelta opened PR #112 in programmable: '[Builder Beta] bankroll-hook'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/112"
+  },
+  {
    "ts": "2026-08-04T12:00:05Z",
    "suit": "club",
    "source": "github",
@@ -161,55 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #109 in programmable: 'Polish earnings, docs, and Explore data'",
    "url": "https://github.com/0xprogrammable/programmable/pull/109"
-  },
-  {
-   "ts": "2026-08-04T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25679947. Tokens: 0x0000000000000000000000000000000000000000 / 0xce02846f8697844f472aec325e0a00081d7d9cf4. Fee:...",
-   "url": "https://etherscan.io/tx/0x9e1bbb9e46a49adc9381c6f6884cb4ebdb6f9ec3afdbe713711a96569a20a6c3"
-  },
-  {
-   "ts": "2026-08-04T07:35:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #108 in programmable: 'Polish live token and profile experience'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/108"
-  },
-  {
-   "ts": "2026-08-04T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Hooknomics: Shares link to an X article",
-   "url": "https://x.com/Hooknomics/status/2084303893866168453"
-  },
-  {
-   "ts": "2026-08-04T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@saucepoint: Opens beta for usebench.dev free cloud machines for coding agents accessible from any device with preconfigs, ssh, tmux",
-   "url": "https://x.com/saucepoint/status/2084357300429709715"
-  },
-  {
-   "ts": "2026-08-04T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@saucepoint: Describes usebench.dev as for developers wanting terminal access or freedom from always-on laptop",
-   "url": "https://x.com/saucepoint/status/2084357615262240965"
-  },
-  {
-   "ts": "2026-08-04T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@saucepoint: Shares more invite codes for beta: 3AV9YADH L86QHES5 4BJ9ZKKV",
-   "url": "https://x.com/saucepoint/status/2084420184849146089"
-  },
-  {
-   "ts": "2026-08-04T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Posts \"Hearing it's Uniswap Hook summer\"",
-   "url": "https://x.com/lo0pio/status/2084182164657013093"
   }
  ]
 }
