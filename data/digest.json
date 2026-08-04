@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-04",
+   "narrative": {
+    "en": "The machine that deals the day's narrative seized up—service too busy, a cold shoulder from the oracle. So the five cards sit on the green felt, numbered and waiting for the next shuffle. The table doesn't pause for a dead mouth. Builders are now setting the toll for swapping at either nothing or the ceiling, skipping the usual market rate. That is not randomness; that is architecture. The revenue is not taken at the counter but through a side door, through the hook—a deliberate economic hand. This is not an organic token launch; this is a scheme laid out before the first chip falls. I don't chase action in thin pools—that's noise, not signal. But the pattern on the felt speaks: in seven days the count clears 791. The likely landing sits between 480 and 1234, and I give the over 57%.",
+    "zh": "今日传信的侠客被困在风雪里，那台会说话的机器忙得闭了口。消息未至，五条线索已收在怀中，只等下一程风起。江湖不因一人失语而停歇。有人在池边立了规矩：过路钱要么分文不取，要么高得离谱，偏不走寻常行情。这不是粗心，是布阵。内力不从明处换手，偏从暗门里走——借那个钓钩，把灵药引向自家丹炉。这不像种子落地自然发芽，倒像先画好图再动土。深水浅水，各有人投石，但浅滩的涟漪，我不当作信号。"
+   },
+   "take": {
+    "en": "The quiet day hides a deliberate hand: builders are designing pools not for casual trade but for controlled extraction through the back door—so watch the architecture, not the volume.",
+    "zh": "今日无字，却有局：修池者不图过路费，意在暗门取利——此乃布阵，非市井买卖。"
+   }
+  },
+  {
    "date": "2026-08-02",
    "narrative": {
     "en": "The table changed tonight, and most eyes are still on the wrong cards. The builders who came to the felt are not running the usual opening — they are setting the house rake at zero or at the ceiling, then taking their true toll through a side door that the crowd only notices after the chips have moved. That is not the nervous fumble of a token launch; that is a player who has already read the deck and decided exactly where the edge lives. I have seen this tell before: when the public terms look absurd, the private terms are where the game is actually played. The noise on the floor will call it erratic; I call it a settled hand being played slowly, with absolute patience. Under this felt, deliberate design always outlasts enthusiasm. So watch the count, not the chatter — the ledger will say what the loud mouths cannot. In seven nights the count breaches 557; the wheel will come to rest somewhere between 447 and 1148, and I lay the over at 57%. Those are the only numbers that matter. The rest is just atmosphere.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
     "zh": "建造者正在部署非标准兑换费的池子——要么零费率，要么最高档——而不是常见的市场费率，这表明他们有意通过钩子合约而不是兑换来获取收入，这不是一次普通的代币发行。"
-   }
-  },
-  {
-   "date": "2026-07-17",
-   "narrative": {
-    "en": "The evening of July 17th saw the same hook contract—0x96b8...fe0cc—run two identical deals with different tokens. Both pools at zero fee, tick spacing 200. First at block 25548686, second at 25548692. Six blocks apart. Someone clearly testing the mechanics on a couple of different assets, but with the same set of parameters. No liquidity, just initialization. Then the real fireworks hit at block 25548709. One token 0x00009de46ef19cc00580e4855a6e3e4d8bcd8e2c and one hook contract 0x1111...b9000. Ten pools. Ten fee tiers from 1 to 50 basis points. Each with its own tick spacing—from 1 to 1000. Someone fanned the deck. Every possible configuration for one pair. No doubt—this isn't chance, it's a measurement. Someone wanted to see how the router would behave when choosing among ten pools identical in tokens but different in fees. The hooks are likely just collecting statistics or emulating dynamic fees. 81 blocks later, another pattern. Same handwriting, different contract: 0xdf0a...1000. Three pools for token 0x3572...164c. Fees 100, 200, 500. Tick spacings 1, 2, 10. Again a series, again without liquidity. Someone methodically seeding the field. None of these pools have been touched—no swaps, no additions. Pure markup. What is this? Preparation for launching hooks with dynamic rules. Testing routing. Or just someone with a large gas budget deciding to see how many pools can be created in one block. The deck is being shuffled, but the cards haven't been dealt yet.",
-    "zh": "7月17日晚，同一个hooks合约——0x96b8...fe0cc——用两个不同的代币做了两笔一模一样的部署。两个池子都是零费率，tickSpacing 200。第一个在区块25548686，第二个在25548692，相隔六个区块。显然有人在用同一套参数测试不同资产上的机制。没有流动性，只是初始化。真正的烟花在区块25548709绽放。一个代币0x00009de46ef19cc00580e4855a6e3e4d8bcd8e2c和一个hooks合约0x1111...b9000。十个池子。十个从1到50基点的费率档位，每个对应不同的tickSpacing——从1到1000。有人把牌摊开了。同一对代币的所有可能配置。毫无疑问——这不是偶然，是一次测量。有人想看看路由器在面对十个代币相同但费率不同的池子时会如何选择。hooks很可能只是在收集统计数据或模拟动态费率。81个区块后，又一个模式。同样的笔迹，不同的合约：0xdf0a...1000。代币0x3572...164c的三个池子。费率100、200、500。tickSpacing 1、2、10。又是一系列部署，同样没有流动性。有人在有条不紊地播种。这些池子至今无人触碰——没有交换，没有添加。纯粹是标记。这是什么？为启动带动态规则的hooks做准备。测试路由。或者只是某个gas充裕的人想看看一个区块内能创建多少个池子。牌在洗，但还没发。"
-   },
-   "take": {
-    "en": "A single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
-    "zh": "单个hooks合约正以远超典型部署者的速度连续部署池子。"
    }
   }
  ]
