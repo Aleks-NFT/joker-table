@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-04T14:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 55102100. Tokens: 0x212956e0607a7045c992fc2d91865ef005f43333 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x60d25991da75af51e781d891bb71242235050fed017bfddde6d384fc0be43f1a"
+  },
+  {
    "ts": "2026-08-04T14:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25680395. Tokens: 0x3cff0e88cf9fe91fb6ecb92bec4945952c2daf6d / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
    "url": "https://etherscan.io/tx/0x1223d227e04c8d70a6e7f7d9c378114d6a5501bd2ee3754f5b1894694ceea2e6"
-  },
-  {
-   "ts": "2026-08-04T09:15:59Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #109 in programmable: 'Polish earnings, docs, and Explore data'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/109"
   }
  ]
 }
