@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-04T04:15:44Z",
+ "generated_at": "2026-08-04T05:15:35Z",
  "total_hooks": 2747,
  "total_pools": 9469,
  "multi_pool_hooks": 263,
@@ -1531,8 +1531,8 @@
   {
    "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
    "address_short": "0xb8d9…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "ConfigurableKlikHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
    "pool_count": 15,
    "permissions_human": [
@@ -2804,8 +2804,8 @@
   {
    "address": "0x276223c8658b08937a937b711ce38e1715da0080",
    "address_short": "0x2762…0080",
-   "name": "",
-   "verified": false,
+   "name": "Uni20Hook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x276223c8658b08937a937b711ce38e1715da0080",
    "pool_count": 9,
    "permissions_human": [
