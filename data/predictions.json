@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 20,
+  "hit": 21,
   "miss": 22,
-  "open": 4,
-  "hit_rate": 0.476
+  "open": 3,
+  "hit_rate": 0.488
  },
  "items": [
   {
@@ -44,8 +44,8 @@
    "text": "Over the next seven days, the count clears 63; the likely landing sits between 63 and 63, and I give the over about 55%. What is happening: a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
    "horizon_days": 7,
    "resolve_after": "2026-08-04",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +63 on metric pools_by_hook reached.",
    "phase": "v2"
   },
   {
