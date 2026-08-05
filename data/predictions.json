@@ -4,10 +4,20 @@
   "total": 50,
   "hit": 21,
   "miss": 22,
-  "open": 3,
+  "open": 4,
   "hit_rate": 0.488
  },
  "items": [
+  {
+   "id": 51,
+   "made_at": "2026-08-05",
+   "text": "Over the next seven days the count clears 5; the likely landing sits between 5 and 5, and I give the over about 55%. What is happening: a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-12",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 50,
    "made_at": "2026-08-04",
@@ -494,16 +504,6 @@
    "text": "Within seven days, at least one of the zero-fee pools deployed on block 25297090 will see its first swap, triggered by a hook-based strategy rather than organic flow.",
    "horizon_days": 7,
    "resolve_after": "2026-06-19",
-   "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify.",
-   "phase": "v1"
-  },
-  {
-   "id": 1,
-   "made_at": "2026-06-11",
-   "text": "Within seven days, the hook contract at 0x9963ad53742fb596bc9c1ae5178d850b05d10144 will execute its first non-trivial call—either a fee override or a liquidity rebalance—revealing the pool's intended strategy.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-18",
    "status": "void",
    "resolution_note": "Voided manually — event-based, too old to verify.",
    "phase": "v1"

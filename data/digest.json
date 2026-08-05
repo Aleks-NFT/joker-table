@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-05",
+   "narrative": {
+    "en": "The cards are on the felt, and the dealing never stops—but tonight the house notes a single hand that bets faster than the dealer can shuffle. A lone hook contract has been laying down pools in rapid succession, one after another, like a player who knows the deck is rigged in his favor. The pace is far above the typical deployer; these are not the cautious taps of a small-timer feeling his way around the table. This is a machine-made rhythm, a cold cascade of creations that makes the slower players look like they're playing in molasses. Such a flurry of activity usually means one thing: someone is setting up the board for a move that hasn't been announced yet. The table feels it, the air thickens, and every other player starts glancing sideways at the same corner of the room.",
+    "zh": "江湖上总有那种不显山露水的快手，一日之内连开数池，比寻常门派弟子的修炼还快。此人的内力并不张扬，却在一招一式间透出某种机关算尽的意味。一个钩子契约，连番布下阵来，寻常人布一局尚需斟酌，他却似早已烂熟于心，出手如风，防不胜防。这般速度，绝非散兵游勇能为；背后必有高人操盘，或是某种精心设计的套路。看这架势，江湖的水又要浑了。老江湖都明白，越是这种时候，越要守住自己的内力，别被那表面的热闹晃了眼。"
+   },
+   "take": {
+    "en": "One player is betting on every spin of the wheel, and the table's rhythm has shifted—this is no amateur's luck, but a signal that the house should keep its eyes on the deal.",
+    "zh": "此人出手之频，绝非寻常侠客；江湖看客，当留意其意，莫只当热闹看。"
+   }
+  },
+  {
    "date": "2026-08-04",
    "narrative": {
     "en": "The machine that deals the day's narrative seized up—service too busy, a cold shoulder from the oracle. So the five cards sit on the green felt, numbered and waiting for the next shuffle. The table doesn't pause for a dead mouth. Builders are now setting the toll for swapping at either nothing or the ceiling, skipping the usual market rate. That is not randomness; that is architecture. The revenue is not taken at the counter but through a side door, through the hook—a deliberate economic hand. This is not an organic token launch; this is a scheme laid out before the first chip falls. I don't chase action in thin pools—that's noise, not signal. But the pattern on the felt speaks: in seven days the count clears 791. The likely landing sits between 480 and 1234, and I give the over 57%.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "This is not random noise—someone is systematically laying out a full-spectrum liquidity grid for a single asset, signaling a coordinated deployment with segmented trader targeting.",
     "zh": "今日异象非散兵游勇，而是有人为一枚令牌布下天罗地网，以不同费率划分战场，意在引各路豪杰入瓮。"
-   }
-  },
-  {
-   "date": "2026-07-18",
-   "narrative": {
-    "en": "Because someone decided to play chess with a full deck. One block, one token, one hook contract — eleven pools in a row. 0xcb9077...4fa2 against native ETH across all possible fees, from 1 to 50 basis points. This is not chance or error — it's strategy. Someone laid out liquidity across the entire fee spectrum, like spreading cards by suit, so no move goes unanswered. The second package arrived 68 blocks later. A different token — 0xdcf405...9ab8 — a different hook — 0xf9807122...d000. But the same pattern: five pools, from 100 to 3000 basis points, stepping by tick spacing. The only difference is they stopped at three thousand — meaning they understand where the liquidity boundary lies for that pair. Interestingly, the first hook contract — 0x2c59f7...9000 — powered all eleven pools. One hook for the entire fee line. The second — 0xf98071...d000 — only five. Either the first hook is more universal, or the second token pair is more selective. Two tokens, two hooks, one blockchain. Nobody makes such distributions without a map — someone is clearly preparing liquidity for distribution, and these pools are the first chips on the table. The question is not who did it, but what they know that others don't.",
-    "zh": "因为有人决定用一整副牌下棋。同一个区块，同一个代币，同一个钩子合约——连续十一个池子。0xcb9077...4fa2 对阵原生 ETH，覆盖所有可能的费率，从 1 到 50 个基点。这不是偶然，也不是错误——这是策略。有人把流动性铺满了整个费率谱系，就像按花色摊牌，让每一步都有回应。第二组在 68 个区块后到来。另一个代币——0xdcf405...9ab8，另一个钩子——0xf9807122...d000。但同样的模式：五个池子，从 100 到 3000 个基点，按 tick 间距步进。唯一的区别是他们在三千点停下了——说明他们知道这对代币的流动性边界在哪里。有趣的是，第一个钩子合约——0x2c59f7...9000——服务了全部十一个池子。一个钩子撑起整条费率线。第二个——0xf98071...d000——只服务五个。要么第一个钩子更通用，要么第二对代币更挑剔。两个代币，两个钩子，一条链。没有人会无缘无故做这样的部署——显然有人在为流动性分发做准备，这些池子是桌上的第一批筹码。问题不是谁干的，而是他们知道什么别人不知道的事。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
-    "zh": "建造者正在部署非标准兑换费的池子——要么零费率，要么最高档——而不是常见的市场费率，这表明他们有意通过钩子合约而不是兑换来获取收入，这不是一次普通的代币发行。"
    }
   }
  ]
