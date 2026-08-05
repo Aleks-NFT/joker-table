@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-05T10:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 55175780. Tokens: 0x0f00d2ceb0cde8c4c1df526fcc2f468ccd033333 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x67914e37b73cbf4ef5e3aaf938a123db8652d4078815a6de59e0323a4c4bde9a"
+  },
+  {
    "ts": "2026-08-05T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'Add animated landing and unified market topbar (#133)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/b211b90f398e0126b128107711a34903198d8ab9"
-  },
-  {
-   "ts": "2026-08-05T06:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25686755. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xd438e1bbe6408354af1b0c092b0d5f544ade7d0f. Fee:...",
-   "url": "https://etherscan.io/tx/0x1df122016cc8f3c69a35be0b0d50f28a908ed690de1ce379f9a114157d9c03d9"
   }
  ]
 }
