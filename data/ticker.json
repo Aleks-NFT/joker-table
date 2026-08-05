@@ -2,11 +2,95 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-05T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25688562. Tokens: 0x0000000000000000000000000000000000000000 / 0xf4983fc05bae26f6211a2088ca3489b6e70d6757. Fee:...",
+   "url": "https://etherscan.io/tx/0xddfe48c367315accf8193252c13d2ffb40b93c6580b296db9ef8d0622c943c3b"
+  },
+  {
+   "ts": "2026-08-05T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25688526. Tokens: 0x0000000000000000000000000000000000000000 / 0x7434a3e78397be557ea280ab135d78400bb582f0. Fee:...",
+   "url": "https://etherscan.io/tx/0xb72630949a055ba51e4bdef6a83ac5308ff3a515a2b3843f6ee8f95806cef5df"
+  },
+  {
+   "ts": "2026-08-05T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25688359. Tokens: 0x0000000000000000000000000000000000000000 / 0x6c066c38b3335efef3bd5d35a11254c9cad70aad. Fee:...",
+   "url": "https://etherscan.io/tx/0xb47f914e09e727eb968fae1633795c771cbb43f206c7ff78c4a8638fa10689bd"
+  },
+  {
+   "ts": "2026-08-05T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25688078. Tokens: 0x71f5f6291a813c441872a16fd5280bda7e332b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x976fdf4fb43351a8b79f49962f7e5ec4f751615f9f7f54064ec6a06610efc21a"
+  },
+  {
+   "ts": "2026-08-05T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-05T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-05T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-05T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-05T11:03:51Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #138 in programmable: 'Enlarge landing support links'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/138"
+  },
+  {
+   "ts": "2026-08-05T11:03:51Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Enlarge landing support links (#138)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/94334a1205c11a2f77d6c727dc2c49d9251a91d4"
+  },
+  {
    "ts": "2026-08-05T10:30:02Z",
    "suit": "spade",
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 55175780. Tokens: 0x0f00d2ceb0cde8c4c1df526fcc2f468ccd033333 / 0x4200000000000000000000000000000000...",
    "url": "https://uniscan.xyz/tx/0x67914e37b73cbf4ef5e3aaf938a123db8652d4078815a6de59e0323a4c4bde9a"
+  },
+  {
+   "ts": "2026-08-05T10:20:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #137 in programmable: 'Simplify landing navigation and tighten app topbar'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/137"
+  },
+  {
+   "ts": "2026-08-05T10:20:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Simplify landing navigation and tighten app topbar (#137)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/8f9ccc20a367a4323688dd6a3eb95f21ace5ad24"
   },
   {
    "ts": "2026-08-05T10:00:02Z",
@@ -126,90 +210,6 @@
    "source": "twitter",
    "text": "@lo0pio: Posts Hook summer with contract address ethereum:0x00000000000050806673b532d7486ac114c1de3f",
    "url": "https://x.com/lo0pio/status/2084692325683404953"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Posts DeFi Summer 2.0",
-   "url": "https://x.com/lo0pio/status/2084793238305566966"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: States future of DeFi is more productive capital via Uniswap v4 Hooks for new financial primitives",
-   "url": "https://x.com/lo0pio/status/2084797353102307561"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@unipegv4: Posts about a new terrain for on-chain collectibles",
-   "url": "https://x.com/unipegv4/status/2084610626215649315"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@UniswapBuilders: States Pons is shipping",
-   "url": "https://x.com/UniswapBuilders/status/2084721129692729375"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Asks wait whats this about",
-   "url": "https://x.com/haydenzadams/status/2084701450509127893"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Notes gas costs are very different on L1 versus L2, where gas is usually marginal",
-   "url": "https://x.com/haydenzadams/status/2084800112736272397"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: States once a unicorn, always a unicorn",
-   "url": "https://x.com/Uniswap/status/2084712055630696504"
-  },
-  {
-   "ts": "2026-08-05T07:30:59Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: Announces that the countdown starts now for pools.trade",
-   "url": "https://x.com/Uniswap/status/2084678603812274275"
-  },
-  {
-   "ts": "2026-08-05T07:09:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #134 in programmable: 'Replace landing video with night-sky atmosphere'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/134"
-  },
-  {
-   "ts": "2026-08-05T07:09:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Replace landing video with night-sky atmosphere (#134)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/5ad84f6c7fd79145fd57f23eca339a5e7baeb63a"
-  },
-  {
-   "ts": "2026-08-05T06:17:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #133 in programmable: 'Add animated landing and unified market topbar'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/133"
-  },
-  {
-   "ts": "2026-08-05T06:17:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Add animated landing and unified market topbar (#133)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/b211b90f398e0126b128107711a34903198d8ab9"
   }
  ]
 }
