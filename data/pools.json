@@ -1,17 +1,17 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-05T09:15:39Z",
- "new_pools_24h": 125,
- "new_pools_7d": 991,
- "unique_hook_contracts": 2803,
+ "generated_at": "2026-08-05T10:15:35Z",
+ "new_pools_24h": 126,
+ "new_pools_7d": 993,
+ "unique_hook_contracts": 2806,
  "canonical": [
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 669.846915053448,
-   "pct_24h": -3.585,
-   "vol_24h_usd": 348185.453119787,
-   "liquidity_usd": 1106692.0853,
+   "price_usd": 668.312206746074,
+   "pct_24h": -3.217,
+   "vol_24h_usd": 348014.483020597,
+   "liquidity_usd": 1126240.7835,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,10 +19,10 @@
   {
    "ticker": "SWING",
    "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
-   "price_usd": 0.00687377114820092,
-   "pct_24h": -14.131,
-   "vol_24h_usd": 183779.790890769,
-   "liquidity_usd": 280539.9642,
+   "price_usd": 0.00633650528804364,
+   "pct_24h": -17.584,
+   "vol_24h_usd": 193206.771881298,
+   "liquidity_usd": 265781.2589,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -30,11 +30,11 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.289006701839979,
-   "pct_24h": -16.938,
-   "vol_24h_usd": 19409.8486513933,
-   "liquidity_usd": 249395.0091,
-   "liq_class": "mid",
+   "price_usd": 0.292421087280004,
+   "pct_24h": -15.935,
+   "vol_24h_usd": 19370.6860180851,
+   "liquidity_usd": 251732.9623,
+   "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -47,7 +47,7 @@
    "liquidity_usd": 1987304.698,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 37
+   "stale_hours": 38
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 164009.4812,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 19
+   "stale_hours": 20
   },
   {
    "ticker": "LODE",
