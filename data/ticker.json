@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-05T14:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 55186143. Tokens: 0x10f4fe6f477dff9f0bf89dc832817c0b209fdb07 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x72110c12a737c8914aa190904b1bcad3217104844e51563be55d76996915f1e9"
+  },
+  {
    "ts": "2026-08-05T14:00:03Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #137 in programmable: 'Simplify landing navigation and tighten app topbar'",
    "url": "https://github.com/0xprogrammable/programmable/pull/137"
-  },
-  {
-   "ts": "2026-08-05T10:20:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Simplify landing navigation and tighten app topbar (#137)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/8f9ccc20a367a4323688dd6a3eb95f21ace5ad24"
   }
  ]
 }
