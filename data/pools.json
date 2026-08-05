@@ -1,17 +1,28 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-05T16:15:45Z",
+ "generated_at": "2026-08-05T17:15:34Z",
  "new_pools_24h": 125,
  "new_pools_7d": 999,
  "unique_hook_contracts": 2816,
  "canonical": [
   {
+   "ticker": "01",
+   "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
+   "price_usd": 0.973684857016228,
+   "pct_24h": 10.164,
+   "vol_24h_usd": 860766.002097474,
+   "liquidity_usd": 2793374.9427,
+   "liq_class": "deep",
+   "vol_class": "high",
+   "stale_hours": 0
+  },
+  {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 582.73753768775,
-   "pct_24h": -21.725,
-   "vol_24h_usd": 326790.153449651,
-   "liquidity_usd": 1031008.0039,
+   "price_usd": 645.170586689856,
+   "pct_24h": -10.17,
+   "vol_24h_usd": 332812.510683012,
+   "liquidity_usd": 1098888.1502,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,11 +30,11 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.288342584507404,
-   "pct_24h": -2.155,
-   "vol_24h_usd": 12102.6917637945,
-   "liquidity_usd": 252563.8975,
-   "liq_class": "deep",
+   "price_usd": 0.28361974472144,
+   "pct_24h": -5.96,
+   "vol_24h_usd": 11650.2714539603,
+   "liquidity_usd": 248930.5092,
+   "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
@@ -39,17 +50,6 @@
    "stale_hours": 1
   },
   {
-   "ticker": "01",
-   "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
-   "price_usd": 0.91182636315494,
-   "pct_24h": -28.42,
-   "vol_24h_usd": 3154607.13049436,
-   "liquidity_usd": 1987304.698,
-   "liq_class": "deep",
-   "vol_class": "high",
-   "stale_hours": 44
-  },
-  {
    "ticker": "SLOP",
    "pool": "0xa40f7c9bf63bafe3d3bcd09066dabb6322e51bb9c4c4ae0e3c2758b4755031b5",
    "price_usd": 0.447989093108971,
@@ -58,7 +58,7 @@
    "liquidity_usd": 164009.4812,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 26
+   "stale_hours": 27
   },
   {
    "ticker": "LODE",
@@ -72,16 +72,5 @@
    "stale_hours": 70
   }
  ],
- "top_pools": [
-  {
-   "ticker": "SATOSHI",
-   "pool": "",
-   "price_usd": 0.296898742528888,
-   "pct_24h": 1.27,
-   "vol_24h_usd": 814.5557274205,
-   "liquidity_usd": 143803.4419,
-   "liq_class": "mid",
-   "vol_class": "low"
-  }
- ]
+ "top_pools": []
 }
