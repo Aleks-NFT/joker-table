@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-05T19:15:35Z",
- "total_hooks": 2822,
- "total_pools": 9640,
+ "generated_at": "2026-08-05T20:15:14Z",
+ "total_hooks": 2826,
+ "total_pools": 9645,
  "multi_pool_hooks": 265,
  "shown": 265,
  "more_count": 0,
@@ -202,7 +202,7 @@
    "name": "EthCreatorFeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
-   "pool_count": 231,
+   "pool_count": 232,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -216,8 +216,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25639700,
-   "last_block": 25690177,
-   "last_deploy": "2026-08-05T18:00:02Z",
+   "last_block": 25690556,
+   "last_deploy": "2026-08-05T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -4740,7 +4740,7 @@
    "first_block": 25640370,
    "last_block": 25640380,
    "last_deploy": "2026-07-29T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
