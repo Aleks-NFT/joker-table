@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-06T17:15:34Z",
- "total_hooks": 2862,
- "total_pools": 9821,
+ "generated_at": "2026-08-06T18:15:35Z",
+ "total_hooks": 2864,
+ "total_pools": 9828,
  "multi_pool_hooks": 266,
  "shown": 266,
  "more_count": 0,
@@ -181,7 +181,7 @@
    "name": "EthCreatorFeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
-   "pool_count": 242,
+   "pool_count": 246,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -195,8 +195,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25639700,
-   "last_block": 25696948,
-   "last_deploy": "2026-08-06T16:00:02Z",
+   "last_block": 25697340,
+   "last_deploy": "2026-08-06T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -3111,6 +3111,31 @@
    "visible": false
   },
   {
+   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "address_short": "0x8ff5…e0cc",
+   "name": "LiquidGuard",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "pool_count": 6,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25194721,
+   "last_block": 25697191,
+   "last_deploy": "2026-08-06T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xd0414f6c84f0361aede126ad25872b1cd73ceacc",
    "address_short": "0xd041…eacc",
    "name": "FarmHook",
@@ -3296,31 +3321,6 @@
    "first_block": 25161306,
    "last_block": 25242757,
    "last_deploy": "2026-06-08T19:22:10Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "address_short": "0x8ff5…e0cc",
-   "name": "LiquidGuard",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "pool_count": 5,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25194721,
-   "last_block": 25626155,
-   "last_deploy": "2026-07-27T20:00:03Z",
    "active": false,
    "visible": false
   },
