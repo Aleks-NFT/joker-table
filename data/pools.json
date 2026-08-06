@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-06T02:15:44Z",
+ "generated_at": "2026-08-06T03:15:34Z",
  "new_pools_24h": 113,
  "new_pools_7d": 981,
  "unique_hook_contracts": 2848,
@@ -8,10 +8,21 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 546.953016034744,
-   "pct_24h": -22.368,
-   "vol_24h_usd": 431659.069971818,
-   "liquidity_usd": 1015836.2694,
+   "price_usd": 554.585835138725,
+   "pct_24h": -18.584,
+   "vol_24h_usd": 447466.592121466,
+   "liquidity_usd": 1012063.8272,
+   "liq_class": "deep",
+   "vol_class": "high",
+   "stale_hours": 0
+  },
+  {
+   "ticker": "SWING",
+   "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
+   "price_usd": 0.0078587734122654,
+   "pct_24h": 3.473,
+   "vol_24h_usd": 179174.827174674,
+   "liquidity_usd": 308605.5063,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,24 +30,13 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.260668215752093,
-   "pct_24h": -13.725,
-   "vol_24h_usd": 7216.7839100738,
-   "liquidity_usd": 245494.8953,
-   "liq_class": "mid",
+   "price_usd": 0.288824291151081,
+   "pct_24h": -0.045,
+   "vol_24h_usd": 9286.1921974815,
+   "liquidity_usd": 254717.171,
+   "liq_class": "deep",
    "vol_class": "low",
    "stale_hours": 0
-  },
-  {
-   "ticker": "SWING",
-   "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
-   "price_usd": 0.00757493685890939,
-   "pct_24h": 9.858,
-   "vol_24h_usd": 169646.5491463,
-   "liquidity_usd": 302194.2555,
-   "liq_class": "deep",
-   "vol_class": "high",
-   "stale_hours": 1
   },
   {
    "ticker": "01",
@@ -47,7 +47,7 @@
    "liquidity_usd": 2779109.4678,
    "liq_class": "deep",
    "vol_class": "high",
-   "stale_hours": 6
+   "stale_hours": 7
   },
   {
    "ticker": "SLOP",
@@ -58,7 +58,7 @@
    "liquidity_usd": 159470.6432,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 6
+   "stale_hours": 7
   },
   {
    "ticker": "LODE",
