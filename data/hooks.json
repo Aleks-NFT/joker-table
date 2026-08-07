@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-07T04:15:34Z",
+ "generated_at": "2026-08-07T05:15:35Z",
  "total_hooks": 2887,
  "total_pools": 9877,
  "multi_pool_hooks": 267,
@@ -777,8 +777,8 @@
   {
    "address": "0x13c890c58330f0a2af26bef7989389638c1080cc",
    "address_short": "0x13c8…80cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x13c890c58330f0a2af26bef7989389638c1080cc",
    "pool_count": 16,
    "permissions_human": [
@@ -3879,8 +3879,8 @@
   {
    "address": "0xc5c72b770396050c088bbc111b1a448ec3dce0cc",
    "address_short": "0xc5c7…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "EthCreatorFeeHookV3",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc5c72b770396050c088bbc111b1a448ec3dce0cc",
    "pool_count": 3,
    "permissions_human": [
