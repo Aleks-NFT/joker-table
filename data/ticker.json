@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-07T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25702031. Tokens: 0x0000000000000000000000000000000000000000 / 0x5f07267d67d44fce4224b9fadc4787eabdbbf680. Fee:...",
+   "url": "https://etherscan.io/tx/0x14b965f150c75fe2fa8b8d13690ae08ab10a79c6096e90ec010a191521ef3dd5"
+  },
+  {
+   "ts": "2026-08-07T09:44:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #162 in programmable: 'Custom Registry generation 2 release candidate'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/162"
+  },
+  {
+   "ts": "2026-08-07T09:11:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #161 in programmable: 'fix(custom-registry): bind Supabase pooler login'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/161"
+  },
+  {
+   "ts": "2026-08-07T09:11:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(custom-registry): bind Supabase pooler login (#161)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/8826501bc4954cdbb4ef991732c4210bb58fd0c3"
+  },
+  {
+   "ts": "2026-08-07T08:45:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #160 in programmable: 'fix(custom-registry): separate public read readiness'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/160"
+  },
+  {
+   "ts": "2026-08-07T08:45:43Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(custom-registry): separate public read readiness (#160)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/336cf2ab57ee5aaa714c0a3c944c5ed2faf0d455"
+  },
+  {
+   "ts": "2026-08-07T08:17:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #159 in programmable: 'fix(custom-registry): verify deployed runtime batch'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/159"
+  },
+  {
+   "ts": "2026-08-07T08:17:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(custom-registry): verify deployed runtime batch (#159)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/04363798d47082924043af14916186242dfef4c1"
+  },
+  {
    "ts": "2026-08-07T07:43:44Z",
    "suit": "club",
    "source": "github",
@@ -154,62 +210,6 @@
    "source": "twitter",
    "text": "@Hooknomics: Because SwingHook is built on #Hooknomics.",
    "url": "https://x.com/Hooknomics/status/2085333230862180477"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: https://x.com/i/article/2085369422680555520",
-   "url": "https://x.com/Uniswap/status/2085373188003827956"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Hooknomics: Swing.Hook: A New Way to SWAP on Uniswap",
-   "url": "https://x.com/Hooknomics/status/2085375271369355374"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Tomorrow, lo0p evolves. We've rebuilt core mechanics, redesigned the user experience, and refined how liquidity works. This is more than an update. ...",
-   "url": "https://x.com/lo0pio/status/2085377446275096586"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Uniswap: Uniswap is the number one DEX for stable ⇄ stable trading Arc is the chain purpose-built for stablecoins Ready on day one 🦄",
-   "url": "https://x.com/Uniswap/status/2085389888933790176"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@saucepoint: move your prompting to a VPS, it will change your life its free on http://usebench.dev",
-   "url": "https://x.com/saucepoint/status/2085436819408036319"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: DeFi doesn't need another launchpad. It needs better capital efficiency. Billions of dollars are already sitting inside liquidity pools. Uniswap v4 ...",
-   "url": "https://x.com/lo0pio/status/2085475202138300795"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Trading fees compound liquidity!",
-   "url": "https://x.com/haydenzadams/status/2085479017700897177"
-  },
-  {
-   "ts": "2026-08-07T07:32:10Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@haydenzadams: Two types of “sorcery” 1) LP fees auto compound liquidity 2) some launchpads thin the curve at low prices to make it easier for tokens to go u...",
-   "url": "https://x.com/haydenzadams/status/2085481396450005338"
   }
  ]
 }
