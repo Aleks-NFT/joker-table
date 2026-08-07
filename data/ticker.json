@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-07T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25700865. Tokens: 0x7357ae2e63526e4700ba91420cb3cda27e484088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x954713b3783cfaeee6fc8cb35297e10db543be44d992931ac84b6ee05fc92c01"
+  },
+  {
+   "ts": "2026-08-07T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25700756. Tokens: 0x0000000000000000000000000000000000000000 / 0xc51d1f8ed61a6f538bedbc594fe5fef9d4189327. Fee:...",
+   "url": "https://etherscan.io/tx/0x3d3c77a098c652d126fa00d83a1e787110d5fa900a3f3dc2e38b939d3ff2221c"
+  },
+  {
+   "ts": "2026-08-07T05:43:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #156 in programmable: 'Freeze nonce-bound Custom Registry deployment'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/156"
+  },
+  {
+   "ts": "2026-08-07T05:43:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Freeze nonce-bound Custom Registry deployment (#156)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/506d0402be496b128eb935e81aab33ea0456f820"
+  },
+  {
+   "ts": "2026-08-07T04:58:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #155 in programmable: 'Integrate the canonical Custom Registry read model'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/155"
+  },
+  {
+   "ts": "2026-08-07T04:36:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "voladelta opened PR #154 in programmable: '[Builder Beta] overtime-v1'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/154"
+  },
+  {
    "ts": "2026-08-07T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "wkoutre closed PR #37 in v4-hooks-public: 'chore(deps): update ai-toolkit reusable workflow SHAs to f43e9a2'",
    "url": "https://github.com/Uniswap/v4-hooks-public/pull/37"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699345. Tokens: 0x0000000000000000000000000000000000000000 / 0xae3c0977162a99b26aac0cc3a1a63d2b51b0df01. Fee:...",
-   "url": "https://etherscan.io/tx/0x7dfc865edd9da6432ae09962a12b1e1d0f4d765e66a5c22f71594cb6546d92f8"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699293. Tokens: 0x7f0f4c08b849d68b618c4ecb0bfb54121d04da8c / 0xdd5550dd4c6b22b9425a66a75380269e522b0fea. Fee:...",
-   "url": "https://etherscan.io/tx/0x69acc394bcda8e534f028a7b11a1fcfc6e4b9fd745e6aaf3edc815b60c083d1e"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699293. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd5550dd4c6b22b9425a66a75380269e522b0fea. Fee:...",
-   "url": "https://etherscan.io/tx/0x69acc394bcda8e534f028a7b11a1fcfc6e4b9fd745e6aaf3edc815b60c083d1e"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699283. Tokens: 0x6efa0940e917467a4385aecd37a3e29c482a3598 / 0xd93678b31b03e78ba1f1d887d6c5b92ad550ed14. Fee:...",
-   "url": "https://etherscan.io/tx/0xdb426d7763c79ebce11b9c7d39073b5b190ce5578aa3b65dd2be4c53a33f2589"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699283. Tokens: 0x0000000000000000000000000000000000000000 / 0xd93678b31b03e78ba1f1d887d6c5b92ad550ed14. Fee:...",
-   "url": "https://etherscan.io/tx/0xdb426d7763c79ebce11b9c7d39073b5b190ce5578aa3b65dd2be4c53a33f2589"
-  },
-  {
-   "ts": "2026-08-07T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25699273. Tokens: 0x04d924be4d774fff7d153ec822ed61a425d7d13a / 0x5d4f41644fd0befbfe2728496ce9e740af5e7d91. Fee:...",
-   "url": "https://etherscan.io/tx/0x53c2364e347dd4b67d2e71d4625a50eb8787fe1f2be96a52f05ee65be309b577"
   }
  ]
 }
