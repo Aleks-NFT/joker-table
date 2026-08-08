@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-08T05:15:35Z",
- "total_hooks": 2926,
- "total_pools": 9960,
+ "generated_at": "2026-08-08T06:15:34Z",
+ "total_hooks": 2931,
+ "total_pools": 9976,
  "multi_pool_hooks": 272,
  "shown": 272,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 854,
+   "pool_count": 864,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25703392,
-   "last_deploy": "2026-08-07T14:00:02Z",
+   "last_block": 25708234,
+   "last_deploy": "2026-08-08T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -637,7 +637,7 @@
    "name": "UniswapV4KEMHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
-   "pool_count": 24,
+   "pool_count": 25,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -648,8 +648,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25124485,
-   "last_block": 25682456,
-   "last_deploy": "2026-08-04T16:00:02Z",
+   "last_block": 25707973,
+   "last_deploy": "2026-08-08T06:00:02Z",
    "active": true,
    "visible": false
   },
