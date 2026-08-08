@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-08T04:15:34Z",
+ "generated_at": "2026-08-08T05:15:35Z",
  "total_hooks": 2926,
  "total_pools": 9960,
  "multi_pool_hooks": 272,
@@ -3734,8 +3734,8 @@
   {
    "address": "0x2494d3d872a99b7b055304692454a226879de888",
    "address_short": "0x2494…e888",
-   "name": "",
-   "verified": false,
+   "name": "OraclePricingHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x2494d3d872a99b7b055304692454a226879de888",
    "pool_count": 3,
    "permissions_human": [
@@ -5423,8 +5423,8 @@
   {
    "address": "0xb216070c3509047ea597e2e626a29cea427a60c8",
    "address_short": "0xb216…60c8",
-   "name": "",
-   "verified": false,
+   "name": "GlueHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb216070c3509047ea597e2e626a29cea427a60c8",
    "pool_count": 2,
    "permissions_human": [
