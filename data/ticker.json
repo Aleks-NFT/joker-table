@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-08T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25712163. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xffff640eb6758de1fb1673e4deca911f00e43960. Fee:...",
+   "url": "https://etherscan.io/tx/0xe4fe03d6f9b713a36e6444d4a8da68b6312dde6f09b4e40e933e8b2f96de553f"
+  },
+  {
+   "ts": "2026-08-08T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25712113. Tokens: 0x0000000000000000000000000000000000000000 / 0x89804e96e16f8c703cf2fae665dfb6a257272af7. Fee:...",
+   "url": "https://etherscan.io/tx/0x232e76e641d4435b61b9c3fa6874d9a75c8b988a4aae1e71e2f817538fa8bec7"
+  },
+  {
+   "ts": "2026-08-08T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25712077. Tokens: 0xda6a067d9435a28549d75dd459c0016911c26e54 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0xdfe60ee04e9f8d464cd024a4d1714956d8aa1d06aa7e94e5702929fefa80ca39"
+  },
+  {
+   "ts": "2026-08-08T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25712076. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xda6a067d9435a28549d75dd459c0016911c26e54. Fee:...",
+   "url": "https://etherscan.io/tx/0x254704f72079e5016d4e37a98a7ab67bb442dce480dd989be3a88f665e6c7a6f"
+  },
+  {
+   "ts": "2026-08-08T20:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25711906. Tokens: 0x0000000000000000000000000000000000000000 / 0xfef844502ce2f29038eb874bc727cdc4d9b9fab0. Fee:...",
+   "url": "https://etherscan.io/tx/0x478b89508b2a163a911f03e55255e2dc60bcddc528bf8dfb6d3f5d9c56547a00"
+  },
+  {
    "ts": "2026-08-08T18:30:02Z",
    "suit": "spade",
    "source": "unichain",
@@ -175,41 +210,6 @@
    "source": "github",
    "text": "impetus82 pushed to il-aware-limit-order-hook: 'feat(scripts): script the missing Unichain pool-init + fork-test the price orientation (#25)'",
    "url": "https://github.com/impetus82/il-aware-limit-order-hook/commit/2a5516c6f06938d97d5c3fdaa64ea5ee3f35fbd5"
-  },
-  {
-   "ts": "2026-08-08T15:18:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 merged PR #24 in il-aware-limit-order-hook: 'chore(scripts): redeploy prep — recoverable Unichain router + keyless Base predictor'",
-   "url": "https://github.com/impetus82/il-aware-limit-order-hook/pull/24"
-  },
-  {
-   "ts": "2026-08-08T15:18:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 pushed to il-aware-limit-order-hook: 'chore(scripts): redeploy prep — recoverable Unichain router + keyless Base predictor (#24)'",
-   "url": "https://github.com/impetus82/il-aware-limit-order-hook/commit/984f25980ac4531ca93eb030fac7a4c84096eb24"
-  },
-  {
-   "ts": "2026-08-08T14:31:15Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 merged PR #23 in il-aware-limit-order-hook: 'fix(hook): measured-receipt on deposit (LOW #4) + document rebate design (INFO #5)'",
-   "url": "https://github.com/impetus82/il-aware-limit-order-hook/pull/23"
-  },
-  {
-   "ts": "2026-08-08T14:31:15Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 pushed to il-aware-limit-order-hook: 'fix(hook): measured-receipt on deposit (LOW #4) + document rebate design (INFO #5) (#23)'",
-   "url": "https://github.com/impetus82/il-aware-limit-order-hook/commit/b453c066487ae7833c07738a9ef3c7aab5e82023"
-  },
-  {
-   "ts": "2026-08-08T14:25:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "scientivan opened PR #178 in programmable: '[Builder Beta] veritas'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/178"
   }
  ]
 }

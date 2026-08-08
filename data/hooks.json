@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-08T19:15:35Z",
- "total_hooks": 2959,
- "total_pools": 10054,
- "multi_pool_hooks": 304,
- "shown": 304,
+ "generated_at": "2026-08-08T20:15:34Z",
+ "total_hooks": 2963,
+ "total_pools": 10059,
+ "multi_pool_hooks": 305,
+ "shown": 305,
  "more_count": 0,
  "hooks": [
   {
@@ -4203,6 +4203,33 @@
    "first_block": 25700214,
    "last_block": 25708446,
    "last_deploy": "2026-08-08T08:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x0a71509dff50940945538b6c9137d26b1d4468a8",
+   "address_short": "0x0a71…68a8",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x0a71509dff50940945538b6c9137d26b1d4468a8",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "beforeDonate",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25712076,
+   "last_block": 25712077,
+   "last_deploy": "2026-08-08T20:00:02Z",
    "active": true,
    "visible": false
   },
