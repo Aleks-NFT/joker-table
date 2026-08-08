@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-08T18:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 55462191. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x8f1084f37b461e261e86b1dc421b749792f4d8282cef31826bd8c1df49986a5a"
+  },
+  {
    "ts": "2026-08-08T18:00:35Z",
    "suit": "club",
    "source": "github",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "scientivan opened PR #178 in programmable: '[Builder Beta] veritas'",
    "url": "https://github.com/0xprogrammable/programmable/pull/178"
-  },
-  {
-   "ts": "2026-08-08T14:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25710602. Tokens: 0x0000000000000000000000000000000000000000 / 0x4163e09cf66c5f61924dde5f3d21cbcafa0650b0. Fee:...",
-   "url": "https://etherscan.io/tx/0x09bdf624e655b835b02c6047cfb5cde30776bd8aa77d4a8f2522602d9c955000"
   }
  ]
 }
