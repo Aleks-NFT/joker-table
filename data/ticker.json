@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-09T12:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25716831. Tokens: 0x0000000000000000000000000000000000000000 / 0x0e6f10392f09882a36e93fa7c18d7d94b4b8d049. Fee:...",
+   "url": "https://etherscan.io/tx/0x8cd7c65409cc197f67d014cdfb2d9d4b293be743713dea07d0a0a40d1ac72e80"
+  },
+  {
+   "ts": "2026-08-09T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-09T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-09T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-09T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
    "ts": "2026-08-09T08:46:04Z",
    "suit": "club",
    "source": "github",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25715004. Tokens: 0x0000000000000000000000000000000000000000 / 0x9d2023b738b50fef9ad004de87ff909841c67101. Fee:...",
    "url": "https://etherscan.io/tx/0x0623be0d24eabd649e46ff42f04e8a03aed68ec6dd061bd1b33d734d5445c22d"
-  },
-  {
-   "ts": "2026-08-09T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $53,028,992   #2 PYUSD / USDS — $24,910,659   #3 USDC / USDT — $22,448,348   #4 F...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-08-09T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDG / USDC 0.008% TVL grew 39% to $840,741",
-   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
-  },
-  {
-   "ts": "2026-08-09T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / USDC 0.01% TVL shrank 87% to $1,189,761",
-   "url": "https://www.geckoterminal.com/eth/pools/0x00b9edc1583bf6ef09ff3a09f6c23ecb57fd7d0bb75625717ec81eed181e22d7"
-  },
-  {
-   "ts": "2026-08-09T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% TVL shrank 74% to $799,810",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-08-09T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% volume dropped 88% to $1,697,358 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
   }
  ]
 }
