@@ -4,10 +4,20 @@
   "total": 50,
   "hit": 22,
   "miss": 23,
-  "open": 2,
+  "open": 3,
   "hit_rate": 0.489
  },
  "items": [
+  {
+   "id": 52,
+   "made_at": "2026-08-09",
+   "text": "Over the next seven days the count clears 27; the likely landing sits between 18 and 317, and I give the over about 64%. What I'm watching is the behavior behind it: builders are deploying pools where the hook contract sets the swap fee in real time, so the house rake becomes a live economic decision, not a fixed rule.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-16",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 51,
    "made_at": "2026-08-05",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-20",
    "status": "hit",
    "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 2,
-   "made_at": "2026-06-12",
-   "text": "Within seven days, at least one of the zero-fee pools deployed on block 25297090 will see its first swap, triggered by a hook-based strategy rather than organic flow.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-19",
-   "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify.",
    "phase": "v1"
   }
  ]

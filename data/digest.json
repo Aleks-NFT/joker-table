@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-09",
+   "narrative": {
+    "en": "Eight new tables opened overnight on the same floor, from block 25713151 to 25714230—a gap of less than a thousand blocks, as if the croupier changed every few minutes. Uniswap V4 hooks are no longer simple fixed-commission pools; these are tables with their own house rules wired directly into a separate contract. Seven of the eight pairs put native ether or WETH across from another token—classic play: one card face-up, one face-down.",
+    "zh": "一夜之间，同一楼层又添了八张桌子。从 25713151 到 25714230，相差不到一千个区块，仿佛庄家每隔几分钟就换一次人。Uniswap V4 的钩子不再是固定抽水的池子，而是每张桌子都有自己的规矩，写在独立合约里。八张牌里七张都摆着原生 ETH 或 WETH 对上另一枚令牌——底牌一张翻开，一张扣着，老江湖一眼就懂。"
+   },
+   "take": {
+    "en": "Eight bespoke tables in under a thousand blocks is a coordinated deal, not coincidence—and with no liquidity on the felt yet, the only honest read is that the chips are stacked and waiting for the first player to sit down.",
+    "zh": "八张牌同一时辰摆上桌面，说明有人在按图布阵；真正值得看的，是这些钩子底下各自藏了什么规矩。"
+   }
+  },
+  {
    "date": "2026-08-05",
    "narrative": {
     "en": "The cards are on the felt, and the dealing never stops—but tonight the house notes a single hand that bets faster than the dealer can shuffle. A lone hook contract has been laying down pools in rapid succession, one after another, like a player who knows the deck is rigged in his favor. The pace is far above the typical deployer; these are not the cautious taps of a small-timer feeling his way around the table. This is a machine-made rhythm, a cold cascade of creations that makes the slower players look like they're playing in molasses. Such a flurry of activity usually means one thing: someone is setting up the board for a move that hasn't been announced yet. The table feels it, the air thickens, and every other player starts glancing sideways at the same corner of the room.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "A single hook contract is deploying pools in rapid succession, far above the pace of typical deployers — someone is mapping the entire liquidity surface before the first trade lands.",
     "zh": "同一个钩子合约以远超普通部署者的速度批量铺池——有人在第一笔交易落地前，就把整个流动性地图摸透了。"
-   }
-  },
-  {
-   "date": "2026-07-19",
-   "narrative": {
-    "en": "The deal unfolds in layers. First, five pools with the same token inside ten minutes—only those with zero address. Contract 0x96b893683afbfec071e90f78d00de4bb932fe0cc stamps pairs with WETH at zero fee, tick spacing 200—typical markup for high-frequency trading or test runs. But the real firework starts at block 25563128. Token 0x30c3aa3b6010d18fc40ccf5c2103cf2207a84382. One issuer, one hook contract 0x0eddd960839444ddc68be768eba48b508136d000, and eleven pools with different fees. From 1 basis point to 50. Tick spacing from 1 to 100. This is no accident—someone is loading an entire grid of liquidity under one asset. A fan of fees: 100, 150, 200, 250, 500, 750, 1000, 2000, 3000, 5000. Each pool is a separate curve, a separate strategy. I watched from the start. First four pools with different tokens—standard distribution, nothing unusual. Then a hook on USDC/WETH with fee 30 basis points and tick spacing 60—classic, but a different contract, 0x85ecf88d5e6357630fc802ff2dcc2930d0e640c0. Then this massive salvo on one token. Curious that all pools with token 0x30c3aa3... use the same hook. Usually that's done when the hook manages dynamic fees or switching between strategies. But here fees are hardcoded at initialization. So either a test deployment for audit, or preparation for a major launch with different trader types. Each fee is its own segment: small swaps, arbitrage, long-term positions. All happened within one block. Someone clearly didn't want to wait. Or knew the window was narrow.",
-    "zh": "江湖上，今日暗流涌动。先有五个池子，同一令牌，十分钟内接连现身——全是零地址。合约0x96b893683afbfec071e90f78d00de4bb932fe0cc以零费率配对WETH，间距200——典型的快攻或试阵标记。但真正的风云起于区块25563128。令牌0x30c3aa3b6010d18fc40ccf5c2103cf2207a84382，单一掌门，单一钩子合约0x0eddd960839444ddc68be768eba48b508136d000，却布下十一个池子，费率从1到50个基点，间距从1到100。这不是巧合——有人在为一个令牌铺设完整的流动性网格。费率如扇面展开：100、150、200、250、500、750、1000、2000、3000、5000。每一池，一条曲线，一种心法。我从头看到尾。先是四个不同令牌的池子——寻常撒网，不足为奇。随后一个USDC/WETH的钩子池，费率30，间距60——经典套路，但钩子换成了0x85ecf88d5e6357630fc802ff2dcc2930d0e640c0。接着便是这一轮密集的令牌齐射。有趣的是，所有0x30c3aa3...的池子共用同一个钩子。通常，这般布置是为了动态费率或策略切换。但此处费率在开池时便已定死。所以，要么是审计前的试阵，要么是为大举进攻做准备——针对不同门派的交易者：小散、套利客、长线庄家。这一切发生在同一区块内。出手之人显然不愿等待，或是深知时机稍纵即逝。"
-   },
-   "take": {
-    "en": "This is not random noise—someone is systematically laying out a full-spectrum liquidity grid for a single asset, signaling a coordinated deployment with segmented trader targeting.",
-    "zh": "今日异象非散兵游勇，而是有人为一枚令牌布下天罗地网，以不同费率划分战场，意在引各路豪杰入瓮。"
    }
   }
  ]
