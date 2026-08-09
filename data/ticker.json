@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $53,028,992   #2 PYUSD / USDS — $24,910,659   #3 USDC / USDT — $22,448,348   #4 F...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.008% TVL grew 39% to $840,741",
+   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.01% TVL shrank 87% to $1,189,761",
+   "url": "https://www.geckoterminal.com/eth/pools/0x00b9edc1583bf6ef09ff3a09f6c23ecb57fd7d0bb75625717ec81eed181e22d7"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% TVL shrank 74% to $799,810",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% volume dropped 88% to $1,697,358 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume dropped 83% to $24,910,659 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: CDXR / ELEVATE 0.3% — $735,568 24h volume, $1,453,034 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb2929cee7cb2dd10ecb450ed2df3f7ff2c3c1ef76235dfc7b8ff642451917861"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: ELEVATE / GIVE 0.3% — $773,472 24h volume, $1,427,718 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb91f9f1de7d1049b9cb95d97fdc1340d35123890dcf19884def4ac6d94ced3ce"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: GULD / ELEVATE 0.3% — $832,376 24h volume, $1,869,547 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xfd89a241eecd9e1f35338f016d4b94b778ae3e5fb7d306a2ff95398fb91c15f3"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: GOOK / ETH 0.3% — $909,732 24h volume, $38,658 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x0ef57bfdab9d5aa9e0ea5504d9f615e8c0b7ac516efa5836e41501737754e00c"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $1,756,527 24h volume, $1,607,820 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
+   "ts": "2026-08-09T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: FWA / ETH — $3,272,921 24h volume, $1,044,019 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d"
+  },
+  {
    "ts": "2026-08-09T04:15:01Z",
    "suit": "spade",
    "source": "defillama",
@@ -126,90 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: voladelta/overtime-hook — 0★ — Overtime v1 — recurring leader-time game implemented as a Uniswap v4 fee-enforcing hook",
    "url": "https://github.com/voladelta/overtime-hook"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: HookPot/HookPot-V4 — 0★ — Open-source HookPot protocol contracts built with Uniswap v4 hooks on Robinhood Chain",
-   "url": "https://github.com/HookPot/HookPot-V4"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: glue-finance/GlueHook — 1★ — Uniswap V4 general purposes hook for automated LP compounding and buy back",
-   "url": "https://github.com/glue-finance/GlueHook"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: no-hive/priority_fee_pulse_hook — 0★ — Uniswap v4 hook to resist MEV using a time-weighted median priority fee. 100% on-chain math....",
-   "url": "https://github.com/no-hive/priority_fee_pulse_hook"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: unworthyslave2Christ/uniswapv4-hook-grants — 0★ — A repo hosting hooks to be proposed to obtain uniswap v4 hook grants",
-   "url": "https://github.com/unworthyslave2Christ/uniswapv4-hook-grants"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: 0xprogrammable/hookbuilder — 4★ — Evidence-first Agent Skill for building, reviewing, and submitting open-ended Uniswap v4 projects...",
-   "url": "https://github.com/0xprogrammable/hookbuilder"
-  },
-  {
-   "ts": "2026-08-09T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25714230. Tokens: 0x0000000000000000000000000000000000000000 / 0x7133756abb11fa7dc471ba775fb9816bdcea3de8. Fee:...",
-   "url": "https://etherscan.io/tx/0x0a70eb1bef51c37815f7e6fa05d28e70a45b449baba948d25a8e697ad2f7e8ba"
-  },
-  {
-   "ts": "2026-08-09T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25714120. Tokens: 0x0000000000000000000000000000000000000000 / 0x910851e90dfa1172407b5a8c4351fcffcc46ba11. Fee:...",
-   "url": "https://etherscan.io/tx/0xa8bd91badfef6668888aa28beb104470a7c96ac83bbfd8e48926fc0b93db9a7c"
-  },
-  {
-   "ts": "2026-08-09T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25714091. Tokens: 0x0000000000000000000000000000000000000000 / 0xcacd7a00043f2971332a5e04e8a65eb378269591. Fee:...",
-   "url": "https://etherscan.io/tx/0xcd0a7cfd1ef453cc73df197405619af26920b508da61ca44c795b688d86b67fa"
-  },
-  {
-   "ts": "2026-08-09T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25713792. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xd3524524bfc29dd4203c928718baad0750023b07. Fee:...",
-   "url": "https://etherscan.io/tx/0xc6fa67fda35c20252caaefd12ea9bcca6a136426ff8d8ab8a1c0a9a08af64058"
-  },
-  {
-   "ts": "2026-08-09T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25713758. Tokens: 0x0e397938c1aa0680954093495b70a9f5e2249aba / 0xffff02435daf094df5b84b02167e327603f4fe2c. Fee:...",
-   "url": "https://etherscan.io/tx/0x4e0657cd3c7636d2c17ef687953c950fcd20b8315e91b0d50ff3eb804e6ee371"
-  },
-  {
-   "ts": "2026-08-09T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25713623. Tokens: 0x0000000000000000000000000000000000000000 / 0x5df2976e948b4071176ffdfb5e42f14bcc72ffa3. Fee:...",
-   "url": "https://etherscan.io/tx/0x0905e824e29b8d8d262359f1705bfdc4bc767a5f6a246af6bf9660eedeafb86a"
-  },
-  {
-   "ts": "2026-08-09T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25713437. Tokens: 0x0000000000000000000000000000000000000000 / 0x69ab046a5f60967d0a58f5833ec9ae6284a4a4b0. Fee:...",
-   "url": "https://etherscan.io/tx/0x82fde906069ba8d6f675ee923128b3e02d5e70c43f21154a7c75c6373d2113bb"
   }
  ]
 }
