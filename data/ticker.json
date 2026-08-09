@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-09T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25715004. Tokens: 0x0000000000000000000000000000000000000000 / 0x9d2023b738b50fef9ad004de87ff909841c67101. Fee:...",
+   "url": "https://etherscan.io/tx/0x0623be0d24eabd649e46ff42f04e8a03aed68ec6dd061bd1b33d734d5445c22d"
+  },
+  {
    "ts": "2026-08-09T04:30:01Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: Hybridthegamer/Undertow — 0★ — LVR-recapture Uniswap v4 launch hook — a Programmable Custom Hook Hookathon submission",
    "url": "https://github.com/Hybridthegamer/Undertow"
-  },
-  {
-   "ts": "2026-08-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voladelta/overtime-hook — 0★ — Overtime v1 — recurring leader-time game implemented as a Uniswap v4 fee-enforcing hook",
-   "url": "https://github.com/voladelta/overtime-hook"
   }
  ]
 }
