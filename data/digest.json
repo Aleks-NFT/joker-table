@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-10",
+   "narrative": {
+    "en": "The night dealt thirteen fresh tables on V4, and every one of them opened with the house taking nothing. Zero fee is not generosity—it is the quiet before the deal, when the vig moves from the trader to the hook itself. The developers know how to palm a deck: a contract-hook replacing the standard fee mechanism is a joker that rewrites the rule of the game.\n\nI noticed the pattern: ffff addresses repeat like one player sitting down at different masks—0xffffef45, 0xffff1b3b, 0xffffe511. Pairs with native ether and with WBTC are classic high cards, yet the spacing between ticks jumps from 60 to 200, as if the dealer cannot decide how tight to pull the range. One hook—0x0d6252...—showed up twice, on different pairs. Either this is a pool factory, or somebody loves their own code enough to stake it again and again.\n\nWhile tables were opening on-chain, the programmable project was quietly changing clothes on GitHub. Three pull requests overnight: two documentation redesigns in a row—first broad, then narrow, repo-specific—and a fix for validating sensitive environment variables. README was updated right after the third merge, commit 5661c41 closed the hand. The order says it all: first patch the hole in secret validation, then polish the shop window. That is the standard sequence for someone preparing to show the project to a new audience—an investor, an auditor, the world.\n\nNone of this shouts. Thirteen pools with zero fee and a tidied-up documentation shelf are not fireworks; they are the table being set before big players sit down. The night is quiet, but the cards are already laid.",
+    "zh": "一夜之间，V4江湖开了十三张新桌，几乎每张桌上都写着“不收份子钱”。费率为零不是豪爽，是悄悄换了个收法——真正的进账不来自过路客，而来自那枚藏在桌底的钩子。做局的人懂怎么把牌藏在袖口：用一个合约钩子替掉常规的收费规矩，等于把游戏规则整个翻新了一遍。\n\n我看出点名堂：ffff开头的地址反复出现，像是同一个玩家换了面具坐到不同桌上——0xffffef45、0xffff1b3b、0xffffe511。配的是原生以太和WBTC，都是经典的压箱底筹码，可区间间隔从60跳到200，仿佛庄家自己都没定夺该把网撒多紧。有一枚钩子，0x0d6252...，在两张不同的桌上亮了相。要么这是家专门开池的作坊，要么就是有人太爱自己的手艺，翻来覆去地使。\n\n链上摆桌的同时，GitHub上那个programmable门派也悄悄换了行头。一夜三个改动：两次文档改版——先是全局，后是门派专属；一次修补密钥环境变量的校验。第三次合并之后立刻更新了README，commit 5661c41收尾。顺序说明一切：先堵住漏气的地方，再擦亮招牌。这是准备给新人看货的标准动作——投资人、审计师、或是整个江湖。\n\n这些都不张扬。十三个零费池子加一排干净的文档，不是烟火，是摆好桌子等大客入座。夜很静，但牌已经铺开了。"
+   },
+   "take": {
+    "en": "The house is not giving anything away—it is changing the rules of the vig, and the real fee will be collected from the hook, not the player.",
+    "zh": "江湖没有白送的茶钱——不过是从台前改到了台后，真正要收的，还是从钩子里掏。"
+   }
+  },
+  {
    "date": "2026-08-09",
    "narrative": {
     "en": "Eight new tables opened overnight on the same floor, from block 25713151 to 25714230—a gap of less than a thousand blocks, as if the croupier changed every few minutes. Uniswap V4 hooks are no longer simple fixed-commission pools; these are tables with their own house rules wired directly into a separate contract. Seven of the eight pairs put native ether or WETH across from another token—classic play: one card face-up, one face-down.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Fifteen pools in one block, same hook, full fee spectrum — someone is building a liquidity machine, not placing a single bet.",
     "zh": "一个块里连开十五池，同一钩子，全费率——有人不是在落子，是在布阵。"
-   }
-  },
-  {
-   "date": "2026-07-20",
-   "narrative": {
-    "en": "The deal's on the table, and it's not a single hand — it's a full spread laid out over two blocks. First, at block 25570320, a lone pool appears: WETH paired with token 0x5db9da52, zero fee, tick spacing 200, hook 0x0d6252. A single order, like a scout before the storm. Then, nine blocks later, the avalanche. Same hook contract 0x843795, same token 0xa407d3 against WETH. Fifteen pools, fees ranging from a base hundred to thirty thousand. Tick spacing crawls from 1 to 600. Someone is systematically testing the entire liquidity field: they want to know where density will bite, where slippage eats profit, where the hook intercepts the flow. This isn't random. It's a systemic deal: the operator lays out a spectrum of fees like a fan of cards. The question is what token 0xa407d3 is. If it's a new asset, someone is preparing the ground for deep liquidity. If it's an old one, it's a strategy reset. Note: none of these pools have volume yet. It's just a skeleton — the bones on which trade meat will grow. The first pool, with zero fee and wide spacing, might be for arbitrage routes. The rest for retail flow with varying tolerance for transaction cost. The deck is dealt. Now we watch who makes the first move.",
-    "zh": "牌局已开，但这不是一手牌——而是两个区块内铺开的整副牌。先是25570320区块，一个孤零零的池子：WETH配0x5db9da52代币，零费率，tick间距200，钩子0x0d6252。单笔挂单，像暴风雨前的斥候。九块之后，雪崩来了。同一个钩子合约0x843795，同一个代币0xa407d3对WETH。十五个池子，费率从基础一百到三万不等。tick间距从1爬到600。有人在系统性地测试整个流动性场：他们想知道哪里密度会咬人，哪里滑点吃掉利润，哪里钩子截住水流。这不是碰运气。这是系统性的布局：操盘手像扇牌一样铺开费率谱。问题是0xa407d3是什么代币。如果是新资产，有人在为深度 liquidity 铺路。如果是老资产，那就是策略重启。注意：这些池子都还没有成交量。只是骨架——日后交易血肉附着的骨骼。第一个零费率宽间距的池子，可能是为套利路径准备的。其余的是为不同交易成本容忍度的散户流准备的。牌已发完。现在看谁先出招。"
-   },
-   "take": {
-    "en": "A single hook contract is deploying pools in rapid succession, far above the pace of typical deployers — someone is mapping the entire liquidity surface before the first trade lands.",
-    "zh": "同一个钩子合约以远超普通部署者的速度批量铺池——有人在第一笔交易落地前，就把整个流动性地图摸透了。"
    }
   }
  ]
