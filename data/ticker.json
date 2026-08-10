@@ -2,6 +2,83 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-10T12:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25724298. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xffff1222a1542546010413e942551bb870912131. Fee:...",
+   "url": "https://etherscan.io/tx/0xb8b27fd1419b8ddbec2f87b67599845e3e7f94125f14f4ba0001815caf0a389e"
+  },
+  {
+   "ts": "2026-08-10T11:54:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #198 in programmable: 'Add exact nested-factory launch stamp Router V2'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/198"
+  },
+  {
+   "ts": "2026-08-10T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-10T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-10T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-10T11:50:01Z",
+   "suit": "spade",
+   "source": "project",
+   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
+   "url": null
+  },
+  {
+   "ts": "2026-08-10T11:36:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #197 in programmable: 'Bind Website to Shards manual Router authority'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/197"
+  },
+  {
+   "ts": "2026-08-10T11:36:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Bind Website to Shards manual Router authority (#197)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/92f654f4325662e16ff206fe08f15870e30d8804"
+  },
+  {
+   "ts": "2026-08-10T10:52:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #196 in programmable: 'fix: normalize manual applicant authentication failures'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/196"
+  },
+  {
+   "ts": "2026-08-10T10:52:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix: normalize manual applicant authentication failures (#196)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/05075c0d7256caed746656607437a3b360fc0ea7"
+  },
+  {
+   "ts": "2026-08-10T10:47:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #195 in programmable: 'feat: add one-shot Shards direct initializer'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/195"
+  },
+  {
    "ts": "2026-08-10T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -133,83 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25722970. Tokens: 0x0ca56a0ef91cf5901775dde15c8771bacbf50f35 / 0x48b8c29d30e4c27f6792bd6b3c28427501db5acc. Fee:...",
    "url": "https://etherscan.io/tx/0x5b0a3d1a99d1dfdd535e4fb798a14bfeffa604732a3dd291930bfff1384ddebb"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722970. Tokens: 0x0000000000000000000000000000000000000000 / 0x48b8c29d30e4c27f6792bd6b3c28427501db5acc. Fee:...",
-   "url": "https://etherscan.io/tx/0x5b0a3d1a99d1dfdd535e4fb798a14bfeffa604732a3dd291930bfff1384ddebb"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722852. Tokens: 0x0000000000000000000000000000000000000000 / 0x69d7e6a16974f99d05d8df97115ed46687eb14f8. Fee:...",
-   "url": "https://etherscan.io/tx/0x08d13f56cd90e3c49a9c6e932879ae57e9e572e608d1e7d2e1885e3a5f8a0de6"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722801. Tokens: 0x0ba078c156bc5581602962a97bae6651304269b2 / 0x60950442eb3ff2864e9c3713b68fb475064ab1cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x812c5a4f97d8eeb375a59932f693c4be611e9d6a858ffcfa87c416ed4743e3d3"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722801. Tokens: 0x0000000000000000000000000000000000000000 / 0x60950442eb3ff2864e9c3713b68fb475064ab1cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x812c5a4f97d8eeb375a59932f693c4be611e9d6a858ffcfa87c416ed4743e3d3"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722785. Tokens: 0x0000000000000000000000000000000000000000 / 0xe37b598fd61c992ae888eaf4687092c8cb4ddfc6. Fee:...",
-   "url": "https://etherscan.io/tx/0x0ad28de5cc47a9eb946596f45fc26e2ca2542fc6bf05a9d569da76d4e0adb052"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722777. Tokens: 0x26a509fec427eb3b064527ebf61c4afcc20c8d32 / 0xa3e1de85a745dadb61beea0fad2846abc9124bf4. Fee:...",
-   "url": "https://etherscan.io/tx/0xd616dba358d546190c5b9914bf3df09f5bfc1d0dac60298a88ebd39ed770eda3"
-  },
-  {
-   "ts": "2026-08-10T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25722777. Tokens: 0x0000000000000000000000000000000000000000 / 0xa3e1de85a745dadb61beea0fad2846abc9124bf4. Fee:...",
-   "url": "https://etherscan.io/tx/0xd616dba358d546190c5b9914bf3df09f5bfc1d0dac60298a88ebd39ed770eda3"
-  },
-  {
-   "ts": "2026-08-10T07:30:46Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Hooknomics: Announces SwingSwap Genesis Competition; top 500 traders get transferable Genesis NFT badge; ends August 21; links to leaderboard.",
-   "url": "https://x.com/Hooknomics/status/2086433098187890780"
-  },
-  {
-   "ts": "2026-08-10T07:30:46Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: States \"Liquidity is everything.\"",
-   "url": "https://x.com/lo0pio/status/2086467711962403149"
-  },
-  {
-   "ts": "2026-08-10T07:30:46Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Posts \"Ethereum.\"",
-   "url": "https://x.com/lo0pio/status/2086533683540791486"
-  },
-  {
-   "ts": "2026-08-10T07:30:46Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: States \"V4 will take over.\"",
-   "url": "https://x.com/lo0pio/status/2086555596069748917"
   }
  ]
 }
