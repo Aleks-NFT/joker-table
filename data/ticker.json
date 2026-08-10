@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-10T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $32,148,026   #2 USDC / USDT — $28,296,531   #3 PYUSD / USDS — $15,167,115   #4 U...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-10T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.05% TVL grew 695% to $9,455,324",
+   "url": "https://www.geckoterminal.com/eth/pools/0x21c67e77068de97969ba93d4aab21826d33ca12bb9f565d8496e8fda8a82ca27"
+  },
+  {
+   "ts": "2026-08-10T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.05% volume surged 84% to $2,758,900 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x21c67e77068de97969ba93d4aab21826d33ca12bb9f565d8496e8fda8a82ca27"
+  },
+  {
+   "ts": "2026-08-10T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% volume surged 209% to $5,243,105 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-10T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: cbBTC / WBTC 0.005% — $2,002,987 24h volume, $4,101,812 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
+  },
+  {
    "ts": "2026-08-10T04:00:01Z",
    "suit": "club",
    "source": "github",
@@ -175,41 +210,6 @@
    "source": "github",
    "text": "Repo Samuel1505/ReQuard matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
    "url": "https://github.com/Samuel1505/ReQuard"
-  },
-  {
-   "ts": "2026-08-10T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo stoyanov-kaloyan/mimosa-hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/stoyanov-kaloyan/mimosa-hook"
-  },
-  {
-   "ts": "2026-08-10T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Wilfred007/VeloHooks matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Wilfred007/VeloHooks"
-  },
-  {
-   "ts": "2026-08-10T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Samuel1505/StablePeg matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Samuel1505/StablePeg"
-  },
-  {
-   "ts": "2026-08-10T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo uniiquecornnx/LuxeHook---v4-hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/uniiquecornnx/LuxeHook---v4-hook"
-  },
-  {
-   "ts": "2026-08-10T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo claudioussamuel/swapnft matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/claudioussamuel/swapnft"
   }
  ]
 }

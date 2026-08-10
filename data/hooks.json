@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-10T04:15:46Z",
+ "generated_at": "2026-08-10T05:15:45Z",
  "total_hooks": 3006,
  "total_pools": 10162,
  "multi_pool_hooks": 307,
@@ -1864,8 +1864,8 @@
   {
    "address": "0x0c2a07658442a5801155a5657db5f39178a380cc",
    "address_short": "0x0c2a…80cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0c2a07658442a5801155a5657db5f39178a380cc",
    "pool_count": 14,
    "permissions_human": [
