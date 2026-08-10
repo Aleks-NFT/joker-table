@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-10T21:15:35Z",
- "total_hooks": 3036,
- "total_pools": 10240,
- "multi_pool_hooks": 308,
- "shown": 308,
+ "generated_at": "2026-08-10T22:15:25Z",
+ "total_hooks": 3042,
+ "total_pools": 10250,
+ "multi_pool_hooks": 309,
+ "shown": 309,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 900,
+   "pool_count": 902,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25726836,
-   "last_deploy": "2026-08-10T20:00:03Z",
+   "last_block": 25727206,
+   "last_deploy": "2026-08-10T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 518,
+   "pool_count": 519,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25723004,
-   "last_deploy": "2026-08-10T08:00:02Z",
+   "last_block": 25727102,
+   "last_deploy": "2026-08-10T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -5213,6 +5213,29 @@
    "last_block": 25336725,
    "last_deploy": "2026-06-17T12:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x62b2969b19f00aa3827d864689d4712ec6c8c0cc",
+   "address_short": "0x62b2…c0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x62b2969b19f00aa3827d864689d4712ec6c8c0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25726909,
+   "last_block": 25727014,
+   "last_deploy": "2026-08-10T22:00:02Z",
+   "active": true,
    "visible": false
   },
   {
