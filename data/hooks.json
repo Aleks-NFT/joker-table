@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-11T15:15:34Z",
- "total_hooks": 3058,
- "total_pools": 10302,
+ "generated_at": "2026-08-11T16:15:35Z",
+ "total_hooks": 3065,
+ "total_pools": 10315,
  "multi_pool_hooks": 311,
  "shown": 311,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 905,
+   "pool_count": 909,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25729759,
-   "last_deploy": "2026-08-11T06:00:02Z",
+   "last_block": 25732563,
+   "last_deploy": "2026-08-11T16:00:03Z",
    "active": true,
    "visible": true
   },
@@ -2938,6 +2938,29 @@
    "visible": false
   },
   {
+   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "address_short": "0x6af8…40cc",
+   "name": "HKPDHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "pool_count": 9,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25727858,
+   "last_block": 25732562,
+   "last_deploy": "2026-08-11T16:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x803d9db0f5dc76591663c1991fe4f0ba4156bacc",
    "address_short": "0x803d…bacc",
    "name": "BDeFiHook",
@@ -3080,29 +3103,6 @@
    "first_block": 25238162,
    "last_block": 25711271,
    "last_deploy": "2026-08-08T16:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "address_short": "0x6af8…40cc",
-   "name": "HKPDHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "pool_count": 7,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25727858,
-   "last_block": 25729014,
-   "last_deploy": "2026-08-11T04:00:03Z",
    "active": true,
    "visible": false
   },
