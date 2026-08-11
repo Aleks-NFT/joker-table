@@ -2,6 +2,83 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730888. Tokens: 0x0000000000000000000000000000000000000000 / 0x69f46990d4da76c5af1f6e459ccec2ed2cc9eec0. Fee:...",
+   "url": "https://etherscan.io/tx/0xabb89c9698a17f4bfc24fde878b7e81703421b585c9dc8e0fb3e5b95954aa165"
+  },
+  {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730887. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xf931cb8ccbd75f0cfaf4628f68b19adba0b6ba11. Fee:...",
+   "url": "https://etherscan.io/tx/0x3b78ea2e349089baad8a050ca57d628df50773a8758bcbd17876c2530dcdb5fc"
+  },
+  {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730871. Tokens: 0x0000000000000000000000000000000000000000 / 0x69942b52bdeb0a1cc975fcc5c2334063ed1ad4a2. Fee:...",
+   "url": "https://etherscan.io/tx/0x12a9af31baf53bdc00cdcd63d2b906effe3b86893e0de81fc4fcb6672e57f1fb"
+  },
+  {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730688. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xca428954ef89709564623c7856c7806c6352ba11. Fee:...",
+   "url": "https://etherscan.io/tx/0x28e272c6a54275831286ce14597e34e3f48c41c94bdfd13a7709e69755f38d6d"
+  },
+  {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730646. Tokens: 0x0000000000000000000000000000000000000000 / 0xe2432118b34c36d0f8f1085e57e6f923190df964. Fee:...",
+   "url": "https://etherscan.io/tx/0x37de9ead905510d7fb0f0057ed70ad39cdf73e235facaa801297cc92dc16f76d"
+  },
+  {
+   "ts": "2026-08-11T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25730588. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xee8330a613f935bca612986ac17232b77efcba11. Fee:...",
+   "url": "https://etherscan.io/tx/0xd073c5f6a10ab93dfaa633450e3af8ac8bfd48c5a30a5ba59360550bdec89bcb"
+  },
+  {
+   "ts": "2026-08-11T09:50:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #214 in programmable: 'Prefer operational RPC pair for public reads'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/214"
+  },
+  {
+   "ts": "2026-08-11T09:50:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Prefer operational RPC pair for public reads (#214)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/bbe04e35212a13a268aca72cdc1571b3910d63d8"
+  },
+  {
+   "ts": "2026-08-11T09:19:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #213 in programmable: 'feat(router): reviewable typed adoption grant freeze'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/213"
+  },
+  {
+   "ts": "2026-08-11T09:08:54Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #212 in programmable: 'Fix live valuations, claims, and Hookathon'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/212"
+  },
+  {
+   "ts": "2026-08-11T09:08:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix live valuations, claims, and Hookathon (#212)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/11ef8257680d223ffc5bebc47fcd097bae6a0abc"
+  },
+  {
    "ts": "2026-08-11T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -133,83 +210,6 @@
    "source": "github",
    "text": "voladelta closed PR #112 in programmable: '[Builder Beta] bankroll-hook'",
    "url": "https://github.com/0xprogrammable/programmable/pull/112"
-  },
-  {
-   "ts": "2026-08-11T07:55:15Z",
-   "suit": "club",
-   "source": "github",
-   "text": "voladelta closed PR #165 in programmable: '[Builder Beta] random-holder-rewards'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/165"
-  },
-  {
-   "ts": "2026-08-11T07:38:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #211 in programmable: 'feat(router): freeze universal launch kernel v1'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/211"
-  },
-  {
-   "ts": "2026-08-11T07:31:16Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #210 in programmable: 'Keep health available on verified read fallback'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/210"
-  },
-  {
-   "ts": "2026-08-11T07:31:16Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Keep health available on verified read fallback (#210)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/1b5e501e58107971d740f850017007cf470ad440"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@Hooknomics: SwingSell now fully supports ERC-20 tokens on Ethereum; eligible trades count for SwingSwap Genesis Competition top 500 NFT badges",
-   "url": "https://x.com/Hooknomics/status/2086775079158092109"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@saucepoint: havent gone back to local yet after moving to a vps + termius ios",
-   "url": "https://x.com/saucepoint/status/2087001701815349420"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: gLo0p",
-   "url": "https://x.com/lo0pio/status/2086788130934346076"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Market cap isn't right metric; circulating supply differs on chains but price same, token bridged via LayerZero so supply can grow",
-   "url": "https://x.com/lo0pio/status/2086812560343343297"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: The pump was never the thesis. Making liquidity productive is.",
-   "url": "https://x.com/lo0pio/status/2086813015291072766"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: Should we cook it in the base as well?",
-   "url": "https://x.com/lo0pio/status/2086899379592450435"
-  },
-  {
-   "ts": "2026-08-11T07:30:34Z",
-   "suit": "heart",
-   "source": "twitter",
-   "text": "@lo0pio: DeFi needs more productive liquidity; lo0p allows borrow against assets, earn from trading/borrowing, customize LP fees via v4 Hooks",
-   "url": "https://x.com/lo0pio/status/2086943509932871749"
   }
  ]
 }

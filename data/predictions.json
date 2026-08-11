@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 20,
-  "miss": 23,
-  "open": 5,
-  "hit_rate": 0.465
+  "miss": 24,
+  "open": 4,
+  "hit_rate": 0.455
  },
  "items": [
   {
@@ -54,8 +54,8 @@
    "text": "Over the next 7 days the count clears 791; the likely landing sits between 480 and 1234, and I give the over about 57%. The behavior I see: builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates. That signals deliberate economic design, with revenue taken through the hook rather than the swap, not an organic token launch.",
    "horizon_days": 7,
    "resolve_after": "2026-08-11",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +791 on metric nonstd_fee_pools not reached.",
    "phase": "v2"
   },
   {
