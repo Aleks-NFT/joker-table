@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-11",
+   "narrative": {
+    "en": "The only table with real teeth was WETH against some f8d30a... card, where the house took a dynamic cut — 8388608, a number that doesn't match the usual scale, so the hook decides per hand what it skins. One such pool against thirteen empty shells: a rare card in a deck full of jokers. And in another room, while blocks stamped out pools, someone quietly opened a pull-request: freeze typed adoption grant preflight. One hand deals liquidity to every comer, the other locks the door and checks who deserves a seat.",
+    "zh": "唯一一张不像空壳的桌子，是 WETH 对某个 f8d30a... 的筹码，抽水用的是八百万级别的动态数——这不是寻常刻度，而是那只看手自己决定每一把的价钱。十三张空台子里夹着这么一张，算是摸到一张稀罕牌。而另一头，正当区块忙着印台子的时候，有人悄悄递了一纸文书：冻结那笔“类型化收养资助预检”。一边在大把派发内力，另一边却开始关门验客，看看谁有资格坐上桌来。"
+   },
+   "take": {
+    "en": "The house is testing the machinery, not the cards: one hook contract grinding out pools is the tell, and the freeze-preflight pull request is the quiet cover bet.",
+    "zh": "这一夜的真话不在新台子的多少，而在同一个门派用同一只手连开数台——真正的试探是对机制的试探；而那道冻结预检的文书，是暗处里的另一手棋。"
+   }
+  },
+  {
    "date": "2026-08-10",
    "narrative": {
     "en": "The night dealt thirteen fresh tables on V4, and every one of them opened with the house taking nothing. Zero fee is not generosity—it is the quiet before the deal, when the vig moves from the trader to the hook itself. The developers know how to palm a deck: a contract-hook replacing the standard fee mechanism is a joker that rewrites the rule of the game.\n\nI noticed the pattern: ffff addresses repeat like one player sitting down at different masks—0xffffef45, 0xffff1b3b, 0xffffe511. Pairs with native ether and with WBTC are classic high cards, yet the spacing between ticks jumps from 60 to 200, as if the dealer cannot decide how tight to pull the range. One hook—0x0d6252...—showed up twice, on different pairs. Either this is a pool factory, or somebody loves their own code enough to stake it again and again.\n\nWhile tables were opening on-chain, the programmable project was quietly changing clothes on GitHub. Three pull requests overnight: two documentation redesigns in a row—first broad, then narrow, repo-specific—and a fix for validating sensitive environment variables. README was updated right after the third merge, commit 5661c41 closed the hand. The order says it all: first patch the hole in secret validation, then polish the shop window. That is the standard sequence for someone preparing to show the project to a new audience—an investor, an auditor, the world.\n\nNone of this shouts. Thirteen pools with zero fee and a tidied-up documentation shelf are not fireworks; they are the table being set before big players sit down. The night is quiet, but the cards are already laid.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is stacking the deck with dynamic-fee hooks—this is the first real signal that builders are using hooks as economic levers, not ornaments.",
     "zh": "江湖正以动态费率钩子为暗器布阵——这是门派将钩子炼成经济兵刃的首个实招，绝非花架。"
-   }
-  },
-  {
-   "date": "2026-07-21",
-   "narrative": {
-    "en": "The deal was laid out in a single block, 25577649 — fifteen pools on Uniswap V4, all with the same hook contract, same token pair: native ETH and a fresh address, 0x9295974ca63488151586f91050a483ab7917add8. This isn't a casual placement; it's a systematic sweep across the entire commission grid, from a single basis point up to five hundred. The house is building infrastructure, not making a single bet. Tick spacing scales with the fee — one tick for the lowest, a thousand for the highest — and the same hook governs all. This is a strategy, likely an automatic rebalancer that shifts capital between fee levels as volatility dictates. The token partner is no known stable, no blue chip — it's a fresh contract, and all fifteen pools are bare, no swaps yet. But the gas spent on a full fee table in one block tells you this isn't a toy. Someone is preparing for a launch, a listing, a farming campaign. The felt is clean, but the chips are stacked. We wait for liquidity to flow — then we'll see who holds the hook.",
-    "zh": "江湖上出了件怪事——一个区块之内，Uniswap V4上连开十五个池子，用的全是同一个钩子合约，配的也是同一对：原生ETH和一个新面孔，0x9295974ca63488151586f91050a483ab7917add8。这不是一时兴起的落子，而是把整张费率棋盘都铺开了：从最低的一个基点，到最高的五百个基点，一格不落。出手的人显然是在搭台子，不是来赌一把的。池子的刻度间距跟费率走，费率越低间距越窄，越高越宽，而那个钩子合约管着所有池子——八成是个自动调内力的大阵，行情一波动，资金就在不同费率之间流转。那个搭档代币不是什么名门正派的稳定币，看着像刚出炉的新合约。十五个池子眼下都是空架子，一笔交易都没有。可谁会在一个块里烧掉那么多gas，把整张费率表都铺齐？这不是玩票，是准备开山立派。等着看吧，等内力灌进来，就知道钩子后面是谁了。"
-   },
-   "take": {
-    "en": "Fifteen pools in one block, same hook, full fee spectrum — someone is building a liquidity machine, not placing a single bet.",
-    "zh": "一个块里连开十五池，同一钩子，全费率——有人不是在落子，是在布阵。"
    }
   }
  ]
