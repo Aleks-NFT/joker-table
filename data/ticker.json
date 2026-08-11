@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-11T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25732173. Tokens: 0x0000000000000000000000000000000000000000 / 0xa70148f35fe37c3e1054fba5230a209ccc9e322c. Fee:...",
+   "url": "https://etherscan.io/tx/0x32ab61765cd835543850be09332aa72849a29c62a14f1cd3812aa9cfca63ef17"
+  },
+  {
+   "ts": "2026-08-11T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25732086. Tokens: 0x0000000000000000000000000000000000000000 / 0x77777777079ff6fbaf990adb374f5dca5a6474b9. Fee:...",
+   "url": "https://etherscan.io/tx/0xeb3acf3c11441a664c673ceb7889295371363aa37697dd2b185d7c4166a9d279"
+  },
+  {
+   "ts": "2026-08-11T13:32:15Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #222 in programmable: 'fix(router-v4): bind registry deployment under gas cap'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/222"
+  },
+  {
+   "ts": "2026-08-11T12:58:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #221 in programmable: 'Stabilize Website read quorum and chart history'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/221"
+  },
+  {
+   "ts": "2026-08-11T12:58:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Stabilize Website read quorum and chart history (#221)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/a9921700799626446a8675b257658e2160387a2c"
+  },
+  {
+   "ts": "2026-08-11T12:46:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #220 in programmable: 'feat: add deployment-bound Router V4 candidate'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/220"
+  },
+  {
+   "ts": "2026-08-11T12:04:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #219 in programmable: 'Fix chart identity fallback'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/219"
+  },
+  {
+   "ts": "2026-08-11T12:04:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix chart identity fallback (#219)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/d3d733a6e56ef130dc020ef8be7e631169b0c85d"
+  },
+  {
    "ts": "2026-08-11T12:00:03Z",
    "suit": "spade",
    "source": "etherscan",
@@ -28,34 +84,6 @@
    "source": "github",
    "text": "0xprogrammable opened PR #219 in programmable: 'Fix chart identity fallback'",
    "url": "https://github.com/0xprogrammable/programmable/pull/219"
-  },
-  {
-   "ts": "2026-08-11T11:50:01Z",
-   "suit": "spade",
-   "source": "project",
-   "text": "Joker project state (27.07.2026): reply policy. joker_reply_radar.py collects reply candidates into the reply_targets table daily. Filters: author Neynar sco...",
-   "url": null
-  },
-  {
-   "ts": "2026-08-11T11:50:01Z",
-   "suit": "spade",
-   "source": "project",
-   "text": "Joker project state (27.07.2026): Farcaster reputation. Neynar user score fell from 0.48 to 0.33 between 25 and 27 July, against a 0.55 client filtering thre...",
-   "url": null
-  },
-  {
-   "ts": "2026-08-11T11:50:01Z",
-   "suit": "spade",
-   "source": "project",
-   "text": "Joker project state (27.07.2026): LLM models in production. deepseek-v4-flash powers dj_voice, digest_v2, dream_digest and render_twitter. claude-sonnet-5 vi...",
-   "url": null
-  },
-  {
-   "ts": "2026-08-11T11:50:01Z",
-   "suit": "spade",
-   "source": "project",
-   "text": "Joker project state (27.07.2026): Farcaster channel strategy. The /uniswaphooks channel is DEAD — only 8 casts in 30 days and all of them are ours, zero like...",
-   "url": null
   },
   {
    "ts": "2026-08-11T11:22:41Z",
@@ -182,34 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25730364. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xe6f80c7faeca2a5d2d7001026109576b63b2ba11. Fee:...",
    "url": "https://etherscan.io/tx/0x48631f9e6e2d22ebdbc53bb6a6b6fb57bff6af5820029909c1027be7b2090cfb"
-  },
-  {
-   "ts": "2026-08-11T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25730351. Tokens: 0x0000000000000000000000000000000000000000 / 0x69ecd98441a61a56773580540d80401cdcf3f084. Fee:...",
-   "url": "https://etherscan.io/tx/0x2e448ecb5b463430ec0c79956f159810bc116f02eaef1a19f70722f9d8f20b46"
-  },
-  {
-   "ts": "2026-08-11T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25730292. Tokens: 0x0000000000000000000000000000000000000000 / 0x168338cca43e4e24365da2756d82ec5e98ff4a2f. Fee:...",
-   "url": "https://etherscan.io/tx/0x7956a34614bf51e4bd088acb794ea9c880386975e0305ef6fba1ecb330e4ffa8"
-  },
-  {
-   "ts": "2026-08-11T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25730291. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xffff5816405a9614dd2ad0d4f15391d435d15b07. Fee:...",
-   "url": "https://etherscan.io/tx/0x5d0719687ae4c60dd7949778a1ee1bc5d58d2ff06d723a75d91565505f850992"
-  },
-  {
-   "ts": "2026-08-11T08:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25730264. Tokens: 0x0000000000000000000000000000000000000000 / 0x69256b6bd3ea1c400b76c32e1e115137d7a43b9c. Fee:...",
-   "url": "https://etherscan.io/tx/0x1aafc5eeb195418ae839ccf5725e04bbe9bb304e0047993f86d6f0dd2ac40f0b"
   }
  ]
 }
