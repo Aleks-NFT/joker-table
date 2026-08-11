@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-11T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25728433. Tokens: 0x0000000000000000000000000000000000000000 / 0xc554e82c902153a68f2ce2c9bd6bb555705ac957. Fee:...",
+   "url": "https://etherscan.io/tx/0x8e0911ef24e2aaeb82c58773a0df50072fcc7f45af51e341a5fac1f3e18e6701"
+  },
+  {
+   "ts": "2026-08-11T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25728401. Tokens: 0x0000000000000000000000000000000000000000 / 0xcea7d3ef40161218df42ccc7d3f8837c3fbdc76f. Fee:...",
+   "url": "https://etherscan.io/tx/0x062c96575391f128b8306c57677c987a8b7f11fc20627ad7c17466f1ade8f217"
+  },
+  {
+   "ts": "2026-08-11T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25728342. Tokens: 0x0000000000000000000000000000000000000000 / 0xab3404ff1c1c1f721f6b965840b91c89b9163524. Fee:...",
+   "url": "https://etherscan.io/tx/0x0abdbc9d0babfc9b530e8c00eca09059e14d6da4899e8a634159c4d9e0a04c03"
+  },
+  {
+   "ts": "2026-08-11T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25728237. Tokens: 0x0000000000000000000000000000000000000000 / 0xc3afdbccc0e13384846ca2a6c1b8f7b4cf457e89. Fee:...",
+   "url": "https://etherscan.io/tx/0x4c4cab85d6ad233e56a2478b8135d5d2a1792a8e539369ac80a20bfb21d0440b"
+  },
+  {
+   "ts": "2026-08-11T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25728059. Tokens: 0x0000000000000000000000000000000000000000 / 0x87be15b25cbe1d4d22bb23edd8dde16276007232. Fee:...",
+   "url": "https://etherscan.io/tx/0xd0db331845b08d0b8174c76b5c30ad2bba60bf576b38da51d746e1c34ad8aea6"
+  },
+  {
+   "ts": "2026-08-11T00:07:23Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #206 in programmable: 'feat(router): freeze typed adoption grant preflight'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/206"
+  },
+  {
    "ts": "2026-08-11T00:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "ericneil-sanc merged PR #58 in v4-hooks-public: 'ci: fix stale 'stable' toolchain resolution; regenerate docs with forge 1.7.1 (foundry toolchain 1.9.1)'",
    "url": "https://github.com/Uniswap/v4-hooks-public/pull/58"
-  },
-  {
-   "ts": "2026-08-10T20:35:56Z",
-   "suit": "club",
-   "source": "github",
-   "text": "ericneil-sanc pushed to v4-hooks-public: 'Merge pull request #58 from Uniswap/chore/forge-1-7-1'",
-   "url": "https://github.com/Uniswap/v4-hooks-public/commit/c95288570c1bb50172c4695e09b41d8ce0cdaaf1"
-  },
-  {
-   "ts": "2026-08-10T20:25:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops merged PR #586 in v4-periphery: 'fix(perm-pools): run UNSUBSCRIBE in its own unlock; add burn bounds and hookData'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/586"
-  },
-  {
-   "ts": "2026-08-10T20:25:04Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops pushed to v4-periphery: 'fix(perm-pools): run UNSUBSCRIBE in its own unlock; add burn bounds and hookData (#586)'",
-   "url": "https://github.com/Uniswap/v4-periphery/commit/ba9ea6473308695a9ec8735728b1db4014215138"
-  },
-  {
-   "ts": "2026-08-10T20:02:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops merged PR #585 in v4-periphery: 'refactor(perm-pools): Move the hook allowlist to PermissionsAdapter and enforce it across the router and positio...",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/585"
-  },
-  {
-   "ts": "2026-08-10T20:02:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops pushed to v4-periphery: 'refactor(perm-pools): move hook allowlist to PermissionsAdapter and enforce in router and posm (#585)'",
-   "url": "https://github.com/Uniswap/v4-periphery/commit/407731f45602bddcd875e413ff791be8a9c0bc0a"
-  },
-  {
-   "ts": "2026-08-10T20:00:03Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25726836. Tokens: 0x0000000000000000000000000000000000000000 / 0x82b00b646ade84d5f1331e2709f3564ea41cc984. Fee:...",
-   "url": "https://etherscan.io/tx/0x43de691900c03ab3627d11b2ea22c95f701e28f7a515bfd36f1abb72265f65bb"
   }
  ]
 }
