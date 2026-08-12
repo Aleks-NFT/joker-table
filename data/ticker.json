@@ -2,11 +2,88 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-12T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25735784. Tokens: 0x0000000000000000000000000000000000000000 / 0x69fd592cf93b3c163c7bc3259594b226a32bd9a6. Fee:...",
+   "url": "https://etherscan.io/tx/0x7a5ca61529881c5169f48816646dc78bbe6604bcdc799921c7659f9a5713443b"
+  },
+  {
+   "ts": "2026-08-12T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25735726. Tokens: 0x0e397938c1aa0680954093495b70a9f5e2249aba / 0xffffe974dd14296c929ca43f52037be3c679f8a0. Fee:...",
+   "url": "https://etherscan.io/tx/0xfd920b5bb1dddcf2f463a6fea274e67241e3c293ec017dec1c6c9e219f03a82b"
+  },
+  {
+   "ts": "2026-08-12T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25735564. Tokens: 0x0000000000000000000000000000000000000000 / 0xa1833d3134f09d8d2bee6f953b3c5978b2b8ed70. Fee:...",
+   "url": "https://etherscan.io/tx/0xde678f97db962eb496dcd625877940a22763fc9fe922bca18cece1ed915b1df4"
+  },
+  {
+   "ts": "2026-08-12T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25735505. Tokens: 0x0000000000000000000000000000000000000000 / 0xfcd7557a9a9a28434199940ce2307350f806f2fb. Fee:...",
+   "url": "https://etherscan.io/tx/0x12dd35395e5a149827b9461787195dea7a82f3181554629664daa1fff7cf2f6d"
+  },
+  {
+   "ts": "2026-08-12T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25735249. Tokens: 0x0000000000000000000000000000000000000000 / 0xba7da3004b46d34dc1ef678a7d878c34f1c81f41. Fee:...",
+   "url": "https://etherscan.io/tx/0x20e21346916c750a79797a1f47be891e59d63e5b71ef04b162411552b5dc295a"
+  },
+  {
+   "ts": "2026-08-12T02:00:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #233 in programmable: 'Fix batched Explore valuation parity'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/233"
+  },
+  {
+   "ts": "2026-08-12T02:00:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix batched Explore valuation parity (#233)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/9858f1ffdd1717f11244422ee534bdf44bd41140"
+  },
+  {
+   "ts": "2026-08-12T01:00:49Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #232 in programmable: 'Fix partial Bitquery batch price recovery'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/232"
+  },
+  {
+   "ts": "2026-08-12T01:00:49Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix partial Bitquery batch price recovery (#232)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/6d8d0a31fee711dc9396f7e4100d7db298f651a8"
+  },
+  {
    "ts": "2026-08-12T00:30:10Z",
    "suit": "spade",
    "source": "JOKER",
    "text": "I called across another player's hand — a stranger heard, the house didn't.",
    "url": null
+  },
+  {
+   "ts": "2026-08-12T00:21:43Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #231 in programmable: 'fix: include Verify aggregate in production proof inventory'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/231"
+  },
+  {
+   "ts": "2026-08-12T00:21:42Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix: include Verify aggregate in production proof inventory (#231)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/fc27d9b3dfd93def8f556256872a6a2d4ef04ab4"
   },
   {
    "ts": "2026-08-12T00:00:21Z",
@@ -133,83 +210,6 @@
    "source": "github",
    "text": "SocksNFlops pushed to v4-hooks-public: 'fix(v4-periphery): bumping submodule'",
    "url": "https://github.com/Uniswap/v4-hooks-public/commit/8cc42b095a576ddf41991f21939e70ff77247ad6"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734552. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0xbd0ac49eebcb8ab5eb868cc3388d051bdd64989602f80544195cbf9959f6e2ae"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734552. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf. Fee:...",
-   "url": "https://etherscan.io/tx/0x9da0bf60774d4798cc0fa061be042e9fc3ccaf538c6c036aefa1bda96caf3e90"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734552. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xad1eca03c352007a740fd684ae467ddde6ed9977ee606fad570841e6981901ab"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734552. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf. Fee:...",
-   "url": "https://etherscan.io/tx/0xcee45f50956f870739b6c1ba491f2b51417b141998212d64c2922a01935b0b14"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734552. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xc91b423a4b4f1a93ab91e21c66047c7b297a6ef21314bea973ecae606f6ec36f"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734348. Tokens: 0x0000000000000000000000000000000000000000 / 0x6757d8371ed3e63c8659385f2604303692ec01ed. Fee:...",
-   "url": "https://etherscan.io/tx/0x7880d0c92d977ee35e1cadffe3ef41e8fed86d972ae7140091a72c4333d66ccf"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734322. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xe9d2b263e6927f6a4d37a282fd29946f3343ba11. Fee:...",
-   "url": "https://etherscan.io/tx/0x2ec6f057c8d5f50f9ea2b3564bc2c7f000be9728df4567fa091ade92d555a979"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734297. Tokens: 0x0000000000000000000000000000000000000000 / 0x699489955fc1c03156f770afbf09f7e771aefdad. Fee:...",
-   "url": "https://etherscan.io/tx/0x671f4ca4086661185395b7a78be23e66ea8652686af37dcef2f2ca5f57a360be"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734257. Tokens: 0x0000000000000000000000000000000000000000 / 0x14ae62ef1ec0955846da08708722f646cea520cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x43dcadbacabf019bc6a240ec5ee85b03e1b16a8fa652c38fd23149a2ffdc1db3"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734231. Tokens: 0x0000000000000000000000000000000000000000 / 0x6910c3c8bb64d9026ad2479ace270869c9ccba22. Fee:...",
-   "url": "https://etherscan.io/tx/0xf7b02e6fdace570c3631272dd7d6614d1fb1595637189156e1b9160e42940914"
-  },
-  {
-   "ts": "2026-08-11T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25734226. Tokens: 0x0000000000000000000000000000000000000000 / 0xd963280beeeadaa46866c4cf2440b5bcdc0b3eea. Fee:...",
-   "url": "https://etherscan.io/tx/0xb5d6e7c27c8770cd483b4c09ca7509adb8dfe19497daf402bb204bce33624e60"
   }
  ]
 }
