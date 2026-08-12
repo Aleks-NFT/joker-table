@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-12T16:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 55799084. Tokens: 0x11f57811b8a07b4c3a3bbff57bed9adf3bd5aaaa / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x30d39cd48185cd278f811eb535e1a3b5107f0614ca800fcdbdbcb166bab4ef41"
+  },
+  {
    "ts": "2026-08-12T16:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'ci: recognize public route profile hashes (#249)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/84c97c241c5de1ec578d2d433a732d2bd31fe178"
-  },
-  {
-   "ts": "2026-08-12T13:35:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #246 in programmable: 'ci: approve exact Hookbuilder sync candidate'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/246"
   }
  ]
 }
