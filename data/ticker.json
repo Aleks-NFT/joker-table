@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-12T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25738772. Tokens: 0x122a99c7ba65992a3b3c0a3124ca4801a801eb07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x93197989dc513e14eaa61d3695751444111653ab84e4051a9db2bb15333d3536"
+  },
+  {
+   "ts": "2026-08-12T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25738739. Tokens: 0x0000000000000000000000000000000000000000 / 0x621f609ff76e24067e4e4be9b70a07c5b81ac8a4. Fee:...",
+   "url": "https://etherscan.io/tx/0x202a1cc8f0000f25d5574b92f0ec755e65d99e2e90a26514d864f83f21f8d554"
+  },
+  {
+   "ts": "2026-08-12T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25738506. Tokens: 0xcf4d29f14cc585ddd1167f956092852af844e040 / 0xffff6b68596ebd613a0e2decb5303e5d36de1538. Fee:...",
+   "url": "https://etherscan.io/tx/0xc0e573b89b3b163b05279d06ea4eef8f4941e4376a84726f087e1a35e5cd96eb"
+  },
+  {
+   "ts": "2026-08-12T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25738396. Tokens: 0x0000000000000000000000000000000000000000 / 0x6d64388ac4b03f8365d41bea12447d40a709b8d3. Fee:...",
+   "url": "https://etherscan.io/tx/0xb1f1de957bb9fabd64e13553359cf8c0b6bfa85b7c46e8c0cff4f09d02d36c4c"
+  },
+  {
+   "ts": "2026-08-12T11:57:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #238 in programmable: 'Fix Bitquery USD pricing and fallback latency'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/238"
+  },
+  {
+   "ts": "2026-08-12T11:56:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix Bitquery USD pricing and fallback latency (#238)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/9fe4285cb4b40c9c69aa5f3a04d57ee4a5556820"
+  },
+  {
+   "ts": "2026-08-12T11:18:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #235 in programmable: 'Refresh production website UI and copy'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/235"
+  },
+  {
+   "ts": "2026-08-12T11:18:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Polish site surfaces into a minimal night system'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/f9ce9cb8756b4d6dae0f64b95816b428f9f23b89"
+  },
+  {
    "ts": "2026-08-12T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25735963. Tokens: 0x0000000000000000000000000000000000000000 / 0x69293aad2a905d60dd276f51476301983da16199. Fee:...",
    "url": "https://etherscan.io/tx/0x07c215dd1227362e22531a2f1f368b38cd6567bf29c154140ec9797cc090807e"
-  },
-  {
-   "ts": "2026-08-12T04:00:03Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25735957. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xfffff3c700e85c6b145c09e1a1c2f2bd6c8c08e0. Fee:...",
-   "url": "https://etherscan.io/tx/0x32443da1d8a2e2c20650fe29bedb43a79905bda08b7a8b37fb5bb54429b806a2"
-  },
-  {
-   "ts": "2026-08-12T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo glue-finance/GlueHook references hook GlueHook (0xb216070c…, 2 pools) in its readme — code behind a contract that is live on chain",
-   "url": "https://github.com/glue-finance/GlueHook"
-  },
-  {
-   "ts": "2026-08-12T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo 0xprogrammable/hookbuilder matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/0xprogrammable/hookbuilder"
-  },
-  {
-   "ts": "2026-08-12T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: odei-ai/odei-sherlock-scope — 0★ — Sherlock review scope and on-chain evidence for ODEI / $ODAI on Base.",
-   "url": "https://github.com/odei-ai/odei-sherlock-scope"
-  },
-  {
-   "ts": "2026-08-12T03:31:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #234 in programmable: 'Speed up production verification for scoped changes'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/234"
-  },
-  {
-   "ts": "2026-08-12T03:31:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Route production verification by changed scope'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/da6fa9827eca225364aebbec51b7059b27137e75"
-  },
-  {
-   "ts": "2026-08-12T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25735784. Tokens: 0x0000000000000000000000000000000000000000 / 0x69fd592cf93b3c163c7bc3259594b226a32bd9a6. Fee:...",
-   "url": "https://etherscan.io/tx/0x7a5ca61529881c5169f48816646dc78bbe6604bcdc799921c7659f9a5713443b"
-  },
-  {
-   "ts": "2026-08-12T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25735726. Tokens: 0x0e397938c1aa0680954093495b70a9f5e2249aba / 0xffffe974dd14296c929ca43f52037be3c679f8a0. Fee:...",
-   "url": "https://etherscan.io/tx/0xfd920b5bb1dddcf2f463a6fea274e67241e3c293ec017dec1c6c9e219f03a82b"
   }
  ]
 }
