@@ -4,10 +4,20 @@
   "total": 50,
   "hit": 20,
   "miss": 24,
-  "open": 4,
+  "open": 5,
   "hit_rate": 0.455
  },
  "items": [
+  {
+   "id": 55,
+   "made_at": "2026-08-12",
+   "text": "Over the next seven days, the count of such pools clears 39; the likely landing sits between 24 and 373, and I give the over about 63%. What is happening: builders are deploying pools with the dynamic-fee flag — the hook contract sets the swap fee in real time instead of a fixed tier. This is the clearest sign of hooks used as economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-19",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 54,
    "made_at": "2026-08-11",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-23",
    "status": "hit",
    "resolution_note": "Confirmed: target +3 on metric tickspacing_lt10_hooks reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 5,
-   "made_at": "2026-06-15",
-   "text": "Within seven days, at least one of the two stable pools (0x8abdde86 or 0xa778c93f) will see a significant liquidity deposit as hooks compete for early dominance.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-22",
-   "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify.",
    "phase": "v1"
   }
  ]

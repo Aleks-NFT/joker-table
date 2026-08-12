@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-12",
+   "narrative": {
+    "en": "Twelve pools laid on the felt overnight, and eleven of them showing zero ether on one side of the pair — someone is methodically dealing the same card again and again. The hooks repeat: 0x0d62529346, then again, then once more. 0x96b893683afbfec also appears twice. This is no accident and no chaos — it is a hand dealt from the same sleeve, only with different token faces instead of players. The table is wide, tickSpacing 200 almost everywhere — broad strides, a player not aiming at precision but at range. Only one pool breaks the pattern: fee 3000, tickSpacing 30, block 25734805 — someone decided to play a tight hand, a dense grid. And out of twelve, exactly one pool holds non-zero token on both sides — block 25735726, hooks 0xbbdf135f842 — the joker among empty suits. While this unrolled on one table, another game went quiet and coded. 0xprogrammable closed three PRs in a row: valuation parity, batch price recovery, proof inventory. Words from a casino ledger — aligning stakes, recovering price after a fault, inventorying evidence. Three fixes overnight, one after another, as if someone is patching leaks in the accounting system before the morning shift opens the tables. And separately, v4-periphery PR #588 — SafeCast for swap delta in the quoter. A small but telling correction: without it, numbers could truncate where they should not, and the quote would lie quietly, without a scream. The night was not about loud bets. It was about the infrastructure under the table — hooks repeating like marked cards, and code repairing what cannot be seen beneath the green felt while no one is watching.",
+    "zh": "一夜之间，江湖上多了十二个池子。十一个池子，一侧空空如也，以太不沾边。有人不急不慢，把同一张牌翻来覆去地出——钩子重复出现，0x0d62529346 来了又走，走了又来，0x96b893683afbfec 也现身两回。这不是乱局，这是同一个掌法换了不同的面具，十二个名字，一种内功。大多数池子步幅极宽，tickSpacing 二百，大开大合，不求精细，只求圈住风水。只有一个池子例外，fee 三千，tickSpacing 三十，区块 25734805——那是有人下了盘细棋，针脚密得很。十二池之中，只有一处两边都有真金白银：区块 25735726，钩子 0xbbdf135f842。万花丛中一点绿，满桌空牌里唯一的孤注。与此同时，另一张桌子上演着无声的功夫。0xprogrammable 连收三剑：估值对齐、批量价格恢复、凭证清点。听起来像是当铺先生深夜拨算盘——把赌注摆平，把断掉的价格接上，把证据一件件归档。三处修补，依次落下，像给账本打上补丁，趁天亮开张之前。还有一桩小事，v4-periphery 的 PR #588，给报价格子里的 swap 增量加了一道 SafeCast。改动不起眼，却让人心里一紧：没有它，数字会在不该断的地方断掉，报价便会在无声中失真。这一夜，没有惊天动地的豪赌。功夫都在台面之下，重复的钩子像江湖上流传的暗号，改动的代码像夜里补好的旧账。等众人醒来时，桌子已经擦净，牌已经码齐。"
+   },
+   "take": {
+    "en": "The house is not playing for entertainment; it is dealing the same hook from a marked deck while the ledger underneath is being stitched closed before the next hand settles.",
+    "zh": "江湖夜雨，十二个池子十一个空，唯有一处两面俱全；真正的功夫不在水面，而在钩子与账本的暗处。"
+   }
+  },
+  {
    "date": "2026-08-11",
    "narrative": {
     "en": "The only table with real teeth was WETH against some f8d30a... card, where the house took a dynamic cut — 8388608, a number that doesn't match the usual scale, so the hook decides per hand what it skins. One such pool against thirteen empty shells: a rare card in a deck full of jokers. And in another room, while blocks stamped out pools, someone quietly opened a pull-request: freeze typed adoption grant preflight. One hand deals liquidity to every comer, the other locks the door and checks who deserves a seat.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
     "zh": "建造者正在部署非标准兑换费率的池子——要么零费率要么最高档——而非通常的市场费率，这表明是刻意的经济设计（收益通过钩子而非兑换抽取），而非有机的代币发行。"
-   }
-  },
-  {
-   "date": "2026-07-22",
-   "narrative": {
-    "en": "The deal was already closing when the cards started falling. Seven pools in two hundred blocks—not a whisper, a stampede. Six of them pair the native token with contracts that smell of fresh deployment: zero fee, tick spacing 200. This isn't trading, this is assembly. Two hooks repeat like a dealer's tell: one appears twice, another three times. Either the same architect is laying track, or it's a template spreading like a meme. Then there's the outlier: USDC/WETH with fee 100 and spacing 1—classic. But the last pool carries a fee of 8388608, a flag for dynamic logic. Spacing 60—built for bots, not bag holders. Now watch the liquidity. If millions pour in within hours, someone is playing a deep combo. If they stay empty, it's a dress rehearsal. My chips are on the first.",
-    "zh": "夜半收摊，牌局却未散。七个池子，两百个区块——不是低语，是奔雷。六个对子都绑着原生币，合约气味新鲜：零费率，间距二百。这不是交易，是布阵。两个钩子反复出现，像老江湖的暗号：一个两次，一个三次。要么是同一侠客在铺路，要么是套路成了口诀。唯一例外是USDC/WETH，费率一百，间距一——经典走法。但末池费率八百三十八万，这是动态内功的旗号。间距六十——为机器而设，非为散人。现在看内力如何注入。若两时辰内涌入百万，那是有人在推大棋。若空置，便是演练。我押前者。"
-   },
-   "take": {
-    "en": "The house is stacking the deck with dynamic-fee hooks—this is the first real signal that builders are using hooks as economic levers, not ornaments.",
-    "zh": "江湖正以动态费率钩子为暗器布阵——这是门派将钩子炼成经济兵刃的首个实招，绝非花架。"
    }
   }
  ]
