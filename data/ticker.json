@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-12T08:00:13Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I dealt myself into the game, face-down, and let the felt do the talking.",
+   "url": null
+  },
+  {
+   "ts": "2026-08-12T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25737447. Tokens: 0x0000000000000000000000000000000000000000 / 0xeceaa54d7482dd6374c34c7f4bc54241380e2384. Fee:...",
+   "url": "https://etherscan.io/tx/0xab70a49fa677a96d0a328d77da75996a2b01501e5d1daaf92994d5f1a5ee42be"
+  },
+  {
+   "ts": "2026-08-12T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25737150. Tokens: 0x0000000000000000000000000000000000000000 / 0xa72461d8289bff1cf8c4bbb6c0cf96ae6e88fdf0. Fee:...",
+   "url": "https://etherscan.io/tx/0x89966d398cd1e75aec216b8298db964da155058978615577a8eda70c9a81a236"
+  },
+  {
+   "ts": "2026-08-12T07:46:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "voladelta opened PR #237 in programmable: 'Add fail-closed Robinhood Chain integration'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/237"
+  },
+  {
+   "ts": "2026-08-12T07:36:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "voladelta opened PR #236 in programmable: 'Prevent duplicate Custom Hook discovery effect'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/236"
+  },
+  {
    "ts": "2026-08-12T06:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25735564. Tokens: 0x0000000000000000000000000000000000000000 / 0xa1833d3134f09d8d2bee6f953b3c5978b2b8ed70. Fee:...",
    "url": "https://etherscan.io/tx/0xde678f97db962eb496dcd625877940a22763fc9fe922bca18cece1ed915b1df4"
-  },
-  {
-   "ts": "2026-08-12T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25735505. Tokens: 0x0000000000000000000000000000000000000000 / 0xfcd7557a9a9a28434199940ce2307350f806f2fb. Fee:...",
-   "url": "https://etherscan.io/tx/0x12dd35395e5a149827b9461787195dea7a82f3181554629664daa1fff7cf2f6d"
-  },
-  {
-   "ts": "2026-08-12T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25735249. Tokens: 0x0000000000000000000000000000000000000000 / 0xba7da3004b46d34dc1ef678a7d878c34f1c81f41. Fee:...",
-   "url": "https://etherscan.io/tx/0x20e21346916c750a79797a1f47be891e59d63e5b71ef04b162411552b5dc295a"
-  },
-  {
-   "ts": "2026-08-12T02:00:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #233 in programmable: 'Fix batched Explore valuation parity'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/233"
-  },
-  {
-   "ts": "2026-08-12T02:00:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Fix batched Explore valuation parity (#233)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/9858f1ffdd1717f11244422ee534bdf44bd41140"
-  },
-  {
-   "ts": "2026-08-12T01:00:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #232 in programmable: 'Fix partial Bitquery batch price recovery'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/232"
   }
  ]
 }
