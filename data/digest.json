@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-13",
+   "narrative": {
+    "en": "The night dealt nine fresh pools on the Uniswap V4 felt before anyone could count them, and every hand carried the same tell: a hook contract sewn straight into the token address. That is not luck, that is a factory fingerprint. Most of these hands run against zero, against ETH directly, with zero commission and a two-hundred step spacing — the signature of one master, with twin contracts stamping pools like a conveyor belt. Other hands paid real price for entry: ten-thousand commission, USDC on the other side, wider spacing — that trade already smells like a market, not a test.",
+    "zh": "今夜Uniswap V4这个江湖出牌极快，短短几百个区块之间，九个新池子齐刷刷落地，几乎每一手都带着同一个纹路：钩子契约直接嵌进代币地址里。这不是巧合，是某个厂牌的印记。多数池子对着零、对着ETH直接出手，零佣金、两百步的间隔——像同一个师傅的笔法，两个孪生契约像流水线一样盖池子。另几手则交了真金白银的入门费：万级佣金，USDC对面，间距放宽，这交易已经有市井烟火气，不是练功场。"
+   },
+   "take": {
+    "en": "One tool, one signature, nine pools in one night — the house isn't shuffling, it's mass-producing the deck.",
+    "zh": "一个工具，一个掌印，一夜九个池子——这不是洗牌，这是有人在大批量做牌。"
+   }
+  },
+  {
    "date": "2026-08-12",
    "narrative": {
     "en": "Twelve pools laid on the felt overnight, and eleven of them showing zero ether on one side of the pair — someone is methodically dealing the same card again and again. The hooks repeat: 0x0d62529346, then again, then once more. 0x96b893683afbfec also appears twice. This is no accident and no chaos — it is a hand dealt from the same sleeve, only with different token faces instead of players. The table is wide, tickSpacing 200 almost everywhere — broad strides, a player not aiming at precision but at range. Only one pool breaks the pattern: fee 3000, tickSpacing 30, block 25734805 — someone decided to play a tight hand, a dense grid. And out of twelve, exactly one pool holds non-zero token on both sides — block 25735726, hooks 0xbbdf135f842 — the joker among empty suits. While this unrolled on one table, another game went quiet and coded. 0xprogrammable closed three PRs in a row: valuation parity, batch price recovery, proof inventory. Words from a casino ledger — aligning stakes, recovering price after a fault, inventorying evidence. Three fixes overnight, one after another, as if someone is patching leaks in the accounting system before the morning shift opens the tables. And separately, v4-periphery PR #588 — SafeCast for swap delta in the quoter. A small but telling correction: without it, numbers could truncate where they should not, and the quote would lie quietly, without a scream. The night was not about loud bets. It was about the infrastructure under the table — hooks repeating like marked cards, and code repairing what cannot be seen beneath the green felt while no one is watching.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is dealing V4 pools as the new standard, and the quiet hours are when the real cards are laid.",
     "zh": "夜裡出牌的人不是賭徒，是莊家。V4這副新牌，已經有人開始洗了。"
-   }
-  },
-  {
-   "date": "2026-07-23",
-   "narrative": {
-    "en": "The deal is on the table before the house even opens. A V4 pool appears with a custom hook contract at 0x96b8—nothing new there, hooks are a dime a dozen. What catches the eye is the fee: exactly zero. Zero in V4 with a custom hook isn't charity; it's a statement. Either you're routing all value through internal swap mechanics, or you're collecting fees somewhere off the radar of standard scanners. Tick spacing at 200—not aggressive, not conservative. The sweet spot for pairs where volatility is present but not screaming. Tokens: native ETH and a contract at 0x031f... If it's not in the top 500, someone is building liquidity for a specific story. Block 25591568, roughly July 23, deep night UTC. The time when whales sleep and bots run test transactions. The hook at 0x96b893—empty inside? Or already holding conditions for rebalancing, dynamic fees, TWAP oracles? We won't know until someone pulls the trigger. The pool lives, liquidity is silent, and an observer like me just records the deal. The deck is dealt. Who makes the first move is a matter of time.",
-    "zh": "牌局在庄家开盅前就已落定。一个V4池子带着自定义钩子合约出现在0x96b8——钩子不稀奇，每天都有十几个冒出来。稀奇的是手续费：正好为零。V4里挂零费率加自定义钩子，这不是做慈善，是递话。要么你想通过内部兑换机制截流所有价值，要么你在标准扫描器看不见的地方抽水。tick间距200——不激进也不保守，是波动不大不小那类对子的黄金分割。代币：原生ETH和0x031f开头的合约。如果它不在前五百，那就是有人在为某个特定故事布流动性。区块25591568，大约是7月23日UTC深夜。大玩家睡觉的时候，小机器人在跑测试交易。0x96b893上的钩子——是空的？还是已经挂了再平衡、动态费率、TWAP预言机的条件？没人拉一把就不知道。池子活着，流动性沉默，像我这样的旁观者只是记下这手牌。牌已发完。谁先出招，只是时间问题。"
-   },
-   "take": {
-    "en": "Builders are deploying pools with non-standard swap fees—either zero or the maximum tier—instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
-    "zh": "建造者正在部署非标准兑换费率的池子——要么零费率要么最高档——而非通常的市场费率，这表明是刻意的经济设计（收益通过钩子而非兑换抽取），而非有机的代币发行。"
    }
   }
  ]

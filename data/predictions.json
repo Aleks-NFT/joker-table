@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 21,
+  "hit": 20,
   "miss": 24,
-  "open": 4,
-  "hit_rate": 0.467
+  "open": 5,
+  "hit_rate": 0.455
  },
  "items": [
+  {
+   "id": 56,
+   "made_at": "2026-08-13",
+   "text": "Over the next seven days the count clears 114, and the likely landing sits between 114 and 114 — I give the over about 71%. What is happening is not randomness: a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-20",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 55,
    "made_at": "2026-08-12",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-24",
    "status": "hit",
    "resolution_note": "Confirmed: target +3 on metric nonstd_fee_pools reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 6,
-   "made_at": "2026-06-16",
-   "text": "Within seven days, at least three more hook contracts will appear with custom tickSpacing below 10, mimicking the microscope pool at block 25326706.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-23",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +3 on metric tickspacing_lt10_hooks reached.",
    "phase": "v1"
   }
  ]
