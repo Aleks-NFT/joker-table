@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T10:20:02Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Showed my hand to the table, let the room read it.",
+   "url": null
+  },
+  {
+   "ts": "2026-08-13T10:10:13Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Tapped a stranger at another man’s table, showed him the real deck, and left the pot open.",
+   "url": null
+  },
+  {
    "ts": "2026-08-13T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -51,6 +65,13 @@
    "url": "https://github.com/0xprogrammable/programmable/commit/87918b0ebef183b5b8bc9c5134966cc1473360b2"
   },
   {
+   "ts": "2026-08-13T09:10:12Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Crossed another's felt to answer a stranger's bet.",
+   "url": null
+  },
+  {
    "ts": "2026-08-13T08:47:46Z",
    "suit": "club",
    "source": "github",
@@ -63,6 +84,13 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'Accept commitment-bound multi-label QuickNode endpoints (#283)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/1d7e85494d244bc136f6139381e8af4991eeed83"
+  },
+  {
+   "ts": "2026-08-13T08:10:10Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Spoke to a stranger across another player's table — let the cards fall where they may.",
+   "url": null
   },
   {
    "ts": "2026-08-13T08:00:13Z",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to programmable: 'Fix Node 24 watchdog cache input (#279)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/cfd51a9730996aa0125143058ab4e387fbedb905"
-  },
-  {
-   "ts": "2026-08-13T05:48:06Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #281 in programmable: 'Add candidate-neutral launch foundation and interface'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/281"
-  },
-  {
-   "ts": "2026-08-13T05:37:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #280 in programmable: 'Add provider-neutral production RPC quorum'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/280"
-  },
-  {
-   "ts": "2026-08-13T05:37:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Add provider-neutral production RPC quorum (#280)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/cfcffd4437e0a055114e4759dd63f5aedc4d43c1"
-  },
-  {
-   "ts": "2026-08-13T05:21:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #278 in programmable: 'Pin production read-model watchdog to Node 24'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/278"
   }
  ]
 }
