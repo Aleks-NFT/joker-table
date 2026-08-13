@@ -2,6 +2,111 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T22:00:01Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748813. Tokens: 0x0000000000000000000000000000000000000000 / 0xae2c75034ac459ec45b7b4b889a413a6c4a6b97d. Fee:...",
+   "url": "https://etherscan.io/tx/0x282345e255c6f60099d641631b437b9aa46cb6c4e2dcaa0a0141adf03ddf0a77"
+  },
+  {
+   "ts": "2026-08-13T22:00:01Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748810. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x28172488b08c162402988d91f25e3295993203aea502e569ec71e7fd6a006261"
+  },
+  {
+   "ts": "2026-08-13T22:00:01Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748772. Tokens: 0x0000000000000000000000000000000000000000 / 0xbbd7c27b59e24ead7cffadb22f94f1ef55a89b22. Fee:...",
+   "url": "https://etherscan.io/tx/0xfc8533e064429a2335d4c3edceeb734e43c702143f47a30618d0682334ee7cfa"
+  },
+  {
+   "ts": "2026-08-13T22:00:01Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748674. Tokens: 0x0000000000000000000000000000000000000000 / 0x6324c6c9322e4ed258d747bf340968c7f692e0cc. Fee:...",
+   "url": "https://etherscan.io/tx/0x0be5d6d025ab95914bfde9554526ce2c3865eb3e427e35e66816ad042af08509"
+  },
+  {
+   "ts": "2026-08-13T22:00:01Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748530. Tokens: 0x0000000000000000000000000000000000000000 / 0xd849924a05af0803b01d23d9b554517d1c0f2853. Fee:...",
+   "url": "https://etherscan.io/tx/0xf940e1bd0ef44b0c95e274b24107196baf44531c86d23562d793d6bf80809f64"
+  },
+  {
+   "ts": "2026-08-13T21:46:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #310 in programmable: 'fix(registry): read production keys from scoped Keychain search'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/310"
+  },
+  {
+   "ts": "2026-08-13T21:43:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #309 in programmable: 'Add fail-closed Custom Registry V2 public surface'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/309"
+  },
+  {
+   "ts": "2026-08-13T21:37:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #308 in programmable: 'Prewarm staged Classic event caches'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/308"
+  },
+  {
+   "ts": "2026-08-13T21:37:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Prewarm staged Classic event caches (#308)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/9baabdd81274e58e5a690768336017dee1297241"
+  },
+  {
+   "ts": "2026-08-13T21:07:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #306 in programmable: 'Registry V2: freeze Safe public migration workflow'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/306"
+  },
+  {
+   "ts": "2026-08-13T21:07:45Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'feat: finalize Registry V2 hardware migration release workflow'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/4445d815ff2421fb066f3118e76835d43cf7ebdc"
+  },
+  {
+   "ts": "2026-08-13T20:50:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #298 in programmable: 'Harden Custom Registry V2 production deployment evidence'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/298"
+  },
+  {
+   "ts": "2026-08-13T20:50:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'feat(contracts): add Custom Registry V2 production lifecycle'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/e02743d12b56fff674d5dc9c19fd37aa6f08be4b"
+  },
+  {
+   "ts": "2026-08-13T20:14:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #307 in programmable: 'Handle dense durable RPC log segments'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/307"
+  },
+  {
+   "ts": "2026-08-13T20:14:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Handle dense durable RPC log segments (#307)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/630ddca42f37408db7ef5ec61e3e347ea3fe0d8a"
+  },
+  {
    "ts": "2026-08-13T20:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -105,111 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #305 in programmable: 'Serialize independent archive provider scans'",
    "url": "https://github.com/0xprogrammable/programmable/pull/305"
-  },
-  {
-   "ts": "2026-08-13T19:25:06Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Serialize independent archive provider scans (#305)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/38bc6aa73081351abe8e2f41c6c86674386d41c6"
-  },
-  {
-   "ts": "2026-08-13T19:04:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #304 in programmable: 'Fix atomic read-model RPC cache checkpoints'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/304"
-  },
-  {
-   "ts": "2026-08-13T19:04:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Fix atomic read-model RPC cache checkpoints (#304)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/5c2995f0070b22faf1148871cc43ee1db8adb7ee"
-  },
-  {
-   "ts": "2026-08-13T18:33:15Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #303 in programmable: 'Use fixed archive witnesses for durable refresh'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/303"
-  },
-  {
-   "ts": "2026-08-13T18:33:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Use fixed archive witnesses for durable refresh (#303)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/be0b5fdb1d0b7ab50bd16657db8677c29c4eab19"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747710. Tokens: 0x0000000000000000000000000000000000000000 / 0xfa4fa690fb3a2a4b902514cb94f8c6548c16d230. Fee:...",
-   "url": "https://etherscan.io/tx/0xede51ced95fa6a300508606bbc55f3d89d0ff07b7a4baec3079ebbf8cf2b51e4"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747702. Tokens: 0x0000000000000000000000000000000000000000 / 0x1bd277042dad96c20217b3c6012aecd834f5eeac. Fee:...",
-   "url": "https://etherscan.io/tx/0xb8de630d47dfe835fa7e735414841ae480e48c2e3291581d366aaf5504371609"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747654. Tokens: 0x0000000000000000000000000000000000000000 / 0xbd2ae1dfbe3862ecd4d5f4bf1ac0285aa1f7c2d3. Fee:...",
-   "url": "https://etherscan.io/tx/0x0f59fa05e53b76551b04da1d4cfd4c23816673d2a4c2158eae55c73630e3f732"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747640. Tokens: 0x0000000000000000000000000000000000000000 / 0x86e141991b8e74433e5a8ffdb101ea7807daad8a. Fee:...",
-   "url": "https://etherscan.io/tx/0x0a7f215593ba60a55136468aa3e4d2251abb1ccb3273b296d25dfa121914db9a"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747610. Tokens: 0x0000000000000000000000000000000000000000 / 0x441f3facb0e8fe759051716ce224925ca1028566. Fee:...",
-   "url": "https://etherscan.io/tx/0xd8b97d0aed18cc0c6c3083cf91ad32dc0e74f4a6869c021a913de9c88908400d"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747586. Tokens: 0x0000000000000000000000000000000000000000 / 0xb8331fb41f65057cfff04e94d0be7d05c5da09cf. Fee:...",
-   "url": "https://etherscan.io/tx/0x38b12308f5b584a3e389a18476dcea751dcb07fca7834b821b74b204043ac50f"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747583. Tokens: 0x0000000000000000000000000000000000000000 / 0xcb97d741dca325cde724c89fcda5052b06e6e128. Fee:...",
-   "url": "https://etherscan.io/tx/0x5955f3bf098d4e33ce18a90b892368a001a32e4399522236ae5dd6566ddd089e"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747575. Tokens: 0x0000000000000000000000000000000000000000 / 0xc5f397d2356e1afde70f140f47b6960163171e81. Fee:...",
-   "url": "https://etherscan.io/tx/0xe36b63fca611094a906f040b05e97af7765e33e6e1fa6b036abdfea3b2e884af"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747504. Tokens: 0x0000000000000000000000000000000000000000 / 0x691f5b6981c90d8ba8570c9e6f61864266a19ca3. Fee:...",
-   "url": "https://etherscan.io/tx/0xbb70e1f07a03c67653715aff3be0fa0da004b4a2f5b70ad21b3fe3a3eaeddb52"
-  },
-  {
-   "ts": "2026-08-13T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747422. Tokens: 0x0000000000000000000000000000000000000000 / 0x8f36c88af194de2e12a348f6412faa74051344b5. Fee:...",
-   "url": "https://etherscan.io/tx/0x92ee3cabdba3e56ba5869e499f0064ecc67274efce4db4e905c0f8ad1cb29e23"
   }
  ]
 }
