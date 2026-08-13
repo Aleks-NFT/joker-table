@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25745209. Tokens: 0x0000000000000000000000000000000000000000 / 0xebb6bcd7127a009fd297ee628b6f0429502bf6ff. Fee:...",
+   "url": "https://etherscan.io/tx/0x6d71c8478af4bab6168da5c6801215ecb25f94ce82df87fce6a56d25efcfc908"
+  },
+  {
+   "ts": "2026-08-13T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25745024. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xcd2c3c646babc48cb9411b2da62d422b40922b07. Fee:...",
+   "url": "https://etherscan.io/tx/0x58af361cd45f91e736034e5b2f4af0b8b7548abcb00d5129496318ff3c50cabe"
+  },
+  {
+   "ts": "2026-08-13T09:45:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #284 in programmable: 'Refresh exact staged market evidence before release gates'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/284"
+  },
+  {
+   "ts": "2026-08-13T09:45:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Refresh exact staged market evidence before release gates (#284)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/818b56b43b8ee108baf2f087254db43ef8b5e18e"
+  },
+  {
+   "ts": "2026-08-13T09:44:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #286 in programmable: 'Bind production reads to private role-bound RPC quorum'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/286"
+  },
+  {
+   "ts": "2026-08-13T09:26:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #285 in programmable: 'Add one-click protocol fee claim app'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/285"
+  },
+  {
+   "ts": "2026-08-13T09:26:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add one-click protocol fee claim app (#285)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/87918b0ebef183b5b8bc9c5134966cc1473360b2"
+  },
+  {
+   "ts": "2026-08-13T08:47:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #283 in programmable: 'Accept commitment-bound multi-label QuickNode endpoints'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/283"
+  },
+  {
+   "ts": "2026-08-13T08:47:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Accept commitment-bound multi-label QuickNode endpoints (#283)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/1d7e85494d244bc136f6139381e8af4991eeed83"
+  },
+  {
    "ts": "2026-08-13T08:00:13Z",
    "suit": "spade",
    "source": "JOKER",
@@ -147,69 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #278 in programmable: 'Pin production read-model watchdog to Node 24'",
    "url": "https://github.com/0xprogrammable/programmable/pull/278"
-  },
-  {
-   "ts": "2026-08-13T05:21:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Pin production read-model watchdog to Node 24 (#278)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/844ea0f9a5f7e4f12d4e9a90df7e95ee0b7a458c"
-  },
-  {
-   "ts": "2026-08-13T05:06:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #276 in programmable: 'Harden production read-model RPC retries'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/276"
-  },
-  {
-   "ts": "2026-08-13T05:06:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Harden production read-model RPC retries (#276)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/0d27dfdbb7d8b34674de5e2268177fee83790505"
-  },
-  {
-   "ts": "2026-08-13T04:54:43Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #277 in programmable: 'Fix and verify live market data paths'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/277"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 PYUSD / USDS — $110,482,682   #2 USDT / USDS — $65,055,844   #3 USDC / USDT — $37,650,526   #4 ...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "nes / USDC 0.01% volume surged 91% to $3,297,770 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "cbBTC / WBTC 0.005% volume surged 91% to $4,534,261 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: USDG / USDC 0.008% — $2,170,493 24h volume, $636,066 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: GHO / USDT 0.01% — $2,910,044 24h volume, $547,551 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x4eceeb5adaa1cabd56451c1f1ea82b33effb6de62097a19734936f574e9a2de2"
   }
  ]
 }
