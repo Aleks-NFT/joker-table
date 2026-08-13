@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25742640. Tokens: 0x4ba01f22827018b4772cd326c7627fb4956a7c00 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0xfcc60689d5a81fe4d2a1922b912268c2821910060f188279e329a3daa25fbf2b"
+  },
+  {
+   "ts": "2026-08-13T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25742537. Tokens: 0x3ce71025a6ef1df94fa369fb085683cd02748088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x9e9b4708a8155e34832b284ed2b5e3f91088b704a199e6be4131f3852b9d7555"
+  },
+  {
+   "ts": "2026-08-13T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25742494. Tokens: 0x49ad158e30f4eb2b336b49393c74272a6b9d8088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x201acadc9c3972a311fca326f6df43be807380f27adbea825e5cb4cd8af4f78f"
+  },
+  {
+   "ts": "2026-08-13T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25742425. Tokens: 0x0000000000000000000000000000000000000000 / 0xe9f209048a963009ab5fd876948d3a1d8695e0cc. Fee:...",
+   "url": "https://etherscan.io/tx/0x252edf6ad2aebb97fc4f95b7fbbb4ff34a2b11ab61ac29657177d4dfe3cc242b"
+  },
+  {
+   "ts": "2026-08-13T00:41:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #270 in programmable: 'fix: bound stale FDV on public Explore'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/270"
+  },
+  {
+   "ts": "2026-08-13T00:41:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to programmable: 'fix: bound stale FDV on public Explore (#270)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/a6c2d33cf0ecf8167746695bb5374aa42653e98d"
+  },
+  {
+   "ts": "2026-08-13T00:27:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #268 in programmable: 'feat: sync immutable Hookbuilder v0.5.1'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/268"
+  },
+  {
+   "ts": "2026-08-13T00:05:37Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #269 in programmable: 'chore: align production indexer with Node 24 and Hookbuilder v0.5.1'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/269"
+  },
+  {
+   "ts": "2026-08-13T00:05:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to programmable: 'chore: align production indexer with Node 24 and Hookbuilder v0.5.1 (#269)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/bdf7c38e805a96d569035e5302c8a7225ca4f86e"
+  },
+  {
    "ts": "2026-08-13T00:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25740876. Tokens: 0x0000000000000000000000000000000000000000 / 0xcb0c42c2ba0113fd1acb0f1219a61c5d24778b95. Fee:...",
    "url": "https://etherscan.io/tx/0x6e42f9cadfb57c6ba12ad55a0822fdf367568a751c1139373e8bd666ce410de6"
-  },
-  {
-   "ts": "2026-08-12T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25740817. Tokens: 0x0000000000000000000000000000000000000000 / 0xb920ddbf03652943a835b0228dccaf4f020454b0. Fee:...",
-   "url": "https://etherscan.io/tx/0xb3c269bc24ad62b8a06e89df755ad7696147aa9aa967618c39fe92eb196d4a4d"
-  },
-  {
-   "ts": "2026-08-12T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25740627. Tokens: 0x0000000000000000000000000000000000000000 / 0xd0a606adf58b69a28d479aa510ce6fe96e0a1eb2. Fee:...",
-   "url": "https://etherscan.io/tx/0xc0ac8b6b61a786c130e8c8e5e38717c4ad3fc837247f550723c85c6b20481fbe"
-  },
-  {
-   "ts": "2026-08-12T19:36:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #264 in programmable: 'ci: install Foundry for trusted post-merge tests'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/264"
-  },
-  {
-   "ts": "2026-08-12T19:36:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #262 in programmable: 'ci: install Foundry for trusted post-merge tests'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/262"
-  },
-  {
-   "ts": "2026-08-12T19:20:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #263 in programmable: 'ci: approve exact post-merge Foundry candidate'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/263"
-  },
-  {
-   "ts": "2026-08-12T19:20:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'ci: approve exact post-merge Foundry candidate (#263)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/add7e25af34d6c1edf171ca6d024edc92b9c5327"
-  },
-  {
-   "ts": "2026-08-12T19:04:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #261 in programmable: 'Unify responsive UI and loading experience'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/261"
-  },
-  {
-   "ts": "2026-08-12T19:04:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Unify responsive UI and loading experience (#261)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/63574fd5e81b881ec111837e363025bb618dc18e"
-  },
-  {
-   "ts": "2026-08-12T18:54:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #245 in programmable: 'feat: sync latest Hookbuilder model on Node 24'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/245"
   }
  ]
 }
