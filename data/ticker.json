@@ -2,6 +2,111 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25744099. Tokens: 0x0000000000000000000000000000000000000000 / 0x99dca250e8e4ec6052c46f0d0b0f6065c35b4d1a. Fee:...",
+   "url": "https://etherscan.io/tx/0xedee577fc05963dd7c51675470cb5cea3066ea21f62499016f3f75d4f3505621"
+  },
+  {
+   "ts": "2026-08-13T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25744001. Tokens: 0x0000000000000000000000000000000000000000 / 0xb51185e0dda2e631b1601578e4ea9adc051a1656. Fee:...",
+   "url": "https://etherscan.io/tx/0xee69e2c298ca380966cca4332a5af87077cbdeb747cdcb9f72c5466344135523"
+  },
+  {
+   "ts": "2026-08-13T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25743948. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xffff3e37b222dac067e808d8e3863e39c09a8ae4. Fee:...",
+   "url": "https://etherscan.io/tx/0x90c47ca28a88b554bc84a35612e58a2887fef638a30dbdecbdbee75d0b565d91"
+  },
+  {
+   "ts": "2026-08-13T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25743783. Tokens: 0x0000000000000000000000000000000000000000 / 0x165c06b3236ae635d98cfb791d29f089977a27f3. Fee:...",
+   "url": "https://etherscan.io/tx/0xe68727e9e49dbedcfcce7accd48298f4c949f40b40c1cdc1d9067eee2aa1d81a"
+  },
+  {
+   "ts": "2026-08-13T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25743574. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd64721ef523dbab6904f1de6be8e0a4a8600a8a. Fee:...",
+   "url": "https://etherscan.io/tx/0x9ba75ccd8e3071b5e11e6513a6c03a7a26de70d90f00588fe4119d4cb95b241f"
+  },
+  {
+   "ts": "2026-08-13T05:53:11Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #279 in programmable: 'Fix Node 24 watchdog cache input'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/279"
+  },
+  {
+   "ts": "2026-08-13T05:53:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to programmable: 'Fix Node 24 watchdog cache input (#279)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/cfd51a9730996aa0125143058ab4e387fbedb905"
+  },
+  {
+   "ts": "2026-08-13T05:48:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #281 in programmable: 'Add candidate-neutral launch foundation and interface'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/281"
+  },
+  {
+   "ts": "2026-08-13T05:37:50Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #280 in programmable: 'Add provider-neutral production RPC quorum'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/280"
+  },
+  {
+   "ts": "2026-08-13T05:37:50Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add provider-neutral production RPC quorum (#280)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/cfcffd4437e0a055114e4759dd63f5aedc4d43c1"
+  },
+  {
+   "ts": "2026-08-13T05:21:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #278 in programmable: 'Pin production read-model watchdog to Node 24'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/278"
+  },
+  {
+   "ts": "2026-08-13T05:21:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to programmable: 'Pin production read-model watchdog to Node 24 (#278)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/844ea0f9a5f7e4f12d4e9a90df7e95ee0b7a458c"
+  },
+  {
+   "ts": "2026-08-13T05:06:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #276 in programmable: 'Harden production read-model RPC retries'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/276"
+  },
+  {
+   "ts": "2026-08-13T05:06:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Harden production read-model RPC retries (#276)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/0d27dfdbb7d8b34674de5e2268177fee83790505"
+  },
+  {
+   "ts": "2026-08-13T04:54:43Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #277 in programmable: 'Fix and verify live market data paths'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/277"
+  },
+  {
    "ts": "2026-08-13T04:30:03Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -42,6 +147,20 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $3,671,719 24h volume, $1,548,751 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
+  },
+  {
+   "ts": "2026-08-13T04:18:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #275 in programmable: 'Restore the production read-model watchdog'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/275"
+  },
+  {
+   "ts": "2026-08-13T04:18:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Restore the production read-model watchdog (#275)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/f6a0a4f277e61c1f230acaf9fd76cd64af88e790"
   },
   {
    "ts": "2026-08-13T04:00:04Z",
@@ -91,125 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25743056. Tokens: 0x0000000000000000000000000000000000000000 / 0xf1c3be03fa6fdb48feeed5ec4ccef0fedb87ae1b. Fee:...",
    "url": "https://etherscan.io/tx/0xb37a9464891b9397f7a7c82981d01c5e536a7449e5d0d558c519d8eab601aac1"
-  },
-  {
-   "ts": "2026-08-13T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo augusttw/v4-hooks-analyzer references hook UniswapV4KEMHook (0x4440854b…, 25 pools) in its readme — code behind a contract that is live on chain",
-   "url": "https://github.com/augusttw/v4-hooks-analyzer"
-  },
-  {
-   "ts": "2026-08-13T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo sterlingcrispin/arb-hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/sterlingcrispin/arb-hook"
-  },
-  {
-   "ts": "2026-08-13T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voltgzer0/swap-and-bridge-op — 0★ — Uniswap v4 periphery router — swap through a pool and bridge the output to Optimism in one call...",
-   "url": "https://github.com/voltgzer0/swap-and-bridge-op"
-  },
-  {
-   "ts": "2026-08-13T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: ysham123/Uniswap — 0★ —",
-   "url": "https://github.com/ysham123/Uniswap"
-  },
-  {
-   "ts": "2026-08-13T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Banshee-Music/BansheeHook — 0★ — Fair-launch and liquidity hook built on top of Uniswap V4",
-   "url": "https://github.com/Banshee-Music/BansheeHook"
-  },
-  {
-   "ts": "2026-08-13T03:44:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #274 in programmable: 'Bind staged market RPC witnesses'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/274"
-  },
-  {
-   "ts": "2026-08-13T03:44:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Bind staged market RPC witnesses (#274)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/bc70bf1fc4b13d59f036326b89e9ad1f04298b5e"
-  },
-  {
-   "ts": "2026-08-13T03:42:57Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #273 in programmable: 'feat(contracts): freeze Exact Shards launch stack'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/273"
-  },
-  {
-   "ts": "2026-08-13T03:42:56Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #272 in programmable: 'feat(hookemon): freeze reusable profile v2'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/272"
-  },
-  {
-   "ts": "2026-08-13T03:20:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #253 in programmable: 'feat(contracts): make Shards launch atomic across routes'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/253"
-  },
-  {
-   "ts": "2026-08-13T03:07:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #271 in programmable: 'Fix and accelerate public market data'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/271"
-  },
-  {
-   "ts": "2026-08-13T03:07:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Fix and accelerate public market data (#271)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/bb79d3b26d9e96baf692a909b10ced1523debc1d"
-  },
-  {
-   "ts": "2026-08-13T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742640. Tokens: 0x4ba01f22827018b4772cd326c7627fb4956a7c00 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0xfcc60689d5a81fe4d2a1922b912268c2821910060f188279e329a3daa25fbf2b"
-  },
-  {
-   "ts": "2026-08-13T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742537. Tokens: 0x3ce71025a6ef1df94fa369fb085683cd02748088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x9e9b4708a8155e34832b284ed2b5e3f91088b704a199e6be4131f3852b9d7555"
-  },
-  {
-   "ts": "2026-08-13T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742494. Tokens: 0x49ad158e30f4eb2b336b49393c74272a6b9d8088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x201acadc9c3972a311fca326f6df43be807380f27adbea825e5cb4cd8af4f78f"
-  },
-  {
-   "ts": "2026-08-13T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742425. Tokens: 0x0000000000000000000000000000000000000000 / 0xe9f209048a963009ab5fd876948d3a1d8695e0cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x252edf6ad2aebb97fc4f95b7fbbb4ff34a2b11ab61ac29657177d4dfe3cc242b"
-  },
-  {
-   "ts": "2026-08-13T00:41:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #270 in programmable: 'fix: bound stale FDV on public Explore'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/270"
   }
  ]
 }
