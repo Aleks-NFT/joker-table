@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-13T04:15:34Z",
+ "generated_at": "2026-08-13T05:15:34Z",
  "total_hooks": 3125,
  "total_pools": 10445,
  "multi_pool_hooks": 312,
@@ -5135,8 +5135,8 @@
   {
    "address": "0x5449a5cc317a6df2005d5369426e5009fa84d040",
    "address_short": "0x5449…d040",
-   "name": "",
-   "verified": false,
+   "name": "WLimitOrderHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x5449a5cc317a6df2005d5369426e5009fa84d040",
    "pool_count": 2,
    "permissions_human": [

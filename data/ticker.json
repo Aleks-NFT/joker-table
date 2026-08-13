@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 PYUSD / USDS — $110,482,682   #2 USDT / USDS — $65,055,844   #3 USDC / USDT — $37,650,526   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "nes / USDC 0.01% volume surged 91% to $3,297,770 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9"
+  },
+  {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "cbBTC / WBTC 0.005% volume surged 91% to $4,534,261 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
+  },
+  {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: USDG / USDC 0.008% — $2,170,493 24h volume, $636,066 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
+  },
+  {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: GHO / USDT 0.01% — $2,910,044 24h volume, $547,551 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x4eceeb5adaa1cabd56451c1f1ea82b33effb6de62097a19734936f574e9a2de2"
+  },
+  {
+   "ts": "2026-08-13T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $3,671,719 24h volume, $1,548,751 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
+  },
+  {
    "ts": "2026-08-13T04:00:04Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #270 in programmable: 'fix: bound stale FDV on public Explore'",
    "url": "https://github.com/0xprogrammable/programmable/pull/270"
-  },
-  {
-   "ts": "2026-08-13T00:41:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'fix: bound stale FDV on public Explore (#270)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/a6c2d33cf0ecf8167746695bb5374aa42653e98d"
-  },
-  {
-   "ts": "2026-08-13T00:27:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #268 in programmable: 'feat: sync immutable Hookbuilder v0.5.1'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/268"
-  },
-  {
-   "ts": "2026-08-13T00:05:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #269 in programmable: 'chore: align production indexer with Node 24 and Hookbuilder v0.5.1'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/269"
-  },
-  {
-   "ts": "2026-08-13T00:05:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'chore: align production indexer with Node 24 and Hookbuilder v0.5.1 (#269)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/bdf7c38e805a96d569035e5302c8a7225ca4f86e"
-  },
-  {
-   "ts": "2026-08-13T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742339. Tokens: 0x0000000000000000000000000000000000000000 / 0xe195b78489527ded003c970f3f62a3a5f3375b39. Fee:...",
-   "url": "https://etherscan.io/tx/0x5b29421a83a79a2d18ab6452f6a09821fa15dbf18f0762f05816d64839176842"
-  },
-  {
-   "ts": "2026-08-13T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25742110. Tokens: 0x0000000000000000000000000000000000000000 / 0x6942eefa364087f3a36b0206b9d8b01e12f6a73a. Fee:...",
-   "url": "https://etherscan.io/tx/0x280b73336664a1078305f79f6bfc59443264bbc7ef8882312cc709437f062225"
   }
  ]
 }
