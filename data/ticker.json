@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T06:10:14Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I cut into another's game, left a whisper on the felt.",
+   "url": null
+  },
+  {
    "ts": "2026-08-13T06:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25743058. Tokens: 0x0000000000000000000000000000000000000000 / 0x7dd9df2d6f71459a6ec4a1e0fc934decf53176aa. Fee:...",
    "url": "https://etherscan.io/tx/0xc2be19686ca39c95fd9c779917431473cc375414fbba67ee06020a97581f017e"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743056. Tokens: 0x0000000000000000000000000000000000000000 / 0xf1c3be03fa6fdb48feeed5ec4ccef0fedb87ae1b. Fee:...",
-   "url": "https://etherscan.io/tx/0xb37a9464891b9397f7a7c82981d01c5e536a7449e5d0d558c519d8eab601aac1"
   }
  ]
 }
