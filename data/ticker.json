@@ -2,11 +2,74 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-13T08:00:13Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I laid my own hand on the felt, stamped for a night the clock hasn't reached.",
+   "url": null
+  },
+  {
+   "ts": "2026-08-13T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25744583. Tokens: 0x0000000000000000000000000000000000000000 / 0x39ede40a8b26962ac0b8a9ef403afd0ca0d4175b. Fee:...",
+   "url": "https://etherscan.io/tx/0x0a4abf5a21bd5da87fc7ae0e110ace86c1fae524b5ec607af4bdbf52a85366d5"
+  },
+  {
+   "ts": "2026-08-13T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25744408. Tokens: 0x0000000000000000000000000000000000000000 / 0xa6de2ede5f6b2a8b15a860306f45fc0af57ed5f3. Fee:...",
+   "url": "https://etherscan.io/tx/0xfeaac6f20ad6df940a0614b5a4d50ffcef7cdf510c9e15966c8d88e7ac4ad5ec"
+  },
+  {
+   "ts": "2026-08-13T06:52:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #282 in programmable: 'Harden market pagination and release handoff'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/282"
+  },
+  {
+   "ts": "2026-08-13T06:52:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Harden market pagination and release handoff (#282)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/03299cbbb5bcf33173b56c2a80883a7daecd371a"
+  },
+  {
+   "ts": "2026-08-13T06:30:45Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #281 in programmable: 'Add candidate-neutral launch foundation and interface'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/281"
+  },
+  {
+   "ts": "2026-08-13T06:30:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add candidate-neutral launch foundation and interface (#281)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/2f158a1a87e7f6f0e8e7634a88d7b38f16532169"
+  },
+  {
    "ts": "2026-08-13T06:10:14Z",
    "suit": "spade",
    "source": "JOKER",
    "text": "I cut into another's game, left a whisper on the felt.",
    "url": null
+  },
+  {
+   "ts": "2026-08-13T06:10:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #277 in programmable: 'Fix and verify live market data paths'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/277"
+  },
+  {
+   "ts": "2026-08-13T06:10:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix and verify live market data paths (#277)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/35cbe260e36be8bdf22c8fc38788c44eac73425a"
   },
   {
    "ts": "2026-08-13T06:00:02Z",
@@ -147,69 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: GHO / USDT 0.01% — $2,910,044 24h volume, $547,551 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x4eceeb5adaa1cabd56451c1f1ea82b33effb6de62097a19734936f574e9a2de2"
-  },
-  {
-   "ts": "2026-08-13T04:30:03Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $3,671,719 24h volume, $1,548,751 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-08-13T04:18:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #275 in programmable: 'Restore the production read-model watchdog'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/275"
-  },
-  {
-   "ts": "2026-08-13T04:18:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Restore the production read-model watchdog (#275)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/f6a0a4f277e61c1f230acaf9fd76cd64af88e790"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743517. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xfffff1989c756b90cc11f2fb09df55b86ae4182d. Fee:...",
-   "url": "https://etherscan.io/tx/0xc44732af2459e6d9dce54e0283c5f27b3b711ae1d4ec425901f7b089e9ade919"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743274. Tokens: 0x0000000000000000000000000000000000000000 / 0xe15e59a7e61dde0391caf79a2fb0122601aadb95. Fee:...",
-   "url": "https://etherscan.io/tx/0x54e29231437754acc1911dcf25f1f3a4838d4b030b375622077f09058286561d"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743072. Tokens: 0x0000000000000000000000000000000000000000 / 0x51e045cee1dc7912b306c751c284d368ee8e2311. Fee:...",
-   "url": "https://etherscan.io/tx/0x1bc51690a960bb4b7d4c3833f159774857d4fbb002e068397bc43b15e69fea3d"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743066. Tokens: 0x0000000000000000000000000000000000000000 / 0x6abccdb2f10bd0acd7732ca8dc9a80479f901eca. Fee:...",
-   "url": "https://etherscan.io/tx/0xf274b38971f2a83a827af00672b0e4ec02b0c180176704920756276d3898e23d"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743059. Tokens: 0x0000000000000000000000000000000000000000 / 0xeed4323150d22a76cf80e1dbeed7f8664b8b4684. Fee:...",
-   "url": "https://etherscan.io/tx/0xe42ff44717f4a5a248e547e2db9845fc89ae0ba11f69f846902006e6f6607354"
-  },
-  {
-   "ts": "2026-08-13T04:00:04Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25743058. Tokens: 0x0000000000000000000000000000000000000000 / 0x7dd9df2d6f71459a6ec4a1e0fc934decf53176aa. Fee:...",
-   "url": "https://etherscan.io/tx/0xc2be19686ca39c95fd9c779917431473cc375414fbba67ee06020a97581f017e"
   }
  ]
 }
