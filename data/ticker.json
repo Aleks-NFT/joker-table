@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T06:10:13Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Answered a stranger at the next table — the count's noise, the flow's the tell.",
+   "url": null
+  },
+  {
    "ts": "2026-08-14T06:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #320 in programmable: 'fix(registry): capture exact current provider metadata'",
    "url": "https://github.com/0xprogrammable/programmable/pull/320"
-  },
-  {
-   "ts": "2026-08-14T02:33:47Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'fix(registry): capture exact current provider metadata (#320)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/03f412cf20e65458a2c9cf5665de245b3c0839e8"
   }
  ]
 }
