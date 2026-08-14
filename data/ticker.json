@@ -2,6 +2,104 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25750108. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xf03229b2f5c5e765deb47ae7cab8859fad59ba11. Fee:...",
+   "url": "https://etherscan.io/tx/0x0690b6290e93b22546a4602df130e00897eb4c2117df402e6f9e76bfcd53fa29"
+  },
+  {
+   "ts": "2026-08-14T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25749993. Tokens: 0x0000000000000000000000000000000000000000 / 0xa5627d2bf7bd8b6fec309d94fe37d2e8d69ddc8d. Fee:...",
+   "url": "https://etherscan.io/tx/0xe74393487a23527a4120ce97324be2831d1958e5a3312a57e7fe08996b3b87de"
+  },
+  {
+   "ts": "2026-08-14T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25749630. Tokens: 0x0000000000000000000000000000000000000000 / 0xae7af577339de090305172ceb4698fb486d8b89b. Fee:...",
+   "url": "https://etherscan.io/tx/0x48a1acf354a67baf359a4adc4b0844a6e2e53144c80aee9c7bc98ac22b096494"
+  },
+  {
+   "ts": "2026-08-14T01:48:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #319 in programmable: 'Add Custom V2 production gate and projection DB operator'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/319"
+  },
+  {
+   "ts": "2026-08-14T01:48:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add Custom V2 production gate and projection DB operator (#319)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/76ebd54e2f0e31d055cfe6c36b7474b0e850de90"
+  },
+  {
+   "ts": "2026-08-14T01:16:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #317 in programmable: 'Make public Website data Bitquery only'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/317"
+  },
+  {
+   "ts": "2026-08-14T01:16:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Make public Website data Bitquery only (#317)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/e1dec520b0fbf5e1adcab4c5705764efb3236c9e"
+  },
+  {
+   "ts": "2026-08-14T01:14:31Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #320 in programmable: 'fix(registry): capture exact current provider metadata'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/320"
+  },
+  {
+   "ts": "2026-08-14T01:00:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #316 in programmable: 'Fix Registry dispatch window guard import'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/316"
+  },
+  {
+   "ts": "2026-08-14T01:00:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix Registry dispatch window guard import (#316)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/ec5bb3e383af97de94c3261b3d33e68977499e2b"
+  },
+  {
+   "ts": "2026-08-14T00:58:50Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #318 in programmable: 'fix(registry): canonicalize verifier address arrays'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/318"
+  },
+  {
+   "ts": "2026-08-14T00:30:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #312 in programmable: 'Materialize verified Generic V2 custom launches'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/312"
+  },
+  {
+   "ts": "2026-08-14T00:30:39Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add fail-closed Generic Launch V2 projection'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/aa237c39c82c933041d74ac9b632754eb1dda629"
+  },
+  {
+   "ts": "2026-08-14T00:00:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable closed PR #314 in programmable: 'fix(release): always gate staged read model'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/314"
+  },
+  {
    "ts": "2026-08-14T00:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -112,104 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25748813. Tokens: 0x0000000000000000000000000000000000000000 / 0xae2c75034ac459ec45b7b4b889a413a6c4a6b97d. Fee:...",
    "url": "https://etherscan.io/tx/0x282345e255c6f60099d641631b437b9aa46cb6c4e2dcaa0a0141adf03ddf0a77"
-  },
-  {
-   "ts": "2026-08-13T22:00:01Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748810. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x28172488b08c162402988d91f25e3295993203aea502e569ec71e7fd6a006261"
-  },
-  {
-   "ts": "2026-08-13T22:00:01Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748772. Tokens: 0x0000000000000000000000000000000000000000 / 0xbbd7c27b59e24ead7cffadb22f94f1ef55a89b22. Fee:...",
-   "url": "https://etherscan.io/tx/0xfc8533e064429a2335d4c3edceeb734e43c702143f47a30618d0682334ee7cfa"
-  },
-  {
-   "ts": "2026-08-13T22:00:01Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748674. Tokens: 0x0000000000000000000000000000000000000000 / 0x6324c6c9322e4ed258d747bf340968c7f692e0cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x0be5d6d025ab95914bfde9554526ce2c3865eb3e427e35e66816ad042af08509"
-  },
-  {
-   "ts": "2026-08-13T22:00:01Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748530. Tokens: 0x0000000000000000000000000000000000000000 / 0xd849924a05af0803b01d23d9b554517d1c0f2853. Fee:...",
-   "url": "https://etherscan.io/tx/0xf940e1bd0ef44b0c95e274b24107196baf44531c86d23562d793d6bf80809f64"
-  },
-  {
-   "ts": "2026-08-13T21:46:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #310 in programmable: 'fix(registry): read production keys from scoped Keychain search'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/310"
-  },
-  {
-   "ts": "2026-08-13T21:43:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #309 in programmable: 'Add fail-closed Custom Registry V2 public surface'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/309"
-  },
-  {
-   "ts": "2026-08-13T21:37:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #308 in programmable: 'Prewarm staged Classic event caches'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/308"
-  },
-  {
-   "ts": "2026-08-13T21:37:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Prewarm staged Classic event caches (#308)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/9baabdd81274e58e5a690768336017dee1297241"
-  },
-  {
-   "ts": "2026-08-13T21:07:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #306 in programmable: 'Registry V2: freeze Safe public migration workflow'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/306"
-  },
-  {
-   "ts": "2026-08-13T21:07:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'feat: finalize Registry V2 hardware migration release workflow'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/4445d815ff2421fb066f3118e76835d43cf7ebdc"
-  },
-  {
-   "ts": "2026-08-13T20:50:03Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #298 in programmable: 'Harden Custom Registry V2 production deployment evidence'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/298"
-  },
-  {
-   "ts": "2026-08-13T20:50:03Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'feat(contracts): add Custom Registry V2 production lifecycle'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/e02743d12b56fff674d5dc9c19fd37aa6f08be4b"
-  },
-  {
-   "ts": "2026-08-13T20:14:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #307 in programmable: 'Handle dense durable RPC log segments'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/307"
-  },
-  {
-   "ts": "2026-08-13T20:14:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Handle dense durable RPC log segments (#307)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/630ddca42f37408db7ef5ec61e3e347ea3fe0d8a"
   }
  ]
 }
