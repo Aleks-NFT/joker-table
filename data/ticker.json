@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (14 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-08-14T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 PYUSD / USDS — $165,603,141   #2 USDT / USDS — $90,962,159   #3 USDC / USDT — $47,658,078   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-14T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: SIERRA / USDC 0.008% — $1,152,530 24h volume, $4,651,165 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x1fa73063eed11ca197227ad2917b03d08dabfc8ca415eff3ecce04cb00f84d0d"
+  },
+  {
+   "ts": "2026-08-14T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: apxUSD / USDC 0.05% — $1,627,117 24h volume, $4,260,920 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9f2d9491277a9f2551c1f7533c1789aa6023bba0c5e9397e8a019cac5c10fe7f"
+  },
+  {
+   "ts": "2026-08-14T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: FWA / ETH — $1,880,310 24h volume, $1,126,475 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d"
+  },
+  {
    "ts": "2026-08-14T04:15:01Z",
    "suit": "spade",
    "source": "defillama",
@@ -175,41 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #316 in programmable: 'Fix Registry dispatch window guard import'",
    "url": "https://github.com/0xprogrammable/programmable/pull/316"
-  },
-  {
-   "ts": "2026-08-14T01:00:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Fix Registry dispatch window guard import (#316)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/ec5bb3e383af97de94c3261b3d33e68977499e2b"
-  },
-  {
-   "ts": "2026-08-14T00:58:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #318 in programmable: 'fix(registry): canonicalize verifier address arrays'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/318"
-  },
-  {
-   "ts": "2026-08-14T00:30:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #312 in programmable: 'Materialize verified Generic V2 custom launches'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/312"
-  },
-  {
-   "ts": "2026-08-14T00:30:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Add fail-closed Generic Launch V2 projection'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/aa237c39c82c933041d74ac9b632754eb1dda629"
-  },
-  {
-   "ts": "2026-08-14T00:00:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #314 in programmable: 'fix(release): always gate staged read model'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/314"
   }
  ]
 }

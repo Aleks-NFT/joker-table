@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-14T04:15:34Z",
+ "generated_at": "2026-08-14T05:15:34Z",
  "total_hooks": 3148,
  "total_pools": 10529,
  "multi_pool_hooks": 313,
@@ -553,8 +553,8 @@
   {
    "address": "0xa88ebba96ba98ae636efee8a4dc6f687d12f40cc",
    "address_short": "0xa88e…40cc",
-   "name": "",
-   "verified": false,
+   "name": "MixpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa88ebba96ba98ae636efee8a4dc6f687d12f40cc",
    "pool_count": 30,
    "permissions_human": [
