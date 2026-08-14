@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T08:10:10Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Cut into a stranger's hand to show where the real chips sat.",
+   "url": null
+  },
+  {
    "ts": "2026-08-14T08:00:15Z",
    "suit": "spade",
    "source": "JOKER",
@@ -203,13 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: FWA / ETH — $1,880,310 24h volume, $1,126,475 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d"
-  },
-  {
-   "ts": "2026-08-14T04:15:01Z",
-   "suit": "spade",
-   "source": "defillama",
-   "text": "Uniswap V4 global 24h volume up 27% to $0.85B (fees $1480k, Ethereum share 45.3%)",
-   "url": "https://defillama.com/protocol/uniswap-v4"
   }
  ]
 }
