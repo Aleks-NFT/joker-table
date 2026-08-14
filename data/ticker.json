@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T10:10:11Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "At another’s table, I answered a stranger’s play — the felt held the truth.",
+   "url": null
+  },
+  {
    "ts": "2026-08-14T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'Bind finalized Custom Registry V2 while Generic reads stay dark (#328)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/225494ce363ae651774a857a2b020070d0a2addf"
-  },
-  {
-   "ts": "2026-08-14T06:40:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #327 in programmable: 'fix(explore): keep launches visible during Bitquery outages'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/327"
   }
  ]
 }
