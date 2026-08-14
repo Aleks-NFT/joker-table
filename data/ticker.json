@@ -2,6 +2,111 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25749544. Tokens: 0xcf4d29f14cc585ddd1167f956092852af844e040 / 0xffff4bd1e068938a2133f1c0bfe50d4eb1313b29. Fee:...",
+   "url": "https://etherscan.io/tx/0x0cf12c14d11fbf88b478de319ae414bee61653b13c1dd70a5f8f25ddb30919a0"
+  },
+  {
+   "ts": "2026-08-14T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25749327. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd9a058727f2e1f26480dfa574beda18b3ee8de0. Fee:...",
+   "url": "https://etherscan.io/tx/0x47cf3a9e91a211995cd4a2a36f61b876a73d1df08545775c07ad6f182e23c493"
+  },
+  {
+   "ts": "2026-08-14T00:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25748962. Tokens: 0x0000000000000000000000000000000000000000 / 0xf9f61911eb57c426e9d35823273c973ae0c5d39e. Fee:...",
+   "url": "https://etherscan.io/tx/0x1276cfbd4ef850087fa50c25e176c180fd9b2c093c5ebad9dc5b05913982eb20"
+  },
+  {
+   "ts": "2026-08-13T23:54:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #315 in programmable: 'Rotate Custom Registry V2 release authorization owner'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/315"
+  },
+  {
+   "ts": "2026-08-13T23:54:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Rotate Custom Registry V2 release authorization owner (#315)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/269ffbd4efc26f0f9c666b025a397b67c425b03f"
+  },
+  {
+   "ts": "2026-08-13T23:39:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #314 in programmable: 'fix(release): always gate staged read model'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/314"
+  },
+  {
+   "ts": "2026-08-13T23:08:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #313 in programmable: 'fix(registry): normalize macOS Keychain password output'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/313"
+  },
+  {
+   "ts": "2026-08-13T23:08:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(registry): normalize macOS Keychain password output (#313)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/0949d8b36ae80770f84222c2a1bf74015607c0f6"
+  },
+  {
+   "ts": "2026-08-13T22:52:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #311 in programmable: 'fix(read-model): checkpoint staged Classic prewarm'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/311"
+  },
+  {
+   "ts": "2026-08-13T22:52:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(read-model): checkpoint staged Classic prewarm (#311)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/359d4f1a8e54e77f662d55f10a468c360078a7d6"
+  },
+  {
+   "ts": "2026-08-13T22:32:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #310 in programmable: 'feat(registry): bind temporary public 1-of-1 controller custody'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/310"
+  },
+  {
+   "ts": "2026-08-13T22:32:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'feat(registry): bind temporary public 1-of-1 controller custody (#310)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/0eaffc2c1ae606bb822e2fdccc8cf9798bf71ef8"
+  },
+  {
+   "ts": "2026-08-13T22:30:25Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #312 in programmable: 'Materialize verified Generic V2 custom launches'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/312"
+  },
+  {
+   "ts": "2026-08-13T22:09:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #309 in programmable: 'Add fail-closed Custom Registry V2 public surface'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/309"
+  },
+  {
+   "ts": "2026-08-13T22:09:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add fail-closed Custom Registry V2 public surface (#309)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/8182a6d9b1d06f52a4462f2ac1a2fa245df560c4"
+  },
+  {
    "ts": "2026-08-13T22:00:01Z",
    "suit": "spade",
    "source": "etherscan",
@@ -105,111 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'Handle dense durable RPC log segments (#307)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/630ddca42f37408db7ef5ec61e3e347ea3fe0d8a"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748342. Tokens: 0x0000000000000000000000000000000000000000 / 0x7d47c7045f5d5fae976d2c7e63c10c93849e0aec. Fee:...",
-   "url": "https://etherscan.io/tx/0xf85348fc0ce1ae168f953229f7a6c7a8f4cccd99e1fcd60c4861f87cdc706fc5"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748319. Tokens: 0x0000000000000000000000000000000000000000 / 0xee6e67af1c65e339d90e060bd3da16b9c183d008. Fee:...",
-   "url": "https://etherscan.io/tx/0x5d2d12fe11d595a9020aaa2d8cb167aee9590ad500d9dfe6ce4a414bbf9b84f0"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748308. Tokens: 0x0000000000000000000000000000000000000000 / 0xb42fc956e0c482c52283e7f935dd274641faef47. Fee:...",
-   "url": "https://etherscan.io/tx/0x866980bd1d583f55e3aa3cd6a5e33483d7fe24d1b707bb8ea29e5c41d3263a13"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748305. Tokens: 0x0000000000000000000000000000000000000000 / 0x91527d5ba85e70bddffbbf21cfae36f9f7f0e796. Fee:...",
-   "url": "https://etherscan.io/tx/0xb616e63c4001f20a8b0070375bf63ab7e720895c8a60e06ba20f141732945511"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748303. Tokens: 0x0000000000000000000000000000000000000000 / 0x47294e63aba87c10b2be37c1eed52eae4fd5e5ff. Fee:...",
-   "url": "https://etherscan.io/tx/0x1d79b889eb315a315ece1c54c1ee403248c99e62f12f3e866c2b516d7e4499d5"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748289. Tokens: 0x0000000000000000000000000000000000000000 / 0xa2feddfa4c37a1b4130b6d0e9fa4cce8b41ce47b. Fee:...",
-   "url": "https://etherscan.io/tx/0x0eff0bc865b63070b2be149f03fa5f0bb09db7599d283a86ac34407a436b810c"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748199. Tokens: 0x0000000000000000000000000000000000000000 / 0x7c9392bcf75bbdeee9552d123baeb8890faf96bb. Fee:...",
-   "url": "https://etherscan.io/tx/0xe6f07bfb19e3e973a8a381a6e9d170fea525b44890dd701680f26e574425a5bc"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748158. Tokens: 0x0000000000000000000000000000000000000000 / 0x30be27999c65bd81ebddfd244c672b8e55d49048. Fee:...",
-   "url": "https://etherscan.io/tx/0x3ddc3e500a03e4aaf71dd1d07debe0f3e88203a85c57a44c2d5268ff407a4668"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748052. Tokens: 0x0000000000000000000000000000000000000000 / 0x710c7a5a9b01a511623ebd540c7c964c3189408a. Fee:...",
-   "url": "https://etherscan.io/tx/0x74221175b5d1966fec2174d3d7a09d74f02151607c5f828263458b397b3b5945"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748028. Tokens: 0x0000000000000000000000000000000000000000 / 0x696119ba3a51bd3e94f240c56301a12bec0ef1e6. Fee:...",
-   "url": "https://etherscan.io/tx/0x15cc8da51c845102e032041d11dc3e2c1becf0018bf07d403c316b6293046544"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747939. Tokens: 0x0000000000000000000000000000000000000000 / 0x0d85d41dfa494e797e861dfabb67fb58f5abd579. Fee:...",
-   "url": "https://etherscan.io/tx/0x83de81a029e0e13bb56ec4c3d15159122417c1aef82c6ea9b76eefdecebea3a8"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747833. Tokens: 0x0000000000000000000000000000000000000000 / 0xa4d29f021f723a170ee13c6cf1a29155af67dae5. Fee:...",
-   "url": "https://etherscan.io/tx/0xa9fc8aa74cbf6d2e6f1d179afa478ad2156294ce8a8941fa2ff653f741b87b6e"
-  },
-  {
-   "ts": "2026-08-13T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25747809. Tokens: 0x0000000000000000000000000000000000000000 / 0xc2df3faf6af5f22941f2fa22d0d2bc1c74c37c6a. Fee:...",
-   "url": "https://etherscan.io/tx/0x7456e5be3030ce4b9a359f06834c160bd3b6c7084c8e09dd81ae92beed7a2d4a"
-  },
-  {
-   "ts": "2026-08-13T19:44:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #306 in programmable: 'Registry V2: freeze Safe public migration workflow'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/306"
-  },
-  {
-   "ts": "2026-08-13T19:25:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #305 in programmable: 'Serialize independent archive provider scans'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/305"
   }
  ]
 }
