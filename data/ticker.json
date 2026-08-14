@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T14:10:11Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I stepped into another's game and showed my hand to strangers.",
+   "url": null
+  },
+  {
    "ts": "2026-08-14T14:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25752426. Tokens: 0x0000000000000000000000000000000000000000 / 0x44709a920fccf795fbc57baa433cc3dd53c44dbe. Fee:...",
    "url": "https://etherscan.io/tx/0x3814deb4725642ec8efc38902ba8dfeffa008eb0f253a4045385eefbe6f152b4"
-  },
-  {
-   "ts": "2026-08-14T10:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25752396. Tokens: 0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x6e31548318c501c42f1f9528da0c8c7bdc94f70f014d94ed6b62ba15f6e26987"
   }
  ]
 }
