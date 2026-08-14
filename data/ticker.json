@@ -2,6 +2,118 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T04:15:01Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume up 27% to $0.85B (fees $1480k, Ethereum share 45.3%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
+   "ts": "2026-08-14T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25750743. Tokens: 0x0000000000000000000000000000000000000000 / 0xd93a9ef19ba658a4e5fcdd26a53455d51e3b9970. Fee:...",
+   "url": "https://etherscan.io/tx/0x555b37c63dd5b48f6e15270b50e709dda363fa2412fba6636c667482c2b822c7"
+  },
+  {
+   "ts": "2026-08-14T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25750475. Tokens: 0x0000000000000000000000000000000000000000 / 0x05c6593a8d757d45d491b79d0038f0bb9595da9f. Fee:...",
+   "url": "https://etherscan.io/tx/0x8ea7f4977cf6d1540b2c99642f28b8566d20bcf022bcbbee385f566b3ccd8674"
+  },
+  {
+   "ts": "2026-08-14T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25750189. Tokens: 0x0000000000000000000000000000000000000000 / 0xa656f9618b19b8cca1aec5047b191bbd7226da94. Fee:...",
+   "url": "https://etherscan.io/tx/0xa77d8754a8c0c72c278f041b91f1b79f32575777f36a8613387c8ed0253fd241"
+  },
+  {
+   "ts": "2026-08-14T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo yulooocom/univ4-alpha-hooks matches a hook deployed on-chain (feehook, 0xa2dcd7bf…) — code we can read behind a live contract",
+   "url": "https://github.com/yulooocom/univ4-alpha-hooks"
+  },
+  {
+   "ts": "2026-08-14T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: blazephoenixxyz-crypto/hook-safety-gate-v2 — 0★ — Default-closed v4 routing gate with codehash pinning — blocks delta-manipulation ...",
+   "url": "https://github.com/blazephoenixxyz-crypto/hook-safety-gate-v2"
+  },
+  {
+   "ts": "2026-08-14T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: yulooocom/univ4-alpha-hooks — 0★ — Ownerless, non-upgradeable Uniswap v4 dynamic-fee hooks on BNB Smart Chain",
+   "url": "https://github.com/yulooocom/univ4-alpha-hooks"
+  },
+  {
+   "ts": "2026-08-14T03:59:30Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #323 in programmable: 'fix(stage): prove inactive Approval V3 fail-closed'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/323"
+  },
+  {
+   "ts": "2026-08-14T03:34:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #321 in programmable: 'Use dRPC identity with Bitquery market data'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/321"
+  },
+  {
+   "ts": "2026-08-14T03:34:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Use dRPC identity with Bitquery market data (#321)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/942d51d5ad78af64b5729894d4d7dffe4b467dc0"
+  },
+  {
+   "ts": "2026-08-14T03:18:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #322 in programmable: 'Add fail-closed Website projection schema adoption'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/322"
+  },
+  {
+   "ts": "2026-08-14T03:18:33Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Add fail-closed Website projection schema adoption (#322)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/482aba91cd246d605ec0f98d0718dd5fff781d1f"
+  },
+  {
+   "ts": "2026-08-14T02:33:47Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #320 in programmable: 'fix(registry): capture exact current provider metadata'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/320"
+  },
+  {
+   "ts": "2026-08-14T02:33:47Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(registry): capture exact current provider metadata (#320)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/03f412cf20e65458a2c9cf5665de245b3c0839e8"
+  },
+  {
+   "ts": "2026-08-14T02:15:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #318 in programmable: 'fix(registry): canonicalize verifier address arrays'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/318"
+  },
+  {
+   "ts": "2026-08-14T02:15:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(registry): canonicalize verifier address arrays (#318)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/a6204d0f2d7bf8fb0b00236643c9b0e93318965b"
+  },
+  {
    "ts": "2026-08-14T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -98,118 +210,6 @@
    "source": "github",
    "text": "0xprogrammable closed PR #314 in programmable: 'fix(release): always gate staged read model'",
    "url": "https://github.com/0xprogrammable/programmable/pull/314"
-  },
-  {
-   "ts": "2026-08-14T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25749544. Tokens: 0xcf4d29f14cc585ddd1167f956092852af844e040 / 0xffff4bd1e068938a2133f1c0bfe50d4eb1313b29. Fee:...",
-   "url": "https://etherscan.io/tx/0x0cf12c14d11fbf88b478de319ae414bee61653b13c1dd70a5f8f25ddb30919a0"
-  },
-  {
-   "ts": "2026-08-14T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25749327. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd9a058727f2e1f26480dfa574beda18b3ee8de0. Fee:...",
-   "url": "https://etherscan.io/tx/0x47cf3a9e91a211995cd4a2a36f61b876a73d1df08545775c07ad6f182e23c493"
-  },
-  {
-   "ts": "2026-08-14T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748962. Tokens: 0x0000000000000000000000000000000000000000 / 0xf9f61911eb57c426e9d35823273c973ae0c5d39e. Fee:...",
-   "url": "https://etherscan.io/tx/0x1276cfbd4ef850087fa50c25e176c180fd9b2c093c5ebad9dc5b05913982eb20"
-  },
-  {
-   "ts": "2026-08-13T23:54:03Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #315 in programmable: 'Rotate Custom Registry V2 release authorization owner'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/315"
-  },
-  {
-   "ts": "2026-08-13T23:54:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Rotate Custom Registry V2 release authorization owner (#315)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/269ffbd4efc26f0f9c666b025a397b67c425b03f"
-  },
-  {
-   "ts": "2026-08-13T23:39:04Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #314 in programmable: 'fix(release): always gate staged read model'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/314"
-  },
-  {
-   "ts": "2026-08-13T23:08:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #313 in programmable: 'fix(registry): normalize macOS Keychain password output'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/313"
-  },
-  {
-   "ts": "2026-08-13T23:08:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'fix(registry): normalize macOS Keychain password output (#313)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/0949d8b36ae80770f84222c2a1bf74015607c0f6"
-  },
-  {
-   "ts": "2026-08-13T22:52:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #311 in programmable: 'fix(read-model): checkpoint staged Classic prewarm'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/311"
-  },
-  {
-   "ts": "2026-08-13T22:52:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'fix(read-model): checkpoint staged Classic prewarm (#311)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/359d4f1a8e54e77f662d55f10a468c360078a7d6"
-  },
-  {
-   "ts": "2026-08-13T22:32:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #310 in programmable: 'feat(registry): bind temporary public 1-of-1 controller custody'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/310"
-  },
-  {
-   "ts": "2026-08-13T22:32:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'feat(registry): bind temporary public 1-of-1 controller custody (#310)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/0eaffc2c1ae606bb822e2fdccc8cf9798bf71ef8"
-  },
-  {
-   "ts": "2026-08-13T22:30:25Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #312 in programmable: 'Materialize verified Generic V2 custom launches'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/312"
-  },
-  {
-   "ts": "2026-08-13T22:09:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #309 in programmable: 'Add fail-closed Custom Registry V2 public surface'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/309"
-  },
-  {
-   "ts": "2026-08-13T22:09:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Add fail-closed Custom Registry V2 public surface (#309)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/8182a6d9b1d06f52a4462f2ac1a2fa245df560c4"
-  },
-  {
-   "ts": "2026-08-13T22:00:01Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25748813. Tokens: 0x0000000000000000000000000000000000000000 / 0xae2c75034ac459ec45b7b4b889a413a6c4a6b97d. Fee:...",
-   "url": "https://etherscan.io/tx/0x282345e255c6f60099d641631b437b9aa46cb6c4e2dcaa0a0141adf03ddf0a77"
   }
  ]
 }

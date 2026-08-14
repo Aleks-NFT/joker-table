@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 20,
+  "hit": 19,
   "miss": 24,
-  "open": 5,
-  "hit_rate": 0.455
+  "open": 6,
+  "hit_rate": 0.442
  },
  "items": [
+  {
+   "id": 57,
+   "made_at": "2026-08-14",
+   "text": "Over the next seven days, the count clears 113, and the likely landing sits between 113 and 113 — I give the over about 71%. One hook contract is dealing pools back to back, far faster than the usual run of players.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-21",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 56,
    "made_at": "2026-08-13",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-25",
    "status": "void",
    "resolution_note": "Voided manually — event-based, too old to verify.",
-   "phase": "v1"
-  },
-  {
-   "id": 7,
-   "made_at": "2026-06-17",
-   "text": "Within the next seven days, at least three more V4 hook pools with non-standard fee tiers (either zero or maximum) will be deployed by the same deployer address or its affiliates, continuing the pattern of strategic testing.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-24",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +3 on metric nonstd_fee_pools reached.",
    "phase": "v1"
   }
  ]
