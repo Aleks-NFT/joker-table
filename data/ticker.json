@@ -2,11 +2,74 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-14T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25751194. Tokens: 0x0000000000000000000000000000000000000000 / 0x1c059002b5791949c1845c77b3ddf23ce9d69074. Fee:...",
+   "url": "https://etherscan.io/tx/0x7d17874f6d74277339911b022854cd5cb88d3edb3f2f6139250e7fa16ef6d97b"
+  },
+  {
+   "ts": "2026-08-14T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25751151. Tokens: 0x0000000000000000000000000000000000000000 / 0xea7b9882d00593c2a5ea3c6930819af46dfbf73f. Fee:...",
+   "url": "https://etherscan.io/tx/0x9c550ce8bbe0e0de330ebcb0cf1a585ec269d405fdc9d986cc2ec0e8b7a863f3"
+  },
+  {
+   "ts": "2026-08-14T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25750980. Tokens: 0x0000000000000000000000000000000000000000 / 0x9b48dcbb485b5e9043024ef92da905a22c2a8108. Fee:...",
+   "url": "https://etherscan.io/tx/0x8930ba404dd5b3002e40ff52a56d3e77f2ce451711d0a945c7ffac7f0fdc2ee3"
+  },
+  {
+   "ts": "2026-08-14T05:59:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #326 in programmable: 'Bind Website projection adoption to full hosted role graph'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/326"
+  },
+  {
+   "ts": "2026-08-14T05:59:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Bind Website projection adoption to full hosted role graph (#326)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/c235fbd55259f76d8356d6f07073c48b00eb294d"
+  },
+  {
+   "ts": "2026-08-14T05:19:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #325 in programmable: 'fix(explore): retry incomplete Bitquery reads once'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/325"
+  },
+  {
+   "ts": "2026-08-14T05:18:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(explore): retry incomplete Bitquery reads once (#325)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/cd5187c96611b438c60a1709a54c9461b225d2a8"
+  },
+  {
    "ts": "2026-08-14T05:00:02Z",
    "suit": "spade",
    "source": "governance",
    "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (14 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-08-14T04:40:29Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #324 in programmable: 'fix(explore): retry transient provider failures once'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/324"
+  },
+  {
+   "ts": "2026-08-14T04:40:29Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(explore): retry transient provider failures once (#324)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/17486b64b8ac61734339bb3036f47f2d5e3f3e1f"
   },
   {
    "ts": "2026-08-14T04:30:02Z",
@@ -42,6 +105,20 @@
    "source": "defillama",
    "text": "Uniswap V4 global 24h volume up 27% to $0.85B (fees $1480k, Ethereum share 45.3%)",
    "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
+   "ts": "2026-08-14T04:04:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #323 in programmable: 'fix(stage): prove inactive Approval V3 fail-closed'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/323"
+  },
+  {
+   "ts": "2026-08-14T04:04:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'fix(stage): prove inactive Approval V3 fail-closed (#323)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/730d39fdaba04720e8ca0709e9561420545f9a07"
   },
   {
    "ts": "2026-08-14T04:00:02Z",
@@ -133,83 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'fix(registry): capture exact current provider metadata (#320)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/03f412cf20e65458a2c9cf5665de245b3c0839e8"
-  },
-  {
-   "ts": "2026-08-14T02:15:59Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #318 in programmable: 'fix(registry): canonicalize verifier address arrays'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/318"
-  },
-  {
-   "ts": "2026-08-14T02:15:58Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'fix(registry): canonicalize verifier address arrays (#318)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/a6204d0f2d7bf8fb0b00236643c9b0e93318965b"
-  },
-  {
-   "ts": "2026-08-14T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25750108. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xf03229b2f5c5e765deb47ae7cab8859fad59ba11. Fee:...",
-   "url": "https://etherscan.io/tx/0x0690b6290e93b22546a4602df130e00897eb4c2117df402e6f9e76bfcd53fa29"
-  },
-  {
-   "ts": "2026-08-14T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25749993. Tokens: 0x0000000000000000000000000000000000000000 / 0xa5627d2bf7bd8b6fec309d94fe37d2e8d69ddc8d. Fee:...",
-   "url": "https://etherscan.io/tx/0xe74393487a23527a4120ce97324be2831d1958e5a3312a57e7fe08996b3b87de"
-  },
-  {
-   "ts": "2026-08-14T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25749630. Tokens: 0x0000000000000000000000000000000000000000 / 0xae7af577339de090305172ceb4698fb486d8b89b. Fee:...",
-   "url": "https://etherscan.io/tx/0x48a1acf354a67baf359a4adc4b0844a6e2e53144c80aee9c7bc98ac22b096494"
-  },
-  {
-   "ts": "2026-08-14T01:48:22Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #319 in programmable: 'Add Custom V2 production gate and projection DB operator'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/319"
-  },
-  {
-   "ts": "2026-08-14T01:48:22Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Add Custom V2 production gate and projection DB operator (#319)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/76ebd54e2f0e31d055cfe6c36b7474b0e850de90"
-  },
-  {
-   "ts": "2026-08-14T01:16:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #317 in programmable: 'Make public Website data Bitquery only'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/317"
-  },
-  {
-   "ts": "2026-08-14T01:16:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Make public Website data Bitquery only (#317)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/e1dec520b0fbf5e1adcab4c5705764efb3236c9e"
-  },
-  {
-   "ts": "2026-08-14T01:14:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #320 in programmable: 'fix(registry): capture exact current provider metadata'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/320"
-  },
-  {
-   "ts": "2026-08-14T01:00:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #316 in programmable: 'Fix Registry dispatch window guard import'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/316"
   }
  ]
 }

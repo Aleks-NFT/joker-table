@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-14T05:15:34Z",
- "total_hooks": 3148,
- "total_pools": 10529,
+ "generated_at": "2026-08-14T06:15:34Z",
+ "total_hooks": 3149,
+ "total_pools": 10532,
  "multi_pool_hooks": 313,
  "shown": 313,
  "more_count": 0,
@@ -556,7 +556,7 @@
    "name": "MixpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa88ebba96ba98ae636efee8a4dc6f687d12f40cc",
-   "pool_count": 30,
+   "pool_count": 32,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -568,8 +568,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25745209,
-   "last_block": 25748308,
-   "last_deploy": "2026-08-13T20:00:02Z",
+   "last_block": 25751194,
+   "last_deploy": "2026-08-14T06:00:02Z",
    "active": true,
    "visible": false
   },
