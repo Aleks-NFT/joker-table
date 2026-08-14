@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-14T07:15:35Z",
- "total_hooks": 3149,
- "total_pools": 10532,
+ "generated_at": "2026-08-14T08:15:35Z",
+ "total_hooks": 3150,
+ "total_pools": 10536,
  "multi_pool_hooks": 313,
  "shown": 313,
  "more_count": 0,
@@ -556,7 +556,7 @@
    "name": "MixpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa88ebba96ba98ae636efee8a4dc6f687d12f40cc",
-   "pool_count": 32,
+   "pool_count": 33,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -568,8 +568,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25745209,
-   "last_block": 25751194,
-   "last_deploy": "2026-08-14T06:00:02Z",
+   "last_block": 25751363,
+   "last_deploy": "2026-08-14T08:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3202,6 +3202,27 @@
    "visible": false
   },
   {
+   "address": "0x10300de01cef706a3b2fe10b45395069e6144088",
+   "address_short": "0x1030…4088",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x10300de01cef706a3b2fe10b45395069e6144088",
+   "pool_count": 6,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25731229,
+   "last_block": 25751851,
+   "last_deploy": "2026-08-14T08:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x2efa284e024db1b5ae8e90aa316586543f364088",
    "address_short": "0x2efa…4088",
    "name": "",
@@ -3554,27 +3575,6 @@
    "last_block": 25429348,
    "last_deploy": "2026-06-30T10:00:04Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x10300de01cef706a3b2fe10b45395069e6144088",
-   "address_short": "0x1030…4088",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x10300de01cef706a3b2fe10b45395069e6144088",
-   "pool_count": 4,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25731229,
-   "last_block": 25733533,
-   "last_deploy": "2026-08-11T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
