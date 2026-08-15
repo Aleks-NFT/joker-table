@@ -2,6 +2,76 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-15T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25757710. Tokens: 0x0000000000000000000000000000000000000000 / 0x719257c6a6fa06f5310d0b8f058e86db95f79592. Fee:...",
+   "url": "https://etherscan.io/tx/0xb09c8878232b2225e73713745bd2b5ea3d6b38527865897061875eefd8452891"
+  },
+  {
+   "ts": "2026-08-15T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25757654. Tokens: 0x0000000000000000000000000000000000000000 / 0x9b26a95e09c615053914204c67a63996fb13606e. Fee:...",
+   "url": "https://etherscan.io/tx/0x56818e99b963c78ccf573b24e76e5d98937646b5b851026bedcd8b01623e4eac"
+  },
+  {
+   "ts": "2026-08-15T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25757400. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xffffe6d0ed4196e9ccedc0a90bdb12cf71bf0d37. Fee:...",
+   "url": "https://etherscan.io/tx/0x23a854a337e33bf4f5c9c96330a6c72b2ed3140934ab85c46176741328671bc9"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo BLTC-520/jitter matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/BLTC-520/jitter"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo multipools/contracts matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/multipools/contracts"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: seerrh/seer — 0★ — AgentFi on Robinhood Chain. Agents that read the chain, say what happens next, and put their own capital behin",
+   "url": "https://github.com/seerrh/seer"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: thecvretoken/midas-rwa-hook — 0★ — Uniswap v4 launch hook for tokens quoted in real-world assets. Decaying launch fee, asymmetric s...",
+   "url": "https://github.com/thecvretoken/midas-rwa-hook"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: BLTC-520/jitter — 0★ — Uniswap v4 hook: absorb a large exact-input swap at commit, settle at a slot that does not exist yet, pay in-r",
+   "url": "https://github.com/BLTC-520/jitter"
+  },
+  {
+   "ts": "2026-08-15T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: multipools/contracts — 0★ — MultiPools — Omnichain Token Launchpad smart contracts. Uniswap v4 hooks + LayerZero OFT/DVN.",
+   "url": "https://github.com/multipools/contracts"
+  },
+  {
+   "ts": "2026-08-15T02:13:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "ericneil-sanc closed PR #61 in v4-hooks-public: 'Add canonical pair registry to StableSwap/NG aggregators'",
+   "url": "https://github.com/Uniswap/v4-hooks-public/pull/61"
+  },
+  {
    "ts": "2026-08-15T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -140,76 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25755429. Tokens: 0x0000000000000000000000000000000000000000 / 0xcc30d4728806a51683dad4b3c95d61da512e2c4a. Fee:...",
    "url": "https://etherscan.io/tx/0xad951722939976f4c3af773ffce2d64d2d3d59afcf72d0e75cb16bb73218a451"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755428. Tokens: 0x0000000000000000000000000000000000000000 / 0xf157b4a4bfc1cb33f28875216c99ea6c1f44d243. Fee:...",
-   "url": "https://etherscan.io/tx/0xa2ff0a29047600e5908bc96c53f70623f2477fa1df4ac650585c3c759b86c90f"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755408. Tokens: 0x0000000000000000000000000000000000000000 / 0x3f43e771cb82403affc2524615bd8c27edf87aa4. Fee:...",
-   "url": "https://etherscan.io/tx/0x2acda2b5f6653829f15b8e67d04558a7df4268552d8b88b80dc4637b0bac2358"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755405. Tokens: 0x0000000000000000000000000000000000000000 / 0x13a79e301db4080a702dce2b7473d27c59e90c2f. Fee:...",
-   "url": "https://etherscan.io/tx/0x3bb9b2b4d65b4c0447e34840dac6209340c175c0aca0c08f15843ac87da2ea97"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755404. Tokens: 0x0000000000000000000000000000000000000000 / 0x1e4a8d41c8b21659f04cf8f108277f479fe03b28. Fee:...",
-   "url": "https://etherscan.io/tx/0x39c2bed7e589baa7f67dbb2f5b9f74bec7cfd510e94048cee2be3487884d59b2"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755347. Tokens: 0x0000000000000000000000000000000000000000 / 0x3dde82e08a99db08f59801e301777cbba86b8e39. Fee:...",
-   "url": "https://etherscan.io/tx/0x916a7c98cc9354aa91370625ea0db2b67c48322eeead0b1b853012e1b61c2638"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755339. Tokens: 0x0000000000000000000000000000000000000000 / 0xffdf46706c5fc8e808b9132a7ae368e31d514f82. Fee:...",
-   "url": "https://etherscan.io/tx/0x03e73b7a1c5f0c6f7ba23ef9db04c81b3655502ea9b63bb55823bff91b45ff28"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755235. Tokens: 0x0000000000000000000000000000000000000000 / 0x45058579e32648b5312ef20609bfcc7ec47eca48. Fee:...",
-   "url": "https://etherscan.io/tx/0x4ac66eec416781d3b220ba716452756b563843bf511c6f2738c698a795d6a46e"
-  },
-  {
-   "ts": "2026-08-14T20:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25755135. Tokens: 0x0000000000000000000000000000000000000000 / 0x293fd44867e328c549c004496a943116bc0ac7e3. Fee:...",
-   "url": "https://etherscan.io/tx/0x58c8ce873f279ae3613633e63b41cddd337b8f6a2b914e016eb5943d6e9040a2"
-  },
-  {
-   "ts": "2026-08-14T19:25:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "ericneil-sanc opened PR #61 in v4-hooks-public: 'Add canonical pair registry to StableSwap/NG aggregators'",
-   "url": "https://github.com/Uniswap/v4-hooks-public/pull/61"
-  },
-  {
-   "ts": "2026-08-14T18:24:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #138 in uniswap-hooks: 'Add LimitOrderHook invariants and refactor accrued fees structure'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/138"
   }
  ]
 }
