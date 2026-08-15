@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-15T07:15:34Z",
- "total_hooks": 3184,
- "total_pools": 10608,
+ "generated_at": "2026-08-15T08:15:34Z",
+ "total_hooks": 3185,
+ "total_pools": 10611,
  "multi_pool_hooks": 313,
  "shown": 313,
  "more_count": 0,
@@ -380,7 +380,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 61,
+   "pool_count": 62,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -394,8 +394,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25757927,
-   "last_deploy": "2026-08-15T06:00:02Z",
+   "last_block": 25758615,
+   "last_deploy": "2026-08-15T08:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3940,6 +3940,27 @@
    "first_block": 25680395,
    "last_block": 25708588,
    "last_deploy": "2026-08-08T08:00:03Z",
+   "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x5449a5cc317a6df2005d5369426e5009fa84d040",
+   "address_short": "0x5449…d040",
+   "name": "WLimitOrderHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x5449a5cc317a6df2005d5369426e5009fa84d040",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "afterSwap"
+   ],
+   "first_block": 25156824,
+   "last_block": 25759023,
+   "last_deploy": "2026-08-15T08:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4343,7 +4364,7 @@
    "first_block": 25700214,
    "last_block": 25708446,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4657,7 +4678,7 @@
    "first_block": 25648831,
    "last_block": 25708574,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4753,7 +4774,7 @@
    "first_block": 25699834,
    "last_block": 25708480,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4830,7 +4851,7 @@
    "first_block": 25700756,
    "last_block": 25708413,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4928,7 +4949,7 @@
    "first_block": 25684752,
    "last_block": 25708579,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -5087,7 +5108,7 @@
    "first_block": 25653136,
    "last_block": 25708579,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -5153,27 +5174,6 @@
    "last_block": 25344060,
    "last_deploy": "2026-06-18T12:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x5449a5cc317a6df2005d5369426e5009fa84d040",
-   "address_short": "0x5449…d040",
-   "name": "WLimitOrderHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x5449a5cc317a6df2005d5369426e5009fa84d040",
-   "pool_count": 2,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "afterInitialize",
-    "afterSwap"
-   ],
-   "first_block": 25156824,
-   "last_block": 25742640,
-   "last_deploy": "2026-08-13T02:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -5615,7 +5615,7 @@
    "first_block": 25691477,
    "last_block": 25708574,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6172,7 +6172,7 @@
    "first_block": 25691519,
    "last_block": 25708815,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6199,7 +6199,7 @@
    "first_block": 25692919,
    "last_block": 25708747,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6472,7 +6472,7 @@
    "first_block": 25706810,
    "last_block": 25708385,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6656,7 +6656,7 @@
    "first_block": 25117486,
    "last_block": 25708860,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6729,7 +6729,7 @@
    "first_block": 25691242,
    "last_block": 25708579,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6854,7 +6854,7 @@
    "first_block": 25690370,
    "last_block": 25708579,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6881,7 +6881,7 @@
    "first_block": 25668043,
    "last_block": 25708528,
    "last_deploy": "2026-08-08T08:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
