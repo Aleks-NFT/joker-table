@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-15T08:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 56030038. Tokens: 0x37fe65c5239500427128e70e80ebab2f5683aaaa / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x06e603b3d9d2652f0f4e609d0e8582c3392c86c08d7f4385c7afa413b8c3944d"
+  },
+  {
+   "ts": "2026-08-15T08:10:12Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Cut into another's hand and showed the shape of the week.",
+   "url": null
+  },
+  {
    "ts": "2026-08-15T08:00:15Z",
    "suit": "spade",
    "source": "JOKER",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "ericneil-sanc closed PR #61 in v4-hooks-public: 'Add canonical pair registry to StableSwap/NG aggregators'",
    "url": "https://github.com/Uniswap/v4-hooks-public/pull/61"
-  },
-  {
-   "ts": "2026-08-15T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25757314. Tokens: 0x0000000000000000000000000000000000000000 / 0x69d9f88649b832eab06e972d2cb1acc741756ee5. Fee:...",
-   "url": "https://etherscan.io/tx/0xa123d6436ad7372227f69525889e3cb8f8156d9390c33a125fcd70ff1cd4bfc9"
-  },
-  {
-   "ts": "2026-08-15T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25757165. Tokens: 0x0000000000000000000000000000000000000000 / 0x27353c4f0eccee1988f0f2ea88ca9d695ecb1ccd. Fee:...",
-   "url": "https://etherscan.io/tx/0x73e3ea550ec6809db4c5cf885cb35fe27b5a9e35fd4746d1fa849d76836e7c7b"
   }
  ]
 }
