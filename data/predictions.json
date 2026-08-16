@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 19,
+  "hit": 20,
   "miss": 24,
-  "open": 6,
-  "hit_rate": 0.442
+  "open": 5,
+  "hit_rate": 0.455
  },
  "items": [
   {
@@ -64,8 +64,8 @@
    "text": "Over the next seven days the count clears 27; the likely landing sits between 18 and 317, and I give the over about 64%. What I'm watching is the behavior behind it: builders are deploying pools where the hook contract sets the swap fee in real time, so the house rake becomes a live economic decision, not a fixed rule.",
    "horizon_days": 7,
    "resolve_after": "2026-08-16",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +27 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
