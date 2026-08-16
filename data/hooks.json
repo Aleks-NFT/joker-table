@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-16T19:15:39Z",
- "total_hooks": 3225,
- "total_pools": 10709,
+ "generated_at": "2026-08-16T20:15:35Z",
+ "total_hooks": 3231,
+ "total_pools": 10722,
  "multi_pool_hooks": 320,
  "shown": 320,
  "more_count": 0,
@@ -574,6 +574,29 @@
    "visible": false
   },
   {
+   "address": "0x68935dcf688637463f8eda0f55c4fe416c1040cc",
+   "address_short": "0x6893…40cc",
+   "name": "TripoolsAntiSnipeHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x68935dcf688637463f8eda0f55c4fe416c1040cc",
+   "pool_count": 28,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25759676,
+   "last_block": 25769760,
+   "last_deploy": "2026-08-16T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
    "address_short": "0x68c4…eacc",
    "name": "LaunchHookLending",
@@ -774,29 +797,6 @@
    "last_block": 25626452,
    "last_deploy": "2026-07-27T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x68935dcf688637463f8eda0f55c4fe416c1040cc",
-   "address_short": "0x6893…40cc",
-   "name": "TripoolsAntiSnipeHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x68935dcf688637463f8eda0f55c4fe416c1040cc",
-   "pool_count": 21,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25759676,
-   "last_block": 25769186,
-   "last_deploy": "2026-08-16T18:00:02Z",
-   "active": true,
    "visible": false
   },
   {
