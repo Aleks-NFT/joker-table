@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-16T04:15:34Z",
+ "generated_at": "2026-08-16T05:15:40Z",
  "total_hooks": 3219,
  "total_pools": 10674,
  "multi_pool_hooks": 319,
@@ -3534,8 +3534,8 @@
   {
    "address": "0x68935dcf688637463f8eda0f55c4fe416c1040cc",
    "address_short": "0x6893…40cc",
-   "name": "",
-   "verified": false,
+   "name": "TripoolsAntiSnipeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x68935dcf688637463f8eda0f55c4fe416c1040cc",
    "pool_count": 5,
    "permissions_human": [
@@ -5806,8 +5806,8 @@
   {
    "address": "0x8fb082c4ddd29c051ffa0d57bf4bf6d8004a0044",
    "address_short": "0x8fb0…0044",
-   "name": "",
-   "verified": false,
+   "name": "RuntimeBurnHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8fb082c4ddd29c051ffa0d57bf4bf6d8004a0044",
    "pool_count": 2,
    "permissions_human": [
@@ -7079,8 +7079,8 @@
   {
    "address": "0xf5283d90e14df651d23df172d7af89d6de574044",
    "address_short": "0xf528…4044",
-   "name": "",
-   "verified": false,
+   "name": "BlueHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf5283d90e14df651d23df172d7af89d6de574044",
    "pool_count": 2,
    "permissions_human": [
