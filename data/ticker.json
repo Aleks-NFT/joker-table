@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-16T04:15:01Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume down 42% to $0.42B (fees $961k, Ethereum share 30.4%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
+   "ts": "2026-08-16T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25765069. Tokens: 0x0000000000000000000000000000000000000000 / 0x73734843301fa013929568f5a49aa0c62e5c6949. Fee:...",
+   "url": "https://etherscan.io/tx/0xeec8755eb1d33c10ad38e5d7fbc010066b43e74328d5f964549431e6ee17083f"
+  },
+  {
+   "ts": "2026-08-16T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25764627. Tokens: 0x5c3a1303a6bf21d1755b5b26e950106e236debd7 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x71a4842d032a5351ad0789f1aea98d7bba84cf6bf160257d64e641e45254f6bf"
+  },
+  {
+   "ts": "2026-08-16T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25764526. Tokens: 0x0000000000000000000000000000000000000000 / 0x689c7dd40af736a9175e7d48be18d991fa8b83b1. Fee:...",
+   "url": "https://etherscan.io/tx/0xb5d815168e16e50b6bf0b17ee5666bdeaa6f2703063e429f470dea10c6680b52"
+  },
+  {
+   "ts": "2026-08-16T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25764516. Tokens: 0x0000000000000000000000000000000000000000 / 0x7d652d8713395229d693e8fcae19e54f64395b81. Fee:...",
+   "url": "https://etherscan.io/tx/0x68e51adbc85f3f7960384b4c30ea6f50ba24de9fa5b03a514cd0bb7b217e02e5"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo mmarfinetz/FairFlow matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/mmarfinetz/FairFlow"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo Identity-md/univ4hook-start-template matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/Identity-md/univ4hook-start-template"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo voladelta/v4hook-cli matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/voladelta/v4hook-cli"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: mmarfinetz/FairFlow — 0★ — Oracle-anchored Uniswap v4 hook for pricing toxic flow and minimizing LVR, backed by replay validation a...",
+   "url": "https://github.com/mmarfinetz/FairFlow"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Identity-md/univ4hook-start-template — 0★ — Uniswap v4 hook starter — an empty OpenZeppelin BaseHook with deployment scaffolding th...",
+   "url": "https://github.com/Identity-md/univ4hook-start-template"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: voladelta/v4hook-cli — 0★ — Safely verify, fork-simulate and deploy Uniswap v4 hooks with Foundry and mandatory Anvil gates.",
+   "url": "https://github.com/voladelta/v4hook-cli"
+  },
+  {
+   "ts": "2026-08-16T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Identity-md/launch-2-hook — 0★ — Launch #2 — a Uniswap v4 anti-sniping hook. Built by the IdentityMD contributor network.",
+   "url": "https://github.com/Identity-md/launch-2-hook"
+  },
+  {
    "ts": "2026-08-16T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -126,90 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #343 in programmable: 'Restore homepage social preview metadata'",
    "url": "https://github.com/0xprogrammable/programmable/pull/343"
-  },
-  {
-   "ts": "2026-08-15T23:28:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Restore homepage social preview metadata (#343)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/350b9d111d3526faf29f351d830e565da402a646"
-  },
-  {
-   "ts": "2026-08-15T23:13:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #342 in programmable: 'Polish landing interactions and night atmosphere'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/342"
-  },
-  {
-   "ts": "2026-08-15T23:13:47Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Polish landing interactions and night atmosphere (#342)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/808c574a744d4cfeb01940e39d870f04685127fc"
-  },
-  {
-   "ts": "2026-08-15T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25763161. Tokens: 0x0000000000000000000000000000000000000000 / 0x81d8d640696a30352503959266845672ec7e032f. Fee:...",
-   "url": "https://etherscan.io/tx/0xcf9eb3c62d91e796b12438081c9ee5a8ed0bb138154ceaaf438ecb0ddbc0ee5a"
-  },
-  {
-   "ts": "2026-08-15T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25762831. Tokens: 0x0000000000000000000000000000000000000000 / 0x3c57a31a50220eb1541cc354c33dc9ae9b87390e. Fee:...",
-   "url": "https://etherscan.io/tx/0x2702655fb8bfb8beb2f50ee02db8512d0f58436302167df2bd238c957300a307"
-  },
-  {
-   "ts": "2026-08-15T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25762825. Tokens: 0x0000000000000000000000000000000000000000 / 0x45bc469254f35e54bc654fa5716565aa493e0d12. Fee:...",
-   "url": "https://etherscan.io/tx/0x32daae4ef5babb4712b6f1c21469b75e9344a3251c6c2335d905f495b06fa012"
-  },
-  {
-   "ts": "2026-08-15T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25762824. Tokens: 0x0000000000000000000000000000000000000000 / 0x1ff7503da508a17f5c7832d2d4965ac3bdfb8f04. Fee:...",
-   "url": "https://etherscan.io/tx/0x6d77aebc794ba90f6eab257b35ca57366e38fa5180345158bc0b568bf5ce5df5"
-  },
-  {
-   "ts": "2026-08-15T21:49:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #341 in programmable: 'Degrade Explore safely when Bitquery returns HTTP 402'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/341"
-  },
-  {
-   "ts": "2026-08-15T21:49:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Degrade Explore safely when Bitquery returns HTTP 402 (#341)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/3302e24a7fc3c91bdb9efcbbe04f6f0d5e2ce34a"
-  },
-  {
-   "ts": "2026-08-15T20:58:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #340 in programmable: 'Add safe Bitquery failure diagnostics'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/340"
-  },
-  {
-   "ts": "2026-08-15T20:58:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Add safe Bitquery failure diagnostics (#340)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/7d1a44529e8973234798d0a79f3383ad95378949"
-  },
-  {
-   "ts": "2026-08-15T20:05:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #339 in programmable: 'Ship final WEBDE production interface'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/339"
   }
  ]
 }
