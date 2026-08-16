@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-16T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25767063. Tokens: 0x000331d6cf5166bc35cd87e3e4b95ba31f614088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0xc2f37eda7787d2e5342800310581d55548ee21a764a4a33e13ddc875c6a7a229"
+  },
+  {
+   "ts": "2026-08-16T11:32:30Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #348 in programmable: 'Serve Explore markets through bounded Dexscreener reads'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/348"
+  },
+  {
+   "ts": "2026-08-16T11:32:30Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Serve Explore markets through bounded Dexscreener reads (#348)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/d9d302b87269e16df6efb2bab87f2abe6ea957d5"
+  },
+  {
+   "ts": "2026-08-16T11:31:57Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #349 in programmable: 'feat(contracts): add Registry V2 custom launch gateway route'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/349"
+  },
+  {
    "ts": "2026-08-16T10:10:22Z",
    "suit": "spade",
    "source": "JOKER",
@@ -182,34 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: syBTC / WBTC 0.01% — $587,291 24h volume, $709,447 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x94ae557b1f24e1360ea34283686ef3af173d89d7d1bab66d8ae19198a9a0cde0"
-  },
-  {
-   "ts": "2026-08-16T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: DAI / USDT 0.007% — $625,983 24h volume, $1,497,478 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xf6e8088529094bc485561fa2a03e3d19c9a60f5d99a997e8fe16ab4ca2db277a"
-  },
-  {
-   "ts": "2026-08-16T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: BLOTIX / SAFEMONEY 0.01% — $665,601 24h volume, $8,744 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xd068c38f0d5f45681da3ffa11bd796f08945756b0826e4f115aeef7fba6af6b9"
-  },
-  {
-   "ts": "2026-08-16T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: GULD / ELEVATE 0.3% — $759,162 24h volume, $1,787,106 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xfd89a241eecd9e1f35338f016d4b94b778ae3e5fb7d306a2ff95398fb91c15f3"
-  },
-  {
-   "ts": "2026-08-16T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: ELEVATE / GIVE 0.3% — $774,343 24h volume, $1,432,184 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xb91f9f1de7d1049b9cb95d97fdc1340d35123890dcf19884def4ac6d94ced3ce"
   }
  ]
 }
