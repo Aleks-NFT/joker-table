@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $65,641,706   #2 USDC / USDT — $40,348,507   #3 PYUSD / USDS — $10,902,979   #4 U...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / WBTC 0.05% TVL grew 747% to $9,992,958",
+   "url": "https://www.geckoterminal.com/eth/pools/0x599326d9cd5e1ea0893305c87d5ec3199e7f05e94d72159f35dea381479a615e"
+  },
+  {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "EUROC / USDC 0.03% volume surged 128% to $2,190,687 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb2b92b56988a4edbe255989792c6ea239b25eaf66b42093145cbf8f630db3a17"
+  },
+  {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: ENA / USDC 0.3% — $900,419 24h volume, $2,469,282 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x8c52de694f5a4ce27ea85fe4bc47e08d22c5dfb5f9b38b2a63765ed52cd3b147"
+  },
+  {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: cbBTC / WBTC 0.005% — $1,262,356 24h volume, $3,657,878 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
+  },
+  {
+   "ts": "2026-08-17T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: USDe / USDC 0.003% — $3,641,319 24h volume, $399,895 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
    "ts": "2026-08-17T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25770745. Tokens: 0x0000000000000000000000000000000000000000 / 0xf74ff13253527f8c73d15e578861d4df2b91469d. Fee:...",
    "url": "https://etherscan.io/tx/0x30b756915a645c8b757c7fc5351d1aba60250d6d8d53027df2dc375be2217507"
-  },
-  {
-   "ts": "2026-08-17T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770627. Tokens: 0x0000000000000000000000000000000000000000 / 0xb06d3aa5ff428977cbbeaad296f192c81e0bb229. Fee:...",
-   "url": "https://etherscan.io/tx/0x026ee6e8db8791d9d5c28d129263145c22029de530eb1e78ebea2fd4b1be42e0"
-  },
-  {
-   "ts": "2026-08-17T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770558. Tokens: 0x0000000000000000000000000000000000000000 / 0x66c98d3efa8d59193cd8129f9530f4b4f2b1fb53. Fee:...",
-   "url": "https://etherscan.io/tx/0x735ccc5ffeee91ffb85a550c3dd91bcd0f6ee048a28753d52978fe899c4e7fdd"
-  },
-  {
-   "ts": "2026-08-17T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770544. Tokens: 0x0000000000000000000000000000000000000000 / 0x3ff5e4da523141b449fe2f31dbe847cabb893c42. Fee:...",
-   "url": "https://etherscan.io/tx/0x367a3d4a27232d580e036a6334ca8b3b5d4ee1c70136aadded4a8a873cebffaa"
-  },
-  {
-   "ts": "2026-08-17T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770517. Tokens: 0x0000000000000000000000000000000000000000 / 0x5edc750f33c70c1c25ccf18ad7fdef6642df9492. Fee:...",
-   "url": "https://etherscan.io/tx/0xd30b7978cae915ec02374298cbe414309dcc068f59c4c5516bd5db6f3c690ce9"
-  },
-  {
-   "ts": "2026-08-16T23:35:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #363 in programmable: 'Show official token media and social links'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/363"
-  },
-  {
-   "ts": "2026-08-16T23:35:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Show official token media and social links (#363)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/dd8749e027606e9d9ccfc7a4be0f01598bbe1c83"
   }
  ]
 }

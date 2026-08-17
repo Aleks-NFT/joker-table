@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-17T04:15:35Z",
+ "generated_at": "2026-08-17T05:15:35Z",
  "total_hooks": 3249,
  "total_pools": 10754,
  "multi_pool_hooks": 320,
@@ -3965,8 +3965,8 @@
   {
    "address": "0x185b45b3b2193c911529d158e73cd83b52afc044",
    "address_short": "0x185b…c044",
-   "name": "",
-   "verified": false,
+   "name": "VoltageHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x185b45b3b2193c911529d158e73cd83b52afc044",
    "pool_count": 3,
    "permissions_human": [
