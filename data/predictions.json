@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 20,
-  "miss": 24,
+  "miss": 25,
   "open": 5,
-  "hit_rate": 0.455
+  "hit_rate": 0.444
  },
  "items": [
+  {
+   "id": 58,
+   "made_at": "2026-08-17",
+   "text": "Over the next seven days the count clears 60; the likely landing sits between 29 and 352, and I give the over about 65%. Builders are deploying pools with the dynamic-fee flag: the hook contract sets the swap fee in real time instead of a fixed tier. That is the clearest sign of hooks used as economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-24",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 57,
    "made_at": "2026-08-14",
@@ -54,8 +64,8 @@
    "text": "Over the next seven days the count clears 24; the likely landing sits between 17 and 35, and I give the over about 53%. What is happening: more pools are appearing with very small spacing below 10—a tool for fine-grained, concentrated liquidity placement.",
    "horizon_days": 7,
    "resolve_after": "2026-08-17",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +24 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   },
   {
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-26",
    "status": "miss",
    "resolution_note": "Confirmed: target +850 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 8,
-   "made_at": "2026-06-18",
-   "text": "Within seven days, at least one of these zero-fee hook contracts will be forked or redeployed with a modified fee logic, confirming the shift toward hook-based revenue models.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-25",
-   "status": "void",
-   "resolution_note": "Voided manually — event-based, too old to verify.",
    "phase": "v1"
   }
  ]

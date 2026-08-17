@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-17",
+   "narrative": {
+    "en": "Sixteen fresh pools hit the felt overnight, and a gambler reads the stack for the tell. Four of them lay down with zero rake — 0xdc43…f091, 0x693f…4eac, 0x5edc…9492, 0x66c9…fb53 — and their spacing is marked at 200 and 25, like someone tracing ranges on an empty table. But the real tell is the hook contracts: 0x6893…0cc appears twice, 0x96b8…0cc appears twice. Same code, different chips. That isn't accident; that's a system running its hands in silence.\n\nSeven of the new hands are priced at one percent, each with WETH on one side — the zero address means ether. Three sit at three-tenths of a percent. One is nearly free, 0.0001%, token 0xee45…6a38, hook 0x432f…c0c — someone who wants to trade without giving up a sliver. And deeper down, some hooks are already setting the swap fee in real time, changing the cut at the table's discretion instead of locking a fixed sticker. That is hooks acting as economic levers, not ornaments.\n\nGitHub is quiet but not idle: hazarxyz pushed a fix to keep mobile token-copy controls visible in the V4 interface. Small polish, yet it shows a hand working the UI for these contraptions. Sixteen pools in one night is not a sprint; it's a marathon deal being dealt before the crowd turns around. I keep my eyes on the hooks.",
+    "zh": "后半夜的江湖，有人往桌上甩了十六块新牌——Uniswap 的 V4 又长出新池子。四块牌子不收过路费：0xdc43…f091、0x693f…4eac、0x5edc…9492、0x66c9…fb53，间距刻着 200 和 25，像是在空地上画好格子再慢慢练拳。真正扎眼的是钩子重复了：0x6893…0cc 出现两回，0x96b8…0cc 也出现两回。同一个心法，挂在不同门派下，这不是随手为之，是有人按谱落子。\n\n七口池子收一个点的过路费，另一头全挂的是 WETH；三口收千分之三；还有一口只收万分之一，代币是 0xee45…6a38，钩子是 0x432f…c0c。有人想近身肉搏，连滑点都不想给。更亮的是有些钩子直接在交易时定费用——过路费由阵法的内功当场决定，不是刻死的价签。这是把钩子当经济命门来用，不是挂个招牌充门面。\n\nGitHub 那边也不是静水：hazarxyz 改了 programmable，让手机端复制代币地址的按钮一直看得见。界面功夫不多，却说明有人在专门打磨这些 V4 物件的门面。一夜十六口池子，不是短跑，是有人把内力往长局里铺。"
+   },
+   "take": {
+    "en": "The repeated hooks and the spread of rakes say these are no air checks; someone is building an economic lattice across V4 before the crowd notices.",
+    "zh": "十六口池子，同一路心法重复出现；这不是试水，是有人要在 V4 的版图上占个座。"
+   }
+  },
+  {
    "date": "2026-08-14",
    "narrative": {
     "en": "The table's been busy while you were counting chips. Five new hook pools hit the felt in a single day, and four of them show token A as the zero address — pure ETH, no wrappers, no disguises. This is not chance; this is a pattern. Three pools share the same hook contract, two of them with the same pairing of zero address and some junk token. Someone is testing the mechanics, maybe dynamic fees or stretched orders in the style of TWAMM. The fee is zero, the ticks are wide, the liquidity is thin — this is not a game for the retail crowd.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "This isn't random seeding—someone is systematically stamping out identical hooks, laying traps for liquidity across a long tail of unknown tokens.",
     "zh": "看似散乱的池子，实则暗藏章法——有人在幕后布下连环阵，静待猎物上钩。"
-   }
-  },
-  {
-   "date": "2026-07-26",
-   "narrative": {
-    "en": "Because when the same hook contract keeps surfacing in initialization after initialization, that's no longer coincidence—it's a pattern. 0x0d62529346ac2c61f5c0582210d01214687bc0cc is the hand that holds the deck. Thirteen pools, all WETH pairs with zero fee and a wide tick spread of 200. No swap percentages—only pure margin from the spread. Someone is assembling a line of tokens for high-turnover trade where the mainnet is the table and slippage is the trump card.\n\nNearly parallel, two other contracts deal: 0x96b893... and 0x83e25f..., each with a couple of their own hands. Also WETH as base, zero or minimal fees. But the second's deck is denser—tickSpacing 1, meaning liquidity tight as a stack of diamonds in a knee brace. A bet on stability or entry into a coin that won't drop three pennies.\n\nStanding apart, a pool between 0xc496aa and 0xddb522—no WETH, a full 1% fee, wide spread. Different hooks (0xa6d34d...). This isn't a hand for quick spins. Either catching a rare card or cementing a pair where volatility is a feature, not a bug. That mix is worth remembering.\n\nThe night passed in a whisper of bytes. From block 25612724 to 25613481—15 pools. Someone shuffled the deck on a test hand, laying out one token per block. If it's one player, he knows which cards he needs. If several, they play by different rules on the same table. I'd say the deal hasn't started yet, but the cards are dealt.",
-    "zh": "同一个钩子合约反复出现在初始化中，这不是巧合，而是布局。0x0d62529346ac2c61f5c0582210d01214687bc0cc是握着牌的那只手。十三个池子，全是WETH对，零费率，tick间距200，步幅宽阔。没有抽水，只靠价差吃利。有人在搭一套用于高频交易的天梯，主网就是牌桌，滑点就是王牌。\n\n几乎同时，另外两个合约也在发牌：0x96b893……和0x83e25f……，各带三两把牌。同样以WETH为基，零费或微费。但第二个的tick间距只有1，流动性密如内力灌注，赌的是稳定——要么是稳扎稳打，要么是进一个掉不下三文钱的币。\n\n另一个池子格外扎眼：0xc496aa与0xddb522之间，不含WETH，费率整一个百分点，摆幅宽阔。所用钩子也不同（0xa6d34d……）。这不是快进快出的阵仗，要么在等一张稀罕牌，要么在锁死一对波动率本身就是武功的币。这套布阵，值得记下。\n\n字节低语了一夜。从区块25612724到25613481，15个池子。有人在一只测试手上布阵，每块出一个币。若是一人，他知道自己缺什么牌；若是数人，他们各打各的门派，却共用一张桌子。我说，牌已发，局未开。"
-   },
-   "take": {
-    "en": "The play is deliberate: builders are laying out pools with non‑standard fees to capture revenue through hooks instead of swaps. This isn't a token launch—it's a setup for something bigger.",
-    "zh": "摆局者刻意选择非常规手续费——要么零费要么最高档——通过钩子而非交换来抽成。这不是生灵涂炭的发币，而是为更大的局布下的旗子。"
    }
   }
  ]
