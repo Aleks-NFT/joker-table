@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-17T15:09:06Z",
- "total_hooks": 3255,
- "total_pools": 10776,
+ "generated_at": "2026-08-17T16:09:07Z",
+ "total_hooks": 3257,
+ "total_pools": 10780,
  "multi_pool_hooks": 322,
  "shown": 322,
  "more_count": 0,
@@ -181,7 +181,7 @@
    "name": "EthCreatorFeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
-   "pool_count": 271,
+   "pool_count": 272,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -195,8 +195,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25639700,
-   "last_block": 25773602,
-   "last_deploy": "2026-08-17T10:00:02Z",
+   "last_block": 25775696,
+   "last_deploy": "2026-08-17T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -516,7 +516,7 @@
    "name": "TripoolsAntiSnipeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x68935dcf688637463f8eda0f55c4fe416c1040cc",
-   "pool_count": 36,
+   "pool_count": 37,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -528,8 +528,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25759676,
-   "last_block": 25774443,
-   "last_deploy": "2026-08-17T12:00:02Z",
+   "last_block": 25775853,
+   "last_deploy": "2026-08-17T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3024,7 +3024,7 @@
    "first_block": 25711592,
    "last_block": 25725162,
    "last_deploy": "2026-08-10T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
