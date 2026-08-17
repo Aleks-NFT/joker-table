@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-17T04:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25772098. Tokens: 0x0000000000000000000000000000000000000000 / 0xfac361b42cd15974b2dba41773ada8c989b87cc7. Fee:...",
+   "url": "https://etherscan.io/tx/0xa6b5d0f8055f494d5ea3c753bddc10b18871c66697194ba40c5d7174bf4adaa7"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo zhiquanxiaolongxia/GOUZI-KAIYUAN1 matches a hook deployed on-chain (feehook, 0xa2dcd7bf…) — code we can read behind a live contract",
+   "url": "https://github.com/zhiquanxiaolongxia/GOUZI-KAIYUAN1"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo mario1354g-bit/hookguard matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/mario1354g-bit/hookguard"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo chaosxcode/hookguard matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/chaosxcode/hookguard"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: zhiquanxiaolongxia/GOUZI-KAIYUAN1 — 0★ — Uniswap V4 dynamic-fee hook reverse engineering (Robinhood chain 4663)",
+   "url": "https://github.com/zhiquanxiaolongxia/GOUZI-KAIYUAN1"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: mario1354g-bit/hookguard — 0★ — Transparent risk scanner for Uniswap v4 hooks. 70% of the 486 registered hooks can move value; only...",
+   "url": "https://github.com/mario1354g-bit/hookguard"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: chaosxcode/hookguard — 1★ — Transparent risk scanner for Uniswap v4 hooks. 70% of the 486 registered hooks can move value; only 6% ...",
+   "url": "https://github.com/chaosxcode/hookguard"
+  },
+  {
+   "ts": "2026-08-17T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Identity-md/launch-3-hook-feedistributor — 0★ — Charge a 5% fee on every trade, hold it as ETH, and let large holders claim their s...",
+   "url": "https://github.com/Identity-md/launch-3-hook-feedistributor"
+  },
+  {
    "ts": "2026-08-17T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to programmable: 'Show official token media and social links (#363)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/dd8749e027606e9d9ccfc7a4be0f01598bbe1c83"
-  },
-  {
-   "ts": "2026-08-16T23:13:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #364 in programmable: 'Polish mobile Explore navigation'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/364"
-  },
-  {
-   "ts": "2026-08-16T23:13:52Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Polish mobile Explore navigation (#364)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/b31ee9462fb5eedf953f3c782cc4fd6fb05b942b"
-  },
-  {
-   "ts": "2026-08-16T22:33:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #362 in programmable: 'Restore homepage top after mobile hash navigation'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/362"
-  },
-  {
-   "ts": "2026-08-16T22:33:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Restore homepage top after mobile hash navigation (#362)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/f25e52ff9478387e2c05f42fb708adee6499a147"
-  },
-  {
-   "ts": "2026-08-16T22:09:57Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #361 in programmable: 'Fix native mobile scrolling on the home page'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/361"
-  },
-  {
-   "ts": "2026-08-16T22:09:57Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to programmable: 'Fix native mobile scrolling on the home page (#361)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/1056000581f1bd37b23814c7362c11b6a509f15e"
-  },
-  {
-   "ts": "2026-08-16T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770474. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xab25859d4cd76f5999ff52402412793f65048088. Fee:...",
-   "url": "https://etherscan.io/tx/0xbdd202ad1661f3a91ac508a0b160fe5b20aa0e654f752ac7fe3f6ccfeea04318"
-  },
-  {
-   "ts": "2026-08-16T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770466. Tokens: 0x0000000000000000000000000000000000000000 / 0xf1052e63e64199ce21bf6123c158a44b9bb817bd. Fee:...",
-   "url": "https://etherscan.io/tx/0xc01b2728411853e1de12b616d214495d775d083c27b49e7393f7b7a1c3c03487"
   }
  ]
 }
