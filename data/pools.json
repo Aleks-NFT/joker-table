@@ -1,10 +1,21 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-17T12:15:35Z",
+ "generated_at": "2026-08-17T12:20:04Z",
  "new_pools_24h": 92,
  "new_pools_7d": 579,
  "unique_hook_contracts": 3254,
  "canonical": [
+  {
+   "ticker": "01",
+   "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
+   "price_usd": 0.872771672386851,
+   "pct_24h": 7.424,
+   "vol_24h_usd": 603728.794162732,
+   "liquidity_usd": 2725481.325,
+   "liq_class": "deep",
+   "vol_class": "high",
+   "stale_hours": 0
+  },
   {
    "ticker": "PRISM",
    "pool": "0x30850e19afc43b95e41b1fe35185762b4b631e63d07e91b0300c6e0c8cbf7146",
@@ -22,7 +33,7 @@
    "price_usd": 628.853657843838,
    "pct_24h": 12.55,
    "vol_24h_usd": 117110.358730889,
-   "liquidity_usd": 1071014.924,
+   "liquidity_usd": 1071792.4712,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -33,44 +44,124 @@
    "price_usd": 0.212149415725301,
    "pct_24h": 6.003,
    "vol_24h_usd": 11713.0797063356,
-   "liquidity_usd": 229647.201,
+   "liquidity_usd": 229813.9228,
    "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
   },
   {
-   "ticker": "01",
-   "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
-   "price_usd": 0.86842593002765,
-   "pct_24h": 22.233,
-   "vol_24h_usd": 379389.599263688,
-   "liquidity_usd": 2713952.174,
-   "liq_class": "deep",
-   "vol_class": "high",
-   "stale_hours": 16
-  },
-  {
    "ticker": "SLOP",
    "pool": "0xa40f7c9bf63bafe3d3bcd09066dabb6322e51bb9c4c4ae0e3c2758b4755031b5",
-   "price_usd": 0.371553072207637,
-   "pct_24h": -2.733,
-   "vol_24h_usd": 1764.1772469513,
-   "liquidity_usd": 145137.6566,
+   "price_usd": 0.319759548056231,
+   "pct_24h": -1.42,
+   "vol_24h_usd": 2103.778844904,
+   "liquidity_usd": 132298.8275,
    "liq_class": "mid",
    "vol_class": "low",
-   "stale_hours": 108
+   "stale_hours": 0
   },
   {
    "ticker": "LODE",
    "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
-   "price_usd": 0.000799242833585895,
+   "price_usd": 0.000752393278896745,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 38476.5369,
+   "liquidity_usd": 38592.5885,
    "liq_class": "thin",
    "vol_class": "low",
-   "stale_hours": 158
+   "stale_hours": 0
   }
  ],
- "top_pools": []
+ "top_pools": [
+  {
+   "ticker": "SATOSHI",
+   "pool": "",
+   "price_usd": 0.317936073429128,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 651.2377151824,
+   "liquidity_usd": 150498.63,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "MKUSD",
+   "pool": "",
+   "price_usd": 0.991614129014609,
+   "pct_24h": -0.654,
+   "vol_24h_usd": 368.2087869881,
+   "liquidity_usd": 116258.2841,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HOOK",
+   "pool": "",
+   "price_usd": 0.5478564381143,
+   "pct_24h": -5.454,
+   "vol_24h_usd": 200.1562802364,
+   "liquidity_usd": 5181.4093,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "HOOKP",
+   "pool": "",
+   "price_usd": 2.75972145852867e-06,
+   "pct_24h": -1.508,
+   "vol_24h_usd": 37.6268179267,
+   "liquidity_usd": 2801.8894,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "PRISMA",
+   "pool": "",
+   "price_usd": 0.00812278002586132,
+   "pct_24h": 0.635,
+   "vol_24h_usd": 23.6821022405,
+   "liquidity_usd": 16369.7958,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "SAVM",
+   "pool": "",
+   "price_usd": 0.00403459165959667,
+   "pct_24h": 0.16,
+   "vol_24h_usd": 4.850790482,
+   "liquidity_usd": 134906.3927,
+   "liq_class": "mid",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "GLOBE",
+   "pool": "",
+   "price_usd": 0.002631551794,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.0,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "DAEMONS",
+   "pool": "",
+   "price_usd": 9.672306502e-07,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.817,
+   "liq_class": "thin",
+   "vol_class": "low"
+  },
+  {
+   "ticker": "DAEMON",
+   "pool": "",
+   "price_usd": 1.5410622515,
+   "pct_24h": 0.0,
+   "vol_24h_usd": 0.0,
+   "liquidity_usd": 0.01178039478,
+   "liq_class": "thin",
+   "vol_class": "low"
+  }
+ ]
 }
