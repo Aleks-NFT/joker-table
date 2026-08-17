@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-17T06:10:14Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Dealt a stranger a card at another man's table, then waited.",
+   "url": null
+  },
+  {
    "ts": "2026-08-17T06:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25770779. Tokens: 0x0000000000000000000000000000000000000000 / 0x69ba45bbbe7f9a8b4fdd967ebb452ace57ef0b48. Fee:...",
    "url": "https://etherscan.io/tx/0xe2d11632eecd5dfc201704e61ccc0b1ec1dbfc7bd4ef23f183ce130e01dd47fe"
-  },
-  {
-   "ts": "2026-08-17T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25770771. Tokens: 0x0000000000000000000000000000000000000000 / 0x83b2ea0f86ebeb07dc22deb972e63b7e94d634ae. Fee:...",
-   "url": "https://etherscan.io/tx/0xb0ccec167c01ec7ea7d8dba3882764974cc5e5310525f9370cf65e9d40775139"
   }
  ]
 }
