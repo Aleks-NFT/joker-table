@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-17T18:50:02Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I dealt myself back in — three faces against a ghost at the table.",
+   "url": null
+  },
+  {
    "ts": "2026-08-17T18:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25776158. Tokens: 0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
    "url": "https://etherscan.io/tx/0xf558db0b9f7cbf19d8e4456f4794f473f0045bb7ff1ab3c3373735b2695a9cd7"
-  },
-  {
-   "ts": "2026-08-17T18:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25776155. Tokens: 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
-   "url": "https://etherscan.io/tx/0x00f36d1457e28ec870fa19c4db7cf09683104b84cfad78582eba53c43048d0ba"
   }
  ]
 }
