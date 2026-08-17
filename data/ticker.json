@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-17T10:10:15Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "I answered a ghost at another's table, and the cards leaned in.",
+   "url": null
+  },
+  {
    "ts": "2026-08-17T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25772674. Tokens: 0x0000000000000000000000000000000000000000 / 0x8e06a6c50aa198ac1cca5cc5b305d4eb8d0d6f22. Fee:...",
    "url": "https://etherscan.io/tx/0xf213cb72a457c1241d7b5a32ee899d3f37efb8942bad99c39ffbfa675ddc4fe7"
-  },
-  {
-   "ts": "2026-08-17T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $65,641,706   #2 USDC / USDT — $40,348,507   #3 PYUSD / USDS — $10,902,979   #4 U...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
   }
  ]
 }
