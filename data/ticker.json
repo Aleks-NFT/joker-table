@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-18T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25781581. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0e21d55e4cea36aff03ae49cdc8613b8fc7b0ca. Fee:...",
+   "url": "https://etherscan.io/tx/0x2d1a1b628ac5c34d5cb46663ed07e111f7e9dc3f55fae586f1d280a4578f6f0d"
+  },
+  {
+   "ts": "2026-08-18T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25781385. Tokens: 0x0000000000000000000000000000000000000000 / 0xdb540d2eb566934cd752aef6d83b14d1559cb4a8. Fee:...",
+   "url": "https://etherscan.io/tx/0x9dd17186125c1b778746e3effc567dc9bf726ae6efc1e7f5c7707aa80018c3c8"
+  },
+  {
+   "ts": "2026-08-18T12:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25781247. Tokens: 0x0000000000000000000000000000000000000000 / 0x5a3a9d34dea1f22bcafbdd7cfb71f471ffc8e065. Fee:...",
+   "url": "https://etherscan.io/tx/0xc2ef30d508b99b602878abdf8bf62d3353422badc1bb5d99ce2ceba51cf9f3c4"
+  },
+  {
+   "ts": "2026-08-18T11:49:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "ToanPham247 pushed to antifragile-floor-hook: 'test: add Open-World v2 canonical gate entrypoints (testSimulation, testDeployment)'",
+   "url": "https://github.com/ToanPham247/antifragile-floor-hook/commit/3b7af4471e5746e489bf0d4d5e9ed7e19a2c8567"
+  },
+  {
+   "ts": "2026-08-18T11:40:15Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #388 in programmable: 'Use authorized archive RPC for contract fork gate'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/388"
+  },
+  {
+   "ts": "2026-08-18T10:44:07Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #387 in programmable: 'Accept Envio profile fallback in release smoke'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/387"
+  },
+  {
+   "ts": "2026-08-18T10:44:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Accept Envio profile fallback in release smoke (#387)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/6bb15ed8bcca7eb141daff05c4608d5562efb047"
+  },
+  {
    "ts": "2026-08-18T10:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25779955. Tokens: 0x0000000000000000000000000000000000000000 / 0xa297b28ad4996322cf85794d4bfe35cee863031b. Fee:...",
    "url": "https://etherscan.io/tx/0x8a7540f0b8e48e911f8b171608bbe35707cb5e69b5cac93d8f25cd6f96aa47c2"
-  },
-  {
-   "ts": "2026-08-18T05:00:02Z",
-   "suit": "spade",
-   "source": "governance",
-   "text": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (25 posts)",
-   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $69,215,414   #2 USDC / USDT — $67,156,281   #3 PYUSD / USDS — $48,307,275   #4 U...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / WBTC 0.05% volume surged 131% to $2,741,815 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x599326d9cd5e1ea0893305c87d5ec3199e7f05e94d72159f35dea381479a615e"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "cbBTC / WBTC 0.005% volume surged 138% to $3,002,739 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "PYUSD / USDS volume surged 343% to $48,307,275 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: syrupUSDC / USDC 0.08% — $1,257,135 24h volume, $26,007,403 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xcdb422a853a4fa2deb364317db92ad76d1cb7a8e1b82a32219bcb41720a90228"
-  },
-  {
-   "ts": "2026-08-18T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: syBTC / WBTC 0.01% — $1,390,345 24h volume, $720,291 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x94ae557b1f24e1360ea34283686ef3af173d89d7d1bab66d8ae19198a9a0cde0"
   }
  ]
 }

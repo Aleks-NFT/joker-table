@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-18T11:09:04Z",
- "total_hooks": 3545,
- "total_pools": 11364,
+ "generated_at": "2026-08-18T12:08:43Z",
+ "total_hooks": 3546,
+ "total_pools": 11367,
  "multi_pool_hooks": 330,
  "shown": 330,
  "more_count": 0,
@@ -407,7 +407,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 73,
+   "pool_count": 75,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -421,8 +421,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25781065,
-   "last_deploy": "2026-08-18T10:00:02Z",
+   "last_block": 25781581,
+   "last_deploy": "2026-08-18T12:00:02Z",
    "active": true,
    "visible": false
   },
