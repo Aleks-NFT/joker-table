@@ -2,6 +2,83 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-18T04:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25779215. Tokens: 0x0000000000000000000000000000000000000000 / 0xca8dca8ed5e8d66c9daeeb577013c9a91cd0397a. Fee:...",
+   "url": "https://etherscan.io/tx/0x6f35460a1af8da39439be6312545f61dba0d9ff2f294c8acef4e59fc0da5291a"
+  },
+  {
+   "ts": "2026-08-18T04:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25779023. Tokens: 0x0000000000000000000000000000000000000000 / 0xca8d7a4eff22bd69fddc7834c227d7047cf22717. Fee:...",
+   "url": "https://etherscan.io/tx/0x9efb9f7092e5e4c056090626f7a3974480357fa1b8519ea63a59515431c69c05"
+  },
+  {
+   "ts": "2026-08-18T04:00:03Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25778971. Tokens: 0x0000000000000000000000000000000000000000 / 0xca8d7a4eff22bd69fddc7834c227d7047cf22717. Fee:...",
+   "url": "https://etherscan.io/tx/0x612db733fd50a381af7dc211f2241e9bb65867b8f527805276f5c661103c804b"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo impetus82/airbag-hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/impetus82/airbag-hook"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo JamesVictor-O/Complete-Set-Internalization-Hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/JamesVictor-O/Complete-Set-Internalization-Hook"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo OlaGreat/Turnstile matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/OlaGreat/Turnstile"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: impetus82/airbag-hook — 0★ — Airbag Hook — impact protection for limit orders. A Uniswap v4 hook that pays a resting limit-order ma...",
+   "url": "https://github.com/impetus82/airbag-hook"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: JamesVictor-O/Complete-Set-Internalization-Hook — 0★ — The Complete-Set Internalization Hook is a Uniswap v4 hook that turns the fu...",
+   "url": "https://github.com/JamesVictor-O/Complete-Set-Internalization-Hook"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: 0xcuy/adexto — 1★ — ADEXTO Protocol: 1-Click Atomic Orchestrator for ERC-8004 Tokens, Uniswap v4 Sovereign Hooks, 0G TEE Agents &",
+   "url": "https://github.com/0xcuy/adexto"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Identity-md/launch-6-hook-feedistributor — 0★ — Charge a 5% fee on every trade, hold it as ETH, and let large holders claim their s...",
+   "url": "https://github.com/Identity-md/launch-6-hook-feedistributor"
+  },
+  {
+   "ts": "2026-08-18T04:00:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: OlaGreat/Turnstile — 0★ — A Uniswap v4 hook that auctions off pool-management rights each epoch. The winner sets swap fees and capt...",
+   "url": "https://github.com/OlaGreat/Turnstile"
+  },
+  {
    "ts": "2026-08-18T02:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -133,83 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25778377. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0xab5eb14c09d416f0ac63661e57edb7aecdb9befa. Fee:...",
    "url": "https://etherscan.io/tx/0xe481fef2c2a77bd754bd24fe890e4ab3e320bde577b944ca865c14638fd8b6ea"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778372. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xdb13997f4d83ef343845d0baeb27d1173df8c224. Fee:...",
-   "url": "https://etherscan.io/tx/0xfb50685ca3427d0c4bea0bd063e86eb09ad7e0ac805a8d49ac36f3643216121e"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778368. Tokens: 0xcacd6fd266af91b8aed52accc382b4e165586e29 / 0xcd9f5907f92818bc06c9ad70217f089e190d2a32. Fee:...",
-   "url": "https://etherscan.io/tx/0xd8fe7e6e2d4deaaeb293da6ae163007a1cb8af63e3854b39255f05b2db9c6c5e"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778365. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0x4c9edd5852cd905f086c759e8383e09bff1e68b3. Fee:...",
-   "url": "https://etherscan.io/tx/0xc063fb4b2c9a1db87b13651c3bd9678f5a6f845a7644ee8927421b753411b948"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778359. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0xf939e0a03fb07f59a73314e73794be0e57ac1b4e. Fee:...",
-   "url": "https://etherscan.io/tx/0xc9128e02cc19dafaf7b1708d55bbf94204db0ac92bc849fdfefc9fe141526500"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778356. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186. Fee:...",
-   "url": "https://etherscan.io/tx/0xaf0f74b34ed2de97dd31203289c4e2b3d207e1744e2bd3ac276367475fa31246"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778349. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0x82957d600963ae0c529c3819ac7c349c4d49269b. Fee:...",
-   "url": "https://etherscan.io/tx/0x9194fcb2f34f27dc85e37690bb8d23aec92e1e91d7dd5d9472525c1b53560d77"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778343. Tokens: 0x2a8e1e676ec238d8a992307b495b45b3feaa5e86 / 0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f. Fee:...",
-   "url": "https://etherscan.io/tx/0x5ac4b9b9dfd69608827ee78046b393c84ccb74894e654c7ef70eea8fb358e484"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778338. Tokens: 0xcacd6fd266af91b8aed52accc382b4e165586e29 / 0xf4c13d631450de6b12a19829e37c8e2826891dc4. Fee:...",
-   "url": "https://etherscan.io/tx/0xfd77e7628a0e4b94e173fdd37fab7d6866f6774c6bef6d16f24d3c4e876dafed"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778331. Tokens: 0x697c54a84d83f37380d034e2bfc6f7ce8d89f4ee / 0xcacd6fd266af91b8aed52accc382b4e165586e29. Fee:...",
-   "url": "https://etherscan.io/tx/0xdcb5a884825bac30ba5c108d38e0f081d6432ff5538780e53f4a0b8dde2837fc"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778329. Tokens: 0xb0f70c0bd6fd87dbeb7c10dc692a2a6106817072 / 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf. Fee:...",
-   "url": "https://etherscan.io/tx/0xe681fde241cde8bd15cf7783bb0dc5523a2bcdf279ed2b76bb582c08f6cab8b4"
-  },
-  {
-   "ts": "2026-08-18T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25778326. Tokens: 0x7cb20517776636ed76b68edb3d99dcce356abf02 / 0xcacd6fd266af91b8aed52accc382b4e165586e29. Fee:...",
-   "url": "https://etherscan.io/tx/0xaaca894c8ecfc75251d60898c18d02e761e9ea6d2befc77d92c1c2c32f88a0bb"
   }
  ]
 }
