@@ -1,17 +1,17 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-18T13:09:06Z",
- "new_pools_24h": 594,
- "new_pools_7d": 1067,
- "unique_hook_contracts": 3546,
+ "generated_at": "2026-08-18T14:09:08Z",
+ "new_pools_24h": 597,
+ "new_pools_7d": 1071,
+ "unique_hook_contracts": 3549,
  "canonical": [
   {
    "ticker": "01",
    "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
-   "price_usd": 0.77546979670419,
-   "pct_24h": -9.56,
-   "vol_24h_usd": 310523.382082755,
-   "liquidity_usd": 2508610.1798,
+   "price_usd": 0.77420865505252,
+   "pct_24h": -10.238,
+   "vol_24h_usd": 295887.352443277,
+   "liquidity_usd": 2510225.1975,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -19,10 +19,10 @@
   {
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-   "price_usd": 626.371098940695,
-   "pct_24h": -0.282,
-   "vol_24h_usd": 163487.064472515,
-   "liquidity_usd": 1055001.1472,
+   "price_usd": 595.753460055458,
+   "pct_24h": -8.413,
+   "vol_24h_usd": 166561.632393178,
+   "liquidity_usd": 1051866.548,
    "liq_class": "deep",
    "vol_class": "high",
    "stale_hours": 0
@@ -30,10 +30,10 @@
   {
    "ticker": "PRISM",
    "pool": "0x30850e19afc43b95e41b1fe35185762b4b631e63d07e91b0300c6e0c8cbf7146",
-   "price_usd": 413.800381377782,
-   "pct_24h": -12.565,
-   "vol_24h_usd": 84649.420630412,
-   "liquidity_usd": 199047.8838,
+   "price_usd": 404.431082643209,
+   "pct_24h": -13.215,
+   "vol_24h_usd": 84493.7600704499,
+   "liquidity_usd": 204847.4507,
    "liq_class": "mid",
    "vol_class": "mid",
    "stale_hours": 0
@@ -41,10 +41,10 @@
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.179854622957216,
-   "pct_24h": -11.359,
-   "vol_24h_usd": 3327.5536591254,
-   "liquidity_usd": 220333.3526,
+   "price_usd": 0.18375656107343,
+   "pct_24h": -6.394,
+   "vol_24h_usd": 3243.8092608864,
+   "liquidity_usd": 220349.5708,
    "liq_class": "mid",
    "vol_class": "low",
    "stale_hours": 0
@@ -55,7 +55,7 @@
    "price_usd": 0.317007548487407,
    "pct_24h": -0.879,
    "vol_24h_usd": 265.1641111036,
-   "liquidity_usd": 131285.2885,
+   "liquidity_usd": 131273.5173,
    "liq_class": "mid",
    "vol_class": "low",
    "stale_hours": 0
@@ -69,7 +69,7 @@
    "price_usd": 0.00076064522594113,
    "pct_24h": -0.093,
    "vol_24h_usd": 8.7900395262,
-   "liquidity_usd": 36391.0726,
+   "liquidity_usd": 36387.8097,
    "liq_class": "thin",
    "vol_class": "low"
   }
