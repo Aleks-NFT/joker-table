@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 20,
-  "miss": 24,
-  "open": 6,
-  "hit_rate": 0.455
+  "miss": 25,
+  "open": 5,
+  "hit_rate": 0.444
  },
  "items": [
   {
@@ -64,8 +64,8 @@
    "text": "The same hand keeps dealing table after table — one hook contract, working the room far faster than any usual player. Over the next 7 days the count clears 128; the likely landing sits between 128 and 128, and I give the over about 69%.",
    "horizon_days": 7,
    "resolve_after": "2026-08-18",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +128 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
