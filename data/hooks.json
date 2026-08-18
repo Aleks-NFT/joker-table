@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-18T07:09:05Z",
- "total_hooks": 3538,
- "total_pools": 11353,
+ "generated_at": "2026-08-18T08:09:06Z",
+ "total_hooks": 3541,
+ "total_pools": 11357,
  "multi_pool_hooks": 329,
  "shown": 329,
  "more_count": 0,
@@ -744,7 +744,7 @@
    "first_block": 25717330,
    "last_block": 25730216,
    "last_deploy": "2026-08-11T08:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -2115,7 +2115,7 @@
    "first_block": 25375276,
    "last_block": 25729997,
    "last_deploy": "2026-08-11T08:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -3438,6 +3438,25 @@
    "visible": false
   },
   {
+   "address": "0x64170df72d0b528d10848f19e9c331f6d08fc040",
+   "address_short": "0x6417…c040",
+   "name": "SockMarketHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x64170df72d0b528d10848f19e9c331f6d08fc040",
+   "pool_count": 6,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterSwap"
+   ],
+   "first_block": 25773256,
+   "last_block": 25780263,
+   "last_deploy": "2026-08-18T08:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
    "address_short": "0x8ff5…e0cc",
    "name": "LiquidGuard",
@@ -3670,25 +3689,6 @@
    "last_block": 25242757,
    "last_deploy": "2026-06-08T19:22:10Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x64170df72d0b528d10848f19e9c331f6d08fc040",
-   "address_short": "0x6417…c040",
-   "name": "SockMarketHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x64170df72d0b528d10848f19e9c331f6d08fc040",
-   "pool_count": 5,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "afterSwap"
-   ],
-   "first_block": 25773256,
-   "last_block": 25778731,
-   "last_deploy": "2026-08-18T02:00:02Z",
-   "active": true,
    "visible": false
   },
   {
