@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-18T20:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 56333698. Tokens: 0x0555e30da8f98308edb960aa94c0db47230d2b9c / 0x078d782b760474a361dda0af3839290b0e...",
+   "url": "https://uniscan.xyz/tx/0xd206c43f42262729671ef9960ef9983c0953d425c91b8691fe11a61439d9bc0d"
+  },
+  {
+   "ts": "2026-08-18T20:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 56333698. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x14b8817b97c6b0c8e83d0606516caa2957fb19cb9faed5a1911e9b0b19575988"
+  },
+  {
    "ts": "2026-08-18T20:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25783054. Tokens: 0x0000000000000000000000000000000000000000 / 0x2b753c0019eecf1fd3c05d53a22c0658b56610e0. Fee:...",
    "url": "https://etherscan.io/tx/0x693982a535ac02dfcb7b31490fc59fba6324940c818e8e6bbc7cab88b691a19d"
-  },
-  {
-   "ts": "2026-08-18T17:37:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #395 in programmable: 'fix(chart): display market cap history'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/395"
-  },
-  {
-   "ts": "2026-08-18T17:37:52Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'fix(chart): display market cap history (#395)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/cb397d518ca21f48631b67787433793193b3ae9d"
   }
  ]
 }
