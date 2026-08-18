@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-18T04:09:05Z",
+ "generated_at": "2026-08-18T05:09:05Z",
  "history": [
-  {
-   "date": "2026-07-19",
-   "volume_24h_usd": 557318735.0,
-   "fees_24h_usd": 1363452.0,
-   "eth_share_pct": 41.3
-  },
   {
    "date": "2026-07-20",
    "volume_24h_usd": 942506115.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 508464804.0,
    "fees_24h_usd": 1315970.0,
    "eth_share_pct": 31.2
+  },
+  {
+   "date": "2026-08-18",
+   "volume_24h_usd": 697042687.0,
+   "fees_24h_usd": 1132132.0,
+   "eth_share_pct": 38.8
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 163410895,
-  "Ethereum": 158214077,
-  "BSC": 111924821,
-  "Base": 32980702,
-  "Polygon": 25070536,
-  "Arbitrum": 10301516,
-  "Monad": 3551092,
-  "X Layer": 1726639
+  "Ethereum": 268950721,
+  "Robinhood Chain": 218994942,
+  "BSC": 121439213,
+  "Polygon": 29711414,
+  "Base": 22287135,
+  "Arbitrum": 16416250,
+  "Monad": 9241330,
+  "X Layer": 6810985
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (25 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",
+   "occurred_at": "2026-08-18T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (24 posts)",
    "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",
@@ -204,12 +210,6 @@
    "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (14 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
    "occurred_at": "2026-08-14T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (12 posts)",
-   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
-   "occurred_at": "2026-08-11T05:00:05Z",
    "active": false
   }
  ],

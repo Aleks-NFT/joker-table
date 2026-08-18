@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-18T04:09:05Z",
+ "generated_at": "2026-08-18T05:09:05Z",
  "total_hooks": 3537,
  "total_pools": 11351,
  "multi_pool_hooks": 328,
@@ -3675,8 +3675,8 @@
   {
    "address": "0x64170df72d0b528d10848f19e9c331f6d08fc040",
    "address_short": "0x6417…c040",
-   "name": "",
-   "verified": false,
+   "name": "SockMarketHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x64170df72d0b528d10848f19e9c331f6d08fc040",
    "pool_count": 5,
    "permissions_human": [
@@ -4528,8 +4528,8 @@
   {
    "address": "0x03fb7961a7ff2595717ea81ce3940f1b18e30044",
    "address_short": "0x03fb…0044",
-   "name": "",
-   "verified": false,
+   "name": "PaydayHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x03fb7961a7ff2595717ea81ce3940f1b18e30044",
    "pool_count": 2,
    "permissions_human": [
@@ -4576,8 +4576,8 @@
   {
    "address": "0x0a71509dff50940945538b6c9137d26b1d4468a8",
    "address_short": "0x0a71…68a8",
-   "name": "",
-   "verified": false,
+   "name": "ERC1967Proxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0a71509dff50940945538b6c9137d26b1d4468a8",
    "pool_count": 2,
    "permissions_human": [
@@ -5188,8 +5188,8 @@
   {
    "address": "0x42a5a361362fffa3106b2fae7c4c79433a580044",
    "address_short": "0x42a5…0044",
-   "name": "",
-   "verified": false,
+   "name": "CombustionBurnHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x42a5a361362fffa3106b2fae7c4c79433a580044",
    "pool_count": 2,
    "permissions_human": [
@@ -5921,8 +5921,8 @@
   {
    "address": "0x8df8aef132b70e7707e019148b3c82ef691b8044",
    "address_short": "0x8df8…8044",
-   "name": "",
-   "verified": false,
+   "name": "CovenantHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8df8aef132b70e7707e019148b3c82ef691b8044",
    "pool_count": 2,
    "permissions_human": [
@@ -6653,8 +6653,8 @@
   {
    "address": "0xbdf938149ac6a781f94faa0ed45e6a0e984c6544",
    "address_short": "0xbdf9…6544",
-   "name": "",
-   "verified": false,
+   "name": "DopplerHookInitializer",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbdf938149ac6a781f94faa0ed45e6a0e984c6544",
    "pool_count": 2,
    "permissions_human": [
