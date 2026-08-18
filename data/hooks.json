@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-17T23:09:06Z",
- "total_hooks": 3328,
- "total_pools": 11135,
+ "generated_at": "2026-08-18T00:09:07Z",
+ "total_hooks": 3489,
+ "total_pools": 11300,
  "multi_pool_hooks": 327,
  "shown": 327,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 530,
+   "pool_count": 531,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25745975,
-   "last_deploy": "2026-08-13T14:00:02Z",
+   "last_block": 25778003,
+   "last_deploy": "2026-08-18T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -402,6 +402,31 @@
    "visible": false
   },
   {
+   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "address_short": "0xb8d9…e0cc",
+   "name": "ConfigurableKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "pool_count": 72,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25676343,
+   "last_block": 25778212,
+   "last_deploy": "2026-08-18T00:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x072a86662b587e8b3adfb5fb9d0b8c78120680cc",
    "address_short": "0x072a…80cc",
    "name": "ZeroRWAHook",
@@ -422,31 +447,6 @@
    "last_block": 25675778,
    "last_deploy": "2026-08-03T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "address_short": "0xb8d9…e0cc",
-   "name": "ConfigurableKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 69,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25676343,
-   "last_block": 25777545,
-   "last_deploy": "2026-08-17T22:00:02Z",
-   "active": true,
    "visible": false
   },
   {
