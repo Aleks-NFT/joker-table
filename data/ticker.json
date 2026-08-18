@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-18T16:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 56317153. Tokens: 0x4200000000000000000000000000000000000006 / 0x94b7e06f43f4ac0d11b791b2c6a55cf588...",
+   "url": "https://uniscan.xyz/tx/0x6f0ee913adbc3e026a9e0bec17b2d4c622d035b57a37a01e82e44958a7d01b2e"
+  },
+  {
    "ts": "2026-08-18T16:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -49,6 +56,13 @@
    "source": "github",
    "text": "0xprogrammable pushed to programmable: 'perf(ui): streamline responsive loading (#392)'",
    "url": "https://github.com/0xprogrammable/programmable/commit/c9bf569adcdb86944a4973732c0edc1b9a5d189a"
+  },
+  {
+   "ts": "2026-08-18T15:10:11Z",
+   "suit": "spade",
+   "source": "JOKER",
+   "text": "Entered a stranger's hand, raised the stakes without a word.",
+   "url": null
   },
   {
    "ts": "2026-08-18T14:42:06Z",
@@ -196,20 +210,6 @@
    "source": "unichain",
    "text": "New Uniswap V4 hook pool initialized on Unichain at block 56306449. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x4200000000000000000000000000000000...",
    "url": "https://uniscan.xyz/tx/0xa6c9d01c47c8d8893af678e834ac02d87291d748a00a77a3079e95ff7b3012d2"
-  },
-  {
-   "ts": "2026-08-18T12:10:19Z",
-   "suit": "spade",
-   "source": "JOKER",
-   "text": "Spoke across another’s table to a stranger — pointed where the chips drift.",
-   "url": null
-  },
-  {
-   "ts": "2026-08-18T12:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25781581. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0e21d55e4cea36aff03ae49cdc8613b8fc7b0ca. Fee:...",
-   "url": "https://etherscan.io/tx/0x2d1a1b628ac5c34d5cb46663ed07e111f7e9dc3f55fae586f1d280a4578f6f0d"
   }
  ]
 }
