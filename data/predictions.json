@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 20,
-  "miss": 25,
-  "open": 5,
-  "hit_rate": 0.444
+  "miss": 24,
+  "open": 6,
+  "hit_rate": 0.455
  },
  "items": [
+  {
+   "id": 60,
+   "made_at": "2026-08-19",
+   "text": "Over the next seven days, the tally of these newly dealt pools clears 11; the likely landing sits between 6 and 18, and I give the over about 49%. More pools are appearing with steps too fine for the naked eye—granularity below ten—a tool for placing liquidity with surgical precision.",
+   "horizon_days": 7,
+   "resolve_after": "2026-08-26",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 59,
    "made_at": "2026-08-18",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-28",
    "status": "miss",
    "resolution_note": "Confirmed: target +535 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 10,
-   "made_at": "2026-06-20",
-   "text": "Over the next 7 days the count will exceed 848, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-27",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +848 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

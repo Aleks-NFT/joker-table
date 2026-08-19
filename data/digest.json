@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-19",
+   "narrative": {
+    "en": "The deal came in overnight with over a dozen new V4 pools, nearly every one of them running on zero commission. Not a stray chip or a pair of accidents—a methodical run, as if a player is working through combinations by feel. Three pools in a row, same hook, zero commission, same fine pitch. Then another with the same hook. Then two more with a different hook, still zero, but a wider step. You don't see randomness; you see a pattern being planted.",
+    "zh": "一夜之间，江湖上浮出十多个 V4 池子，几乎全部不收手续费。这不像零星试探，更像有人按着拳谱在拆招。三个池子连着来，同一只钩，零费率，步数一致；接着又来一个同钩子的；再有两个换了钩子，依然是零费率，只是步子放宽。深夜无人时，这种整齐的出手最让人清醒。"
+   },
+   "take": {
+    "en": "Zero-commission pools are not a glitch—they are a map. Someone is deliberately dealing WETH pairs with surgical hooks, marking territory before the real game begins.",
+    "zh": "零费率的池子不是杂音，是有人画地界。拿 WETH 配钩子、试步数，就是在为真正的交锋提前落子。"
+   }
+  },
+  {
    "date": "2026-08-18",
    "narrative": {
     "en": "...and so sixteen new pools in a single deal, plus or minus sixty transactions. Not deploys, not dry runs—initializations with live hooks. Every hook contract is unique, the addresses ending in 888. That is no coincidence; that is a pattern. I read the layout: USDT is being married to an unknown token through a hook pool at a commission of 100—the narrowest of spreads, micro-steps, a board built for delicate play. Then the repeats: the same token 0x07fff99... appears twice, switching partners, first 0xcf62f9..., then 0xcacd6f.... The vig is 200 everywhere. This is not a random scatter. Someone is stacking liquidity on one base with different house rules for every table. And that one pair with 0x22222222aea0076fca927a3f44dc0b4fdf9479d6—if it is what it smells like, a 2500-basis-point stake on a volatile instrument where the hooks are not just managing orders but insuring positions. Or maybe just harvesting the rake. Each hook address is its own logic. 0xc29989e..., 0xc2ba52ef..., 0xc27b8c85...—no template copies. Someone paid gas, paid deployment, paid configuration. Sixteen configurations in one round. The question is not whether this is a test; the question is who spends resources to build parallel liquidity layers with different conditions on the same tokens. And note the timestamp—all inside a single heartbeat. This is not activity stretched across time; it is a volley. Someone is preparing the infrastructure for something specific. Or someone specific. The cards are on the felt. We watch who calls.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The market is slowly turning the cards, and the house is already stacking the deck with zero-fee hooks — the real play begins when the joker appears.",
     "zh": "零费池子已成常态，钩子像雨后的暗器一样多——真正的猎手，在等那张不一样的牌。"
-   }
-  },
-  {
-   "date": "2026-07-28",
-   "narrative": {
-    "en": "Sixteen fresh cells on the V4 board, and the deck is shuffled so the eye keeps catching the same backs. Seven pools share one hook—0x025a—then it surfaces again alongside 0x7987 and others, eight times in total. Every pair pairs the zero address with a junk token, zero fee, tick spacing 200. Two more hooks repeat: 0x0d6252 and 0x96b893, each twice, same pattern. Only one pool breaks the mold—block 25627187, where 0x2cfb3a faces WETH with a near-0.84% fee and its own hook 0x6c24d0. That one is a foreign body among the clones. The first fix is also odd: block 25627610, fee 10000 (0.1%), hook 0xb3733e—the only pool with a nonzero charge. The other fourteen sit on zero. Cheap entry tickets, low threshold. Someone is clearly seeding the net with identical pairs, testing the same hook logic across different coins. The lone paid pool is like a joker who chose not to hide. The hooks are silent—no swaps, no liquidity—only initializations. This isn't trading; it's setting the deck. Someone is preparing the table for the next deal. The question is only what suit the next move will be.",
-    "zh": "江湖中，V4棋盘上凭空落下十六枚新子。一眼望去，七枚棋子背后刻着同一道印记——0x025a。这印记阴魂不散，连同0x7987等同类，竟出现了八次。每一对都是零地址搭配杂牌代币，零手续费，tick间隔200。另有两条印记各现两次：0x0d6252和0x96b893，套路如出一辙。唯有一枚棋子与众不同——区块25627187那一池，0x2cfb3a对WETH，手续费近0.84%，背着独门印记0x6c24d0。它像混入批量兵俑里的异乡人。最早落子的一枚也透着古怪：区块25627610，手续费10000（0.1%），印记0xb3733e——这是唯一一枚要收过路费的池子。其余十四枚分文不取。入门票贱如草纸，门槛低到尘土里。明摆着有人在用同一套钩子功夫，批量撒网，测试不同门派的反应。那枚独行侠式的收费池，倒像是故意不藏拙的暗桩。所有钩子静默无声——无swap，无流动性，只有池子建立。这不是交易，这是布阵。有人在为下一把赌局铺桌子。问题只有一个：下一手是什么花色。"
-   },
-   "take": {
-    "en": "A single hook contract is flooding the V4 board with pools at a pace that outruns any normal deployer—this isn't gambling, it's rigging the table.",
-    "zh": "同一个钩子合约以远超常人的手速撒下成片池子——这不是江湖过招，而是在偷偷布阵。"
    }
   }
  ]
