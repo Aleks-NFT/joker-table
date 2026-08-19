@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-19T09:09:08Z",
- "total_hooks": 3584,
- "total_pools": 11578,
- "multi_pool_hooks": 333,
- "shown": 333,
+ "generated_at": "2026-08-19T10:09:05Z",
+ "total_hooks": 3586,
+ "total_pools": 11590,
+ "multi_pool_hooks": 335,
+ "shown": 335,
  "more_count": 0,
  "hooks": [
   {
@@ -264,6 +264,31 @@
    "visible": false
   },
   {
+   "address": "0x51768f5da32ba2008304cc81674da51acb802888",
+   "address_short": "0x5176…2888",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
+   "pool_count": 135,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25786048,
+   "last_block": 25788329,
+   "last_deploy": "2026-08-19T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x3e2e24225cc1b3771677c84afc00a63c470ec088",
    "address_short": "0x3e2e…c088",
    "name": "",
@@ -282,31 +307,6 @@
    "last_block": 25696911,
    "last_deploy": "2026-08-06T16:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x51768f5da32ba2008304cc81674da51acb802888",
-   "address_short": "0x5176…2888",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 131,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25786048,
-   "last_block": 25787814,
-   "last_deploy": "2026-08-19T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -411,7 +411,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 91,
+   "pool_count": 93,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -425,8 +425,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25787630,
-   "last_deploy": "2026-08-19T08:00:02Z",
+   "last_block": 25788048,
+   "last_deploy": "2026-08-19T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4199,6 +4199,29 @@
    "visible": false
   },
   {
+   "address": "0x5858ecf7ba160485037d9432d548556070c9a088",
+   "address_short": "0x5858…a088",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x5858ecf7ba160485037d9432d548556070c9a088",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25645639,
+   "last_block": 25788316,
+   "last_deploy": "2026-08-19T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x5c46f0993b06a0eb4f76b8225472dd26ac6c00c8",
    "address_short": "0x5c46…00c8",
    "name": "TaxHook",
@@ -4435,6 +4458,29 @@
    "last_block": 25503399,
    "last_deploy": "2026-07-10T18:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xc21d7b40367624049c4331123c2f9fc44f9d2088",
+   "address_short": "0xc21d…2088",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xc21d7b40367624049c4331123c2f9fc44f9d2088",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25645623,
+   "last_block": 25788262,
+   "last_deploy": "2026-08-19T10:00:02Z",
+   "active": true,
    "visible": false
   },
   {
