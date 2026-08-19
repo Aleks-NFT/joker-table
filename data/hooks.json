@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-19T04:09:06Z",
+ "generated_at": "2026-08-19T05:09:05Z",
  "total_hooks": 3578,
  "total_pools": 11510,
  "multi_pool_hooks": 333,
@@ -2582,8 +2582,8 @@
   {
    "address": "0x7847f2cf84dddfcdc6faafa4f50dfd9dcfbec0cc",
    "address_short": "0x7847…c0cc",
-   "name": "",
-   "verified": false,
+   "name": "TripoolsAntiSnipeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7847f2cf84dddfcdc6faafa4f50dfd9dcfbec0cc",
    "pool_count": 10,
    "permissions_human": [
@@ -5703,8 +5703,8 @@
   {
    "address": "0x63a172b0ada28bb78791b0f2993287766de24044",
    "address_short": "0x63a1…4044",
-   "name": "",
-   "verified": false,
+   "name": "ShowtimeBurnHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x63a172b0ada28bb78791b0f2993287766de24044",
    "pool_count": 2,
    "permissions_human": [
