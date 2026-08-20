@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-20",
+   "narrative": {
+    "en": "Deal a hand from this deck and you'll find a hook pool with no cut and a two-hundred notch ladder, a dozen of them, WETH on every end. That alone wouldn't raise a brow on V4. But one hook contract appears three times, another four times — no gambler mistakes that for chance. Someone is dealing the deck methodically.\n\nThe first pool opened against a WETH-facing token with a thirty-basis-point cut and a sixty-step ladder. Thirty-five blocks later, another appeared, with a tighter cut of 3.75 basis points and a four-step ladder, a different hook. Then the wave came: five pools in forty blocks, all different tokens, same WETH spine, zero cut, wide spread — someone testing how fine a market can be sliced at two-hundred notch granularity.\n\nThen the wild card: a pool without WETH — eETH opposite an unknown token, zero cut, sixty-step ladder, a hook never seen at the table. And the closer: a pool against USDC, with a 0.075% cut and the tightest ladder of the deal, a one-step spread. That wasn't a test; that was a seat taken. What we saw is three waves: first, scouts with mixed cuts; second, a zero-cut cluster minted by the same hooks, liquidity stamped to one strategy; third, a march past WETH dominance into stablecoin territory. One pool carries a cut of 8,388,608 — not a cut, a flag. It's either a corrupt card or a deliberate marker. The deck isn't complete, but the pattern is already readable.",
+    "zh": "江湖上有人发牌。随手抽一张，便是不收过路费的钩子池，价差细到两百格，一端全是WETH。一打这样的池子浮出水面，原也不算稀奇。可同一个钩子合约出现三次，另一个出现四次——老江湖看了，只问一句：这不是巧合，是谁在按套路落子。\n\n第一池开局是WETH对一枚陌生令牌，千分之三的过路费，六十步的间距。过了三十五步，又来一池，费率降到万分之三点七五，间距缩到四步，钩子换了人。接着是一阵密集响动：四十步内连开五池，令牌各不同，骨架全是WETH，不收过路费，间距放宽。这是有人在试水，看这二百格的窄道能不能走通。\n\n然后来了张百搭牌：一池没有WETH。eETH对一枚无名的令牌，不收过路费，六十步间距，钩子是个新面孔。末了，一池对USDC，费率百分之零点零七五，间距一步——整场最窄的路。这不是试水，是拍桌子坐下。回头看，三波手笔。第一波，各色费率，是探路；第二波，零费率成串，同一套钩子反复出现，像是按同一门心法灌注内力；第三波，走出WETH的圈子，接了稳定币。其间有一池挂着八百三十八万八千六百零八的费率——那不像费率，像旗号。要么是错牌，要么是有意为之。牌没发完，但牌路已经亮了。"
+   },
+   "take": {
+    "en": "The repeated hook contracts are not chance; someone is dealing from a marked deck, and the final USDC entry is a seat taken at the real table.",
+    "zh": "重复出现的钩子不是巧合，是有人握着一副做过记号的牌；最后那张USDC落座，说明赌局已经摆到台面上了。"
+   }
+  },
+  {
    "date": "2026-08-19",
    "narrative": {
     "en": "The deal came in overnight with over a dozen new V4 pools, nearly every one of them running on zero commission. Not a stray chip or a pair of accidents—a methodical run, as if a player is working through combinations by feel. Three pools in a row, same hook, zero commission, same fine pitch. Then another with the same hook. Then two more with a different hook, still zero, but a wider step. You don't see randomness; you see a pattern being planted.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The table is set: systematic hook deployment and a documented production activation point to a coordinated infrastructure build, with the real payout still hidden.",
     "zh": "牌局已布：系统性的hook部署加上一个已记录的生产激活，指向协同的基础设施构建，真正的赌注仍藏在暗处。"
-   }
-  },
-  {
-   "date": "2026-07-29",
-   "narrative": {
-    "en": "Four of tonight's five pools come with zero commission and a shared hook contract. 0x0d62529346ac2c61f5c0582210d01214687bc0cc is like a master key opening the same door for different tokens: first 0x8ccefb90cb7afe478a6200594c4271d1f2b5c57c, then 0xb719371f480b701eb2180bf30f3bffe3dffafdad, then 0x25369b78d5f7bbf761e3d5c1c4ea67c8752322d3. TickSpacing 200, fee 0 — someone is reshuffling the deck, leaving only the form without a markup for entry. The fifth pool, with 1% fee and its own hook 0x1dcd26990874b58a840dc228e9d061a7471f4088, breaks the pattern. One more pool with fee 0 but a different hook — 0x96b893683afbfec071e90f78d00de4bb932fe0cc — and a different token confirms not all zero fees are tied to a single hook: someone is building multiple decks with identical rules but different handlers. Seven pools in a night is not a spike, it's the start of a new deal. V4 hooks are no longer exotic; they're being minted in batches like standard cards of the same suit. The question isn't who deals first, but who pulls the joker from this stack.",
-    "zh": "昨夜江湖中，七个新池子悄然立起。四个池子不收分文入场费，共享同一枚令牌（hook合约），仿佛同一门派的不同分舵，内力流转一致。那枚令牌0x0d6252...如同万能钥匙，先后为三个不同代币打开了关口。而第五个池子却收1%的过路费，有着自己的独门令牌，像是暗藏的一记杀手锏，专为特定对局准备。另一个零费池子令牌又不同，可见零费联盟内也分不同的流派。七个池子一夜之间出现，不是偶然的涟漪，而是新一轮棋局的开端。V4钩子不再是稀罕物，就像江湖中批量锻造的兵器，人人可得。问题不是谁先出手，而是谁能在这一堆牌中抽到那张王牌。"
-   },
-   "take": {
-    "en": "The market is slowly turning the cards, and the house is already stacking the deck with zero-fee hooks — the real play begins when the joker appears.",
-    "zh": "零费池子已成常态，钩子像雨后的暗器一样多——真正的猎手，在等那张不一样的牌。"
    }
   }
  ]
