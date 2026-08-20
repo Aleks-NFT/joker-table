@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-20T04:13:31Z",
+ "generated_at": "2026-08-20T05:13:28Z",
  "history": [
-  {
-   "date": "2026-07-21",
-   "volume_24h_usd": 940799503.0,
-   "fees_24h_usd": 1620725.0,
-   "eth_share_pct": 37.2
-  },
   {
    "date": "2026-07-22",
    "volume_24h_usd": 943061810.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 696616912.0,
    "fees_24h_usd": 1041020.0,
    "eth_share_pct": 37.5
+  },
+  {
+   "date": "2026-08-20",
+   "volume_24h_usd": 1022853080.0,
+   "fees_24h_usd": 1443738.0,
+   "eth_share_pct": 59.3
   }
  ],
  "chains_top": {
-  "Ethereum": 259917769,
-  "Robinhood Chain": 213230586,
-  "X Layer": 74535213,
-  "BSC": 72202589,
-  "Polygon": 35524453,
-  "Base": 16926540,
-  "Arbitrum": 13031254,
-  "Monad": 8646305
+  "Ethereum": 600328226,
+  "Robinhood Chain": 186380431,
+  "BSC": 74120608,
+  "Base": 41501903,
+  "Arbitrum": 36185514,
+  "Polygon": 33539007,
+  "Monad": 23478817,
+  "Unichain": 17523564
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (15 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
+   "occurred_at": "2026-08-20T05:00:03Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (26 posts)",
    "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",

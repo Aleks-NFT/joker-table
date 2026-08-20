@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-20T04:13:31Z",
+ "generated_at": "2026-08-20T05:13:28Z",
  "total_hooks": 3623,
  "total_pools": 11693,
  "multi_pool_hooks": 335,
@@ -266,8 +266,8 @@
   {
    "address": "0x51768f5da32ba2008304cc81674da51acb802888",
    "address_short": "0x5176…2888",
-   "name": "",
-   "verified": false,
+   "name": "LaunchpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
    "pool_count": 145,
    "permissions_human": [
@@ -4201,8 +4201,8 @@
   {
    "address": "0x5858ecf7ba160485037d9432d548556070c9a088",
    "address_short": "0x5858…a088",
-   "name": "",
-   "verified": false,
+   "name": "TurbineHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x5858ecf7ba160485037d9432d548556070c9a088",
    "pool_count": 3,
    "permissions_human": [
@@ -4463,8 +4463,8 @@
   {
    "address": "0xc21d7b40367624049c4331123c2f9fc44f9d2088",
    "address_short": "0xc21d…2088",
-   "name": "",
-   "verified": false,
+   "name": "TurbineHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc21d7b40367624049c4331123c2f9fc44f9d2088",
    "pool_count": 3,
    "permissions_human": [
