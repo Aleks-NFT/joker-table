@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-20T11:13:29Z",
- "total_hooks": 3631,
- "total_pools": 11708,
+ "generated_at": "2026-08-20T12:13:29Z",
+ "total_hooks": 3636,
+ "total_pools": 11720,
  "multi_pool_hooks": 335,
  "shown": 335,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1013,
+   "pool_count": 1014,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25792986,
-   "last_deploy": "2026-08-20T02:00:03Z",
+   "last_block": 25796150,
+   "last_deploy": "2026-08-20T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 878,
+   "pool_count": 879,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25794464,
-   "last_deploy": "2026-08-20T08:00:02Z",
+   "last_block": 25795998,
+   "last_deploy": "2026-08-20T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -335,6 +335,31 @@
    "visible": false
   },
   {
+   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "address_short": "0xb8d9…e0cc",
+   "name": "ConfigurableKlikHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
+   "pool_count": 123,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25676343,
+   "last_block": 25796031,
+   "last_deploy": "2026-08-20T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xdee7a2ffa963f82facbb12a4e3e8909e4a51a444",
    "address_short": "0xdee7…a444",
    "name": "TTTHook",
@@ -378,31 +403,6 @@
    "last_block": 25134747,
    "last_deploy": "2026-06-08T19:21:51Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "address_short": "0xb8d9…e0cc",
-   "name": "ConfigurableKlikHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 119,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25676343,
-   "last_block": 25794241,
-   "last_deploy": "2026-08-20T06:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -3126,6 +3126,32 @@
    "visible": false
   },
   {
+   "address": "0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
+   "address_short": "0x38fd…f6c0",
+   "name": "SimHookMVP",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
+   "pool_count": 9,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterInitialize",
+    "afterAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 25524687,
+   "last_block": 25795724,
+   "last_deploy": "2026-08-20T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x47b35474ede2b3ae9b82915e2f57647073a6a0cc",
    "address_short": "0x47b3…a0cc",
    "name": "BallisticFeeHookV1",
@@ -3244,32 +3270,6 @@
    "first_block": 25726153,
    "last_block": 25750108,
    "last_deploy": "2026-08-14T02:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
-   "address_short": "0x38fd…f6c0",
-   "name": "SimHookMVP",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x38fdc1b79148abe3c621467e3cc6556453b0f6c0",
-   "pool_count": 8,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterInitialize",
-    "afterAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap"
-   ],
-   "first_block": 25524687,
-   "last_block": 25788960,
-   "last_deploy": "2026-08-19T12:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3787,7 +3787,7 @@
    "first_block": 25420422,
    "last_block": 25745790,
    "last_deploy": "2026-08-13T12:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
