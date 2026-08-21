@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-21T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25801410. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x609b8321a642c2781431998f96042fe7299badf5826292417490433b0f90be2d"
+  },
+  {
+   "ts": "2026-08-21T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25801363. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xa8663add3eaf46fb70c809baf1222896c87a75dcf017dbb116e88bacec55299f"
+  },
+  {
+   "ts": "2026-08-21T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25801318. Tokens: 0x0000000000000000000000000000000000000000 / 0x9f3e51324c75d720ee7325917cb312a5767fcf40. Fee:...",
+   "url": "https://etherscan.io/tx/0x617d72a0b74299b1234d2e760aea7d0281eca7f97b02aaf35b69f0326a5e6214"
+  },
+  {
+   "ts": "2026-08-21T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25801047. Tokens: 0xe172e9b6cfbeeb5593bdce3f077356fdb33af904 / 0xffffa850e0f1d05c471d7ce0c575c24829ad42ab. Fee:...",
+   "url": "https://etherscan.io/tx/0x30420e6db5d73193006e4c95661f904669bc43842f820162ad1cc3cf086662c1"
+  },
+  {
+   "ts": "2026-08-21T05:55:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #405 in programmable: 'Harden trade slippage and reward action retries'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/405"
+  },
+  {
    "ts": "2026-08-21T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25799772. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
    "url": "https://etherscan.io/tx/0x435343f445b989018cb1201b0cb6ffccf956d98f6064a9342ca30d5cf1037a9a"
-  },
-  {
-   "ts": "2026-08-21T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25799665. Tokens: 0x0000000000000000000000000000000000000000 / 0xeda98a024030500f1fe6acec3123234f69844ecb. Fee:...",
-   "url": "https://etherscan.io/tx/0x324c5ce7a74d69b0d838c541b24e3623274d46663d9bd5860233be3dd7c5d6ce"
-  },
-  {
-   "ts": "2026-08-21T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25799520. Tokens: 0x0000000000000000000000000000000000000000 / 0x66838c151081b3811d22332d4bae6b98d14c0a3e. Fee:...",
-   "url": "https://etherscan.io/tx/0xd7f93f52b63d7e88658f1c893a9c84d83d91c28a81dfa44c44c23b26a538afcb"
-  },
-  {
-   "ts": "2026-08-21T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25799493. Tokens: 0x33ce4375f93fa3c348ee1ad0ab8fe33f534d0088 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x7664629972f204c3125ae9d15f544c91afbc41fb949c09069f95a1d1b633c344"
-  },
-  {
-   "ts": "2026-08-21T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25799417. Tokens: 0x0000000000000000000000000000000000000000 / 0x9527abf27f3497a98ac7c4a8a1323d99813aef15. Fee:...",
-   "url": "https://etherscan.io/tx/0x3327eae3221fda57414426a567e77892809dd99b058e14ec4e4101c272561014"
-  },
-  {
-   "ts": "2026-08-21T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25799398. Tokens: 0x0000000000000000000000000000000000000000 / 0x5d6372f74a3562ba132b60bdbfedb3cefca78ff9. Fee:...",
-   "url": "https://etherscan.io/tx/0x841abac07aee098f44e5735fbc98049dab4c7b6bb2dd0753aaa10d5c322529d1"
   }
  ]
 }
