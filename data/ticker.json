@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-21T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25802623. Tokens: 0xe172e9b6cfbeeb5593bdce3f077356fdb33af904 / 0xef7dcf404bacd100b4bc41f0d730b8b77b537914. Fee:...",
+   "url": "https://etherscan.io/tx/0x136b2eb6f58bd15f6067bbb4cd6e00c0a67c43b1cf986581e8474f517f53c322"
+  },
+  {
+   "ts": "2026-08-21T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25802623. Tokens: 0x0000000000000000000000000000000000000000 / 0xef7dcf404bacd100b4bc41f0d730b8b77b537914. Fee:...",
+   "url": "https://etherscan.io/tx/0x136b2eb6f58bd15f6067bbb4cd6e00c0a67c43b1cf986581e8474f517f53c322"
+  },
+  {
+   "ts": "2026-08-21T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25802264. Tokens: 0x0000000000000000000000000000000000000000 / 0x618d6943a3d7c0afe3e7f40bc04f2772799c8edf. Fee:...",
+   "url": "https://etherscan.io/tx/0xd37e48677c29677b19eca98564ff6286b670a0df850df0167178d1542e21f9b5"
+  },
+  {
    "ts": "2026-08-21T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -188,27 +209,6 @@
    "suit": "club",
    "source": "github",
    "text": "Repo chaosxcode/bomb-area matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/chaosxcode/bomb-area"
-  },
-  {
-   "ts": "2026-08-21T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo trenysx/HookVault matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/trenysx/HookVault"
-  },
-  {
-   "ts": "2026-08-21T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Mosss-OS/WaveLength matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Mosss-OS/WaveLength"
-  },
-  {
-   "ts": "2026-08-21T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: chaosxcode/bomb-area — 0★ — Uniswap v4 hook-powered onchain survival game",
    "url": "https://github.com/chaosxcode/bomb-area"
   }
  ]
