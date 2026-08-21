@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-21T19:13:29Z",
- "total_hooks": 3691,
- "total_pools": 11905,
- "multi_pool_hooks": 343,
- "shown": 343,
+ "generated_at": "2026-08-21T20:13:29Z",
+ "total_hooks": 3695,
+ "total_pools": 11919,
+ "multi_pool_hooks": 344,
+ "shown": 344,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1037,
+   "pool_count": 1039,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25805156,
-   "last_deploy": "2026-08-21T18:00:02Z",
+   "last_block": 25805742,
+   "last_deploy": "2026-08-21T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 534,
+   "pool_count": 535,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25797056,
-   "last_deploy": "2026-08-20T16:00:02Z",
+   "last_block": 25805438,
+   "last_deploy": "2026-08-21T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -269,7 +269,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 157,
+   "pool_count": 158,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -283,8 +283,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25805013,
-   "last_deploy": "2026-08-21T18:00:02Z",
+   "last_block": 25805235,
+   "last_deploy": "2026-08-21T20:00:02Z",
    "active": true,
    "visible": false
   },
@@ -480,7 +480,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x0c1f3d9c84db7b3f9a660e6a0e406808fa642aec",
-   "pool_count": 58,
+   "pool_count": 62,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -499,8 +499,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25802911,
-   "last_block": 25805145,
-   "last_deploy": "2026-08-21T18:00:02Z",
+   "last_block": 25805554,
+   "last_deploy": "2026-08-21T20:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4204,6 +4204,26 @@
    "last_block": 25702573,
    "last_deploy": "2026-08-07T12:00:03Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "address_short": "0x4887…4500",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "pool_count": 3,
+   "permissions_human": [
+    "manages liquidity"
+   ],
+   "permissions_technical": [
+    "afterAddLiquidity",
+    "afterRemoveLiquidity"
+   ],
+   "first_block": 25804904,
+   "last_block": 25805701,
+   "last_deploy": "2026-08-21T20:00:02Z",
+   "active": true,
    "visible": false
   },
   {
