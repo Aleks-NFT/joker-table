@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-22",
+   "narrative": {
+    "en": "Sixteen new tables before sunrise—not poker. I watched the deal until my eyes burned; every block turned over another pool, like someone dealing cards in a dark room, faces hidden. More than half show the zero address on one side—always interesting, because that's how you enter with native coin. But the real cards are in the hooks.",
+    "zh": "一夜之间，江湖上多出十六张新桌子。我不是说赌坊——是流水深处新开的池子。我盯了一整夜，每出一个区块，就有一口新池被挖出来，像有人在黑灯瞎火里发牌，不露脸。多半数的池子，一侧是零地址。这路数不新鲜，走的是 native coin 进场的旧门道。但真正的后手，在 hook 里。"
+   },
+   "take": {
+    "en": "Sixteen pools in one night, one hook repeated three times, and a fee flag that isn't a typo—this isn't noise, it's a deck being shuffled for a game that hasn't been announced.",
+    "zh": "十六池一夜，同一 hook 三现，费率数字不是错笔——这不是杂音，是有人在未开盘前先把牌洗好了。"
+   }
+  },
+  {
    "date": "2026-08-21",
    "narrative": {
     "en": "Fourteen pools in a single night—and that's only what the scanner caught. The same hook contract keeps resurfacing: 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc. Seven times in the latest blocks, each time paired with the zero address and a zero fee. Tick spacing 200—the standard spread for wide ranges. This is not a series of spontaneous launches. This is a conveyor belt being fed.\n\nThen the deck turned to rarer notes. A pool with fee 8388608 (0.8%) and tick spacing 60—not for crowd trading, but for low-volatility instruments. Its hook matches one of the tokens: a classic case where the token itself sits in the hook slot. Right behind it came the standard 0.3% trio with ticks 30, though this one carried a different hook: 0x85e24ffa15ac649c3323c8bec7910ba67caec0cc. And so it went—each block dealt a new pool, each with its own handwriting.\n\nSeparately, I caught a USDC/WETH pool with the same nonstandard fee of 8388608 and tick spacing 60, but with another hook: 0x7f35e2e51a3359f8e793527faaaef6dc745cc0c4. That is not a random pair; that is liquidity laid out for professional strategies. Then another USDC pool, this time paired with token 0x33ce4375f93fa3c348ee1ad0ab8fe33f534d0088, fee 1%—and once again the token itself acts as the hook. You can see different teams, different protocols, spinning up their V4 infrastructures in parallel, not crossing paths.\n\nThe night was dense. The deck shuffles fast, and every new pool is another card placed on the felt. Some are building a combination; some are simply shedding cards. But when a line of pools with the same hook and zero fee shows up inside a few hours, this is not blind play. It is calculation.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The quiet day hides a deliberate hand: builders are designing pools not for casual trade but for controlled extraction through the back door—so watch the architecture, not the volume.",
     "zh": "今日无字，却有局：修池者不图过路费，意在暗门取利——此乃布阵，非市井买卖。"
-   }
-  },
-  {
-   "date": "2026-08-02",
-   "narrative": {
-    "en": "The table changed tonight, and most eyes are still on the wrong cards. The builders who came to the felt are not running the usual opening — they are setting the house rake at zero or at the ceiling, then taking their true toll through a side door that the crowd only notices after the chips have moved. That is not the nervous fumble of a token launch; that is a player who has already read the deck and decided exactly where the edge lives. I have seen this tell before: when the public terms look absurd, the private terms are where the game is actually played. The noise on the floor will call it erratic; I call it a settled hand being played slowly, with absolute patience. Under this felt, deliberate design always outlasts enthusiasm. So watch the count, not the chatter — the ledger will say what the loud mouths cannot. In seven nights the count breaches 557; the wheel will come to rest somewhere between 447 and 1148, and I lay the over at 57%. Those are the only numbers that matter. The rest is just atmosphere.",
-    "zh": "今夜江湖上，有人不按规矩摆摊。来的几位侠客，既不定寻常的过路费，也不要那三瓜两枣的薄利——要么分文不取，要么开口就是天价。真正的代价，却藏在另一条暗路里，等玩家入了局，才知这买卖的深浅。这不是初出茅庐的毛头小子在乱出招，而是老江湖提前看清了棋局，选好了收网的位置。明面上的规矩越是古怪，暗地里的算盘就越是精。堂口里那些吵吵嚷嚷的看客，只当是怪事；我却觉得，这是有人在慢慢洗牌，等着最后摊牌的那一刻。别听风声，去看账本，数字不会骗人。七日内，那数目必破五百五十七，落处当在四百四十七至一千一百四十八之间，我押上风，约莫五成七的把握。其余的，都是过眼烟云。"
-   },
-   "take": {
-    "en": "The odd pricing is not madness — it is architecture. When a builder sets the rake at zero or the ceiling, they are telling you the real revenue sits elsewhere, and the organic-launch story is just the bait on the hook.",
-    "zh": "这定价不是乱来，而是布阵。侠客把明面费用压到零或抬到顶，真正的油水必在暗处——所谓天价过路费，不过是引君入瓮的由头。"
    }
   }
  ]
