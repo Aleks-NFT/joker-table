@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-22T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25811132. Tokens: 0x0000000000000000000000000000000000000000 / 0xe77c4d59e4b0a60b79956253a1d0b8b100df09df. Fee:...",
+   "url": "https://etherscan.io/tx/0x675be4978ddea9150e84840535938c71421bec77eb5a1d322c4ebfbd4926c777"
+  },
+  {
+   "ts": "2026-08-22T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25811117. Tokens: 0x0000000000000000000000000000000000000000 / 0x69b2c7a7f58ff33f92f219234ac526c3eeeaef4d. Fee:...",
+   "url": "https://etherscan.io/tx/0x935a349aeb676c9f7252204fea36eee71f2dda847c3539bd0c42ac5eb8e5fbc3"
+  },
+  {
+   "ts": "2026-08-22T14:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25810769. Tokens: 0x0000000000000000000000000000000000000000 / 0x578df91b10ea3b02790da49c714a05de1132e654. Fee:...",
+   "url": "https://etherscan.io/tx/0x70cf1482c55c5da8ae9b3180ddce55fad24288a123cf4ba6aee5e5fb16d3f44c"
+  },
+  {
+   "ts": "2026-08-22T12:20:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #423 in programmable: 'Fix Markdown cache variation for agents'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/423"
+  },
+  {
+   "ts": "2026-08-22T12:20:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Fix Markdown cache variation for agents (#423)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/20a4c12abf425d4cc7e7bdff4ba502f5cfdddafa"
+  },
+  {
    "ts": "2026-08-22T12:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -175,41 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "sUSDe / USDT 0.008% volume surged 155% to $10,136,120 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
-  },
-  {
-   "ts": "2026-08-22T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% TVL grew 42% to $868,499",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-08-22T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% volume surged 117% to $17,764,164 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-08-22T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: WETH / USDC — $7,966,766 24h volume, $169,245 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe5425428d4a26b38cad2af312cd558e65722c967e240f58200ce99d5e6188839"
-  },
-  {
-   "ts": "2026-08-22T04:15:01Z",
-   "suit": "spade",
-   "source": "defillama",
-   "text": "Uniswap V4 global 24h volume up 30% to $1.57B (fees $2632k, Ethereum share 48.2%)",
-   "url": "https://defillama.com/protocol/uniswap-v4"
-  },
-  {
-   "ts": "2026-08-22T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25808093. Tokens: 0x0000000000000000000000000000000000000000 / 0x3cf89b360d01f8b93fea4165f81fd22b9944bdb6. Fee:...",
-   "url": "https://etherscan.io/tx/0xb666cff543aa2a759537d2bd0824ca3892d15d1971289e502484e4d58d8ab139"
   }
  ]
 }
