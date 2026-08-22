@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-22T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25809904. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x565463ce2add314acdf74c8fc3bd6271dba4e1f5a2a4fdb9d1fe8762413122ac"
+  },
+  {
+   "ts": "2026-08-22T09:47:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #421 in programmable: 'Improve responsive loading stability'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/421"
+  },
+  {
+   "ts": "2026-08-22T09:47:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Improve responsive loading stability (#421)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/344e0f4bd36e8f1a7fd1823ca9dae3c403878799"
+  },
+  {
+   "ts": "2026-08-22T08:37:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #420 in programmable: 'Improve public loading and mobile semantics'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/420"
+  },
+  {
+   "ts": "2026-08-22T08:37:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Improve public loading and mobile semantics (#420)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/0d1aaca12c2b9b8f956265f662fa2ef6149f8ced"
+  },
+  {
    "ts": "2026-08-22T08:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25807688. Tokens: 0x246bf478f26447e11dea093a40769432a5ca9c80 / 0xa11b2de2299d1850c9b7df4377b7391ad90a06ed. Fee:...",
    "url": "https://etherscan.io/tx/0x32ab1d4a0ad48f0029460d7781e8ac43f317398e500e8ade6f8a5b8a7d3c5d8a"
-  },
-  {
-   "ts": "2026-08-22T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25807679. Tokens: 0x978926c13d7b5ce2124e784efbf5be126acd20a7 / 0xa11b2de2299d1850c9b7df4377b7391ad90a06ed. Fee:...",
-   "url": "https://etherscan.io/tx/0x20677f028ce6ee63e8efe2cc28587a6f287fd4d2054a7e5fe28040991c97793b"
-  },
-  {
-   "ts": "2026-08-22T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25807656. Tokens: 0x0000000000000000000000000000000000000000 / 0x40566ae46eac497bc7e0a8f5f6671944ca6b689b. Fee:...",
-   "url": "https://etherscan.io/tx/0x0706236fbb240ffc232aa24a58e8bd755f8bbe4b14d88c3388da4466cd647889"
-  },
-  {
-   "ts": "2026-08-22T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25807642. Tokens: 0x0000000000000000000000000000000000000000 / 0x696bf4f97b27f019af94dd2100941fbc663fcd1a. Fee:...",
-   "url": "https://etherscan.io/tx/0x02e0dde883f84cb12d12a32a151ae669a072a5a406d2c25af82392a94f66b4ab"
-  },
-  {
-   "ts": "2026-08-22T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25807635. Tokens: 0x0000000000000000000000000000000000000000 / 0x813e6c424bbd621d918a8f41ff0869a87f7e78ed. Fee:...",
-   "url": "https://etherscan.io/tx/0xebcd130926863295d66af4e419f3107d77785d9859e42180e9c3d74c32e92ab0"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo freecodexyz/market references hook DopplerHookInitializer (0xbdf93814…, 7 pools) in its readme — code behind a contract that is live on chain",
-   "url": "https://github.com/freecodexyz/market"
   }
  ]
 }
