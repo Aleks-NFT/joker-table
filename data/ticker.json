@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-22T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25809238. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x61b9c49935ff778347ba921a8099d3f93a733317722ed3e708814a97f62dcad8"
+  },
+  {
+   "ts": "2026-08-22T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25809015. Tokens: 0x0000000000000000000000000000000000000000 / 0x69aa4ccbf6b7b59286086824ab4aa0c83463ad3c. Fee:...",
+   "url": "https://etherscan.io/tx/0x6668cad3f4dfebd1655d4caf13dbe3e5d7b5b79c20e17f02f5b5c55cdc2a9f1e"
+  },
+  {
+   "ts": "2026-08-22T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25809013. Tokens: 0x0000000000000000000000000000000000000000 / 0x69984aff527c4b418ac1a5c8585aa396a64a1614. Fee:...",
+   "url": "https://etherscan.io/tx/0x2e0e027848501b2c64e8129399bfcab1ebd8a5ae025e4e7a1a9e26e5ca5bbde7"
+  },
+  {
+   "ts": "2026-08-22T07:24:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #419 in programmable: 'Stabilize wallet and profile loading'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/419"
+  },
+  {
+   "ts": "2026-08-22T07:24:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Stabilize wallet and profile loading (#419)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/769e7d4d33b2e37b3ad108c82809bf2b27c32096"
+  },
+  {
    "ts": "2026-08-22T06:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -175,41 +210,6 @@
    "source": "github",
    "text": "Repo freecodexyz/market references hook DopplerHookInitializer (0xbdf93814…, 7 pools) in its readme — code behind a contract that is live on chain",
    "url": "https://github.com/freecodexyz/market"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo bithookdev/bithook_mono matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/bithookdev/bithook_mono"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo voladelta/v4hook-starter matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/voladelta/v4hook-starter"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo ferris007/project-fee-hook matches a hook deployed on-chain (feehook, 0xa2dcd7bf…) — code we can read behind a live contract",
-   "url": "https://github.com/ferris007/project-fee-hook"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: wangluolingxing/morphogen-contracts — 1★ — Immutable cross-chain organism protocol contracts",
-   "url": "https://github.com/wangluolingxing/morphogen-contracts"
-  },
-  {
-   "ts": "2026-08-22T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: bithookdev/bithook_mono — 0★ — Block-mined ERC-20 on a Uniswap v4 hook: predict the pool's own TWAP, closest prediction takes the b...",
-   "url": "https://github.com/bithookdev/bithook_mono"
   }
  ]
 }
