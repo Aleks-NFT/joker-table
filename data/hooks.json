@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-22T17:13:28Z",
- "total_hooks": 3723,
- "total_pools": 11982,
- "multi_pool_hooks": 348,
- "shown": 348,
+ "generated_at": "2026-08-22T18:13:29Z",
+ "total_hooks": 3727,
+ "total_pools": 11995,
+ "multi_pool_hooks": 349,
+ "shown": 349,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1042,
+   "pool_count": 1043,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25810769,
-   "last_deploy": "2026-08-22T14:00:02Z",
+   "last_block": 25812115,
+   "last_deploy": "2026-08-22T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 896,
+   "pool_count": 899,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25811581,
-   "last_deploy": "2026-08-22T16:00:03Z",
+   "last_block": 25812141,
+   "last_deploy": "2026-08-22T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -248,7 +248,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 167,
+   "pool_count": 169,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -262,8 +262,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25811448,
-   "last_deploy": "2026-08-22T16:00:03Z",
+   "last_block": 25812156,
+   "last_deploy": "2026-08-22T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3867,6 +3867,26 @@
    "visible": false
   },
   {
+   "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "address_short": "0x4887…4500",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "pool_count": 4,
+   "permissions_human": [
+    "manages liquidity"
+   ],
+   "permissions_technical": [
+    "afterAddLiquidity",
+    "afterRemoveLiquidity"
+   ],
+   "first_block": 25804904,
+   "last_block": 25812087,
+   "last_deploy": "2026-08-22T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x4b843c38de04a5cb2d8c8775488e74280eba80cc",
    "address_short": "0x4b84…80cc",
    "name": "V4TaxHook",
@@ -4207,26 +4227,6 @@
    "visible": false
   },
   {
-   "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "address_short": "0x4887…4500",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "pool_count": 3,
-   "permissions_human": [
-    "manages liquidity"
-   ],
-   "permissions_technical": [
-    "afterAddLiquidity",
-    "afterRemoveLiquidity"
-   ],
-   "first_block": 25804904,
-   "last_block": 25805701,
-   "last_deploy": "2026-08-21T20:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
    "address": "0x4a80a2b706571c2d562fb1861c8784ddffc3c8c0",
    "address_short": "0x4a80…c8c0",
    "name": "FomoHook",
@@ -4336,6 +4336,27 @@
    "last_block": 25311054,
    "last_deploy": "2026-06-13T22:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x74a7fd29718c6d0124011116d05e62090eff4880",
+   "address_short": "0x74a7…4880",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x74a7fd29718c6d0124011116d05e62090eff4880",
+   "pool_count": 3,
+   "permissions_human": [
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeAddLiquidity",
+    "beforeSwap"
+   ],
+   "first_block": 25803481,
+   "last_block": 25811855,
+   "last_deploy": "2026-08-22T18:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -5216,6 +5237,36 @@
    "visible": false
   },
   {
+   "address": "0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec",
+   "address_short": "0x2e4a…eaec",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeDonate",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25812177,
+   "last_block": 25812251,
+   "last_deploy": "2026-08-22T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x2e739f6eedcabd26f5f20580694dd7c90c9d48c8",
    "address_short": "0x2e73…48c8",
    "name": "",
@@ -6029,27 +6080,6 @@
    "visible": false
   },
   {
-   "address": "0x74a7fd29718c6d0124011116d05e62090eff4880",
-   "address_short": "0x74a7…4880",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x74a7fd29718c6d0124011116d05e62090eff4880",
-   "pool_count": 2,
-   "permissions_human": [
-    "manages liquidity",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeAddLiquidity",
-    "beforeSwap"
-   ],
-   "first_block": 25803481,
-   "last_block": 25803517,
-   "last_deploy": "2026-08-21T14:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
    "address": "0x763cd7059ec816ab7a1cbd11539d908afef940cc",
    "address_short": "0x763c…40cc",
    "name": "V4TaxHook",
@@ -6369,7 +6399,7 @@
    "first_block": 25761489,
    "last_block": 25761544,
    "last_deploy": "2026-08-15T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -7719,7 +7749,7 @@
    "first_block": 25761998,
    "last_block": 25762034,
    "last_deploy": "2026-08-15T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
