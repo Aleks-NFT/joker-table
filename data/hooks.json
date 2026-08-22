@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-22T04:13:28Z",
+ "generated_at": "2026-08-22T05:13:28Z",
  "total_hooks": 3717,
  "total_pools": 11959,
  "multi_pool_hooks": 345,
@@ -477,8 +477,8 @@
   {
    "address": "0x0c1f3d9c84db7b3f9a660e6a0e406808fa642aec",
    "address_short": "0x0c1f…2aec",
-   "name": "",
-   "verified": false,
+   "name": "EthereumWordsHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0c1f3d9c84db7b3f9a660e6a0e406808fa642aec",
    "pool_count": 68,
    "permissions_human": [
@@ -6103,8 +6103,8 @@
   {
    "address": "0x7c677602980f8186eebd1ce555ee1926e906c080",
    "address_short": "0x7c67…c080",
-   "name": "",
-   "verified": false,
+   "name": "CDXRHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7c677602980f8186eebd1ce555ee1926e906c080",
    "pool_count": 2,
    "permissions_human": [
@@ -7355,8 +7355,8 @@
   {
    "address": "0xd8d09ae49163157e3e8180f576379c38c8c68088",
    "address_short": "0xd8d0…8088",
-   "name": "",
-   "verified": false,
+   "name": "StocksRewardHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd8d09ae49163157e3e8180f576379c38c8c68088",
    "pool_count": 2,
    "permissions_human": [
