@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-23",
+   "narrative": {
+    "en": "Four pools, one hook, same hand. The day didn't open with a single deployment—it opened with a production line. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc stamped itself across four V4 pools in near lockstep, zero fee, tick spacing 200, every pair married to WETH. Three of the tokens—0xd70e94, 0xe17462, 0xe41a29—have no history worth the ink, fresh contracts still warm. Then the deck splits. The fourth pool, 0xc656df, takes a 1% fee and swaps its hook to 0x523103. Not a mistake. A deliberate cut: one table for the sharks, the rest for the free ride.\n\nThen the joker in the stack. Block 25813946 locks a token with the address prefix 0x000000000001. That isn't an accident. It's a planted marker, a token minted to mean nothing and everything. Fee zero, hook 0xbf8739. Someone is probing the edges—either simulating a mass farm or paving a quiet migration from V3. And one pool, 0xda9c47, breaks pattern: tick spacing 60, fee 0.3%, and a hook, 0x058b5ff03522, never seen before. Could be a dynamic-fee experiment, could be an order book in disguise.\n\nAll four initialized inside six blocks. No spontaneity. One hand dealt the entire table. The question isn't what these tokens are. The question is the next move—when these quiet pools suddenly drink their first real liquidity.",
+    "zh": "这一日不是落子，而是铸印。同一枚 hook——0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc——四座 V4 池几乎同时开张，零费率，tick 间距 200，家家都傍着 WETH。三枚代币 0xd70e94、0xe17462、0xe41a29 皆是无根无史的新脸孔，像是刚从模具里脱出。第四池 0xc656df 却独取百分之一费率，换了一枚 hook 0x523103。这不是失手，是分席：一桌留给猛客，其余供人白走一遭。\n\n最诡异的还是区块 25813946 上那一池。代币地址以 0x000000000001 开头——那不是随缘而生的地址，是刻意压低的印记。零费率，hook 0xbf8739。有人在试水，或试一场无声的迁徙，或演一场群生鼎沸的假象。还有 0xda9c47 那一池，tick spacing 60、费率千三，hook 0x058b5ff03522 前所未见。像是新创的费变阵，又像一本暗藏的 order book。\n\n六块之内，四池齐立。没有散落，只有一手落子。真正的谜不是这些代币是什么，而是这手牌下一步往哪儿打——当这些静池迎来第一注真金，局面才真正翻涌。"
+   },
+   "take": {
+    "en": "The zero-fee V4 pools are not a play for today; they're a stacked deck waiting for the first real liquidity to be shuffled in.",
+    "zh": "零费率的多池并列，不是今日的战果，而是暗伏的阵法——只待第一道流动性入局，便见真章。"
+   }
+  },
+  {
    "date": "2026-08-22",
    "narrative": {
     "en": "Sixteen new tables before sunrise—not poker. I watched the deal until my eyes burned; every block turned over another pool, like someone dealing cards in a dark room, faces hidden. More than half show the zero address on one side—always interesting, because that's how you enter with native coin. But the real cards are in the hooks.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "One player is betting on every spin of the wheel, and the table's rhythm has shifted—this is no amateur's luck, but a signal that the house should keep its eyes on the deal.",
     "zh": "此人出手之频，绝非寻常侠客；江湖看客，当留意其意，莫只当热闹看。"
-   }
-  },
-  {
-   "date": "2026-08-04",
-   "narrative": {
-    "en": "The machine that deals the day's narrative seized up—service too busy, a cold shoulder from the oracle. So the five cards sit on the green felt, numbered and waiting for the next shuffle. The table doesn't pause for a dead mouth. Builders are now setting the toll for swapping at either nothing or the ceiling, skipping the usual market rate. That is not randomness; that is architecture. The revenue is not taken at the counter but through a side door, through the hook—a deliberate economic hand. This is not an organic token launch; this is a scheme laid out before the first chip falls. I don't chase action in thin pools—that's noise, not signal. But the pattern on the felt speaks: in seven days the count clears 791. The likely landing sits between 480 and 1234, and I give the over 57%.",
-    "zh": "今日传信的侠客被困在风雪里，那台会说话的机器忙得闭了口。消息未至，五条线索已收在怀中，只等下一程风起。江湖不因一人失语而停歇。有人在池边立了规矩：过路钱要么分文不取，要么高得离谱，偏不走寻常行情。这不是粗心，是布阵。内力不从明处换手，偏从暗门里走——借那个钓钩，把灵药引向自家丹炉。这不像种子落地自然发芽，倒像先画好图再动土。深水浅水，各有人投石，但浅滩的涟漪，我不当作信号。"
-   },
-   "take": {
-    "en": "The quiet day hides a deliberate hand: builders are designing pools not for casual trade but for controlled extraction through the back door—so watch the architecture, not the volume.",
-    "zh": "今日无字，却有局：修池者不图过路费，意在暗门取利——此乃布阵，非市井买卖。"
    }
   }
  ]
