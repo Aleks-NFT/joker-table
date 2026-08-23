@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-23T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25816338. Tokens: 0x0000000000000000000000000000000000000000 / 0x78af1a88e8e17e23f2db90c123b6e466f6978da3. Fee:...",
+   "url": "https://etherscan.io/tx/0x7944c122b6197caecf103bc546e38afbc0f7c78b84e761f36981c8ada04dfde0"
+  },
+  {
+   "ts": "2026-08-23T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25815928. Tokens: 0x0000000000000000000000000000000000000000 / 0xec2f5f4392f52315fda1c876902733fd24f7cd1a. Fee:...",
+   "url": "https://etherscan.io/tx/0x82c1abde207ed15b61dc767fd089e9c539e77db4304924a8186c9762a646b41f"
+  },
+  {
+   "ts": "2026-08-23T07:59:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #427 in programmable: 'Unify token and prediction discovery under Explore'",
+   "url": "https://github.com/0xprogrammable/programmable/pull/427"
+  },
+  {
+   "ts": "2026-08-23T07:59:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to programmable: 'Unify token and prediction discovery under Explore (#427)'",
+   "url": "https://github.com/0xprogrammable/programmable/commit/963fe3b62236eb09a8e186cbf1ab8eec32eea1fd"
+  },
+  {
    "ts": "2026-08-23T06:30:02Z",
    "suit": "spade",
    "source": "unichain",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: Identity-md/launch-16-contract — 0★ — What mechanisms do live onchain protocols use to route trading fees into a protocol treasury ...",
    "url": "https://github.com/Identity-md/launch-16-contract"
-  },
-  {
-   "ts": "2026-08-23T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: dngr2/v4-hookguard — 0★ — Drop-in Foundry security checks for Uniswap v4 hook footguns v4 core does not catch",
-   "url": "https://github.com/dngr2/v4-hookguard"
-  },
-  {
-   "ts": "2026-08-23T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25814146. Tokens: 0x0000000000000000000000000000000000000000 / 0xd70e94bb18ff8d6f2d1083bed98d4354027e3e11. Fee:...",
-   "url": "https://etherscan.io/tx/0x07aa488a6321d7b8cc28bc3f7e56841c3580bedbd47e024f12dbcfbda257ad00"
-  },
-  {
-   "ts": "2026-08-23T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25814054. Tokens: 0x0000000000000000000000000000000000000000 / 0xda9c471e27ee83873e37bbacabbdac3c84cefa1d. Fee:...",
-   "url": "https://etherscan.io/tx/0xd492b526398e07ae151d4b1e1ffb6f8fec1f09a724d902ebfb2d57027c350e20"
-  },
-  {
-   "ts": "2026-08-23T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813946. Tokens: 0x0000000000000000000000000000000000000000 / 0x000000000001c44716222200e1b3e8a3bc1490df. Fee:...",
-   "url": "https://etherscan.io/tx/0xbe38d1b14649a278675ec9accc580435ff6480c7608087f7506e4831edee61c8"
   }
  ]
 }
