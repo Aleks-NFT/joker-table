@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-23T04:13:28Z",
+ "generated_at": "2026-08-23T05:13:28Z",
  "total_hooks": 3737,
  "total_pools": 12029,
  "multi_pool_hooks": 349,
@@ -3777,8 +3777,8 @@
   {
    "address": "0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec",
    "address_short": "0x2e4a…eaec",
-   "name": "",
-   "verified": false,
+   "name": "ForgeHookV4",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec",
    "pool_count": 5,
    "permissions_human": [
@@ -4414,8 +4414,8 @@
   {
    "address": "0x9654470dd391858ab85c65074d0b0c67ade50044",
    "address_short": "0x9654…0044",
-   "name": "",
-   "verified": false,
+   "name": "StonkHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9654470dd391858ab85c65074d0b0c67ade50044",
    "pool_count": 3,
    "permissions_human": [

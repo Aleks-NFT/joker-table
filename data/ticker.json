@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-23T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $84,468,284   #2 USDC / USDT — $51,751,753   #3 PYUSD / USDS — $20,543,037   #4 F...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-23T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.3% TVL grew 141% to $50,439,123",
+   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
+  },
+  {
+   "ts": "2026-08-23T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "FOLD / ETH 0.3% volume surged 113% to $18,957,314 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x909e4a022a7505d44b19b36fe76ee18567379ee4c9697438acde2e159c006c32"
+  },
+  {
+   "ts": "2026-08-23T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume dropped 84% to $20,543,037 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-08-23T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: UNI / ETH 0.3% — $6,887,321 24h volume, $6,431,264 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x053f6a47ccba79e7d5d623173ed6dd5a31cf19c28bae0fb8276f4506295f90da"
+  },
+  {
+   "ts": "2026-08-23T04:15:01Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume down 32% to $1.05B (fees $2466k, Ethereum share 40.3%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
    "ts": "2026-08-23T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #426 in programmable: 'Harden prediction market RPC quorum reads'",
    "url": "https://github.com/0xprogrammable/programmable/pull/426"
-  },
-  {
-   "ts": "2026-08-22T22:27:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to programmable: 'Harden prediction market RPC quorum reads (#426)'",
-   "url": "https://github.com/0xprogrammable/programmable/commit/0fe30020304a1e70a95e1803d6bfce800da6a21d"
-  },
-  {
-   "ts": "2026-08-22T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813473. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xc1f8a9536d1195bbfd601094637927cf8391bb07. Fee:...",
-   "url": "https://etherscan.io/tx/0xcb00fe0c6835fe36fef2690fe57abaf66491742eb9d0cac5100da55b75f56105"
-  },
-  {
-   "ts": "2026-08-22T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813469. Tokens: 0x5ce64411485082c9cb03d28725daaa0f707e4b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xba3cfadea71f9b8d13ca84765b9de4753288a9b22c2ccdc9d3f428c79f04d670"
-  },
-  {
-   "ts": "2026-08-22T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813469. Tokens: 0x0000000000000000000000000000000000000000 / 0x6138aa0931f8a2ebb956be8c9064c25b49d8d8e5. Fee:...",
-   "url": "https://etherscan.io/tx/0xf3f4940a5ef7a57e95e3c1b8317a56f17fe6dd2dd1d4da473dac794d6735adc5"
-  },
-  {
-   "ts": "2026-08-22T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813467. Tokens: 0x2037e15ac2d57b5da50dbd5a1627bca95e8f7b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xe08756dbfc8b64bd0bf996d70c54bae32c53c42fccf77cc67c837e8780162804"
-  },
-  {
-   "ts": "2026-08-22T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813463. Tokens: 0x6c0ba9112de127751d4113b1bbbabea041188b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x495d6184c550a9d3d6b7a970f6d149eb0f03252063909307f54b5016263634b5"
   }
  ]
 }
