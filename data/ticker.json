@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-23T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25815909. Tokens: 0x0000000000000000000000000000000000000000 / 0x40d822b71ec5f95373daea12f8b96c44608852c6. Fee:...",
+   "url": "https://etherscan.io/tx/0xaa91f0bb64da21937584439d0c46d6f9deaa6a4122283aa6474fd72fe1725180"
+  },
+  {
+   "ts": "2026-08-23T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25815760. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0xeab3c32aa5f31428b797654edef25e782f634c2c78ccacaeb4523bfb0fc770f8"
+  },
+  {
+   "ts": "2026-08-23T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25815755. Tokens: 0x0000000000000000000000000000000000000000 / 0x6982508145454ce325ddbe47a25d4ec3d2311933. Fee:...",
+   "url": "https://etherscan.io/tx/0x8af8db3dd7a64296667496c21946105131394e217ff89d9bf18a875529906011"
+  },
+  {
    "ts": "2026-08-23T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -189,27 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25813821. Tokens: 0x0000000000000000000000000000000000000000 / 0xe41a29bc508103579570e2a245ce4bb27f8ce87e. Fee:...",
    "url": "https://etherscan.io/tx/0x2e3186c6b768913475c8387c0057bd77877ee7c038209806e9a638b11521438f"
-  },
-  {
-   "ts": "2026-08-23T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813628. Tokens: 0x0000000000000000000000000000000000000000 / 0xc656df8fb0ea1d3a1c268af7f9b09ec604e38ac6. Fee:...",
-   "url": "https://etherscan.io/tx/0x28b24a560264f68010c124e250afbb46a92e1d752583eec10e2f176ae9d00527"
-  },
-  {
-   "ts": "2026-08-23T00:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25813583. Tokens: 0x0000000000000000000000000000000000000000 / 0xe1746202c448e2037f07f8d1a5957afb33a84fe6. Fee:...",
-   "url": "https://etherscan.io/tx/0xf08b38590882a4403b235784c88c686a464b1081158896108695777b0ab775d0"
-  },
-  {
-   "ts": "2026-08-22T22:27:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #426 in programmable: 'Harden prediction market RPC quorum reads'",
-   "url": "https://github.com/0xprogrammable/programmable/pull/426"
   }
  ]
 }

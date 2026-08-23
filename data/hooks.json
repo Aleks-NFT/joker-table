@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-23T05:13:28Z",
- "total_hooks": 3737,
- "total_pools": 12029,
+ "generated_at": "2026-08-23T06:13:28Z",
+ "total_hooks": 3739,
+ "total_pools": 12032,
  "multi_pool_hooks": 349,
  "shown": 349,
  "more_count": 0,
@@ -4033,6 +4033,27 @@
    "visible": false
   },
   {
+   "address": "0x9654470dd391858ab85c65074d0b0c67ade50044",
+   "address_short": "0x9654…0044",
+   "name": "StonkHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x9654470dd391858ab85c65074d0b0c67ade50044",
+   "pool_count": 4,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25805630,
+   "last_block": 25815909,
+   "last_deploy": "2026-08-23T06:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xaa49adadd33c5e953b645567afb10cbbba63afc4",
    "address_short": "0xaa49…afc4",
    "name": "NFTXV4Hook",
@@ -4409,27 +4430,6 @@
    "last_block": 25300108,
    "last_deploy": "2026-06-12T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x9654470dd391858ab85c65074d0b0c67ade50044",
-   "address_short": "0x9654…0044",
-   "name": "StonkHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x9654470dd391858ab85c65074d0b0c67ade50044",
-   "pool_count": 3,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25805630,
-   "last_block": 25810352,
-   "last_deploy": "2026-08-22T12:00:02Z",
-   "active": true,
    "visible": false
   },
   {
