@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-24",
+   "narrative": {
+    "en": "The cards were already on the felt before the day broke. Twelve V4 hook pools, laid out in a row, and almost every one of them plays against the empty address — the zero, which is to say ETH itself. One pool dares to pair WETH against a token called PIXEL, but that's the exception that proves the cut of the deck.\n\nWatch the hooks. The same address, 0xb8d9477e...e0cc, turns up three times, same zero fee, same tick spacing of 200. No accident. Somebody is spreading one logic like a run of suit cards. Another hook, 0x7a3bc37f...4044, appears twice on the same token, 0x053369b5...5899, but with different fees — 3000 and 2500. Different spreads, different steps, same base. And that token itself moves two pools in sixteen blocks. First hand pleased them, so they bet again.\n\nFees tell the rest. Zero dominates — for the high-roll volume play where the spread isn't the profit. Ten thousand sits there, the house maximum, for the wild pairs. Three tables at 3000, the middle path. One odd 2500, a denomination you rarely see. The architecture says one thing: someone is building the house for outcome markets, not just liquidity.\n\nThen the day closes with PR #443 from 0xprogrammable in programmable: 'Add release-dark Prediction V2 creation foundation.' Prediction V2. A dark release. The scaffolding for the whole construction. The quiet around these facts is louder than any noise. Somebody is assembling a deck. The only question is what game they'll deal first.",
+    "zh": "江湖风声起于微末。八月二十四日，链上冒出十二个V4 hook池，几乎全都对着零地址——也就是ETH本身。唯一一个拿WETH去对PIXEL的，像是孤例，却更印证了行规：多数人的手，都伸向同一副牌。\n\n再看这些hook的来路。0xb8d9477e...e0cc三次现身，次次零费率、tickSpacing 200，分明是同一门派的暗器，一出手就是三枚。另一个0x7a3bc37f...4044，盯住同一个令牌0x053369b5...5899，却开出3000和2500两种费率，同一个靶子，试两种手法。那令牌本身也在十六个区块内连开两池——显然第一刀称手，第二刀紧随而至。\n\n费率本身也有说法：零费率是给走量的人，不靠点差吃饭；10000是给烈性对子压阵；3000恰是江湖中最稳的中间路数；2500则是少见的偏门。这些配置不像随手而为，倒像在给不同赌局定规矩。\n\n日暮时分，GitHub上PR #443由0xprogrammable提交到programmable，题为'Add release-dark Prediction V2 creation foundation'。Prediction V2，暗处落子，先打地基。到这一步，图景已隐约可见：链上的池子与链下的PR，原是同一场布局的不同机关。有人正在静默中攒一副大牌，问的只是——第一局，从哪张牌开始？"
+   },
+   "take": {
+    "en": "The on-chain hook pools and the off-chain PR are the same hand: prediction markets are being scaffolded in the dark, with fee tiers as the betting rules and a dark release as the frame.",
+    "zh": "今天的V4 hook池与那份PR#443，其实是同一局棋：有人正在暗处搭预测市场的骨架，不同费率就是不同赌局的规矩，而那份release-dark就是装下这一切的匣子。"
+   }
+  },
+  {
    "date": "2026-08-23",
    "narrative": {
     "en": "Four pools, one hook, same hand. The day didn't open with a single deployment—it opened with a production line. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc stamped itself across four V4 pools in near lockstep, zero fee, tick spacing 200, every pair married to WETH. Three of the tokens—0xd70e94, 0xe17462, 0xe41a29—have no history worth the ink, fresh contracts still warm. Then the deck splits. The fourth pool, 0xc656df, takes a 1% fee and swaps its hook to 0x523103. Not a mistake. A deliberate cut: one table for the sharks, the rest for the free ride.\n\nThen the joker in the stack. Block 25813946 locks a token with the address prefix 0x000000000001. That isn't an accident. It's a planted marker, a token minted to mean nothing and everything. Fee zero, hook 0xbf8739. Someone is probing the edges—either simulating a mass farm or paving a quiet migration from V3. And one pool, 0xda9c47, breaks pattern: tick spacing 60, fee 0.3%, and a hook, 0x058b5ff03522, never seen before. Could be a dynamic-fee experiment, could be an order book in disguise.\n\nAll four initialized inside six blocks. No spontaneity. One hand dealt the entire table. The question isn't what these tokens are. The question is the next move—when these quiet pools suddenly drink their first real liquidity.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Eight bespoke tables in under a thousand blocks is a coordinated deal, not coincidence—and with no liquidity on the felt yet, the only honest read is that the chips are stacked and waiting for the first player to sit down.",
     "zh": "八张牌同一时辰摆上桌面，说明有人在按图布阵；真正值得看的，是这些钩子底下各自藏了什么规矩。"
-   }
-  },
-  {
-   "date": "2026-08-05",
-   "narrative": {
-    "en": "The cards are on the felt, and the dealing never stops—but tonight the house notes a single hand that bets faster than the dealer can shuffle. A lone hook contract has been laying down pools in rapid succession, one after another, like a player who knows the deck is rigged in his favor. The pace is far above the typical deployer; these are not the cautious taps of a small-timer feeling his way around the table. This is a machine-made rhythm, a cold cascade of creations that makes the slower players look like they're playing in molasses. Such a flurry of activity usually means one thing: someone is setting up the board for a move that hasn't been announced yet. The table feels it, the air thickens, and every other player starts glancing sideways at the same corner of the room.",
-    "zh": "江湖上总有那种不显山露水的快手，一日之内连开数池，比寻常门派弟子的修炼还快。此人的内力并不张扬，却在一招一式间透出某种机关算尽的意味。一个钩子契约，连番布下阵来，寻常人布一局尚需斟酌，他却似早已烂熟于心，出手如风，防不胜防。这般速度，绝非散兵游勇能为；背后必有高人操盘，或是某种精心设计的套路。看这架势，江湖的水又要浑了。老江湖都明白，越是这种时候，越要守住自己的内力，别被那表面的热闹晃了眼。"
-   },
-   "take": {
-    "en": "One player is betting on every spin of the wheel, and the table's rhythm has shifted—this is no amateur's luck, but a signal that the house should keep its eyes on the deal.",
-    "zh": "此人出手之频，绝非寻常侠客；江湖看客，当留意其意，莫只当热闹看。"
    }
   }
  ]
