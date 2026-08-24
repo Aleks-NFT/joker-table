@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-24T17:13:28Z",
- "total_hooks": 3791,
- "total_pools": 12166,
+ "generated_at": "2026-08-24T18:13:28Z",
+ "total_hooks": 3794,
+ "total_pools": 12174,
  "multi_pool_hooks": 351,
  "shown": 351,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1047,
+   "pool_count": 1051,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25825651,
-   "last_deploy": "2026-08-24T16:00:03Z",
+   "last_block": 25826532,
+   "last_deploy": "2026-08-24T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1425,6 +1425,26 @@
    "visible": false
   },
   {
+   "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "address_short": "0x4887…4500",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
+   "pool_count": 15,
+   "permissions_human": [
+    "manages liquidity"
+   ],
+   "permissions_technical": [
+    "afterAddLiquidity",
+    "afterRemoveLiquidity"
+   ],
+   "first_block": 25804904,
+   "last_block": 25826428,
+   "last_deploy": "2026-08-24T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x5f3e0558d4f7504d212eefaa488d31765b3a1000",
    "address_short": "0x5f3e…1000",
    "name": "SaturnOmnichainV4Hook",
@@ -2125,26 +2145,6 @@
    "last_block": 25570178,
    "last_deploy": "2026-07-20T00:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "address_short": "0x4887…4500",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "pool_count": 14,
-   "permissions_human": [
-    "manages liquidity"
-   ],
-   "permissions_technical": [
-    "afterAddLiquidity",
-    "afterRemoveLiquidity"
-   ],
-   "first_block": 25804904,
-   "last_block": 25825975,
-   "last_deploy": "2026-08-24T16:00:03Z",
-   "active": true,
    "visible": false
   },
   {
@@ -4504,7 +4504,7 @@
    "first_block": 25776425,
    "last_block": 25776425,
    "last_deploy": "2026-08-17T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
