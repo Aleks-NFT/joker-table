@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-24T07:13:29Z",
- "total_hooks": 3781,
- "total_pools": 12130,
+ "generated_at": "2026-08-24T08:13:29Z",
+ "total_hooks": 3783,
+ "total_pools": 12134,
  "multi_pool_hooks": 351,
  "shown": 351,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 544,
+   "pool_count": 545,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25813473,
-   "last_deploy": "2026-08-22T22:00:02Z",
+   "last_block": 25823236,
+   "last_deploy": "2026-08-24T08:00:03Z",
    "active": true,
    "visible": true
   },
@@ -2272,6 +2272,27 @@
    "visible": false
   },
   {
+   "address": "0x9654470dd391858ab85c65074d0b0c67ade50044",
+   "address_short": "0x9654…0044",
+   "name": "StonkHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x9654470dd391858ab85c65074d0b0c67ade50044",
+   "pool_count": 11,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25805630,
+   "last_block": 25823647,
+   "last_deploy": "2026-08-24T08:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x01ace8bc990270fbb742b27892b149a7f0e71000",
    "address_short": "0x01ac…1000",
    "name": "SaturnOmnichainV4Hook",
@@ -2801,27 +2822,6 @@
    "last_block": 25560802,
    "last_deploy": "2026-07-18T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x9654470dd391858ab85c65074d0b0c67ade50044",
-   "address_short": "0x9654…0044",
-   "name": "StonkHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x9654470dd391858ab85c65074d0b0c67ade50044",
-   "pool_count": 10,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25805630,
-   "last_block": 25820691,
-   "last_deploy": "2026-08-23T22:00:03Z",
-   "active": true,
    "visible": false
   },
   {
@@ -4810,7 +4810,7 @@
    "first_block": 25773051,
    "last_block": 25773085,
    "last_deploy": "2026-08-17T08:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
