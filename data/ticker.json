@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-24T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25824147. Tokens: 0x0000000000000000000000000000000000000000 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x99fa23400aafbc8973c9aba2329aa56f86d86bba70620bcba4f2975964f42cdc"
+  },
+  {
+   "ts": "2026-08-24T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25823938. Tokens: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 / 0xc2be399a4358d837320b302ee3cfc2151ea1bcf2. Fee:...",
+   "url": "https://etherscan.io/tx/0xbb508fe9b454b6fda4380a062afb1206f26ae6be81a3ea353efdeb48a66dce6c"
+  },
+  {
    "ts": "2026-08-24T08:00:03Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: voladelta/fuse-hook — 0★ — A deterministic Bomb Arena game built as a Uniswap v4 hook with a React/wagmi client.",
    "url": "https://github.com/voladelta/fuse-hook"
-  },
-  {
-   "ts": "2026-08-24T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voladelta/luck-hook — 0★ — Ownerless Uniswap v4 ETH/LUCK reward hook with Chainlink VRF, real PoolManager proofs, devnet scenarios,...",
-   "url": "https://github.com/voladelta/luck-hook"
-  },
-  {
-   "ts": "2026-08-24T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: OKMEME001/okmeme-v4-contracts — 0★ — Public, reproducible Solidity source for the OK.MEME Uniswap v4 hook trust path on X Layer.",
-   "url": "https://github.com/OKMEME001/okmeme-v4-contracts"
   }
  ]
 }
