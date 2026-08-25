@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-25T08:00:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE updated README (sha afa67d0)",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-25T07:56:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #465 in PROGRAMMABLE: 'Persist Router Custom snapshot during refresh'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/465"
+  },
+  {
+   "ts": "2026-08-25T07:56:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Persist Router Custom snapshot during refresh (#465)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/1539498a7d3444506f3a5f1db81fd09ad2a9cbdf"
+  },
+  {
+   "ts": "2026-08-25T07:10:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE released programmable-launch-v1.0.0 (Programmable Launch CLI 1.0.0): '# Programmable Launch CLI 1.0.0'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/releases/tag/programmable-launch-v1.0.0"
+  },
+  {
+   "ts": "2026-08-25T07:09:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #464 in PROGRAMMABLE: 'Launch public Custom API agent workflow'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/464"
+  },
+  {
+   "ts": "2026-08-25T07:09:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Launch public Custom API agent workflow (#464)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/fdfa6614327a008b81655df0a747f8acbcdd1525"
+  },
+  {
    "ts": "2026-08-25T06:00:09Z",
    "suit": "club",
    "source": "github",
@@ -168,48 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25829576. Tokens: 0x0000000000000000000000000000000000000000 / 0x1aad90595495d09de314123697e004aeb1272003. Fee:...",
    "url": "https://etherscan.io/tx/0x43f313355276c3d37f5a024878f2ddcdc4144c3e5b8524d229b0fb0ab4bb837d"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829569. Tokens: 0x0000000000000000000000000000000000000000 / 0x932324cd6ecc4034b7a790e247fa4afab7c93787. Fee:...",
-   "url": "https://etherscan.io/tx/0xe7fa0e17f1bbe18129d0be1e0ebf17e38fcf0958df7a3a3743178c973cb2db2f"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829537. Tokens: 0x0000000000000000000000000000000000000000 / 0xe4afa172836e9af11a46919e0d79d919be7c112b. Fee:...",
-   "url": "https://etherscan.io/tx/0xe6da1dc5e0c76a17a7b3f376b84eea76465cd885a1529eb525c9723f5702d36c"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829520. Tokens: 0x0000000000000000000000000000000000000000 / 0x9b1b04455f1d2b660e1b10b48dd446a87cf1a4aa. Fee:...",
-   "url": "https://etherscan.io/tx/0xc5925f3107541b65f8e710a324fe3057c0f75a544dd34fdd228b70d53d341887"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829504. Tokens: 0x0000000000000000000000000000000000000000 / 0x69da024f87c028544d32c4223d1a8443e1fbca9a. Fee:...",
-   "url": "https://etherscan.io/tx/0x44976943e7bab09d69d587b63365027b803b07e131405fae0134058793c9216e"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829496. Tokens: 0x0000000000000000000000000000000000000000 / 0x1d0d11babfb69a58457341a74c82670f446af4d7. Fee:...",
-   "url": "https://etherscan.io/tx/0x2d63a113558dd55f65edc1cd1ac9147149325b1a419c0a426c801a2e9220f177"
-  },
-  {
-   "ts": "2026-08-25T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25829473. Tokens: 0x0000000000000000000000000000000000000000 / 0xc14a2d77a59a15f00e9e8e56cb9ba5718dcf2c71. Fee:...",
-   "url": "https://etherscan.io/tx/0x6aec545e4bdcbc36f340bd8fb3847c30132a68f1027c374a808780d70eb5bbb5"
   }
  ]
 }
