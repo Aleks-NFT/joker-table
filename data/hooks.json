@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-25T04:13:28Z",
+ "generated_at": "2026-08-25T05:13:29Z",
  "total_hooks": 3819,
  "total_pools": 12243,
  "multi_pool_hooks": 354,
@@ -3373,8 +3373,8 @@
   {
    "address": "0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088",
    "address_short": "0x2df7…2088",
-   "name": "",
-   "verified": false,
+   "name": "GweiFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088",
    "pool_count": 8,
    "permissions_human": [
@@ -4232,8 +4232,8 @@
   {
    "address": "0x127d4d1db552569f6d603ac6403ba57d13f880cc",
    "address_short": "0x127d…80cc",
-   "name": "",
-   "verified": false,
+   "name": "GweiTaxHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x127d4d1db552569f6d603ac6403ba57d13f880cc",
    "pool_count": 3,
    "permissions_human": [
@@ -6569,8 +6569,8 @@
   {
    "address": "0x93605e7df7b764a138c1e6c7e0fb1ff081c24040",
    "address_short": "0x9360…4040",
-   "name": "",
-   "verified": false,
+   "name": "EggsNodeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x93605e7df7b764a138c1e6c7e0fb1ff081c24040",
    "pool_count": 2,
    "permissions_human": [

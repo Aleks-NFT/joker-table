@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $123,707,220   #2 USDC / USDT — $111,349,649   #3 PYUSD / USDS — $49,515,812   #4...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "FOLD / ETH 0.3% TVL grew 140% to $1,702,498",
+   "url": "https://www.geckoterminal.com/eth/pools/0x909e4a022a7505d44b19b36fe76ee18567379ee4c9697438acde2e159c006c32"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% TVL shrank 35% to $940,397",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume surged 648% to $49,515,812 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDC / USDT volume surged 142% to $111,349,649 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x0fb0e40cec3bb23e13abc585958a93c796fbea56955e19a23727a716a0423239"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDT / USDS volume surged 117% to $123,707,220 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
+  },
+  {
+   "ts": "2026-08-25T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: FWA / ETH — $5,731,316 24h volume, $1,326,587 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d"
+  },
+  {
    "ts": "2026-08-25T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: SYMBaiEX/dazren-protocol-contracts — 0★ — Public DAZREN Protocol launchpad contracts, tests, deployment manifests, and security evi...",
    "url": "https://github.com/SYMBaiEX/dazren-protocol-contracts"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: 0xprogrammable/Prediction-Markets — 0★ — Programmable prediction-market contracts and release evidence for Uniswap v4.",
-   "url": "https://github.com/0xprogrammable/Prediction-Markets"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: 0xprogrammable/Hookbuilder-Skill — 4★ — Add this skill to Codex or Claude Code to build a Uniswap v4 hook, test it, and prepare you...",
-   "url": "https://github.com/0xprogrammable/Hookbuilder-Skill"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: glue-finance/glueHook — 0★ — Uniswap V4 general purposes hook for automated LP compounding and buy back",
-   "url": "https://github.com/glue-finance/glueHook"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: puffachu/hookguard — 0★ — Universal Uniswap V4 hook safety protocol. Deterministic analysis, adversarial testing, and on-chain risk...",
-   "url": "https://github.com/puffachu/hookguard"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: vAPI-Network/feehook — 0★ — Uniswap V4 protocol-fee hook. Fee charged in the pair currency and credited as an ERC-6909 claim. Audit...",
-   "url": "https://github.com/vAPI-Network/feehook"
-  },
-  {
-   "ts": "2026-08-25T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: no-hive/pulse_hook — 0★ — Uniswap v4 hook to resist MEV using a time-weighted median priority fee. 100% on-chain math. UHI10 Capsto...",
-   "url": "https://github.com/no-hive/pulse_hook"
-  },
-  {
-   "ts": "2026-08-25T02:24:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #462 in programmable: 'Clarify API reconciliation and Registry intake docs'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/462"
   }
  ]
 }

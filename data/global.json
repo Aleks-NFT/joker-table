@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-25T04:13:28Z",
+ "generated_at": "2026-08-25T05:13:29Z",
  "history": [
-  {
-   "date": "2026-07-26",
-   "volume_24h_usd": 448054607.0,
-   "fees_24h_usd": 639586.0,
-   "eth_share_pct": 43.2
-  },
   {
    "date": "2026-07-27",
    "volume_24h_usd": 644683715.0,
@@ -181,17 +175,23 @@
    "volume_24h_usd": 920928546.0,
    "fees_24h_usd": 2293633.0,
    "eth_share_pct": 36.0
+  },
+  {
+   "date": "2026-08-25",
+   "volume_24h_usd": 1052501330.0,
+   "fees_24h_usd": 2319118.0,
+   "eth_share_pct": 45.6
   }
  ],
  "chains_top": {
-  "Ethereum": 330053338,
-  "Robinhood Chain": 207226577,
-  "BSC": 188973888,
-  "Base": 81063264,
-  "Polygon": 40181202,
-  "Arbitrum": 31377907,
-  "Monad": 29291851,
-  "Unichain": 7804828
+  "Ethereum": 476548279,
+  "Robinhood Chain": 226770084,
+  "BSC": 125724742,
+  "Base": 99486201,
+  "Arbitrum": 38729197,
+  "Monad": 37016782,
+  "Polygon": 30990822,
+  "Unichain": 9047368
  },
  "governance": [
   {
@@ -210,12 +210,6 @@
    "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (26 posts)",
    "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",
    "occurred_at": "2026-08-19T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (25 posts)",
-   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",
-   "occurred_at": "2026-08-18T05:00:02Z",
    "active": false
   }
  ],
