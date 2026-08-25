@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-25",
+   "narrative": {
+    "en": "Somebody decided one pool was boring. It started in block 25828514 when the first V4 hook pair flickered to life — zero fee, tick spacing 200. Then another, a block later, tick spacing 25. Then the machine ran: fourteen pools in a row from 25828694 to 25828963. Not scattered whims. Watch the hook contracts. 0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088 shows up in seven pools between 25828838 and 25828898, block after block, all with tick spacing 60 — like stamped on a conveyor. Two more carry 0x96b893683afbfec071e90f78d00de4bb932fe0cc, one early, one late, both tick spacing 200. In between, 0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec at 25828908. The closer: another zero-fee pool at 25828963.",
+    "zh": "夜里有人嫌一个池子太冷清。25828514 高度上，第一对 V4 hook 池亮了——零费率，tickSpacing 200。隔一个块，又来一个，tickSpacing 25。然后从 25828694 到 25828963，十四个池子接连落地。这不是零散出手。看那 hook 地址：0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088 在 25828838 到 25828898 之间连现七次，块块相随，tickSpacing 全是 60，仿佛流水线上冲压出来的。另有 0x96b893683afbfec071e90f78d00de4bb932fe0cc 两个池子，一个在序列前段，一个在后段，都是 tickSpacing 200。中间 25828908 插着 0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec。收尾的又是一个零费率池，落在 25828963。"
+   },
+   "take": {
+    "en": "The pattern is too regular for noise: repeated hook addresses, uniform tick spacing, zero-fee bookends — someone is running an assembly line, not a lottery. When the router code gets fixed in the same night, the cards are being prepared for a game we haven't seen yet.",
+    "zh": "批量 hook、相同 tickSpacing、零费率首尾——这不是随手撒网，是按图纸排兵。代码库同夜修补，说明有人一边备粮一边画疆界，等的不是今晚，是下一场风。"
+   }
+  },
+  {
    "date": "2026-08-24",
    "narrative": {
     "en": "The cards were already on the felt before the day broke. Twelve V4 hook pools, laid out in a row, and almost every one of them plays against the empty address — the zero, which is to say ETH itself. One pool dares to pair WETH against a token called PIXEL, but that's the exception that proves the cut of the deck.\n\nWatch the hooks. The same address, 0xb8d9477e...e0cc, turns up three times, same zero fee, same tick spacing of 200. No accident. Somebody is spreading one logic like a run of suit cards. Another hook, 0x7a3bc37f...4044, appears twice on the same token, 0x053369b5...5899, but with different fees — 3000 and 2500. Different spreads, different steps, same base. And that token itself moves two pools in sixteen blocks. First hand pleased them, so they bet again.\n\nFees tell the rest. Zero dominates — for the high-roll volume play where the spread isn't the profit. Ten thousand sits there, the house maximum, for the wild pairs. Three tables at 3000, the middle path. One odd 2500, a denomination you rarely see. The architecture says one thing: someone is building the house for outcome markets, not just liquidity.\n\nThen the day closes with PR #443 from 0xprogrammable in programmable: 'Add release-dark Prediction V2 creation foundation.' Prediction V2. A dark release. The scaffolding for the whole construction. The quiet around these facts is louder than any noise. Somebody is assembling a deck. The only question is what game they'll deal first.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is not giving anything away—it is changing the rules of the vig, and the real fee will be collected from the hook, not the player.",
     "zh": "江湖没有白送的茶钱——不过是从台前改到了台后，真正要收的，还是从钩子里掏。"
-   }
-  },
-  {
-   "date": "2026-08-09",
-   "narrative": {
-    "en": "Eight new tables opened overnight on the same floor, from block 25713151 to 25714230—a gap of less than a thousand blocks, as if the croupier changed every few minutes. Uniswap V4 hooks are no longer simple fixed-commission pools; these are tables with their own house rules wired directly into a separate contract. Seven of the eight pairs put native ether or WETH across from another token—classic play: one card face-up, one face-down.",
-    "zh": "一夜之间，同一楼层又添了八张桌子。从 25713151 到 25714230，相差不到一千个区块，仿佛庄家每隔几分钟就换一次人。Uniswap V4 的钩子不再是固定抽水的池子，而是每张桌子都有自己的规矩，写在独立合约里。八张牌里七张都摆着原生 ETH 或 WETH 对上另一枚令牌——底牌一张翻开，一张扣着，老江湖一眼就懂。"
-   },
-   "take": {
-    "en": "Eight bespoke tables in under a thousand blocks is a coordinated deal, not coincidence—and with no liquidity on the felt yet, the only honest read is that the chips are stacked and waiting for the first player to sit down.",
-    "zh": "八张牌同一时辰摆上桌面，说明有人在按图布阵；真正值得看的，是这些钩子底下各自藏了什么规矩。"
    }
   }
  ]
