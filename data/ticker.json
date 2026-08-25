@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-25T18:30:01Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 56931674. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x4156fc6b24e61fb301d7564b8059e85bba32f789c9ab6522a0b4ea3d11635988"
+  },
+  {
    "ts": "2026-08-25T18:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #472 in PROGRAMMABLE: 'Stabilize populated profile geometry'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/472"
-  },
-  {
-   "ts": "2026-08-25T16:47:30Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Stabilize populated profile geometry (#472)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/6f95662ea7a76f99b81fd71f5b33b0c1262e250a"
   }
  ]
 }
