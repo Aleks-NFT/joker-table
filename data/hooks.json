@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-26T09:13:29Z",
+ "generated_at": "2026-08-26T10:13:29Z",
  "total_hooks": 3852,
- "total_pools": 12358,
+ "total_pools": 12359,
  "multi_pool_hooks": 360,
  "shown": 360,
  "more_count": 0,
@@ -4179,6 +4179,30 @@
    "visible": false
   },
   {
+   "address": "0xb9993c109ca1362283f29006791e8c57fb06ea80",
+   "address_short": "0xb999…ea80",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb9993c109ca1362283f29006791e8c57fb06ea80",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap"
+   ],
+   "first_block": 25832243,
+   "last_block": 25838256,
+   "last_deploy": "2026-08-26T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xc5c72b770396050c088bbc111b1a448ec3dce0cc",
    "address_short": "0xc5c7…e0cc",
    "name": "EthCreatorFeeHookV3",
@@ -4432,7 +4456,7 @@
    "first_block": 25645639,
    "last_block": 25788316,
    "last_deploy": "2026-08-19T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4543,30 +4567,6 @@
    "last_block": 25300108,
    "last_deploy": "2026-06-12T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb9993c109ca1362283f29006791e8c57fb06ea80",
-   "address_short": "0xb999…ea80",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xb9993c109ca1362283f29006791e8c57fb06ea80",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap"
-   ],
-   "first_block": 25832243,
-   "last_block": 25837755,
-   "last_deploy": "2026-08-26T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -4739,7 +4739,7 @@
    "first_block": 25645623,
    "last_block": 25788262,
    "last_deploy": "2026-08-19T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {

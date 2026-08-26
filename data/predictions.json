@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 23,
+  "hit": 24,
   "miss": 25,
-  "open": 2,
-  "hit_rate": 0.479
+  "open": 1,
+  "hit_rate": 0.49
  },
  "items": [
   {
@@ -24,8 +24,8 @@
    "text": "Over the next seven days, the tally of these newly dealt pools clears 11; the likely landing sits between 6 and 18, and I give the over about 49%. More pools are appearing with steps too fine for the naked eye—granularity below ten—a tool for placing liquidity with surgical precision.",
    "horizon_days": 7,
    "resolve_after": "2026-08-26",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +11 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
