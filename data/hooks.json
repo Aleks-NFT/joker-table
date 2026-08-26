@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-26T15:13:29Z",
- "total_hooks": 3857,
- "total_pools": 12381,
+ "generated_at": "2026-08-26T16:13:29Z",
+ "total_hooks": 3858,
+ "total_pools": 12395,
  "multi_pool_hooks": 361,
  "shown": 361,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1085,
+   "pool_count": 1090,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 25839781,
-   "last_deploy": "2026-08-26T14:00:02Z",
+   "last_block": 25840383,
+   "last_deploy": "2026-08-26T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 952,
+   "pool_count": 958,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25839806,
-   "last_deploy": "2026-08-26T14:00:02Z",
+   "last_block": 25840321,
+   "last_deploy": "2026-08-26T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 545,
+   "pool_count": 546,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25823236,
-   "last_deploy": "2026-08-24T08:00:03Z",
+   "last_block": 25840011,
+   "last_deploy": "2026-08-26T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -623,7 +623,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "pool_count": 42,
+   "pool_count": 43,
    "permissions_human": [
     "manages liquidity"
    ],
@@ -632,8 +632,8 @@
     "afterRemoveLiquidity"
    ],
    "first_block": 25804904,
-   "last_block": 25839812,
-   "last_deploy": "2026-08-26T14:00:02Z",
+   "last_block": 25839934,
+   "last_deploy": "2026-08-26T16:00:02Z",
    "active": true,
    "visible": false
   },
