@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-26",
+   "narrative": {
+    "en": "The connection is as clear as the felt under the light: hook-pools streaming onto mainnet while the code to support and customize them pours into repositories. V4 is leaving the sandbox — someone is building production infrastructure to run their hook scenarios. These aren't idle tests; they're finished contracts with real logic, ready to play for keeps. The only question on the table is what the strategy actually is.",
+    "zh": "明眼人都看得出：hook池子涌入主网，而支撑与定制的代码同步汇入库中。V4已出沙盒，有人正在搭建生产级的基业，为自家hook布局。这些池子背后不是随手的试验，而是有血有肉的合约，内藏具体机锋。问题只剩一个——那葫芦里到底卖的什么药。"
+   },
+   "take": {
+    "en": "The house is quietly building the machinery for V4 hook wars — the only unknown left is which gambler holds the winning hand.",
+    "zh": "门派已在暗中铸剑，准备V4的hook之争——唯一未知的是，哪位侠客能笑到最后，执掌这新江湖。"
+   }
+  },
+  {
    "date": "2026-08-25",
    "narrative": {
     "en": "Somebody decided one pool was boring. It started in block 25828514 when the first V4 hook pair flickered to life — zero fee, tick spacing 200. Then another, a block later, tick spacing 25. Then the machine ran: fourteen pools in a row from 25828694 to 25828963. Not scattered whims. Watch the hook contracts. 0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088 shows up in seven pools between 25828838 and 25828898, block after block, all with tick spacing 60 — like stamped on a conveyor. Two more carry 0x96b893683afbfec071e90f78d00de4bb932fe0cc, one early, one late, both tick spacing 200. In between, 0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec at 25828908. The closer: another zero-fee pool at 25828963.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is testing the machinery, not the cards: one hook contract grinding out pools is the tell, and the freeze-preflight pull request is the quiet cover bet.",
     "zh": "这一夜的真话不在新台子的多少，而在同一个门派用同一只手连开数台——真正的试探是对机制的试探；而那道冻结预检的文书，是暗处里的另一手棋。"
-   }
-  },
-  {
-   "date": "2026-08-10",
-   "narrative": {
-    "en": "The night dealt thirteen fresh tables on V4, and every one of them opened with the house taking nothing. Zero fee is not generosity—it is the quiet before the deal, when the vig moves from the trader to the hook itself. The developers know how to palm a deck: a contract-hook replacing the standard fee mechanism is a joker that rewrites the rule of the game.\n\nI noticed the pattern: ffff addresses repeat like one player sitting down at different masks—0xffffef45, 0xffff1b3b, 0xffffe511. Pairs with native ether and with WBTC are classic high cards, yet the spacing between ticks jumps from 60 to 200, as if the dealer cannot decide how tight to pull the range. One hook—0x0d6252...—showed up twice, on different pairs. Either this is a pool factory, or somebody loves their own code enough to stake it again and again.\n\nWhile tables were opening on-chain, the programmable project was quietly changing clothes on GitHub. Three pull requests overnight: two documentation redesigns in a row—first broad, then narrow, repo-specific—and a fix for validating sensitive environment variables. README was updated right after the third merge, commit 5661c41 closed the hand. The order says it all: first patch the hole in secret validation, then polish the shop window. That is the standard sequence for someone preparing to show the project to a new audience—an investor, an auditor, the world.\n\nNone of this shouts. Thirteen pools with zero fee and a tidied-up documentation shelf are not fireworks; they are the table being set before big players sit down. The night is quiet, but the cards are already laid.",
-    "zh": "一夜之间，V4江湖开了十三张新桌，几乎每张桌上都写着“不收份子钱”。费率为零不是豪爽，是悄悄换了个收法——真正的进账不来自过路客，而来自那枚藏在桌底的钩子。做局的人懂怎么把牌藏在袖口：用一个合约钩子替掉常规的收费规矩，等于把游戏规则整个翻新了一遍。\n\n我看出点名堂：ffff开头的地址反复出现，像是同一个玩家换了面具坐到不同桌上——0xffffef45、0xffff1b3b、0xffffe511。配的是原生以太和WBTC，都是经典的压箱底筹码，可区间间隔从60跳到200，仿佛庄家自己都没定夺该把网撒多紧。有一枚钩子，0x0d6252...，在两张不同的桌上亮了相。要么这是家专门开池的作坊，要么就是有人太爱自己的手艺，翻来覆去地使。\n\n链上摆桌的同时，GitHub上那个programmable门派也悄悄换了行头。一夜三个改动：两次文档改版——先是全局，后是门派专属；一次修补密钥环境变量的校验。第三次合并之后立刻更新了README，commit 5661c41收尾。顺序说明一切：先堵住漏气的地方，再擦亮招牌。这是准备给新人看货的标准动作——投资人、审计师、或是整个江湖。\n\n这些都不张扬。十三个零费池子加一排干净的文档，不是烟火，是摆好桌子等大客入座。夜很静，但牌已经铺开了。"
-   },
-   "take": {
-    "en": "The house is not giving anything away—it is changing the rules of the vig, and the real fee will be collected from the hook, not the player.",
-    "zh": "江湖没有白送的茶钱——不过是从台前改到了台后，真正要收的，还是从钩子里掏。"
    }
   }
  ]
