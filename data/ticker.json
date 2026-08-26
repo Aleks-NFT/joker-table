@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-26T06:00:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE updated README (sha a3ebddc)",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-26T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837278. Tokens: 0x0000000000000000000000000000000000000000 / 0xe7f189658493ee4c77a3bd568ba712bafec6f25f. Fee:...",
+   "url": "https://etherscan.io/tx/0x954958f8ef201c7c46eb54c821960b54ffda5509523619d5423346f8d1890f2d"
+  },
+  {
+   "ts": "2026-08-26T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837130. Tokens: 0x0000000000000000000000000000000000000000 / 0xfb1bae48b1bb69bdfb6fda1f81482710b46e2f0a. Fee:...",
+   "url": "https://etherscan.io/tx/0xa3d490f6f80e808e5c63d421305341c29d00d4ff89585d49d148fdd4d1de5a74"
+  },
+  {
+   "ts": "2026-08-26T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837008. Tokens: 0x0000000000000000000000000000000000000000 / 0xfb7e86ab4cd12d8d116bdcc31bd0c8a8062912fc. Fee:...",
+   "url": "https://etherscan.io/tx/0xbbf38d31335606a4ba160f720a4074c312b6e8758e4871689626841740a4e39c"
+  },
+  {
+   "ts": "2026-08-26T06:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25836887. Tokens: 0x0000000000000000000000000000000000000000 / 0xd2458c361ca9a81514e4f82cd98fbb267378a75c. Fee:...",
+   "url": "https://etherscan.io/tx/0x60fbb838d3f5cca8a0eda6abf3537d6cf842b204dbd891783862eab7f60f14b6"
+  },
+  {
+   "ts": "2026-08-26T05:58:49Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE released programmable-launch-v3.1.0 (Programmable Launch CLI 3.1.0): 'Public agent packager for the general Custom Launch API V3 profile.'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/releases/tag/programmable-launch-v3.1.0"
+  },
+  {
+   "ts": "2026-08-26T05:54:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #487 in PROGRAMMABLE: 'Publish direct-native admission profile revision 3'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/487"
+  },
+  {
+   "ts": "2026-08-26T05:54:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Align V3 public runtime and wallet contracts'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/4c7f6eaafc6d8f86542b0dc8c532dfbe99c77095"
+  },
+  {
    "ts": "2026-08-26T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -42,6 +98,20 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $9,377,499 24h volume, $1,004,565 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
+   "ts": "2026-08-26T04:16:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #486 in PROGRAMMABLE: 'Fix Custom Launch API V3 release binding'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/486"
+  },
+  {
+   "ts": "2026-08-26T04:16:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix Custom Launch API V3 release binding (#486)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/77a8826128950d8863d5ed463539337f9a692533"
   },
   {
    "ts": "2026-08-26T04:00:08Z",
@@ -140,76 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #484 in PROGRAMMABLE: 'feat(launch): ship general Custom Launch API V3'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/484"
-  },
-  {
-   "ts": "2026-08-26T03:26:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'feat(launch): ship general Custom Launch API V3 (#484)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/01080dfc0b22ca2f71a7a3138b40933db45806c5"
-  },
-  {
-   "ts": "2026-08-26T02:13:51Z",
-   "suit": "club",
-   "source": "github",
-   "text": "DefiDevDan closed PR #592 in v4-periphery: 'fix(v4-periphery): resolve issue #88 - Add dynamic priority fee adjustment hook for Base'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/592"
-  },
-  {
-   "ts": "2026-08-26T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25835919. Tokens: 0x0000000000000000000000000000000000000000 / 0x7c74fc3b4591d9aafff3cec787fe78c8723db9bd. Fee:...",
-   "url": "https://etherscan.io/tx/0xa116b5e5bb5ce5ccdafae2fec1211f102293efd4ee291e83c7d3aad4ed17fff1"
-  },
-  {
-   "ts": "2026-08-26T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25835783. Tokens: 0x0000000000000000000000000000000000000000 / 0x7aafc3a1c5f95b6f88cdb390de0274f7f6f35a56. Fee:...",
-   "url": "https://etherscan.io/tx/0xc905737eda9533ce4cf477c7439c702f25c49d53670e015929563183216130d8"
-  },
-  {
-   "ts": "2026-08-26T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25835770. Tokens: 0x0000000000000000000000000000000000000000 / 0x819999bb8f9c9c36230ae7a560ab8d760f16e808. Fee:...",
-   "url": "https://etherscan.io/tx/0x124afd0be9c307149d0ed25e827b25dd672e730961b52a2289b424c7681e1134"
-  },
-  {
-   "ts": "2026-08-26T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25835769. Tokens: 0x0000000000000000000000000000000000000000 / 0x69607ec17c757d70705412cd121aea3924d54d18. Fee:...",
-   "url": "https://etherscan.io/tx/0x6404162980a5dab78cd765ae020481b9622ea7ff8cdffe72e719fc68548c6624"
-  },
-  {
-   "ts": "2026-08-26T01:18:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "DefiDevDan opened PR #592 in v4-periphery: 'fix(v4-periphery): resolve issue #88 - Add dynamic priority fee adjustment hook for Base'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/592"
-  },
-  {
-   "ts": "2026-08-26T00:59:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #485 in PROGRAMMABLE: 'Add Custom Launch V3 production release gate'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/485"
-  },
-  {
-   "ts": "2026-08-26T00:59:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Add Custom Launch V3 production release gate (#485)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/643fbc46c8cd566b08c4e6c81170d1674f63981c"
-  },
-  {
-   "ts": "2026-08-26T00:49:57Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #483 in PROGRAMMABLE: 'feat: add direct native hook graph profile bindings'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/483"
   }
  ]
 }
