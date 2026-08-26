@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-26T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837928. Tokens: 0x0000000000000000000000000000000000000000 / 0x69a2be792188ff7fc5889264d8690076a778ad3f. Fee:...",
+   "url": "https://etherscan.io/tx/0xaf421bc9c4c4f8a486e0345bcc2056595a5de1c68bf3a617fa7220bb40960db0"
+  },
+  {
+   "ts": "2026-08-26T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837826. Tokens: 0x0000000000000000000000000000000000000000 / 0x4be8b52b44f8cd9e00ac084417ad48e21998f7c8. Fee:...",
+   "url": "https://etherscan.io/tx/0x796d4d4e962bcdd2128c3bec3d8a53e2be2ef308ea0c1317048d277e60981c7f"
+  },
+  {
+   "ts": "2026-08-26T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837755. Tokens: 0xdac17f958d2ee523a2206206994597c13d831ec7 / 0xdae0fafd65385e7775cf75b1398735155ef6acd2. Fee:...",
+   "url": "https://etherscan.io/tx/0xd021d5d64abc1bfcaa1d3bacead36ae46716cb26240cc112bbc871a56c4be66b"
+  },
+  {
+   "ts": "2026-08-26T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837726. Tokens: 0x0000000000000000000000000000000000000000 / 0xb6595b78e658693290e91b085bba57f06866c7a0. Fee:...",
+   "url": "https://etherscan.io/tx/0xde01210aa5832feb6b5c820e08d0f7ca4f7164c3295a467a2a027db17bcd8605"
+  },
+  {
+   "ts": "2026-08-26T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25837625. Tokens: 0x0000000000000000000000000000000000000000 / 0x9711028b689cd01b1b3115d87f705e6eee1bf1f0. Fee:...",
+   "url": "https://etherscan.io/tx/0xe1e35b0545c459609e85a842b9a83917b735b43e1b868394b0855e2064104d22"
+  },
+  {
+   "ts": "2026-08-26T06:48:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #489 in PROGRAMMABLE: 'Bound prediction market cold loads'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/489"
+  },
+  {
+   "ts": "2026-08-26T06:48:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Bound prediction market cold loads (#489)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/73177e886ecbb433949a8d519aa3e250d3e36e1a"
+  },
+  {
+   "ts": "2026-08-26T06:40:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #488 in PROGRAMMABLE: 'Fix stale V3 launch copy before production promotion'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/488"
+  },
+  {
+   "ts": "2026-08-26T06:40:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix stale V3 launch copy before production promotion (#488)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/f4787e7eccfdf538e924d669361b79e20c7d537d"
+  },
+  {
    "ts": "2026-08-26T06:00:08Z",
    "suit": "club",
    "source": "github",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25836386. Tokens: 0x0000000000000000000000000000000000000000 / 0x6970f4961c0add76e0601777899642129b8c6a5d. Fee:...",
    "url": "https://etherscan.io/tx/0x3264cffd1b080418c426cac5fb54e176f272ef354ffe5e8d523e564ab8d47c07"
-  },
-  {
-   "ts": "2026-08-26T04:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25836325. Tokens: 0x0000000000000000000000000000000000000000 / 0x47a9b753f646a750c24a20845ab01e8dde1f97e4. Fee:...",
-   "url": "https://etherscan.io/tx/0x0c2f5680bf65f1903561d4af70865c620e5d169471ef95553a15c3d8cda76b6d"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo chaosxcode/shards-v1 matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/chaosxcode/shards-v1"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Najnomics/fair-flow matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Najnomics/fair-flow"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: jesse-stahl/hookbuilder — 0★ — Evidence-first Agent Skill for building, reviewing, and submitting open-ended Uniswap v4 projects to...",
-   "url": "https://github.com/jesse-stahl/hookbuilder"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: chaosxcode/shards-v1 — 0★ — Fixed 10,000-piece on-chain generative NFT collection market-made by a Uniswap v4 hook",
-   "url": "https://github.com/chaosxcode/shards-v1"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: voladelta/looong-hook — 0★ — Immutable Uniswap v4 LOOONG/WETH position, rebate, and reward hook",
-   "url": "https://github.com/voladelta/looong-hook"
-  },
-  {
-   "ts": "2026-08-26T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Najnomics/fair-flow — 0★ — Attested fair-ordering Uniswap v4 hook — retail fee for fair flow, toxicity tax recaptured to LPs. UHI10...",
-   "url": "https://github.com/Najnomics/fair-flow"
-  },
-  {
-   "ts": "2026-08-26T03:27:13Z",
-   "suit": "club",
-   "source": "github",
-   "text": "PROGRAMMABLE released programmable-launch-v3.0.0 (Programmable Launch CLI 3.0.0): 'Public agent packager for the general Custom Launch API V3 profile.'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/releases/tag/programmable-launch-v3.0.0"
-  },
-  {
-   "ts": "2026-08-26T03:26:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #484 in PROGRAMMABLE: 'feat(launch): ship general Custom Launch API V3'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/484"
   }
  ]
 }
