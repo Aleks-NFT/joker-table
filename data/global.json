@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-26T04:13:30Z",
+ "generated_at": "2026-08-26T05:13:28Z",
  "history": [
-  {
-   "date": "2026-07-27",
-   "volume_24h_usd": 644683715.0,
-   "fees_24h_usd": 825128.0,
-   "eth_share_pct": 31.8
-  },
   {
    "date": "2026-07-28",
    "volume_24h_usd": 1030578620.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1052501330.0,
    "fees_24h_usd": 2319118.0,
    "eth_share_pct": 45.6
+  },
+  {
+   "date": "2026-08-26",
+   "volume_24h_usd": 1179259585.0,
+   "fees_24h_usd": 2492739.0,
+   "eth_share_pct": 53.4
   }
  ],
  "chains_top": {
-  "Ethereum": 476548279,
-  "Robinhood Chain": 226770084,
-  "BSC": 125724742,
-  "Base": 99486201,
-  "Arbitrum": 38729197,
-  "Monad": 37016782,
-  "Polygon": 30990822,
-  "Unichain": 9047368
+  "Ethereum": 625874489,
+  "Robinhood Chain": 266907136,
+  "BSC": 106557887,
+  "Base": 63713522,
+  "Polygon": 45600315,
+  "Arbitrum": 29181545,
+  "Monad": 26750764,
+  "Unichain": 6536843
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [RFC] Deploy Uniswap V3 on Gensyn (6 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-deploy-uniswap-v3-on-gensyn/26050",
+   "occurred_at": "2026-08-26T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (16 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
@@ -204,12 +210,6 @@
    "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (15 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
    "occurred_at": "2026-08-20T05:00:03Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [Temp Check] Activate v4 Protocol Fees (26 posts)",
-   "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162",
-   "occurred_at": "2026-08-19T05:00:02Z",
    "active": false
   }
  ],
