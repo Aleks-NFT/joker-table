@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-27T22:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57118515. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
+   "url": "https://uniscan.xyz/tx/0x04c2d4158b7a1e62d45720a276b30e0b2d5f51129ea1dd4510c7187176e5eba7"
+  },
+  {
+   "ts": "2026-08-27T22:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57118511. Tokens: 0x0000000000000000000000000000000000000000 / 0x078d782b760474a361dda0af3839290b0e...",
+   "url": "https://uniscan.xyz/tx/0x79c31755f1a5d245733083d3d59c452bef2a58f941f3fe04273a5a6eaf0623cc"
+  },
+  {
    "ts": "2026-08-27T22:00:09Z",
    "suit": "club",
    "source": "github",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25848318. Tokens: 0x0000000000000000000000000000000000000000 / 0xd1f86a109148a26921297e75b8b77ef61891402b. Fee:...",
    "url": "https://etherscan.io/tx/0xfab592fba026e6355ca194168f104f3186c5148e5754480c5f467ca2b889ec76"
-  },
-  {
-   "ts": "2026-08-27T19:33:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #510 in PROGRAMMABLE: 'Prevent duplicate wallet login prompts'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/510"
-  },
-  {
-   "ts": "2026-08-27T19:33:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Prevent duplicate wallet login prompts (#510)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/46f69b28710326b72847daf3742777ec0d56c9dc"
   }
  ]
 }
