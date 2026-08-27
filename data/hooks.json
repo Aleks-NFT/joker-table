@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-27T04:13:28Z",
+ "generated_at": "2026-08-27T05:13:28Z",
  "total_hooks": 3875,
  "total_pools": 12460,
  "multi_pool_hooks": 361,
@@ -3960,8 +3960,8 @@
   {
    "address": "0x24efb321684a87f753e32efd90be42242f0ba088",
    "address_short": "0x24ef…a088",
-   "name": "",
-   "verified": false,
+   "name": "SwapFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x24efb321684a87f753e32efd90be42242f0ba088",
    "pool_count": 4,
    "permissions_human": [
@@ -7064,8 +7064,8 @@
   {
    "address": "0xae158f5fb58891064198875ff6008c1af354e088",
    "address_short": "0xae15…e088",
-   "name": "",
-   "verified": false,
+   "name": "SwapFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xae158f5fb58891064198875ff6008c1af354e088",
    "pool_count": 2,
    "permissions_human": [
