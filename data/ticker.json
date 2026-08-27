@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-27T10:00:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE updated README (sha 92b835c)",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-27T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25845501. Tokens: 0x0000000000000000000000000000000000000000 / 0xf623e5a5e09454cc1046c1f2ce2008651abd1181. Fee:...",
+   "url": "https://etherscan.io/tx/0x2298eb0fd7e1689d35d2b78e64cbbea1ce059a20021db054d89a6077dadf8113"
+  },
+  {
+   "ts": "2026-08-27T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25845463. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xc15ed9d320b55dc1029d7bba19a09616c054158f1a40ddbeb034ac613896abc5"
+  },
+  {
+   "ts": "2026-08-27T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25845408. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x9179afb5ed570be4d87da88d6585a3df19efbbfa4c70d0016ab7c53ce13c7d6c"
+  },
+  {
+   "ts": "2026-08-27T10:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25845408. Tokens: 0x0000000000000000000000000000000000000000 / 0xface73b63787960282f2d4682d3752beb25271ad. Fee:...",
+   "url": "https://etherscan.io/tx/0x629d864a7b5e5d75bb334d23f253b12559a2b73ea368a0d1726ec11d64067325"
+  },
+  {
+   "ts": "2026-08-27T09:58:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #500 in PROGRAMMABLE: 'Enable reviewed SHARD trading and clean Custom Explore'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/500"
+  },
+  {
+   "ts": "2026-08-27T09:22:23Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE released programmable-launch-v3.3.4 (Programmable Launch CLI 3.3.4): 'Publishes the checksum-bound 3.3.4 public CLI for general direct-native ho...",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/releases/tag/programmable-launch-v3.3.4"
+  },
+  {
+   "ts": "2026-08-27T09:09:37Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #499 in PROGRAMMABLE: 'Harden public V3 launch workflow and developer UX'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/499"
+  },
+  {
+   "ts": "2026-08-27T09:09:37Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Harden public V3 launch workflow and developer UX (#499)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/573425ee24b9fd184b150681b62e0f018afb6711"
+  },
+  {
    "ts": "2026-08-27T08:30:02Z",
    "suit": "spade",
    "source": "unichain",
@@ -147,69 +210,6 @@
    "source": "github",
    "text": "Repo cipherEncrypt/Net-ETH-Flow-Hook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
    "url": "https://github.com/cipherEncrypt/Net-ETH-Flow-Hook"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Poolcodehook/PoolCode matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Poolcodehook/PoolCode"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo Identity-md/launch-29-swapcounterhook matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/Identity-md/launch-29-swapcounterhook"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: xeyax/nakastrategy-public — 0★ — NAKAMOTO — immutable Uniswap v4 bonding-curve protocol on Robinhood Chain",
-   "url": "https://github.com/xeyax/nakastrategy-public"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Maheshsiddu29/BondMeBro — 0★ — BondMeBro is a UniswapV4 hook where it lets traders use bond beforeswap for high impact trades, if t...",
-   "url": "https://github.com/Maheshsiddu29/BondMeBro"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: cipherEncrypt/Net-ETH-Flow-Hook — 0★ — Uniswap v4 hook PoC that tracks native ETH inflow and outflow per pool with epoch-scoped cou...",
-   "url": "https://github.com/cipherEncrypt/Net-ETH-Flow-Hook"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: frwd-1/swift-hook — 0★ — real-time liquidity underwriting for uniswap v4",
-   "url": "https://github.com/frwd-1/swift-hook"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Poolcodehook/PoolCode — 0★ — Uniswap v4 hook for the one official PCODE/native-ETH pool, and the version machine that rewrites the ...",
-   "url": "https://github.com/Poolcodehook/PoolCode"
-  },
-  {
-   "ts": "2026-08-27T04:00:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Identity-md/launch-29-swapcounterhook — 0★ — Implement SwapCounterHook: the smallest useful Uniswap v4 hook. It counts swaps. Behav...",
-   "url": "https://github.com/Identity-md/launch-29-swapcounterhook"
-  },
-  {
-   "ts": "2026-08-27T03:36:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "dianakocsis opened PR #593 in v4-periphery: 'fix(router): decode V4 swap params with abi.decode'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/593"
   }
  ]
 }
