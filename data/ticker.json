@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-27T08:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57065753. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
+   "url": "https://uniscan.xyz/tx/0x411e6afdbf90c0fc0a820370fb1d0966c5c4937611490edd9202016a147289fb"
+  },
+  {
+   "ts": "2026-08-27T08:30:02Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57065753. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x07a08a396db7b0b5d58def62c19f4a765f37813004ac4a399602b7dc088ff3cb"
+  },
+  {
    "ts": "2026-08-27T08:00:03Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "dianakocsis opened PR #593 in v4-periphery: 'fix(router): decode V4 swap params with abi.decode'",
    "url": "https://github.com/Uniswap/v4-periphery/pull/593"
-  },
-  {
-   "ts": "2026-08-27T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25842951. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x5d180a1c32fce8092ff8580f694572cb3aaa97c624cf7e1451372c0fb2cc9357"
-  },
-  {
-   "ts": "2026-08-27T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25842919. Tokens: 0x0000000000000000000000000000000000000000 / 0xf51a1ce21d07f5f46b3ece20145f0a27c88976af. Fee:...",
-   "url": "https://etherscan.io/tx/0xabfc6cfda9ea2a6c24451bb443b8fdd059a2136455d85e93cf15a1af2b58a0d4"
   }
  ]
 }
