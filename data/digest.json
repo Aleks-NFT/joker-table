@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-27",
+   "narrative": {
+    "en": "Sixteen tables hit the felt in a few hours — that's not traffic, that's a single player dealing from a stacked deck. Nearly every pair is built on the native coin, and every base card is WETH, but the visible cut is zero on most hands. Three hook contracts are cycling through the rotation: the first spreads a whole wave with no cut and a wide rail, the second works a tighter rail with no cut, the third shows twice, same no-cut, same wide rail. Two tables break the rhythm: one takes 0.8%, one takes 0.3%, and the rest take nothing.",
+    "zh": "一夜之间，十六张新桌子在江湖上摆开。这不是零散的过客，是有人按着棋谱落子。几乎所有牌局都以原生币为底，WETH 为刃；大多数不收任何费用，只有两桌例外——一桌收 0.8%，一桌收 0.3%，其余皆空手。\n\n蹊跷在套路。三个不同的钩子门派轮番上阵：第一家连开数池，路数宽，不收钱；第二家路数紧，也不收钱；第三家露脸两次，依旧不收钱。最刺眼的是那一桌 USDC——稳定币，真金白银。有人不是在拿空气试招，是在拿实弹演练。\n\n这不是乱撒，是布阵。内力顺着池子流转，钩子就是经脉。谁在借这些桌子聚气，眼下还看不清，但手法已留下印记。江湖上最便宜的邀请，往往最费琢磨。"
+   },
+   "take": {
+    "en": "One hand is building the entire board: three hook contracts, serial deployment, and a USDC test that turns a zero-fee pattern into a real-money experiment. The zero-fee run is either bait or blueprint — either way, the house is assembling itself.",
+    "zh": "一句话：有人在用钩子批量摆池，真正的杀招是那桌 USDC——这不是杂耍，是内力外露的试探。"
+   }
+  },
+  {
    "date": "2026-08-26",
    "narrative": {
     "en": "The connection is as clear as the felt under the light: hook-pools streaming onto mainnet while the code to support and customize them pours into repositories. V4 is leaving the sandbox — someone is building production infrastructure to run their hook scenarios. These aren't idle tests; they're finished contracts with real logic, ready to play for keeps. The only question on the table is what the strategy actually is.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is not playing for entertainment; it is dealing the same hook from a marked deck while the ledger underneath is being stitched closed before the next hand settles.",
     "zh": "江湖夜雨，十二个池子十一个空，唯有一处两面俱全；真正的功夫不在水面，而在钩子与账本的暗处。"
-   }
-  },
-  {
-   "date": "2026-08-11",
-   "narrative": {
-    "en": "The only table with real teeth was WETH against some f8d30a... card, where the house took a dynamic cut — 8388608, a number that doesn't match the usual scale, so the hook decides per hand what it skins. One such pool against thirteen empty shells: a rare card in a deck full of jokers. And in another room, while blocks stamped out pools, someone quietly opened a pull-request: freeze typed adoption grant preflight. One hand deals liquidity to every comer, the other locks the door and checks who deserves a seat.",
-    "zh": "唯一一张不像空壳的桌子，是 WETH 对某个 f8d30a... 的筹码，抽水用的是八百万级别的动态数——这不是寻常刻度，而是那只看手自己决定每一把的价钱。十三张空台子里夹着这么一张，算是摸到一张稀罕牌。而另一头，正当区块忙着印台子的时候，有人悄悄递了一纸文书：冻结那笔“类型化收养资助预检”。一边在大把派发内力，另一边却开始关门验客，看看谁有资格坐上桌来。"
-   },
-   "take": {
-    "en": "The house is testing the machinery, not the cards: one hook contract grinding out pools is the tell, and the freeze-preflight pull request is the quiet cover bet.",
-    "zh": "这一夜的真话不在新台子的多少，而在同一个门派用同一只手连开数台——真正的试探是对机制的试探；而那道冻结预检的文书，是暗处里的另一手棋。"
    }
   }
  ]

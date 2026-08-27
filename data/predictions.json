@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 24,
-  "miss": 25,
-  "open": 1,
-  "hit_rate": 0.49
+  "miss": 24,
+  "open": 2,
+  "hit_rate": 0.5
  },
  "items": [
+  {
+   "id": 62,
+   "made_at": "2026-08-27",
+   "text": "Over the next seven days the count clears 49; the likely landing sits between 14 and 148, and I give the over about 60%. One hook contract is laying down new tables one after another, far faster than any typical player moves.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-03",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 61,
    "made_at": "2026-08-20",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-06-30",
    "status": "miss",
    "resolution_note": "Confirmed: target +497 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 12,
-   "made_at": "2026-06-22",
-   "text": "Over the next 7 days the count will exceed 548, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-29",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +548 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]
