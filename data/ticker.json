@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-28T02:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25850338. Tokens: 0xb6ed7644c69416d67b522e20bc294a9a9b405b31 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xe0fc63e92eb8ee5a51bcbbb2a8d864b5212442a08f839128f1d25da30596c5c6"
+  },
+  {
+   "ts": "2026-08-28T01:27:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #505 in PROGRAMMABLE: 'feat(classic): finalize one fixed deeper-liquidity V4 mode'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/505"
+  },
+  {
+   "ts": "2026-08-28T01:27:02Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'feat(classic): finalize one fixed deeper-liquidity V4 mode (#505)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/c25f154214546687e4ed08155a7e091c79ca39ee"
+  },
+  {
    "ts": "2026-08-28T00:30:02Z",
    "suit": "spade",
    "source": "unichain",
@@ -189,27 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25848859. Tokens: 0x0000000000000000000000000000000000000000 / 0xbd76ed541d64c58c840d5ff2cd2c85bcb712f808. Fee:...",
    "url": "https://etherscan.io/tx/0x7e2c0c4599ad3e1a396e772b3644ff99b5949e0fdbda663f10f454253549d399"
-  },
-  {
-   "ts": "2026-08-27T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25848833. Tokens: 0x0000000000000000000000000000000000000000 / 0xed45f07b5bdb6278edd1608ee428b5c63d9a31b1. Fee:...",
-   "url": "https://etherscan.io/tx/0xd3ba3d506cb0cb74fe604c5a21e4e0b02c7931504eb3b2121d6dbd331f18f5ec"
-  },
-  {
-   "ts": "2026-08-27T22:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25848818. Tokens: 0x0000000000000000000000000000000000000000 / 0xc5edd304cb20708a942b28a5b1ac0c047a8eb17c. Fee:...",
-   "url": "https://etherscan.io/tx/0xd966f497d5a1acc0198b20d3a9a5bb5fdb41a4de55573c00eb0d458c99fbdd00"
-  },
-  {
-   "ts": "2026-08-27T21:59:43Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #512 in PROGRAMMABLE: 'Fix protected CLI release preflight'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/512"
   }
  ]
 }
