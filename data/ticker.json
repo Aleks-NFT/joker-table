@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25852194. Tokens: 0xa10c6b333201657908b205844b132a3b1b96b021 / 0xba5bde662c17e2adff1075610382b9b691296350. Fee:...",
+   "url": "https://etherscan.io/tx/0x07488fd84eaeebefe677b19fd2f5359273aa1ab169203e3ff321413588e14e52"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25852101. Tokens: 0x57e114b691db790c35207b2e685d4a43181e6061 / 0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9. Fee:...",
+   "url": "https://etherscan.io/tx/0x945133c5a6287bde894e03ab85ca89db3c678f5d30f2bf5bec6924e26e0eef8f"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25852082. Tokens: 0x0000000000000000000000000000000000000000 / 0x694045783bf29f7798cb39f5901caac83d685ec9. Fee:...",
+   "url": "https://etherscan.io/tx/0x6a454672e0a2131ed2583c28111640badd429ee9e83b6607b14a7b4887ddcc43"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25852078. Tokens: 0x0000000000000000000000000000000000000000 / 0x38c565f1e264d2d5406b8d6a0601921a8859c834. Fee:...",
+   "url": "https://etherscan.io/tx/0x94bd90abee4b12c3716329d10ba0100de768ec23d81769a33269ae6a58063485"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25852063. Tokens: 0x0000000000000000000000000000000000000000 / 0x6953b85915c2b6744befc405760140dbf161a10b. Fee:...",
+   "url": "https://etherscan.io/tx/0x3d3c597218cde8f7484500187efcf4a7f45e9125a4555545c2e808e668f6f29e"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25851950. Tokens: 0x0000000000000000000000000000000000000000 / 0x69bf5a4fc31439cd23e5ecc0d541d7aa24bf0b2d. Fee:...",
+   "url": "https://etherscan.io/tx/0x1a1fbadfcfc7df2ae2d18e675877e4063c8b122fb482a002b63ee60672af1c06"
+  },
+  {
+   "ts": "2026-08-28T08:00:02Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25851868. Tokens: 0x0000000000000000000000000000000000000000 / 0x69d442fdc913850ceb7f619d3fbe7f70721ad372. Fee:...",
+   "url": "https://etherscan.io/tx/0xb30e689a62bdf7262eb397c7e7631ebe4e718c0e0064bb6928910e08c2fb04de"
+  },
+  {
+   "ts": "2026-08-28T07:50:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #518 in PROGRAMMABLE: 'feat(indexer): prepare Classic V4 source candidate'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/518"
+  },
+  {
    "ts": "2026-08-28T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: Legendarylibr/mev-capture-hook — 0★ — Uniswap v4 hook: volatility-aware dynamic LP fees + revenue share to mitigate LVR/MEV",
    "url": "https://github.com/Legendarylibr/mev-capture-hook"
-  },
-  {
-   "ts": "2026-08-28T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Identity-md/launch-31-build-launch-swapcounterhook-uniswap — 0★ — Build and launch SwapCounterHook, a Uniswap v4 hook that counts s...",
-   "url": "https://github.com/Identity-md/launch-31-build-launch-swapcounterhook-uniswap"
-  },
-  {
-   "ts": "2026-08-28T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: CryptoGnome/v4hooks — 0★ — Uniswap v4 hooks you can build — licensed Solidity excerpts, permission bits and GitHub permalinks for T...",
-   "url": "https://github.com/CryptoGnome/v4hooks"
-  },
-  {
-   "ts": "2026-08-28T02:50:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #516 in PROGRAMMABLE: 'Add Classic V4 public availability writer'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/516"
-  },
-  {
-   "ts": "2026-08-28T02:50:11Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Add Classic V4 public availability writer (#516)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/c5bee61f19e4f3e2fef4f86b61d93dc33c139a3e"
-  },
-  {
-   "ts": "2026-08-28T02:33:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #515 in PROGRAMMABLE: 'fix(classic-v4): bind truthful Sourcify match evidence'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/515"
-  },
-  {
-   "ts": "2026-08-28T02:33:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(classic-v4): bind truthful Sourcify match evidence (#515)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/82d711a8343de5aed0ae089759069c81fc6864db"
-  },
-  {
-   "ts": "2026-08-28T02:00:02Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25850338. Tokens: 0xb6ed7644c69416d67b522e20bc294a9a9b405b31 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xe0fc63e92eb8ee5a51bcbbb2a8d864b5212442a08f839128f1d25da30596c5c6"
-  },
-  {
-   "ts": "2026-08-28T01:27:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #505 in PROGRAMMABLE: 'feat(classic): finalize one fixed deeper-liquidity V4 mode'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/505"
   }
  ]
 }
