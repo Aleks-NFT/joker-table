@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-28T09:13:30Z",
- "total_hooks": 3911,
- "total_pools": 12548,
+ "generated_at": "2026-08-28T10:13:28Z",
+ "total_hooks": 3920,
+ "total_pools": 12558,
  "multi_pool_hooks": 366,
  "shown": 366,
  "more_count": 0,
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 985,
+   "pool_count": 986,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25852082,
-   "last_deploy": "2026-08-28T08:00:02Z",
+   "last_block": 25852439,
+   "last_deploy": "2026-08-28T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -8228,7 +8228,7 @@
    "first_block": 25802623,
    "last_block": 25802623,
    "last_deploy": "2026-08-21T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   }
  ]
