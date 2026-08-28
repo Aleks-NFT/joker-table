@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-28",
+   "narrative": {
+    "en": "So the night laid its cards on the felt, and Unichain decided not to wait for the weather. Eight V4 pools with hooks in a single day — that is not a warm-up, that is a declaration. The base pair, ETH against the USDC0 stablecoin, appears with a 0.05% cut and a narrow grid; four different hook contracts sit in the same slot, one pair, one fee, four distinct doors. Then the same pair reappears with a 0.3% cut and a wider grid, and again four different hooks. Someone is testing how the same liquidity breathes under different entry conditions, changing the door but not the room.\n\nThe sharper play came on the mainnet. Two pools opened with the same pair — 0xb6ed... against WETH — both flagged for dynamic pricing, both on the same grid step, but each carrying its own hook. Twins separated into different blocks, as if the deck were split deliberately. Two more pools followed, native ETH against two different counterparts, all under the same dynamic flag.\n\nAnd then the commit: 'finalize one fixed deeper-liquidity V4 mode.' Not a feature request — a closed version of a mode where liquidity is laid deeper into the book. The code is frozen, the pools are moving, the hooks are multiplying. The deck is being shuffled with intent. Some players are building combinations, some are betting on a single suit. I just watch how the cards fall.",
+    "zh": "这一夜，江湖上传来了风声。Unichain 这门派不等天时，一日之间连开八口 V4 池塘，每一口都挂着钩子。这不是热身，是亮剑。ETH 对上 USDC0 这味常见药材，先用 0.05% 的薄利、十格的窄步，四把不同的鱼钩轮流下饵；再换 0.3% 的厚利、六十格的宽步，又是四把新钩。同一片水，不同的钓法，有人显然在试水性的深浅。\n\n更妙的棋在以太坊主网。两处池塘，里头的对子一模一样——0xb6ed... 对上 WETH，都是动态取费，都是六十格的步，却各挂各的钩。两块牌分落在不同的区块，像是一对孪生兄弟被生生分开。再往后，还有两处用本家 ETH 对阵不同门派的池子，全部动态取费，步数一致。\n\n紧接着，0xprogrammable 落下一纸：finalize one fixed deeper-liquidity V4 mode。不是提议，是闭关。把内力往深处埋的一种模式，就此定稿。代码封冻，池塘开张，钩子越来越多。江湖上洗牌的动静不小，有人在排组合，有人抱着一门心思押注。我只是看水，看鱼，看落子的方向。"
+   },
+   "take": {
+    "en": "Eight pools in a day and a frozen deeper-liquidity mode: the protocol is no longer testing the table, it is fixing the rules of engagement. The next round will be played on depth, not on entry prices.",
+    "zh": "一日八池，定稿深水模式——这不是在试水，是在立规矩。下一局比的是内力深浅，不是门口的把式。"
+   }
+  },
+  {
    "date": "2026-08-27",
    "narrative": {
     "en": "Sixteen tables hit the felt in a few hours — that's not traffic, that's a single player dealing from a stacked deck. Nearly every pair is built on the native coin, and every base card is WETH, but the visible cut is zero on most hands. Three hook contracts are cycling through the rotation: the first spreads a whole wave with no cut and a wide rail, the second works a tighter rail with no cut, the third shows twice, same no-cut, same wide rail. Two tables break the rhythm: one takes 0.8%, one takes 0.3%, and the rest take nothing.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "One tool, one signature, nine pools in one night — the house isn't shuffling, it's mass-producing the deck.",
     "zh": "一个工具，一个掌印，一夜九个池子——这不是洗牌，这是有人在大批量做牌。"
-   }
-  },
-  {
-   "date": "2026-08-12",
-   "narrative": {
-    "en": "Twelve pools laid on the felt overnight, and eleven of them showing zero ether on one side of the pair — someone is methodically dealing the same card again and again. The hooks repeat: 0x0d62529346, then again, then once more. 0x96b893683afbfec also appears twice. This is no accident and no chaos — it is a hand dealt from the same sleeve, only with different token faces instead of players. The table is wide, tickSpacing 200 almost everywhere — broad strides, a player not aiming at precision but at range. Only one pool breaks the pattern: fee 3000, tickSpacing 30, block 25734805 — someone decided to play a tight hand, a dense grid. And out of twelve, exactly one pool holds non-zero token on both sides — block 25735726, hooks 0xbbdf135f842 — the joker among empty suits. While this unrolled on one table, another game went quiet and coded. 0xprogrammable closed three PRs in a row: valuation parity, batch price recovery, proof inventory. Words from a casino ledger — aligning stakes, recovering price after a fault, inventorying evidence. Three fixes overnight, one after another, as if someone is patching leaks in the accounting system before the morning shift opens the tables. And separately, v4-periphery PR #588 — SafeCast for swap delta in the quoter. A small but telling correction: without it, numbers could truncate where they should not, and the quote would lie quietly, without a scream. The night was not about loud bets. It was about the infrastructure under the table — hooks repeating like marked cards, and code repairing what cannot be seen beneath the green felt while no one is watching.",
-    "zh": "一夜之间，江湖上多了十二个池子。十一个池子，一侧空空如也，以太不沾边。有人不急不慢，把同一张牌翻来覆去地出——钩子重复出现，0x0d62529346 来了又走，走了又来，0x96b893683afbfec 也现身两回。这不是乱局，这是同一个掌法换了不同的面具，十二个名字，一种内功。大多数池子步幅极宽，tickSpacing 二百，大开大合，不求精细，只求圈住风水。只有一个池子例外，fee 三千，tickSpacing 三十，区块 25734805——那是有人下了盘细棋，针脚密得很。十二池之中，只有一处两边都有真金白银：区块 25735726，钩子 0xbbdf135f842。万花丛中一点绿，满桌空牌里唯一的孤注。与此同时，另一张桌子上演着无声的功夫。0xprogrammable 连收三剑：估值对齐、批量价格恢复、凭证清点。听起来像是当铺先生深夜拨算盘——把赌注摆平，把断掉的价格接上，把证据一件件归档。三处修补，依次落下，像给账本打上补丁，趁天亮开张之前。还有一桩小事，v4-periphery 的 PR #588，给报价格子里的 swap 增量加了一道 SafeCast。改动不起眼，却让人心里一紧：没有它，数字会在不该断的地方断掉，报价便会在无声中失真。这一夜，没有惊天动地的豪赌。功夫都在台面之下，重复的钩子像江湖上流传的暗号，改动的代码像夜里补好的旧账。等众人醒来时，桌子已经擦净，牌已经码齐。"
-   },
-   "take": {
-    "en": "The house is not playing for entertainment; it is dealing the same hook from a marked deck while the ledger underneath is being stitched closed before the next hand settles.",
-    "zh": "江湖夜雨，十二个池子十一个空，唯有一处两面俱全；真正的功夫不在水面，而在钩子与账本的暗处。"
    }
   }
  ]

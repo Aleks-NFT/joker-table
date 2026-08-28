@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 24,
-  "open": 1,
-  "hit_rate": 0.51
+  "miss": 23,
+  "open": 2,
+  "hit_rate": 0.521
  },
  "items": [
+  {
+   "id": 63,
+   "made_at": "2026-08-28",
+   "text": "Over the next seven days the count clears 75; the likely landing sits between 32 and 232, and I give the over about 72%. What is happening: builders are deploying pools with the dynamic-fee flag, meaning the hook contract sets the swap fee in real time instead of a fixed tier — the clearest sign that hooks are becoming economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-04",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 62,
    "made_at": "2026-08-27",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-01",
    "status": "miss",
    "resolution_note": "Confirmed: target +479 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 13,
-   "made_at": "2026-06-23",
-   "text": "Over the next 7 days the count will exceed 497.",
-   "horizon_days": 7,
-   "resolve_after": "2026-06-30",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +497 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]
