@@ -2,6 +2,83 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-28T21:57:54Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #535 in PROGRAMMABLE: 'Fix Classic wallet session and linkage'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/535"
+  },
+  {
+   "ts": "2026-08-28T21:57:54Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix Classic wallet session and linkage (#535)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/66aae098860c8b6d2d465fbac2b178296359c7f1"
+  },
+  {
+   "ts": "2026-08-28T21:53:49Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj opened PR #155 in uniswap-hooks: 'ReHypothecationHook: safer JIT sizing and swap-path hardening'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/155"
+  },
+  {
+   "ts": "2026-08-28T21:37:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #534 in PROGRAMMABLE: 'Remove prediction markets from public product'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/534"
+  },
+  {
+   "ts": "2026-08-28T21:34:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856456. Tokens: 0x0000000000000000000000000000000000000000 / 0x38b600b8b7ac62dd79fbf2a4998476e98f4960cc. Fee:...",
+   "url": "https://etherscan.io/tx/0x7f9e96b34cda3e9d132241f37924c42d789bd88626e8b379d87231acf489e943"
+  },
+  {
+   "ts": "2026-08-28T20:53:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856253. Tokens: 0x0000000000000000000000000000000000000000 / 0x239dca9c9e49745b659bfba949c4fb326624d188. Fee:...",
+   "url": "https://etherscan.io/tx/0x1ee05d7c92e86857fea90cda358b55a0dd103a1b1cc0f163785e80a59afd2f4e"
+  },
+  {
+   "ts": "2026-08-28T20:43:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856204. Tokens: 0x0000000000000000000000000000000000000000 / 0xc882722742a7b888e302f290f5a9e597acd11adf. Fee:...",
+   "url": "https://etherscan.io/tx/0xd3aa24e8317b87217d1b982b7202c1a210bafef6478f2858d906c0fba6cac25a"
+  },
+  {
+   "ts": "2026-08-28T20:19:45Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #154 in uniswap-hooks: 'Pay the native currency from the contract that holds it'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/154"
+  },
+  {
+   "ts": "2026-08-28T20:07:23Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #533 in PROGRAMMABLE: 'fix(explore): accept bound Classic V4 catalog'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/533"
+  },
+  {
+   "ts": "2026-08-28T20:07:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): accept bound Classic V4 catalog (#533)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/191e618225f35c476a9ebeebc864cea797a42d7c"
+  },
+  {
+   "ts": "2026-08-28T20:00:37Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #153 in uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/153"
+  },
+  {
    "ts": "2026-08-28T20:00:09Z",
    "suit": "club",
    "source": "github",
@@ -133,83 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix partner admin linked wallet recovery (#530)'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/d9f5003148fcd7cdef1138b39fedb2fe23fa1652"
-  },
-  {
-   "ts": "2026-08-28T18:41:11Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #531 in PROGRAMMABLE: 'Align public Custom Launch V3 contract and CLI 3.3.9'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/531"
-  },
-  {
-   "ts": "2026-08-28T18:41:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Align public Custom Launch V3 contract and CLI 3.3.9 (#531)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/ec0a2ccd0fbcab27bcaa1d19fa59a7d7d2ce7a72"
-  },
-  {
-   "ts": "2026-08-28T18:38:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj opened PR #151 in uniswap-hooks: 'ReHypothecationHook: restrict liquidity provision and redefine shares'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/151"
-  },
-  {
-   "ts": "2026-08-28T18:29:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855536. Tokens: 0x0000000000000000000000000000000000000000 / 0xb93e8763da0c9848d09f313164739a12ca72c0bf. Fee:...",
-   "url": "https://etherscan.io/tx/0xaa50ee69d11c5b27852b9d8bab83642bb9f20e7ab67a785bc10f24bbe9cf937d"
-  },
-  {
-   "ts": "2026-08-28T18:21:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #150 in uniswap-hooks: 'LimitOrderHook: scan only ticks holding orders, and never fill an unconverted position'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/150"
-  },
-  {
-   "ts": "2026-08-28T18:05:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855417. Tokens: 0x0000000000000000000000000000000000000000 / 0xe555aa5a1a4b0d6e09172e212ff61e7bede12055. Fee:...",
-   "url": "https://etherscan.io/tx/0x2a0fda31dea9d3b6708bd0ab8603e9c523e4b52eb51926c7b66bc97c2eceeafa"
-  },
-  {
-   "ts": "2026-08-28T18:00:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855392. Tokens: 0x0000000000000000000000000000000000000000 / 0x190635baf5ad50ddaf476b1bf7ea0e72702e0504. Fee:...",
-   "url": "https://etherscan.io/tx/0x9d344784bb776730bbcfb7cb88c250a8e396c8469369fe7f2e3be7bb8a99571d"
-  },
-  {
-   "ts": "2026-08-28T17:50:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855342. Tokens: 0x0000000000000000000000000000000000000000 / 0x77b38e033b13e666822fa5c83143e61571e9e9a4. Fee:...",
-   "url": "https://etherscan.io/tx/0x9ce4bd4c6cf7a7ead141eacb2d241d6478820f698dcd6ace00e7401bfc610acc"
-  },
-  {
-   "ts": "2026-08-28T17:48:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855334. Tokens: 0x0000000000000000000000000000000000000000 / 0xca8fe737403c87db6a32e09d9381fa24aba2634b. Fee:...",
-   "url": "https://etherscan.io/tx/0xfe4b42f69e2911204faebc522b3c98bbb2bc0623d8c36956d80523f90d5cb0d7"
-  },
-  {
-   "ts": "2026-08-28T17:43:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855307. Tokens: 0x0000000000000000000000000000000000000000 / 0x7b8d111f963cf42e795a3b23d424cbfc08a24a3b. Fee:...",
-   "url": "https://etherscan.io/tx/0x5be6b41040dd11c074978a8a518544042ecdc3063a7e22b2e205bd20c1fde2a5"
-  },
-  {
-   "ts": "2026-08-28T17:39:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855285. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0xf29bb99da8ac5b418d0cc856412d567a36c00de16b10e6023e710c82f4376258"
   }
  ]
 }
