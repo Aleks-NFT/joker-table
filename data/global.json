@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-28T04:13:29Z",
+ "generated_at": "2026-08-28T05:13:28Z",
  "history": [
-  {
-   "date": "2026-07-29",
-   "volume_24h_usd": 1081805539.0,
-   "fees_24h_usd": 933145.0,
-   "eth_share_pct": 41.4
-  },
   {
    "date": "2026-07-30",
    "volume_24h_usd": 1072978502.0,
@@ -181,29 +175,35 @@
    "volume_24h_usd": 903264236.0,
    "fees_24h_usd": 2173493.0,
    "eth_share_pct": 41.3
+  },
+  {
+   "date": "2026-08-28",
+   "volume_24h_usd": 1484599979.0,
+   "fees_24h_usd": 2252373.0,
+   "eth_share_pct": 53.5
   }
  ],
  "chains_top": {
-  "Ethereum": 369970116,
-  "Robinhood Chain": 304089265,
-  "BSC": 106192709,
-  "Base": 46512210,
-  "Polygon": 25624841,
-  "Arbitrum": 19750889,
-  "Monad": 18870264,
-  "Unichain": 5342985
+  "Ethereum": 791439221,
+  "Robinhood Chain": 339306107,
+  "Polygon": 97174832,
+  "BSC": 92436790,
+  "Arbitrum": 83056074,
+  "Base": 47678083,
+  "Monad": 20764184,
+  "Unichain": 6550445
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: Uniswap-Arbitrum Delegate Program (UADP) Communication Thread (39 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-arbitrum-delegate-program-uadp-communication-thread/22185",
+   "occurred_at": "2026-08-28T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [RFC] Deploy Uniswap V3 on Gensyn (6 posts)",
    "url": "https://gov.uniswap.org/t/rfc-deploy-uniswap-v3-on-gensyn/26050",
    "occurred_at": "2026-08-26T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (16 posts)",
-   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
-   "occurred_at": "2026-08-21T05:00:02Z",
    "active": false
   }
  ],

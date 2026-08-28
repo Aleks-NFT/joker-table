@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-28T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: Uniswap-Arbitrum Delegate Program (UADP) Communication Thread (39 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-arbitrum-delegate-program-uadp-communication-thread/22185"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 RLUSD / USDS — $192,864,457   #2 USDT / USDS — $185,885,725   #3 PYUSD / USDS — $101,177,027   ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDC / USDT TVL shrank 48% to $4,171,158",
+   "url": "https://www.geckoterminal.com/eth/pools/0x395f91b34aa34a477ce3bc6505639a821b286a62b1a164fc1887fa3a5ef713a5"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume surged 454% to $101,177,027 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDT / USDS volume surged 94% to $185,885,725 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: WETH / USDC — $4,719,835 24h volume, $139,824 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xd9aca4ca6629294bde6453297c42029e2d45b194555fefd163f8f51726721e0d"
+  },
+  {
+   "ts": "2026-08-28T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: RLUSD / USDS — $192,864,457 24h volume, $17,722,371 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-08-28T04:15:02Z",
+   "suit": "spade",
+   "source": "defillama",
+   "text": "Uniswap V4 global 24h volume up 63% to $1.48B (fees $2252k, Ethereum share 53.5%)",
+   "url": "https://defillama.com/protocol/uniswap-v4"
+  },
+  {
    "ts": "2026-08-28T04:00:02Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #505 in PROGRAMMABLE: 'feat(classic): finalize one fixed deeper-liquidity V4 mode'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/505"
-  },
-  {
-   "ts": "2026-08-28T01:27:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'feat(classic): finalize one fixed deeper-liquidity V4 mode (#505)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/c25f154214546687e4ed08155a7e091c79ca39ee"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57123758. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
-   "url": "https://uniscan.xyz/tx/0x445db5e509e70892d85ae2cb2d0a4ef4e969da280fa199f8127645122ac29086"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57123753. Tokens: 0x0000000000000000000000000000000000000000 / 0x078d782b760474a361dda0af3839290b0e...",
-   "url": "https://uniscan.xyz/tx/0x2488424e2e1afec0e8252644e778b61d65e62f16c0bb9eecd2b4fd805d880313"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57123237. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
-   "url": "https://uniscan.xyz/tx/0x30ec79b55e9401ee103b80dfad2c6818c8e215ef91c4f573d5d72492a59ad335"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57123232. Tokens: 0x0000000000000000000000000000000000000000 / 0x078d782b760474a361dda0af3839290b0e...",
-   "url": "https://uniscan.xyz/tx/0x0a9ae40ce3254ef14832b4f9b5e0fcba7e1260d2bc7c5b2cb7b50c35f17aad43"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57122222. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
-   "url": "https://uniscan.xyz/tx/0x885e0460919ba79706d5bf08dd2484c78a929db225eb2bbe2404238d9c8584ca"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57122217. Tokens: 0x0000000000000000000000000000000000000000 / 0x078d782b760474a361dda0af3839290b0e...",
-   "url": "https://uniscan.xyz/tx/0xeeada0bed0a0dab47ef745e94d76df9d76fd317bff3dd4e62e59f35303be2f85"
-  },
-  {
-   "ts": "2026-08-28T00:30:02Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57121482. Tokens: 0x078d782b760474a361dda0af3839290b0ef57ad6 / 0x927b51f251480a681271180da4de28d44e...",
-   "url": "https://uniscan.xyz/tx/0x17646cc2fff0336c8261e15fff64fd78c789b22534e514146290a78669d46939"
   }
  ]
 }

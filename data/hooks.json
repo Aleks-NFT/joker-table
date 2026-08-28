@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-28T04:13:29Z",
+ "generated_at": "2026-08-28T05:13:28Z",
  "total_hooks": 3910,
  "total_pools": 12541,
  "multi_pool_hooks": 366,
@@ -5988,8 +5988,8 @@
   {
    "address": "0x5a9dc05171fff9d5a7146665ef8d7c511690c040",
    "address_short": "0x5a9d…c040",
-   "name": "",
-   "verified": false,
+   "name": "BlockNodeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x5a9dc05171fff9d5a7146665ef8d7c511690c040",
    "pool_count": 2,
    "permissions_human": [
@@ -6468,8 +6468,8 @@
   {
    "address": "0x7ff5a90a5b5e3b5851fcb471be502329b03e8a44",
    "address_short": "0x7ff5…8a44",
-   "name": "",
-   "verified": false,
+   "name": "EtherRLHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7ff5a90a5b5e3b5851fcb471be502329b03e8a44",
    "pool_count": 2,
    "permissions_human": [
@@ -7232,8 +7232,8 @@
   {
    "address": "0xb0f8d28660be567ab2efd9e7d6cbff3971130a44",
    "address_short": "0xb0f8…0a44",
-   "name": "",
-   "verified": false,
+   "name": "EtherRLHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb0f8d28660be567ab2efd9e7d6cbff3971130a44",
    "pool_count": 2,
    "permissions_human": [
