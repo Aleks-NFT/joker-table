@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-28T13:13:28Z",
- "total_hooks": 3922,
- "total_pools": 12569,
+ "generated_at": "2026-08-28T14:13:29Z",
+ "total_hooks": 3926,
+ "total_pools": 12577,
  "multi_pool_hooks": 366,
  "shown": 366,
  "more_count": 0,
@@ -457,7 +457,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
-   "pool_count": 76,
+   "pool_count": 80,
    "permissions_human": [
     "manages liquidity"
    ],
@@ -466,8 +466,8 @@
     "afterRemoveLiquidity"
    ],
    "first_block": 25804904,
-   "last_block": 25853564,
-   "last_deploy": "2026-08-28T12:00:03Z",
+   "last_block": 25854136,
+   "last_deploy": "2026-08-28T14:00:02Z",
    "active": true,
    "visible": false
   },
@@ -5228,7 +5228,7 @@
    "first_block": 25803450,
    "last_block": 25803517,
    "last_deploy": "2026-08-21T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -7800,7 +7800,7 @@
    "first_block": 25803889,
    "last_block": 25803953,
    "last_deploy": "2026-08-21T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -7975,7 +7975,7 @@
    "first_block": 25803861,
    "last_block": 25803861,
    "last_deploy": "2026-08-21T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
