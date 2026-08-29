@@ -2,11 +2,46 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T06:00:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE-EVM updated README (sha 3df19c0)",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-29T05:46:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25858908. Tokens: 0x0000000000000000000000000000000000000000 / 0x5665381cd9157087cfaf9f397b601ec3f9cc8afb. Fee:...",
+   "url": "https://etherscan.io/tx/0x1670963f35d9db3a3a7c1110b0d9edd04bef3765f64c2859f6a102b022226d11"
+  },
+  {
    "ts": "2026-08-29T05:00:02Z",
    "suit": "spade",
    "source": "governance",
    "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (17 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-08-29T04:54:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #542 in PROGRAMMABLE-EVM: 'Fix image upload response handling'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/542"
+  },
+  {
+   "ts": "2026-08-29T04:54:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'Fix image upload response handling (#542)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/1eed30e087493aa1c5c03edc7362cfeaafa7d0a0"
+  },
+  {
+   "ts": "2026-08-29T04:34:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25858549. Tokens: 0x0000000000000000000000000000000000000000 / 0x0961d5af7f611d03845f842797c52982d912bd30. Fee:...",
+   "url": "https://etherscan.io/tx/0x07a067468a2dce5e59aa4adc979b48a92ff66a53689fb982259c84c8c9499160"
   },
   {
    "ts": "2026-08-29T04:30:02Z",
@@ -49,6 +84,20 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: tBTC / cbBTC 0.01% — $3,168,223 24h volume, $2,658,427 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x5459f9d1f649b9f1353a50fd0c8d796b4feb11926bec295cb0614a135febdf9a"
+  },
+  {
+   "ts": "2026-08-29T04:27:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #540 in PROGRAMMABLE-EVM: 'Fail closed on retired Prediction API routes'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/540"
+  },
+  {
+   "ts": "2026-08-29T04:27:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'Fail closed on retired Prediction API routes (#540)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/37ed7780a35c9b44b5244f45221c1763c98d6762"
   },
   {
    "ts": "2026-08-29T03:14:59Z",
@@ -117,6 +166,20 @@
    "ts": "2026-08-28T23:19:20Z",
    "suit": "club",
    "source": "github",
+   "text": "0xprogrammable merged PR #541 in PROGRAMMABLE-EVM: 'fix(explore): use Newest server fast path'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/541"
+  },
+  {
+   "ts": "2026-08-28T23:19:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'fix(explore): use Newest server fast path (#541)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/74b9a4da00d0f55e9eb86e46db06e757a8ecd5d3"
+  },
+  {
+   "ts": "2026-08-28T23:19:20Z",
+   "suit": "club",
+   "source": "github",
    "text": "0xprogrammable merged PR #541 in PROGRAMMABLE: 'fix(explore): use Newest server fast path'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/541"
   },
@@ -145,71 +208,8 @@
    "ts": "2026-08-28T23:03:38Z",
    "suit": "club",
    "source": "github",
-   "text": "0xprogrammable merged PR #539 in PROGRAMMABLE: 'fix(explore): tolerate Router cursor progress'",
+   "text": "0xprogrammable merged PR #539 in PROGRAMMABLE-EVM: 'fix(explore): tolerate Router cursor progress'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/539"
-  },
-  {
-   "ts": "2026-08-28T23:03:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): tolerate Router cursor progress (#539)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/3cfa2fe2da26642015d0bf429f148a3581bf7727"
-  },
-  {
-   "ts": "2026-08-28T23:01:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #540 in PROGRAMMABLE: 'Fail closed on retired Prediction API routes'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/540"
-  },
-  {
-   "ts": "2026-08-28T22:58:42Z",
-   "suit": "club",
-   "source": "github",
-   "text": "impetus82 closed PR #133 in uniswap-hooks: 'LimitOrderHook: guard _fillOrder against filling non-converted positions (#132)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/133"
-  },
-  {
-   "ts": "2026-08-28T22:48:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856828. Tokens: 0x0000000000000000000000000000000000000000 / 0xcaaa381603295fd46347bfbaf24492a12cdb66cf. Fee:...",
-   "url": "https://etherscan.io/tx/0x8a2266990a0d7f96b0e6c325f9566d40a4f7d8fb6dd120b40a4c325c599dd45a"
-  },
-  {
-   "ts": "2026-08-28T22:40:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #153 in uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/153"
-  },
-  {
-   "ts": "2026-08-28T22:40:47Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross (#153)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/86b85745dcdd63400182234c4e85d80e293785d0"
-  },
-  {
-   "ts": "2026-08-28T22:35:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable closed PR #537 in PROGRAMMABLE: 'Fix production repository binding after rename'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/537"
-  },
-  {
-   "ts": "2026-08-28T22:34:26Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #538 in PROGRAMMABLE: 'fix(release): bind renamed production repository'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/538"
-  },
-  {
-   "ts": "2026-08-28T22:34:26Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(release): bind renamed production repository (#538)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/1882228d2dd9563391eaca5d1876e2e2ec55bf9d"
   }
  ]
 }
