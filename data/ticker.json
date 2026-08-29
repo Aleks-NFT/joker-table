@@ -2,6 +2,167 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T00:00:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE updated README (sha 3df19c0)",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-28T23:55:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25857158. Tokens: 0x0000000000000000000000000000000000000000 / 0x43e451a72ccfa7628583cd2987c2febf0877cd69. Fee:...",
+   "url": "https://etherscan.io/tx/0x7dddc4ca8eb29c70b249d97b3c34eca8828d3f6bab47da929665f39b5ea575a6"
+  },
+  {
+   "ts": "2026-08-28T23:53:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25857150. Tokens: 0x0000000000000000000000000000000000000000 / 0xb2c96934a64da99ab04a340eb77cf2c9afe731c9. Fee:...",
+   "url": "https://etherscan.io/tx/0xa81a590a06718926eb7ee78640deca66f13727e6a7ffa2da6ab3176c5459c2cf"
+  },
+  {
+   "ts": "2026-08-28T23:32:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "wkoutre opened PR #63 in v4-hooks-public: 'ci: migrate Claude PR automation to review-cli/describe-cli'",
+   "url": "https://github.com/Uniswap/v4-hooks-public/pull/63"
+  },
+  {
+   "ts": "2026-08-28T23:19:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #541 in PROGRAMMABLE: 'fix(explore): use Newest server fast path'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/541"
+  },
+  {
+   "ts": "2026-08-28T23:19:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): use Newest server fast path (#541)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/74b9a4da00d0f55e9eb86e46db06e757a8ecd5d3"
+  },
+  {
+   "ts": "2026-08-28T23:16:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856968. Tokens: 0x0000000000000000000000000000000000000000 / 0xb0b2ea1f3148c036e03d13ec031c27b2350b0cb5. Fee:...",
+   "url": "https://etherscan.io/tx/0xcf5a6ebbe5cb66eef966f6da7154ee8f7ebd55ce1ec3c44507ea99592f161712"
+  },
+  {
+   "ts": "2026-08-28T23:16:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856965. Tokens: 0x0000000000000000000000000000000000000000 / 0x1a0847a28dd93dfee8c3d6d635dc1911cb9c1110. Fee:...",
+   "url": "https://etherscan.io/tx/0x6eee8e1ec3c6b747167079b1bd0c921f56ac10810857916c185e460eede7a106"
+  },
+  {
+   "ts": "2026-08-28T23:03:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #539 in PROGRAMMABLE: 'fix(explore): tolerate Router cursor progress'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/539"
+  },
+  {
+   "ts": "2026-08-28T23:03:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): tolerate Router cursor progress (#539)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/3cfa2fe2da26642015d0bf429f148a3581bf7727"
+  },
+  {
+   "ts": "2026-08-28T23:01:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable opened PR #540 in PROGRAMMABLE: 'Fail closed on retired Prediction API routes'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/540"
+  },
+  {
+   "ts": "2026-08-28T22:58:42Z",
+   "suit": "club",
+   "source": "github",
+   "text": "impetus82 closed PR #133 in uniswap-hooks: 'LimitOrderHook: guard _fillOrder against filling non-converted positions (#132)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/133"
+  },
+  {
+   "ts": "2026-08-28T22:48:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856828. Tokens: 0x0000000000000000000000000000000000000000 / 0xcaaa381603295fd46347bfbaf24492a12cdb66cf. Fee:...",
+   "url": "https://etherscan.io/tx/0x8a2266990a0d7f96b0e6c325f9566d40a4f7d8fb6dd120b40a4c325c599dd45a"
+  },
+  {
+   "ts": "2026-08-28T22:40:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc merged PR #153 in uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/153"
+  },
+  {
+   "ts": "2026-08-28T22:40:47Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross (#153)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/86b85745dcdd63400182234c4e85d80e293785d0"
+  },
+  {
+   "ts": "2026-08-28T22:35:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable closed PR #537 in PROGRAMMABLE: 'Fix production repository binding after rename'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/537"
+  },
+  {
+   "ts": "2026-08-28T22:34:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #538 in PROGRAMMABLE: 'fix(release): bind renamed production repository'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/538"
+  },
+  {
+   "ts": "2026-08-28T22:34:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(release): bind renamed production repository (#538)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/1882228d2dd9563391eaca5d1876e2e2ec55bf9d"
+  },
+  {
+   "ts": "2026-08-28T22:32:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856749. Tokens: 0x0000000000000000000000000000000000000000 / 0x2cbd6d4251da9eb846de3e6863cc879890478c05. Fee:...",
+   "url": "https://etherscan.io/tx/0x57863da155a79b90c072e97ffb274b34398487fea1e62ac6658ffdd0571e1601"
+  },
+  {
+   "ts": "2026-08-28T22:23:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25856703. Tokens: 0x57e114b691db790c35207b2e685d4a43181e6061 / 0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9. Fee:...",
+   "url": "https://etherscan.io/tx/0x10d46153373b46d0ae5365e5e864d9f079d80f76c932c35b3adfb318cc5b5d6a"
+  },
+  {
+   "ts": "2026-08-28T22:09:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #534 in PROGRAMMABLE: 'Remove prediction markets from public product'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/534"
+  },
+  {
+   "ts": "2026-08-28T22:09:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Remove prediction markets from public product (#534)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/5a0e7746d2b40a3f8d472743b643104fba5d145e"
+  },
+  {
+   "ts": "2026-08-28T22:01:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Trynax opened PR #536 in PROGRAMMABLE: 'fix(market-data): enforce Bitquery response caps while streaming'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/536"
+  },
+  {
    "ts": "2026-08-28T21:57:54Z",
    "suit": "club",
    "source": "github",
@@ -49,167 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25856204. Tokens: 0x0000000000000000000000000000000000000000 / 0xc882722742a7b888e302f290f5a9e597acd11adf. Fee:...",
    "url": "https://etherscan.io/tx/0xd3aa24e8317b87217d1b982b7202c1a210bafef6478f2858d906c0fba6cac25a"
-  },
-  {
-   "ts": "2026-08-28T20:19:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #154 in uniswap-hooks: 'Pay the native currency from the contract that holds it'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/154"
-  },
-  {
-   "ts": "2026-08-28T20:07:23Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #533 in PROGRAMMABLE: 'fix(explore): accept bound Classic V4 catalog'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/533"
-  },
-  {
-   "ts": "2026-08-28T20:07:22Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): accept bound Classic V4 catalog (#533)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/191e618225f35c476a9ebeebc864cea797a42d7c"
-  },
-  {
-   "ts": "2026-08-28T20:00:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #153 in uniswap-hooks: 'LimitOrderHook: let a subclass fill the orders its own swaps cross'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/153"
-  },
-  {
-   "ts": "2026-08-28T20:00:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "PROGRAMMABLE updated README (sha 13c62ec)",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/blob/production/README.md"
-  },
-  {
-   "ts": "2026-08-28T19:55:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #533 in PROGRAMMABLE: 'fix(explore): accept bound Classic V4 catalog'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/533"
-  },
-  {
-   "ts": "2026-08-28T19:47:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855926. Tokens: 0x0000000000000000000000000000000000000000 / 0xa2cc10acddce2c9d58206052f1a2611607f98b77. Fee:...",
-   "url": "https://etherscan.io/tx/0x4f7b2a108deeb8c494df3724db1cc1f5b377a540f023b61bbfeffdec5769a8ce"
-  },
-  {
-   "ts": "2026-08-28T19:41:25Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #529 in PROGRAMMABLE: 'feat(classic-v4): ship final Mainnet release'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/529"
-  },
-  {
-   "ts": "2026-08-28T19:41:25Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'feat(classic-v4): ship final Mainnet release (#529)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/ff51e713feb52e4e13f3c553d1c726f3c8f2858c"
-  },
-  {
-   "ts": "2026-08-28T19:36:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855869. Tokens: 0x0000000000000000000000000000000000000000 / 0x8eb7090f254f2e2b53bbf63375771b6b196e72af. Fee:...",
-   "url": "https://etherscan.io/tx/0xb63e9e200971c301f606567d7e5fccda74c2c9c0ed382cc4310190a357c7e6ef"
-  },
-  {
-   "ts": "2026-08-28T19:30:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj merged PR #152 in uniswap-hooks: 'ci: run coverage with the oracle gas limit'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/152"
-  },
-  {
-   "ts": "2026-08-28T19:30:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'ci: run coverage with the oracle gas limit (#152)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/4f0b2486ca4f96e4c515c15c90d99f2244a45383"
-  },
-  {
-   "ts": "2026-08-28T19:24:22Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #532 in PROGRAMMABLE: 'Allow bounded Router fallback during staging'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/532"
-  },
-  {
-   "ts": "2026-08-28T19:24:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Allow bounded Router fallback during staging (#532)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/2c6acfe19628baadee11cb081448ffa2b5aa1efd"
-  },
-  {
-   "ts": "2026-08-28T19:19:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855786. Tokens: 0x0000000000000000000000000000000000000000 / 0xc78c9b48f9c6712ac89dac11ce036ac484e18e83. Fee:...",
-   "url": "https://etherscan.io/tx/0xdaef7455a16e7eb64dbcc9af23ded4eb18a3043b05f1db90929e7b6af655472b"
-  },
-  {
-   "ts": "2026-08-28T19:07:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #149 in uniswap-hooks: 'LimitOrderHook: validate the pool, read the stored tick, salt positions by direction'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/149"
-  },
-  {
-   "ts": "2026-08-28T19:07:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: validate the pool, read the stored tick, salt positions by direction (#149)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/b2d70be36e2b38b64a9a38e8905d2e6c86101bab"
-  },
-  {
-   "ts": "2026-08-28T19:06:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'make internal functions virtual'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/32f1f33b57eb087a407adcad2d0fbfcba6d743d3"
-  },
-  {
-   "ts": "2026-08-28T19:03:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "PROGRAMMABLE released programmable-launch-v3.3.9 (Programmable Launch CLI 3.3.9): 'Exact-source public pack, validate, submit, and status CLI. Verify every d...",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/releases/tag/programmable-launch-v3.3.9"
-  },
-  {
-   "ts": "2026-08-28T18:57:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25855676. Tokens: 0x0000000000000000000000000000000000000000 / 0x94c2e181a1627f5b44f0051ece8b011c1db18c23. Fee:...",
-   "url": "https://etherscan.io/tx/0x2ad85d41cc892e081ce81d787d990d0ab76e8932f3b902b3600c96b38c7000d9"
-  },
-  {
-   "ts": "2026-08-28T18:55:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj pushed to uniswap-hooks: 'ci: run coverage with the oracle gas limit'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/8dc517959e603dbb98773be62a02b28fe1d57c6c"
-  },
-  {
-   "ts": "2026-08-28T18:48:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #530 in PROGRAMMABLE: 'Fix partner admin linked wallet recovery'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/pull/530"
-  },
-  {
-   "ts": "2026-08-28T18:48:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix partner admin linked wallet recovery (#530)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE/commit/d9f5003148fcd7cdef1138b39fedb2fe23fa1652"
   }
  ]
 }
