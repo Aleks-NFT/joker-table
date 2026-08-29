@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T07:54:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #544 in PROGRAMMABLE-EVM: 'Fix production proof after repository transfer'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/544"
+  },
+  {
+   "ts": "2026-08-29T07:45:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable merged PR #543 in PROGRAMMABLE-EVM: 'Add reward receiver handoff to Launches'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/543"
+  },
+  {
+   "ts": "2026-08-29T07:45:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'Add reward receiver handoff to Launches (#543)'",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/a4c328d374d918f389d95a16772c2bfe39b6a798"
+  },
+  {
+   "ts": "2026-08-29T06:11:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25859032. Tokens: 0x0000000000000000000000000000000000000000 / 0xfac755519ea81edcf5d202a9080c75f22eeaa4d9. Fee:...",
+   "url": "https://etherscan.io/tx/0x7944d1405377e4c11c465405834c3b7c0c7fa5f3706ebb1545f42a2a3c8a5437"
+  },
+  {
    "ts": "2026-08-29T06:00:09Z",
    "suit": "club",
    "source": "github",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "0xprogrammable merged PR #541 in PROGRAMMABLE: 'fix(explore): use Newest server fast path'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/541"
-  },
-  {
-   "ts": "2026-08-28T23:19:20Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(explore): use Newest server fast path (#541)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/74b9a4da00d0f55e9eb86e46db06e757a8ecd5d3"
-  },
-  {
-   "ts": "2026-08-28T23:16:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856968. Tokens: 0x0000000000000000000000000000000000000000 / 0xb0b2ea1f3148c036e03d13ec031c27b2350b0cb5. Fee:...",
-   "url": "https://etherscan.io/tx/0xcf5a6ebbe5cb66eef966f6da7154ee8f7ebd55ce1ec3c44507ea99592f161712"
-  },
-  {
-   "ts": "2026-08-28T23:16:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856965. Tokens: 0x0000000000000000000000000000000000000000 / 0x1a0847a28dd93dfee8c3d6d635dc1911cb9c1110. Fee:...",
-   "url": "https://etherscan.io/tx/0x6eee8e1ec3c6b747167079b1bd0c921f56ac10810857916c185e460eede7a106"
-  },
-  {
-   "ts": "2026-08-28T23:03:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #539 in PROGRAMMABLE-EVM: 'fix(explore): tolerate Router cursor progress'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/539"
   }
  ]
 }
