@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T03:14:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25858152. Tokens: 0x0000000000000000000000000000000000000000 / 0x8e0f97b7640a6560b483673f6a9a97c59ef259a0. Fee:...",
+   "url": "https://etherscan.io/tx/0x2e08b2d887457aed83507b5081cb4d3f8df1d8b1545e9c1b7175a4d3c8cb3a81"
+  },
+  {
+   "ts": "2026-08-29T02:19:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25857876. Tokens: 0x0000000000000000000000000000000000000000 / 0xc8619c4dddcfa69d7deb8af91c98f19abd1657b1. Fee:...",
+   "url": "https://etherscan.io/tx/0xd11055e5e3a09cbc214b726389cfe48655defc748198eb065ff29d9f578c7839"
+  },
+  {
    "ts": "2026-08-29T01:24:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -42,6 +56,13 @@
    "source": "github",
    "text": "wkoutre opened PR #63 in v4-hooks-public: 'ci: migrate Claude PR automation to review-cli/describe-cli'",
    "url": "https://github.com/Uniswap/v4-hooks-public/pull/63"
+  },
+  {
+   "ts": "2026-08-28T23:19:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: 0xprogrammable/PROGRAMMABLE-EVM — 11★ — Open launch-model infrastructure for Uniswap v4 on Ethereum.",
+   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM"
   },
   {
    "ts": "2026-08-28T23:19:20Z",
@@ -189,27 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix Classic wallet session and linkage (#535)'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/66aae098860c8b6d2d465fbac2b178296359c7f1"
-  },
-  {
-   "ts": "2026-08-28T21:53:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj opened PR #155 in uniswap-hooks: 'ReHypothecationHook: safer JIT sizing and swap-path hardening'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/155"
-  },
-  {
-   "ts": "2026-08-28T21:37:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable opened PR #534 in PROGRAMMABLE: 'Remove prediction markets from public product'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/534"
-  },
-  {
-   "ts": "2026-08-28T21:34:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856456. Tokens: 0x0000000000000000000000000000000000000000 / 0x38b600b8b7ac62dd79fbf2a4998476e98f4960cc. Fee:...",
-   "url": "https://etherscan.io/tx/0x7f9e96b34cda3e9d132241f37924c42d789bd88626e8b379d87231acf489e943"
   }
  ]
 }

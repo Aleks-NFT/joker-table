@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-29",
+   "narrative": {
+    "en": "The cards were already on the felt when the night crew showed up. A fresh pool on the V4 table, block 25857602, native ETH paired with a token that hides behind 0x81ff...e258, zero cut for the house, spacing set to 60. But the tell isn't the pair — it's the hook contract, 0x2e4a...eaec, sitting underneath. Zero-fee pools are either toys or traps; this one looks loaded.\n\nThen the GitHub ink dries on PR #156 from luiz-lvj in the uniswap-hooks ledger: ReHypothecationHook, with a settlement reentrancy lock and pool-key validation. Rehypothecation means the same collateral gets put back to work. A hook that lets settlement reuse collateral needs a lock on the door and a check on who holds the key — otherwise one transaction drains the whole table.\n\nAnd somewhere off to the side, PROGRAMMABLE refreshes its README. A small move, but in this company it's not noise. It's assembly. Pool, hook-pr, documentation — three cards showing in sequence. The deck isn't open yet, but the pattern is starting to breathe.",
+    "zh": "昨夜江湖传来动静，有人在 25857602 号石阶上立起了一座新的 Uniswap V4 池子。池中配的是原生 ETH 与一个藏名于 0x81ff...e258 的令牌，分文不取，间距六十。真正值得留意的不是这对组合，而是池底的钩子合约 0x2e4a...eaec。零费用的池子，要么是试探，要么是另有图谋——这口井看着不像空穴来风。\n\n与此同时，GitHub 上有人递来一纸 PR #156，luiz-lvj 在 uniswap-hooks 门派中献上《ReHypothecationHook：结算重入锁与池钥校验》。再抵押，就是把押出去的筹码重新拿去下注。既然要让结算环节反复借用同一样抵押物，就必须先锁好门户、验明来者。否则，一注下去，整座池子便可能被连根端起。\n\n再添一笔：PROGRAMMABLE 在一处库中改了 README。看似平淡，但放在这光景里，不是闲笔，是合围。池子、武学、图谱，三样东西正在凑向同一个交点。牌面还没揭开，但走势已经隐隐有了轮廓。"
+   },
+   "take": {
+    "en": "The play is not the pool; it's the hook. Someone is laying out the infrastructure for collateral reuse, and the reentrancy guard is the tell that they expect someone to try to break in.",
+    "zh": "这回的棋眼不在池子，而在钩子。有人正在搭建一套让抵押物反复流转的机关，而那把重入锁恰恰说明——他早知道会有人来拆。"
+   }
+  },
+  {
    "date": "2026-08-28",
    "narrative": {
     "en": "So the night laid its cards on the felt, and Unichain decided not to wait for the weather. Eight V4 pools with hooks in a single day — that is not a warm-up, that is a declaration. The base pair, ETH against the USDC0 stablecoin, appears with a 0.05% cut and a narrow grid; four different hook contracts sit in the same slot, one pair, one fee, four distinct doors. Then the same pair reappears with a 0.3% cut and a wider grid, and again four different hooks. Someone is testing how the same liquidity breathes under different entry conditions, changing the door but not the room.\n\nThe sharper play came on the mainnet. Two pools opened with the same pair — 0xb6ed... against WETH — both flagged for dynamic pricing, both on the same grid step, but each carrying its own hook. Twins separated into different blocks, as if the deck were split deliberately. Two more pools followed, native ETH against two different counterparts, all under the same dynamic flag.\n\nAnd then the commit: 'finalize one fixed deeper-liquidity V4 mode.' Not a feature request — a closed version of a mode where liquidity is laid deeper into the book. The code is frozen, the pools are moving, the hooks are multiplying. The deck is being shuffled with intent. Some players are building combinations, some are betting on a single suit. I just watch how the cards fall.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "A single hook is laying down a telltale pattern of pools, and the registry fix suggests the house wants to trace every hand back to its dealer.",
     "zh": "一个 hook 契约连番按下池子，江湖上多的是浅水；注册表一改，执棋者要看清每一手棋从何而来。"
-   }
-  },
-  {
-   "date": "2026-08-13",
-   "narrative": {
-    "en": "The night dealt nine fresh pools on the Uniswap V4 felt before anyone could count them, and every hand carried the same tell: a hook contract sewn straight into the token address. That is not luck, that is a factory fingerprint. Most of these hands run against zero, against ETH directly, with zero commission and a two-hundred step spacing — the signature of one master, with twin contracts stamping pools like a conveyor belt. Other hands paid real price for entry: ten-thousand commission, USDC on the other side, wider spacing — that trade already smells like a market, not a test.",
-    "zh": "今夜Uniswap V4这个江湖出牌极快，短短几百个区块之间，九个新池子齐刷刷落地，几乎每一手都带着同一个纹路：钩子契约直接嵌进代币地址里。这不是巧合，是某个厂牌的印记。多数池子对着零、对着ETH直接出手，零佣金、两百步的间隔——像同一个师傅的笔法，两个孪生契约像流水线一样盖池子。另几手则交了真金白银的入门费：万级佣金，USDC对面，间距放宽，这交易已经有市井烟火气，不是练功场。"
-   },
-   "take": {
-    "en": "One tool, one signature, nine pools in one night — the house isn't shuffling, it's mass-producing the deck.",
-    "zh": "一个工具，一个掌印，一夜九个池子——这不是洗牌，这是有人在大批量做牌。"
    }
   }
  ]
