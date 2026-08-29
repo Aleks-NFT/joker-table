@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (17 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 RLUSD / USDS — $228,795,116   #2 USDT / USDS — $138,497,524   #3 USDC / USDT — $101,444,976   #...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.3% TVL grew 93% to $41,890,198",
+   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDC / USDT TVL grew 89% to $7,871,252",
+   "url": "https://www.geckoterminal.com/eth/pools/0x0fb0e40cec3bb23e13abc585958a93c796fbea56955e19a23727a716a0423239"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS TVL grew 69% to $29,951,435",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: EUROC / USDC 0.03% — $2,877,410 24h volume, $1,507,990 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb2b92b56988a4edbe255989792c6ea239b25eaf66b42093145cbf8f630db3a17"
+  },
+  {
+   "ts": "2026-08-29T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: tBTC / cbBTC 0.01% — $3,168,223 24h volume, $2,658,427 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x5459f9d1f649b9f1353a50fd0c8d796b4feb11926bec295cb0614a135febdf9a"
+  },
+  {
    "ts": "2026-08-29T03:14:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "github",
    "text": "0xprogrammable pushed to PROGRAMMABLE: 'fix(release): bind renamed production repository (#538)'",
    "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/1882228d2dd9563391eaca5d1876e2e2ec55bf9d"
-  },
-  {
-   "ts": "2026-08-28T22:32:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856749. Tokens: 0x0000000000000000000000000000000000000000 / 0x2cbd6d4251da9eb846de3e6863cc879890478c05. Fee:...",
-   "url": "https://etherscan.io/tx/0x57863da155a79b90c072e97ffb274b34398487fea1e62ac6658ffdd0571e1601"
-  },
-  {
-   "ts": "2026-08-28T22:23:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856703. Tokens: 0x57e114b691db790c35207b2e685d4a43181e6061 / 0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9. Fee:...",
-   "url": "https://etherscan.io/tx/0x10d46153373b46d0ae5365e5e864d9f079d80f76c932c35b3adfb318cc5b5d6a"
-  },
-  {
-   "ts": "2026-08-28T22:09:56Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #534 in PROGRAMMABLE: 'Remove prediction markets from public product'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/534"
-  },
-  {
-   "ts": "2026-08-28T22:09:55Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Remove prediction markets from public product (#534)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/5a0e7746d2b40a3f8d472743b643104fba5d145e"
-  },
-  {
-   "ts": "2026-08-28T22:01:04Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Trynax opened PR #536 in PROGRAMMABLE: 'fix(market-data): enforce Bitquery response caps while streaming'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/536"
-  },
-  {
-   "ts": "2026-08-28T21:57:54Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #535 in PROGRAMMABLE: 'Fix Classic wallet session and linkage'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/535"
-  },
-  {
-   "ts": "2026-08-28T21:57:54Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE: 'Fix Classic wallet session and linkage (#535)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/66aae098860c8b6d2d465fbac2b178296359c7f1"
   }
  ]
 }
