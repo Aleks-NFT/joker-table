@@ -2,6 +2,118 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T15:56:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc merged PR #154 in uniswap-hooks: 'Pay the native currency from the contract that holds it'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/154"
+  },
+  {
+   "ts": "2026-08-29T15:56:03Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'Pay the native currency from the contract that holds it (#154)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/3586b448db97b1afdb9a49be3b9c7480d65d6eda"
+  },
+  {
+   "ts": "2026-08-29T15:45:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj merged PR #151 in uniswap-hooks: 'ReHypothecationHook: restrict liquidity provision and redefine shares'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/151"
+  },
+  {
+   "ts": "2026-08-29T15:44:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'ReHypothecationHook: restrict liquidity provision and redefine shares (#151)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/87811cb83a69233ee086f447fac2735ad3c606cf"
+  },
+  {
+   "ts": "2026-08-29T15:44:33Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'make getLiquidityToUse use transient ticks'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/d90f495bb55d35ac20c2e0f3034307add1c8d2da"
+  },
+  {
+   "ts": "2026-08-29T15:28:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj merged PR #156 in uniswap-hooks: 'ReHypothecationHook: settlement reentrancy lock and pool-key validation'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/156"
+  },
+  {
+   "ts": "2026-08-29T15:28:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'ReHypothecationHook: settlement reentrancy lock and pool-key validation (#156)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/0ea09ad59754dddbff1cfc167d4a86a3e9395950"
+  },
+  {
+   "ts": "2026-08-29T15:27:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'rename swapcycle for jitlock'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/1b91614f9c03e317b7b1961c5ec8d9ea46a6e743"
+  },
+  {
+   "ts": "2026-08-29T15:17:16Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'drop _validatePoolKey in favour of overriding _beforeInitialize'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/f76e0e9a7c2fa1c58c8083ca3f8b10d9c3e36b9f"
+  },
+  {
+   "ts": "2026-08-29T15:15:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'Merge branch 'rehypothecation-refactor' into rehypothecation-reentrancy-binding'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/0afd0ae12dd64d2056112de0b3713ec3b8dc5042"
+  },
+  {
+   "ts": "2026-08-29T14:59:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj merged PR #155 in uniswap-hooks: 'ReHypothecationHook: safer JIT sizing and swap-path hardening'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/155"
+  },
+  {
+   "ts": "2026-08-29T14:59:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'ReHypothecationHook: safer JIT sizing and swap-path hardening (#155)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/1872164979cabee0ca5f6ce3958c1d9be340da02"
+  },
+  {
+   "ts": "2026-08-29T14:53:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25861629. Tokens: 0x0000000000000000000000000000000000000000 / 0x6953b6884ef18f15d4e3de2b769bbee267e51806. Fee:...",
+   "url": "https://etherscan.io/tx/0x5cbdf84916c7cd9cbc2a7a2b3420abbf3b3139e322865b22f9c626306d3b4039"
+  },
+  {
+   "ts": "2026-08-29T14:52:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj pushed to uniswap-hooks: 'clarify that seeding is allowed whenever the pool is empty'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/8442980b0b3f30f98a6311f1594de490c2f186f5"
+  },
+  {
+   "ts": "2026-08-29T14:24:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25861486. Tokens: 0x0000000000000000000000000000000000000000 / 0x3993990df4bc859cfc1166ae297c9591e6318f63. Fee:...",
+   "url": "https://etherscan.io/tx/0x670ad7e6e88129950ae83c78ffba65bd5ddaaaa42ecdfd84b5589e6a7d54f946"
+  },
+  {
+   "ts": "2026-08-29T14:24:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25861483. Tokens: 0x0000000000000000000000000000000000000000 / 0x69a731e93862aa28ff71c304bda15d7c72fe2f4b. Fee:...",
+   "url": "https://etherscan.io/tx/0xe3aa477811edc67d89562bc6bbcc76b0cc9a7b3f99b059ce2c4666560a1202ed"
+  },
+  {
    "ts": "2026-08-29T13:38:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -98,118 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Fix public GitHub organization links (#546)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE-EVM/commit/537e5bfdd9ef7aa91f68c01b63e617826c9e1095"
-  },
-  {
-   "ts": "2026-08-29T09:18:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25859967. Tokens: 0x0000000000000000000000000000000000000000 / 0x4fbb557821ece344ad30acd9c45453abf3129c98. Fee:...",
-   "url": "https://etherscan.io/tx/0x5a4f82c3b651bc83fdb529b157e980029ac9b824f11707d669094981ff2dcd86"
-  },
-  {
-   "ts": "2026-08-29T09:13:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "programmable-infra merged PR #545 in PROGRAMMABLE-EVM: 'Prepare production for programmablehq transfer'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE-EVM/pull/545"
-  },
-  {
-   "ts": "2026-08-29T09:13:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "programmable-infra pushed to PROGRAMMABLE-EVM: 'Prepare production for programmablehq transfer (#545)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE-EVM/commit/28ad75f9bad97ca2ef9e08b652fb23a98bed3eef"
-  },
-  {
-   "ts": "2026-08-29T08:56:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25859855. Tokens: 0x0000000000000000000000000000000000000000 / 0x5e046f91f2c858811b6dc5f5cecec8b7c9130693. Fee:...",
-   "url": "https://etherscan.io/tx/0x7a1a98e001827cfa1d08e50986a1bd065f89b0002c5c38d427368f24e8abdf1e"
-  },
-  {
-   "ts": "2026-08-29T08:53:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25859840. Tokens: 0x0000000000000000000000000000000000000000 / 0x5e046f91f2c858811b6dc5f5cecec8b7c9130693. Fee:...",
-   "url": "https://etherscan.io/tx/0xcaec14cbf56eec0793fda7f7f60463dc9d5c2e3b4bc32081ee48ab80d506644c"
-  },
-  {
-   "ts": "2026-08-29T08:09:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #544 in PROGRAMMABLE-EVM: 'Fix production proof after repository transfer'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE-EVM/pull/544"
-  },
-  {
-   "ts": "2026-08-29T08:09:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Fix production proof after repository transfer (#544)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE-EVM/commit/64b80a82c10cef48871240f84105973f4166bc3f"
-  },
-  {
-   "ts": "2026-08-29T07:54:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #544 in PROGRAMMABLE-EVM: 'Fix production proof after repository transfer'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/544"
-  },
-  {
-   "ts": "2026-08-29T07:45:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #543 in PROGRAMMABLE-EVM: 'Add reward receiver handoff to Launches'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/543"
-  },
-  {
-   "ts": "2026-08-29T07:45:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'Add reward receiver handoff to Launches (#543)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/a4c328d374d918f389d95a16772c2bfe39b6a798"
-  },
-  {
-   "ts": "2026-08-29T06:11:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25859032. Tokens: 0x0000000000000000000000000000000000000000 / 0xfac755519ea81edcf5d202a9080c75f22eeaa4d9. Fee:...",
-   "url": "https://etherscan.io/tx/0x7944d1405377e4c11c465405834c3b7c0c7fa5f3706ebb1545f42a2a3c8a5437"
-  },
-  {
-   "ts": "2026-08-29T06:00:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "PROGRAMMABLE-EVM updated README (sha 3df19c0)",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/blob/production/README.md"
-  },
-  {
-   "ts": "2026-08-29T05:46:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25858908. Tokens: 0x0000000000000000000000000000000000000000 / 0x5665381cd9157087cfaf9f397b601ec3f9cc8afb. Fee:...",
-   "url": "https://etherscan.io/tx/0x1670963f35d9db3a3a7c1110b0d9edd04bef3765f64c2859f6a102b022226d11"
-  },
-  {
-   "ts": "2026-08-29T05:00:02Z",
-   "suit": "spade",
-   "source": "governance",
-   "text": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (17 posts)",
-   "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208"
-  },
-  {
-   "ts": "2026-08-29T04:54:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable merged PR #542 in PROGRAMMABLE-EVM: 'Fix image upload response handling'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/pull/542"
-  },
-  {
-   "ts": "2026-08-29T04:54:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "0xprogrammable pushed to PROGRAMMABLE-EVM: 'Fix image upload response handling (#542)'",
-   "url": "https://github.com/0xprogrammable/PROGRAMMABLE-EVM/commit/1eed30e087493aa1c5c03edc7362cfeaafa7d0a0"
   }
  ]
 }
