@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-29T01:24:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25857602. Tokens: 0x0000000000000000000000000000000000000000 / 0x81ff4caff07df29e3c7bf1255941259b2d61e258. Fee:...",
+   "url": "https://etherscan.io/tx/0xa482d39b8b7d148b965b13d5292812b3ccecd2d60069fa0ee9562acbbc2e9823"
+  },
+  {
+   "ts": "2026-08-29T00:17:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "luiz-lvj opened PR #156 in uniswap-hooks: 'ReHypothecationHook: settlement reentrancy lock and pool-key validation'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/156"
+  },
+  {
    "ts": "2026-08-29T00:00:10Z",
    "suit": "club",
    "source": "github",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25856456. Tokens: 0x0000000000000000000000000000000000000000 / 0x38b600b8b7ac62dd79fbf2a4998476e98f4960cc. Fee:...",
    "url": "https://etherscan.io/tx/0x7f9e96b34cda3e9d132241f37924c42d789bd88626e8b379d87231acf489e943"
-  },
-  {
-   "ts": "2026-08-28T20:53:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856253. Tokens: 0x0000000000000000000000000000000000000000 / 0x239dca9c9e49745b659bfba949c4fb326624d188. Fee:...",
-   "url": "https://etherscan.io/tx/0x1ee05d7c92e86857fea90cda358b55a0dd103a1b1cc0f163785e80a59afd2f4e"
-  },
-  {
-   "ts": "2026-08-28T20:43:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25856204. Tokens: 0x0000000000000000000000000000000000000000 / 0xc882722742a7b888e302f290f5a9e597acd11adf. Fee:...",
-   "url": "https://etherscan.io/tx/0xd3aa24e8317b87217d1b982b7202c1a210bafef6478f2858d906c0fba6cac25a"
   }
  ]
 }
