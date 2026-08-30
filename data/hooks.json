@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-30T09:13:28Z",
- "total_hooks": 3985,
- "total_pools": 12697,
+ "generated_at": "2026-08-30T10:13:29Z",
+ "total_hooks": 3986,
+ "total_pools": 12700,
  "multi_pool_hooks": 368,
  "shown": 368,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 550,
+   "pool_count": 551,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25860854,
-   "last_deploy": "2026-08-29T14:00:02Z",
+   "last_block": 25867264,
+   "last_deploy": "2026-08-30T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1066,6 +1066,29 @@
    "visible": false
   },
   {
+   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "address_short": "0x6af8…40cc",
+   "name": "HKPDHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "pool_count": 16,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25727858,
+   "last_block": 25866942,
+   "last_deploy": "2026-08-30T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x7fc1ea6f18f3cfc797f4d892066ef9e40eb380cc",
    "address_short": "0x7fc1…80cc",
    "name": "LaunchpadHook",
@@ -1529,29 +1552,6 @@
    "last_block": 25572645,
    "last_deploy": "2026-07-20T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "address_short": "0x6af8…40cc",
-   "name": "HKPDHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "pool_count": 15,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25727858,
-   "last_block": 25828608,
-   "last_deploy": "2026-08-25T02:00:02Z",
-   "active": true,
    "visible": false
   },
   {

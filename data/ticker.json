@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-30T09:43:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25867264. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xd6eb8093fcc3cba3a4b703fec89d6ec1f53e1b07. Fee:...",
+   "url": "https://etherscan.io/tx/0xef06c513b4e3ddd37a9998083c5ff67079cfe28236cc0547b8f986c083f3ad67"
+  },
+  {
+   "ts": "2026-08-30T09:15:23Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #561 in PROGRAMMABLE: 'Document the Robinhood V4 Custom Launch contract'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/561"
+  },
+  {
+   "ts": "2026-08-30T09:15:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Document the Robinhood V4 Custom Launch contract (#561)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/ec0f44d5d60d1bb61b605fc13ddea6e0a29007e6"
+  },
+  {
+   "ts": "2026-08-30T08:53:47Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Trynax opened PR #566 in PROGRAMMABLE: 'fix(trade): prevent stale intent during quote preparation'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/566"
+  },
+  {
+   "ts": "2026-08-30T08:38:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25866942. Tokens: 0x0000000000000000000000000000000000000000 / 0xe56a981c3b9d55bc05565c6d06d0c2d79c9cc11a. Fee:...",
+   "url": "https://etherscan.io/tx/0x6087ba7ec820768dabc0643413ab3b1de607a5f56951f9052bce6263e3accb44"
+  },
+  {
+   "ts": "2026-08-30T08:20:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25866855. Tokens: 0x56d06158bb8d2e42a6c5994a9a12a5c6d642f064 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0xbd9115dbe0fe25ec70464380da43efa689f6039af55ad42b64db82901e730754"
+  },
+  {
    "ts": "2026-08-30T07:02:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #562 in PROGRAMMABLE: 'Keep profile editor values in sync'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/562"
-  },
-  {
-   "ts": "2026-08-30T01:45:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Keep profile editor values in sync (#562)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/6d9d6b312d857c96f4c26a5e9b764da6ae932580"
-  },
-  {
-   "ts": "2026-08-30T01:45:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #562 in PROGRAMMABLE-EVM: 'Keep profile editor values in sync'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/562"
-  },
-  {
-   "ts": "2026-08-30T01:45:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Keep profile editor values in sync (#562)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/6d9d6b312d857c96f4c26a5e9b764da6ae932580"
-  },
-  {
-   "ts": "2026-08-30T01:25:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25864784. Tokens: 0x0000000000000000000000000000000000000000 / 0x3c03755df2b366cc51095b594b8a6183a56898a4. Fee:...",
-   "url": "https://etherscan.io/tx/0xa8dd95453797a95a4da56221b3416a7b327c884c68ade61bbc0ecbb7aeb98ccb"
-  },
-  {
-   "ts": "2026-08-30T01:20:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #561 in PROGRAMMABLE: 'Document the Robinhood V4 Custom Launch contract'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/561"
-  },
-  {
-   "ts": "2026-08-30T01:20:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #561 in PROGRAMMABLE-EVM: 'Document the Robinhood V4 Custom Launch contract'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/561"
   }
  ]
 }
