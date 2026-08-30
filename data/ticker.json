@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-30T07:02:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25866462. Tokens: 0x3f99231dd03a9f0e7e3421c92b7b90fbe012985a / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0xb221fcd6aa633b471f8978f4e3baeb0ddac3262e8a47b53f7495da9efbc02ab2"
+  },
+  {
+   "ts": "2026-08-30T06:43:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #564 in PROGRAMMABLE: 'Stabilize Explore and add chain views'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/564"
+  },
+  {
+   "ts": "2026-08-30T06:43:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Stabilize Explore and add chain views (#564)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c819d0e2b5b6ef9f7e8222851e063147c9e046ff"
+  },
+  {
+   "ts": "2026-08-30T06:02:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25866162. Tokens: 0x57e114b691db790c35207b2e685d4a43181e6061 / 0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9. Fee:...",
+   "url": "https://etherscan.io/tx/0x50e27d81154c9e5df47510de01a0c64e2bba2dc36804a1acbc3ebdcb7d0ce1c7"
+  },
+  {
    "ts": "2026-08-30T06:00:44Z",
    "suit": "club",
    "source": "github",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "hazarxyz opened PR #561 in PROGRAMMABLE-EVM: 'Document the Robinhood V4 Custom Launch contract'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/561"
-  },
-  {
-   "ts": "2026-08-30T01:07:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #560 in PROGRAMMABLE-EVM: 'Harden V4 clean-room release gating'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/560"
-  },
-  {
-   "ts": "2026-08-30T00:37:44Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo DerekRaekwon/cacheflow-contracts matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/DerekRaekwon/cacheflow-contracts"
-  },
-  {
-   "ts": "2026-08-30T00:37:44Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: DerekRaekwon/cacheflow-contracts — 0★ — CACHE FLOW: a Uniswap v4 hook with a launch-day fee that falls to 3%, its locked position a...",
-   "url": "https://github.com/DerekRaekwon/cacheflow-contracts"
-  },
-  {
-   "ts": "2026-08-30T00:29:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #558 in PROGRAMMABLE: 'Polish product UI semantics and stability'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/558"
   }
  ]
 }
