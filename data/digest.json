@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-30",
+   "narrative": {
+    "en": "The night reshuffles the deck, and hazarxyz is not merely patching tears in the felt. Two consecutive merges, #558 and #562, drive the same edge of the table: profile synchronization and the semantics of the interface. The visual shell now bends to the logic of contracts, not the other way around. This is not cosmetics — this is the UI breathing in the same rhythm as the EVM.\n\nBut the real tells lie in two open deals, #560 and #561. One hardens a clean-room for the V4 release, sealing the floor before the cards are dealt. The other documents the Robinhood V4 Custom Launch contract. Not a gentleman's kit for DeFi — a custom launch contract aimed at a specific player. The deck is being stacked for a particular suit.\n\nOn-chain, a fresh Uniswap V4 pool with hooks appears: a pair with the zero address, meaning native coin, zero fee, and a wide tick spacing. The hook contract 0xadf9...20cc carries the custom logic. This is not a standard pool — it is a marked card. Someone is already dealing V4 hands, and the deck is anything but standard.\n\nREADME updated, so the documentation is pulled into line with the code. Everything syncs — profile, UI, contracts, docs. One deck, one deal. You just watch the shuffle.",
+    "zh": "夜里牌局已重新洗过，hazarxyz 不是在补漏洞，而是在重搭骨架。连续两次合入，#558 与 #562，都指向同一处命门：配置档案的同步与界面语义。界面不再自说自话，而是跟着合约的逻辑走——这不是涂脂抹粉，这是让外皮与 EVM 同呼吸。\n\n更耐看的是两扇未关的门，#560 与 #561。一道在给 V4 发布清理静室，上封条前先扫地；另一道在给 Robinhood 的 V4 定制启动合约立传。江湖上不是人人都有资格拿到定制刀，这是有人专门为某个门派打造的兵刃。\n\n链上还浮起一座新鲜的 Uniswap V4 池子，带钩子：一边是零地址，即本币；费用为无，间距宽。钩子合约 0xadf9...20cc 里藏着定制门道。这不是寻常的池子，这是有人在 V4 的江湖里下暗注。\n\nREADME 也换了新墨，文档跟上了代码。配置、界面、合约、书册，全都归位。一副牌，一张桌，你只管看他们洗牌。"
+   },
+   "take": {
+    "en": "The house is not fixing a table — it is rewriting the dealer's script, and the first custom V4 pools are already being dealt under a marked hook.",
+    "zh": "江湖夜雨，hazarxyz 不动声色地换了桌上的规矩——V4 的定制池已有人落子，钩子里藏着真正的拳谱。"
+   }
+  },
+  {
    "date": "2026-08-29",
    "narrative": {
     "en": "The cards were already on the felt when the night crew showed up. A fresh pool on the V4 table, block 25857602, native ETH paired with a token that hides behind 0x81ff...e258, zero cut for the house, spacing set to 60. But the tell isn't the pair — it's the hook contract, 0x2e4a...eaec, sitting underneath. Zero-fee pools are either toys or traps; this one looks loaded.\n\nThen the GitHub ink dries on PR #156 from luiz-lvj in the uniswap-hooks ledger: ReHypothecationHook, with a settlement reentrancy lock and pool-key validation. Rehypothecation means the same collateral gets put back to work. A hook that lets settlement reuse collateral needs a lock on the door and a check on who holds the key — otherwise one transaction drains the whole table.\n\nAnd somewhere off to the side, PROGRAMMABLE refreshes its README. A small move, but in this company it's not noise. It's assembly. Pool, hook-pr, documentation — three cards showing in sequence. The deck isn't open yet, but the pattern is starting to breathe.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The repeated hooks and the spread of rakes say these are no air checks; someone is building an economic lattice across V4 before the crowd notices.",
     "zh": "十六口池子，同一路心法重复出现；这不是试水，是有人要在 V4 的版图上占个座。"
-   }
-  },
-  {
-   "date": "2026-08-14",
-   "narrative": {
-    "en": "The table's been busy while you were counting chips. Five new hook pools hit the felt in a single day, and four of them show token A as the zero address — pure ETH, no wrappers, no disguises. This is not chance; this is a pattern. Three pools share the same hook contract, two of them with the same pairing of zero address and some junk token. Someone is testing the mechanics, maybe dynamic fees or stretched orders in the style of TWAMM. The fee is zero, the ticks are wide, the liquidity is thin — this is not a game for the retail crowd.",
-    "zh": "今日江湖水浑。五个新的 V4 hook 池子同日现身，其中四个，A 币都是零地址——纯正的 ETH，没有一丝包装。这不是巧合，这是刀法。三个池子同出一个 hook 契约，两个更是同一对：零地址配一个垃圾币。有人在试招，或是动态手续费，或是类似 TWAMM 的慢刀子。手续费为零，tick 间距宽，池子浅，不是给散户的局。"
-   },
-   "take": {
-    "en": "A single hook is laying down a telltale pattern of pools, and the registry fix suggests the house wants to trace every hand back to its dealer.",
-    "zh": "一个 hook 契约连番按下池子，江湖上多的是浅水；注册表一改，执棋者要看清每一手棋从何而来。"
    }
   }
  ]

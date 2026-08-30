@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 22,
-  "open": 3,
-  "hit_rate": 0.532
+  "miss": 21,
+  "open": 4,
+  "hit_rate": 0.543
  },
  "items": [
+  {
+   "id": 65,
+   "made_at": "2026-08-30",
+   "text": "Over the next 7 days the count clears 124, the likely landing sits between 36 and 377, and I give the over about 60% — a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-06",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 64,
    "made_at": "2026-08-29",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-03",
    "status": "miss",
    "resolution_note": "Confirmed: target +349 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 15,
-   "made_at": "2026-06-25",
-   "text": "Over the next 7 days the count will exceed 357, as builders continue deploying pools with deliberately extreme fee tiers to test hook-based revenue models.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-02",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +357 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

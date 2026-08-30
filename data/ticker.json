@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-30T03:28:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: programmablehq/PROGRAMMABLE — 11★ — Open launch-model infrastructure for Uniswap v4 on Ethereum.",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE"
+  },
+  {
+   "ts": "2026-08-30T03:28:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #563 in PROGRAMMABLE-EVM: 'Improve critical UI copy readability'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/563"
+  },
+  {
+   "ts": "2026-08-30T03:28:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Improve critical UI copy readability (#563)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d641e4d43cfa16924ea94ba3f1217dbd00e260b2"
+  },
+  {
    "ts": "2026-08-30T01:45:46Z",
    "suit": "club",
    "source": "github",
@@ -37,6 +58,20 @@
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/560"
   },
   {
+   "ts": "2026-08-30T00:37:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo DerekRaekwon/cacheflow-contracts matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/DerekRaekwon/cacheflow-contracts"
+  },
+  {
+   "ts": "2026-08-30T00:37:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: DerekRaekwon/cacheflow-contracts — 0★ — CACHE FLOW: a Uniswap v4 hook with a launch-day fee that falls to 3%, its locked position a...",
+   "url": "https://github.com/DerekRaekwon/cacheflow-contracts"
+  },
+  {
    "ts": "2026-08-30T00:29:24Z",
    "suit": "club",
    "source": "github",
@@ -49,6 +84,13 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Polish product UI semantics and stability (#558)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/03b727954c661346c3f7f133fdbb1e786dc715dc"
+  },
+  {
+   "ts": "2026-08-30T00:22:31Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: NirajBhattarai/binbook-pitch-deck — 0★ — Interactive pitch deck for BinBook — a hook-owned liquidity book for Uniswap v4",
+   "url": "https://github.com/NirajBhattarai/binbook-pitch-deck"
   },
   {
    "ts": "2026-08-30T00:00:11Z",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Stabilize API key list layout (#554)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/3e30b047889b4bf1db40787e1bcbf002ee68bee6"
-  },
-  {
-   "ts": "2026-08-29T21:25:02Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'feat(release): harden Robinhood production closure'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/0ff392e59660155f74c0228f7fb914248ac8fd46"
-  },
-  {
-   "ts": "2026-08-29T21:03:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25863477. Tokens: 0x0000000000000000000000000000000000000000 / 0x28690d1295dbaf0c06622d3b7f2fea5cec8cd62f. Fee:...",
-   "url": "https://etherscan.io/tx/0xc200a6c7ee58a3b5f444668172cf59cce4916b8768b317e6a7557dea500a6a19"
-  },
-  {
-   "ts": "2026-08-29T20:42:51Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #553 in PROGRAMMABLE-EVM: 'Polish navigation and API key experience'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/553"
-  },
-  {
-   "ts": "2026-08-29T20:42:51Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Polish navigation and API key experience (#553)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c3d4811c1589f0e8b4f180af376f10d573360a19"
-  },
-  {
-   "ts": "2026-08-29T20:39:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25863355. Tokens: 0x0000000000000000000000000000000000000000 / 0xb4eea41630fc2b962538b3ec8efa9d7f7e31f450. Fee:...",
-   "url": "https://etherscan.io/tx/0xb6cafac6d4d566c1c1d1cf841ecc3234cffee66c1bcdbc1fb65fb028a1116751"
-  },
-  {
-   "ts": "2026-08-29T20:34:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25863332. Tokens: 0x0000000000000000000000000000000000000000 / 0xfea170bd1188bf35922a48c0191a6ff1ef0d3ef0. Fee:...",
-   "url": "https://etherscan.io/tx/0x6b29acdb00df3bddb59473a8268899a76d7a66972d7f0fb0e762a2c02e3b860b"
   }
  ]
 }
