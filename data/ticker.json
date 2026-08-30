@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-30T06:00:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "PROGRAMMABLE updated README (sha 4a92c8d)",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/blob/production/README.md"
+  },
+  {
+   "ts": "2026-08-30T05:48:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #560 in PROGRAMMABLE: 'Harden V4 clean-room release gating'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/560"
+  },
+  {
+   "ts": "2026-08-30T05:48:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Harden V4 clean-room release gating (#560)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/e585e14622617215a14b24d4b13afec80315f503"
+  },
+  {
+   "ts": "2026-08-30T05:22:49Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #559 in PROGRAMMABLE: 'feat(custom-launch): expose V4 source verification status'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/559"
+  },
+  {
+   "ts": "2026-08-30T05:22:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'feat(custom-launch): expose V4 source verification status (#559)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/53926119030772040eca34b4796a36353c9da2d2"
+  },
+  {
+   "ts": "2026-08-30T04:57:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25865840. Tokens: 0x0000000000000000000000000000000000000000 / 0x7543c431829990e0eb2d0fdec8e390729a509c38. Fee:...",
+   "url": "https://etherscan.io/tx/0xb9c551b3b83bb4c6ae844184d1521ae0c37e9141c79fb0b63662eb696901663a"
+  },
+  {
    "ts": "2026-08-30T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -68,6 +110,13 @@
    "ts": "2026-08-30T03:28:13Z",
    "suit": "club",
    "source": "github",
+   "text": "hazarxyz merged PR #563 in PROGRAMMABLE: 'Improve critical UI copy readability'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/563"
+  },
+  {
+   "ts": "2026-08-30T03:28:13Z",
+   "suit": "club",
+   "source": "github",
    "text": "hazarxyz merged PR #563 in PROGRAMMABLE-EVM: 'Improve critical UI copy readability'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/563"
   },
@@ -75,8 +124,29 @@
    "ts": "2026-08-30T03:28:12Z",
    "suit": "club",
    "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Improve critical UI copy readability (#563)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d641e4d43cfa16924ea94ba3f1217dbd00e260b2"
+  },
+  {
+   "ts": "2026-08-30T03:28:12Z",
+   "suit": "club",
+   "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Improve critical UI copy readability (#563)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d641e4d43cfa16924ea94ba3f1217dbd00e260b2"
+  },
+  {
+   "ts": "2026-08-30T01:45:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #562 in PROGRAMMABLE: 'Keep profile editor values in sync'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/562"
+  },
+  {
+   "ts": "2026-08-30T01:45:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Keep profile editor values in sync (#562)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/6d9d6b312d857c96f4c26a5e9b764da6ae932580"
   },
   {
    "ts": "2026-08-30T01:45:46Z",
@@ -98,6 +168,13 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25864784. Tokens: 0x0000000000000000000000000000000000000000 / 0x3c03755df2b366cc51095b594b8a6183a56898a4. Fee:...",
    "url": "https://etherscan.io/tx/0xa8dd95453797a95a4da56221b3416a7b327c884c68ade61bbc0ecbb7aeb98ccb"
+  },
+  {
+   "ts": "2026-08-30T01:20:21Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #561 in PROGRAMMABLE: 'Document the Robinhood V4 Custom Launch contract'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/561"
   },
   {
    "ts": "2026-08-30T01:20:21Z",
@@ -131,85 +208,8 @@
    "ts": "2026-08-30T00:29:24Z",
    "suit": "club",
    "source": "github",
-   "text": "hazarxyz merged PR #558 in PROGRAMMABLE-EVM: 'Polish product UI semantics and stability'",
+   "text": "hazarxyz merged PR #558 in PROGRAMMABLE: 'Polish product UI semantics and stability'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/558"
-  },
-  {
-   "ts": "2026-08-30T00:29:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Polish product UI semantics and stability (#558)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/03b727954c661346c3f7f133fdbb1e786dc715dc"
-  },
-  {
-   "ts": "2026-08-30T00:22:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: NirajBhattarai/binbook-pitch-deck — 0★ — Interactive pitch deck for BinBook — a hook-owned liquidity book for Uniswap v4",
-   "url": "https://github.com/NirajBhattarai/binbook-pitch-deck"
-  },
-  {
-   "ts": "2026-08-30T00:00:11Z",
-   "suit": "club",
-   "source": "github",
-   "text": "PROGRAMMABLE-EVM updated README (sha 4a92c8d)",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/blob/production/README.md"
-  },
-  {
-   "ts": "2026-08-29T23:56:58Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #559 in PROGRAMMABLE-EVM: 'feat(custom-launch): expose V4 source verification status'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/559"
-  },
-  {
-   "ts": "2026-08-29T23:55:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #558 in PROGRAMMABLE-EVM: 'Polish product UI semantics and stability'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/558"
-  },
-  {
-   "ts": "2026-08-29T23:38:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25864252. Tokens: 0x0000000000000000000000000000000000000000 / 0x12e69c31d1aff10c7979894b445debde3167074f. Fee:...",
-   "url": "https://etherscan.io/tx/0xa1b4a72b55e203b00474f43bcf0ae398f0654736dbbfe53fdc0d3bf43735d981"
-  },
-  {
-   "ts": "2026-08-29T23:20:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25864161. Tokens: 0x0000000000000000000000000000000000000000 / 0xff9030c469bd02dfabea0baa8df2f053e03903d5. Fee:...",
-   "url": "https://etherscan.io/tx/0xafbef6ee45bb573f1c591b434250a8e2a72b3eca7978ca2ff0e1af550c1b8ffb"
-  },
-  {
-   "ts": "2026-08-29T23:19:54Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #557 in PROGRAMMABLE-EVM: 'Bind Robinhood Phase-A provenance across repositories'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/557"
-  },
-  {
-   "ts": "2026-08-29T23:19:54Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE-EVM: 'Bind Robinhood Phase-A provenance across repositories (#557)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d4c768ec19ed2cd962e4bd764b95c1fac97cf492"
-  },
-  {
-   "ts": "2026-08-29T23:06:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25864092. Tokens: 0x0000000000000000000000000000000000000000 / 0x055c9327974e9a7d346aed1454258ab18347d129. Fee:...",
-   "url": "https://etherscan.io/tx/0xc30cbd8d701fdd13df2c05074081472febfdc6d96773b630929403cdd11e9613"
-  },
-  {
-   "ts": "2026-08-29T22:20:13Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #556 in PROGRAMMABLE-EVM: 'Polish primary navigation and launch actions'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/556"
   }
  ]
 }
