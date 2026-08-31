@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T05:50:50Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #593 in PROGRAMMABLE: 'Fix Robinhood Phase A capture source closure digest'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/593"
+  },
+  {
+   "ts": "2026-08-31T05:29:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #592 in PROGRAMMABLE: 'fix: canonicalize capture verifier timestamps'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/592"
+  },
+  {
+   "ts": "2026-08-31T05:29:35Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: canonicalize capture verifier timestamps (#592)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c11f86abddcbe8a482fdb3b840c724917d8eea93"
+  },
+  {
+   "ts": "2026-08-31T04:50:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #591 in PROGRAMMABLE: 'fix: canonicalize Safe getter address arrays'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/591"
+  },
+  {
+   "ts": "2026-08-31T04:50:53Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: canonicalize Safe getter address arrays (#591)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/803fd9753ecb46567338778bcc4d111c32c2141c"
+  },
+  {
    "ts": "2026-08-31T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -42,6 +77,20 @@
    "source": "HOOK DISCOVERY",
    "text": "ETH / USDC 0.3% volume surged 194% to $7,714,575 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
+  },
+  {
+   "ts": "2026-08-31T04:16:39Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #590 in PROGRAMMABLE: 'fix: separate Sourcify evidence from source authority'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/590"
+  },
+  {
+   "ts": "2026-08-31T04:16:39Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: separate Sourcify evidence from source authority (#590)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62b3410aa989ba4b7cd4df72f935aa50b7c17a7a"
   },
   {
    "ts": "2026-08-31T03:56:54Z",
@@ -161,55 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25872053. Tokens: 0x0000000000000000000000000000000000000000 / 0x696a815ff8f3e3cde6347569c58a4705718e27a0. Fee:...",
    "url": "https://etherscan.io/tx/0x91e4f686963bd4ae14d3f47e65b40bf0e343a0720f07eccb199abcc9117e6378"
-  },
-  {
-   "ts": "2026-08-31T01:37:59Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo TechnicallyKiller/postmark matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/TechnicallyKiller/postmark"
-  },
-  {
-   "ts": "2026-08-31T01:37:59Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: TechnicallyKiller/postmark — 0★ — Uniswap v4 hook: charges 2 bps up front and bills the adverse selection afterwards, to the counte...",
-   "url": "https://github.com/TechnicallyKiller/postmark"
-  },
-  {
-   "ts": "2026-08-31T01:32:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #585 in PROGRAMMABLE: 'Fix migration gas sponsorship after wallet transfer'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/585"
-  },
-  {
-   "ts": "2026-08-31T01:32:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix migration gas sponsorship after wallet transfer (#585)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/02d95c039a91ec7d2521c6f15a9ba54a87df466b"
-  },
-  {
-   "ts": "2026-08-31T01:04:25Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #584 in PROGRAMMABLE: 'Use conservative Robinhood provider gas estimate'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/584"
-  },
-  {
-   "ts": "2026-08-31T01:04:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Use conservative Robinhood provider gas estimate (#584)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d5f72a2f720e6a053920a006c70e293733ee22d2"
-  },
-  {
-   "ts": "2026-08-31T00:14:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #583 in PROGRAMMABLE: 'Right-size Robinhood owner gas headroom'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/583"
   }
  ]
 }
