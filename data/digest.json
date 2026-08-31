@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-08-31",
+   "narrative": {
+    "en": "The house tonight is watching the builders slip new cards into the deal — not fixed-rate wagers, but a wager that reprices itself each hand. The hook contract, that silent croupier behind the felt, now sets the swap fee in real time, a living number instead of a chiseled tier. That's not decoration; that's a player who knows the odds shift with every breath of liquidity.\n\nThese are pools where the edge is not a static sign but a pulse. The builders aren't just installing windows — they're rewriting the house rules from the inside. When the fee is a live instrument, every swap becomes a negotiation, every pair a private market. The felt is no longer green; it's a ticker.\n\nThe old ways — the fixed tiers, the set-it-and-forget-it — belong to yesterday's table. Tonight's action says the clever money is betting on hooks that think. And if that's not a signal to watch the next seven days, then nothing on this floor is.",
+    "zh": "江湖上今晚的暗流不在价格，而在那些悄然试水的门派。他们不再立一块固定的招牌，而是让每一笔交易的过路费随内力起伏——那钩子契约便是执秤人，实时定夺抽成。这不是摆设，是把规矩炼成了活物。\n\n这些新建的池子，看似寻常，实则每一步都在改门规。侠客们不是在添砖加瓦，而是在重写内功心法。当费用变成呼吸，每一次换手都是一次试探，每一对货币都是一个独立的山头。旧日的铁律——定死的费率、刻好的牌匾——都已成了昨日黄花。\n\n今夜的行情说得很明白：聪明的钱，正押注于能思考的钩子。这七日，且看那计数能否破关。"
+   },
+   "take": {
+    "en": "The sharpest tell isn't the price; it's that builders have turned the fee into a live instrument — the market rewriting its own code.",
+    "zh": "今日刀锋最利的一招：费率已从死字变成活招，建池者正用钩子改写江湖规矩——这才是真正的暗涌。"
+   }
+  },
+  {
    "date": "2026-08-30",
    "narrative": {
     "en": "The night reshuffles the deck, and hazarxyz is not merely patching tears in the felt. Two consecutive merges, #558 and #562, drive the same edge of the table: profile synchronization and the semantics of the interface. The visual shell now bends to the logic of contracts, not the other way around. This is not cosmetics — this is the UI breathing in the same rhythm as the EVM.\n\nBut the real tells lie in two open deals, #560 and #561. One hardens a clean-room for the V4 release, sealing the floor before the cards are dealt. The other documents the Robinhood V4 Custom Launch contract. Not a gentleman's kit for DeFi — a custom launch contract aimed at a specific player. The deck is being stacked for a particular suit.\n\nOn-chain, a fresh Uniswap V4 pool with hooks appears: a pair with the zero address, meaning native coin, zero fee, and a wide tick spacing. The hook contract 0xadf9...20cc carries the custom logic. This is not a standard pool — it is a marked card. Someone is already dealing V4 hands, and the deck is anything but standard.\n\nREADME updated, so the documentation is pulled into line with the code. Everything syncs — profile, UI, contracts, docs. One deck, one deal. You just watch the shuffle.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Sixteen hook-loaded pools fired in one beat means someone is laying out a full liquidity board on purpose—this is infrastructure, not noise. The 888-ending hooks are a signature, and repeated tokens with shifting partners say the game is already rigged—by the house, not for us.",
     "zh": "十六个带钩子的池子同时落位，这不是试探，是有人在一张棋盘上排兵布阵。同一个币反复配对，钩子地址皆为888——江湖上不怕对手凶狠，就怕有人连退路都已布好。"
-   }
-  },
-  {
-   "date": "2026-08-17",
-   "narrative": {
-    "en": "Sixteen fresh pools hit the felt overnight, and a gambler reads the stack for the tell. Four of them lay down with zero rake — 0xdc43…f091, 0x693f…4eac, 0x5edc…9492, 0x66c9…fb53 — and their spacing is marked at 200 and 25, like someone tracing ranges on an empty table. But the real tell is the hook contracts: 0x6893…0cc appears twice, 0x96b8…0cc appears twice. Same code, different chips. That isn't accident; that's a system running its hands in silence.\n\nSeven of the new hands are priced at one percent, each with WETH on one side — the zero address means ether. Three sit at three-tenths of a percent. One is nearly free, 0.0001%, token 0xee45…6a38, hook 0x432f…c0c — someone who wants to trade without giving up a sliver. And deeper down, some hooks are already setting the swap fee in real time, changing the cut at the table's discretion instead of locking a fixed sticker. That is hooks acting as economic levers, not ornaments.\n\nGitHub is quiet but not idle: hazarxyz pushed a fix to keep mobile token-copy controls visible in the V4 interface. Small polish, yet it shows a hand working the UI for these contraptions. Sixteen pools in one night is not a sprint; it's a marathon deal being dealt before the crowd turns around. I keep my eyes on the hooks.",
-    "zh": "后半夜的江湖，有人往桌上甩了十六块新牌——Uniswap 的 V4 又长出新池子。四块牌子不收过路费：0xdc43…f091、0x693f…4eac、0x5edc…9492、0x66c9…fb53，间距刻着 200 和 25，像是在空地上画好格子再慢慢练拳。真正扎眼的是钩子重复了：0x6893…0cc 出现两回，0x96b8…0cc 也出现两回。同一个心法，挂在不同门派下，这不是随手为之，是有人按谱落子。\n\n七口池子收一个点的过路费，另一头全挂的是 WETH；三口收千分之三；还有一口只收万分之一，代币是 0xee45…6a38，钩子是 0x432f…c0c。有人想近身肉搏，连滑点都不想给。更亮的是有些钩子直接在交易时定费用——过路费由阵法的内功当场决定，不是刻死的价签。这是把钩子当经济命门来用，不是挂个招牌充门面。\n\nGitHub 那边也不是静水：hazarxyz 改了 programmable，让手机端复制代币地址的按钮一直看得见。界面功夫不多，却说明有人在专门打磨这些 V4 物件的门面。一夜十六口池子，不是短跑，是有人把内力往长局里铺。"
-   },
-   "take": {
-    "en": "The repeated hooks and the spread of rakes say these are no air checks; someone is building an economic lattice across V4 before the crowd notices.",
-    "zh": "十六口池子，同一路心法重复出现；这不是试水，是有人要在 V4 的版图上占个座。"
    }
   }
  ]
