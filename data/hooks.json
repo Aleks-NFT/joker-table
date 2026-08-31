@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-08-31T13:13:29Z",
- "total_hooks": 4019,
- "total_pools": 12761,
+ "generated_at": "2026-08-31T14:13:29Z",
+ "total_hooks": 4024,
+ "total_pools": 12767,
  "multi_pool_hooks": 368,
  "shown": 368,
  "more_count": 0,
@@ -4617,6 +4617,27 @@
    "visible": false
   },
   {
+   "address": "0xa4e6f5500e88691fdcb289aa0e99067481434880",
+   "address_short": "0xa4e6…4880",
+   "name": "ArrakisPrivateHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xa4e6f5500e88691fdcb289aa0e99067481434880",
+   "pool_count": 3,
+   "permissions_human": [
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeAddLiquidity",
+    "beforeSwap"
+   ],
+   "first_block": 25796359,
+   "last_block": 25875153,
+   "last_deploy": "2026-08-31T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xbe86c786905dcc2bc8b9e4fd665887f4cdf88ac8",
    "address_short": "0xbe86…8ac8",
    "name": "RatchetHook",
@@ -7019,27 +7040,6 @@
    "last_block": 25194886,
    "last_deploy": "2026-06-08T19:22:01Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xa4e6f5500e88691fdcb289aa0e99067481434880",
-   "address_short": "0xa4e6…4880",
-   "name": "ArrakisPrivateHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xa4e6f5500e88691fdcb289aa0e99067481434880",
-   "pool_count": 2,
-   "permissions_human": [
-    "manages liquidity",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeAddLiquidity",
-    "beforeSwap"
-   ],
-   "first_block": 25796359,
-   "last_block": 25855109,
-   "last_deploy": "2026-08-28T18:00:03Z",
-   "active": true,
    "visible": false
   },
   {

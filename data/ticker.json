@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T13:49:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #601 in PROGRAMMABLE: 'fix(migration): align transfer guidance with the live window'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/601"
+  },
+  {
+   "ts": "2026-08-31T13:49:07Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(migration): align transfer guidance with the live window (#601)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/5a7c2023a711f82b7867d42ab4c694463d0370ab"
+  },
+  {
+   "ts": "2026-08-31T13:38:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875609. Tokens: 0x0000000000000000000000000000000000000000 / 0x2e0fdd375311ed280393c1099bede878ab1e523a. Fee:...",
+   "url": "https://etherscan.io/tx/0xf00829bc6fc0ac11f93c683bb672968061376af2775e2c02cace61edeb03d001"
+  },
+  {
+   "ts": "2026-08-31T13:19:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875515. Tokens: 0x0000000000000000000000000000000000000000 / 0xdb0dc1ea351f135fa1199e7c725dad388865c237. Fee:...",
+   "url": "https://etherscan.io/tx/0x107e649d2e73e2640e2d949280fbe69dec0b52c30ef5dbbc1629b412220eeeea"
+  },
+  {
+   "ts": "2026-08-31T13:01:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875425. Tokens: 0x0000000000000000000000000000000000000000 / 0xf7f90fe0d4a1aa5e94c317493def92d0cf74ba21. Fee:...",
+   "url": "https://etherscan.io/tx/0x737a2b0b92e74484a8da3b9477ad4995d94f50aed24cdfa51ed1d0291c59426c"
+  },
+  {
+   "ts": "2026-08-31T12:52:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #600 in PROGRAMMABLE: 'Fix migration progress rate limits and retry handling'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/600"
+  },
+  {
+   "ts": "2026-08-31T12:52:39Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix migration progress rate limits and retry handling (#600)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/641244c172336eb53579264b4a37e21bc93da6eb"
+  },
+  {
+   "ts": "2026-08-31T12:44:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875344. Tokens: 0x0000000000000000000000000000000000000000 / 0x131f930ff2c623215a5c7199c7203b7053e614de. Fee:...",
+   "url": "https://etherscan.io/tx/0xcfdf19200ee243b3046b5fd77387470f433e4bde44f4fb5818a70f4d807a208b"
+  },
+  {
+   "ts": "2026-08-31T12:26:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875253. Tokens: 0x0000000000000000000000000000000000000000 / 0x29d4f8616c7eab8ebac65a9fc58731ac50b4901c. Fee:...",
+   "url": "https://etherscan.io/tx/0x4bfc9e1c62fb118c2f20e9be6116754bfb146738d09087eed6f92b95151f9797"
+  },
+  {
+   "ts": "2026-08-31T12:16:31Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #598 in PROGRAMMABLE: 'docs: add planned Robinhood V4 indexing contract'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/598"
+  },
+  {
+   "ts": "2026-08-31T12:16:31Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'docs: add planned Robinhood V4 indexing contract (#598)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/fb4d19ec71db5ed6c46d27291c3a7baaf7fe6e3e"
+  },
+  {
+   "ts": "2026-08-31T12:06:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25875153. Tokens: 0x0000000000000000000000000000000000000000 / 0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb. Fee:...",
+   "url": "https://etherscan.io/tx/0xc6e75124d179dc11be6419836830a550775601c6a80031ebe1b24cb0de0dd7f6"
+  },
+  {
    "ts": "2026-08-31T11:55:20Z",
    "suit": "club",
    "source": "github",
@@ -126,90 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #595 in PROGRAMMABLE: 'Activate 72-hour V4 migration window'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/595"
-  },
-  {
-   "ts": "2026-08-31T07:12:44Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Activate 72-hour V4 migration window (#595)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c0c8c8340387e5c2704219b931cdc9f801934fbf"
-  },
-  {
-   "ts": "2026-08-31T07:03:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25873645. Tokens: 0x0000000000000000000000000000000000000000 / 0x6922dac0ba1d5262fb799c25557be70099aafda2. Fee:...",
-   "url": "https://etherscan.io/tx/0xd24827f5b29e2b1643f8f8ec85b106d9ab7b9ccb038e617aa1fa0b9804a7a7af"
-  },
-  {
-   "ts": "2026-08-31T06:47:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #594 in PROGRAMMABLE: 'Import attested Robinhood Phase A evidence'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/594"
-  },
-  {
-   "ts": "2026-08-31T06:47:13Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Import attested Robinhood Phase A evidence (#594)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/7d863deea1b3578d01ba704921cb1cd4f58c38e3"
-  },
-  {
-   "ts": "2026-08-31T06:40:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25873529. Tokens: 0x0000000000000000000000000000000000000000 / 0x69aae8e2bacef3711f6306594a34c3f73b4af973. Fee:...",
-   "url": "https://etherscan.io/tx/0x0b5a3d6d360a2d525e03dcc3390dd086f2e11ae016f3f5d010a299f54a8fbfc3"
-  },
-  {
-   "ts": "2026-08-31T06:06:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #593 in PROGRAMMABLE: 'Fix Robinhood Phase A capture source closure digest'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/593"
-  },
-  {
-   "ts": "2026-08-31T06:06:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix Robinhood Phase A capture source closure digest (#593)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/0acbfae6de4e5b7d33b0dfe7ec0e786d7e9eb8c3"
-  },
-  {
-   "ts": "2026-08-31T05:50:50Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #593 in PROGRAMMABLE: 'Fix Robinhood Phase A capture source closure digest'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/593"
-  },
-  {
-   "ts": "2026-08-31T05:29:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #592 in PROGRAMMABLE: 'fix: canonicalize capture verifier timestamps'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/592"
-  },
-  {
-   "ts": "2026-08-31T05:29:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: canonicalize capture verifier timestamps (#592)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c11f86abddcbe8a482fdb3b840c724917d8eea93"
-  },
-  {
-   "ts": "2026-08-31T04:50:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #591 in PROGRAMMABLE: 'fix: canonicalize Safe getter address arrays'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/591"
-  },
-  {
-   "ts": "2026-08-31T04:50:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: canonicalize Safe getter address arrays (#591)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/803fd9753ecb46567338778bcc4d111c32c2141c"
   }
  ]
 }
