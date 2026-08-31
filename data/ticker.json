@@ -2,6 +2,76 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T01:59:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #586 in PROGRAMMABLE: 'Pass Phase A Verify proof output binding'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/586"
+  },
+  {
+   "ts": "2026-08-31T01:58:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25872127. Tokens: 0x0000000000000000000000000000000000000000 / 0x693a4b0e5ca5a75a1844c43e14c35813115959cf. Fee:...",
+   "url": "https://etherscan.io/tx/0x40b07d278c3a344320aa4d919c56921742ac86350e0380227ad14b9f085be83c"
+  },
+  {
+   "ts": "2026-08-31T01:55:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25872108. Tokens: 0x0000000000000000000000000000000000000000 / 0x69fb645036155a6de193c8a6e2dad4c6b4100194. Fee:...",
+   "url": "https://etherscan.io/tx/0x635fc623a81e3d9d81c57b2ca7f78bc627fdb24f359ce208f30b2a25be90bf49"
+  },
+  {
+   "ts": "2026-08-31T01:44:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25872053. Tokens: 0x0000000000000000000000000000000000000000 / 0x696a815ff8f3e3cde6347569c58a4705718e27a0. Fee:...",
+   "url": "https://etherscan.io/tx/0x91e4f686963bd4ae14d3f47e65b40bf0e343a0720f07eccb199abcc9117e6378"
+  },
+  {
+   "ts": "2026-08-31T01:32:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #585 in PROGRAMMABLE: 'Fix migration gas sponsorship after wallet transfer'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/585"
+  },
+  {
+   "ts": "2026-08-31T01:32:00Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix migration gas sponsorship after wallet transfer (#585)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/02d95c039a91ec7d2521c6f15a9ba54a87df466b"
+  },
+  {
+   "ts": "2026-08-31T01:04:25Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #584 in PROGRAMMABLE: 'Use conservative Robinhood provider gas estimate'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/584"
+  },
+  {
+   "ts": "2026-08-31T01:04:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Use conservative Robinhood provider gas estimate (#584)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/d5f72a2f720e6a053920a006c70e293733ee22d2"
+  },
+  {
+   "ts": "2026-08-31T00:14:07Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #583 in PROGRAMMABLE: 'Right-size Robinhood owner gas headroom'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/583"
+  },
+  {
+   "ts": "2026-08-31T00:14:07Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Right-size Robinhood owner gas headroom (#583)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c046dc3b733f8c3e7ff86284b96c20d90748a2a3"
+  },
+  {
    "ts": "2026-08-30T23:58:29Z",
    "suit": "club",
    "source": "github",
@@ -140,76 +210,6 @@
    "source": "github",
    "text": "hazarxyz closed PR #577 in PROGRAMMABLE: 'Prepare exact V4 migration to Robinhood'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/577"
-  },
-  {
-   "ts": "2026-08-30T19:49:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870288. Tokens: 0x0000000000000000000000000000000000000000 / 0xa2146d4817ffab77ac70ba3645ad4f79926b468d. Fee:...",
-   "url": "https://etherscan.io/tx/0x9977ae993019d4e9bb425c48714de03b04f6315f99042f48bc9d395a35d3095b"
-  },
-  {
-   "ts": "2026-08-30T19:46:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #575 in PROGRAMMABLE: 'fix(contracts): tolerate fast Robinhood pending heads'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/575"
-  },
-  {
-   "ts": "2026-08-30T19:46:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(contracts): tolerate fast Robinhood pending heads (#575)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/87950ab711de3cc5e637a11425d3d7ab1770835e"
-  },
-  {
-   "ts": "2026-08-30T19:43:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870256. Tokens: 0x0000000000000000000000000000000000000000 / 0x6d64e2f2653ea299cde8af2d2d98fac2badc694e. Fee:...",
-   "url": "https://etherscan.io/tx/0x4fe40920bec56d31f90cb8caa4d5ec89399335e8c11428e1a81628d6b78bdf20"
-  },
-  {
-   "ts": "2026-08-30T19:35:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870215. Tokens: 0x0000000000000000000000000000000000000000 / 0x28c1801486fe8d4429a7576b6e5344054713f59b. Fee:...",
-   "url": "https://etherscan.io/tx/0xb776c2fdf941fd864c0d4ebe8c011c6e84c0af5fdaea4351fb96619cdaaf9b94"
-  },
-  {
-   "ts": "2026-08-30T19:32:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870201. Tokens: 0x0000000000000000000000000000000000000000 / 0x269995a40e0b682461e8e496445d799e6d2586f1. Fee:...",
-   "url": "https://etherscan.io/tx/0x2d05ea190adbd3870ce7749c59314fc6d9b0a2b41bb71c7e4dce2da0e00da5e7"
-  },
-  {
-   "ts": "2026-08-30T19:15:23Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #576 in PROGRAMMABLE: 'Clarify failed fee refresh state'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/576"
-  },
-  {
-   "ts": "2026-08-30T19:15:23Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Clarify failed fee refresh state (#576)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/908e7a2ce6849f19b32ab42b04d538e65ed65bac"
-  },
-  {
-   "ts": "2026-08-30T19:12:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870101. Tokens: 0x228d883fa9243e60e70587a602e8fb365ef79f2f / 0xf6b1117ec07684d3958cad8beb1b302bfd21103f. Fee:...",
-   "url": "https://etherscan.io/tx/0xd808122d2c7da1a139faa26f31b43abbb565f3fd04f9feea513075c7be8bf617"
-  },
-  {
-   "ts": "2026-08-30T19:07:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25870076. Tokens: 0x0000000000000000000000000000000000000000 / 0x8b8108cdba61655a61fb8a91266be215e8786936. Fee:...",
-   "url": "https://etherscan.io/tx/0x7325e6cd2066bc49f7cf13a4e06e8dc5d7b595d8276489b3dae62d1d97a3a908"
   }
  ]
 }
