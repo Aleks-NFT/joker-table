@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $36,581,103   #2 USDC / USDT — $22,252,084   #3 PYUSD / USDS — $12,213,124   #4 E...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% TVL shrank 46% to $629,975",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS TVL shrank 33% to $20,005,222",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS volume dropped 96% to $6,276,368 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.3% TVL grew 88% to $41,484,676",
+   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
+  },
+  {
+   "ts": "2026-08-31T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.3% volume surged 194% to $7,714,575 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
+  },
+  {
    "ts": "2026-08-31T03:56:54Z",
    "suit": "club",
    "source": "github",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #583 in PROGRAMMABLE: 'Right-size Robinhood owner gas headroom'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/583"
-  },
-  {
-   "ts": "2026-08-31T00:14:07Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Right-size Robinhood owner gas headroom (#583)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/c046dc3b733f8c3e7ff86284b96c20d90748a2a3"
-  },
-  {
-   "ts": "2026-08-30T23:58:29Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #583 in PROGRAMMABLE: 'Right-size Robinhood owner gas headroom'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/583"
-  },
-  {
-   "ts": "2026-08-30T23:41:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo farbodghasemlu/optimal-dynamic-fee-hook matches a hook deployed on-chain (feehook, 0xa2dcd7bf…) — code we can read behind a live contract",
-   "url": "https://github.com/farbodghasemlu/optimal-dynamic-fee-hook"
-  },
-  {
-   "ts": "2026-08-30T23:41:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: farbodghasemlu/optimal-dynamic-fee-hook — 0★ — Optimal Dynamic Fee Hook for Uniswap v4",
-   "url": "https://github.com/farbodghasemlu/optimal-dynamic-fee-hook"
-  },
-  {
-   "ts": "2026-08-30T23:13:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25871305. Tokens: 0x29dc71a064a7df612be926b05d53c76357909b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xddba11c919a7abddb014077cbb5ca74747dc364de40cf210837806073be92137"
-  },
-  {
-   "ts": "2026-08-30T23:09:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #582 in PROGRAMMABLE: 'Restore migration send flow for delegated EOAs'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/582"
   }
  ]
 }
