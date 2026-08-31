@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T11:55:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #599 in PROGRAMMABLE: 'fix(migration): scope transfer recovery to the connected wallet'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/599"
+  },
+  {
+   "ts": "2026-08-31T11:55:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(migration): scope transfer recovery to the connected wallet (#599)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/f28de92000207ba7504fceb283bbe0a9facaa995"
+  },
+  {
+   "ts": "2026-08-31T11:27:11Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #598 in PROGRAMMABLE: 'docs: add planned Robinhood V4 indexing contract'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/598"
+  },
+  {
+   "ts": "2026-08-31T11:17:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25874907. Tokens: 0x0000000000000000000000000000000000000000 / 0xea66f4371f229ac334cf7d6b2746c4190c5e3538. Fee:...",
+   "url": "https://etherscan.io/tx/0x5f882dcb33970df22f7191249e1facab01032a3dfae3df1297b556a44d40d439"
+  },
+  {
+   "ts": "2026-08-31T10:57:15Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #597 in PROGRAMMABLE: 'Fix gasless migration for delegated wallets'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/597"
+  },
+  {
+   "ts": "2026-08-31T10:57:15Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix gasless migration for delegated wallets (#597)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/811aa384349049d5b779d0118d29a6ddd23e6772"
+  },
+  {
+   "ts": "2026-08-31T10:46:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25874756. Tokens: 0x0000000000000000000000000000000000000000 / 0x01a546920a2bd81b552a379bc444aa1ed3830e77. Fee:...",
+   "url": "https://etherscan.io/tx/0xfe37d79514e48d72f123648f5a96d86f21f2c9e8d7e20b33985b385a62625521"
+  },
+  {
+   "ts": "2026-08-31T10:21:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25874630. Tokens: 0x0000000000000000000000000000000000000000 / 0x3fd1d8ea9d3b31043542d16114307e09545060cc. Fee:...",
+   "url": "https://etherscan.io/tx/0x3b9aa91c29def07c44c686553c11bbf40949216611d0cbcb4b1696a11d049e6e"
+  },
+  {
    "ts": "2026-08-31T08:32:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: canonicalize Safe getter address arrays (#591)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/803fd9753ecb46567338778bcc4d111c32c2141c"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $36,581,103   #2 USDC / USDT — $22,252,084   #3 PYUSD / USDS — $12,213,124   #4 E...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% TVL shrank 46% to $629,975",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "RLUSD / USDS TVL shrank 33% to $20,005,222",
-   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "RLUSD / USDS volume dropped 96% to $6,276,368 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / USDC 0.3% TVL grew 88% to $41,484,676",
-   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
-  },
-  {
-   "ts": "2026-08-31T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / USDC 0.3% volume surged 194% to $7,714,575 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
-  },
-  {
-   "ts": "2026-08-31T04:16:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #590 in PROGRAMMABLE: 'fix: separate Sourcify evidence from source authority'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/590"
-  },
-  {
-   "ts": "2026-08-31T04:16:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix: separate Sourcify evidence from source authority (#590)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62b3410aa989ba4b7cd4df72f935aa50b7c17a7a"
   }
  ]
 }
