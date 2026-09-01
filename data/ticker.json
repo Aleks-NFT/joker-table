@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T05:28:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880343. Tokens: 0xb6ed7644c69416d67b522e20bc294a9a9b405b31 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x49a24d9ee480d3a96fd7cf27390a11ccfe47948ff75845261af4f38709e6c0fc"
+  },
+  {
+   "ts": "2026-09-01T05:18:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880289. Tokens: 0x0000000000000000000000000000000000000000 / 0xf869787654745cf787f5a3602b84bd98f477350a. Fee:...",
+   "url": "https://etherscan.io/tx/0x792990b8b9090d20f3f17b54edb9f5564200e11cca1c8f1ab23a0c13611bfd74"
+  },
+  {
+   "ts": "2026-09-01T05:10:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880253. Tokens: 0x0000000000000000000000000000000000000000 / 0xd4219cc7cff4bed697e6d999f49f5107e737b2fa. Fee:...",
+   "url": "https://etherscan.io/tx/0x0b010480a2dcb53682f0c8d33ece3f7f88f9ca59d18d04dbedf13ce507243069"
+  },
+  {
+   "ts": "2026-09-01T04:52:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880162. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
+   "url": "https://etherscan.io/tx/0x486f4d60433e871426ab935be090e537521813927f5e8d74d7f770b33532ce5b"
+  },
+  {
+   "ts": "2026-09-01T04:43:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880116. Tokens: 0x0000000000000000000000000000000000000000 / 0x800c7f63e74c7caa4464e39d3d034821ac0722dc. Fee:...",
+   "url": "https://etherscan.io/tx/0x94b4d98b54570f5be69bc13dea2adbc258fc5b08c968ad56a6906ed57bfbec20"
+  },
+  {
+   "ts": "2026-09-01T04:39:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880098. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
+   "url": "https://etherscan.io/tx/0xe76e518b7f412063995b6b6e5ac2160fbd2b37eec34a17972db8521b42738d51"
+  },
+  {
+   "ts": "2026-09-01T04:37:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25880085. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
+   "url": "https://etherscan.io/tx/0x90334407b798d4ae0ab6396332340bca6197f960df9f5ab5d171e92c24582bff"
+  },
+  {
    "ts": "2026-09-01T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -161,55 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff (#616)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62e5afbf4b869822b0e6f303c868a9c1b153f577"
-  },
-  {
-   "ts": "2026-09-01T00:32:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo sarv6969/penny-protocol matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
-   "url": "https://github.com/sarv6969/penny-protocol"
-  },
-  {
-   "ts": "2026-09-01T00:32:24Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: sarv6969/penny-protocol — 0★ — PENNY — fee-funded rotating basket of Robinhood Stock Token rewards on Robinhood Chain. Uniswap v4 h...",
-   "url": "https://github.com/sarv6969/penny-protocol"
-  },
-  {
-   "ts": "2026-08-31T23:51:13Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #614 in PROGRAMMABLE: 'Fix new WalletConnect audit advisory'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/614"
-  },
-  {
-   "ts": "2026-08-31T23:51:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix new WalletConnect audit advisory (#614)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/1d7c472273e7b85f9c3d4bf3bfd39e6bed5761ce"
-  },
-  {
-   "ts": "2026-08-31T23:30:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #613 in PROGRAMMABLE: 'Harden Ethereum launch indexing and provider enrichment'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/613"
-  },
-  {
-   "ts": "2026-08-31T23:30:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Harden Ethereum launch indexing and provider enrichment (#613)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/8898a8f815e9c1523b45b6ef6f40bc9f5702acd5"
-  },
-  {
-   "ts": "2026-08-31T23:21:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25878514. Tokens: 0x0000000000000000000000000000000000000000 / 0x69189c8fb687e4c333de4eff32b68677cebcfe1a. Fee:...",
-   "url": "https://etherscan.io/tx/0x4efb9a664b94eba18bd8b1a2ff9f1c30343cd64401515e0505bda135bdd55518"
   }
  ]
 }
