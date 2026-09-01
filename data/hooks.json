@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-01T04:13:28Z",
+ "generated_at": "2026-09-01T05:13:31Z",
  "total_hooks": 4052,
  "total_pools": 12818,
  "multi_pool_hooks": 370,
@@ -408,8 +408,8 @@
   {
    "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
    "address_short": "0x4887…4500",
-   "name": "",
-   "verified": false,
+   "name": "LauncherHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
    "pool_count": 102,
    "permissions_human": [
@@ -3706,8 +3706,8 @@
   {
    "address": "0x57e0589aa41ee7d2493c1dd03629d4f43d1b80cc",
    "address_short": "0x57e0…80cc",
-   "name": "",
-   "verified": false,
+   "name": "MixpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x57e0589aa41ee7d2493c1dd03629d4f43d1b80cc",
    "pool_count": 6,
    "permissions_human": [
@@ -7899,8 +7899,8 @@
   {
    "address": "0xdbc61875df1b1c477aedf91708750765dcb6c8c4",
    "address_short": "0xdbc6…c8c4",
-   "name": "",
-   "verified": false,
+   "name": "AccessControlDynamicFeeHookV4",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xdbc61875df1b1c477aedf91708750765dcb6c8c4",
    "pool_count": 2,
    "permissions_human": [
