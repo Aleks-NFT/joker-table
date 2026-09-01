@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T09:30:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Fatumayattani/imprint — 0★ — A Uniswap v4 hook for refundable price-impact bonds.",
+   "url": "https://github.com/Fatumayattani/imprint"
+  },
+  {
+   "ts": "2026-09-01T08:53:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25881361. Tokens: 0x0000000000000000000000000000000000000000 / 0x69d40743e4d26255500924e7976a31bbee90aa7d. Fee:...",
+   "url": "https://etherscan.io/tx/0x70d7728d8568f3e969f4512cf7303713491b4775affafdb729b46a18a49a132a"
+  },
+  {
    "ts": "2026-09-01T07:45:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25879048. Tokens: 0x40aaf75454036bed56f3266ccf18f6b7befd6aca / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
    "url": "https://etherscan.io/tx/0x33adc0fcf391d8974f856aa97aacf73682d8c05b215d1f4390437ad4811dc177"
-  },
-  {
-   "ts": "2026-09-01T01:06:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #615 in PROGRAMMABLE: 'Fix staged market observation smoke'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/615"
-  },
-  {
-   "ts": "2026-09-01T01:06:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix staged market observation smoke (#615)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9a4f5244612d39c387022ce290de40760b112540"
   }
  ]
 }
