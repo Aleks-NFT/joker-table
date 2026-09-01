@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T01:39:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879199. Tokens: 0x39de078edcc3cce8853fb9e71e26dfad71f73356 / 0xe172e9b6cfbeeb5593bdce3f077356fdb33af904. Fee:...",
+   "url": "https://etherscan.io/tx/0x488d8bac1db714422195debc7194d1f22ab07e39a8cf64f4fbb41bf8bd2acf63"
+  },
+  {
+   "ts": "2026-09-01T01:30:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879152. Tokens: 0x0000000000000000000000000000000000000000 / 0x298e279b3ee0997712ced82855d842bbd2108c66. Fee:...",
+   "url": "https://etherscan.io/tx/0x2747de2adbf99d05275af499f2e53e1650bcad927e9bc3c99df28939f300c011"
+  },
+  {
+   "ts": "2026-09-01T01:18:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879095. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x30d96a650e8f748175457f3d05a2775647e4a3393e17a7e07516c457a2bc3258"
+  },
+  {
+   "ts": "2026-09-01T01:09:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879048. Tokens: 0x40aaf75454036bed56f3266ccf18f6b7befd6aca / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x33adc0fcf391d8974f856aa97aacf73682d8c05b215d1f4390437ad4811dc177"
+  },
+  {
+   "ts": "2026-09-01T01:06:18Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #615 in PROGRAMMABLE: 'Fix staged market observation smoke'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/615"
+  },
+  {
+   "ts": "2026-09-01T01:06:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix staged market observation smoke (#615)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9a4f5244612d39c387022ce290de40760b112540"
+  },
+  {
+   "ts": "2026-09-01T00:47:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #616 in PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/616"
+  },
+  {
+   "ts": "2026-09-01T00:47:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff (#616)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62e5afbf4b869822b0e6f303c868a9c1b153f577"
+  },
+  {
    "ts": "2026-08-31T23:51:13Z",
    "suit": "club",
    "source": "github",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'Keep network feedback clear of header menus (#608)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/410e2cd8cf440f2482807e3f421ea64fc34e2ba8"
-  },
-  {
-   "ts": "2026-08-31T20:02:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #607 in PROGRAMMABLE: 'Fix topbar wallet actions and actual network switching'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/607"
-  },
-  {
-   "ts": "2026-08-31T20:02:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix topbar wallet actions and actual network switching (#607)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/3dfa665515143f8897e8e7505911c24d5e41dc9d"
-  },
-  {
-   "ts": "2026-08-31T20:00:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877512. Tokens: 0x0000000000000000000000000000000000000000 / 0x22161edc47b0b93cdfbbb7785451fa21692e34c2. Fee:...",
-   "url": "https://etherscan.io/tx/0xbc0c3397cd4cf53ee0c9e49421eb8f9622fcb35f85d030b0cb87f248c2b58b9c"
-  },
-  {
-   "ts": "2026-08-31T19:47:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #607 in PROGRAMMABLE: 'Fix topbar wallet actions and actual network switching'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/607"
-  },
-  {
-   "ts": "2026-08-31T19:44:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877432. Tokens: 0x0000000000000000000000000000000000000000 / 0x540f68d8b7225a1feaa650e1731766f423b89789. Fee:...",
-   "url": "https://etherscan.io/tx/0xab06e1b9c6e5c19ce38332caf29bc2f3235f1bf2e64339d54684c0538e47241b"
-  },
-  {
-   "ts": "2026-08-31T19:33:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877377. Tokens: 0x0000000000000000000000000000000000000000 / 0x8a5d7560b17fa20ef4b2200439772788240c6d39. Fee:...",
-   "url": "https://etherscan.io/tx/0x25991225713a24679fa15759f09a5dca14bef7d1a25596ffde0b3250d2837a04"
-  },
-  {
-   "ts": "2026-08-31T19:29:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877359. Tokens: 0x0000000000000000000000000000000000000000 / 0xf516d694a2cf05e4024d9e509ec3c25f71ad7eed. Fee:...",
-   "url": "https://etherscan.io/tx/0x738d11ed7cf47cdf8fe874c3e35311c72e3ce6186ee96cc4f806f76fcfc3404d"
-  },
-  {
-   "ts": "2026-08-31T19:26:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877344. Tokens: 0x0000000000000000000000000000000000000000 / 0x805d6bb4ee27eb2d7b489e44e005e7fe4aa65ea8. Fee:...",
-   "url": "https://etherscan.io/tx/0xe331bfef72e1257805315726d146c4c1efbcee5e179be8d31a352a50e10d1035"
   }
  ]
 }
