@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T11:58:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #618 in PROGRAMMABLE: 'Fix verified Router-only Stage and chart fallback'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/618"
+  },
+  {
+   "ts": "2026-09-01T11:14:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25882062. Tokens: 0x0000000000000000000000000000000000000000 / 0xf2d1e6fc468d6cff3417ede7b96b2443b168a826. Fee:...",
+   "url": "https://etherscan.io/tx/0x371f37bc19f9e9840531984a9d9738a574ba5c0bb595900c5364af45aa50adbc"
+  },
+  {
+   "ts": "2026-09-01T11:09:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25882036. Tokens: 0x0000000000000000000000000000000000000000 / 0xdb9fbd72092ebcc3d8436ebf16fc894852bbd698. Fee:...",
+   "url": "https://etherscan.io/tx/0x781c7c61ad2b16b06c85247f2e1a5c04631243723405744890174099299a7611"
+  },
+  {
+   "ts": "2026-09-01T10:50:39Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #617 in PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/617"
+  },
+  {
+   "ts": "2026-09-01T10:50:38Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence (#617)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9d81af890e14e39aef415399b7df80745670483c"
+  },
+  {
    "ts": "2026-09-01T09:30:58Z",
    "suit": "club",
    "source": "github",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25879898. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xfcccbac695612760be913367982900f37a94ba11. Fee:...",
    "url": "https://etherscan.io/tx/0xcf10910c26694bc805923d16d2959d3bb2c6a7f08d9d6496898c74bb0f44067e"
-  },
-  {
-   "ts": "2026-09-01T03:51:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879860. Tokens: 0x0000000000000000000000000000000000000000 / 0x69e85beeb283b843328eb0b9b9f53d90d373e5ab. Fee:...",
-   "url": "https://etherscan.io/tx/0x7f27fbaed1bcaab7579a92fe10b1c173db68da6d93e276bccaed98a3843db550"
-  },
-  {
-   "ts": "2026-09-01T01:39:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879199. Tokens: 0x39de078edcc3cce8853fb9e71e26dfad71f73356 / 0xe172e9b6cfbeeb5593bdce3f077356fdb33af904. Fee:...",
-   "url": "https://etherscan.io/tx/0x488d8bac1db714422195debc7194d1f22ab07e39a8cf64f4fbb41bf8bd2acf63"
-  },
-  {
-   "ts": "2026-09-01T01:30:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879152. Tokens: 0x0000000000000000000000000000000000000000 / 0x298e279b3ee0997712ced82855d842bbd2108c66. Fee:...",
-   "url": "https://etherscan.io/tx/0x2747de2adbf99d05275af499f2e53e1650bcad927e9bc3c99df28939f300c011"
-  },
-  {
-   "ts": "2026-09-01T01:18:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879095. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x30d96a650e8f748175457f3d05a2775647e4a3393e17a7e07516c457a2bc3258"
-  },
-  {
-   "ts": "2026-09-01T01:09:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879048. Tokens: 0x40aaf75454036bed56f3266ccf18f6b7befd6aca / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
-   "url": "https://etherscan.io/tx/0x33adc0fcf391d8974f856aa97aacf73682d8c05b215d1f4390437ad4811dc177"
   }
  ]
 }
