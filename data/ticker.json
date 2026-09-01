@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-08-31T23:51:13Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #614 in PROGRAMMABLE: 'Fix new WalletConnect audit advisory'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/614"
+  },
+  {
+   "ts": "2026-08-31T23:51:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix new WalletConnect audit advisory (#614)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/1d7c472273e7b85f9c3d4bf3bfd39e6bed5761ce"
+  },
+  {
+   "ts": "2026-08-31T23:30:28Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #613 in PROGRAMMABLE: 'Harden Ethereum launch indexing and provider enrichment'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/613"
+  },
+  {
+   "ts": "2026-08-31T23:30:28Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Harden Ethereum launch indexing and provider enrichment (#613)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/8898a8f815e9c1523b45b6ef6f40bc9f5702acd5"
+  },
+  {
+   "ts": "2026-08-31T23:21:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25878514. Tokens: 0x0000000000000000000000000000000000000000 / 0x69189c8fb687e4c333de4eff32b68677cebcfe1a. Fee:...",
+   "url": "https://etherscan.io/tx/0x4efb9a664b94eba18bd8b1a2ff9f1c30343cd64401515e0505bda135bdd55518"
+  },
+  {
+   "ts": "2026-08-31T23:12:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25878466. Tokens: 0x40aaf75454036bed56f3266ccf18f6b7befd6aca / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x6d1aac53a0d2b47a1ceddbada17e6c960b56ee334216ba7b20b1bfb69bc3235d"
+  },
+  {
+   "ts": "2026-08-31T23:09:51Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #612 in PROGRAMMABLE: 'Bind relay preflight to the full dispatch ref'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/612"
+  },
+  {
+   "ts": "2026-08-31T23:09:50Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Bind relay preflight to the full dispatch ref (#612)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/b6ffcae17135b6065607a37ec4c57be3594c8265"
+  },
+  {
+   "ts": "2026-08-31T23:04:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25878429. Tokens: 0x40aaf75454036bed56f3266ccf18f6b7befd6aca / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x657970e1a47079e46af2a9b604415df728d33adeff2eb06af80d6b5a385d13ab"
+  },
+  {
+   "ts": "2026-08-31T22:29:30Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #611 in PROGRAMMABLE: 'Provision the relay sealed-box runtime'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/611"
+  },
+  {
+   "ts": "2026-08-31T22:29:29Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Provision the relay sealed-box runtime (#611)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/422c3bcacbff0779e8bee32e012e9b97d0ec1527"
+  },
+  {
+   "ts": "2026-08-31T22:23:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25878226. Tokens: 0x0000000000000000000000000000000000000000 / 0x1c90dc4383f66ca43e8df09019bf71879e3171eb. Fee:...",
+   "url": "https://etherscan.io/tx/0x90aaaf1259949b5d732abf94f72a044793dedd13845126e537af26c9802d808c"
+  },
+  {
    "ts": "2026-08-31T21:44:35Z",
    "suit": "spade",
    "source": "etherscan",
@@ -126,90 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25877344. Tokens: 0x0000000000000000000000000000000000000000 / 0x805d6bb4ee27eb2d7b489e44e005e7fe4aa65ea8. Fee:...",
    "url": "https://etherscan.io/tx/0xe331bfef72e1257805315726d146c4c1efbcee5e179be8d31a352a50e10d1035"
-  },
-  {
-   "ts": "2026-08-31T19:07:52Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #606 in PROGRAMMABLE: 'Simplify topbar controls and stabilize profile loading panels'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/606"
-  },
-  {
-   "ts": "2026-08-31T19:07:51Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Simplify topbar controls and stabilize profile loading panels (#606)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/887c5094f88685dce5a210dc89bbefc9ff01aec2"
-  },
-  {
-   "ts": "2026-08-31T18:59:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877207. Tokens: 0x0000000000000000000000000000000000000000 / 0x89ede1feab73473aa95ef42de336a5cc4b680fc3. Fee:...",
-   "url": "https://etherscan.io/tx/0xc334d9938a0015fb193fb3e999dfc1a4ecacb79d7773370169095dc286061415"
-  },
-  {
-   "ts": "2026-08-31T18:56:49Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #605 in PROGRAMMABLE: 'Refresh GitBook banner with warm night-garden branding'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/605"
-  },
-  {
-   "ts": "2026-08-31T18:56:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Refresh GitBook banner with warm night-garden branding (#605)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62281365e6e408a62ae061068946e8d2088baee4"
-  },
-  {
-   "ts": "2026-08-31T18:52:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877174. Tokens: 0x0000000000000000000000000000000000000000 / 0x0f0431fe79a488271fe1b1548a92f92942267bc6. Fee:...",
-   "url": "https://etherscan.io/tx/0x3243b8947c08a4f648cba3e0143f1b65aa1b2adb9723233b9b00fc7d2b0f868a"
-  },
-  {
-   "ts": "2026-08-31T18:47:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877150. Tokens: 0x0000000000000000000000000000000000000000 / 0x027462d20593c8de014729af99b04afe70996ccf. Fee:...",
-   "url": "https://etherscan.io/tx/0x6958e7646ac004c7c9f50a055c76d31d7d204c20bdba4d0cb5e573b40d25c3a9"
-  },
-  {
-   "ts": "2026-08-31T18:41:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877122. Tokens: 0x0000000000000000000000000000000000000000 / 0xa45ad4c78841ee6337df5d756a3f93c1be3b0200. Fee:...",
-   "url": "https://etherscan.io/tx/0x033d51856db99c564eeb15d691ed7ca1756c6ea801f4c19ce304708a460acda7"
-  },
-  {
-   "ts": "2026-08-31T18:33:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877079. Tokens: 0x0000000000000000000000000000000000000000 / 0x47260ecc8478a1f2eabe3adf7a903ec640a6bf30. Fee:...",
-   "url": "https://etherscan.io/tx/0x629319bf3ad326a4f4195475213e54af8bd61bbd587f8b6788c04d6e3cad7800"
-  },
-  {
-   "ts": "2026-08-31T18:00:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25876916. Tokens: 0x0000000000000000000000000000000000000000 / 0x1115f475b2cdd755c3f77aef4736fe03dbc2117a. Fee:...",
-   "url": "https://etherscan.io/tx/0x38c5da7161733bffd6915fba1d92336e6ea200bb5bd9200fdf95662f0fc9cd08"
-  },
-  {
-   "ts": "2026-08-31T17:51:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25876869. Tokens: 0x0000000000000000000000000000000000000000 / 0x769a0ad79c0d016439afcbda8a9d5bdd09934812. Fee:...",
-   "url": "https://etherscan.io/tx/0x99600f9ddfe9eaa2bd2b2070961b8e3a33805fa7c75fdf384a3caad209ba11c6"
-  },
-  {
-   "ts": "2026-08-31T17:46:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25876844. Tokens: 0x0000000000000000000000000000000000000000 / 0xe132e702a59f00a1726ec061fd0a30a6f53f213a. Fee:...",
-   "url": "https://etherscan.io/tx/0x8dd1861d1283754df83c86f85d856ae16a301b5400ede6bd427973be9c982da4"
   }
  ]
 }
