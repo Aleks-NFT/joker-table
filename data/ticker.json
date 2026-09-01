@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T03:59:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879898. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xfcccbac695612760be913367982900f37a94ba11. Fee:...",
+   "url": "https://etherscan.io/tx/0xcf10910c26694bc805923d16d2959d3bb2c6a7f08d9d6496898c74bb0f44067e"
+  },
+  {
+   "ts": "2026-09-01T03:51:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25879860. Tokens: 0x0000000000000000000000000000000000000000 / 0x69e85beeb283b843328eb0b9b9f53d90d373e5ab. Fee:...",
+   "url": "https://etherscan.io/tx/0x7f27fbaed1bcaab7579a92fe10b1c173db68da6d93e276bccaed98a3843db550"
+  },
+  {
    "ts": "2026-09-01T01:39:35Z",
    "suit": "spade",
    "source": "etherscan",
@@ -56,6 +70,20 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff (#616)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62e5afbf4b869822b0e6f303c868a9c1b153f577"
+  },
+  {
+   "ts": "2026-09-01T00:32:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo sarv6969/penny-protocol matches a hook deployed on-chain (uniswapv4hook, 0x1e1e7579…) — code we can read behind a live contract",
+   "url": "https://github.com/sarv6969/penny-protocol"
+  },
+  {
+   "ts": "2026-09-01T00:32:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: sarv6969/penny-protocol — 0★ — PENNY — fee-funded rotating basket of Robinhood Stock Token rewards on Robinhood Chain. Uniswap v4 h...",
+   "url": "https://github.com/sarv6969/penny-protocol"
   },
   {
    "ts": "2026-08-31T23:51:13Z",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'Add exact Privy policy owner signing client (#609)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9c4de021769b759705379de1fecdbfcf792a6766"
-  },
-  {
-   "ts": "2026-08-31T20:50:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877760. Tokens: 0x0000000000000000000000000000000000000000 / 0x1f4b63e04bb7f40ebf670e1e010b35cdf939ae97. Fee:...",
-   "url": "https://etherscan.io/tx/0x5e383a2fe599bb4d00da4e6eeb675be956c364e071f5dc2da99441552d1df64f"
-  },
-  {
-   "ts": "2026-08-31T20:31:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25877664. Tokens: 0x0000000000000000000000000000000000000000 / 0x300284fad76c8905b991beae81424583a25ecf77. Fee:...",
-   "url": "https://etherscan.io/tx/0xf46c51d08fdb271001ce1a740176050ba576304527e09585d34e791419e1a71f"
-  },
-  {
-   "ts": "2026-08-31T20:19:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #608 in PROGRAMMABLE: 'Keep network feedback clear of header menus'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/608"
-  },
-  {
-   "ts": "2026-08-31T20:19:04Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'Keep network feedback clear of header menus (#608)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/410e2cd8cf440f2482807e3f421ea64fc34e2ba8"
   }
  ]
 }

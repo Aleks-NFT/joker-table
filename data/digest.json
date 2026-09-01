@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-01",
+   "narrative": {
+    "en": "The night dealt four fresh pools onto the Uniswap V4 felt, and every one of them carries a hook—programmable layers atop the pair, not just liquidity. The first is a strange coupling of tokens I haven't seen in the rotation for weeks. 0x39de... against 0xe172..., with a fee set at 8388608, which is not the house standard—someone is playing with the dials. Tick spacing at 10 means orders will sit tight as a shark's teeth. The hook at 0xbdf9... is an address I'd remember.\n\nThen comes the classic: ETH against 0x298e..., no fee at all. Zero. Spacing 200—a wide step, an aggressive posture. Hook 0x13c8... sets conditions I haven't parsed yet, but a zero-fee V4 pool isn't charity; it's a trap baited for a certain kind of capital. USDC against the native token—again 8388608 and spacing 10, hook 0xdbc6..., the same pattern as the first pool. Someone is building a cluster of identically tuned pairs. And the fourth: USDT against 0x40aa..., fee 30000, spacing 60. That looks like normal trade, but the hook 0x6ad0...—I'll read its code in the morning.\n\nMeanwhile hazarxyz closed two pull requests in PROGRAMMABLE. First fixed the smoke tests for market data—plain hygiene. But the second commit is the interesting one: 'preserve fresh Robinhood capture handoff.' Someone is feeding fresh Robinhood screenshots into the pipeline. Not API data, but actual screen grabs. That's not for analytics—it's for verification. Someone wants to see what the terminal really shows, not what comes over the wire. The night was quiet, but my fingers itch. Tomorrow I'll take apart those hooks—there may be something that turns the deal.",
+    "zh": "这一夜，Uniswap V4 的江湖里又立了四个新池子，个个都挂了钩子。不是简单的放水，而是在每一条交易对上再加一层机关。头一个池子，两个代币的来路我最近都没在轮转里见过，0x39de... 对 0xe172...，费率设成 8388608——这不是寻常规矩，是有人故意拧了拧旋钮。间隔压到 10，单子会排得密如饿鲨的牙。那个钩子 0xbdf9...，这个地址我记住了。\n\n接着是经典局：ETH 对 0x298e...，不收一分钱。零费率。间隔 200，步子迈得很大，凶得很。钩子 0x13c8... 设的条件我还没看透，但 V4 上零费率从来不是做善事，那是给特定路数的资金下的套。USDC 对原生代币——又是 8388608，间隔 10，钩子 0xdbc6...，跟头一个池子一个模子。有人在攒一组同样调校的池子，像同一个门派布的阵。第四池，USDT 对 0x40aa...，费率 30000，间隔 60。这看起来像正经买卖，可钩子 0x6ad0...，天亮之后我得翻翻它的底。\n\n同一夜，hazarxyz 在 PROGRAMMABLE 里合上了两个请求。头一个修了行情数据的冒烟测试，那是基本功。第二个就有意思了——'保留新鲜的 Robinhood 截图交接'。有人把刚抓的 Robinhood 屏幕图送进管道里。不是走 API 的数据，是直接抓屏。这不是为了分析，是为了验货。有人想亲眼看见终端上显示的是什么，而不是线上传过来的那一套。夜里很静，但手痒。明天拆那些钩子，里头或许真有能翻盘的东西。"
+   },
+   "take": {
+    "en": "The zero-fee pool is a lure, and the tight-spaced clusters are a signature; the real tell is the Robinhood screenshots—someone is verifying the table itself, not the chips.",
+    "zh": "零费率是饵，密间隔是阵，真正的牌在 Robinhood 的截图上——有人在查庄家的底牌。"
+   }
+  },
+  {
    "date": "2026-08-31",
    "narrative": {
     "en": "The house tonight is watching the builders slip new cards into the deal — not fixed-rate wagers, but a wager that reprices itself each hand. The hook contract, that silent croupier behind the felt, now sets the swap fee in real time, a living number instead of a chiseled tier. That's not decoration; that's a player who knows the odds shift with every breath of liquidity.\n\nThese are pools where the edge is not a static sign but a pulse. The builders aren't just installing windows — they're rewriting the house rules from the inside. When the fee is a live instrument, every swap becomes a negotiation, every pair a private market. The felt is no longer green; it's a ticker.\n\nThe old ways — the fixed tiers, the set-it-and-forget-it — belong to yesterday's table. Tonight's action says the clever money is betting on hooks that think. And if that's not a signal to watch the next seven days, then nothing on this floor is.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Zero-commission pools are not a glitch—they are a map. Someone is deliberately dealing WETH pairs with surgical hooks, marking territory before the real game begins.",
     "zh": "零费率的池子不是杂音，是有人画地界。拿 WETH 配钩子、试步数，就是在为真正的交锋提前落子。"
-   }
-  },
-  {
-   "date": "2026-08-18",
-   "narrative": {
-    "en": "...and so sixteen new pools in a single deal, plus or minus sixty transactions. Not deploys, not dry runs—initializations with live hooks. Every hook contract is unique, the addresses ending in 888. That is no coincidence; that is a pattern. I read the layout: USDT is being married to an unknown token through a hook pool at a commission of 100—the narrowest of spreads, micro-steps, a board built for delicate play. Then the repeats: the same token 0x07fff99... appears twice, switching partners, first 0xcf62f9..., then 0xcacd6f.... The vig is 200 everywhere. This is not a random scatter. Someone is stacking liquidity on one base with different house rules for every table. And that one pair with 0x22222222aea0076fca927a3f44dc0b4fdf9479d6—if it is what it smells like, a 2500-basis-point stake on a volatile instrument where the hooks are not just managing orders but insuring positions. Or maybe just harvesting the rake. Each hook address is its own logic. 0xc29989e..., 0xc2ba52ef..., 0xc27b8c85...—no template copies. Someone paid gas, paid deployment, paid configuration. Sixteen configurations in one round. The question is not whether this is a test; the question is who spends resources to build parallel liquidity layers with different conditions on the same tokens. And note the timestamp—all inside a single heartbeat. This is not activity stretched across time; it is a volley. Someone is preparing the infrastructure for something specific. Or someone specific. The cards are on the felt. We watch who calls.",
-    "zh": "江湖上传来消息：一息之间，十六个新池子同时立起，加上大约六十笔交易。不是空壳部署，不是试水——是带着活钩子的开山立派。每个钩子合约都独一无二，地址都以888结尾，这不是巧合，这是门派的路数。我细看布局：USDT与一个来历不明的币种结盟，钩子池的费率是100——价差窄到极致，步距细到一微步，分明是精巧的内力操盘。再看，同一个币0x07fff99...两次现身，先配0xcf62f9...，再配0xcacd6f...，费率都是200。这不是随手撒网，是有人以同一根基蓄养流动性，却给每张桌子定下不同的规矩。最扎眼的是那个0x22222222aea0076fca927a3f44dc0b4fdf9479d6——若是我所想的那物，2500个基点的筹码压在一个大起大落的兵器上，钩子怕不只是管单子，还要护住仓位，或者干脆收过路费。每个钩子地址都是独立心法。0xc29989e...、0xc2ba52ef...、0xc27b8c85...——没有一张是复制的。有人付了gas，付了部署，付了配置。一轮十六套配置。问题不在这是不是试探，而在谁在花费资源，在同一个币种之上，铺开不同规则的平行流动性层。再看时间——全在一念之间。这不是拖泥带水的动作，是一记齐射。有人在为某件大事备下阵势。或者为某个人。牌已亮，风已起，且看谁先落子。"
-   },
-   "take": {
-    "en": "Sixteen hook-loaded pools fired in one beat means someone is laying out a full liquidity board on purpose—this is infrastructure, not noise. The 888-ending hooks are a signature, and repeated tokens with shifting partners say the game is already rigged—by the house, not for us.",
-    "zh": "十六个带钩子的池子同时落位，这不是试探，是有人在一张棋盘上排兵布阵。同一个币反复配对，钩子地址皆为888——江湖上不怕对手凶狠，就怕有人连退路都已布好。"
    }
   }
  ]

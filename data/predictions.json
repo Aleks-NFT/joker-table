@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 20,
-  "open": 5,
-  "hit_rate": 0.556
+  "miss": 19,
+  "open": 6,
+  "hit_rate": 0.568
  },
  "items": [
+  {
+   "id": 67,
+   "made_at": "2026-09-01",
+   "text": "Over the next seven days the count clears 13, and I give the over about 54%. The likely landing sits between 9 and 47—more pools are cropping up with gaps set below ten, a fine-tooth comb for placing liquidity exactly where the market breathes.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-08",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 66,
    "made_at": "2026-08-31",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-05",
    "status": "miss",
    "resolution_note": "Confirmed: target +302 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 17,
-   "made_at": "2026-06-27",
-   "text": "Over the next 7 days the count will exceed 320.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-04",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +320 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]
