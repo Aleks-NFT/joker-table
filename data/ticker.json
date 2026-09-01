@@ -2,6 +2,139 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T15:55:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #623 in PROGRAMMABLE: 'fix(web): stabilize GMGN pagination snapshots'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/623"
+  },
+  {
+   "ts": "2026-09-01T15:55:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): stabilize GMGN pagination snapshots (#623)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/e94b340e50378d9f32e9c3e35efe2c5da0ca3fac"
+  },
+  {
+   "ts": "2026-09-01T15:54:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #161 in uniswap-hooks: 'LimitOrderHook: L-05 record the baseline for a self-initialized pool'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/161"
+  },
+  {
+   "ts": "2026-09-01T15:35:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #160 in uniswap-hooks: 'LimitOrderHook: L-04 correct the principal rounding comment'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/160"
+  },
+  {
+   "ts": "2026-09-01T15:31:11Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #622 in PROGRAMMABLE: 'Fix Stage Trending snapshot freshness binding'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/622"
+  },
+  {
+   "ts": "2026-09-01T15:31:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix Stage Trending snapshot freshness binding (#622)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/7ce0b2033f00e14c9821304f6d02eecb6699c04b"
+  },
+  {
+   "ts": "2026-09-01T15:27:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883327. Tokens: 0x0000000000000000000000000000000000000000 / 0xa29d457db07560510f1c2e3d0715709d51882d5c. Fee:...",
+   "url": "https://etherscan.io/tx/0x512fef45d6854d2aa31126d6517e92c276508b0fee312368e5fd61a8f5b66af5"
+  },
+  {
+   "ts": "2026-09-01T15:27:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883324. Tokens: 0x0000000000000000000000000000000000000000 / 0x69e7bc068a4a6a2b219e0be74b78c00e5d7ab666. Fee:...",
+   "url": "https://etherscan.io/tx/0x08ff6a7e12131c71c5081920ccde49c8d440bf24527e689927034470997a80f2"
+  },
+  {
+   "ts": "2026-09-01T15:19:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #159 in uniswap-hooks: 'LimitOrderHook: M-15: redeem oversized claims over several settlements'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/159"
+  },
+  {
+   "ts": "2026-09-01T15:10:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883241. Tokens: 0x0000000000000000000000000000000000000000 / 0xc1c242fac8a697b59c1cf8161eba34ef23ffdb9d. Fee:...",
+   "url": "https://etherscan.io/tx/0x626d9d948dca5866d4e724c27e94367eab9e152b18699343be258d9f21f5c644"
+  },
+  {
+   "ts": "2026-09-01T14:54:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883161. Tokens: 0x00000000efe302beaa2b3e6e1b18d08d69a9012a / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x524d3ecfbb687fde3b0c71428dcd9db7c56dd88efdd9bd7897fdf5959e69c2f1"
+  },
+  {
+   "ts": "2026-09-01T14:48:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883131. Tokens: 0x0000000000000000000000000000000000000000 / 0xb2318b222c3cb5327ff121010b9f4ab84a69a4ed. Fee:...",
+   "url": "https://etherscan.io/tx/0x4531ff96fdc4f6c776bd1c39e78ecf06e4f818635b0d14f1740fae217004a153"
+  },
+  {
+   "ts": "2026-09-01T14:46:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883119. Tokens: 0x0000000000000000000000000000000000000000 / 0x699242945846feeba17676c504de2c67df665a1a. Fee:...",
+   "url": "https://etherscan.io/tx/0xf6e69e1172d9cb973622b7ff47bf768664482acdca6f747c49b7ee4a3baf29fb"
+  },
+  {
+   "ts": "2026-09-01T14:42:43Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #158 in uniswap-hooks: 'LimitOrderHook: M-12: wrap the fee accumulator instead of overflowing'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/158"
+  },
+  {
+   "ts": "2026-09-01T14:40:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883089. Tokens: 0x0000000000000000000000000000000000000000 / 0xa1beef1becd95f0e9fedca9e5aa20c7083549b2f. Fee:...",
+   "url": "https://etherscan.io/tx/0x85f8ff9168ca34da7b44624dde1fcfa13c090957d494b9898cfb3b2776d70b15"
+  },
+  {
+   "ts": "2026-09-01T14:39:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883088. Tokens: 0x0000000000000000000000000000000000000000 / 0x08805cc580102533536612ccf5724766a74ab865. Fee:...",
+   "url": "https://etherscan.io/tx/0x0f670c620b30b712bec32759608f618c4a15c5bf15ca5f0b00c10c02dc8a59e9"
+  },
+  {
+   "ts": "2026-09-01T14:38:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25883083. Tokens: 0x0000000000000000000000000000000000000000 / 0x696b517766af016acde40357de8f727b10618c93. Fee:...",
+   "url": "https://etherscan.io/tx/0x4a2b4165ebc9fc30c890a9d5f3c8184d3bd59d79e5ed4ac8f77068d158222307"
+  },
+  {
+   "ts": "2026-09-01T14:26:43Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #621 in PROGRAMMABLE: 'fix(web): make GMGN rank reads resilient'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/621"
+  },
+  {
+   "ts": "2026-09-01T14:26:42Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): make GMGN rank reads resilient (#621)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/568c4fc83debdcde597ce1736fff7c187e722f18"
+  },
+  {
    "ts": "2026-09-01T13:55:12Z",
    "suit": "club",
    "source": "github",
@@ -77,139 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25882062. Tokens: 0x0000000000000000000000000000000000000000 / 0xf2d1e6fc468d6cff3417ede7b96b2443b168a826. Fee:...",
    "url": "https://etherscan.io/tx/0x371f37bc19f9e9840531984a9d9738a574ba5c0bb595900c5364af45aa50adbc"
-  },
-  {
-   "ts": "2026-09-01T11:09:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25882036. Tokens: 0x0000000000000000000000000000000000000000 / 0xdb9fbd72092ebcc3d8436ebf16fc894852bbd698. Fee:...",
-   "url": "https://etherscan.io/tx/0x781c7c61ad2b16b06c85247f2e1a5c04631243723405744890174099299a7611"
-  },
-  {
-   "ts": "2026-09-01T10:50:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #617 in PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/617"
-  },
-  {
-   "ts": "2026-09-01T10:50:38Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence (#617)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9d81af890e14e39aef415399b7df80745670483c"
-  },
-  {
-   "ts": "2026-09-01T09:30:58Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Fatumayattani/imprint — 0★ — A Uniswap v4 hook for refundable price-impact bonds.",
-   "url": "https://github.com/Fatumayattani/imprint"
-  },
-  {
-   "ts": "2026-09-01T08:53:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25881361. Tokens: 0x0000000000000000000000000000000000000000 / 0x69d40743e4d26255500924e7976a31bbee90aa7d. Fee:...",
-   "url": "https://etherscan.io/tx/0x70d7728d8568f3e969f4512cf7303713491b4775affafdb729b46a18a49a132a"
-  },
-  {
-   "ts": "2026-09-01T07:45:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25881024. Tokens: 0x0000000000000000000000000000000000000000 / 0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb. Fee:...",
-   "url": "https://etherscan.io/tx/0x36d538a8d2c67a041ce2ae9682c961d9749f45ff2cef5a2b9ecb11eacf5c3bd8"
-  },
-  {
-   "ts": "2026-09-01T06:38:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #617 in PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/617"
-  },
-  {
-   "ts": "2026-09-01T05:28:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880343. Tokens: 0xb6ed7644c69416d67b522e20bc294a9a9b405b31 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x49a24d9ee480d3a96fd7cf27390a11ccfe47948ff75845261af4f38709e6c0fc"
-  },
-  {
-   "ts": "2026-09-01T05:18:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880289. Tokens: 0x0000000000000000000000000000000000000000 / 0xf869787654745cf787f5a3602b84bd98f477350a. Fee:...",
-   "url": "https://etherscan.io/tx/0x792990b8b9090d20f3f17b54edb9f5564200e11cca1c8f1ab23a0c13611bfd74"
-  },
-  {
-   "ts": "2026-09-01T05:10:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880253. Tokens: 0x0000000000000000000000000000000000000000 / 0xd4219cc7cff4bed697e6d999f49f5107e737b2fa. Fee:...",
-   "url": "https://etherscan.io/tx/0x0b010480a2dcb53682f0c8d33ece3f7f88f9ca59d18d04dbedf13ce507243069"
-  },
-  {
-   "ts": "2026-09-01T04:52:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880162. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
-   "url": "https://etherscan.io/tx/0x486f4d60433e871426ab935be090e537521813927f5e8d74d7f770b33532ce5b"
-  },
-  {
-   "ts": "2026-09-01T04:43:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880116. Tokens: 0x0000000000000000000000000000000000000000 / 0x800c7f63e74c7caa4464e39d3d034821ac0722dc. Fee:...",
-   "url": "https://etherscan.io/tx/0x94b4d98b54570f5be69bc13dea2adbc258fc5b08c968ad56a6906ed57bfbec20"
-  },
-  {
-   "ts": "2026-09-01T04:39:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880098. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
-   "url": "https://etherscan.io/tx/0xe76e518b7f412063995b6b6e5ac2160fbd2b37eec34a17972db8521b42738d51"
-  },
-  {
-   "ts": "2026-09-01T04:37:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25880085. Tokens: 0x0000000000000000000000000000000000000000 / 0x12f76076c2eba9e9c5df9990e5c410c8768fc215. Fee:...",
-   "url": "https://etherscan.io/tx/0x90334407b798d4ae0ab6396332340bca6197f960df9f5ab5d171e92c24582bff"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $100,576,914   #2 USDC / USDT — $42,349,068   #3 PYUSD / USDS — $42,335,461   #4 ...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "ETH / USDC 0.05% TVL shrank 75% to $10,376,984",
-   "url": "https://www.geckoterminal.com/eth/pools/0x21c67e77068de97969ba93d4aab21826d33ca12bb9f565d8496e8fda8a82ca27"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDG / USDC 0.008% volume surged 183% to $5,997,315 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% TVL grew 47% to $927,087",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDe / USDC 0.003% volume surged 154% to $10,218,795 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
   }
  ]
 }
