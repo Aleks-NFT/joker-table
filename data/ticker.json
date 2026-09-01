@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T17:46:22Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57536423. Tokens: 0x4200000000000000000000000000000000000006 / 0x4b64db6f37d53bbb0b80bcf26bddad1e44...",
+   "url": "https://uniscan.xyz/tx/0xe82c7a7e29aa11005dd7002e258f3548a573b28ebe8a465e6c92cc03bf4526cf"
+  },
+  {
    "ts": "2026-09-01T17:30:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #621 in PROGRAMMABLE: 'fix(web): make GMGN rank reads resilient'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/621"
-  },
-  {
-   "ts": "2026-09-01T14:26:42Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): make GMGN rank reads resilient (#621)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/568c4fc83debdcde597ce1736fff7c187e722f18"
   }
  ]
 }
