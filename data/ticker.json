@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T13:55:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #620 in PROGRAMMABLE: 'fix(web): bind empty market reads and GMGN rank liveness'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/620"
+  },
+  {
+   "ts": "2026-09-01T13:55:12Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): bind empty market reads and GMGN rank liveness (#620)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/4d88a6041dc203a6cde2fe249df1c2e52fc91e62"
+  },
+  {
+   "ts": "2026-09-01T13:26:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25882722. Tokens: 0x0000000000000000000000000000000000000000 / 0x4dd9ca6dafa183c607f3bd684dc5ae0201bbc023. Fee:...",
+   "url": "https://etherscan.io/tx/0xc8d5d904bbd4497e7a5d6645a564dcbda846faf27bc6104df329c8b8d5838fea"
+  },
+  {
+   "ts": "2026-09-01T12:57:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #619 in PROGRAMMABLE: 'Fix empty market observation windows'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/619"
+  },
+  {
+   "ts": "2026-09-01T12:57:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): clear empty market observation windows (#619)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/5767325018dec1eaefa9a0aec9b3cafd1218db74"
+  },
+  {
+   "ts": "2026-09-01T12:38:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25882481. Tokens: 0x0000000000000000000000000000000000000000 / 0x1063890372c4e6bd9e1b5b76c643e577c06cfcc0. Fee:...",
+   "url": "https://etherscan.io/tx/0x9874f8c8dbd4eb17986ada7cf47e7ae6ca1fdd7114330dd1475944059cd0f0df"
+  },
+  {
+   "ts": "2026-09-01T12:36:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25882471. Tokens: 0x0000000000000000000000000000000000000000 / 0x694b9e575cdaba0fa5f00639cde5d034285378e4. Fee:...",
+   "url": "https://etherscan.io/tx/0x8c01f66d2dd803099a1705f4234cffcb07d4b744649bc321a233dea397d20aca"
+  },
+  {
+   "ts": "2026-09-01T12:14:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #618 in PROGRAMMABLE: 'Fix verified Router-only Stage and chart fallback'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/618"
+  },
+  {
+   "ts": "2026-09-01T12:14:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(release): admit verified Router-only chart fallback (#618)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/5493fc866cfc116a55fb810537ab87256ac3886c"
+  },
+  {
    "ts": "2026-09-01T11:58:56Z",
    "suit": "club",
    "source": "github",
@@ -147,69 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "USDe / USDC 0.003% volume surged 154% to $10,218,795 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "RLUSD / USDS volume surged 219% to $20,051,943 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "PYUSD / USDS volume surged 247% to $42,335,461 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDC / USDT volume surged 90% to $42,349,068 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x0fb0e40cec3bb23e13abc585958a93c796fbea56955e19a23727a716a0423239"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDT / USDS volume surged 175% to $100,576,914 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: tBTC / cbBTC 0.01% — $4,466,204 24h volume, $2,829,414 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x5459f9d1f649b9f1353a50fd0c8d796b4feb11926bec295cb0614a135febdf9a"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: BTC.b / cbBTC 0.01% — $4,739,034 24h volume, $7,881,766 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x9c25d738109ff9ad10516f5f97ef24b9af51a9aa3db4b3b5728edf18a2d3f11c"
-  },
-  {
-   "ts": "2026-09-01T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: cbBTC / WBTC 0.005% — $7,062,904 24h volume, $4,264,576 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
-  },
-  {
-   "ts": "2026-09-01T04:15:02Z",
-   "suit": "spade",
-   "source": "defillama",
-   "text": "Uniswap V4 global 24h volume up 27% to $1.26B (fees $5686k, Ethereum share 32.8%)",
-   "url": "https://defillama.com/protocol/uniswap-v4"
-  },
-  {
-   "ts": "2026-09-01T03:59:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25879898. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xfcccbac695612760be913367982900f37a94ba11. Fee:...",
-   "url": "https://etherscan.io/tx/0xcf10910c26694bc805923d16d2959d3bb2c6a7f08d9d6496898c74bb0f44067e"
   }
  ]
 }
