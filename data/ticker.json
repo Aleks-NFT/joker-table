@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-01T07:45:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25881024. Tokens: 0x0000000000000000000000000000000000000000 / 0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb. Fee:...",
+   "url": "https://etherscan.io/tx/0x36d538a8d2c67a041ce2ae9682c961d9749f45ff2cef5a2b9ecb11eacf5c3bd8"
+  },
+  {
+   "ts": "2026-09-01T06:38:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #617 in PROGRAMMABLE: 'feat(web): make GMGN primary for Ethereum token intelligence'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/617"
+  },
+  {
    "ts": "2026-09-01T05:28:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix staged market observation smoke (#615)'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/9a4f5244612d39c387022ce290de40760b112540"
-  },
-  {
-   "ts": "2026-09-01T00:47:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #616 in PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/616"
-  },
-  {
-   "ts": "2026-09-01T00:47:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(release): preserve fresh Robinhood capture handoff (#616)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/62e5afbf4b869822b0e6f303c868a9c1b153f577"
   }
  ]
 }
