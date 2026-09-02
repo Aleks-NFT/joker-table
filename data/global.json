@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-02T04:13:28Z",
+ "generated_at": "2026-09-02T05:13:28Z",
  "history": [
-  {
-   "date": "2026-08-03",
-   "volume_24h_usd": 517034022.0,
-   "fees_24h_usd": 846811.0,
-   "eth_share_pct": 41.0
-  },
   {
    "date": "2026-08-04",
    "volume_24h_usd": 615750201.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1261195533.0,
    "fees_24h_usd": 5685884.0,
    "eth_share_pct": 32.8
+  },
+  {
+   "date": "2026-09-02",
+   "volume_24h_usd": 1360814448.0,
+   "fees_24h_usd": 7084537.0,
+   "eth_share_pct": 33.5
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 624914084,
-  "Ethereum": 411848882,
-  "BSC": 99241284,
-  "Base": 40070065,
-  "Polygon": 35872091,
-  "Arbitrum": 24674301,
-  "Monad": 14747492,
-  "X Layer": 4469312
+  "Robinhood Chain": 663532938,
+  "Ethereum": 453847121,
+  "BSC": 121500460,
+  "Base": 52891286,
+  "Arbitrum": 24069999,
+  "Polygon": 21696657,
+  "Monad": 12845913,
+  "X Layer": 4689665
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (37 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878",
+   "occurred_at": "2026-09-02T05:00:04Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX (17 posts)",
    "url": "https://gov.uniswap.org/t/rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx/26208",
@@ -204,12 +210,6 @@
    "event": "Uniswap gov forum active thread: Uniswap-Arbitrum Delegate Program (UADP) Communication Thread (39 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-arbitrum-delegate-program-uadp-communication-thread/22185",
    "occurred_at": "2026-08-28T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [RFC] Deploy Uniswap V3 on Gensyn (6 posts)",
-   "url": "https://gov.uniswap.org/t/rfc-deploy-uniswap-v3-on-gensyn/26050",
-   "occurred_at": "2026-08-26T05:00:02Z",
    "active": false
   }
  ],
