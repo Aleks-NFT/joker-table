@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-02T09:13:28Z",
+ "generated_at": "2026-09-02T10:13:31Z",
  "total_hooks": 4092,
- "total_pools": 12888,
+ "total_pools": 12890,
  "multi_pool_hooks": 370,
  "shown": 370,
  "more_count": 0,
@@ -752,7 +752,7 @@
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x10392843021a1af0abe3b1a21f14673dc05340cc",
-   "pool_count": 28,
+   "pool_count": 30,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -764,8 +764,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25480249,
-   "last_block": 25887708,
-   "last_deploy": "2026-09-02T08:00:02Z",
+   "last_block": 25888404,
+   "last_deploy": "2026-09-02T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4268,7 +4268,7 @@
    "first_block": 25832243,
    "last_block": 25838256,
    "last_deploy": "2026-08-26T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
