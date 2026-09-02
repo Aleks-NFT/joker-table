@@ -2,6 +2,90 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-02T14:00:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "tenure-hook updated README (sha 9c1a69b)",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
+  },
+  {
+   "ts": "2026-09-02T13:54:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25890035. Tokens: 0x0000000000000000000000000000000000000000 / 0x1d8a582d0aa40b007d6e6d1af5d2d6aad877d28b. Fee:...",
+   "url": "https://etherscan.io/tx/0x74d595cd0053bed6cee3132c38d6290784a21811faa83266874548ad793b49f1"
+  },
+  {
+   "ts": "2026-09-02T13:33:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889930. Tokens: 0x0000000000000000000000000000000000000000 / 0x14ce089cc53fb83fa704b814b9e2ec459ffcbc83. Fee:...",
+   "url": "https://etherscan.io/tx/0xf07154fca08c05b9a09448000a9a468892e60c0a1430d1a52cb41e6bf852898c"
+  },
+  {
+   "ts": "2026-09-02T13:29:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Shot-by-shot product recording script, and stop telling the presenter not to swap'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/d30ff5a2377aa470c49e552a474069ca4b91bcc5"
+  },
+  {
+   "ts": "2026-09-02T13:26:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'App: mint 500,000 demo tokens instead of a 1,000-unit faucet'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/e49f14638c9f8a00a0d5b8f5371be151d711e983"
+  },
+  {
+   "ts": "2026-09-02T13:18:27Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'One command that exercises and demonstrates the whole product'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/260adc0ebd76ae1840bffee3934d875d0f7b1d1d"
+  },
+  {
+   "ts": "2026-09-02T13:12:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889826. Tokens: 0x0000000000000000000000000000000000000000 / 0x5f8681f1913330b126859b000f64ac4ea144f965. Fee:...",
+   "url": "https://etherscan.io/tx/0xaa1021c470dc7a74327400238955e5a95860530e7ba7996691e29095e71f657c"
+  },
+  {
+   "ts": "2026-09-02T13:05:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Rewrite the video script for the Sepolia deployment'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/12a8a4cc15138ba1d70e8079598c144d08dd896a"
+  },
+  {
+   "ts": "2026-09-02T12:47:15Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Landing page and app, wired to a live Sepolia pool'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/a62ef712ebfa8886f73e6efa57c5731609ae5ec7"
+  },
+  {
+   "ts": "2026-09-02T12:35:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889642. Tokens: 0x0000000000000000000000000000000000000000 / 0x7259b7fd5c77ad02401d2362efa0d4f4c59dd241. Fee:...",
+   "url": "https://etherscan.io/tx/0x7b8598a3480f12c0b48a8252774712de7997d82d25340771bf42ce32a9ea87c0"
+  },
+  {
+   "ts": "2026-09-02T12:15:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889543. Tokens: 0x0000000000000000000000000000000000000000 / 0x6fc5b6ff7543d8452a5e5e965406ff7a3ba70c10. Fee:...",
+   "url": "https://etherscan.io/tx/0x33421753b2f7424fe2de62d491014d65b72ef206ca7a17f4c711d32af527bf10"
+  },
+  {
+   "ts": "2026-09-02T12:09:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889515. Tokens: 0x0000000000000000000000000000000000000000 / 0x6986b638c31d6ad5f39e012efcad47e719410d70. Fee:...",
+   "url": "https://etherscan.io/tx/0x664101fec12009526975e95a0ea7aa9a1e8133bb27929a275b736094f169cc19"
+  },
+  {
    "ts": "2026-09-02T12:00:05Z",
    "suit": "club",
    "source": "github",
@@ -126,90 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25887393. Tokens: 0x0000000000000000000000000000000000000000 / 0x1d53dfaa74603abbcf2fa5ac68799901d1d95a64. Fee:...",
    "url": "https://etherscan.io/tx/0x74f7f5bd6e8015bb872c6c837bdf96b4b77315f741bb3debdaf6d17aa7ed04fb"
-  },
-  {
-   "ts": "2026-09-02T05:00:04Z",
-   "suit": "spade",
-   "source": "governance",
-   "text": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (37 posts)",
-   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878"
-  },
-  {
-   "ts": "2026-09-02T04:34:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25887247. Tokens: 0x0000000000000000000000000000000000000000 / 0xf53eb8c3576bf8c2568e9aab835f303beaf682bc. Fee:...",
-   "url": "https://etherscan.io/tx/0x251ee841e437de3cbf902190956742a8a9d86f78bf758f39220fbd4ba91b1fda"
-  },
-  {
-   "ts": "2026-09-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $107,786,038   #2 USDC / USDT — $97,936,014   #3 PYUSD / USDS — $33,910,999   #4 ...",
-   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
-  },
-  {
-   "ts": "2026-09-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "cbBTC / WBTC 0.01% TVL grew 207% to $13,113,305",
-   "url": "https://www.geckoterminal.com/eth/pools/0x2f92b371aef58f0abe9c10c06423de083405991f2839638914a1031e91d9a723"
-  },
-  {
-   "ts": "2026-09-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDC / USDT volume surged 131% to $97,936,014 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x0fb0e40cec3bb23e13abc585958a93c796fbea56955e19a23727a716a0423239"
-  },
-  {
-   "ts": "2026-09-02T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: rETH / ETH 0.01% — $3,194,688 24h volume, $789,629 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x70946c979da3e5587a00b3a750cc76902d187894501ba9e8be9efd1849b6e0b7"
-  },
-  {
-   "ts": "2026-09-02T04:04:42Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'Correct a false claim about a sponsor: the gateway is up, our circuit is not'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/10c2723b1f434ae1c36174c60c89a4c5ddfeae3c"
-  },
-  {
-   "ts": "2026-09-02T04:04:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25887097. Tokens: 0x0000000000000000000000000000000000000000 / 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7. Fee:...",
-   "url": "https://etherscan.io/tx/0x6c0c477980fac849af1e8a32edeed98f8fa0ff866ab6722f9eb83e81e6596b87"
-  },
-  {
-   "ts": "2026-09-02T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Activity spike: Manuel-dev01/tenure-hook pushed 32 commits in 14 days",
-   "url": "https://github.com/Manuel-dev01/tenure-hook"
-  },
-  {
-   "ts": "2026-09-02T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01/tenure-hook promoted to core tracking: 32 commits in 14 days — Depth is the product. A Uniswap v4 hook where every address pays the same fee and...",
-   "url": "https://github.com/Manuel-dev01/tenure-hook"
-  },
-  {
-   "ts": "2026-09-02T03:55:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: StompiesArt/stompies-hook — 0★ — Stompies Uniswap v4 Hook",
-   "url": "https://github.com/StompiesArt/stompies-hook"
-  },
-  {
-   "ts": "2026-09-02T03:54:34Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'Fix an understated cost figure in four docs; make the security checklist'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/88c7150a2b0ba2cdbd2b7fe6e2547d2ef52bd1dd"
   }
  ]
 }
