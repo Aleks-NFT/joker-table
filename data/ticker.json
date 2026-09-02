@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-02T12:00:05Z",
+   "suit": "club",
+   "source": "github",
+   "text": "tenure-hook updated README (sha e892f2c)",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
+  },
+  {
+   "ts": "2026-09-02T11:58:45Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Deploy to Sepolia: paid, accepted, never fulfilled - and why that is not ours'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/20fb0b3045592d6d2b8aebe6ae534ae938462f18"
+  },
+  {
+   "ts": "2026-09-02T11:58:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Fix CI, red since Aug 31, and gate the checks that missed it'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/d6bbe98d95e30866a00d52c11986fc48c29edba3"
+  },
+  {
+   "ts": "2026-09-02T11:57:55Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'brevis-sdk 0.3.12 -> 0.3.33: the gateway rejection was our stale pin'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/358faaea0e83e0a3ef0f3f37a54e9039a1c3b29d"
+  },
+  {
+   "ts": "2026-09-02T11:16:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889247. Tokens: 0x5d3d2ad3d915bdc981b7ea8ff85be053405583a2 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
+   "url": "https://etherscan.io/tx/0x9af2442805805b0174fc612293ba28251f56583cd3ee643e32e0fdeabda1cad0"
+  },
+  {
+   "ts": "2026-09-02T11:15:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25889245. Tokens: 0x0000000000000000000000000000000000000000 / 0x5934fee0ce22574fe00e12be60804318b493a830. Fee:...",
+   "url": "https://etherscan.io/tx/0x3b0fde2c4a73f1763e13f6843c5bd5c3fb00ae6a9d08125a49d4a2b6bd79e911"
+  },
+  {
+   "ts": "2026-09-02T10:46:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #635 in PROGRAMMABLE: 'feat(web): launch Robinhood custom hooks with API keys'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/635"
+  },
+  {
+   "ts": "2026-09-02T10:46:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'feat(web): launch Robinhood custom hooks with API keys (#635)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/352521379eb55432cd79d13bb7ae36eea7e0eabb"
+  },
+  {
+   "ts": "2026-09-02T10:07:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25888904. Tokens: 0x0000000000000000000000000000000000000000 / 0x1ccc7f4db7e15b5b34e71da99240e2ed451c1110. Fee:...",
+   "url": "https://etherscan.io/tx/0xcae0b7dfe6ce12c96cdac1e1ec7079eeb5cef31d5004814f23aa89dcaed0a0c2"
+  },
+  {
    "ts": "2026-09-02T08:26:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -147,69 +210,6 @@
    "source": "github",
    "text": "Manuel-dev01 pushed to tenure-hook: 'Fix an understated cost figure in four docs; make the security checklist'",
    "url": "https://github.com/Manuel-dev01/tenure-hook/commit/88c7150a2b0ba2cdbd2b7fe6e2547d2ef52bd1dd"
-  },
-  {
-   "ts": "2026-09-02T03:46:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'Add the video script, with two spoken figures corrected'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/4edb6b7d7ca89d278193685087723e63eb915249"
-  },
-  {
-   "ts": "2026-09-02T03:45:45Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Legendarylibr/cross-l2-rebalancer — 0★ — A Uniswap V4 hook that monitors pool prices across L2s and executes on-chain arbitrage to ...",
-   "url": "https://github.com/Legendarylibr/cross-l2-rebalancer"
-  },
-  {
-   "ts": "2026-09-02T03:07:11Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz opened PR #635 in PROGRAMMABLE: 'feat(web): launch Robinhood custom hooks with API keys'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/635"
-  },
-  {
-   "ts": "2026-09-02T02:49:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Legendarylibr/safeswap-hook — 0★ — A Uniswap v4 hook combining oracle-bounded price gating (beforeSwap) and cross-venue reference v...",
-   "url": "https://github.com/Legendarylibr/safeswap-hook"
-  },
-  {
-   "ts": "2026-09-02T02:42:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25886689. Tokens: 0x0000000000000000000000000000000000000000 / 0x2a1e66bed25329e1526c395651961dfd5b94437e. Fee:...",
-   "url": "https://etherscan.io/tx/0xec2cd6528b61f73c1ce723193eb5ed21abf0450470c95298b5105e82ae2135a2"
-  },
-  {
-   "ts": "2026-09-02T02:20:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25886576. Tokens: 0x0000000000000000000000000000000000000000 / 0x74ada72aef7ec6ed726dfd42cc3b77661f8131dd. Fee:...",
-   "url": "https://etherscan.io/tx/0xfc010dc5db7079081f4d0424aa0ba8b0f2b63c7cdc53bc0aaa0128c4085ff2d0"
-  },
-  {
-   "ts": "2026-09-02T02:18:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25886570. Tokens: 0x0000000000000000000000000000000000000000 / 0x045ca7569a4c164ffe29f158b917abc335bcf8c3. Fee:...",
-   "url": "https://etherscan.io/tx/0xb4ff3c234f561e8246f021179aac13ea4b15da64022fa6af6b62cf0aae8e1d47"
-  },
-  {
-   "ts": "2026-09-02T01:46:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25886411. Tokens: 0x0000000000000000000000000000000000000000 / 0x0bac6dfe65c9a210ed8b4188c6d6b616628f6aca. Fee:...",
-   "url": "https://etherscan.io/tx/0x09a9f316d65daf9e9f753736904124b47a36a717f34e5928596ac4629efbe0da"
-  },
-  {
-   "ts": "2026-09-02T01:42:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25886390. Tokens: 0x0000000000000000000000000000000000000000 / 0x27bf054b023daa47fdd43cb11c3e2aa7ce9b5469. Fee:...",
-   "url": "https://etherscan.io/tx/0xeb4abf21c7e0464b3d893276b38ab5c4adf1b3324926363d50b66658e75b495d"
   }
  ]
 }
