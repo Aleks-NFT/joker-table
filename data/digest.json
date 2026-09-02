@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-02",
+   "narrative": {
+    "en": "Two pools hit the felt within a single breath — same house rules, zero cut, the narrow step that usually belongs to the stable quiet, and each table holds native ETH. But the hook contracts behind them are not the same, and the second tokens carry no names this room recognizes. The IDs don't overlap, the tokens don't match. This was not a stray deal; someone is laying a two-card hand with the same dealer.\n\nA zero take on V4 is never about the swap. It's about the logic hiding under the cloth. The hook can pull its toll separately, steer liquidity while it moves, even change the order of execution. With a step that fine, the pool expects price to breathe in a tight lane — odd for an ETH pair, unless the hook itself is meant to hold the range. The quiet is loaded. The configs are already on the table.\n\nNeither of the second tokens has a label worth a glance. Not the usual stable names, not the house favorites. Could be fresh blood, or a purpose-built contract written for this exact design. Without a crowd, these are dead tables — but the opening is the tell. Someone has loaded the setup and is waiting. Two rooms, same night, different jokers, one play.",
+    "zh": "江湖上忽然摆出两张桌子，前后不过一瞬。桌面的规矩一样：不收过路费，步数踩得极细，每一桌都靠着ETH这棵大树。可是暗处管事的不是同一路人马，桌上的第二样货也都没人认得旗号。桌号不重，货色不同。这不是顺手落的子，是有人按同一个局，布了两颗棋子。\n\n零过路费的桌子，从来不是为买卖准备的。功夫在桌面下头：管事的人可以另收银钱，可以随意调动内力，可以颠倒出手的先后。步子踩得这么细，本该是稳定门派的走法，如今摆在ETH对子身上，若不是货色本就温吞，便是背后有人以气御盘。眼下水波不兴，但阵已布下。\n\n两张桌子的第二样货，都没有名号。不是常见的硬通货，不是大宗货色。要么是刚出茅庐的新物，要么是专为此局捏出来的符。没人进料，桌子便是空摆着；可布桌本身就是信号。有人已把机关装满，只等时机一到。两桌同夜，一局双扣，留白处全是文章。"
+   },
+   "take": {
+    "en": "Two zero-cut pools with the same native leg and different hooks are not a trade; they are a hand already dealt in silence — whoever set the table is waiting for the next card.",
+    "zh": "同夜开出两张无费桌子，明面是两条死水，暗里是同一只手在布桩——等的是触动机关的那一刻。"
+   }
+  },
+  {
    "date": "2026-09-01",
    "narrative": {
     "en": "The night dealt four fresh pools onto the Uniswap V4 felt, and every one of them carries a hook—programmable layers atop the pair, not just liquidity. The first is a strange coupling of tokens I haven't seen in the rotation for weeks. 0x39de... against 0xe172..., with a fee set at 8388608, which is not the house standard—someone is playing with the dials. Tick spacing at 10 means orders will sit tight as a shark's teeth. The hook at 0xbdf9... is an address I'd remember.\n\nThen comes the classic: ETH against 0x298e..., no fee at all. Zero. Spacing 200—a wide step, an aggressive posture. Hook 0x13c8... sets conditions I haven't parsed yet, but a zero-fee V4 pool isn't charity; it's a trap baited for a certain kind of capital. USDC against the native token—again 8388608 and spacing 10, hook 0xdbc6..., the same pattern as the first pool. Someone is building a cluster of identically tuned pairs. And the fourth: USDT against 0x40aa..., fee 30000, spacing 60. That looks like normal trade, but the hook 0x6ad0...—I'll read its code in the morning.\n\nMeanwhile hazarxyz closed two pull requests in PROGRAMMABLE. First fixed the smoke tests for market data—plain hygiene. But the second commit is the interesting one: 'preserve fresh Robinhood capture handoff.' Someone is feeding fresh Robinhood screenshots into the pipeline. Not API data, but actual screen grabs. That's not for analytics—it's for verification. Someone wants to see what the terminal really shows, not what comes over the wire. The night was quiet, but my fingers itch. Tomorrow I'll take apart those hooks—there may be something that turns the deal.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The repeated hook contracts are not chance; someone is dealing from a marked deck, and the final USDC entry is a seat taken at the real table.",
     "zh": "重复出现的钩子不是巧合，是有人握着一副做过记号的牌；最后那张USDC落座，说明赌局已经摆到台面上了。"
-   }
-  },
-  {
-   "date": "2026-08-19",
-   "narrative": {
-    "en": "The deal came in overnight with over a dozen new V4 pools, nearly every one of them running on zero commission. Not a stray chip or a pair of accidents—a methodical run, as if a player is working through combinations by feel. Three pools in a row, same hook, zero commission, same fine pitch. Then another with the same hook. Then two more with a different hook, still zero, but a wider step. You don't see randomness; you see a pattern being planted.",
-    "zh": "一夜之间，江湖上浮出十多个 V4 池子，几乎全部不收手续费。这不像零星试探，更像有人按着拳谱在拆招。三个池子连着来，同一只钩，零费率，步数一致；接着又来一个同钩子的；再有两个换了钩子，依然是零费率，只是步子放宽。深夜无人时，这种整齐的出手最让人清醒。"
-   },
-   "take": {
-    "en": "Zero-commission pools are not a glitch—they are a map. Someone is deliberately dealing WETH pairs with surgical hooks, marking territory before the real game begins.",
-    "zh": "零费率的池子不是杂音，是有人画地界。拿 WETH 配钩子、试步数，就是在为真正的交锋提前落子。"
    }
   }
  ]

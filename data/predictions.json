@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 19,
-  "open": 6,
-  "hit_rate": 0.568
+  "miss": 18,
+  "open": 7,
+  "hit_rate": 0.581
  },
  "items": [
+  {
+   "id": 68,
+   "made_at": "2026-09-02",
+   "text": "The hand is moving too fast for the room — one player laying pool after pool, far beyond the usual pace. Over the next seven days the count clears 144; the likely landing sits between 41 and 437, and I give the over about 60%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-09",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 67,
    "made_at": "2026-09-01",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-06",
    "status": "miss",
    "resolution_note": "Confirmed: target +258 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 18,
-   "made_at": "2026-06-28",
-   "text": "Over the next 7 days the count will exceed 302, as builders deploy pools with non-standard swap fees — either zero or the maximum tier — instead of market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap, not an organic token launch.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-05",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +302 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

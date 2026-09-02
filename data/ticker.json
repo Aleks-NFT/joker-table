@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-02T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Activity spike: Manuel-dev01/tenure-hook pushed 32 commits in 14 days",
+   "url": "https://github.com/Manuel-dev01/tenure-hook"
+  },
+  {
+   "ts": "2026-09-02T04:00:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01/tenure-hook promoted to core tracking: 32 commits in 14 days — Depth is the product. A Uniswap v4 hook where every address pays the same fee and...",
+   "url": "https://github.com/Manuel-dev01/tenure-hook"
+  },
+  {
+   "ts": "2026-09-02T03:55:08Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: StompiesArt/stompies-hook — 0★ — Stompies Uniswap v4 Hook",
+   "url": "https://github.com/StompiesArt/stompies-hook"
+  },
+  {
+   "ts": "2026-09-02T03:45:45Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Legendarylibr/cross-l2-rebalancer — 0★ — A Uniswap V4 hook that monitors pool prices across L2s and executes on-chain arbitrage to ...",
+   "url": "https://github.com/Legendarylibr/cross-l2-rebalancer"
+  },
+  {
+   "ts": "2026-09-02T03:07:11Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #635 in PROGRAMMABLE: 'feat(web): launch Robinhood custom hooks with API keys'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/635"
+  },
+  {
+   "ts": "2026-09-02T02:49:10Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Legendarylibr/safeswap-hook — 0★ — A Uniswap v4 hook combining oracle-bounded price gating (beforeSwap) and cross-venue reference v...",
+   "url": "https://github.com/Legendarylibr/safeswap-hook"
+  },
+  {
+   "ts": "2026-09-02T02:42:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25886689. Tokens: 0x0000000000000000000000000000000000000000 / 0x2a1e66bed25329e1526c395651961dfd5b94437e. Fee:...",
+   "url": "https://etherscan.io/tx/0xec2cd6528b61f73c1ce723193eb5ed21abf0450470c95298b5105e82ae2135a2"
+  },
+  {
+   "ts": "2026-09-02T02:20:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25886576. Tokens: 0x0000000000000000000000000000000000000000 / 0x74ada72aef7ec6ed726dfd42cc3b77661f8131dd. Fee:...",
+   "url": "https://etherscan.io/tx/0xfc010dc5db7079081f4d0424aa0ba8b0f2b63c7cdc53bc0aaa0128c4085ff2d0"
+  },
+  {
+   "ts": "2026-09-02T02:18:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25886570. Tokens: 0x0000000000000000000000000000000000000000 / 0x045ca7569a4c164ffe29f158b917abc335bcf8c3. Fee:...",
+   "url": "https://etherscan.io/tx/0xb4ff3c234f561e8246f021179aac13ea4b15da64022fa6af6b62cf0aae8e1d47"
+  },
+  {
    "ts": "2026-09-02T01:46:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25884375. Tokens: 0x0000000000000000000000000000000000000000 / 0x61bd68daf0c4f006f2d7c09f40945ceb311607fa. Fee:...",
    "url": "https://etherscan.io/tx/0x84ecff6dfd615dd664de323696a5880c3f2e505571dacb1df18658af8a43b8a5"
-  },
-  {
-   "ts": "2026-09-01T18:47:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25884321. Tokens: 0x0000000000000000000000000000000000000000 / 0xe7045a02ab5e96674abf3c72c88f2710ae561110. Fee:...",
-   "url": "https://etherscan.io/tx/0x9d2d231ecce4ba6fc08c7ba9b42e00a2e7a3d7eaa58087818953ed864a3a1e62"
-  },
-  {
-   "ts": "2026-09-01T18:42:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25884298. Tokens: 0x0000000000000000000000000000000000000000 / 0x969b7a19aaaac73245e215b39c949bedcf4c1110. Fee:...",
-   "url": "https://etherscan.io/tx/0x0632f7463c694698bc4a8c74d134d103f58ec31dd0c51ff998f0730aa63f38b3"
-  },
-  {
-   "ts": "2026-09-01T18:36:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25884269. Tokens: 0x0000000000000000000000000000000000000000 / 0xe77c8f470afc3c802e7a8079bae3f55391491110. Fee:...",
-   "url": "https://etherscan.io/tx/0x637ab6c8861154606c452bcfd906f8b5ed5603c2bd2a05d5d635c5a32128e938"
-  },
-  {
-   "ts": "2026-09-01T18:35:03Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #163 in uniswap-hooks: 'LimitOrderHook: fill the direction the price moved, not the swap's'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/163"
-  },
-  {
-   "ts": "2026-09-01T18:25:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25884215. Tokens: 0x0000000000000000000000000000000000000000 / 0x4d5e9c030e14cdc45bada97754ecb1a3045f1110. Fee:...",
-   "url": "https://etherscan.io/tx/0x14df32364398aa44b8110c4b592226ef7ff199f72e701ddf843f9c324b735b6e"
-  },
-  {
-   "ts": "2026-09-01T18:18:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #162 in uniswap-hooks: 'CurrencySettler: document that `payer` must be trusted'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/162"
-  },
-  {
-   "ts": "2026-09-01T17:46:22Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 57536423. Tokens: 0x4200000000000000000000000000000000000006 / 0x4b64db6f37d53bbb0b80bcf26bddad1e44...",
-   "url": "https://uniscan.xyz/tx/0xe82c7a7e29aa11005dd7002e258f3548a573b28ebe8a465e6c92cc03bf4526cf"
-  },
-  {
-   "ts": "2026-09-01T17:30:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25883941. Tokens: 0x0000000000000000000000000000000000000000 / 0xb328e1b717971047fea522cdc78101595bf723be. Fee:...",
-   "url": "https://etherscan.io/tx/0xc136ae07f83ca38b71ccd5b771fe65b3e40694a376d323f5391daa51ff44471f"
-  },
-  {
-   "ts": "2026-09-01T17:24:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25883910. Tokens: 0x0000000000000000000000000000000000000000 / 0xa84bdef57dd89514c26c5782e0433e4eec7bbb08. Fee:...",
-   "url": "https://etherscan.io/tx/0xdb6afc1bb9c2da1318a51513e7a9a0032f4aba77b8135c825f3061fc0f6db3c0"
   }
  ]
 }
