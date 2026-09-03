@@ -2,6 +2,62 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-03T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (38 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $96,218,465   #2 USDC / USDT — $81,708,592   #3 PYUSD / USDS — $59,195,292   #4 U...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDT 0.05% TVL grew 71% to $18,663,048",
+   "url": "https://www.geckoterminal.com/eth/pools/0x72331fcb696b0151904c03584b66dc8365bc63f8a144d89a773384e3a579ca73"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.008% volume surged 80% to $5,610,044 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS volume surged 224% to $24,208,370 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% volume surged 143% to $33,760,728 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: VIBE / ETH 1% — $2,789,645 24h volume, $1,482,935 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb07d640fd9e2eb9dc81b953c8e4fd006bdfeaf276010fb5418eb763ca15abfb3"
+  },
+  {
+   "ts": "2026-09-03T04:30:01Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $3,052,171 24h volume, $784,649 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
    "ts": "2026-09-03T02:32:46Z",
    "suit": "club",
    "source": "github",
@@ -154,62 +210,6 @@
    "source": "github",
    "text": "Manuel-dev01 pushed to tenure-hook: 'Retract the prover-silence finding: it was an artifact of a pruned RPC'",
    "url": "https://github.com/Manuel-dev01/tenure-hook/commit/48fa9acd752b5d1469bacafc6e2b104af258c115"
-  },
-  {
-   "ts": "2026-09-02T22:00:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "tenure-hook updated README (sha 180e949)",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
-  },
-  {
-   "ts": "2026-09-02T21:45:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Najnomics/fair-path — 0★ — UHI10 Uniswap v4 hook: attested fair flow + Flashblocks slot tax + searcher bond desk",
-   "url": "https://github.com/Najnomics/fair-path"
-  },
-  {
-   "ts": "2026-09-02T21:45:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Najnomics/surplus-sink — 0★ — UHI10 Uniswap v4 hook: Flashbots Protect / MEV-Share surplus donates to in-range LPs",
-   "url": "https://github.com/Najnomics/surplus-sink"
-  },
-  {
-   "ts": "2026-09-02T21:45:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Najnomics/sold-backrun — 0★ — UHI10 Uniswap v4 hook: sell each retail swap's backrun to bonded searchers, donate to LPs",
-   "url": "https://github.com/Najnomics/sold-backrun"
-  },
-  {
-   "ts": "2026-09-02T21:34:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25892334. Tokens: 0x0000000000000000000000000000000000000000 / 0xf71349a0ea4411a3e7f58491c99ceae5d5cd88a4. Fee:...",
-   "url": "https://etherscan.io/tx/0xaeb6d2b793f7262aa84548b6f62a826024fbeb5b7fdc6c92c44746e94f5558ec"
-  },
-  {
-   "ts": "2026-09-02T21:32:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25892323. Tokens: 0x0000000000000000000000000000000000000000 / 0x521d7730a40ed29ec386948c3c03df8029fc789a. Fee:...",
-   "url": "https://etherscan.io/tx/0x95c306f897e8038ab140f66976b226dfbe57382ba38b2ede88445166aabd7d88"
-  },
-  {
-   "ts": "2026-09-02T21:27:48Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: seoeva/Homelander-hookathon-docs — 0★ — Homelander documentation for Uniswap v4",
-   "url": "https://github.com/seoeva/Homelander-hookathon-docs"
-  },
-  {
-   "ts": "2026-09-02T21:26:46Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'The gateway is holding a correct result; say that, and show the decode'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/8d5d22ad77b15101dceccd00165972127c9ca2e6"
   }
  ]
 }

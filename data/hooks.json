@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-03T04:13:29Z",
+ "generated_at": "2026-09-03T05:13:29Z",
  "total_hooks": 4117,
  "total_pools": 12958,
  "multi_pool_hooks": 373,
@@ -4975,8 +4975,8 @@
   {
    "address": "0x00000078bd49d5279a99b5f4011a5c61ee8caac0",
    "address_short": "0x0000…aac0",
-   "name": "",
-   "verified": false,
+   "name": "DualPoolHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x00000078bd49d5279a99b5f4011a5c61ee8caac0",
    "pool_count": 2,
    "permissions_human": [
