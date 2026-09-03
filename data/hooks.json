@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-03T15:13:30Z",
- "total_hooks": 4127,
- "total_pools": 12982,
+ "generated_at": "2026-09-03T16:13:30Z",
+ "total_hooks": 4129,
+ "total_pools": 12985,
  "multi_pool_hooks": 373,
  "shown": 373,
  "more_count": 0,
@@ -1066,6 +1066,29 @@
    "visible": false
   },
   {
+   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "address_short": "0x6af8…40cc",
+   "name": "HKPDHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
+   "pool_count": 17,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25727858,
+   "last_block": 25897794,
+   "last_deploy": "2026-09-03T16:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x7847f2cf84dddfcdc6faafa4f50dfd9dcfbec0cc",
    "address_short": "0x7847…c0cc",
    "name": "TripoolsAntiSnipeHook",
@@ -1109,29 +1132,6 @@
    "last_block": 25361289,
    "last_deploy": "2026-06-20T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "address_short": "0x6af8…40cc",
-   "name": "HKPDHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x6af89b5562735fc39a9135d18b2f3deb782440cc",
-   "pool_count": 16,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25727858,
-   "last_block": 25866942,
-   "last_deploy": "2026-08-30T10:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6626,7 +6626,7 @@
    "first_block": 25846892,
    "last_block": 25847345,
    "last_deploy": "2026-08-27T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
