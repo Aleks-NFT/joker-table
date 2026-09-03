@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-03T17:13:29Z",
- "total_hooks": 4129,
- "total_pools": 12985,
- "multi_pool_hooks": 373,
- "shown": 373,
+ "generated_at": "2026-09-03T18:13:29Z",
+ "total_hooks": 4131,
+ "total_pools": 12989,
+ "multi_pool_hooks": 374,
+ "shown": 374,
  "more_count": 0,
  "hooks": [
   {
@@ -999,6 +999,29 @@
    "visible": false
   },
   {
+   "address": "0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
+   "address_short": "0x5fdb…00cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
+   "pool_count": 21,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25889930,
+   "last_block": 25898070,
+   "last_deploy": "2026-09-03T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x94a7d6550eea1f79bf2b6b5a8bf6dac0c2ab0088",
    "address_short": "0x94a7…0088",
    "name": "",
@@ -1017,29 +1040,6 @@
    "last_block": 25256807,
    "last_deploy": "2026-06-08T19:22:11Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
-   "address_short": "0x5fdb…00cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
-   "pool_count": 20,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25889930,
-   "last_block": 25897100,
-   "last_deploy": "2026-09-03T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6015,6 +6015,33 @@
    "visible": false
   },
   {
+   "address": "0x4ef13acee5b8d23134533ea7359344442026a8cc",
+   "address_short": "0x4ef1…a8cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x4ef13acee5b8d23134533ea7359344442026a8cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25898342,
+   "last_block": 25898343,
+   "last_deploy": "2026-09-03T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x5003b9063e5968f2586483b810a8582aa8b08040",
    "address_short": "0x5003…8040",
    "name": "VolcanoHook",
@@ -7390,7 +7417,7 @@
    "first_block": 25847638,
    "last_block": 25847689,
    "last_deploy": "2026-08-27T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
