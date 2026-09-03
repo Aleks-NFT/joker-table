@@ -2,11 +2,25 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-03T06:00:06Z",
+   "suit": "club",
+   "source": "github",
+   "text": "tenure-hook updated README (sha 1e8d57d)",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
+  },
+  {
    "ts": "2026-09-03T05:00:02Z",
    "suit": "spade",
    "source": "governance",
    "text": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (38 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878"
+  },
+  {
+   "ts": "2026-09-03T04:42:54Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Manuel-dev01 pushed to tenure-hook: 'Put the mechanism first, and drop the stale 47-minute claim from shipped files'",
+   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/ecf209652976002e59310b3f606882a3a7b390bd"
   },
   {
    "ts": "2026-09-03T04:30:01Z",
@@ -56,6 +70,13 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $3,052,171 24h volume, $784,649 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
+   "ts": "2026-09-03T04:03:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25894270. Tokens: 0x0000000000000000000000000000000000000000 / 0xc14830e53aa344e8c14603a91229a0b925b0b262. Fee:...",
+   "url": "https://etherscan.io/tx/0xef81cddf74d2e5ce414ecb86657fbe219eef39f0a63996b31641e09d2972065d"
   },
   {
    "ts": "2026-09-03T02:32:46Z",
@@ -189,27 +210,6 @@
    "source": "github",
    "text": "hazarxyz merged PR #636 in PROGRAMMABLE: 'fix(web): preserve Robinhood V4 launch identity'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/636"
-  },
-  {
-   "ts": "2026-09-02T22:23:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz pushed to PROGRAMMABLE: 'fix(web): preserve Robinhood V4 launch identity (#636)'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/67ba1ef6ea49e4f05403ba9faab7f1b5fad30605"
-  },
-  {
-   "ts": "2026-09-02T22:17:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'State the whole account: gateway holds a result, no deployment shows traffic'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/1e74735bf67c7342c73ea7279fef1aff78b8814a"
-  },
-  {
-   "ts": "2026-09-02T22:07:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'Retract the prover-silence finding: it was an artifact of a pruned RPC'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/48fa9acd752b5d1469bacafc6e2b104af258c115"
   }
  ]
 }
