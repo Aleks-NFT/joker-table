@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 17,
-  "open": 8,
-  "hit_rate": 0.595
+  "miss": 18,
+  "open": 7,
+  "hit_rate": 0.581
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next seven days the count clears 49; the likely landing sits between 14 and 148, and I give the over about 60%. One hook contract is laying down new tables one after another, far faster than any typical player moves.",
    "horizon_days": 7,
    "resolve_after": "2026-09-03",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +49 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
