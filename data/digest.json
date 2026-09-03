@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-03",
+   "narrative": {
+    "en": "Five tables hit the felt in a single shift — all V4, all wearing hooks. The same hand, 0x51768f5da32ba2008304cc81674da51acb802888, turned up three times running, at 25893317, 25893400 and 25893535, always paired against the native chip, always taking no toll at the rail, always stepping in sixty-count strides. Three identical setups from one player is not a scatter of luck; it's a system being rehearsed on identical cloth before the real stake.\n\nTwo other tables dealt in with different signatures: 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc at 25893220, and 0x96b893683afbfec071e90f78d00de4bb932fe0cc at 25893096, both on a wider two-hundred-step layout. Every one of the five carries a zero at the pool door. Around these parts, a zero door usually means the toll has been moved into the hook's pocket — the fee is taken off the table and collected in the back room.\n\nMeanwhile, the tenure-hook repository has fresh ink; its README turned another page, the code still moving. No famous names, no meme tokens. Five structurally identical pools in a day, three distinct hook designs, and a ledger that refuses to sit still. That isn't surface noise. That's a deck being shuffled into a stack. The house hasn't shown the game yet, but the cards are already being bundled.",
+    "zh": "江湖一夜之间多了五张池子，形制相近，都出自 V4 门下，且每张都带着 hook 这件暗器。头一位 0x51768f5da32ba2008304cc81674da51acb802888 连出了三次手——25893317、25893400、25893535，三回皆以本币为伴，池口不收分文，步幅清一色的六十格。同一只手在同一组规则下反复落子，不像兴之所至，更像在拿同样的桩子量水深。三张同构的池子出自同一副骨架，这已是成建制的动作。\n\n另有两路来路不同：0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 在 25893220 露头，0x96b893683afbfec071e90f78d00de4bb932fe0cc 在 25893096 现身，皆是两百格的大跨步。五张池子全都写着池口零费率；老江湖都知道，V4 里的大门不收钱，未必是让利，倒更可能是把过路费移进了 hook 里暗收——或者，这只是某场招揽内力的前奏。\n\n同一时间，tenure-hook 的 README 又添了新字。仓库还没凉，招式还在变。没有响亮名号，没有花哨代币，只有五张同构的池子、三套不同的 hook，和一本仍在更新的心法。这一日的动静不是杂音，是有人正在打一副长牌；牌未翻开，风已经动了。"
+   },
+   "take": {
+    "en": "Three identical tables from a single handler and two close kin from other handles in one session — this is not a developer testing the mechanism; it is a playbook being rehearsed in the dark. Watch the code trail, not the floor noise.",
+    "zh": "今日没有大人物，也没有热炒的币，只有五张同骨架、三套暗手的池子同日摆台——这不是试探，是有人按同一本拳谱在练功。拳谱还在改，等他收招，江湖自会知道刀往哪边落。"
+   }
+  },
+  {
    "date": "2026-09-02",
    "narrative": {
     "en": "Two pools hit the felt within a single breath — same house rules, zero cut, the narrow step that usually belongs to the stable quiet, and each table holds native ETH. But the hook contracts behind them are not the same, and the second tokens carry no names this room recognizes. The IDs don't overlap, the tokens don't match. This was not a stray deal; someone is laying a two-card hand with the same dealer.\n\nA zero take on V4 is never about the swap. It's about the logic hiding under the cloth. The hook can pull its toll separately, steer liquidity while it moves, even change the order of execution. With a step that fine, the pool expects price to breathe in a tight lane — odd for an ETH pair, unless the hook itself is meant to hold the range. The quiet is loaded. The configs are already on the table.\n\nNeither of the second tokens has a label worth a glance. Not the usual stable names, not the house favorites. Could be fresh blood, or a purpose-built contract written for this exact design. Without a crowd, these are dead tables — but the opening is the tell. Someone has loaded the setup and is waiting. Two rooms, same night, different jokers, one play.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Someone is not gambling—they are building a deployment machine. The repeated zero-fee hook and cloned parameters are the tell: a deliberate pipeline, not a random hand.",
     "zh": "这不是赌运气，是有人在排兵布阵。重复的零费钩子和一模一样的参数，说明背后是流水线一样的部署手艺。"
-   }
-  },
-  {
-   "date": "2026-08-20",
-   "narrative": {
-    "en": "Deal a hand from this deck and you'll find a hook pool with no cut and a two-hundred notch ladder, a dozen of them, WETH on every end. That alone wouldn't raise a brow on V4. But one hook contract appears three times, another four times — no gambler mistakes that for chance. Someone is dealing the deck methodically.\n\nThe first pool opened against a WETH-facing token with a thirty-basis-point cut and a sixty-step ladder. Thirty-five blocks later, another appeared, with a tighter cut of 3.75 basis points and a four-step ladder, a different hook. Then the wave came: five pools in forty blocks, all different tokens, same WETH spine, zero cut, wide spread — someone testing how fine a market can be sliced at two-hundred notch granularity.\n\nThen the wild card: a pool without WETH — eETH opposite an unknown token, zero cut, sixty-step ladder, a hook never seen at the table. And the closer: a pool against USDC, with a 0.075% cut and the tightest ladder of the deal, a one-step spread. That wasn't a test; that was a seat taken. What we saw is three waves: first, scouts with mixed cuts; second, a zero-cut cluster minted by the same hooks, liquidity stamped to one strategy; third, a march past WETH dominance into stablecoin territory. One pool carries a cut of 8,388,608 — not a cut, a flag. It's either a corrupt card or a deliberate marker. The deck isn't complete, but the pattern is already readable.",
-    "zh": "江湖上有人发牌。随手抽一张，便是不收过路费的钩子池，价差细到两百格，一端全是WETH。一打这样的池子浮出水面，原也不算稀奇。可同一个钩子合约出现三次，另一个出现四次——老江湖看了，只问一句：这不是巧合，是谁在按套路落子。\n\n第一池开局是WETH对一枚陌生令牌，千分之三的过路费，六十步的间距。过了三十五步，又来一池，费率降到万分之三点七五，间距缩到四步，钩子换了人。接着是一阵密集响动：四十步内连开五池，令牌各不同，骨架全是WETH，不收过路费，间距放宽。这是有人在试水，看这二百格的窄道能不能走通。\n\n然后来了张百搭牌：一池没有WETH。eETH对一枚无名的令牌，不收过路费，六十步间距，钩子是个新面孔。末了，一池对USDC，费率百分之零点零七五，间距一步——整场最窄的路。这不是试水，是拍桌子坐下。回头看，三波手笔。第一波，各色费率，是探路；第二波，零费率成串，同一套钩子反复出现，像是按同一门心法灌注内力；第三波，走出WETH的圈子，接了稳定币。其间有一池挂着八百三十八万八千六百零八的费率——那不像费率，像旗号。要么是错牌，要么是有意为之。牌没发完，但牌路已经亮了。"
-   },
-   "take": {
-    "en": "The repeated hook contracts are not chance; someone is dealing from a marked deck, and the final USDC entry is a seat taken at the real table.",
-    "zh": "重复出现的钩子不是巧合，是有人握着一副做过记号的牌；最后那张USDC落座，说明赌局已经摆到台面上了。"
    }
   }
  ]

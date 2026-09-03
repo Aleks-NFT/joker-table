@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-03T02:32:46Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: abdraufdele/Essentials — 0★ — A Uniswap v4 hook that batch-clears swaps at a single uniform price, deters JIT liquidity, and recapt...",
+   "url": "https://github.com/abdraufdele/Essentials"
+  },
+  {
    "ts": "2026-09-03T01:36:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -14,6 +21,13 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25893400. Tokens: 0x0000000000000000000000000000000000000000 / 0x8d30add67601532686fa011e85ac0d5995cf6937. Fee:...",
    "url": "https://etherscan.io/tx/0x603040a4aa268ab0965f4b8e8c4a9a9e0bc4e118e48d0ff59b0e12ff56cbef94"
+  },
+  {
+   "ts": "2026-09-03T01:03:56Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Georgechisom/RemembraMark — 0★ — An Exposure Memory Hook for Uniswap v4.",
+   "url": "https://github.com/Georgechisom/RemembraMark"
   },
   {
    "ts": "2026-09-03T00:53:23Z",
@@ -42,6 +56,13 @@
    "source": "github",
    "text": "tenure-hook updated README (sha c56c836)",
    "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
+  },
+  {
+   "ts": "2026-09-02T23:55:24Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: avrahx/v4-graduation-shield — 0★ — v4-graduation-shield: Dynamic Liquidity Defense Hook (Uniswap v4)",
+   "url": "https://github.com/avrahx/v4-graduation-shield"
   },
   {
    "ts": "2026-09-02T23:39:47Z",
@@ -142,6 +163,27 @@
    "url": "https://github.com/Manuel-dev01/tenure-hook/blob/main/README.md"
   },
   {
+   "ts": "2026-09-02T21:45:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Najnomics/fair-path — 0★ — UHI10 Uniswap v4 hook: attested fair flow + Flashblocks slot tax + searcher bond desk",
+   "url": "https://github.com/Najnomics/fair-path"
+  },
+  {
+   "ts": "2026-09-02T21:45:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Najnomics/surplus-sink — 0★ — UHI10 Uniswap v4 hook: Flashbots Protect / MEV-Share surplus donates to in-range LPs",
+   "url": "https://github.com/Najnomics/surplus-sink"
+  },
+  {
+   "ts": "2026-09-02T21:45:32Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: Najnomics/sold-backrun — 0★ — UHI10 Uniswap v4 hook: sell each retail swap's backrun to bonded searchers, donate to LPs",
+   "url": "https://github.com/Najnomics/sold-backrun"
+  },
+  {
    "ts": "2026-09-02T21:34:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -156,60 +198,18 @@
    "url": "https://etherscan.io/tx/0x95c306f897e8038ab140f66976b226dfbe57382ba38b2ede88445166aabd7d88"
   },
   {
+   "ts": "2026-09-02T21:27:48Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: seoeva/Homelander-hookathon-docs — 0★ — Homelander documentation for Uniswap v4",
+   "url": "https://github.com/seoeva/Homelander-hookathon-docs"
+  },
+  {
    "ts": "2026-09-02T21:26:46Z",
    "suit": "club",
    "source": "github",
    "text": "Manuel-dev01 pushed to tenure-hook: 'The gateway is holding a correct result; say that, and show the decode'",
    "url": "https://github.com/Manuel-dev01/tenure-hook/commit/8d5d22ad77b15101dceccd00165972127c9ca2e6"
-  },
-  {
-   "ts": "2026-09-02T21:09:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25892207. Tokens: 0x0000000000000000000000000000000000000000 / 0x2916d2485ed7b8b23571dee0479c3a15b0fb7360. Fee:...",
-   "url": "https://etherscan.io/tx/0xf6ef9e56fb2a9048b786f2aa5b85bff081795a3eb024a80b32e87f7f12d3fef5"
-  },
-  {
-   "ts": "2026-09-02T20:49:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25892109. Tokens: 0x0000000000000000000000000000000000000000 / 0xd48f6ae56f0a2118dbe5a0e9a0df7f645686d8d5. Fee:...",
-   "url": "https://etherscan.io/tx/0x7a2eb838cd5db4cab45c322e381f878bf0061f19b1166403079e41c40ca39ee1"
-  },
-  {
-   "ts": "2026-09-02T20:48:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25892103. Tokens: 0x0000000000000000000000000000000000000000 / 0xf5ec184956e8d40d04598cfb8d698eb6f54328b4. Fee:...",
-   "url": "https://etherscan.io/tx/0x4e5511f5eb4101452db9faae50dceac7ab8bb003f56df8734d6c483c3f46922f"
-  },
-  {
-   "ts": "2026-09-02T20:21:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25891968. Tokens: 0x0000000000000000000000000000000000000000 / 0x492a03726a40611151d83753923fed56f8eb12ef. Fee:...",
-   "url": "https://etherscan.io/tx/0x1cf4237661e2090f72960328d565e721d8df2cfb5ef9f366a2c5ec266a31d100"
-  },
-  {
-   "ts": "2026-09-02T20:21:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Manuel-dev01 pushed to tenure-hook: 'Lead the partner section with what works, and split out dependencies'",
-   "url": "https://github.com/Manuel-dev01/tenure-hook/commit/76741d8e364ceb123bf10706ad77ad1aafe16a1e"
-  },
-  {
-   "ts": "2026-09-02T20:17:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25891947. Tokens: 0x0000000000000000000000000000000000000000 / 0xc6bf368fd101df180d958d76958e696f3a8c8ade. Fee:...",
-   "url": "https://etherscan.io/tx/0xc4b71d00e3a59ab62a2d58609d50e9bd6d78c6aa874f8659633e8792c02cc30e"
-  },
-  {
-   "ts": "2026-09-02T20:13:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25891929. Tokens: 0x0000000000000000000000000000000000000000 / 0xb48ae14529adf3f7737111969313602b6dfa48d7. Fee:...",
-   "url": "https://etherscan.io/tx/0xca6e970a56e1de079bfce511ac840c06efacac7bb2b074bc8c657cf37bc6c5bf"
   }
  ]
 }
