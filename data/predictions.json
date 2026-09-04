@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 18,
-  "open": 7,
-  "hit_rate": 0.581
+  "miss": 17,
+  "open": 8,
+  "hit_rate": 0.595
  },
  "items": [
+  {
+   "id": 70,
+   "made_at": "2026-09-04",
+   "text": "The same hand is dealing pool after pool onto the felt at a pace no regular dealer matches. Over the next seven days the count clears 89; the likely landing sits between 43 and 488, and I give the over about 57%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-11",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 69,
    "made_at": "2026-09-03",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-08",
    "status": "miss",
    "resolution_note": "Confirmed: target +188 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 20,
-   "made_at": "2026-06-30",
-   "text": "Over the next 7 days the count will exceed 218.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-07",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +218 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-04",
+   "narrative": {
+    "en": "The same hand keeps dealing tonight. Address 0xafed2c6e0d906520ca17143a8918ce6d54b128cc — the fingers that shuffle the V4 deck. Ten of every fifteen fresh pools fall on that mark. Zero commission, tick spacing held at a fixed 200. Every card trimmed to the same ruthless spec.\n\nWatch the pairs: WETH lingers beside tokens like 0xe1a3d8... and 0xc479c5.... That's not chaos — that's a pattern. Someone lines up liquidity for a play that owes nothing to swap fees; the zero house cut tells you the table isn't the profit. It's fuel for something else. Oracles. Arbitrage bots. Or a dry run before the real money sits down.\n\nThree pools use the null address for native ETH, hooked from 0x13c890.... A different signature, two of them back-to-back, one just before. As if testing the mechanism with the house's own chips before switching to exotic pairs.\n\nOn GitHub, PR #649 from hazarxyz lands in PROGRAMMABLE — a release fix, digest update for the V4 machine-contract. The code is snapping into step with what's already deployed on-chain. Someone keeps their hand on the pulse: first the pools, then the patch. The night runs quiet, yet the deck is moving fast. While others watch charts, these players shuffle hook contracts, knowing the real deal begins once the chips settle on their squares.",
+    "zh": "深夜的江湖，总有人不声不响地摆弄阵脚。这个地址 0xafed2c6e0d906520ca17143a8918ce6d54b128cc，今夜新开的十五口池子里，十口出自他一人。同样的钩法，同样的手法：不收过路费，间距只守两寸。\n\n再看牌面，WETH 像老朋友一样，这边 0xe1a3d8...，那边 0xc479c5... 这不是乱局，是套路。有人不挣过路钱，自然不会只为普通买卖——那是养在内力，是为了更深一步的棋。或预言机，或套利的暗刀，又或者只是收网之前的演练。\n\n另外三口池子，直接以零地址为引，钩子由 0x13c890... 执掌。两池几乎同时，另一池稍早。像先用最简单的原料试功夫，再回过神去变换花样。\n\n同一刻，repo PROGRAMMABLE 上 hazarxyz 递上 #649，是修版本，为 V4 machine-contract 补上内功的更新。链上布阵，链下补刀，分明有人在看着整个棋局。夜静，但内力在动。别人盯的是价格线的起伏，他洗的是钩子的流动；等筹码各归其位，真正的分晓才开。"
+   },
+   "take": {
+    "en": "Tonight's ten-of-fifteen isn't a scattering of chips — it's a blueprint. One address is building the table for a deeper game, and the floor is already being re-patched from the shadows.",
+    "zh": "今夜不是散局，而是某个门派的大棋：一人连开十池，不收过路费，分明在养本门内力。链上的步子才落，链下的心得已补，江湖局，要变了。"
+   }
+  },
+  {
    "date": "2026-09-03",
    "narrative": {
     "en": "Five tables hit the felt in a single shift — all V4, all wearing hooks. The same hand, 0x51768f5da32ba2008304cc81674da51acb802888, turned up three times running, at 25893317, 25893400 and 25893535, always paired against the native chip, always taking no toll at the rail, always stepping in sixty-count strides. Three identical setups from one player is not a scatter of luck; it's a system being rehearsed on identical cloth before the real stake.\n\nTwo other tables dealt in with different signatures: 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc at 25893220, and 0x96b893683afbfec071e90f78d00de4bb932fe0cc at 25893096, both on a wider two-hundred-step layout. Every one of the five carries a zero at the pool door. Around these parts, a zero door usually means the toll has been moved into the hook's pocket — the fee is taken off the table and collected in the back room.\n\nMeanwhile, the tenure-hook repository has fresh ink; its README turned another page, the code still moving. No famous names, no meme tokens. Five structurally identical pools in a day, three distinct hook designs, and a ledger that refuses to sit still. That isn't surface noise. That's a deck being shuffled into a stack. The house hasn't shown the game yet, but the cards are already being bundled.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Sixteen pools in one night, one hook repeated three times, and a fee flag that isn't a typo—this isn't noise, it's a deck being shuffled for a game that hasn't been announced.",
     "zh": "十六池一夜，同一 hook 三现，费率数字不是错笔——这不是杂音，是有人在未开盘前先把牌洗好了。"
-   }
-  },
-  {
-   "date": "2026-08-21",
-   "narrative": {
-    "en": "Fourteen pools in a single night—and that's only what the scanner caught. The same hook contract keeps resurfacing: 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc. Seven times in the latest blocks, each time paired with the zero address and a zero fee. Tick spacing 200—the standard spread for wide ranges. This is not a series of spontaneous launches. This is a conveyor belt being fed.\n\nThen the deck turned to rarer notes. A pool with fee 8388608 (0.8%) and tick spacing 60—not for crowd trading, but for low-volatility instruments. Its hook matches one of the tokens: a classic case where the token itself sits in the hook slot. Right behind it came the standard 0.3% trio with ticks 30, though this one carried a different hook: 0x85e24ffa15ac649c3323c8bec7910ba67caec0cc. And so it went—each block dealt a new pool, each with its own handwriting.\n\nSeparately, I caught a USDC/WETH pool with the same nonstandard fee of 8388608 and tick spacing 60, but with another hook: 0x7f35e2e51a3359f8e793527faaaef6dc745cc0c4. That is not a random pair; that is liquidity laid out for professional strategies. Then another USDC pool, this time paired with token 0x33ce4375f93fa3c348ee1ad0ab8fe33f534d0088, fee 1%—and once again the token itself acts as the hook. You can see different teams, different protocols, spinning up their V4 infrastructures in parallel, not crossing paths.\n\nThe night was dense. The deck shuffles fast, and every new pool is another card placed on the felt. Some are building a combination; some are simply shedding cards. But when a line of pools with the same hook and zero fee shows up inside a few hours, this is not blind play. It is calculation.",
-    "zh": "一夜之间，扫描到的池子就有十四个，而且这还只是扫进网里的。同一个钩子合约反复冒头：0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc。最近几个区块里出现了七次，每次都是零地址配对、手续费为零。Tick间距200，宽幅振荡的标准布法。有人不是在下散注，是在铺一条流水线——同一套图纸，同一副骨架，一个一个立起来。\n\n也有更稀罕的变数。一个池子手续费8388608（0.8%）、tick间距60，这不是给散户热闹用的，是给低波动工具备的。它的钩子和某个代币地址相同，属于典型的代币自身充当钩子。紧跟着又有一个标准0.3%池，tick间距30，但钩子换成了0x85e24ffa15ac649c3323c8bec7910ba67caec0cc。一个区块接一个区块，新池不断翻出，各有各的笔迹。\n\n另外看到一个USDC/WETH池，同样是那组非常规手续费8388608和tick间距60，钩子却又是另一个：0x7f35e2e51a3359f8e793527faaaef6dc745cc0c4。这不是随手一配，是给职业策略备的粮。还有一个USDC池，配的代币是0x33ce4375f93fa3c348ee1ad0ab8fe33f534d0088，手续费1%，钩子又是代币自己。看得出来，几路人马各自在V4的江湖里开宗立派，平行铺开，互不搭界。\n\n夜色很浓。筹码翻得极快，每一个新池都是一张落桌的牌。有人在做牌局，有人在甩闲牌。但像这样，同一个钩子、零手续费，几个小时内接连立起一排池子——这不是闭眼押注，是早就排好的阵。"
-   },
-   "take": {
-    "en": "Someone is not gambling—they are building a deployment machine. The repeated zero-fee hook and cloned parameters are the tell: a deliberate pipeline, not a random hand.",
-    "zh": "这不是赌运气，是有人在排兵布阵。重复的零费钩子和一模一样的参数，说明背后是流水线一样的部署手艺。"
    }
   }
  ]
