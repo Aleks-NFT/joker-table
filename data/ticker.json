@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-04T15:55:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25904988. Tokens: 0x0000000000000000000000000000000000000000 / 0xf1ab170e1bdcd082e874582e630911ad017ebffc. Fee:...",
+   "url": "https://etherscan.io/tx/0xe905c89c3c9c92c0215d844645bacc002bcb7922d4d5c5f49f76fdbe4a7270df"
+  },
+  {
+   "ts": "2026-09-04T15:37:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25904900. Tokens: 0x0000000000000000000000000000000000000000 / 0x160e14312ac2ca9ff4e06649e12bce5b6b8fe2c2. Fee:...",
+   "url": "https://etherscan.io/tx/0xe5b9750a103b5962676aed814bf51805eecbeddcdc8203ba6d815a1a9cc6abeb"
+  },
+  {
+   "ts": "2026-09-04T15:23:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25904831. Tokens: 0x0000000000000000000000000000000000000000 / 0x2e1efad71e1ea8f8b9c22265e5ceddd996ddd8c6. Fee:...",
+   "url": "https://etherscan.io/tx/0x62d039c68b1c90f28799a6444cc8fede1013e7e192bcb45a1a6ab1c55524dee6"
+  },
+  {
+   "ts": "2026-09-04T15:18:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25904806. Tokens: 0x0000000000000000000000000000000000000000 / 0x52ec41e95fa8277291adc855e9868b9be06dd5c4. Fee:...",
+   "url": "https://etherscan.io/tx/0xa0de05a970759b2fa9a9a5a0f988c70518394fcf4d18047b2757d05316941661"
+  },
+  {
+   "ts": "2026-09-04T14:44:17Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #165 in uniswap-hooks: 'BaseCustomCurve: report the swap fee in the unspecified currency'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/165"
+  },
+  {
    "ts": "2026-09-04T13:59:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25903516. Tokens: 0xe233151c3daa89877ff742bdc05dd31aaeeb19cd / 0xf6b1117ec07684d3958cad8beb1b302bfd21103f. Fee:...",
    "url": "https://etherscan.io/tx/0x1667dc21d448e9315691fce11a4a71aa84904f161127296052d8119c04186485"
-  },
-  {
-   "ts": "2026-09-04T10:51:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25903472. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd297b3652ebd481a9d0a1c7bc70571983a4c55d. Fee:...",
-   "url": "https://etherscan.io/tx/0x73a407921156a0b4e003a63a9d9ada8928bfd7fd5ed54477f87fe539f0250290"
-  },
-  {
-   "ts": "2026-09-04T10:41:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25903422. Tokens: 0x171123e0994312841f8f45ec929d1161d851e760 / 0xfedc5f4a6c38211c1338aa411018dfaf26612c08. Fee:...",
-   "url": "https://etherscan.io/tx/0x90b71375fa658791c958f2d2d74a1f2d9a670d0ce3663b00077f128fe91d4c67"
-  },
-  {
-   "ts": "2026-09-04T10:34:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25903388. Tokens: 0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2 / 0xa20478842b9d6d19e310db82ebc98e8337ddbf8a. Fee:...",
-   "url": "https://etherscan.io/tx/0xda91c79f830c2eb2a5f9063c6b56052f1f693c0e015c46a49854f8df4786aa49"
-  },
-  {
-   "ts": "2026-09-04T10:31:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25903372. Tokens: 0x60fb70d48660b0a358ef03365e28662a258c7318 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
-   "url": "https://etherscan.io/tx/0xee4884377efc156c95f64d03d7a0a0f9e8aea5093ae9d1ddfcc967e60d034686"
-  },
-  {
-   "ts": "2026-09-04T10:28:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25903359. Tokens: 0x0000000000000000000000000000000000000000 / 0x1b4496f54fefd3b1b1bb6ee190e6aa97bfc2724e. Fee:...",
-   "url": "https://etherscan.io/tx/0xa043a1a018c6b86270af7a196ffc9f41811d5cbddac42066a3ca735bf4eefe3f"
   }
  ]
 }
