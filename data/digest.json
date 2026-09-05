@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-05",
+   "narrative": {
+    "en": "The deck is dealt by signature, not order. Sixteen fresh V4 hook pools slide across the felt inside one short stretch of chain, and they are cut from the same marked suit: 0x96b893 runs the ETH pairs with zero house take and a two-hundred-step ladder; 0x2da89b mirrors the pattern but anchors every wager to 0x1ac9d37c. Eight consecutive hands show one repeated base token, eight different opponents, eight pool identities fanned out. Two further pools set a sixty-step ladder under a different hook, 0xdf5d53, and the tokens there are no longer the same. Not a single fee. Nothing wild in the spacing. Only structure.\n\nIn PROGRAMMABLE the volley is synchronized. Six merges in a single day, all signed hazarxyz: the V4 agent, Router simulation, PoolManager binding, gas-sponsored migration, CLI 4.0.0. Pull request #675 opens and is immediately answered by a commit — verified proof paths to the final V4 release. Everything leans on one version: programmable-launch-v4.0.0, the public pack with exact source. These are not scattered facts; this is one deal. The V4 infrastructure is not being assembled piece by piece; it is being deployed as one bundle. Hooks on chain, code in the repo, CLI in the release. Nobody is waiting for the next round. The pack is already on the felt.",
+    "zh": "江湖上的消息，素来按名帖传，不按日子传。今天落下的是一整叠拜帖：十六个新的 V4 hook 池同在这一轮现身，出自两套法阵——0x96b893 以 ETH 为引，池上不抽分文，步数取二百；0x2da89b 依样画葫芦，只是锚定之物换成 0x1ac9d37c。同一个底层连点八次名，八次配的都是不同对手，八个池子 ID 如扇骨一般排开。另有两池步数六十，走的是 0xdf5d53 的门路，那边的物事已不是同一批。不抽分文，不在步数上故弄玄虚，只有结构。这不是零散落子，是同一只手在排阵。\n\n再看 PROGRAMMABLE 这一门：一日之内六次合流，签押全是 hazarxyz。V4 agent、Router 模拟、PoolManager 绑定、gas 代付迁移、CLI 4.0.0，全数汇在一处。Pull request #675 当日掀开，当即有 commit 落印，verified proof paths 直指最终的 V4 一役。所有线索都绑在同一个版本上：programmable-launch-v4.0.0，public pack 从源码起就亮在台面。江湖人讲眼见为实，如今链上的池子、库里的码、刃上的 CLI，都在同一天到齐。没有人在等下一轮。桌子已经摆好了。"
+   },
+   "take": {
+    "en": "The signal is not any single pool or merge, but the shape of the whole hand: V4 infrastructure is being dealt as one bundle, not as small talk. When zero-fee hooks repeat the same base token eight times, the house is announcing a structural play, not decorating the table.",
+    "zh": "真正要紧的不是某一池、某一笔合并，而是这一手落得整齐：链上的池子、库里的码、刃上的 CLI，一天之内全部到位。所谓守株待兔，不如看眼前——V4 不是等人来，它自己已经把桌子摆好了。"
+   }
+  },
+  {
    "date": "2026-09-04",
    "narrative": {
     "en": "The same hand keeps dealing tonight. Address 0xafed2c6e0d906520ca17143a8918ce6d54b128cc — the fingers that shuffle the V4 deck. Ten of every fifteen fresh pools fall on that mark. Zero commission, tick spacing held at a fixed 200. Every card trimmed to the same ruthless spec.\n\nWatch the pairs: WETH lingers beside tokens like 0xe1a3d8... and 0xc479c5.... That's not chaos — that's a pattern. Someone lines up liquidity for a play that owes nothing to swap fees; the zero house cut tells you the table isn't the profit. It's fuel for something else. Oracles. Arbitrage bots. Or a dry run before the real money sits down.\n\nThree pools use the null address for native ETH, hooked from 0x13c890.... A different signature, two of them back-to-back, one just before. As if testing the mechanism with the house's own chips before switching to exotic pairs.\n\nOn GitHub, PR #649 from hazarxyz lands in PROGRAMMABLE — a release fix, digest update for the V4 machine-contract. The code is snapping into step with what's already deployed on-chain. Someone keeps their hand on the pulse: first the pools, then the patch. The night runs quiet, yet the deck is moving fast. While others watch charts, these players shuffle hook contracts, knowing the real deal begins once the chips settle on their squares.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The zero-fee V4 pools are not a play for today; they're a stacked deck waiting for the first real liquidity to be shuffled in.",
     "zh": "零费率的多池并列，不是今日的战果，而是暗伏的阵法——只待第一道流动性入局，便见真章。"
-   }
-  },
-  {
-   "date": "2026-08-22",
-   "narrative": {
-    "en": "Sixteen new tables before sunrise—not poker. I watched the deal until my eyes burned; every block turned over another pool, like someone dealing cards in a dark room, faces hidden. More than half show the zero address on one side—always interesting, because that's how you enter with native coin. But the real cards are in the hooks.",
-    "zh": "一夜之间，江湖上多出十六张新桌子。我不是说赌坊——是流水深处新开的池子。我盯了一整夜，每出一个区块，就有一口新池被挖出来，像有人在黑灯瞎火里发牌，不露脸。多半数的池子，一侧是零地址。这路数不新鲜，走的是 native coin 进场的旧门道。但真正的后手，在 hook 里。"
-   },
-   "take": {
-    "en": "Sixteen pools in one night, one hook repeated three times, and a fee flag that isn't a typo—this isn't noise, it's a deck being shuffled for a game that hasn't been announced.",
-    "zh": "十六池一夜，同一 hook 三现，费率数字不是错笔——这不是杂音，是有人在未开盘前先把牌洗好了。"
    }
   }
  ]

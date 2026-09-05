@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 18,
-  "open": 7,
-  "hit_rate": 0.581
+  "miss": 17,
+  "open": 8,
+  "hit_rate": 0.595
  },
  "items": [
+  {
+   "id": 71,
+   "made_at": "2026-09-05",
+   "text": "Over the next seven days the count clears 66; the likely landing sits between 33 and 181, and I give the over about 67%. The tell is behavioral: builders keep opening pools with the live-cost flag, so the hook contract names the toll at the moment of the trade rather than at creation — economic muscle inside the deal, not decoration.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-12",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 70,
    "made_at": "2026-09-04",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-09",
    "status": "miss",
    "resolution_note": "Confirmed: target +222 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 21,
-   "made_at": "2026-07-01",
-   "text": "Over the next 7 days the count will exceed 188, because builders are deploying pools with non-standard swap fees — either zero or the maximum tier — instead of the usual market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-08",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +188 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]
