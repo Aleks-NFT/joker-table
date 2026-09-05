@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-05T13:13:29Z",
- "total_hooks": 4176,
- "total_pools": 13300,
- "multi_pool_hooks": 382,
- "shown": 382,
+ "generated_at": "2026-09-05T14:13:29Z",
+ "total_hooks": 4177,
+ "total_pools": 13305,
+ "multi_pool_hooks": 383,
+ "shown": 383,
  "more_count": 0,
  "hooks": [
   {
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 1058,
+   "pool_count": 1059,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25908632,
-   "last_deploy": "2026-09-05T06:00:02Z",
+   "last_block": 25911422,
+   "last_deploy": "2026-09-05T14:00:03Z",
    "active": true,
    "visible": true
   },
@@ -802,7 +802,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
-   "pool_count": 30,
+   "pool_count": 31,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -814,8 +814,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25889930,
-   "last_block": 25910800,
-   "last_deploy": "2026-09-05T12:00:02Z",
+   "last_block": 25911386,
+   "last_deploy": "2026-09-05T14:00:03Z",
    "active": true,
    "visible": false
   },
@@ -4678,6 +4678,33 @@
    "last_block": 25702573,
    "last_deploy": "2026-08-07T12:00:03Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x322dcec4958c14e021a9f1cd49df11b9457968cc",
+   "address_short": "0x322d…68cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25910806,
+   "last_block": 25911290,
+   "last_deploy": "2026-09-05T14:00:03Z",
+   "active": true,
    "visible": false
   },
   {
