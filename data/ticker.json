@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-05T11:23:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25910806. Tokens: 0x58e724f7cd7f9c752a6bc0daab82c603201f035e / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x03018fe564ee3b4302c6c40e30f4359d03f8640985d95a680642618d84ab3680"
+  },
+  {
+   "ts": "2026-09-05T11:22:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25910800. Tokens: 0x0000000000000000000000000000000000000000 / 0xb9ec6888ceb8e32e7e2bc035a76880a5c64a827e. Fee:...",
+   "url": "https://etherscan.io/tx/0x28f790bd8ae8ea33de9a7372892b5218cc1407496adf4c7baadefb91ca3ddfaf"
+  },
+  {
    "ts": "2026-09-05T09:52:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25908408. Tokens: 0x1ac9d37ce1d0f7211c12d8c9d36061ba6449cb4c / 0x599398d55bb48b56d396103c45c692b0195117f3. Fee:...",
    "url": "https://etherscan.io/tx/0x268fb6d52ea8c27303d5a8e6081a3d673ff5faf3ad28e739c57aaa6d92dab66c"
-  },
-  {
-   "ts": "2026-09-05T03:10:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25908350. Tokens: 0x79f5b8c8080f0d9d485627922e643f710a4a0ac5 / 0xd2581f7433f0706e132c551e91626b745e685ecf. Fee:...",
-   "url": "https://etherscan.io/tx/0xe5ce680311184d833d15472678d7ffa1bba07cf1edaa5f99ef83b0039de1efc1"
-  },
-  {
-   "ts": "2026-09-05T03:07:31Z",
-   "suit": "club",
-   "source": "github",
-   "text": "hazarxyz merged PR #683 in PROGRAMMABLE: 'Activate public Robinhood V4 API with attested agent evidence'",
-   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/683"
   }
  ]
 }
