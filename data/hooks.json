@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-05T09:13:29Z",
- "total_hooks": 4174,
- "total_pools": 13293,
+ "generated_at": "2026-09-05T10:13:29Z",
+ "total_hooks": 4175,
+ "total_pools": 13298,
  "multi_pool_hooks": 382,
  "shown": 382,
  "more_count": 0,
@@ -294,7 +294,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 161,
+   "pool_count": 162,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -308,8 +308,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 25909511,
-   "last_deploy": "2026-09-05T08:00:02Z",
+   "last_block": 25909834,
+   "last_deploy": "2026-09-05T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -779,7 +779,7 @@
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x10392843021a1af0abe3b1a21f14673dc05340cc",
-   "pool_count": 31,
+   "pool_count": 32,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -791,8 +791,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25480249,
-   "last_block": 25888904,
-   "last_deploy": "2026-09-02T12:00:02Z",
+   "last_block": 25910349,
+   "last_deploy": "2026-09-05T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -802,7 +802,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x1d06faa7ff674ccfd8a5736c0c0973cb0a8fa0cc",
-   "pool_count": 28,
+   "pool_count": 29,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -816,8 +816,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25901287,
-   "last_block": 25909490,
-   "last_deploy": "2026-09-05T08:00:02Z",
+   "last_block": 25909808,
+   "last_deploy": "2026-09-05T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -827,7 +827,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
-   "pool_count": 28,
+   "pool_count": 29,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -839,8 +839,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25889930,
-   "last_block": 25906447,
-   "last_deploy": "2026-09-04T22:00:02Z",
+   "last_block": 25910189,
+   "last_deploy": "2026-09-05T10:00:02Z",
    "active": true,
    "visible": false
   },
