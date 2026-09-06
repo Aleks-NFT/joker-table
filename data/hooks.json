@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-06T04:13:28Z",
+ "generated_at": "2026-09-06T05:13:28Z",
  "total_hooks": 4196,
  "total_pools": 13353,
  "multi_pool_hooks": 383,
@@ -2414,8 +2414,8 @@
   {
    "address": "0x7a380b486ccc5e5c19879eb8c6e5c5b6b7fc80cc",
    "address_short": "0x7a38…80cc",
-   "name": "",
-   "verified": false,
+   "name": "EchoHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7a380b486ccc5e5c19879eb8c6e5c5b6b7fc80cc",
    "pool_count": 12,
    "permissions_human": [
@@ -4178,8 +4178,8 @@
   {
    "address": "0x322dcec4958c14e021a9f1cd49df11b9457968cc",
    "address_short": "0x322d…68cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
    "pool_count": 4,
    "permissions_human": [
