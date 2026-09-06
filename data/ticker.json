@@ -2,6 +2,55 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-06T17:55:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25919939. Tokens: 0x0000000000000000000000000000000000000000 / 0xb0d62dcc6ed906c6800967226f883994efeaa89a. Fee:...",
+   "url": "https://etherscan.io/tx/0x313f3f6edb44ef618de0c3bb762e006d50f377d4b5b9ce55f9e40dc65274217d"
+  },
+  {
+   "ts": "2026-09-06T17:49:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25919910. Tokens: 0x0000000000000000000000000000000000000000 / 0x180efcdb445060ae679f7d51cc1afd41f02d6dac. Fee:...",
+   "url": "https://etherscan.io/tx/0x45426494dfb28e73fe12c73c93258f7d37e7c79ec51996170204c12069754ffd"
+  },
+  {
+   "ts": "2026-09-06T17:48:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25919902. Tokens: 0x0000000000000000000000000000000000000000 / 0x9951fa86ab6b9627bfa47fd21dd8a4944ee1ba7c. Fee:...",
+   "url": "https://etherscan.io/tx/0x2186476fec5ff7551f8d9133d8313f3fc086a8562192027ce557ed40ca752993"
+  },
+  {
+   "ts": "2026-09-06T16:44:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25919584. Tokens: 0x0000000000000000000000000000000000000000 / 0xcb35ebc89e137079c2e1176edd0d489e82e0787e. Fee:...",
+   "url": "https://etherscan.io/tx/0xba233f304ad764eec64c9a863c64e344d175feb651530b1a624d446ec4270091"
+  },
+  {
+   "ts": "2026-09-06T16:25:58Z",
+   "suit": "club",
+   "source": "github",
+   "text": "SovaSlava opened PR #598 in v4-periphery: 'docs: fix and clarify natspec inconsistencies'",
+   "url": "https://github.com/Uniswap/v4-periphery/pull/598"
+  },
+  {
+   "ts": "2026-09-06T16:10:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25919416. Tokens: 0x0000000000000000000000000000000000000000 / 0xe56b29e2bb32fd036f3e08bf6ee2a874b4713248. Fee:...",
+   "url": "https://etherscan.io/tx/0x1658d5a94a20a2becb59e3327685607b63cfc9f58bbea139d7d749844a706755"
+  },
+  {
+   "ts": "2026-09-06T16:08:47Z",
+   "suit": "club",
+   "source": "github",
+   "text": "SovaSlava opened PR #1071 in v4-core: 'docs: fix and clarify natspec inconsistencies'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1071"
+  },
+  {
    "ts": "2026-09-06T15:52:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -161,55 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25918527. Tokens: 0x0000000000000000000000000000000000000000 / 0x1ce3917e7e479f53d25185c7392e5b62d4ccfeab. Fee:...",
    "url": "https://etherscan.io/tx/0xf5939c6271915dd211bf234277ff805f14e3971e2946749ea0286bd01fe6bad3"
-  },
-  {
-   "ts": "2026-09-06T13:12:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918525. Tokens: 0x0000000000000000000000000000000000000000 / 0xe7df426cf1cfeaa991f5120c163552dd7fa52d09. Fee:...",
-   "url": "https://etherscan.io/tx/0x7eb46c823224130e318fa8b7d5d1bf7efddd4345797ebf8ef225ec71d31ef9c8"
-  },
-  {
-   "ts": "2026-09-06T12:46:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918396. Tokens: 0x38fbfe3fd919c759f595b8aecfb71f9cc7c36d4d / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x3f15aa40157b3edfad420369fa9ce83cd4b11dd34fdb08c512a181206d5698c1"
-  },
-  {
-   "ts": "2026-09-06T12:39:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918362. Tokens: 0x0c1f3412a44ff99e40bf14e06e5ea321ae7b3938 / 0x1dd59d6a3577544a2f5c447960f200528a241ca8. Fee:...",
-   "url": "https://etherscan.io/tx/0x34c1bffe40a3fd3cd9990457f0c130aefdc0e37c10dfb6172b366e1311857daf"
-  },
-  {
-   "ts": "2026-09-06T12:34:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918335. Tokens: 0xbfca1780f50e0f03a6acef19adfa2c8e61b96050 / 0xf6b1117ec07684d3958cad8beb1b302bfd21103f. Fee:...",
-   "url": "https://etherscan.io/tx/0x0e15271fe0cc247849e290f6841b9a685f18b42750fb8b15430baa28cf30241d"
-  },
-  {
-   "ts": "2026-09-06T12:31:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918322. Tokens: 0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c / 0xe837d2af5c0a81e710e4771492818a6134a55039. Fee:...",
-   "url": "https://etherscan.io/tx/0x49bc118c1f446456d5fcad6895b1700db853c6f753c1155ce3ec4d8dbf8669e4"
-  },
-  {
-   "ts": "2026-09-06T12:27:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918301. Tokens: 0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c / 0x53428f19dc1f4c590a29ba863f78799ea0dc6d8e. Fee:...",
-   "url": "https://etherscan.io/tx/0x3911a6eecfcb8126f0336116ca5e2de26999b23129a6f93148a3be4b9283d4ec"
-  },
-  {
-   "ts": "2026-09-06T12:24:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25918287. Tokens: 0x71d24baeb0a033ec5f90ff65c4210545af378d97 / 0xa8205f59f3affc86831f8a2561b8594476721566. Fee:...",
-   "url": "https://etherscan.io/tx/0xdbcc8b163442d343ef24604e5a53677c37ac41dbdf4b98aefb68817929161b91"
   }
  ]
 }
