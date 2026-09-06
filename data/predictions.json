@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "miss": 16,
+  "open": 8,
+  "hit_rate": 0.619
  },
  "items": [
+  {
+   "id": 72,
+   "made_at": "2026-09-06",
+   "text": "Over the next 7 days the count clears 13; the likely landing sits between 7 and 40, and I give the over about 56%. The activity shows more pools arriving with intervals below ten—a fine-grained tool for placing concentrated liquidity on razor-thin ranges; that behavior is the one to watch.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-13",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 71,
    "made_at": "2026-09-05",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-10",
    "status": "miss",
    "resolution_note": "Confirmed: target +228 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 22,
-   "made_at": "2026-07-02",
-   "text": "Over the next 7 days the count will exceed 222, as builders deploy pools with deliberately non-standard swap fees—zero or maximum—signaling revenue capture through the hook, not organic trading.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-09",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +222 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

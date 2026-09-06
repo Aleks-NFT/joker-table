@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-06",
+   "narrative": {
+    "en": "The table was already dark when the first seven V4 pools flickered on—each one a marked card laid face up. One runs with a zero cut for the house. Another demands ten thousand; call it a tell, not a glitch. The jokers sit inside the hooks. That same address—0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc—appears four times across the board, sliding into pairs from the zero address all the way down to junk tokens. Someone is testing a system: the same 200-point interval, no commission, and only one table breaks the pattern with a different hook and a ten-thousand toll. No dealer does that by accident.\n\nOn the other flank, GitHub never sleeps. hazarxyz merged PR #701—graph representations for combined tokens and hooks—then, an hour later, opened PR #702: a router for roles. Programmable logic folded into graphs. This is architecture where the hook and the token become a single joint. Whoever builds those bridges is looking past the current pool.\n\nEight pools, two pull requests, one commit. The deck is shuffled; the jokers are seated. The night says nothing, but it deals.",
+    "zh": "夜深了，江湖上却有人重新洗牌。七座 V4 池子同时亮灯，每座都有自己的来路——一座不收分文，一座索要万金。这不是机关失灵，是有人在递话。Hook 如同散落各处的暗器，其中一处地址 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 一连出现四次。同一枚暗器，搭着不同的币对，从零地址到没人认领的杂牌货色。显然有人在试一套功法：格距取二百，不收过路钱，只有一座池子破了规矩，换了一枚 hook，收一万的买路钱。世上的巧合没有这么密。\n\n另一侧的山头也没睡。hazarxyz 先是合了 PR #701，把复合代币与 hook 画成一张张图；隔了一个时辰，又开出 PR #702，给角色做路由。可编程的逻辑被压进图里。这不是寻常改码，这是把 hook 与代币铸成同一个关节。能搭这种桥的人，目光早已越过眼前的池子。\n\n八座池，两个 PR，一次提交。夜风不响，但牌已发下。江湖上，暗器归位，内力未歇。"
+   },
+   "take": {
+    "en": "The play is not scattered noise: one hand keeps laying the same hook across four pairs while another hand is folding the rules into graphs. The deck is being set for a more surgical kind of liquidity.",
+    "zh": "有人用同一枚暗器反复试水，也有人在链下把规则拧成图谱；这不是一时手痒，而是后半夜的布局。见招拆招之前，先把眼睛放在那个出现四次的地址上。"
+   }
+  },
+  {
    "date": "2026-09-05",
    "narrative": {
     "en": "The deck is dealt by signature, not order. Sixteen fresh V4 hook pools slide across the felt inside one short stretch of chain, and they are cut from the same marked suit: 0x96b893 runs the ETH pairs with zero house take and a two-hundred-step ladder; 0x2da89b mirrors the pattern but anchors every wager to 0x1ac9d37c. Eight consecutive hands show one repeated base token, eight different opponents, eight pool identities fanned out. Two further pools set a sixty-step ladder under a different hook, 0xdf5d53, and the tokens there are no longer the same. Not a single fee. Nothing wild in the spacing. Only structure.\n\nIn PROGRAMMABLE the volley is synchronized. Six merges in a single day, all signed hazarxyz: the V4 agent, Router simulation, PoolManager binding, gas-sponsored migration, CLI 4.0.0. Pull request #675 opens and is immediately answered by a commit — verified proof paths to the final V4 release. Everything leans on one version: programmable-launch-v4.0.0, the public pack with exact source. These are not scattered facts; this is one deal. The V4 infrastructure is not being assembled piece by piece; it is being deployed as one bundle. Hooks on chain, code in the repo, CLI in the release. Nobody is waiting for the next round. The pack is already on the felt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The on-chain hook pools and the off-chain PR are the same hand: prediction markets are being scaffolded in the dark, with fee tiers as the betting rules and a dark release as the frame.",
     "zh": "今天的V4 hook池与那份PR#443，其实是同一局棋：有人正在暗处搭预测市场的骨架，不同费率就是不同赌局的规矩，而那份release-dark就是装下这一切的匣子。"
-   }
-  },
-  {
-   "date": "2026-08-23",
-   "narrative": {
-    "en": "Four pools, one hook, same hand. The day didn't open with a single deployment—it opened with a production line. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc stamped itself across four V4 pools in near lockstep, zero fee, tick spacing 200, every pair married to WETH. Three of the tokens—0xd70e94, 0xe17462, 0xe41a29—have no history worth the ink, fresh contracts still warm. Then the deck splits. The fourth pool, 0xc656df, takes a 1% fee and swaps its hook to 0x523103. Not a mistake. A deliberate cut: one table for the sharks, the rest for the free ride.\n\nThen the joker in the stack. Block 25813946 locks a token with the address prefix 0x000000000001. That isn't an accident. It's a planted marker, a token minted to mean nothing and everything. Fee zero, hook 0xbf8739. Someone is probing the edges—either simulating a mass farm or paving a quiet migration from V3. And one pool, 0xda9c47, breaks pattern: tick spacing 60, fee 0.3%, and a hook, 0x058b5ff03522, never seen before. Could be a dynamic-fee experiment, could be an order book in disguise.\n\nAll four initialized inside six blocks. No spontaneity. One hand dealt the entire table. The question isn't what these tokens are. The question is the next move—when these quiet pools suddenly drink their first real liquidity.",
-    "zh": "这一日不是落子，而是铸印。同一枚 hook——0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc——四座 V4 池几乎同时开张，零费率，tick 间距 200，家家都傍着 WETH。三枚代币 0xd70e94、0xe17462、0xe41a29 皆是无根无史的新脸孔，像是刚从模具里脱出。第四池 0xc656df 却独取百分之一费率，换了一枚 hook 0x523103。这不是失手，是分席：一桌留给猛客，其余供人白走一遭。\n\n最诡异的还是区块 25813946 上那一池。代币地址以 0x000000000001 开头——那不是随缘而生的地址，是刻意压低的印记。零费率，hook 0xbf8739。有人在试水，或试一场无声的迁徙，或演一场群生鼎沸的假象。还有 0xda9c47 那一池，tick spacing 60、费率千三，hook 0x058b5ff03522 前所未见。像是新创的费变阵，又像一本暗藏的 order book。\n\n六块之内，四池齐立。没有散落，只有一手落子。真正的谜不是这些代币是什么，而是这手牌下一步往哪儿打——当这些静池迎来第一注真金，局面才真正翻涌。"
-   },
-   "take": {
-    "en": "The zero-fee V4 pools are not a play for today; they're a stacked deck waiting for the first real liquidity to be shuffled in.",
-    "zh": "零费率的多池并列，不是今日的战果，而是暗伏的阵法——只待第一道流动性入局，便见真章。"
    }
   }
  ]
