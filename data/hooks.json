@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-07T04:13:29Z",
+ "generated_at": "2026-09-07T05:13:29Z",
  "total_hooks": 4232,
  "total_pools": 13505,
  "multi_pool_hooks": 390,
@@ -761,8 +761,8 @@
   {
    "address": "0xaac2f4d64bd4157c34a19801006d4551342e00cc",
    "address_short": "0xaac2…00cc",
-   "name": "",
-   "verified": false,
+   "name": "StockPadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xaac2f4d64bd4157c34a19801006d4551342e00cc",
    "pool_count": 37,
    "permissions_human": [
@@ -3015,8 +3015,8 @@
   {
    "address": "0x7fa87cfaa45f45d762c085eea4870cb3706ca0cc",
    "address_short": "0x7fa8…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7fa87cfaa45f45d762c085eea4870cb3706ca0cc",
    "pool_count": 10,
    "permissions_human": [
@@ -5749,8 +5749,8 @@
   {
    "address": "0x27a30e3082d5bbe959f75f26b4063e18855328cc",
    "address_short": "0x27a3…28cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x27a30e3082d5bbe959f75f26b4063e18855328cc",
    "pool_count": 2,
    "permissions_human": [
@@ -7037,8 +7037,8 @@
   {
    "address": "0x8b41362da5db5742ee8a5049e18f4c0c29ca80cc",
    "address_short": "0x8b41…80cc",
-   "name": "",
-   "verified": false,
+   "name": "HookPadStandardHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8b41362da5db5742ee8a5049e18f4c0c29ca80cc",
    "pool_count": 2,
    "permissions_human": [
