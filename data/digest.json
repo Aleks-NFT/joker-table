@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-07",
+   "narrative": {
+    "en": "Fourteen pools, dealt across a handful of blocks — someone decided the night was not for sleeping. Most sit with zero fee, tickSpacing of 200, and every pair follows the same tell: WETH or native ETH against some token that doesn't even bother pretending to be known. The pattern is too clean for chance; it's a hand being arranged under the table, suit by suit, card by card.",
+    "zh": "数个区块之间，一十四口池子先后落成——有人显然没打算让这夜安眠。多数池子零费率，tickSpacing 200，每股对皆是同一路数：WETH或原生ETH，对面立着个连名号都懒得装的陌生代币。江湖夜雨，最怕的不是刀光，是这种按部就班的布子。"
+   },
+   "take": {
+    "en": "Someone is assembling a deck with the same configuration across varying tokens, and the night's deal has been dealt — but not yet played.",
+    "zh": "有人正用同一套心法，换着不同的兵器试招；布局已成，胜负尚在棋局之外。"
+   }
+  },
+  {
    "date": "2026-09-06",
    "narrative": {
     "en": "The table was already dark when the first seven V4 pools flickered on—each one a marked card laid face up. One runs with a zero cut for the house. Another demands ten thousand; call it a tell, not a glitch. The jokers sit inside the hooks. That same address—0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc—appears four times across the board, sliding into pairs from the zero address all the way down to junk tokens. Someone is testing a system: the same 200-point interval, no commission, and only one table breaks the pattern with a different hook and a ten-thousand toll. No dealer does that by accident.\n\nOn the other flank, GitHub never sleeps. hazarxyz merged PR #701—graph representations for combined tokens and hooks—then, an hour later, opened PR #702: a router for roles. Programmable logic folded into graphs. This is architecture where the hook and the token become a single joint. Whoever builds those bridges is looking past the current pool.\n\nEight pools, two pull requests, one commit. The deck is shuffled; the jokers are seated. The night says nothing, but it deals.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The pattern is too regular for noise: repeated hook addresses, uniform tick spacing, zero-fee bookends — someone is running an assembly line, not a lottery. When the router code gets fixed in the same night, the cards are being prepared for a game we haven't seen yet.",
     "zh": "批量 hook、相同 tickSpacing、零费率首尾——这不是随手撒网，是按图纸排兵。代码库同夜修补，说明有人一边备粮一边画疆界，等的不是今晚，是下一场风。"
-   }
-  },
-  {
-   "date": "2026-08-24",
-   "narrative": {
-    "en": "The cards were already on the felt before the day broke. Twelve V4 hook pools, laid out in a row, and almost every one of them plays against the empty address — the zero, which is to say ETH itself. One pool dares to pair WETH against a token called PIXEL, but that's the exception that proves the cut of the deck.\n\nWatch the hooks. The same address, 0xb8d9477e...e0cc, turns up three times, same zero fee, same tick spacing of 200. No accident. Somebody is spreading one logic like a run of suit cards. Another hook, 0x7a3bc37f...4044, appears twice on the same token, 0x053369b5...5899, but with different fees — 3000 and 2500. Different spreads, different steps, same base. And that token itself moves two pools in sixteen blocks. First hand pleased them, so they bet again.\n\nFees tell the rest. Zero dominates — for the high-roll volume play where the spread isn't the profit. Ten thousand sits there, the house maximum, for the wild pairs. Three tables at 3000, the middle path. One odd 2500, a denomination you rarely see. The architecture says one thing: someone is building the house for outcome markets, not just liquidity.\n\nThen the day closes with PR #443 from 0xprogrammable in programmable: 'Add release-dark Prediction V2 creation foundation.' Prediction V2. A dark release. The scaffolding for the whole construction. The quiet around these facts is louder than any noise. Somebody is assembling a deck. The only question is what game they'll deal first.",
-    "zh": "江湖风声起于微末。八月二十四日，链上冒出十二个V4 hook池，几乎全都对着零地址——也就是ETH本身。唯一一个拿WETH去对PIXEL的，像是孤例，却更印证了行规：多数人的手，都伸向同一副牌。\n\n再看这些hook的来路。0xb8d9477e...e0cc三次现身，次次零费率、tickSpacing 200，分明是同一门派的暗器，一出手就是三枚。另一个0x7a3bc37f...4044，盯住同一个令牌0x053369b5...5899，却开出3000和2500两种费率，同一个靶子，试两种手法。那令牌本身也在十六个区块内连开两池——显然第一刀称手，第二刀紧随而至。\n\n费率本身也有说法：零费率是给走量的人，不靠点差吃饭；10000是给烈性对子压阵；3000恰是江湖中最稳的中间路数；2500则是少见的偏门。这些配置不像随手而为，倒像在给不同赌局定规矩。\n\n日暮时分，GitHub上PR #443由0xprogrammable提交到programmable，题为'Add release-dark Prediction V2 creation foundation'。Prediction V2，暗处落子，先打地基。到这一步，图景已隐约可见：链上的池子与链下的PR，原是同一场布局的不同机关。有人正在静默中攒一副大牌，问的只是——第一局，从哪张牌开始？"
-   },
-   "take": {
-    "en": "The on-chain hook pools and the off-chain PR are the same hand: prediction markets are being scaffolded in the dark, with fee tiers as the betting rules and a dark release as the frame.",
-    "zh": "今天的V4 hook池与那份PR#443，其实是同一局棋：有人正在暗处搭预测市场的骨架，不同费率就是不同赌局的规矩，而那份release-dark就是装下这一切的匣子。"
    }
   }
  ]
