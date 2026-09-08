@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 18,
-  "open": 6,
-  "hit_rate": 0.591
+  "miss": 19,
+  "open": 5,
+  "hit_rate": 0.578
  },
  "items": [
   {
@@ -64,8 +64,8 @@
    "text": "Over the next seven days the count clears 13, and I give the over about 54%. The likely landing sits between 9 and 47—more pools are cropping up with gaps set below ten, a fine-tooth comb for placing liquidity exactly where the market breathes.",
    "horizon_days": 7,
    "resolve_after": "2026-09-08",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   },
   {
