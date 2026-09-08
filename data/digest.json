@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-08",
+   "narrative": {
+    "en": "Nineteen fresh pools across a handful of blocks—that is not a quiet night, that is someone dealing off the bottom of the deck at dealer speed. Two hooks split the deck between them. The first operates at fee 8388608, an unusual trump. The second works at zero commission, which often means either deep liquidity play or something nastier. Most pools are ETH against junk tokens, that 0x0000 being WETH or native, shuffled with a dozen addresses. Standard deal: someone pours pairs and sees what sticks. But three pools share a base asset, 0xc9eef266834730340a55b6cc24621b31baf55581, a token surfacing four times with different partners. Someone is building a cluster around a single coin. Then there's the odd pair, 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 and 0xff7589a22bb458e673f43067e5b1aced9213691e, with zero fee, an own hook, no WETH anchor—rare in such stacks. Usually that's preparation for a specific trading strategy not tied to native gas. And the one pool with tickSpacing 60 stands out from the uniform 200 step. 60 is for volatile or illiquid pairs, requiring finer tuning. Either a misstep or someone knows exactly what they're doing. Pool after pool, block after block—someone is assembling a puzzle. The question is what picture.",
+    "zh": "这一夜，V4 江湖上风起云涌，十九个新池子几乎同时出世。这绝非日行琐事，倒像是有人在以牌局对弈的手法分发筹码。两枚 hook 合约各掌半副牌。一枚收费 8388608，算是掌门信物般的非常规招数；另一枚分文不取，表面上像是内力深厚的大宗流动策略，背后却也可能藏着更阴的招。大多数池子都是 ETH 对杂牌代币——那一串 0x0000 便是 WETH 或原生 ETH，与若干个陌生地址混洗。通常这只是试探，倒水进去看看粘不粘。但有三个池子共用同一个基币 0xc9eef266834730340a55b6cc24621b31baf55581，这代币四下露面，身旁搭档每每不同。显然有人在围绕一枚小币布阵。更有一对 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 与 0xff7589a22bb458e673f43067e5b1aced9213691e，零费率，自带 hook，不挂 WETH，这在如此成批的新池中实属另类。这般动作，多半是在为某套不借原生气的交易策略搭建擂台。而全批池子 tickSpacing 一律二百，唯独最后一池用六十。六十常用于高波或稀薄流动，需要更细的格度。要么失手点了，要么那人胸中自有丘壑。池子连池子，区块接区块——有人正在拼一张图，只不知拼出来的是阵还是局。"
+   },
+   "take": {
+    "en": "Two hooks, a token repeated across pools, and a single off-grid tick spacing — this is not random grinding but a coordinated hand being dealt.",
+    "zh": "这夜的新池并非乱撒，而是有人按着纹路布子——一币多池、双钩分压、tick 六十突兀，处处透着老手布局的气息。江湖夜雨，正有人借池为局，试水于乱象之中。"
+   }
+  },
+  {
    "date": "2026-09-07",
    "narrative": {
     "en": "Fourteen pools, dealt across a handful of blocks — someone decided the night was not for sleeping. Most sit with zero fee, tickSpacing of 200, and every pair follows the same tell: WETH or native ETH against some token that doesn't even bother pretending to be known. The pattern is too clean for chance; it's a hand being arranged under the table, suit by suit, card by card.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is quietly building the machinery for V4 hook wars — the only unknown left is which gambler holds the winning hand.",
     "zh": "门派已在暗中铸剑，准备V4的hook之争——唯一未知的是，哪位侠客能笑到最后，执掌这新江湖。"
-   }
-  },
-  {
-   "date": "2026-08-25",
-   "narrative": {
-    "en": "Somebody decided one pool was boring. It started in block 25828514 when the first V4 hook pair flickered to life — zero fee, tick spacing 200. Then another, a block later, tick spacing 25. Then the machine ran: fourteen pools in a row from 25828694 to 25828963. Not scattered whims. Watch the hook contracts. 0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088 shows up in seven pools between 25828838 and 25828898, block after block, all with tick spacing 60 — like stamped on a conveyor. Two more carry 0x96b893683afbfec071e90f78d00de4bb932fe0cc, one early, one late, both tick spacing 200. In between, 0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec at 25828908. The closer: another zero-fee pool at 25828963.",
-    "zh": "夜里有人嫌一个池子太冷清。25828514 高度上，第一对 V4 hook 池亮了——零费率，tickSpacing 200。隔一个块，又来一个，tickSpacing 25。然后从 25828694 到 25828963，十四个池子接连落地。这不是零散出手。看那 hook 地址：0x2df78ebb650cdd2c0a50243f9d95784bfd6d2088 在 25828838 到 25828898 之间连现七次，块块相随，tickSpacing 全是 60，仿佛流水线上冲压出来的。另有 0x96b893683afbfec071e90f78d00de4bb932fe0cc 两个池子，一个在序列前段，一个在后段，都是 tickSpacing 200。中间 25828908 插着 0x2e4a2e0067f66404f17b7e1ffe3ddef9a528eaec。收尾的又是一个零费率池，落在 25828963。"
-   },
-   "take": {
-    "en": "The pattern is too regular for noise: repeated hook addresses, uniform tick spacing, zero-fee bookends — someone is running an assembly line, not a lottery. When the router code gets fixed in the same night, the cards are being prepared for a game we haven't seen yet.",
-    "zh": "批量 hook、相同 tickSpacing、零费率首尾——这不是随手撒网，是按图纸排兵。代码库同夜修补，说明有人一边备粮一边画疆界，等的不是今晚，是下一场风。"
    }
   }
  ]

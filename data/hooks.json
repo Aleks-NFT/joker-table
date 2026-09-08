@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-08T03:13:29Z",
+ "generated_at": "2026-09-08T04:13:28Z",
  "total_hooks": 4265,
- "total_pools": 13670,
+ "total_pools": 13675,
  "multi_pool_hooks": 395,
  "shown": 395,
  "more_count": 0,
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 1073,
+   "pool_count": 1074,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25928746,
-   "last_deploy": "2026-09-08T00:00:02Z",
+   "last_block": 25929634,
+   "last_deploy": "2026-09-08T04:00:02Z",
    "active": true,
    "visible": true
   },
@@ -206,7 +206,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 275,
+   "pool_count": 276,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -220,8 +220,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25929115,
-   "last_deploy": "2026-09-08T02:00:02Z",
+   "last_block": 25930092,
+   "last_deploy": "2026-09-08T04:00:02Z",
    "active": true,
    "visible": true
   },
@@ -483,7 +483,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 85,
+   "pool_count": 88,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -499,8 +499,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 25929234,
-   "last_deploy": "2026-09-08T02:00:02Z",
+   "last_block": 25929835,
+   "last_deploy": "2026-09-08T04:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3519,7 +3519,7 @@
    "first_block": 25726153,
    "last_block": 25879898,
    "last_deploy": "2026-09-01T04:00:01Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
