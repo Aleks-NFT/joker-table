@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-08T04:13:28Z",
+ "generated_at": "2026-09-08T05:13:28Z",
  "total_hooks": 4265,
  "total_pools": 13675,
  "multi_pool_hooks": 395,
@@ -2512,8 +2512,8 @@
   {
    "address": "0x6d01769ab90674d0d56b155f57003284e1b460cc",
    "address_short": "0x6d01…60cc",
-   "name": "",
-   "verified": false,
+   "name": "AnyHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
    "pool_count": 12,
    "permissions_human": [
@@ -4218,8 +4218,8 @@
   {
    "address": "0xe5a480ce8095000672c37b0660df4b8f903260cc",
    "address_short": "0xe5a4…60cc",
-   "name": "",
-   "verified": false,
+   "name": "CharityHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xe5a480ce8095000672c37b0660df4b8f903260cc",
    "pool_count": 6,
    "permissions_human": [
@@ -4293,8 +4293,8 @@
   {
    "address": "0xfea4c50b6d3bfcb9c6de4e44be0293c3a916bec4",
    "address_short": "0xfea4…bec4",
-   "name": "",
-   "verified": false,
+   "name": "SimHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xfea4c50b6d3bfcb9c6de4e44be0293c3a916bec4",
    "pool_count": 6,
    "permissions_human": [
@@ -5805,8 +5805,8 @@
   {
    "address": "0x1c94eb938ffb066c3a5f0d43e44a428f35a1e888",
    "address_short": "0x1c94…e888",
-   "name": "",
-   "verified": false,
+   "name": "RingAggregatorHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x1c94eb938ffb066c3a5f0d43e44a428f35a1e888",
    "pool_count": 2,
    "permissions_human": [
