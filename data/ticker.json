@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-08T07:20:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25931114. Tokens: 0x33483a58079b4225b10e57958ca28ad7b9cdbaf7 / 0x8556c9ba6b002e088242962a3435621f2523bd80. Fee:...",
+   "url": "https://etherscan.io/tx/0x40f5b96c070a2667b1560ea2fcacac2f006ed96b8b670f3c41d60462c077521b"
+  },
+  {
    "ts": "2026-09-08T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25928961. Tokens: 0x0000000000000000000000000000000000000000 / 0x8ae5c2a04603ca422b8f195c7679d665dc991684. Fee:...",
    "url": "https://etherscan.io/tx/0xd4257a634dbd60811f36ad3eeb36118f22ef6733cfa0916a84fac8f3f288ad9f"
-  },
-  {
-   "ts": "2026-09-08T00:07:10Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: KerfFinance/kerf-contracts — 0★ — Kerf smart contracts on Robinhood Chain: single-token Uniswap v3/v4 zaps, fee-earning range order...",
-   "url": "https://github.com/KerfFinance/kerf-contracts"
   }
  ]
 }
