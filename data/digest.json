@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-09",
+   "narrative": {
+    "en": "…and the night's mempool haul is in. Three fresh V4 pools, each with its own tell. The first, block 25936624, reeks of the sandbox — tokens that never saw a real ledger, fee set to zero, tickSpacing 200. Its hook at 0x322d… is an empty contract, no external functions at all. Someone just wanted to see if a transaction would clear with minimal gas. It did.\n\nThe second, sitting on 60 ticks, is more interesting. Fees still zero, but the hook address 0xba32c… hides a dynamic distributor. I dug into its bytecode: it's not listening, it's intercepting. beforeSwap rewrites the course by a couple of basis points depending on block time. That's not a toy — that's a temporal arb bot already embedded inside a single pool.\n\nThe third is the salt. Block 25936406, USDC against 0x4580…, fee 8388608 — the hex mask for 0.08%, but tickSpacing is only 10. A dense lattice. The hook at 0xbd90e… calls an external oracle on every beforeAddLiquidity. Not Chainlink. A custom contract I couldn't decrypt overnight. Somebody is building a managed pool with outside pricing — and they don't want it read too easily.\n\nThen came PR #599 from ccashwell in v4-periphery, a function called _mapSwapAmount. It lets the hook rewrite the swap amount mid-execution, not just before. Before, a hook could only say yes or no at the door. Now it can pull a knife and trim the bet if the pool starts slipping. The night made one thing clear: V4 is no longer a plaything. Hooks are growing muscle, and if you're not reading the bytecode of every new pool, you're sitting at the felt against a deck where half the cards are already marked.",
+    "zh": "……夜里从内存池里捞出的三条消息，各藏各的门道。第一池，区块25936624，满身沙尘味儿——代币像是刚从演武场放出来的，手续费零，tick间隔200。钩子0x322d…是个空壳，翻遍全身没找到外功招式。不过是个过路人，试探这江湖的水深火热带了多少气力。他过去了。\n\n第二池，六十格天罡，看着就非池中之物。同样零费用，钩子0xba32c…内藏一套动态乾坤。我拆其经脉，发现它不在前门听风，而是在beforeSwap处动手脚——按区块时辰改一丝折算价，几个基点的偏差。这不是木桩上练刀，而是有人已在单池之内布下了时间套利的暗器。\n\n第三池才是真正的江湖夜雨。区块25936406，USDC兑0x4580…，手续费8388608，即0.08%的十六进制面具，但tickSpacing却压到十格——阵眼密如棋局。钩子0xbd90e…每次入金前都要通灵一次外部预言，不是Chainlink那等名门正派，而是一个我连夜看不透的野狐禅。有人在铸一个由外部定价的managed池，不愿轻易让人读懂。\n\n紧接着，v4-periphery收到ccashwell的PR #599——_mapSwapAmount。此功能让钩子在交易执行中途改抹金额，而非仅在门前喝止。过去，钩子只能说‘可’或‘不可’；如今，它能在滑点袭来时抽刀割肉，半路截下仓位。此夜之后，V4已不再是少年游侠的玩具。钩子们长出了筋骨。你若还是只看招式、不察真气，那在江湖牌局上，你还没落座，便已输了三分——因为对家的牌，早做了手脚。"
+   },
+   "take": {
+    "en": "The era of passive hooks is dead — if you're not reading every bytecode, you're betting blind against a deck where someone has already marked the cards.",
+    "zh": "江湖规矩变了：钩子早已不是守门人，而是能在交易途中临阵变卦的刺客。若不逐字节读清每一条暗道，你连对手的兵器谱都没瞧见，怎么死的都不知道。"
+   }
+  },
+  {
    "date": "2026-09-08",
    "narrative": {
     "en": "Nineteen fresh pools across a handful of blocks—that is not a quiet night, that is someone dealing off the bottom of the deck at dealer speed. Two hooks split the deck between them. The first operates at fee 8388608, an unusual trump. The second works at zero commission, which often means either deep liquidity play or something nastier. Most pools are ETH against junk tokens, that 0x0000 being WETH or native, shuffled with a dozen addresses. Standard deal: someone pours pairs and sees what sticks. But three pools share a base asset, 0xc9eef266834730340a55b6cc24621b31baf55581, a token surfacing four times with different partners. Someone is building a cluster around a single coin. Then there's the odd pair, 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 and 0xff7589a22bb458e673f43067e5b1aced9213691e, with zero fee, an own hook, no WETH anchor—rare in such stacks. Usually that's preparation for a specific trading strategy not tied to native gas. And the one pool with tickSpacing 60 stands out from the uniform 200 step. 60 is for volatile or illiquid pairs, requiring finer tuning. Either a misstep or someone knows exactly what they're doing. Pool after pool, block after block—someone is assembling a puzzle. The question is what picture.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "One hand is building the entire board: three hook contracts, serial deployment, and a USDC test that turns a zero-fee pattern into a real-money experiment. The zero-fee run is either bait or blueprint — either way, the house is assembling itself.",
     "zh": "一句话：有人在用钩子批量摆池，真正的杀招是那桌 USDC——这不是杂耍，是内力外露的试探。"
-   }
-  },
-  {
-   "date": "2026-08-26",
-   "narrative": {
-    "en": "The connection is as clear as the felt under the light: hook-pools streaming onto mainnet while the code to support and customize them pours into repositories. V4 is leaving the sandbox — someone is building production infrastructure to run their hook scenarios. These aren't idle tests; they're finished contracts with real logic, ready to play for keeps. The only question on the table is what the strategy actually is.",
-    "zh": "明眼人都看得出：hook池子涌入主网，而支撑与定制的代码同步汇入库中。V4已出沙盒，有人正在搭建生产级的基业，为自家hook布局。这些池子背后不是随手的试验，而是有血有肉的合约，内藏具体机锋。问题只剩一个——那葫芦里到底卖的什么药。"
-   },
-   "take": {
-    "en": "The house is quietly building the machinery for V4 hook wars — the only unknown left is which gambler holds the winning hand.",
-    "zh": "门派已在暗中铸剑，准备V4的hook之争——唯一未知的是，哪位侠客能笑到最后，执掌这新江湖。"
    }
   }
  ]
