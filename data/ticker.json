@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-09T13:49:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25940219. Tokens: 0x0000000000000000000000000000000000000000 / 0xde7e0fbd43708e1aec51e2ac4158d41c0432e36b. Fee:...",
+   "url": "https://etherscan.io/tx/0x37aca8b4a68a9aba3d548bfabce9b10127b9437c4715a4b1847039cc40555df8"
+  },
+  {
+   "ts": "2026-09-09T13:48:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25940217. Tokens: 0x0000000000000000000000000000000000000000 / 0x20ef79a27621ed34706ee57f01051d7d93d1e6b3. Fee:...",
+   "url": "https://etherscan.io/tx/0x63ae2baed29d6b498e25af13872b3a787f4127dc1e8cc753734e3cc0f6389a34"
+  },
+  {
+   "ts": "2026-09-09T12:26:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25939806. Tokens: 0x130e5226a8593a30e961056955b19367b4d81d51 / 0x592643a667633bca51cb2387c98b6de6ce549a45. Fee:...",
+   "url": "https://etherscan.io/tx/0x8c7badecc24b7a020193c5c186e84a02a6a569f2d364947875da85445c3b2a8d"
+  },
+  {
    "ts": "2026-09-09T11:54:47Z",
    "suit": "spade",
    "source": "etherscan",
@@ -189,27 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "RLUSD / USDS volume surged 127% to $85,013,917 in 24h",
    "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
-  },
-  {
-   "ts": "2026-09-09T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "USDT / USDS volume surged 82% to $109,360,809 in 24h",
-   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
-  },
-  {
-   "ts": "2026-09-09T04:00:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "Repo ascntlabs/v1-core references hook SimHook (0xfea4c50b…, 6 pools) in its readme — code behind a contract that is live on chain",
-   "url": "https://github.com/ascntlabs/v1-core"
-  },
-  {
-   "ts": "2026-09-09T03:41:19Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: Identity-md/launch-33-build-launch-tickoraclehook-uniswap — 0★ — Build and launch TickOracleHook, a Uniswap v4 hook that keeps an o...",
-   "url": "https://github.com/Identity-md/launch-33-build-launch-tickoraclehook-uniswap"
   }
  ]
 }
