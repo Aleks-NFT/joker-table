@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 19,
-  "open": 5,
-  "hit_rate": 0.578
+  "miss": 20,
+  "open": 4,
+  "hit_rate": 0.565
  },
  "items": [
   {
@@ -54,8 +54,8 @@
    "text": "The hand is moving too fast for the room — one player laying pool after pool, far beyond the usual pace. Over the next seven days the count clears 144; the likely landing sits between 41 and 437, and I give the over about 60%.",
    "horizon_days": 7,
    "resolve_after": "2026-09-09",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +144 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
