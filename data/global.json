@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-09T04:13:28Z",
+ "generated_at": "2026-09-09T05:13:28Z",
  "history": [
-  {
-   "date": "2026-08-10",
-   "volume_24h_usd": 512171221.0,
-   "fees_24h_usd": 1403873.0,
-   "eth_share_pct": 28.7
-  },
   {
    "date": "2026-08-11",
    "volume_24h_usd": 783872843.0,
@@ -181,17 +175,23 @@
    "volume_24h_usd": 1274265246.0,
    "fees_24h_usd": 4897293.0,
    "eth_share_pct": 25.8
+  },
+  {
+   "date": "2026-09-09",
+   "volume_24h_usd": 1482906316.0,
+   "fees_24h_usd": 4952254.0,
+   "eth_share_pct": 32.0
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 706120068,
-  "Ethereum": 327830591,
-  "BSC": 108189350,
-  "Base": 51496113,
-  "Polygon": 25846847,
-  "Arbitrum": 20973717,
-  "Monad": 17917241,
-  "X Layer": 11110553
+  "Robinhood Chain": 665961281,
+  "Ethereum": 473756284,
+  "BSC": 182033601,
+  "Base": 73938327,
+  "Polygon": 37735014,
+  "Arbitrum": 21005988,
+  "Monad": 15221043,
+  "X Layer": 8620815
  },
  "governance": [
   {
@@ -210,12 +210,6 @@
    "event": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (38 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878",
    "occurred_at": "2026-09-03T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (37 posts)",
-   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878",
-   "occurred_at": "2026-09-02T05:00:04Z",
    "active": false
   }
  ],

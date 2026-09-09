@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $109,360,809   #2 USDC / USDT — $99,329,707   #3 RLUSD / USDS — $85,013,917   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDC 0.05% TVL shrank 44% to $11,066,785",
+   "url": "https://www.geckoterminal.com/eth/pools/0x21c67e77068de97969ba93d4aab21826d33ca12bb9f565d8496e8fda8a82ca27"
+  },
+  {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC 0.007% TVL grew 43% to $1,294,322",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb90d11907f96a9d5fd8979ef271d3bb9b90052d9299d1f95faa5168c55bcb716"
+  },
+  {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% volume surged 105% to $16,097,395 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS volume surged 127% to $85,013,917 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-09-09T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDT / USDS volume surged 82% to $109,360,809 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9"
+  },
+  {
    "ts": "2026-09-09T04:00:01Z",
    "suit": "club",
    "source": "github",
@@ -168,48 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25935856. Tokens: 0x0000000000000000000000000000000000000000 / 0x2b1eae5db2229c524c0acf89af31316d3028a080. Fee:...",
    "url": "https://etherscan.io/tx/0x2871db2f3f74eb5bf0c9cd552f2897e63ae5ba0a4761d97586945bec5759120b"
-  },
-  {
-   "ts": "2026-09-08T23:12:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25935855. Tokens: 0x0000000000000000000000000000000000000000 / 0x6b43006efc020fd91461592efabe8235b8231110. Fee:...",
-   "url": "https://etherscan.io/tx/0x2cb4922cab51eb3c9febdf99225e891502e5e2f256c3f7bcc886bd7aeda3768c"
-  },
-  {
-   "ts": "2026-09-08T23:02:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25935804. Tokens: 0x0000000000000000000000000000000000000000 / 0x2d0b6f7debca4877044bfb29072f3264af541110. Fee:...",
-   "url": "https://etherscan.io/tx/0x52422d23c7363ef3ef27d608d97bd24d4c38c5288818f8176e4a37b098fbbc8a"
-  },
-  {
-   "ts": "2026-09-08T22:48:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25935733. Tokens: 0x0000000000000000000000000000000000000000 / 0xec09d960b5f7b068fe07c30d53b9ceb66af6881a. Fee:...",
-   "url": "https://etherscan.io/tx/0xc7a42449968e0ff87bac8d26242dcc1297d0b28e73a2dbeb2d4a3aa1416c654e"
-  },
-  {
-   "ts": "2026-09-08T22:45:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25935720. Tokens: 0x0000000000000000000000000000000000000000 / 0xec09d960b5f7b068fe07c30d53b9ceb66af6881a. Fee:...",
-   "url": "https://etherscan.io/tx/0x02e7c89a2e57ec37f5c01d63b866593b88360e2623cfdd7ea6736173e9b20cdc"
-  },
-  {
-   "ts": "2026-09-08T22:31:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25935650. Tokens: 0x882d6e62e87f129cd058d4bd49dcd86811d73721 / 0x96a5399d07896f757bd4c6ef56461f58db951862. Fee:...",
-   "url": "https://etherscan.io/tx/0x5adafbd319918bae12e01be44e9b508c209a93bd784bd67d320d00443ce0feee"
-  },
-  {
-   "ts": "2026-09-08T21:39:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj opened PR #184 in uniswap-hooks: 'ReHypothecation M-14: Document that yield sources must accept settlement deposits'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/184"
   }
  ]
 }
