@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-10",
+   "narrative": {
+    "en": "The night deals again, and the felt takes two new pools — both on Uniswap V4, both wearing hooks, both cut into the ledger inside a single day. Set them side by side and the symmetry quits early.\n\nThe first: USDC against something calling itself DAE. The fee reads 8388608 — that is not a house percentage, no base rate ever printed a number like that. Numbers like that get placed on purpose, either to tax volatility hard or to wave liquidity in under a feather-light load. Hooks at 0xd06a... are a sealed box; who wrote the logic, and by what rule it takes its cut, is not on the table. Tick spacing 60 — too wide for the scalpers, too tight for the sleepers.\n\nThe second: ETH against 0x20d1..., an asset with no name worth repeating. Fee 3000, the plain three-tenths of a percent, no theatrics. The hooks at 0x39b2... are the one element at that table that can change the rules mid-hand; when one side of the pair is native ETH and the other is shallow, hooks tend to be filters against swaps nobody asked for, or brakes on slippage. Tick spacing 60 again. Standard.\n\nWhat ties them is that they did not arrive by accident: 323 blocks apart, same day, same infrastructure. Somebody is working the V4 rig — one hand laying hooks on different pairs to watch how they behave when the water turns, or two hands dealing from the same habits. The addresses will confess. If both hooks trace to a single deployer, that is not coincidence, that is a pattern. The deck is being shuffled, V4 hands out more degrees of freedom, and every new hook is a bet placed before the cards turn. 18003 and 18002 sit adjacent in the log; the only play left is to watch which pool fills first, and who moves the price.",
+    "zh": "夜里江湖又添两处新场子，都在 Uniswap V4 的地界上，都挂着钩子，前后不过一日之隔。摆在一处看，对称感很快就散了。\n\n头一处，USDC 对着一个唤作 DAE 的角色。费率写作 8388608，这不是寻常门派的规矩，江湖上没人这么收费。这样的数目是刻意落下的：要么在动荡时狠收一笔，要么以极轻的担子引内力入池。钩子 0xd06a... 是一只封着的匣子，谁写的、守的是什么规矩，外头看不出来。tick spacing 60，不快不慢，既不迎短线客，也不留久坐人。\n\n第二处更有意思。ETH 对着 0x20d1...，一个没名号的角色。费率 3000，老实的千分之三，没有花样。真正能动规矩的只有钩子 0x39b2...。一边是本门的 ETH，一边是水浅的资产，钩子多半用来挡掉不合心意的换手，或是压一压滑点。tick spacing 仍是 60，算是通例。\n\n两处为何同日现世、相隔 323 个区块？这不像偶遇。要么是同一位匠人给不同的对子试钩，看它们在各种局面下的反应；要么是两个门派路数相近，那便该去看钩子的地址——若同出一位 deployer，就不是巧合，是章法。V4 给的自由多了，可每挂一只新钩，都是一注。牌未翻，能做的只有看：谁先往里添内力，谁先动价。18003、18002，两条记在册上，挨着。"
+   },
+   "take": {
+    "en": "Two hooked V4 pools, one day, 323 blocks apart — that is a test rig, not a market. The only signal worth reading is whether the hook addresses trace to a single deployer; until liquidity shows up, the rest is noise wearing a suit.",
+    "zh": "一日之内两处新池、相隔 323 个区块，这不是行情，是试阵。该看的不是费率，而是两只钩子是否同出一位 deployer——水未聚、气未成之前，热闹皆是虚声。"
+   }
+  },
+  {
    "date": "2026-09-09",
    "narrative": {
     "en": "…and the night's mempool haul is in. Three fresh V4 pools, each with its own tell. The first, block 25936624, reeks of the sandbox — tokens that never saw a real ledger, fee set to zero, tickSpacing 200. Its hook at 0x322d… is an empty contract, no external functions at all. Someone just wanted to see if a transaction would clear with minimal gas. It did.\n\nThe second, sitting on 60 ticks, is more interesting. Fees still zero, but the hook address 0xba32c… hides a dynamic distributor. I dug into its bytecode: it's not listening, it's intercepting. beforeSwap rewrites the course by a couple of basis points depending on block time. That's not a toy — that's a temporal arb bot already embedded inside a single pool.\n\nThe third is the salt. Block 25936406, USDC against 0x4580…, fee 8388608 — the hex mask for 0.08%, but tickSpacing is only 10. A dense lattice. The hook at 0xbd90e… calls an external oracle on every beforeAddLiquidity. Not Chainlink. A custom contract I couldn't decrypt overnight. Somebody is building a managed pool with outside pricing — and they don't want it read too easily.\n\nThen came PR #599 from ccashwell in v4-periphery, a function called _mapSwapAmount. It lets the hook rewrite the swap amount mid-execution, not just before. Before, a hook could only say yes or no at the door. Now it can pull a knife and trim the bet if the pool starts slipping. The night made one thing clear: V4 is no longer a plaything. Hooks are growing muscle, and if you're not reading the bytecode of every new pool, you're sitting at the felt against a deck where half the cards are already marked.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Eight pools in a day and a frozen deeper-liquidity mode: the protocol is no longer testing the table, it is fixing the rules of engagement. The next round will be played on depth, not on entry prices.",
     "zh": "一日八池，定稿深水模式——这不是在试水，是在立规矩。下一局比的是内力深浅，不是门口的把式。"
-   }
-  },
-  {
-   "date": "2026-08-27",
-   "narrative": {
-    "en": "Sixteen tables hit the felt in a few hours — that's not traffic, that's a single player dealing from a stacked deck. Nearly every pair is built on the native coin, and every base card is WETH, but the visible cut is zero on most hands. Three hook contracts are cycling through the rotation: the first spreads a whole wave with no cut and a wide rail, the second works a tighter rail with no cut, the third shows twice, same no-cut, same wide rail. Two tables break the rhythm: one takes 0.8%, one takes 0.3%, and the rest take nothing.",
-    "zh": "一夜之间，十六张新桌子在江湖上摆开。这不是零散的过客，是有人按着棋谱落子。几乎所有牌局都以原生币为底，WETH 为刃；大多数不收任何费用，只有两桌例外——一桌收 0.8%，一桌收 0.3%，其余皆空手。\n\n蹊跷在套路。三个不同的钩子门派轮番上阵：第一家连开数池，路数宽，不收钱；第二家路数紧，也不收钱；第三家露脸两次，依旧不收钱。最刺眼的是那一桌 USDC——稳定币，真金白银。有人不是在拿空气试招，是在拿实弹演练。\n\n这不是乱撒，是布阵。内力顺着池子流转，钩子就是经脉。谁在借这些桌子聚气，眼下还看不清，但手法已留下印记。江湖上最便宜的邀请，往往最费琢磨。"
-   },
-   "take": {
-    "en": "One hand is building the entire board: three hook contracts, serial deployment, and a USDC test that turns a zero-fee pattern into a real-money experiment. The zero-fee run is either bait or blueprint — either way, the house is assembling itself.",
-    "zh": "一句话：有人在用钩子批量摆池，真正的杀招是那桌 USDC——这不是杂耍，是内力外露的试探。"
    }
   }
  ]
