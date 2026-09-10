@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-10T21:54:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25949809. Tokens: 0x0000000000000000000000000000000000000000 / 0x69b431aad223ee113b8c2446013d429ac19f0d83. Fee:...",
+   "url": "https://etherscan.io/tx/0xf998060513f84b65afbea380aa19e6a4c2dfe06e342b49caeeaa0ca34321ae64"
+  },
+  {
+   "ts": "2026-09-10T21:44:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25949758. Tokens: 0x0000000000000000000000000000000000000000 / 0xf591baa6b2b94513848e79b226244884371b657d. Fee:...",
+   "url": "https://etherscan.io/tx/0x9345c19874bc8d2c9bb4339f00e3c7514bf1c3cada9cb14242e1d6b5a64519a4"
+  },
+  {
+   "ts": "2026-09-10T20:25:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25949366. Tokens: 0x0000000000000000000000000000000000000000 / 0x2cb9bc09df473753f6a9508bf6d0fa19ec229ccd. Fee:...",
+   "url": "https://etherscan.io/tx/0x7c2a6f43c20d647299c39b79a3bd67506e354a083826b5abab8bd16508de77ed"
+  },
+  {
+   "ts": "2026-09-10T20:03:26Z",
+   "suit": "club",
+   "source": "github",
+   "text": "rakhmadaa-gif opened PR #1073 in v4-core: 'docs: fix stale NatSpec and remove dead code after PR #886'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1073"
+  },
+  {
    "ts": "2026-09-10T20:00:23Z",
    "suit": "club",
    "source": "github",
@@ -182,34 +210,6 @@
    "source": "github",
    "text": "dianakocsis pushed to v4-hooks-public: 'docs: list the hooks in a table instead of collapsible sections'",
    "url": "https://github.com/Uniswap/v4-hooks-public/commit/d08ca53c22c6ffe6a595dbe22fe9d98609e31bb5"
-  },
-  {
-   "ts": "2026-09-10T18:09:14Z",
-   "suit": "club",
-   "source": "github",
-   "text": "dianakocsis pushed to v4-hooks-public: 'docs: record the StablePairHook mainnet deployment and launch pools'",
-   "url": "https://github.com/Uniswap/v4-hooks-public/commit/1131d9c9b85c8278c57fdc542049b806c325e141"
-  },
-  {
-   "ts": "2026-09-10T18:07:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25948680. Tokens: 0x0000000000000000000000000000000000000000 / 0x2ce5dd5a564194742c9b02fa3aae4b9a1a78e0d5. Fee:...",
-   "url": "https://etherscan.io/tx/0x9519a9aba6ae981a8a9b6b7c2f211236a578b20adb46cd30412f48f406014db9"
-  },
-  {
-   "ts": "2026-09-10T18:06:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25948672. Tokens: 0x732cd18f3f5b0ffe30e3c3b2da5bb7a5117ebb6e / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
-   "url": "https://etherscan.io/tx/0x445e99f4b80acd00612a904e192d9e8dde08ca74bcd1567f78f24fd34115265b"
-  },
-  {
-   "ts": "2026-09-10T18:04:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25948664. Tokens: 0x0000000000000000000000000000000000000000 / 0xf5bf10f6e41a813455ce788301740d189ed3520c. Fee:...",
-   "url": "https://etherscan.io/tx/0x764efa945de5553866525baada1f65b59e42eaba62130f59cad37540decdab18"
   }
  ]
 }
