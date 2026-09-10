@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 20,
-  "open": 4,
-  "hit_rate": 0.565
+  "miss": 21,
+  "open": 3,
+  "hit_rate": 0.553
  },
  "items": [
   {
@@ -44,8 +44,8 @@
    "text": "Over the next seven days the count clears 71; the likely landing sits between 36 and 186, and I give the over about 71%. The real tell is not the arithmetic: the toll is being computed live by the contract as each swap crosses the table, so the door fee breathes with the trade — a hook used as an economic instrument, not a signature charm.",
    "horizon_days": 7,
    "resolve_after": "2026-09-10",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +71 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   },
   {
