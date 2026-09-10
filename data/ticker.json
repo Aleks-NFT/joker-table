@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-10T07:55:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25945630. Tokens: 0xc80faa923d9e79f2686ae978e1cbfbf3917264ec / 0xf6b1117ec07684d3958cad8beb1b302bfd21103f. Fee:...",
+   "url": "https://etherscan.io/tx/0xa01d2771a99551b7655e8707c2a85c7857fabbba28911bed902a0c34176cdbc0"
+  },
+  {
+   "ts": "2026-09-10T07:28:51Z",
+   "suit": "club",
+   "source": "github",
+   "text": "imitater-dou opened PR #1072 in v4-core: 'docs: point README imports at v4-core/src'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1072"
+  },
+  {
    "ts": "2026-09-10T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -196,20 +210,6 @@
    "source": "github",
    "text": "gonzaotc opened PR #187 in uniswap-hooks: 'OracleHookWithV3Adapters: allow overriding _afterInitialize'",
    "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/187"
-  },
-  {
-   "ts": "2026-09-09T18:04:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25941487. Tokens: 0x0000000000000000000000000000000000000000 / 0xf2a73f88dfbcd90e1f5daaca27a84f7bf6691b7c. Fee:...",
-   "url": "https://etherscan.io/tx/0x2bd879987b3e3898b873592b8ac645be1f5940001c8690e2cf924229cf48db62"
-  },
-  {
-   "ts": "2026-09-09T18:03:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25941485. Tokens: 0x0000000000000000000000000000000000000000 / 0xeecf0aa8dab4b99f381c856a6685bab652ca0049. Fee:...",
-   "url": "https://etherscan.io/tx/0x11a3dc3a680104355138ab50d5030144481ccefa19d49b18f4019c8fcd1e24dd"
   }
  ]
 }
