@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T11:13:29Z",
- "total_hooks": 4298,
- "total_pools": 13858,
+ "generated_at": "2026-09-10T12:13:29Z",
+ "total_hooks": 4299,
+ "total_pools": 13864,
  "multi_pool_hooks": 402,
  "shown": 402,
  "more_count": 0,
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 1087,
+   "pool_count": 1089,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 25942090,
-   "last_deploy": "2026-09-09T22:00:02Z",
+   "last_block": 25946359,
+   "last_deploy": "2026-09-10T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1072,6 +1072,31 @@
    "visible": false
   },
   {
+   "address": "0x6d01769ab90674d0d56b155f57003284e1b460cc",
+   "address_short": "0x6d01…60cc",
+   "name": "AnyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
+   "pool_count": 26,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25921510,
+   "last_block": 25946428,
+   "last_deploy": "2026-09-10T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xa6d34d6ac8be369072ccacc6700c1a7363997acc",
    "address_short": "0xa6d3…7acc",
    "name": "BDeFiHook",
@@ -1097,31 +1122,6 @@
    "first_block": 25583637,
    "last_block": 25935650,
    "last_deploy": "2026-09-09T00:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x6d01769ab90674d0d56b155f57003284e1b460cc",
-   "address_short": "0x6d01…60cc",
-   "name": "AnyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
-   "pool_count": 24,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25921510,
-   "last_block": 25936783,
-   "last_deploy": "2026-09-09T04:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3175,6 +3175,29 @@
    "visible": false
   },
   {
+   "address": "0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
+   "address_short": "0x8ed3…40cc",
+   "name": "FiverHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
+   "pool_count": 10,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25940219,
+   "last_block": 25946591,
+   "last_deploy": "2026-09-10T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x9147abfc25e446e5a1c2aafdead8cf3e707ad000",
    "address_short": "0x9147…d000",
    "name": "SaturnOmnichainV4Hook",
@@ -3744,29 +3767,6 @@
    "last_block": 25769065,
    "last_deploy": "2026-08-16T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
-   "address_short": "0x8ed3…40cc",
-   "name": "FiverHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
-   "pool_count": 9,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25940219,
-   "last_block": 25941921,
-   "last_deploy": "2026-09-09T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
