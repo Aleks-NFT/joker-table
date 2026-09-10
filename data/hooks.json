@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-10T04:13:28Z",
+ "generated_at": "2026-09-10T05:13:29Z",
  "total_hooks": 4298,
  "total_pools": 13855,
  "multi_pool_hooks": 402,
@@ -3749,8 +3749,8 @@
   {
    "address": "0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
    "address_short": "0x8ed3…40cc",
-   "name": "",
-   "verified": false,
+   "name": "FiverHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
    "pool_count": 9,
    "permissions_human": [
@@ -4165,8 +4165,8 @@
   {
    "address": "0x901d05ef77959fdfe14fb23d02e92414f6b600cc",
    "address_short": "0x901d…00cc",
-   "name": "",
-   "verified": false,
+   "name": "StockMemeV4FeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x901d05ef77959fdfe14fb23d02e92414f6b600cc",
    "pool_count": 6,
    "permissions_human": [
@@ -8359,8 +8359,8 @@
   {
    "address": "0xd06afea30812059a323efb101d33dd5effbb4080",
    "address_short": "0xd06a…4080",
-   "name": "",
-   "verified": false,
+   "name": "OneWayBidHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd06afea30812059a323efb101d33dd5effbb4080",
    "pool_count": 2,
    "permissions_human": [
