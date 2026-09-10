@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-10T14:00:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "v4-hooks-public updated README (sha 446398a)",
+   "url": "https://github.com/Uniswap/v4-hooks-public/blob/main/README.md"
+  },
+  {
+   "ts": "2026-09-10T13:51:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25947405. Tokens: 0x0000000000000000000000000000000000000000 / 0xe955ebe4110550f1a7b550a210e77b3046dd866a. Fee:...",
+   "url": "https://etherscan.io/tx/0x0555b6ca9aa2d310a1d6c31155b939d68c576320b4d8acef2dc64742cce5bcb7"
+  },
+  {
+   "ts": "2026-09-10T13:41:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25947352. Tokens: 0x0000000000000000000000000000000000000000 / 0x9d0cda286eb9df2b4d5b6bc11fd1b20163a23f67. Fee:...",
+   "url": "https://etherscan.io/tx/0xf9617691475134ae5bb5de708bc1087a282b43603bfb6050a114e0ced2d11d94"
+  },
+  {
+   "ts": "2026-09-10T13:39:41Z",
+   "suit": "club",
+   "source": "github",
+   "text": "dianakocsis merged PR #64 in v4-hooks-public: 'Publish/stable pair'",
+   "url": "https://github.com/Uniswap/v4-hooks-public/pull/64"
+  },
+  {
+   "ts": "2026-09-10T13:39:40Z",
+   "suit": "club",
+   "source": "github",
+   "text": "dianakocsis pushed to v4-hooks-public: 'Merge pull request #64 from Uniswap/publish/stable-pair'",
+   "url": "https://github.com/Uniswap/v4-hooks-public/commit/37a424c6fe3ab011c6d810f1444e3bb0304aabbc"
+  },
+  {
+   "ts": "2026-09-10T12:14:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25946921. Tokens: 0x0000000000000000000000000000000000000000 / 0x1245f164267be69dd0e8b1ac9d279991ee52b50d. Fee:...",
+   "url": "https://etherscan.io/tx/0xe1ce1e28cfbef07d99557d6d2201a5bc6752771a8c76e2762bd567ed1f8e3eb6"
+  },
+  {
    "ts": "2026-09-10T11:08:47Z",
    "suit": "spade",
    "source": "etherscan",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "hazarxyz opened PR #759 in PROGRAMMABLE: 'Fix Robinhood routed swap ABI for Universal Router 2.1.1'",
    "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/759"
-  },
-  {
-   "ts": "2026-09-09T20:49:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25942309. Tokens: 0x0000000000000000000000000000000000000000 / 0x64bc2ca1be492be7185faa2c8835d9b824c8a194. Fee:...",
-   "url": "https://etherscan.io/tx/0xb89d1a2181d6bfb66153d11e740bac39233722f9dcf4aa9740fd9fed77abc43d"
-  },
-  {
-   "ts": "2026-09-09T20:38:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25942254. Tokens: 0x0000000000000000000000000000000000000000 / 0x6982508145454ce325ddbe47a25d4ec3d2311933. Fee:...",
-   "url": "https://etherscan.io/tx/0xb9eae80e3478d1a2136a845a38ac8267589e3636545e790952bc8040c84fb686"
-  },
-  {
-   "ts": "2026-09-09T20:05:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25942090. Tokens: 0x0000000000000000000000000000000000000000 / 0x691612a8a997354ba61f5c656ef2438e1c651430. Fee:...",
-   "url": "https://etherscan.io/tx/0x7ea11e2b658751525f62abdb4a41791ab0a09b99ef617db98b51828e0fad6a44"
-  },
-  {
-   "ts": "2026-09-09T19:31:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25941921. Tokens: 0x0000000000000000000000000000000000000000 / 0x63b39e01e3209b0364ecc439a41f8c67fd2d2a8d. Fee:...",
-   "url": "https://etherscan.io/tx/0x3c8da87276ec256eb26fe3ca98341f0cfb45b5624c448289755da4102a4d342c"
-  },
-  {
-   "ts": "2026-09-09T19:31:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25941920. Tokens: 0x0000000000000000000000000000000000000000 / 0x66ba168f91d8d1b15f2ae4b000bd71d891c06f8a. Fee:...",
-   "url": "https://etherscan.io/tx/0xa6309cd66cbfb0522a847c9c791bec4fecc12c7e2c0f38bd7a4874448adc3255"
-  },
-  {
-   "ts": "2026-09-09T19:30:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25941916. Tokens: 0xf042cfa86cf1d598a75bdb55c3507a1f39f9493b / 0xf591dccd4573e463bafe1a6597ac7609d6f87258. Fee:...",
-   "url": "https://etherscan.io/tx/0x6eec59e0dc79bd7ab0a309dcf429dede3858bc492fdb27482c8fc3c7d225d72e"
   }
  ]
 }
