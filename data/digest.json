@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-11",
+   "narrative": {
+    "en": "Four hands dealt inside a few thousand blocks, and the felt is still warm. The earliest landed at block 25950464: native ETH against 0x6605...e6b, zero fee, sixty ticks of spacing, hooks at 0x3ea1...aacc. Narrow, cheap, tidy — the shape of a man who already knows what he wants before he sits down.\n\nThen 25950896, ETH again, partner 0xcc78...1994, zero fee, sixty ticks, hooks 0x0679...faac. Two nearly mirrored hands with different counterparties — same structure, different asset. That is not decoration. Somebody is running one strategy across more than one table and wants the results comparable.\n\nThe house's own variation arrived at 25950888: ETH paired with 0x0101...871f, a hundred basis points of rake and two hundred ticks of spacing, hooks 0xb94c...60c4. Wide spread, heavy fee — a bet on volatility, or insurance around a range meant to stay narrow. Two hundred ticks is room to maneuver. It is not infinity.\n\nAnd 25950661 broke the pattern entirely: 0xc56c...12b8 against 0xdc08...6252, no ETH leg, zero fee, two hundred ticks, hooks 0x6d01...60cc. Two non-native tokens sitting on thin surface liquidity — a sandbox for hook experiments, not a table with real money on it. Thin pools are noise until proven otherwise, and with no ETH leg, any arbitrage has to route the long way around.",
+    "zh": "几千个区块之内，四张牌先后落桌。最早的一手在 25950464 区块：原生 ETH 对上 0x6605...e6b，零手续费，六十格间距，钩子落在 0x3ea1...aacc。路子收得极窄，出手之前心里已有定数。\n\n接着是 25950896，仍是 ETH，对手方 0xcc78...1994，同样零手续费、六十格，钩子 0x0679...faac。两处几乎镜像，只换了对手——这是同一位侠客，在不同资产上试同一套招式，要看内力走势是否一致。钩子不是门面，里面写着东西。\n\n25950888 这一手变了调：ETH 配 0x0101...871f，百分之一的手续费，两百格间距，钩子 0xb94c...60c4。网撒得宽，抽成也重——要么是押波动，要么是给一个本就想收窄的区间留退路。两百格是余地，不是无边。\n\n25950661 则离了 ETH：0xc56c...12b8 对 0xdc08...6252，零手续费，两百格，钩子 0x6d01...60cc。两个非原生代币，面上内力稀薄，是演练钩法的沙地，不是值得下注的擂台。少了 ETH 这条腿，想在此处套利，只能绕道而行。"
+   },
+   "take": {
+    "en": "Four initializations within a few thousand blocks is a pattern, not a coincidence — someone is dealing the same hand onto different tables, and the only one that matters is the mirrored pair of zero-fee ETH pools.",
+    "zh": "几千区块之内四次建池，不是风吹草动，而是有人反复试同一套招式；真正值得看的是那两口镜像的零费 ETH 池，池浅者不过回声。"
+   }
+  },
+  {
    "date": "2026-09-10",
    "narrative": {
     "en": "The night deals again, and the felt takes two new pools — both on Uniswap V4, both wearing hooks, both cut into the ledger inside a single day. Set them side by side and the symmetry quits early.\n\nThe first: USDC against something calling itself DAE. The fee reads 8388608 — that is not a house percentage, no base rate ever printed a number like that. Numbers like that get placed on purpose, either to tax volatility hard or to wave liquidity in under a feather-light load. Hooks at 0xd06a... are a sealed box; who wrote the logic, and by what rule it takes its cut, is not on the table. Tick spacing 60 — too wide for the scalpers, too tight for the sleepers.\n\nThe second: ETH against 0x20d1..., an asset with no name worth repeating. Fee 3000, the plain three-tenths of a percent, no theatrics. The hooks at 0x39b2... are the one element at that table that can change the rules mid-hand; when one side of the pair is native ETH and the other is shallow, hooks tend to be filters against swaps nobody asked for, or brakes on slippage. Tick spacing 60 again. Standard.\n\nWhat ties them is that they did not arrive by accident: 323 blocks apart, same day, same infrastructure. Somebody is working the V4 rig — one hand laying hooks on different pairs to watch how they behave when the water turns, or two hands dealing from the same habits. The addresses will confess. If both hooks trace to a single deployer, that is not coincidence, that is a pattern. The deck is being shuffled, V4 hands out more degrees of freedom, and every new hook is a bet placed before the cards turn. 18003 and 18002 sit adjacent in the log; the only play left is to watch which pool fills first, and who moves the price.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The play is not the pool; it's the hook. Someone is laying out the infrastructure for collateral reuse, and the reentrancy guard is the tell that they expect someone to try to break in.",
     "zh": "这回的棋眼不在池子，而在钩子。有人正在搭建一套让抵押物反复流转的机关，而那把重入锁恰恰说明——他早知道会有人来拆。"
-   }
-  },
-  {
-   "date": "2026-08-28",
-   "narrative": {
-    "en": "So the night laid its cards on the felt, and Unichain decided not to wait for the weather. Eight V4 pools with hooks in a single day — that is not a warm-up, that is a declaration. The base pair, ETH against the USDC0 stablecoin, appears with a 0.05% cut and a narrow grid; four different hook contracts sit in the same slot, one pair, one fee, four distinct doors. Then the same pair reappears with a 0.3% cut and a wider grid, and again four different hooks. Someone is testing how the same liquidity breathes under different entry conditions, changing the door but not the room.\n\nThe sharper play came on the mainnet. Two pools opened with the same pair — 0xb6ed... against WETH — both flagged for dynamic pricing, both on the same grid step, but each carrying its own hook. Twins separated into different blocks, as if the deck were split deliberately. Two more pools followed, native ETH against two different counterparts, all under the same dynamic flag.\n\nAnd then the commit: 'finalize one fixed deeper-liquidity V4 mode.' Not a feature request — a closed version of a mode where liquidity is laid deeper into the book. The code is frozen, the pools are moving, the hooks are multiplying. The deck is being shuffled with intent. Some players are building combinations, some are betting on a single suit. I just watch how the cards fall.",
-    "zh": "这一夜，江湖上传来了风声。Unichain 这门派不等天时，一日之间连开八口 V4 池塘，每一口都挂着钩子。这不是热身，是亮剑。ETH 对上 USDC0 这味常见药材，先用 0.05% 的薄利、十格的窄步，四把不同的鱼钩轮流下饵；再换 0.3% 的厚利、六十格的宽步，又是四把新钩。同一片水，不同的钓法，有人显然在试水性的深浅。\n\n更妙的棋在以太坊主网。两处池塘，里头的对子一模一样——0xb6ed... 对上 WETH，都是动态取费，都是六十格的步，却各挂各的钩。两块牌分落在不同的区块，像是一对孪生兄弟被生生分开。再往后，还有两处用本家 ETH 对阵不同门派的池子，全部动态取费，步数一致。\n\n紧接着，0xprogrammable 落下一纸：finalize one fixed deeper-liquidity V4 mode。不是提议，是闭关。把内力往深处埋的一种模式，就此定稿。代码封冻，池塘开张，钩子越来越多。江湖上洗牌的动静不小，有人在排组合，有人抱着一门心思押注。我只是看水，看鱼，看落子的方向。"
-   },
-   "take": {
-    "en": "Eight pools in a day and a frozen deeper-liquidity mode: the protocol is no longer testing the table, it is fixing the rules of engagement. The next round will be played on depth, not on entry prices.",
-    "zh": "一日八池，定稿深水模式——这不是在试水，是在立规矩。下一局比的是内力深浅，不是门口的把式。"
    }
   }
  ]
