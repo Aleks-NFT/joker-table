@@ -9,6 +9,20 @@
    "url": "https://etherscan.io/tx/0xf5596c9de944eb0c5640829360032e422edce7e08cfefec6d30358bf8ec3ca9d"
   },
   {
+   "ts": "2026-09-11T21:00:27Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 58412068. Tokens: 0x8f187aa05619a017077f5308904739877ce9ea21 / 0xa08c111a2a3c2cfc23602851e0e153f866...",
+   "url": "https://uniscan.xyz/tx/0x6a5a7859248c9aa2dab08669a163e21fb8e65fe69d10f647ce87fca308a5a8aa"
+  },
+  {
+   "ts": "2026-09-11T20:54:41Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 58411722. Tokens: 0x0000000000000000000000000000000000000000 / 0x9a7a1bcf3cfe7b0780aba033064683066a...",
+   "url": "https://uniscan.xyz/tx/0x599f9d0eed35e0f5c18b1af0699c8d3b4ba5d1c4b1f9e8e8820a51ac457a832d"
+  },
+  {
    "ts": "2026-09-11T20:53:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25954973. Tokens: 0x0000000000000000000000000000000000000000 / 0x945f4912a2bd1fe534f6bcad838beea037e3c1f8. Fee:...",
    "url": "https://etherscan.io/tx/0xbe4c08e00817f374017c91b347c4466bd5f9f3f6842a1cb0d24606ad9e30d5ba"
-  },
-  {
-   "ts": "2026-09-11T15:08:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25954960. Tokens: 0xd450f4db1433fc622e8bfd64a369dd0a2f8f357f / 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c. Fee:...",
-   "url": "https://etherscan.io/tx/0x6dc594b418108b0d79a7efb4950ae61741c09f774865ddda62e8e9292c7fe7ef"
-  },
-  {
-   "ts": "2026-09-11T14:58:43Z",
-   "suit": "club",
-   "source": "github",
-   "text": "luiz-lvj opened PR #190 in uniswap-hooks: 'L-09: Take the unspecified-amount magnitude via int256'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/190"
   }
  ]
 }
