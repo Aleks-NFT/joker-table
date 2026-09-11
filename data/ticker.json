@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-11T09:19:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25953218. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0x45804880de22913dafe09f4980848ece6ecbaf78. Fee:...",
+   "url": "https://etherscan.io/tx/0x5b411c04045125ba20d777309198c7d1f2b28bf8dfc9d8405cf296d69e663d23"
+  },
+  {
+   "ts": "2026-09-11T08:51:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25953082. Tokens: 0xc3695dd5da932cf1749db5e2725be238e06ce17a / 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c. Fee:...",
+   "url": "https://etherscan.io/tx/0xf94944991068abe7f03f88a53ace6ad59e8c948ab83f69a7c7971c4d551750dd"
+  },
+  {
+   "ts": "2026-09-11T08:13:20Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #771 in PROGRAMMABLE: 'Finish private Any Quote flow and bounded pool discovery'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/771"
+  },
+  {
+   "ts": "2026-09-11T08:13:19Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Finish private Any Quote flow and bounded pool discovery (#771)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/bee3dec22811a193a1998fa00947a0f4fc7ed899"
+  },
+  {
    "ts": "2026-09-11T07:55:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25950370. Tokens: 0x0000000000000000000000000000000000000000 / 0x645209bcdca58f7e1c750a31c48950f7e043c9ad. Fee:...",
    "url": "https://etherscan.io/tx/0xd30c560f6178a630f789d0dc531f07b70c1af3b0de2769d870a538b1560154a7"
-  },
-  {
-   "ts": "2026-09-10T23:41:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25950338. Tokens: 0x0000000000000000000000000000000000000000 / 0x9d5e9cbef45e07a3e70259c361847c6e3f451110. Fee:...",
-   "url": "https://etherscan.io/tx/0x31715117a2f4819fdc4ce5956407ae07c0c40f874c9a4a411fdb66042fdf3e47"
-  },
-  {
-   "ts": "2026-09-10T23:40:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25950331. Tokens: 0xa1048a54c2d9ab1b5ce01e904b158d08d82a9e6b / 0xfda09936dbd717368de0835ba441d9e62069d36f. Fee:...",
-   "url": "https://etherscan.io/tx/0x8ec06cea5a02490490176c09aa2c53805a02e0f294fe53276eced4f51718db0c"
-  },
-  {
-   "ts": "2026-09-10T23:37:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25950318. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xdeb07685b537e9ed50585ee8d144f3f9a323cdbb. Fee:...",
-   "url": "https://etherscan.io/tx/0x0a1a1d4619ed3206c9e57f1b55541b28eb03b0c4538c7a5d00b6a774c88f00dc"
-  },
-  {
-   "ts": "2026-09-10T23:25:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25950259. Tokens: 0x0000000000000000000000000000000000000000 / 0xc62ceaf37ebfffc5d64b0a1849c2bb8056b662d6. Fee:...",
-   "url": "https://etherscan.io/tx/0x17d1259a9a5341c7431e7b056bdb250ab21f8d36754e00056cae1e7cfc6de29c"
   }
  ]
 }

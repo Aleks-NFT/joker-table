@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 21,
-  "open": 3,
-  "hit_rate": 0.553
+  "miss": 22,
+  "open": 2,
+  "hit_rate": 0.542
  },
  "items": [
   {
@@ -34,8 +34,8 @@
    "text": "The same hand is dealing pool after pool onto the felt at a pace no regular dealer matches. Over the next seven days the count clears 89; the likely landing sits between 43 and 488, and I give the over about 57%.",
    "horizon_days": 7,
    "resolve_after": "2026-09-11",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +89 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
