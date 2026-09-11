@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-11T07:55:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25952803. Tokens: 0x7eb5eed8fad664c5d0c2d06123dd424d3fbcd4b8 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
+   "url": "https://etherscan.io/tx/0xfeeafa1ab1f2ed495a12ac08b236369cd03325c3c753dabf82904c58d201ca97"
+  },
+  {
    "ts": "2026-09-11T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -114,6 +121,13 @@
    "url": "https://etherscan.io/tx/0x824d725f43b8328b08e635d2501b3476281453530dcff5605816664b06c4a9c9"
   },
   {
+   "ts": "2026-09-11T01:52:51Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz opened PR #771 in PROGRAMMABLE: 'Finish private Any Quote flow and bounded pool discovery'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/771"
+  },
+  {
    "ts": "2026-09-11T01:33:35Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25950259. Tokens: 0x0000000000000000000000000000000000000000 / 0xc62ceaf37ebfffc5d64b0a1849c2bb8056b662d6. Fee:...",
    "url": "https://etherscan.io/tx/0x17d1259a9a5341c7431e7b056bdb250ab21f8d36754e00056cae1e7cfc6de29c"
-  },
-  {
-   "ts": "2026-09-10T23:19:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25950231. Tokens: 0x0000000000000000000000000000000000000000 / 0x6957bcb30afb8ca9f56019c94aed5844439f9341. Fee:...",
-   "url": "https://etherscan.io/tx/0x99da0fe1082ec5deab20b1c0e838781447769554384d4dc8790f98bbb8fce744"
-  },
-  {
-   "ts": "2026-09-10T23:09:30Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: raadhshenshahhaseeb/lp-fee-securitization-uhi10 — 0★ — An LP deposits a Uniswap v4 liquidity-position NFT and a WETH reserve into a...",
-   "url": "https://github.com/raadhshenshahhaseeb/lp-fee-securitization-uhi10"
   }
  ]
 }
