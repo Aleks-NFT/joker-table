@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-11T11:13:32Z",
- "total_hooks": 4330,
- "total_pools": 13945,
- "multi_pool_hooks": 409,
- "shown": 409,
+ "generated_at": "2026-09-11T12:13:33Z",
+ "total_hooks": 4331,
+ "total_pools": 13950,
+ "multi_pool_hooks": 410,
+ "shown": 410,
  "more_count": 0,
  "hooks": [
   {
@@ -319,7 +319,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 143,
+   "pool_count": 144,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -335,8 +335,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 25953082,
-   "last_deploy": "2026-09-11T10:00:02Z",
+   "last_block": 25953552,
+   "last_deploy": "2026-09-11T12:00:02Z",
    "active": true,
    "visible": false
   },
@@ -584,7 +584,7 @@
    "name": "LivoSwapHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x10392843021a1af0abe3b1a21f14673dc05340cc",
-   "pool_count": 59,
+   "pool_count": 61,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -596,8 +596,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25480249,
-   "last_block": 25950338,
-   "last_deploy": "2026-09-11T00:00:02Z",
+   "last_block": 25954001,
+   "last_deploy": "2026-09-11T12:00:02Z",
    "active": true,
    "visible": false
   },
@@ -7666,6 +7666,29 @@
    "last_block": 25827652,
    "last_deploy": "2026-08-24T22:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x9447bb75b32db8f74d340287b3d3243ba47900cc",
+   "address_short": "0x9447…00cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9447bb75b32db8f74d340287b3d3243ba47900cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25953944,
+   "last_block": 25953980,
+   "last_deploy": "2026-09-11T12:00:02Z",
+   "active": true,
    "visible": false
   },
   {
