@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-11T01:13:29Z",
- "total_hooks": 4324,
- "total_pools": 13933,
+ "generated_at": "2026-09-11T02:13:29Z",
+ "total_hooks": 4327,
+ "total_pools": 13937,
  "multi_pool_hooks": 408,
  "shown": 408,
  "more_count": 0,
@@ -1077,7 +1077,7 @@
    "name": "AnyHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
-   "pool_count": 26,
+   "pool_count": 27,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -1091,8 +1091,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25921510,
-   "last_block": 25946428,
-   "last_deploy": "2026-09-10T12:00:02Z",
+   "last_block": 25950661,
+   "last_deploy": "2026-09-11T02:00:02Z",
    "active": true,
    "visible": false
   },
