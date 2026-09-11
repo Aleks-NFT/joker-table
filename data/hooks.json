@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-11T17:13:32Z",
- "total_hooks": 4336,
- "total_pools": 13972,
- "multi_pool_hooks": 412,
- "shown": 412,
+ "generated_at": "2026-09-11T18:13:29Z",
+ "total_hooks": 4339,
+ "total_pools": 13977,
+ "multi_pool_hooks": 413,
+ "shown": 413,
  "more_count": 0,
  "hooks": [
   {
@@ -3960,6 +3960,29 @@
    "visible": false
   },
   {
+   "address": "0xf636ac18c88789705bb9e94865b6efa1e1eb40cc",
+   "address_short": "0xf636…40cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xf636ac18c88789705bb9e94865b6efa1e1eb40cc",
+   "pool_count": 8,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25954524,
+   "last_block": 25955359,
+   "last_deploy": "2026-09-11T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x0b98ebd58d13e2d2054b22ca5693ba18d8f41040",
    "address_short": "0x0b98…1040",
    "name": "",
@@ -4094,29 +4117,6 @@
    "first_block": 25929077,
    "last_block": 25933248,
    "last_deploy": "2026-09-08T16:00:03Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0xf636ac18c88789705bb9e94865b6efa1e1eb40cc",
-   "address_short": "0xf636…40cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xf636ac18c88789705bb9e94865b6efa1e1eb40cc",
-   "pool_count": 7,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25954524,
-   "last_block": 25955199,
-   "last_deploy": "2026-09-11T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4667,7 +4667,7 @@
    "first_block": 25708877,
    "last_block": 25905569,
    "last_deploy": "2026-09-04T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -7181,6 +7181,31 @@
    "last_block": 25274493,
    "last_deploy": "2026-06-08T19:04:53Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x7584207c3f259f2655124757d8fd2e98495fa0cc",
+   "address_short": "0x7584…a0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x7584207c3f259f2655124757d8fd2e98495fa0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25955215,
+   "last_block": 25955338,
+   "last_deploy": "2026-09-11T18:00:02Z",
+   "active": true,
    "visible": false
   },
   {
