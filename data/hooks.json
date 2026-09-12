@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-12T04:13:31Z",
+ "generated_at": "2026-09-12T05:13:27Z",
  "total_hooks": 4350,
  "total_pools": 13996,
  "multi_pool_hooks": 415,
@@ -7213,8 +7213,8 @@
   {
    "address": "0x7584207c3f259f2655124757d8fd2e98495fa0cc",
    "address_short": "0x7584…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "GoldLaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7584207c3f259f2655124757d8fd2e98495fa0cc",
    "pool_count": 2,
    "permissions_human": [
@@ -7589,8 +7589,8 @@
   {
    "address": "0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
    "address_short": "0x8e96…1098",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
    "pool_count": 2,
    "permissions_human": [
@@ -7771,8 +7771,8 @@
   {
    "address": "0x9447bb75b32db8f74d340287b3d3243ba47900cc",
    "address_short": "0x9447…00cc",
-   "name": "",
-   "verified": false,
+   "name": "KeplerHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9447bb75b32db8f74d340287b3d3243ba47900cc",
    "pool_count": 2,
    "permissions_human": [
@@ -7821,8 +7821,8 @@
   {
    "address": "0x9547e5723b4902af276dadea621d1f643e83e0cc",
    "address_short": "0x9547…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "TaxHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9547e5723b4902af276dadea621d1f643e83e0cc",
    "pool_count": 2,
    "permissions_human": [
@@ -8559,8 +8559,8 @@
   {
    "address": "0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
    "address_short": "0xbf98…bec4",
-   "name": "",
-   "verified": false,
+   "name": "SimHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
    "pool_count": 2,
    "permissions_human": [
