@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-11T23:03:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "wkoutre opened PR #69 in v4-hooks-public: 'ci: migrate Claude PR automation to review-cli/describe-cli'",
+   "url": "https://github.com/Uniswap/v4-hooks-public/pull/69"
+  },
+  {
    "ts": "2026-09-11T21:25:35Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25954985. Tokens: 0x06923cee8b1ad6275613eaa329552ba3f8e1f5ba / 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c. Fee:...",
    "url": "https://etherscan.io/tx/0xd9e830585f9d40a0c902a9ae80b6368ddb1f2850a113bb4242dfd90c16847784"
-  },
-  {
-   "ts": "2026-09-11T15:11:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25954973. Tokens: 0x0000000000000000000000000000000000000000 / 0x945f4912a2bd1fe534f6bcad838beea037e3c1f8. Fee:...",
-   "url": "https://etherscan.io/tx/0xbe4c08e00817f374017c91b347c4466bd5f9f3f6842a1cb0d24606ad9e30d5ba"
   }
  ]
 }
