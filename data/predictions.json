@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 21,
-  "open": 3,
-  "hit_rate": 0.553
+  "miss": 22,
+  "open": 2,
+  "hit_rate": 0.542
  },
  "items": [
   {
@@ -34,8 +34,8 @@
    "text": "Over the next seven days the count clears 66; the likely landing sits between 33 and 181, and I give the over about 67%. The tell is behavioral: builders keep opening pools with the live-cost flag, so the hook contract names the toll at the moment of the trade rather than at creation — economic muscle inside the deal, not decoration.",
    "horizon_days": 7,
    "resolve_after": "2026-09-12",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +66 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   },
   {
