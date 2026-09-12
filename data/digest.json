@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-12",
+   "narrative": {
+    "en": "Three pools on one block — 25957830 — and the house does not deal coincidence. The same hook contract, 0xc463186c9d6fe44d8b82adbfec3056a2c21768cc, laid down three pairs at zero rake with a step of ten, and one token, 0x9609659a783682ce75ee132ca2f9ddfa01a56b73, appears in two of them. Not a guest at the table. The pivot. Somebody is assembling a cluster where a single asset is the anchor and the others orbit it — and doing it without taking a cut, which is either a rehearsal or a bet on movement rather than spread.\n\nTwo more zero-fee pools sit nearby with entirely different mechanics. The first is ETH against USDC, hooked through 0x6cc6921d6d31371fe173150242b88997acd1e088, with the finest step available — maximum precision, and no rake at all, which on a pair like that reads less like charity and more like a private practice cage or a new order type being tested in the open. The second pairs two barely-known tokens, 0xf18cd6... against 0xfedc5f..., on a wide step and the same hook 0x322dcec4958c14e021a9f1cd49df11b9457968cc. Wide step, no fee: liquidity smeared thin on purpose rather than stacked. I don't chase thin felt.\n\nThen there is the pool with a rake of 8388608 — 0.8388608%, neither the round 1% nor the house-standard 0.3%. The pair 0x0c666485b02f7a87d21add7aeb9f5e64975aa490 / 0xa4757cd4e32ad8cd45df8f0d162a02db5c020377, step of 200. That number was chosen, not defaulted. Somebody is calibrating a reward for their backers: sweet enough to keep them seated, odd enough that no existing template already occupies the chair.\n\nLast, ETH against 0xfcf19acd6434631289520a6c2e08efb1c4c3ce67 — 0.3%, step of 60. The only pool on the felt with textbook parameters. It may be the honest one. It may be the one that makes the rest of the room look ordinary while the real work happens three seats over.",
+    "zh": "同一区块 25957830 上落下三池，这不是巧合。同一枚合约 0xc463186c9d6fe44d8b82adbfec3056a2c21768cc 连布三阵，不收分文抽成，步长皆取十。其中 0x9609659a783682ce75ee132ca2f9ddfa01a56b73 一枚，现身两处——不是过客，是阵眼。有人以一枚资产为心，令余者为辅，布一个连环之局。不取抽成，只求快动，此乃练招，或是布场。\n\n另有两池，同样不收分文，路数却截然不同。其一为 ETH 对 USDC，挂于 0x6cc6921d6d31371fe173150242b88997acd1e088，步长取一，精细至极；这般搭配却不收抽成，便不像布施，更像私设的练功场，或是在人前试一门新招。其二为两枚无名之币 0xf18cd6... 与 0xfedc5f...，步长取二百，所挂合约同为 0x322dcec4958c14e021a9f1cd49df11b9457968cc。阔步而零费，是要内力铺散于野，不聚于一点。水浅之处，我不下竿。\n\n再看那一池，抽成 8388608，即 0.8388608%。既非整整一分，也非寻常的三厘。所对者 0x0c666485b02f7a87d21add7aeb9f5e64975aa490 与 0xa4757cd4e32ad8cd45df8f0d162a02db5c020377，步长二百。这个数目是挑出来的，不是顺手写的。此乃量身定赏，留住出钱出力之人，又不与现成的门规相撞。\n\n最后一池，ETH 对 0xfcf19acd6434631289520a6c2e08efb1c4c3ce67，三厘，步长六十。全场只此一处用的是老规矩。它或许是老实人，也或许只是一面门帘，挡住后院里真正在练的东西。"
+   },
+   "take": {
+    "en": "A house that deals without taking a cut is not being generous — it is telling you where it expects to be paid. The rake isn't gone; it's been moved to a different part of the table.",
+    "zh": "不收抽成的庄，不是行善，是换了个地方收钱。你看不见的那一份，才最贵。"
+   }
+  },
+  {
    "date": "2026-09-11",
    "narrative": {
     "en": "Four hands dealt inside a few thousand blocks, and the felt is still warm. The earliest landed at block 25950464: native ETH against 0x6605...e6b, zero fee, sixty ticks of spacing, hooks at 0x3ea1...aacc. Narrow, cheap, tidy — the shape of a man who already knows what he wants before he sits down.\n\nThen 25950896, ETH again, partner 0xcc78...1994, zero fee, sixty ticks, hooks 0x0679...faac. Two nearly mirrored hands with different counterparties — same structure, different asset. That is not decoration. Somebody is running one strategy across more than one table and wants the results comparable.\n\nThe house's own variation arrived at 25950888: ETH paired with 0x0101...871f, a hundred basis points of rake and two hundred ticks of spacing, hooks 0xb94c...60c4. Wide spread, heavy fee — a bet on volatility, or insurance around a range meant to stay narrow. Two hundred ticks is room to maneuver. It is not infinity.\n\nAnd 25950661 broke the pattern entirely: 0xc56c...12b8 against 0xdc08...6252, no ETH leg, zero fee, two hundred ticks, hooks 0x6d01...60cc. Two non-native tokens sitting on thin surface liquidity — a sandbox for hook experiments, not a table with real money on it. Thin pools are noise until proven otherwise, and with no ETH leg, any arbitrage has to route the long way around.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house is not fixing a table — it is rewriting the dealer's script, and the first custom V4 pools are already being dealt under a marked hook.",
     "zh": "江湖夜雨，hazarxyz 不动声色地换了桌上的规矩——V4 的定制池已有人落子，钩子里藏着真正的拳谱。"
-   }
-  },
-  {
-   "date": "2026-08-29",
-   "narrative": {
-    "en": "The cards were already on the felt when the night crew showed up. A fresh pool on the V4 table, block 25857602, native ETH paired with a token that hides behind 0x81ff...e258, zero cut for the house, spacing set to 60. But the tell isn't the pair — it's the hook contract, 0x2e4a...eaec, sitting underneath. Zero-fee pools are either toys or traps; this one looks loaded.\n\nThen the GitHub ink dries on PR #156 from luiz-lvj in the uniswap-hooks ledger: ReHypothecationHook, with a settlement reentrancy lock and pool-key validation. Rehypothecation means the same collateral gets put back to work. A hook that lets settlement reuse collateral needs a lock on the door and a check on who holds the key — otherwise one transaction drains the whole table.\n\nAnd somewhere off to the side, PROGRAMMABLE refreshes its README. A small move, but in this company it's not noise. It's assembly. Pool, hook-pr, documentation — three cards showing in sequence. The deck isn't open yet, but the pattern is starting to breathe.",
-    "zh": "昨夜江湖传来动静，有人在 25857602 号石阶上立起了一座新的 Uniswap V4 池子。池中配的是原生 ETH 与一个藏名于 0x81ff...e258 的令牌，分文不取，间距六十。真正值得留意的不是这对组合，而是池底的钩子合约 0x2e4a...eaec。零费用的池子，要么是试探，要么是另有图谋——这口井看着不像空穴来风。\n\n与此同时，GitHub 上有人递来一纸 PR #156，luiz-lvj 在 uniswap-hooks 门派中献上《ReHypothecationHook：结算重入锁与池钥校验》。再抵押，就是把押出去的筹码重新拿去下注。既然要让结算环节反复借用同一样抵押物，就必须先锁好门户、验明来者。否则，一注下去，整座池子便可能被连根端起。\n\n再添一笔：PROGRAMMABLE 在一处库中改了 README。看似平淡，但放在这光景里，不是闲笔，是合围。池子、武学、图谱，三样东西正在凑向同一个交点。牌面还没揭开，但走势已经隐隐有了轮廓。"
-   },
-   "take": {
-    "en": "The play is not the pool; it's the hook. Someone is laying out the infrastructure for collateral reuse, and the reentrancy guard is the tell that they expect someone to try to break in.",
-    "zh": "这回的棋眼不在池子，而在钩子。有人正在搭建一套让抵押物反复流转的机关，而那把重入锁恰恰说明——他早知道会有人来拆。"
    }
   }
  ]

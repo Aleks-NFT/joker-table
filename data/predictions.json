@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 22,
-  "open": 2,
-  "hit_rate": 0.542
+  "miss": 21,
+  "open": 3,
+  "hit_rate": 0.553
  },
  "items": [
+  {
+   "id": 73,
+   "made_at": "2026-09-12",
+   "text": "Over the next 7 days the count clears 5. The likely landing sits between 5 and 13, and I give the over about 50%. One hand is dealing pools back to back in the same breath — a single contract laying pair after pair at a pace the rest of the room cannot match.",
+   "horizon_days": 7,
+   "resolve_after": "2026-09-19",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 72,
    "made_at": "2026-09-06",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-11",
    "status": "miss",
    "resolution_note": "Confirmed: target +204 on metric nonstd_fee_pools not reached.",
-   "phase": "v1"
-  },
-  {
-   "id": 23,
-   "made_at": "2026-07-03",
-   "text": "Over the next 7 days the count will exceed 228, as builders keep deploying pools with non-standard swap fees—zero or the maximum tier—instead of market rates, signaling deliberate economic design where revenue is taken through the hook rather than the swap.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-10",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +228 on metric nonstd_fee_pools not reached.",
    "phase": "v1"
   }
  ]

@@ -2,11 +2,39 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-12T03:55:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25958775. Tokens: 0x8e8dc0e347e824136ce9d2203f2ee4dc404eb0df / 0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce. Fee:...",
+   "url": "https://etherscan.io/tx/0x7da3d5d5fefed401f220614adade4360e2a0a38b08e45a4292aaba3bd4a54b32"
+  },
+  {
+   "ts": "2026-09-12T02:49:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 25958446. Tokens: 0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce / 0xf095cdab92853fc4aeddafd9c6f3a57573c5c0a3. Fee:...",
+   "url": "https://etherscan.io/tx/0x71e58d27364a48e39f95d7fa64c4c47c142c36a5cb80e62d4dbe3828f405905b"
+  },
+  {
    "ts": "2026-09-12T01:42:35Z",
    "suit": "spade",
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25958116. Tokens: 0x0000000000000000000000000000000000000000 / 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48. Fee:...",
    "url": "https://etherscan.io/tx/0x9de890c777d441af7ae088e75d01f6e16ce3f03bda20bb541ad69fac9050feed"
+  },
+  {
+   "ts": "2026-09-12T01:32:04Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: samsamei1992-source/Xpadia — 0★ — The simple token launchpad for EVM tokens on uniswap v4 and hooks",
+   "url": "https://github.com/samsamei1992-source/Xpadia"
+  },
+  {
+   "ts": "2026-09-12T01:26:07Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: punchnelloxyz/v4-market-structures — 0★ — Seventeen Uniswap v4 hook modules that price real market mechanics. Each one can only mak...",
+   "url": "https://github.com/punchnelloxyz/v4-market-structures"
   },
   {
    "ts": "2026-09-12T01:22:23Z",
@@ -65,6 +93,13 @@
    "url": "https://github.com/Uniswap/v4-hooks-public/pull/69"
   },
   {
+   "ts": "2026-09-11T23:00:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Repo Uniswap/v4-hooks-public references hook ERC1967Proxy (0x0000113d…, 2 pools) in its readme — code behind a contract that is live on chain",
+   "url": "https://github.com/Uniswap/v4-hooks-public"
+  },
+  {
    "ts": "2026-09-11T21:25:35Z",
    "suit": "spade",
    "source": "etherscan",
@@ -91,6 +126,20 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25956679. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xfef4c6b56e011a684dc2054afd576d83817c2620. Fee:...",
    "url": "https://etherscan.io/tx/0x6f1894c9e2c6a266bff07edb4071bef2f66312f70e6b3becc0fdb1ca467d5ff0"
+  },
+  {
+   "ts": "2026-09-11T20:42:44Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: web3wavey/aegis-ens-v4-hook-governance — 0★ — ENSv2-powered governance and permission layer for Uniswap v4 hooks",
+   "url": "https://github.com/web3wavey/aegis-ens-v4-hook-governance"
+  },
+  {
+   "ts": "2026-09-11T20:32:22Z",
+   "suit": "club",
+   "source": "github",
+   "text": "New in the V4 hook niche: sserrano44/wFiatHook — 0★ — Uniswap v4 hook: single-dealer just-in-time liquidity for wrapped fiat (wBRL, wARS) against USDC on Base",
+   "url": "https://github.com/sserrano44/wFiatHook"
   },
   {
    "ts": "2026-09-11T20:02:23Z",
@@ -161,55 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25955359. Tokens: 0x0000000000000000000000000000000000000000 / 0x041e30ea7c36ef01c39143d5b9a353373e300f7f. Fee:...",
    "url": "https://etherscan.io/tx/0x3014a75e54b17092cda5410e2c7e59255177635ad53b457551f043c821ef4e2c"
-  },
-  {
-   "ts": "2026-09-11T16:24:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955338. Tokens: 0x1655293a224cd8067d6c985a277f411c932f16fb / 0x45804880de22913dafe09f4980848ece6ecbaf78. Fee:...",
-   "url": "https://etherscan.io/tx/0x9d1629c8c4c318a4d3b9372a08f3333f88760f06f204016fdde89244a89dd6d7"
-  },
-  {
-   "ts": "2026-09-11T16:00:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955215. Tokens: 0x3bcff592bf5cbb468ad9e1f3ce37dd2a2631caa9 / 0x45804880de22913dafe09f4980848ece6ecbaf78. Fee:...",
-   "url": "https://etherscan.io/tx/0x4874073f3090e9698a5222b41dbaf1478289ec0507091473ad8289eaaae4d5db"
-  },
-  {
-   "ts": "2026-09-11T15:56:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955199. Tokens: 0x0000000000000000000000000000000000000000 / 0x7d09f9210997175a6039d23bd242bb09eea9f14d. Fee:...",
-   "url": "https://etherscan.io/tx/0x9c6edceeb1303b631f6d5aa819ff3bd7ff241ba9ba7ee725ed2ae6aa4a3158b0"
-  },
-  {
-   "ts": "2026-09-11T15:48:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955159. Tokens: 0x0000000000000000000000000000000000000000 / 0xd7fffca9f736c93dd33caafba4e782d430459c27. Fee:...",
-   "url": "https://etherscan.io/tx/0x2bbf05c9c5d24d406eb27ac4136266493ed305fe4d314b21aa78f4c233ab7f8f"
-  },
-  {
-   "ts": "2026-09-11T15:40:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955119. Tokens: 0x0000000000000000000000000000000000000000 / 0x6273881f406a993090f57435f4fc9e87f03118e9. Fee:...",
-   "url": "https://etherscan.io/tx/0xc9fc1cb130b24024bfa64beb19c0de26f4a6e66bbbb5db3d6f9ea2f3e61e4a60"
-  },
-  {
-   "ts": "2026-09-11T15:36:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955097. Tokens: 0x0000000000000000000000000000000000000000 / 0xd782158e2202d3162cae4a96363e2f3e0cb32a4d. Fee:...",
-   "url": "https://etherscan.io/tx/0xd069e70cf85058f7916cecc39d7925093d7e2ac45c21d416d78d2326127adb6f"
-  },
-  {
-   "ts": "2026-09-11T15:26:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25955046. Tokens: 0x0000000000000000000000000000000000000000 / 0x50ff462d5cdef0167825caba83c468b15e89cd41. Fee:...",
-   "url": "https://etherscan.io/tx/0x8545858d4fc8264c175ef3c1ed4013ca67553492a26259d05fe931c7f6b9a921"
   }
  ]
 }
