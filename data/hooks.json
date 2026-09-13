@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-13T09:13:30Z",
- "total_hooks": 4380,
- "total_pools": 14336,
+ "generated_at": "2026-09-13T10:13:26Z",
+ "total_hooks": 4383,
+ "total_pools": 14341,
  "multi_pool_hooks": 425,
  "shown": 425,
  "more_count": 0,
@@ -293,7 +293,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 173,
+   "pool_count": 174,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -307,8 +307,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 25965652,
-   "last_deploy": "2026-09-13T04:00:02Z",
+   "last_block": 25967577,
+   "last_deploy": "2026-09-13T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4973,6 +4973,31 @@
    "visible": false
   },
   {
+   "address": "0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
+   "address_short": "0x8e96…1098",
+   "name": "LaunchHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "handles donations",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "beforeSwap",
+    "afterDonate",
+    "beforeSwapReturnDelta"
+   ],
+   "first_block": 25958446,
+   "last_block": 25967416,
+   "last_deploy": "2026-09-13T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xa4e6f5500e88691fdcb289aa0e99067481434880",
    "address_short": "0xa4e6…4880",
    "name": "ArrakisPrivateHook",
@@ -5536,31 +5561,6 @@
    "first_block": 25962760,
    "last_block": 25962760,
    "last_deploy": "2026-09-12T18:00:03Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
-   "address_short": "0x8e96…1098",
-   "name": "LaunchHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8e96674cf27f5e8e1ced334be4ecdcb6d86e1098",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "handles donations",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "afterInitialize",
-    "beforeSwap",
-    "afterDonate",
-    "beforeSwapReturnDelta"
-   ],
-   "first_block": 25958446,
-   "last_block": 25958940,
-   "last_deploy": "2026-09-12T06:00:02Z",
    "active": true,
    "visible": false
   },
