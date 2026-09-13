@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-13",
+   "narrative": {
+    "en": "...Eighteen pools since midnight and the felt is still warm. Uniswap V4 with hooks is not an upgrade, it is a new deck — one where any hand at the table can write its own rules straight into the protocol. Three of the pools sit on the zero address, ETH pairs, one carrying a fee of 3000 and two carrying nothing at all. But the real meat is the faces I have never seen: 0x2a334870, 0x690f5ccf, 0xb9a9498 — fresh contracts, no history, no liquidity standing behind them. Somebody is dealing a new deck.\n\nThen the hooks. 0x27b1c29 comes up seven hands running, every one of them charging nothing, spacing set at 10 or 60. That is not chance, that is one hand shuffling. 0x58b0d156 shows twice, both times against 0xdc3c3d7d. 0x96b89368 appears once, paired with ETH. 0x10392843 once, alone, no partner worth the name. Twelve of the eighteen take nothing on the swap — that is not a commission play, that is a land grab. A hook can reach into every swap and rewrite the terms mid-hand: change the cut on the fly, refuse an address, bend the price. In one hand that is power enough to recut the whole board by morning.\n\nAnd 0x8e0ad08 keeps turning up in the last three pools, against a different partner each time. Either a stablecoin being seeded quietly, or a test run nobody was meant to watch. I do not know their names. I know they are shuffling. Nobody who is not watching the hooks is still holding a seat.",
+    "zh": "一夜之间，江湖上多开了十八个场子。Uniswap V4 挂上钩子之后，便不再是某一门派立下的旧规矩，而是人人可于山门之上自刻碑文的年月。\n\n零地址上立着三个场子，皆是 ETH 的对家：一个收三千的过路钱，另两个分文不取。真正有意思的是那几张生面孔——0x2a334870、0x690f5ccf、0xb9a9498，新铸的契约，无履历，无内力，背后空空荡荡。有人正在发新牌。\n\n再看钩子。0x27b1c29 连开七局，局局不收过路钱，间距或十或六十——这不是巧合，是同一只手在洗牌。0x58b0d156 现身两次，对手皆为 0xdc3c3d7d；0x96b89368 只此一回，配的是 ETH；0x10392843 孤身一人，无伴可称。十八局里十二局不收分文——这不是做买卖，这是抢地盘。钩子能探进每一次交手，把规矩在半途改写：过路钱随时可调，地址可拒，价可扭。一只手握着这些，天亮之前就能重划整片内力。\n\n0x8e0ad08 在最后三个场子里接连现身，每次换一个对手。或是新稳定币在悄然扎根，或是无人该看见的试招。我不认得这些名号。我只看见他们在洗牌。不盯钩子的人，位子早已不在。"
+   },
+   "take": {
+    "en": "Twelve of eighteen pools charging nothing is not generosity — it is a hook buying the whole table's attention, and the fee is whatever it decides to charge once you are sitting down.",
+    "zh": "十八局中十二局不收分文，这不是让利，是有人用钩子把整张桌子的注意力买了下来——真正要下的注，还在后头。"
+   }
+  },
+  {
    "date": "2026-09-12",
    "narrative": {
     "en": "Three pools on one block — 25957830 — and the house does not deal coincidence. The same hook contract, 0xc463186c9d6fe44d8b82adbfec3056a2c21768cc, laid down three pairs at zero rake with a step of ten, and one token, 0x9609659a783682ce75ee132ca2f9ddfa01a56b73, appears in two of them. Not a guest at the table. The pivot. Somebody is assembling a cluster where a single asset is the anchor and the others orbit it — and doing it without taking a cut, which is either a rehearsal or a bet on movement rather than spread.\n\nTwo more zero-fee pools sit nearby with entirely different mechanics. The first is ETH against USDC, hooked through 0x6cc6921d6d31371fe173150242b88997acd1e088, with the finest step available — maximum precision, and no rake at all, which on a pair like that reads less like charity and more like a private practice cage or a new order type being tested in the open. The second pairs two barely-known tokens, 0xf18cd6... against 0xfedc5f..., on a wide step and the same hook 0x322dcec4958c14e021a9f1cd49df11b9457968cc. Wide step, no fee: liquidity smeared thin on purpose rather than stacked. I don't chase thin felt.\n\nThen there is the pool with a rake of 8388608 — 0.8388608%, neither the round 1% nor the house-standard 0.3%. The pair 0x0c666485b02f7a87d21add7aeb9f5e64975aa490 / 0xa4757cd4e32ad8cd45df8f0d162a02db5c020377, step of 200. That number was chosen, not defaulted. Somebody is calibrating a reward for their backers: sweet enough to keep them seated, odd enough that no existing template already occupies the chair.\n\nLast, ETH against 0xfcf19acd6434631289520a6c2e08efb1c4c3ce67 — 0.3%, step of 60. The only pool on the felt with textbook parameters. It may be the honest one. It may be the one that makes the rest of the room look ordinary while the real work happens three seats over.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The sharpest tell isn't the price; it's that builders have turned the fee into a live instrument — the market rewriting its own code.",
     "zh": "今日刀锋最利的一招：费率已从死字变成活招，建池者正用钩子改写江湖规矩——这才是真正的暗涌。"
-   }
-  },
-  {
-   "date": "2026-08-30",
-   "narrative": {
-    "en": "The night reshuffles the deck, and hazarxyz is not merely patching tears in the felt. Two consecutive merges, #558 and #562, drive the same edge of the table: profile synchronization and the semantics of the interface. The visual shell now bends to the logic of contracts, not the other way around. This is not cosmetics — this is the UI breathing in the same rhythm as the EVM.\n\nBut the real tells lie in two open deals, #560 and #561. One hardens a clean-room for the V4 release, sealing the floor before the cards are dealt. The other documents the Robinhood V4 Custom Launch contract. Not a gentleman's kit for DeFi — a custom launch contract aimed at a specific player. The deck is being stacked for a particular suit.\n\nOn-chain, a fresh Uniswap V4 pool with hooks appears: a pair with the zero address, meaning native coin, zero fee, and a wide tick spacing. The hook contract 0xadf9...20cc carries the custom logic. This is not a standard pool — it is a marked card. Someone is already dealing V4 hands, and the deck is anything but standard.\n\nREADME updated, so the documentation is pulled into line with the code. Everything syncs — profile, UI, contracts, docs. One deck, one deal. You just watch the shuffle.",
-    "zh": "夜里牌局已重新洗过，hazarxyz 不是在补漏洞，而是在重搭骨架。连续两次合入，#558 与 #562，都指向同一处命门：配置档案的同步与界面语义。界面不再自说自话，而是跟着合约的逻辑走——这不是涂脂抹粉，这是让外皮与 EVM 同呼吸。\n\n更耐看的是两扇未关的门，#560 与 #561。一道在给 V4 发布清理静室，上封条前先扫地；另一道在给 Robinhood 的 V4 定制启动合约立传。江湖上不是人人都有资格拿到定制刀，这是有人专门为某个门派打造的兵刃。\n\n链上还浮起一座新鲜的 Uniswap V4 池子，带钩子：一边是零地址，即本币；费用为无，间距宽。钩子合约 0xadf9...20cc 里藏着定制门道。这不是寻常的池子，这是有人在 V4 的江湖里下暗注。\n\nREADME 也换了新墨，文档跟上了代码。配置、界面、合约、书册，全都归位。一副牌，一张桌，你只管看他们洗牌。"
-   },
-   "take": {
-    "en": "The house is not fixing a table — it is rewriting the dealer's script, and the first custom V4 pools are already being dealt under a marked hook.",
-    "zh": "江湖夜雨，hazarxyz 不动声色地换了桌上的规矩——V4 的定制池已有人落子，钩子里藏着真正的拳谱。"
    }
   }
  ]
