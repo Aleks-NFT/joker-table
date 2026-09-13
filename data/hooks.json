@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-13T19:13:28Z",
- "total_hooks": 4702,
- "total_pools": 14692,
- "multi_pool_hooks": 425,
- "shown": 425,
+ "generated_at": "2026-09-13T20:13:31Z",
+ "total_hooks": 4717,
+ "total_pools": 14712,
+ "multi_pool_hooks": 427,
+ "shown": 427,
  "more_count": 0,
  "hooks": [
   {
@@ -4569,6 +4569,31 @@
    "visible": false
   },
   {
+   "address": "0x140cab2423762d589d51bfb05d470ce02daea0cc",
+   "address_short": "0x140c…a0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x140cab2423762d589d51bfb05d470ce02daea0cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25968928,
+   "last_block": 25970741,
+   "last_deploy": "2026-09-13T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x54ee2533aa3df65bc7a54d599ee54ce71ee30044",
    "address_short": "0x54ee…0044",
    "name": "",
@@ -6430,6 +6455,29 @@
    "last_block": 25709295,
    "last_deploy": "2026-08-08T10:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x247e9c73937adaae13a8de90861e172653bcc0cc",
+   "address_short": "0x247e…c0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x247e9c73937adaae13a8de90861e172653bcc0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25970237,
+   "last_block": 25970668,
+   "last_deploy": "2026-09-13T20:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -8868,7 +8916,7 @@
    "first_block": 25919966,
    "last_block": 25920463,
    "last_deploy": "2026-09-06T20:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
