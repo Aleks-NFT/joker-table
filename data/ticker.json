@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-13T06:25:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "Abhinav-Malik-154 opened PR #1074 in v4-core: 'test: add pool solvency invariant test'",
+   "url": "https://github.com/Uniswap/v4-core/pull/1074"
+  },
+  {
    "ts": "2026-09-13T04:57:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 25965046. Tokens: 0xdc3c3d7ada46bd1c70166d542a1404bd43fa802a / 0xdf994451ef79e529b591df2852c5a8cd3af48c36. Fee:...",
    "url": "https://etherscan.io/tx/0x1a878a1cfb4e1acd89d6abb6c32ee7a3d5b8779753811496b1e07a632d7e6d96"
-  },
-  {
-   "ts": "2026-09-13T00:49:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 25965028. Tokens: 0xdc3c3d7ada46bd1c70166d542a1404bd43fa802a / 0xf919987646c3a2b1389fdebd30c5e0eeb07a1756. Fee:...",
-   "url": "https://etherscan.io/tx/0xe809d623c424955382e28de5ee5807e2418e1f1ad2b7aa7908ab6a4ae69a51c7"
   }
  ]
 }
