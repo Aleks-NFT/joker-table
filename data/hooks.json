@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-12T23:13:32Z",
- "total_hooks": 4372,
- "total_pools": 14288,
+ "generated_at": "2026-09-13T00:13:31Z",
+ "total_hooks": 4374,
+ "total_pools": 14298,
  "multi_pool_hooks": 424,
  "shown": 424,
  "more_count": 0,
@@ -273,7 +273,7 @@
    "name": "",
    "verified": false,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 184,
+   "pool_count": 186,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -282,8 +282,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 25963898,
-   "last_deploy": "2026-09-12T22:00:02Z",
+   "last_block": 25964684,
+   "last_deploy": "2026-09-13T00:00:03Z",
    "active": true,
    "visible": false
   },
@@ -1259,6 +1259,33 @@
    "last_block": 25654026,
    "last_deploy": "2026-07-31T18:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x27b1c29cbc86398b9f2bdb7401bbd0798b1a68cc",
+   "address_short": "0x27b1…68cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x27b1c29cbc86398b9f2bdb7401bbd0798b1a68cc",
+   "pool_count": 18,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25963961,
+   "last_block": 25964688,
+   "last_deploy": "2026-09-13T00:00:03Z",
+   "active": true,
    "visible": false
   },
   {
@@ -2598,33 +2625,6 @@
    "last_block": 25833666,
    "last_deploy": "2026-08-25T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x27b1c29cbc86398b9f2bdb7401bbd0798b1a68cc",
-   "address_short": "0x27b1…68cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x27b1c29cbc86398b9f2bdb7401bbd0798b1a68cc",
-   "pool_count": 12,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25963961,
-   "last_block": 25964139,
-   "last_deploy": "2026-09-12T22:00:02Z",
-   "active": true,
    "visible": false
   },
   {
