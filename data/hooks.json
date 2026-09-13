@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-13T04:13:30Z",
+ "generated_at": "2026-09-13T05:13:30Z",
  "total_hooks": 4380,
  "total_pools": 14333,
  "multi_pool_hooks": 425,
@@ -270,8 +270,8 @@
   {
    "address": "0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
    "address_short": "0xcb69…c0c0",
-   "name": "",
-   "verified": false,
+   "name": "LaunchGuardHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
    "pool_count": 189,
    "permissions_human": [
@@ -949,8 +949,8 @@
   {
    "address": "0x26d6e8ca8178bc3b274a3c36038c6fbfd719ca44",
    "address_short": "0x26d6…ca44",
-   "name": "",
-   "verified": false,
+   "name": "StockpairHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x26d6e8ca8178bc3b274a3c36038c6fbfd719ca44",
    "pool_count": 34,
    "permissions_human": [
@@ -2585,8 +2585,8 @@
   {
    "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
    "address_short": "0xe064…00cc",
-   "name": "",
-   "verified": false,
+   "name": "YoniHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
    "pool_count": 13,
    "permissions_human": [
@@ -5024,8 +5024,8 @@
   {
    "address": "0xc463186c9d6fe44d8b82adbfec3056a2c21768cc",
    "address_short": "0xc463…68cc",
-   "name": "",
-   "verified": false,
+   "name": "MeridianHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc463186c9d6fe44d8b82adbfec3056a2c21768cc",
    "pool_count": 4,
    "permissions_human": [
@@ -8892,8 +8892,8 @@
   {
    "address": "0xd0848f29059103d5643e20f5cfe9ae217989e0cc",
    "address_short": "0xd084…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "StockLaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd0848f29059103d5643e20f5cfe9ae217989e0cc",
    "pool_count": 2,
    "permissions_human": [
@@ -8917,8 +8917,8 @@
   {
    "address": "0xd0d04b3a09eba099adeae8ba19f1c0fefa0a4a44",
    "address_short": "0xd0d0…4a44",
-   "name": "",
-   "verified": false,
+   "name": "StockpairHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd0d04b3a09eba099adeae8ba19f1c0fefa0a4a44",
    "pool_count": 2,
    "permissions_human": [
