@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-13T17:13:27Z",
- "total_hooks": 4384,
- "total_pools": 14364,
+ "generated_at": "2026-09-13T18:13:30Z",
+ "total_hooks": 4702,
+ "total_pools": 14692,
  "multi_pool_hooks": 425,
  "shown": 425,
  "more_count": 0,
@@ -273,7 +273,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 191,
+   "pool_count": 192,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -282,8 +282,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 25966262,
-   "last_deploy": "2026-09-13T06:00:02Z",
+   "last_block": 25969822,
+   "last_deploy": "2026-09-13T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -293,7 +293,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 174,
+   "pool_count": 176,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -307,8 +307,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 25967577,
-   "last_deploy": "2026-09-13T10:00:02Z",
+   "last_block": 25969632,
+   "last_deploy": "2026-09-13T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -1039,6 +1039,29 @@
    "visible": false
   },
   {
+   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "address_short": "0xe064…00cc",
+   "name": "YoniHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "pool_count": 29,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25956020,
+   "last_block": 25970135,
+   "last_deploy": "2026-09-13T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
    "address_short": "0x68c4…eacc",
    "name": "LaunchHookLending",
@@ -1242,29 +1265,6 @@
    "last_block": 25626452,
    "last_deploy": "2026-07-27T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "address_short": "0xe064…00cc",
-   "name": "YoniHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "pool_count": 22,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25956020,
-   "last_block": 25969275,
-   "last_deploy": "2026-09-13T16:00:03Z",
-   "active": true,
    "visible": false
   },
   {
