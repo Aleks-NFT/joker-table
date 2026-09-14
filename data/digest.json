@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-14",
+   "narrative": {
+    "en": "Three pools hit the felt in one night. The first, 25972274, carries a V4 hook — tokens 0xf6b1117ec... against 0xf98076a..., ten thousand on the rake, spacing of two hundred, hook contract 0xcb69d5a..., and a pool ID longer than I can say out loud without stumbling. The second, 25972095 — 0x4fc59c4... against 0x698c30c..., rake at zero, spacing of one, hooks 0xabd7bac... The third, 25972092, ETH in its zero-address disguise against that same 0x698c30c..., rake still zero, spacing two hundred, hooks 0x96b8936...\n\nLook at the deck and the pattern shows itself. 0x698c30c4ff5257bc15d514aebfc9f1fed1e0efbd walks out twice tonight — once beside 0x4fc59c4..., once beside ETH. Zero rake both times. A zero rake is never about harvesting the spread; it is about speed and volume. Somebody is assembling a pair with the least friction they can strip out of it. The spacing of one on the second pool is micro-stepping, scalping on steroids. The spacing of two hundred on the third is the long road — and still no rake.\n\nThree separate hook contracts, three separate house rules: 0xcb69d5a..., 0xabd7bac..., 0x96b8936... The first pool charges ten thousand on the rake — that is not a counter for retail money, there is something heavy sitting behind it. The second and third are light, fast, no brakes.\n\nThe deck is laid out. Two pools sharing one root — 0x698c30c... — and one paired where the rake would cut any profit to nothing. Somebody is staging liquidity for a specific play. Or for two. Night on the chain is when the silence deals the best hands.",
+    "zh": "一夜之间，三池并起。25972274 那一池带着 V4 钩子，0xf6b1117ec… 对 0xf98076a…，抽水一万，步距两百，钩子合约 0xcb69d5a…，池号长得念不顺口。25972095 那一池，0x4fc59c4… 对 0x698c30c…，一分不抽，步距为一，钩子 0xabd7bac…。25972092 那一池，ETH 以零地址现身，对手仍是 0x698c30c…，同样不抽，步距两百，钩子 0x96b8936…。\n\n同一枚 0x698c30c4ff5257bc15d514aebfc9f1fed1e0efbd，今夜出门两次。先与 0x4fc59c4… 结伴，再与 ETH 并肩。两次都不抽水。不抽水者，不求价差之利，只求快、只求量。有人在搭一条摩擦极小的对子。\n\n步距为一的那一池，是寸步挪移，近乎贴身的短线；步距两百的那一池，是远途，可同样不抽水。三个钩子合约，三门不同的门规——0xcb69d5a…、0xabd7bac…、0x96b8936…。头一池抽水一万，那不是给散客走的路，底下压着沉的东西；后两池轻、快、无阻。\n\n牌面摊开了。同一条根脉开出两池，另有一池的抽水足以削平任何利润。有人正在为某一种打法、或两种打法，备下内力。夜里的链上最静，静时才看得清谁在落子——但也仅止于落子，尚未成势。"
+   },
+   "take": {
+    "en": "Zero rake twice on the same suit — spacing of one and spacing of two hundred — says someone is building rails, not chasing spread; that is a setup, not yet a signal.",
+    "zh": "零抽水连着出现两回，步距一与两百各执一端——这不是散手的随手一掷，是有人在为固定的路数铺内力。看牌可以，别把一套起手当成行情。"
+   }
+  },
+  {
    "date": "2026-09-13",
    "narrative": {
     "en": "...Eighteen pools since midnight and the felt is still warm. Uniswap V4 with hooks is not an upgrade, it is a new deck — one where any hand at the table can write its own rules straight into the protocol. Three of the pools sit on the zero address, ETH pairs, one carrying a fee of 3000 and two carrying nothing at all. But the real meat is the faces I have never seen: 0x2a334870, 0x690f5ccf, 0xb9a9498 — fresh contracts, no history, no liquidity standing behind them. Somebody is dealing a new deck.\n\nThen the hooks. 0x27b1c29 comes up seven hands running, every one of them charging nothing, spacing set at 10 or 60. That is not chance, that is one hand shuffling. 0x58b0d156 shows twice, both times against 0xdc3c3d7d. 0x96b89368 appears once, paired with ETH. 0x10392843 once, alone, no partner worth the name. Twelve of the eighteen take nothing on the swap — that is not a commission play, that is a land grab. A hook can reach into every swap and rewrite the terms mid-hand: change the cut on the fly, refuse an address, bend the price. In one hand that is power enough to recut the whole board by morning.\n\nAnd 0x8e0ad08 keeps turning up in the last three pools, against a different partner each time. Either a stablecoin being seeded quietly, or a test run nobody was meant to watch. I do not know their names. I know they are shuffling. Nobody who is not watching the hooks is still holding a seat.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The zero-fee pool is a lure, and the tight-spaced clusters are a signature; the real tell is the Robinhood screenshots—someone is verifying the table itself, not the chips.",
     "zh": "零费率是饵，密间隔是阵，真正的牌在 Robinhood 的截图上——有人在查庄家的底牌。"
-   }
-  },
-  {
-   "date": "2026-08-31",
-   "narrative": {
-    "en": "The house tonight is watching the builders slip new cards into the deal — not fixed-rate wagers, but a wager that reprices itself each hand. The hook contract, that silent croupier behind the felt, now sets the swap fee in real time, a living number instead of a chiseled tier. That's not decoration; that's a player who knows the odds shift with every breath of liquidity.\n\nThese are pools where the edge is not a static sign but a pulse. The builders aren't just installing windows — they're rewriting the house rules from the inside. When the fee is a live instrument, every swap becomes a negotiation, every pair a private market. The felt is no longer green; it's a ticker.\n\nThe old ways — the fixed tiers, the set-it-and-forget-it — belong to yesterday's table. Tonight's action says the clever money is betting on hooks that think. And if that's not a signal to watch the next seven days, then nothing on this floor is.",
-    "zh": "江湖上今晚的暗流不在价格，而在那些悄然试水的门派。他们不再立一块固定的招牌，而是让每一笔交易的过路费随内力起伏——那钩子契约便是执秤人，实时定夺抽成。这不是摆设，是把规矩炼成了活物。\n\n这些新建的池子，看似寻常，实则每一步都在改门规。侠客们不是在添砖加瓦，而是在重写内功心法。当费用变成呼吸，每一次换手都是一次试探，每一对货币都是一个独立的山头。旧日的铁律——定死的费率、刻好的牌匾——都已成了昨日黄花。\n\n今夜的行情说得很明白：聪明的钱，正押注于能思考的钩子。这七日，且看那计数能否破关。"
-   },
-   "take": {
-    "en": "The sharpest tell isn't the price; it's that builders have turned the fee into a live instrument — the market rewriting its own code.",
-    "zh": "今日刀锋最利的一招：费率已从死字变成活招，建池者正用钩子改写江湖规矩——这才是真正的暗涌。"
    }
   }
  ]
