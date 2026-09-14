@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T21:13:33Z",
- "total_hooks": 4846,
- "total_pools": 14902,
+ "generated_at": "2026-09-14T22:13:28Z",
+ "total_hooks": 4853,
+ "total_pools": 14910,
  "multi_pool_hooks": 434,
  "shown": 434,
  "more_count": 0,
@@ -273,7 +273,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 195,
+   "pool_count": 196,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -282,8 +282,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 25976925,
-   "last_deploy": "2026-09-14T18:00:02Z",
+   "last_block": 25978466,
+   "last_deploy": "2026-09-14T22:00:03Z",
    "active": true,
    "visible": false
   },
@@ -1333,7 +1333,7 @@
    "first_block": 25913920,
    "last_block": 25928046,
    "last_deploy": "2026-09-07T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -2583,7 +2583,7 @@
    "first_block": 25914122,
    "last_block": 25928274,
    "last_deploy": "2026-09-07T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
