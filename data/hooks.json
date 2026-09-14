@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T13:13:30Z",
- "total_hooks": 4784,
- "total_pools": 14814,
- "multi_pool_hooks": 429,
- "shown": 429,
+ "generated_at": "2026-09-14T14:13:30Z",
+ "total_hooks": 4798,
+ "total_pools": 14840,
+ "multi_pool_hooks": 430,
+ "shown": 430,
  "more_count": 0,
  "hooks": [
   {
@@ -2772,6 +2772,28 @@
    "visible": false
   },
   {
+   "address": "0xf067c780c18e230958fb35c2455cee381864e0c0",
+   "address_short": "0xf067…e0c0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xf067c780c18e230958fb35c2455cee381864e0c0",
+   "pool_count": 11,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 25975614,
+   "last_block": 25976132,
+   "last_deploy": "2026-09-14T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x01ace8bc990270fbb742b27892b149a7f0e71000",
    "address_short": "0x01ac…1000",
    "name": "SaturnOmnichainV4Hook",
@@ -4236,6 +4258,29 @@
    "visible": false
   },
   {
+   "address": "0x247e9c73937adaae13a8de90861e172653bcc0cc",
+   "address_short": "0x247e…c0cc",
+   "name": "BoobyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x247e9c73937adaae13a8de90861e172653bcc0cc",
+   "pool_count": 6,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25970237,
+   "last_block": 25976107,
+   "last_deploy": "2026-09-14T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x2efa284e024db1b5ae8e90aa316586543f364088",
    "address_short": "0x2efa…4088",
    "name": "",
@@ -4729,29 +4774,6 @@
    "first_block": 25971821,
    "last_block": 25971892,
    "last_deploy": "2026-09-14T00:00:03Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x247e9c73937adaae13a8de90861e172653bcc0cc",
-   "address_short": "0x247e…c0cc",
-   "name": "BoobyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x247e9c73937adaae13a8de90861e172653bcc0cc",
-   "pool_count": 4,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25970237,
-   "last_block": 25974928,
-   "last_deploy": "2026-09-14T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -6466,7 +6488,7 @@
    "first_block": 25205060,
    "last_block": 25925743,
    "last_deploy": "2026-09-07T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
