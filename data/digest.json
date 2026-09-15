@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-15",
+   "narrative": {
+    "en": "The night the felt went quiet, fourteen tables opened in the space of a few blocks — and fourteen is only the count the scanner was sober enough to catch. If you still think this was an upgrade, you weren't watching the hooks stamp liquidity like a press running overtime.\n\nLook at the shape of it. Almost every pool arrives in a pair: one side the native token, the other an alt — then the same asset again under a different hook. And every single one charges nothing. Nothing. That is not a business model for swaps. That is a business model for everything that happens before the swap.\n\nOne hook address shows up twice, different tokens, identical architecture: native plus alt. That is not chance; that is a hand that knows the count. Tight spacing for the strange tokens, wide spacing where the native sits — a tailor measuring each pair. And the last one: a one-percent cut, no native side, an odd couple, rare enough to smell like a test, or a bridge, or simply someone deciding the hour had come.\n\nThe pools are not the story. The window is. No pauses, no hesitation — a script, an algorithm, a whole grid laid down in minutes and then left to sit in silence, waiting for the first hand to move. You look at the addresses and you understand: the deck is shuffling itself. You only ever hold the cards.",
+    "zh": "夜里有十四个池子落在几个区块之内，十四不过是扫描器恰好看见的数目。若你还当这是一次寻常的升级，那便是没看清——钩子如铁匠铺的锤，一夜未歇， liquidity 被敲打得像流水线上的坯。\n\n看它的路数。几乎每个池子成对而来：一边是原生之息，一边是旁门小币；同一份资产再换一个钩子，重开一门。且每家都不收分文。不收分文，便不是为了过路的香火钱，而是为了香客进门之前的那一步棋。\n\n同一个钩子地址现身两次,所对之币不同,门中结构却一般无二——内力配旁支。这不是巧合,是有人心里有数。冷僻之币用极细的分寸,原生之息用极宽的分寸,如同老裁缝照着身量下刀。末尾那一池抽一分利,却不带原生之息,配对冷门,像是试招,像是搭桥,也像是有人觉得时辰已到。\n\n池子本身不是故事,那个时间窗才是。中间几乎没有停顿——是脚本,是算法,是一整套阵图在数分钟内布下,而后静默,等第一个出招的人。你看着那些地址,便懂了:牌是自己洗的,人不过握着牌而已。"
+   },
+   "take": {
+    "en": "Zero commission is never charity — it is the ante. The house is not charging because the house is buying the order flow before anyone else prices it.",
+    "zh": "不收分文的池子绝非善堂,那是入局前的押注。庄家不要过路钱,是因为他要的是别人定价之前的整条水流。"
+   }
+  },
+  {
    "date": "2026-09-14",
    "narrative": {
     "en": "Three pools hit the felt in one night. The first, 25972274, carries a V4 hook — tokens 0xf6b1117ec... against 0xf98076a..., ten thousand on the rake, spacing of two hundred, hook contract 0xcb69d5a..., and a pool ID longer than I can say out loud without stumbling. The second, 25972095 — 0x4fc59c4... against 0x698c30c..., rake at zero, spacing of one, hooks 0xabd7bac... The third, 25972092, ETH in its zero-address disguise against that same 0x698c30c..., rake still zero, spacing two hundred, hooks 0x96b8936...\n\nLook at the deck and the pattern shows itself. 0x698c30c4ff5257bc15d514aebfc9f1fed1e0efbd walks out twice tonight — once beside 0x4fc59c4..., once beside ETH. Zero rake both times. A zero rake is never about harvesting the spread; it is about speed and volume. Somebody is assembling a pair with the least friction they can strip out of it. The spacing of one on the second pool is micro-stepping, scalping on steroids. The spacing of two hundred on the third is the long road — and still no rake.\n\nThree separate hook contracts, three separate house rules: 0xcb69d5a..., 0xabd7bac..., 0x96b8936... The first pool charges ten thousand on the rake — that is not a counter for retail money, there is something heavy sitting behind it. The second and third are light, fast, no brakes.\n\nThe deck is laid out. Two pools sharing one root — 0x698c30c... — and one paired where the rake would cut any profit to nothing. Somebody is staging liquidity for a specific play. Or for two. Night on the chain is when the silence deals the best hands.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Two zero-cut pools with the same native leg and different hooks are not a trade; they are a hand already dealt in silence — whoever set the table is waiting for the next card.",
     "zh": "同夜开出两张无费桌子，明面是两条死水，暗里是同一只手在布桩——等的是触动机关的那一刻。"
-   }
-  },
-  {
-   "date": "2026-09-01",
-   "narrative": {
-    "en": "The night dealt four fresh pools onto the Uniswap V4 felt, and every one of them carries a hook—programmable layers atop the pair, not just liquidity. The first is a strange coupling of tokens I haven't seen in the rotation for weeks. 0x39de... against 0xe172..., with a fee set at 8388608, which is not the house standard—someone is playing with the dials. Tick spacing at 10 means orders will sit tight as a shark's teeth. The hook at 0xbdf9... is an address I'd remember.\n\nThen comes the classic: ETH against 0x298e..., no fee at all. Zero. Spacing 200—a wide step, an aggressive posture. Hook 0x13c8... sets conditions I haven't parsed yet, but a zero-fee V4 pool isn't charity; it's a trap baited for a certain kind of capital. USDC against the native token—again 8388608 and spacing 10, hook 0xdbc6..., the same pattern as the first pool. Someone is building a cluster of identically tuned pairs. And the fourth: USDT against 0x40aa..., fee 30000, spacing 60. That looks like normal trade, but the hook 0x6ad0...—I'll read its code in the morning.\n\nMeanwhile hazarxyz closed two pull requests in PROGRAMMABLE. First fixed the smoke tests for market data—plain hygiene. But the second commit is the interesting one: 'preserve fresh Robinhood capture handoff.' Someone is feeding fresh Robinhood screenshots into the pipeline. Not API data, but actual screen grabs. That's not for analytics—it's for verification. Someone wants to see what the terminal really shows, not what comes over the wire. The night was quiet, but my fingers itch. Tomorrow I'll take apart those hooks—there may be something that turns the deal.",
-    "zh": "这一夜，Uniswap V4 的江湖里又立了四个新池子，个个都挂了钩子。不是简单的放水，而是在每一条交易对上再加一层机关。头一个池子，两个代币的来路我最近都没在轮转里见过，0x39de... 对 0xe172...，费率设成 8388608——这不是寻常规矩，是有人故意拧了拧旋钮。间隔压到 10，单子会排得密如饿鲨的牙。那个钩子 0xbdf9...，这个地址我记住了。\n\n接着是经典局：ETH 对 0x298e...，不收一分钱。零费率。间隔 200，步子迈得很大，凶得很。钩子 0x13c8... 设的条件我还没看透，但 V4 上零费率从来不是做善事，那是给特定路数的资金下的套。USDC 对原生代币——又是 8388608，间隔 10，钩子 0xdbc6...，跟头一个池子一个模子。有人在攒一组同样调校的池子，像同一个门派布的阵。第四池，USDT 对 0x40aa...，费率 30000，间隔 60。这看起来像正经买卖，可钩子 0x6ad0...，天亮之后我得翻翻它的底。\n\n同一夜，hazarxyz 在 PROGRAMMABLE 里合上了两个请求。头一个修了行情数据的冒烟测试，那是基本功。第二个就有意思了——'保留新鲜的 Robinhood 截图交接'。有人把刚抓的 Robinhood 屏幕图送进管道里。不是走 API 的数据，是直接抓屏。这不是为了分析，是为了验货。有人想亲眼看见终端上显示的是什么，而不是线上传过来的那一套。夜里很静，但手痒。明天拆那些钩子，里头或许真有能翻盘的东西。"
-   },
-   "take": {
-    "en": "The zero-fee pool is a lure, and the tight-spaced clusters are a signature; the real tell is the Robinhood screenshots—someone is verifying the table itself, not the chips.",
-    "zh": "零费率是饵，密间隔是阵，真正的牌在 Robinhood 的截图上——有人在查庄家的底牌。"
    }
   }
  ]
