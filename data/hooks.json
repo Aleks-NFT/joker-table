@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16T17:13:30Z",
- "total_hooks": 4999,
- "total_pools": 15136,
+ "generated_at": "2026-09-16T18:13:30Z",
+ "total_hooks": 5009,
+ "total_pools": 15157,
  "multi_pool_hooks": 443,
  "shown": 443,
  "more_count": 0,
@@ -206,7 +206,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 289,
+   "pool_count": 290,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -220,8 +220,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25985317,
-   "last_deploy": "2026-09-15T22:00:02Z",
+   "last_block": 25991212,
+   "last_deploy": "2026-09-16T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -959,7 +959,7 @@
    "name": "DopplerHookInitializer",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbdf938149ac6a781f94faa0ed45e6a0e984c6544",
-   "pool_count": 36,
+   "pool_count": 37,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -974,8 +974,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25125024,
-   "last_block": 25963996,
-   "last_deploy": "2026-09-12T22:00:02Z",
+   "last_block": 25991402,
+   "last_deploy": "2026-09-16T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -1337,6 +1337,29 @@
    "visible": false
   },
   {
+   "address": "0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
+   "address_short": "0xf112…c0cc",
+   "name": "GoldHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
+   "pool_count": 18,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25976314,
+   "last_block": 25991576,
+   "last_deploy": "2026-09-16T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x6af89b5562735fc39a9135d18b2f3deb782440cc",
    "address_short": "0x6af8…40cc",
    "name": "HKPDHook",
@@ -1451,25 +1474,32 @@
    "visible": false
   },
   {
-   "address": "0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
-   "address_short": "0xf112…c0cc",
-   "name": "GoldHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
+   "address": "0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
+   "address_short": "0xb741…a5dc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
    "pool_count": 16,
    "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
     "intercepts swaps",
+    "handles donations",
     "adjusts swap amounts"
    ],
    "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterRemoveLiquidity",
     "beforeSwap",
     "afterSwap",
+    "afterDonate",
     "beforeSwapReturnDelta",
     "afterSwapReturnDelta"
    ],
-   "first_block": 25976314,
-   "last_block": 25990697,
-   "last_deploy": "2026-09-16T16:00:02Z",
+   "first_block": 25955044,
+   "last_block": 25991645,
+   "last_deploy": "2026-09-16T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -3455,36 +3485,6 @@
    "visible": false
   },
   {
-   "address": "0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
-   "address_short": "0xb741…a5dc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
-   "pool_count": 10,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "handles donations",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "afterDonate",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25955044,
-   "last_block": 25991049,
-   "last_deploy": "2026-09-16T16:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
    "address": "0xbe4b993be32558eaf50ac7140607e927f13e5000",
    "address_short": "0xbe4b…5000",
    "name": "SaturnOmnichainV4Hook",
@@ -4148,7 +4148,7 @@
    "first_block": 25933531,
    "last_block": 25941418,
    "last_deploy": "2026-09-09T18:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4806,6 +4806,29 @@
    "visible": false
   },
   {
+   "address": "0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
+   "address_short": "0x9b3c…80cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25990804,
+   "last_block": 25991412,
+   "last_deploy": "2026-09-16T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xaa49adadd33c5e953b645567afb10cbbba63afc4",
    "address_short": "0xaa49…afc4",
    "name": "NFTXV4Hook",
@@ -5208,29 +5231,6 @@
    "first_block": 25958446,
    "last_block": 25967416,
    "last_deploy": "2026-09-13T10:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
-   "address_short": "0x9b3c…80cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
-   "pool_count": 4,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25990804,
-   "last_block": 25990969,
-   "last_deploy": "2026-09-16T16:00:02Z",
    "active": true,
    "visible": false
   },
