@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16T15:13:42Z",
- "total_hooks": 4984,
- "total_pools": 15104,
- "multi_pool_hooks": 441,
- "shown": 441,
+ "generated_at": "2026-09-16T16:13:29Z",
+ "total_hooks": 4999,
+ "total_pools": 15136,
+ "multi_pool_hooks": 443,
+ "shown": 443,
  "more_count": 0,
  "hooks": [
   {
@@ -833,6 +833,29 @@
    "visible": false
   },
   {
+   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "address_short": "0xe064…00cc",
+   "name": "YoniHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "pool_count": 40,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25956020,
+   "last_block": 25990753,
+   "last_deploy": "2026-09-16T16:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x68935dcf688637463f8eda0f55c4fe416c1040cc",
    "address_short": "0x6893…40cc",
    "name": "TripoolsAntiSnipeHook",
@@ -853,29 +876,6 @@
    "last_block": 25780860,
    "last_deploy": "2026-08-18T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "address_short": "0xe064…00cc",
-   "name": "YoniHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "pool_count": 39,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25956020,
-   "last_block": 25990472,
-   "last_deploy": "2026-09-16T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -1448,6 +1448,29 @@
    "last_block": 25723536,
    "last_deploy": "2026-08-10T10:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
+   "address_short": "0xf112…c0cc",
+   "name": "GoldHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
+   "pool_count": 16,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25976314,
+   "last_block": 25990697,
+   "last_deploy": "2026-09-16T16:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -2746,29 +2769,6 @@
    "visible": false
   },
   {
-   "address": "0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
-   "address_short": "0xf112…c0cc",
-   "name": "GoldHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xf11292cf5d692dbde003afdfa16b8193ba60c0cc",
-   "pool_count": 12,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25976314,
-   "last_block": 25990082,
-   "last_deploy": "2026-09-16T14:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
    "address": "0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
    "address_short": "0x8ed3…40cc",
    "name": "FiverHook",
@@ -3452,6 +3452,36 @@
    "last_block": 25555190,
    "last_deploy": "2026-07-17T22:00:16Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
+   "address_short": "0xb741…a5dc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "afterDonate",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25955044,
+   "last_block": 25991049,
+   "last_deploy": "2026-09-16T16:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -4825,7 +4855,7 @@
    "first_block": 25832243,
    "last_block": 25940819,
    "last_deploy": "2026-09-09T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -5178,6 +5208,29 @@
    "first_block": 25958446,
    "last_block": 25967416,
    "last_deploy": "2026-09-13T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
+   "address": "0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
+   "address_short": "0x9b3c…80cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
+   "pool_count": 4,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25990804,
+   "last_block": 25990969,
+   "last_deploy": "2026-09-16T16:00:02Z",
    "active": true,
    "visible": false
   },
