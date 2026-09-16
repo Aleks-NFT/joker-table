@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16T04:13:30Z",
+ "generated_at": "2026-09-16T05:13:29Z",
  "total_hooks": 4976,
  "total_pools": 15092,
  "multi_pool_hooks": 441,
@@ -3785,8 +3785,8 @@
   {
    "address": "0x2cc06c2505bdd3a300ed05c09e419089f7210a44",
    "address_short": "0x2cc0…0a44",
-   "name": "",
-   "verified": false,
+   "name": "StockpairHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x2cc06c2505bdd3a300ed05c09e419089f7210a44",
    "pool_count": 9,
    "permissions_human": [
@@ -4306,8 +4306,8 @@
   {
    "address": "0x1f5c1a1677b7177423d37819ed57e2daf65d00cc",
    "address_short": "0x1f5c…00cc",
-   "name": "",
-   "verified": false,
+   "name": "ArcmanHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x1f5c1a1677b7177423d37819ed57e2daf65d00cc",
    "pool_count": 6,
    "permissions_human": [
@@ -7796,8 +7796,8 @@
   {
    "address": "0x792814c57bab50731d5729c8174997be1e0f8800",
    "address_short": "0x7928…8800",
-   "name": "",
-   "verified": false,
+   "name": "TickRangeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x792814c57bab50731d5729c8174997be1e0f8800",
    "pool_count": 2,
    "permissions_human": [
@@ -8003,8 +8003,8 @@
   {
    "address": "0x85946081183a1085c7fb66d10fd469acc5b8c0cc",
    "address_short": "0x8594…c0cc",
-   "name": "",
-   "verified": false,
+   "name": "HashtocksHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x85946081183a1085c7fb66d10fd469acc5b8c0cc",
    "pool_count": 2,
    "permissions_human": [
@@ -8482,8 +8482,8 @@
   {
    "address": "0xa04171f7509e9062215ce9b22bf76fbf520d28cc",
    "address_short": "0xa041…28cc",
-   "name": "",
-   "verified": false,
+   "name": "GoldHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa04171f7509e9062215ce9b22bf76fbf520d28cc",
    "pool_count": 2,
    "permissions_human": [
