@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16T09:13:31Z",
- "total_hooks": 4977,
- "total_pools": 15093,
+ "generated_at": "2026-09-16T10:13:31Z",
+ "total_hooks": 4978,
+ "total_pools": 15095,
  "multi_pool_hooks": 441,
  "shown": 441,
  "more_count": 0,
@@ -856,6 +856,29 @@
    "visible": false
   },
   {
+   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "address_short": "0xe064…00cc",
+   "name": "YoniHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "pool_count": 38,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25956020,
+   "last_block": 25988962,
+   "last_deploy": "2026-09-16T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x5fdb6d1dd3542259aa2cacfe845c1b327f6e00cc",
    "address_short": "0x5fdb…00cc",
    "name": "",
@@ -928,29 +951,6 @@
    "last_block": 25922747,
    "last_deploy": "2026-09-07T04:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "address_short": "0xe064…00cc",
-   "name": "YoniHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "pool_count": 37,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25956020,
-   "last_block": 25984731,
-   "last_deploy": "2026-09-15T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
