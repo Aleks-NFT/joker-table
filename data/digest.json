@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-16",
+   "narrative": {
+    "en": "Another night, another deal on the felt. Fourteen new Uniswap V4 pools in a single day, and almost every one of them laid down with zero fee and tickSpacing of one. That is not chance. Chance does not repeat its own handwriting fourteen times.\n\nBlock 25986741: a hook pool holding 0x4fc59c... against 0xd454b59..., fee zero, spacing one, hook contract 0x94aa57.... Somebody is building a grid, quietly, one square at a time. And 0x4fc59c... turns up in seven of the fourteen — a joker falling out of every other deal, which tells you who is holding the deck.\n\nThe ETH pairs are where the betting changes shape. Block 25986731: ETH against 0x1e51ff..., fee 8388608, spacing 60, hook contract 0xf3dd77.... That is not play for nothing; that is a wager on movement. Then block 25986485: ETH against USDC, fee zero, spacing one. And close by, block 25986331, the same pair, fee 8388608, spacing ten, hook contracts 0x3ffb32... and 0xfde6c7.... One pair, two pools, two different plans — either two players, or one player rehearsing both hands.\n\nEvery hook contract is a hand at the table. 0x94aa57..., 0x8a399e..., 0x000293... — different names, identical rhythm. Someone is stacking the deck; someone else is already shuffling. I only watch how the cards land. Until they are turned over, nobody knows which suit is trump.",
+    "zh": "今夜江湖上又添十四处新池，皆是 Uniswap V4 的手笔。细看之下，几乎全是零手续费、tickSpacing 为一。这不是随手落子，是有人刻意排下的阵型——偶然不会把同一笔字迹写上十四遍。\n\n25986741 区块，又一处 hook 池，token 0x4fc59c... 对 0xd454b59...，费率零，间距一，hook 合约 0x94aa57...。有人在这片地上织网，一格格地织。而 0x4fc59c... 在十四池中现身七次，如同每两局便翻出一次的鬼牌——谁在洗牌，看得分明。\n\n真正变招的是 ETH 那几处。25986731 区块，ETH 对 0x1e51ff...，费率 8388608，间距六十，hook 合约 0xf3dd77...——这不是求稳的路数，是押方向的佈局，是留了空间的棋。25986485 区块，ETH 对 USDC，费率零、间距一；相隔不远的 25986331 区块，同一对币，费率 8388608、间距十，hook 合约分别是 0x3ffb32... 与 0xfde6c7...。同一对，两处池，两套剧本——或是对头两人，或是同一人左右手各演一遍。\n\n每一个 hook 合约，都是一只出手的手。0x94aa57...、0x8a399e...、0x000293...，名号各异，节拍却整齐。有人在整牌，有人已在洗牌。我只静看牌如何落桌；未翻开之前，无人知晓哪一门是王牌。"
+   },
+   "take": {
+    "en": "The tell is not the fourteen pools — it is that almost all of them were dealt at zero fee and spacing one, while the ETH pairs were deliberately given room to move. Somebody is laying quiet infrastructure and one loud bet, and the felt is honest about which one they expect to pay.",
+    "zh": "今日真正的看点，不在十四池之数，而在于几乎全是零费率、间距为一，唯独 ETH 那几对被人留出了活动的余地。有人铺的是地基，押的是方向，两者本就不是一回事。至于那些零费率、间距为一的池子，纵然密集成阵，水浅处响动再大，也未必是江湖大势。"
+   }
+  },
+  {
    "date": "2026-09-15",
    "narrative": {
     "en": "The night the felt went quiet, fourteen tables opened in the space of a few blocks — and fourteen is only the count the scanner was sober enough to catch. If you still think this was an upgrade, you weren't watching the hooks stamp liquidity like a press running overtime.\n\nLook at the shape of it. Almost every pool arrives in a pair: one side the native token, the other an alt — then the same asset again under a different hook. And every single one charges nothing. Nothing. That is not a business model for swaps. That is a business model for everything that happens before the swap.\n\nOne hook address shows up twice, different tokens, identical architecture: native plus alt. That is not chance; that is a hand that knows the count. Tight spacing for the strange tokens, wide spacing where the native sits — a tailor measuring each pair. And the last one: a one-percent cut, no native side, an odd couple, rare enough to smell like a test, or a bridge, or simply someone deciding the hour had come.\n\nThe pools are not the story. The window is. No pauses, no hesitation — a script, an algorithm, a whole grid laid down in minutes and then left to sit in silence, waiting for the first hand to move. You look at the addresses and you understand: the deck is shuffling itself. You only ever hold the cards.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Three identical tables from a single handler and two close kin from other handles in one session — this is not a developer testing the mechanism; it is a playbook being rehearsed in the dark. Watch the code trail, not the floor noise.",
     "zh": "今日没有大人物，也没有热炒的币，只有五张同骨架、三套暗手的池子同日摆台——这不是试探，是有人按同一本拳谱在练功。拳谱还在改，等他收招，江湖自会知道刀往哪边落。"
-   }
-  },
-  {
-   "date": "2026-09-02",
-   "narrative": {
-    "en": "Two pools hit the felt within a single breath — same house rules, zero cut, the narrow step that usually belongs to the stable quiet, and each table holds native ETH. But the hook contracts behind them are not the same, and the second tokens carry no names this room recognizes. The IDs don't overlap, the tokens don't match. This was not a stray deal; someone is laying a two-card hand with the same dealer.\n\nA zero take on V4 is never about the swap. It's about the logic hiding under the cloth. The hook can pull its toll separately, steer liquidity while it moves, even change the order of execution. With a step that fine, the pool expects price to breathe in a tight lane — odd for an ETH pair, unless the hook itself is meant to hold the range. The quiet is loaded. The configs are already on the table.\n\nNeither of the second tokens has a label worth a glance. Not the usual stable names, not the house favorites. Could be fresh blood, or a purpose-built contract written for this exact design. Without a crowd, these are dead tables — but the opening is the tell. Someone has loaded the setup and is waiting. Two rooms, same night, different jokers, one play.",
-    "zh": "江湖上忽然摆出两张桌子，前后不过一瞬。桌面的规矩一样：不收过路费，步数踩得极细，每一桌都靠着ETH这棵大树。可是暗处管事的不是同一路人马，桌上的第二样货也都没人认得旗号。桌号不重，货色不同。这不是顺手落的子，是有人按同一个局，布了两颗棋子。\n\n零过路费的桌子，从来不是为买卖准备的。功夫在桌面下头：管事的人可以另收银钱，可以随意调动内力，可以颠倒出手的先后。步子踩得这么细，本该是稳定门派的走法，如今摆在ETH对子身上，若不是货色本就温吞，便是背后有人以气御盘。眼下水波不兴，但阵已布下。\n\n两张桌子的第二样货，都没有名号。不是常见的硬通货，不是大宗货色。要么是刚出茅庐的新物，要么是专为此局捏出来的符。没人进料，桌子便是空摆着；可布桌本身就是信号。有人已把机关装满，只等时机一到。两桌同夜，一局双扣，留白处全是文章。"
-   },
-   "take": {
-    "en": "Two zero-cut pools with the same native leg and different hooks are not a trade; they are a hand already dealt in silence — whoever set the table is waiting for the next card.",
-    "zh": "同夜开出两张无费桌子，明面是两条死水，暗里是同一只手在布桩——等的是触动机关的那一刻。"
    }
   }
  ]
