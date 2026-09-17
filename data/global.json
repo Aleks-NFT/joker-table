@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-17T04:13:28Z",
+ "generated_at": "2026-09-17T05:13:29Z",
  "history": [
-  {
-   "date": "2026-08-18",
-   "volume_24h_usd": 697042687.0,
-   "fees_24h_usd": 1132132.0,
-   "eth_share_pct": 38.8
-  },
   {
    "date": "2026-08-19",
    "volume_24h_usd": 696616912.0,
@@ -181,19 +175,32 @@
    "volume_24h_usd": 1580176655.0,
    "fees_24h_usd": 2887457.0,
    "eth_share_pct": 43.3
+  },
+  {
+   "date": "2026-09-17",
+   "volume_24h_usd": 2277442083.0,
+   "fees_24h_usd": 2949735.0,
+   "eth_share_pct": 28.5
   }
  ],
  "chains_top": {
-  "Ethereum": 680626221,
-  "Robinhood Chain": 549427823,
-  "BSC": 133554423,
-  "Base": 115827440,
-  "Polygon": 42376339,
-  "Arbitrum": 29461533,
-  "Monad": 15730764,
-  "Unichain": 5838116
+  "Polygon": 780736631,
+  "Ethereum": 647886847,
+  "Robinhood Chain": 543247261,
+  "BSC": 133371481,
+  "Base": 114926043,
+  "Arbitrum": 29622104,
+  "Monad": 14238021,
+  "Unichain": 5800320
  },
- "governance": [],
+ "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [RFC] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (5 posts)",
+   "url": "https://gov.uniswap.org/t/rfc-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",
+   "occurred_at": "2026-09-17T05:00:03Z",
+   "active": false
+  }
+ ],
  "market_context": {
   "fear_greed": 51,
   "label": "Neutral"

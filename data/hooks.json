@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-17T04:13:28Z",
+ "generated_at": "2026-09-17T05:13:29Z",
  "total_hooks": 5040,
  "total_pools": 15210,
  "multi_pool_hooks": 444,
@@ -1314,8 +1314,8 @@
   {
    "address": "0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
    "address_short": "0xb741…a5dc",
-   "name": "",
-   "verified": false,
+   "name": "PositionManager",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
    "pool_count": 20,
    "permissions_human": [
@@ -4649,8 +4649,8 @@
   {
    "address": "0xeeca027a8f08d25f697520673ac8a634159b80cc",
    "address_short": "0xeeca…80cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xeeca027a8f08d25f697520673ac8a634159b80cc",
    "pool_count": 6,
    "permissions_human": [
@@ -4837,8 +4837,8 @@
   {
    "address": "0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
    "address_short": "0x9b3c…80cc",
-   "name": "",
-   "verified": false,
+   "name": "TunaHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
    "pool_count": 5,
    "permissions_human": [
@@ -9197,8 +9197,8 @@
   {
    "address": "0xc26a5cb51b1818f62a4c6693a9a1fedb3340efc4",
    "address_short": "0xc26a…efc4",
-   "name": "",
-   "verified": false,
+   "name": "NFTXFlexHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc26a5cb51b1818f62a4c6693a9a1fedb3340efc4",
    "pool_count": 2,
    "permissions_human": [
