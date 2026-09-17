@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-17",
+   "narrative": {
+    "en": "The night shift on Uniswap V4 runs like a precision instrument, and precision is what the house respects. Eighteen pools in a row, and not one of them charging a fee above zero. Every hook contract at this table was written for something other than collecting the rake.\n\nLook at the structure. One and the same token, 0x4fc59c..., sits as the base of eight pairs. Every time, tickSpacing = 1 — the finest price granularity the felt allows. And every time, a unique hook address. That is not chance, that is assembly. Somebody is building a machine where each pool is a separate experiment in how liquidity behaves.\n\nThen the WETH pools — 0x0000... — eight of them, all tickSpacing = 200, and seven sharing a single hook, 0x96b8... . The eighth stands apart with 0x0d62... . One hook for the whole ETH set, but a different one for each pair against 0x4fc5. The logic is split cleanly: a steady mechanism for ETH swaps, custom hooks for each altcoin.\n\nThe blocks line up — 25993980, 25993979, 25993849. Pools arrive in pairs, near-synchronously: a WETH pool, then in the next block the 0x4fc5 pool. No hand deals like that; that is a scripted shuffle. The hooks — 0xc687b2, 0x0a92b4, 0x64e6e5, 0x91e470, 0xb94eb9, 0x6fed5d, 0x084992, 0xa97da5 — not one repeats. Eight unique contracts for eight pools, each free to carry its own logic: dynamic fees, oracles, MEV protection, limit orders. This is not about trading tonight. This is the infrastructure layer being tested before the flow is let in. The day's tape closes with five consecutive marks: 19511 through 19507. Zero fee and tickSpacing = 1 are the signature of a test or a bootstrap. Someone is building a new kind of AMM interaction, where the hooks are not decoration but the core of the strategy. The deck is dealt. The cards are still in hand.",
+    "zh": "今夜 Uniswap V4 的深夜盘口，十八座池子接连开出，无一收取分毫手续费。此地挂出的 hook 合约，不为抽水，另有所图。\n\n同一个代币 0x4fc59c… 作了八对池子的底子，tickSpacing 皆为 1，价格刻度细如毫发；而每一对，各自配一枚独立的 hook 地址。这不是随手落子，是有人在排兵布阵——每一座池子，都是一次关于流动性脾性的单独试招。\n\n再看八座 WETH 池（0x0000…），tickSpacing 一律 200，其中七座共用同一枚 hook 0x96b8…，第八座独用 0x0d62…。一门功法通吃 ETH 之换，而 0x4fc5 的每一对，各有各的机关。这是把逻辑分作两路：一路求稳，一路求变。\n\n区块对得严丝合缝——25993980、25993979、25993849。池子成双而生，先落 WETH，下一块便落 0x4fc5。此非手工，是脚本发牌。八枚 hook——0xc687b2、0x0a92b4、0x64e6e5、0x91e470、0xb94eb9、0x6fed5d、0x084992、0xa97da5——无一重复，各可行各的路数：或调费率，或设预言机，或避 MEV，或挂限价。今夜无关于交易，关的是尚未迎客的基础一层。日终只余五个数字：19511 至 19507。零费与刻度为一，皆是起手试招的痕迹。牌已发下，尚未落定。"
+   },
+   "take": {
+    "en": "Zero fees are not generosity — they are a rig, and the hooks are the experiment being run on it. The deck is dealt, but nobody has started playing yet.",
+    "zh": "零费不是慷慨，是尚未开张的试炼场；hook 才是真正的机关所在。牌已发下，尚在手中，还未有人落座。"
+   }
+  },
+  {
    "date": "2026-09-16",
    "narrative": {
     "en": "Another night, another deal on the felt. Fourteen new Uniswap V4 pools in a single day, and almost every one of them laid down with zero fee and tickSpacing of one. That is not chance. Chance does not repeat its own handwriting fourteen times.\n\nBlock 25986741: a hook pool holding 0x4fc59c... against 0xd454b59..., fee zero, spacing one, hook contract 0x94aa57.... Somebody is building a grid, quietly, one square at a time. And 0x4fc59c... turns up in seven of the fourteen — a joker falling out of every other deal, which tells you who is holding the deck.\n\nThe ETH pairs are where the betting changes shape. Block 25986731: ETH against 0x1e51ff..., fee 8388608, spacing 60, hook contract 0xf3dd77.... That is not play for nothing; that is a wager on movement. Then block 25986485: ETH against USDC, fee zero, spacing one. And close by, block 25986331, the same pair, fee 8388608, spacing ten, hook contracts 0x3ffb32... and 0xfde6c7.... One pair, two pools, two different plans — either two players, or one player rehearsing both hands.\n\nEvery hook contract is a hand at the table. 0x94aa57..., 0x8a399e..., 0x000293... — different names, identical rhythm. Someone is stacking the deck; someone else is already shuffling. I only watch how the cards land. Until they are turned over, nobody knows which suit is trump.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Tonight's ten-of-fifteen isn't a scattering of chips — it's a blueprint. One address is building the table for a deeper game, and the floor is already being re-patched from the shadows.",
     "zh": "今夜不是散局，而是某个门派的大棋：一人连开十池，不收过路费，分明在养本门内力。链上的步子才落，链下的心得已补，江湖局，要变了。"
-   }
-  },
-  {
-   "date": "2026-09-03",
-   "narrative": {
-    "en": "Five tables hit the felt in a single shift — all V4, all wearing hooks. The same hand, 0x51768f5da32ba2008304cc81674da51acb802888, turned up three times running, at 25893317, 25893400 and 25893535, always paired against the native chip, always taking no toll at the rail, always stepping in sixty-count strides. Three identical setups from one player is not a scatter of luck; it's a system being rehearsed on identical cloth before the real stake.\n\nTwo other tables dealt in with different signatures: 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc at 25893220, and 0x96b893683afbfec071e90f78d00de4bb932fe0cc at 25893096, both on a wider two-hundred-step layout. Every one of the five carries a zero at the pool door. Around these parts, a zero door usually means the toll has been moved into the hook's pocket — the fee is taken off the table and collected in the back room.\n\nMeanwhile, the tenure-hook repository has fresh ink; its README turned another page, the code still moving. No famous names, no meme tokens. Five structurally identical pools in a day, three distinct hook designs, and a ledger that refuses to sit still. That isn't surface noise. That's a deck being shuffled into a stack. The house hasn't shown the game yet, but the cards are already being bundled.",
-    "zh": "江湖一夜之间多了五张池子，形制相近，都出自 V4 门下，且每张都带着 hook 这件暗器。头一位 0x51768f5da32ba2008304cc81674da51acb802888 连出了三次手——25893317、25893400、25893535，三回皆以本币为伴，池口不收分文，步幅清一色的六十格。同一只手在同一组规则下反复落子，不像兴之所至，更像在拿同样的桩子量水深。三张同构的池子出自同一副骨架，这已是成建制的动作。\n\n另有两路来路不同：0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 在 25893220 露头，0x96b893683afbfec071e90f78d00de4bb932fe0cc 在 25893096 现身，皆是两百格的大跨步。五张池子全都写着池口零费率；老江湖都知道，V4 里的大门不收钱，未必是让利，倒更可能是把过路费移进了 hook 里暗收——或者，这只是某场招揽内力的前奏。\n\n同一时间，tenure-hook 的 README 又添了新字。仓库还没凉，招式还在变。没有响亮名号，没有花哨代币，只有五张同构的池子、三套不同的 hook，和一本仍在更新的心法。这一日的动静不是杂音，是有人正在打一副长牌；牌未翻开，风已经动了。"
-   },
-   "take": {
-    "en": "Three identical tables from a single handler and two close kin from other handles in one session — this is not a developer testing the mechanism; it is a playbook being rehearsed in the dark. Watch the code trail, not the floor noise.",
-    "zh": "今日没有大人物，也没有热炒的币，只有五张同骨架、三套暗手的池子同日摆台——这不是试探，是有人按同一本拳谱在练功。拳谱还在改，等他收招，江湖自会知道刀往哪边落。"
    }
   }
  ]
