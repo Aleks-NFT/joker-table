@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-17T05:13:29Z",
- "total_hooks": 5040,
- "total_pools": 15210,
+ "generated_at": "2026-09-17T06:13:30Z",
+ "total_hooks": 5043,
+ "total_pools": 15214,
  "multi_pool_hooks": 444,
  "shown": 444,
  "more_count": 0,
@@ -810,6 +810,29 @@
    "visible": false
   },
   {
+   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "address_short": "0xe064…00cc",
+   "name": "YoniHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
+   "pool_count": 42,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25956020,
+   "last_block": 25995110,
+   "last_deploy": "2026-09-17T06:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xa88ebba96ba98ae636efee8a4dc6f687d12f40cc",
    "address_short": "0xa88e…40cc",
    "name": "MixpadHook",
@@ -830,29 +853,6 @@
    "last_block": 25761361,
    "last_deploy": "2026-08-15T16:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "address_short": "0xe064…00cc",
-   "name": "YoniHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xe064f978012fbbc1b33b6672edc59741e2d700cc",
-   "pool_count": 41,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25956020,
-   "last_block": 25992015,
-   "last_deploy": "2026-09-16T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
