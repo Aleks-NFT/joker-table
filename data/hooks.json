@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-18T09:13:32Z",
- "total_hooks": 5114,
- "total_pools": 15384,
- "multi_pool_hooks": 448,
- "shown": 448,
+ "generated_at": "2026-09-18T10:13:30Z",
+ "total_hooks": 5117,
+ "total_pools": 15393,
+ "multi_pool_hooks": 449,
+ "shown": 449,
  "more_count": 0,
  "hooks": [
   {
@@ -252,7 +252,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 208,
+   "pool_count": 209,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -261,8 +261,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26001409,
-   "last_deploy": "2026-09-18T04:00:02Z",
+   "last_block": 26003099,
+   "last_deploy": "2026-09-18T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4664,6 +4664,29 @@
    "last_block": 25270353,
    "last_deploy": "2026-06-08T19:22:14Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xe705dd22bedbe0adf1ed07b609fe3ccee46c00cc",
+   "address_short": "0xe705…00cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xe705dd22bedbe0adf1ed07b609fe3ccee46c00cc",
+   "pool_count": 6,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26003101,
+   "last_block": 26003390,
+   "last_deploy": "2026-09-18T10:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -9323,7 +9346,7 @@
    "first_block": 25941862,
    "last_block": 25953218,
    "last_deploy": "2026-09-11T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
