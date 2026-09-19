@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 25,
+  "hit": 26,
   "miss": 21,
-  "open": 4,
-  "hit_rate": 0.543
+  "open": 3,
+  "hit_rate": 0.553
  },
  "items": [
   {
@@ -44,8 +44,8 @@
    "text": "Over the next 7 days the count clears 5. The likely landing sits between 5 and 13, and I give the over about 50%. One hand is dealing pools back to back in the same breath — a single contract laying pair after pair at a pace the rest of the room cannot match.",
    "horizon_days": 7,
    "resolve_after": "2026-09-19",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached.",
    "phase": "v2"
   },
   {

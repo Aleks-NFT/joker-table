@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T09:13:30Z",
- "total_hooks": 5134,
- "total_pools": 15454,
+ "generated_at": "2026-09-19T10:13:30Z",
+ "total_hooks": 5138,
+ "total_pools": 15470,
  "multi_pool_hooks": 455,
  "shown": 455,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1155,
+   "pool_count": 1156,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -25,8 +25,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 26008720,
-   "last_deploy": "2026-09-19T04:00:02Z",
+   "last_block": 26010476,
+   "last_deploy": "2026-09-19T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 1136,
+   "pool_count": 1143,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 26007954,
-   "last_deploy": "2026-09-19T02:00:02Z",
+   "last_block": 26010633,
+   "last_deploy": "2026-09-19T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -252,7 +252,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 215,
+   "pool_count": 217,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -261,8 +261,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26008940,
-   "last_deploy": "2026-09-19T04:00:02Z",
+   "last_block": 26010801,
+   "last_deploy": "2026-09-19T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -318,7 +318,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 170,
+   "pool_count": 172,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -334,8 +334,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26009538,
-   "last_deploy": "2026-09-19T06:00:02Z",
+   "last_block": 26010617,
+   "last_deploy": "2026-09-19T10:00:02Z",
    "active": true,
    "visible": false
   },
