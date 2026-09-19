@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T04:13:26Z",
+ "generated_at": "2026-09-19T05:13:30Z",
  "history": [
-  {
-   "date": "2026-08-20",
-   "volume_24h_usd": 1022853080.0,
-   "fees_24h_usd": 1443738.0,
-   "eth_share_pct": 59.3
-  },
   {
    "date": "2026-08-21",
    "volume_24h_usd": 1201410132.0,
@@ -181,19 +175,43 @@
    "volume_24h_usd": 1485954087.0,
    "fees_24h_usd": 4639788.0,
    "eth_share_pct": 35.3
+  },
+  {
+   "date": "2026-09-19",
+   "volume_24h_usd": 1401381501.0,
+   "fees_24h_usd": 3153632.0,
+   "eth_share_pct": 42.8
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 547688243,
-  "Ethereum": 520652305,
-  "BSC": 122689542,
-  "Arc": 85134104,
-  "Base": 80269606,
-  "Polygon": 76136136,
-  "Arbitrum": 22196356,
-  "Monad": 21665385
+  "Ethereum": 593441127,
+  "Robinhood Chain": 478446184,
+  "BSC": 82139866,
+  "Base": 64601256,
+  "Polygon": 60912158,
+  "Arc": 48668562,
+  "Arbitrum": 36178637,
+  "Monad": 21825886
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: PGov Delegate Platform (73 posts)",
+   "url": "https://gov.uniswap.org/t/pgov-delegate-platform/22271",
+   "occurred_at": "2026-09-19T05:00:02Z",
+   "active": false
+  },
+  {
+   "event": "Uniswap governance (Snapshot) active: Protocol Fee Expansion: Arc (ends 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e",
+   "occurred_at": "2026-09-19T05:00:02Z",
+   "active": true
+  },
+  {
+   "event": "Uniswap governance (Snapshot) active: Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (ends 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9",
+   "occurred_at": "2026-09-19T05:00:02Z",
+   "active": true
+  },
   {
    "event": "Uniswap gov forum active thread: [RFC] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (5 posts)",
    "url": "https://gov.uniswap.org/t/rfc-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",

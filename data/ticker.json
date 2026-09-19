@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-19T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: PGov Delegate Platform (73 posts)",
+   "url": "https://gov.uniswap.org/t/pgov-delegate-platform/22271"
+  },
+  {
+   "ts": "2026-09-19T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap governance (Snapshot) active: Protocol Fee Expansion: Arc (ends 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e"
+  },
+  {
+   "ts": "2026-09-19T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap governance (Snapshot) active: Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (ends 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $117,990,083   #2 USDT / USDS — $106,723,990   #3 PYUSD / USDS — $48,404,992   #4...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDe / USDC 0.003% TVL grew 34% to $1,155,349",
+   "url": "https://www.geckoterminal.com/eth/pools/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "USDG / USDC TVL grew 49% to $6,708,580",
+   "url": "https://www.geckoterminal.com/eth/pools/0xeda62d2906d0edf26d40c793d581609552a44a87f618a98ff76ebe8dde4b7edb"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: EUROC / USDC 0.03% — $6,846,713 24h volume, $2,559,483 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb2b92b56988a4edbe255989792c6ea239b25eaf66b42093145cbf8f630db3a17"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: PST / PYUSD — $8,326,131 24h volume, $10,057,642 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x0ff0ded171e15f11bb295eb08eb1dd11f405b71ea61f136c4b197cce78672edf"
+  },
+  {
+   "ts": "2026-09-19T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: cbBTC / WBTC 0.005% — $13,515,439 24h volume, $5,466,408 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
+  },
+  {
    "ts": "2026-09-19T04:00:01Z",
    "suit": "club",
    "source": "github",
@@ -147,69 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: helps-dev/bellr — 0★ — Uniswap v4 hooks that read the US trading calendar. Live on Robinhood Chain.",
    "url": "https://github.com/helps-dev/bellr"
-  },
-  {
-   "ts": "2026-09-18T19:56:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26006619. Tokens: 0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9 / 0xd9d43b4c06ba572ad89639ec4ec97ca34b9ad16d. Fee:...",
-   "url": "https://etherscan.io/tx/0x3781845161942ec1bb6adaba30295fa77b8ff8576854d2b59fe4a2759b5fc782"
-  },
-  {
-   "ts": "2026-09-18T18:44:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26006264. Tokens: 0x0000000000000000000000000000000000000000 / 0xd87f0d57c8ec8b76d4ade8b35cc6941ac871b147. Fee:...",
-   "url": "https://etherscan.io/tx/0x495c9672f603d117db2533d08b8a0531a14e244c33ed3ff8d3358c7764197ef1"
-  },
-  {
-   "ts": "2026-09-18T18:22:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops merged PR #603 in v4-periphery: 'fix(perm-pools): reject unverified-adapter and non-contract pool currency on mint/increase'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/603"
-  },
-  {
-   "ts": "2026-09-18T18:22:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops pushed to v4-periphery: 'fix(perm-pools): reject unverified-adapter and non-contract pool currency on mint/increase (#603)'",
-   "url": "https://github.com/Uniswap/v4-periphery/commit/9969eec44cfdf07e24b41de47f40276a58401976"
-  },
-  {
-   "ts": "2026-09-18T18:21:41Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops merged PR #602 in v4-periphery: 'fix(perm-pools): make unwindPosition force-exit unblockable against subscriber and delivery DoS'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/602"
-  },
-  {
-   "ts": "2026-09-18T18:21:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "SocksNFlops pushed to v4-periphery: 'fix(perm-pools): make unwindPosition force-exit unblockable against subscriber and delivery DoS (#602)'",
-   "url": "https://github.com/Uniswap/v4-periphery/commit/f9b34deca5bdcf9e230b48694b2555feee7682ae"
-  },
-  {
-   "ts": "2026-09-18T18:16:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26006123. Tokens: 0x0000000000000000000000000000000000000000 / 0xa7a15f1de42fc7b5bad88a0bc9a860b1c0868f1c. Fee:...",
-   "url": "https://etherscan.io/tx/0x2b5f28eeced3b8b7e19ff880151987f70bcbfb092b942f4f7966beed1dc8bafb"
-  },
-  {
-   "ts": "2026-09-18T17:49:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26005985. Tokens: 0x0000000000000000000000000000000000000000 / 0x6e26292099a9dfeb3122f9091fb2f57ad40f387e. Fee:...",
-   "url": "https://etherscan.io/tx/0xe21bd10a9001445a738f29906b7d6cc6c5a45816c5dc2f5f4f26ab7778e996b4"
-  },
-  {
-   "ts": "2026-09-18T17:45:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26005966. Tokens: 0x0000000000000000000000000000000000000000 / 0x006d9a1b1b64c57c0f917254274b1dbbe2a14608. Fee:...",
-   "url": "https://etherscan.io/tx/0xc14a0f2bfb07dab9e0976b5dace5af15cce9d83254fe1b2c89c5ccb641b803c9"
   }
  ]
 }
