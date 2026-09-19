@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-19T05:41:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26009538. Tokens: 0x2aaa5c8f10dd177df37b8c086c3b9fc7a1145655 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
+   "url": "https://etherscan.io/tx/0xa9c2ba69483ed96990d2fed9decbe2c394a87dab2db20124fa1bb3cdc6a76466"
+  },
+  {
+   "ts": "2026-09-19T05:36:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26009510. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xd45626c206c5a3bd33a28fd116e6a211b14d3c0d. Fee:...",
+   "url": "https://etherscan.io/tx/0x2d72fd341731dcf54c14e0b9d50aef846962e25bc0ba20bbf05295208533c510"
+  },
+  {
+   "ts": "2026-09-19T05:32:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26009492. Tokens: 0x4a95333ce42fa2c1c2ef304a4705f5896aa2c238 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
+   "url": "https://etherscan.io/tx/0x7dcc41b9cb29ec76ba8d525ff3fd404c1eea084b905aa639419bae3b0cc6e3e9"
+  },
+  {
    "ts": "2026-09-19T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -189,27 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26007202. Tokens: 0x0000000000000000000000000000000000000000 / 0x58c7324bb49c77c61d33a7db9fae6b6b5d86a3c4. Fee:...",
    "url": "https://etherscan.io/tx/0xccd2de8410504f2d2cff69a46eb294882e1683cec55deb75fef067c50aa128d9"
-  },
-  {
-   "ts": "2026-09-18T21:33:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26007105. Tokens: 0x8d09527e5bb1601fd30c3e94b6e4dda61015c056 / 0xba5bde662c17e2adff1075610382b9b691296350. Fee:...",
-   "url": "https://etherscan.io/tx/0x14ec61d5fb687672cda23cb7795464151a91487c64fff1a8b19fe7a8a5eb58c1"
-  },
-  {
-   "ts": "2026-09-18T20:32:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26006801. Tokens: 0xaaee1a9723aadb7afa2810263653a34ba2c21c7a / 0xbd40c5c2e6f56d7fac9a9cd6bbf0866051589794. Fee:...",
-   "url": "https://etherscan.io/tx/0xbe2db1ab5955956a3b98c3de5c516c8d69f333233fea29576b4968babf3906c1"
-  },
-  {
-   "ts": "2026-09-18T20:16:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: helps-dev/bellr — 0★ — Uniswap v4 hooks that read the US trading calendar. Live on Robinhood Chain.",
-   "url": "https://github.com/helps-dev/bellr"
   }
  ]
 }
