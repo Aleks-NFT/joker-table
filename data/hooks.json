@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-18T23:13:29Z",
- "total_hooks": 5129,
- "total_pools": 15436,
+ "generated_at": "2026-09-19T00:13:28Z",
+ "total_hooks": 5131,
+ "total_pools": 15440,
  "multi_pool_hooks": 453,
  "shown": 453,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 560,
+   "pool_count": 561,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 25968389,
-   "last_deploy": "2026-09-13T14:00:02Z",
+   "last_block": 26007571,
+   "last_deploy": "2026-09-19T00:00:02Z",
    "active": true,
    "visible": true
   },
@@ -252,7 +252,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 211,
+   "pool_count": 212,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -261,8 +261,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26006801,
-   "last_deploy": "2026-09-18T22:00:02Z",
+   "last_block": 26007665,
+   "last_deploy": "2026-09-19T00:00:02Z",
    "active": true,
    "visible": false
   },
