@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-20T17:13:29Z",
- "total_hooks": 5169,
- "total_pools": 15592,
+ "generated_at": "2026-09-20T18:13:29Z",
+ "total_hooks": 5171,
+ "total_pools": 15595,
  "multi_pool_hooks": 459,
  "shown": 459,
  "more_count": 0,
@@ -1074,6 +1074,31 @@
    "visible": false
   },
   {
+   "address": "0x6d01769ab90674d0d56b155f57003284e1b460cc",
+   "address_short": "0x6d01…60cc",
+   "name": "AnyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
+   "pool_count": 31,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25921510,
+   "last_block": 26019893,
+   "last_deploy": "2026-09-20T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x4440854b2d02c57a0dc5c58b7a884562d875c0c4",
    "address_short": "0x4440…c0c4",
    "name": "UniswapV4KEMHook",
@@ -1093,31 +1118,6 @@
    "last_block": 25948379,
    "last_deploy": "2026-09-10T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x6d01769ab90674d0d56b155f57003284e1b460cc",
-   "address_short": "0x6d01…60cc",
-   "name": "AnyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x6d01769ab90674d0d56b155f57003284e1b460cc",
-   "pool_count": 30,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25921510,
-   "last_block": 26013336,
-   "last_deploy": "2026-09-19T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
