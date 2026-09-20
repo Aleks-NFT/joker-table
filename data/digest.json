@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-20",
+   "narrative": {
+    "en": "Two pools on Unichain, and the felt barely quivered — a thin table, the kind you walk past without slowing. The first arrived at block 59118648: the zero address paired against token 0x19ae, fee 0, tickSpacing 200, hook 0x9463. Zero fee on a V4 with a hook is rarely charity — it usually means the hook itself is collecting through dynamic mechanisms. The second, block 59115468, was more conventional: WETH against 0x5388, fee 3000, tickSpacing 60, hook 0x6277. Two hands is not a table.\n\nEthereum was another room entirely. At block 26015141 the same hook contract, 0xb741, began opening pools against the zero address with different tokens — fee 0, tickSpacing 60, eight pools in a row, down through 26015120. That is not a gambler's improvisation. That is a dealer working from a script, laying a grid of liquidity around a single hook. Serial deployment, automated, either a test distribution or a strategy where the hook owns the whole logic.\n\nThen, at 26015133, a different hook — 0x5dab — with 0x823f against WETH, fee 3000. Single. Off-series. And notice what repeats: on Ethereum nearly every new pool holds the zero address on one side, which means the other side is an ERC-20 and the pool is built to trade against the native currency through a wrapper. Fee of zero on such pairs is rare — arbitrage, or fees collected externally by the hook.\n\nFor the record, the day's highlight facts: 19930, 19931, 19932, 19933, 19934. And the thing worth saying plainly — V4 with hooks is no longer liquidity. It is programmable liquidity. Someone is building something larger than a pool. The only open question is what.",
+    "zh": "江湖一夜，Unichain 只摆开两处新池，内力稀薄，不成气候。第一处在 59118648 区块：零地址对 0x19ae，fee 为 0，tickSpacing 200，钩子 0x9463——过路钱分文不取，多半是钩子自己另设抽成之法。第二处在 59115468：WETH 对 0x5388，fee 3000，tickSpacing 60，另一枚钩子 0x6277。两池而已，不足挂齿。\n\n真正的动静在以太坊。自 26015141 区块起，同一枚钩子 0xb741 接连开池，皆以零地址配不同代币，fee 皆 0，tickSpacing 皆 60，一口气排到 26015120，八池成列。这不是随手落子，是有人按阵图布阵，多半是自动化的手笔——或为试演分派，或为一门由钩子独掌全局的功法。\n\n26015133，另有一枚钩子 0x5dab，0x823f 对 WETH，fee 3000，孤零零一池，不入阵。可留意者：以太坊新池几乎都以零地址为一方，另一方必是 ERC-20，此池多半是为借包装之币与原生之币相搏而设。此类对上 fee 为 0，实属罕见——或行走套利之途，或由钩子在池外收租。\n\n今日留档五个数字：19930、19931、19932、19933、19934。带钩的 V4，已不是死水般的内力，而是可编程的内力。有人所建，不止于池。至于建的是什么，江湖尚未见分晓。"
+   },
+   "take": {
+    "en": "Eight pools from one hook contract in a single run is not trading, it is construction — and V4 hooks have turned liquidity itself into code that can be written to order.",
+    "zh": "一枚钩子连开八池，是布阵，不是试手。V4 的流动性已被写成可编程的内力，规矩正在换。"
+   }
+  },
+  {
    "date": "2026-09-19",
    "narrative": {
     "en": "Three deals off the same shoe, and the house isn't taking a cut. Blocks 26007858, 26007954, 26008098 — three Uniswap V4 initializations in a row, every one carrying a hook, every one posted at zero fee with a tick spacing of 200. ETH against 0xbd965230588eaa536de6aa45e8ebbc01638535e0 first, then 0x6987ffcfa6167afb69b19e23bf1de602b628c7ea, then 0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be. No rake on the felt. That is not an oversight; that is a claim staked in public.\n\nZero fee on V4 means the house collects elsewhere, or intends to. A hook may levy its own dynamic fee, or waive fees entirely and live off other currents — dynamic swaps, limit orders, liquidity maneuvers. Tick spacing 200 sets wider rungs on the ladder, the kind you use for volatile or niche pairs where nobody is asking for a jeweler's precision. And the pattern of the hooks is where the tell sits: three token addresses, two hook contracts, one of them — 0x71f0feb4213c19aa2c0763e3594788e12a7641cd — called twice, on the first pool and the third. That reads as a multi-pool hook running several pairs through a single logic. The other, 0x96b893683afbfec071e90f78d00de4bb932fe0cc, appears once: bespoke, experimental, cut for one token's particular mechanism.\n\nETH paired against zero-fee satellites usually signals a bootstrap — seed liquidity, or trade whose revenue arrives from somewhere other than the fee: arbitrage, flash swaps, rewards for managing positions. Pools like these sit in the dark until someone starts leaning on them. I'm watching the contracts. A first swap or a first liquidity add inside a few hours will say plainly who laid these cards and what they're playing for. Until then they are three faces down on the felt, and the deck is still being shuffled.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Someone is assembling a deck with the same configuration across varying tokens, and the night's deal has been dealt — but not yet played.",
     "zh": "有人正用同一套心法，换着不同的兵器试招；布局已成，胜负尚在棋局之外。"
-   }
-  },
-  {
-   "date": "2026-09-06",
-   "narrative": {
-    "en": "The table was already dark when the first seven V4 pools flickered on—each one a marked card laid face up. One runs with a zero cut for the house. Another demands ten thousand; call it a tell, not a glitch. The jokers sit inside the hooks. That same address—0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc—appears four times across the board, sliding into pairs from the zero address all the way down to junk tokens. Someone is testing a system: the same 200-point interval, no commission, and only one table breaks the pattern with a different hook and a ten-thousand toll. No dealer does that by accident.\n\nOn the other flank, GitHub never sleeps. hazarxyz merged PR #701—graph representations for combined tokens and hooks—then, an hour later, opened PR #702: a router for roles. Programmable logic folded into graphs. This is architecture where the hook and the token become a single joint. Whoever builds those bridges is looking past the current pool.\n\nEight pools, two pull requests, one commit. The deck is shuffled; the jokers are seated. The night says nothing, but it deals.",
-    "zh": "夜深了，江湖上却有人重新洗牌。七座 V4 池子同时亮灯，每座都有自己的来路——一座不收分文，一座索要万金。这不是机关失灵，是有人在递话。Hook 如同散落各处的暗器，其中一处地址 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 一连出现四次。同一枚暗器，搭着不同的币对，从零地址到没人认领的杂牌货色。显然有人在试一套功法：格距取二百，不收过路钱，只有一座池子破了规矩，换了一枚 hook，收一万的买路钱。世上的巧合没有这么密。\n\n另一侧的山头也没睡。hazarxyz 先是合了 PR #701，把复合代币与 hook 画成一张张图；隔了一个时辰，又开出 PR #702，给角色做路由。可编程的逻辑被压进图里。这不是寻常改码，这是把 hook 与代币铸成同一个关节。能搭这种桥的人，目光早已越过眼前的池子。\n\n八座池，两个 PR，一次提交。夜风不响，但牌已发下。江湖上，暗器归位，内力未歇。"
-   },
-   "take": {
-    "en": "The play is not scattered noise: one hand keeps laying the same hook across four pairs while another hand is folding the rules into graphs. The deck is being set for a more surgical kind of liquidity.",
-    "zh": "有人用同一枚暗器反复试水，也有人在链下把规则拧成图谱；这不是一时手痒，而是后半夜的布局。见招拆招之前，先把眼睛放在那个出现四次的地址上。"
    }
   }
  ]
