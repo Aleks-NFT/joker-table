@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-20T04:13:29Z",
+ "generated_at": "2026-09-20T05:13:30Z",
  "total_hooks": 5164,
  "total_pools": 15572,
  "multi_pool_hooks": 458,
@@ -4272,8 +4272,8 @@
   {
    "address": "0x11601996e8305967db7810740f30acb7026ac0cc",
    "address_short": "0x1160…c0cc",
-   "name": "",
-   "verified": false,
+   "name": "TescoHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x11601996e8305967db7810740f30acb7026ac0cc",
    "pool_count": 7,
    "permissions_human": [
@@ -9542,8 +9542,8 @@
   {
    "address": "0xc31aaa19d152b2a6325f9aee4a04b3f4546c2088",
    "address_short": "0xc31a…2088",
-   "name": "",
-   "verified": false,
+   "name": "GweiFunFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc31aaa19d152b2a6325f9aee4a04b3f4546c2088",
    "pool_count": 2,
    "permissions_human": [
