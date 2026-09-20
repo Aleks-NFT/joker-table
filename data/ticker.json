@@ -2,6 +2,34 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-20T18:58:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26020668. Tokens: 0xdac17f958d2ee523a2206206994597c13d831ec7 / 0xdae0fafd65385e7775cf75b1398735155ef6acd2. Fee:...",
+   "url": "https://etherscan.io/tx/0x664aff9514b49b727d65780cebe60cfedb685fa9e1915d62c75480cdaef900ea"
+  },
+  {
+   "ts": "2026-09-20T18:58:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26020668. Tokens: 0x0000000000000000000000000000000000000000 / 0xb43043cec19fdf7ba5dc27ec8504afb4eabcf3e2. Fee:...",
+   "url": "https://etherscan.io/tx/0x31624808d624144d71c515ea462ae034c0d9c9f9372c121b1fab1864f2511ae4"
+  },
+  {
+   "ts": "2026-09-20T18:46:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz merged PR #814 in PROGRAMMABLE: 'Fix swap preparation and stale wallet locks; simplify coin pages'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/pull/814"
+  },
+  {
+   "ts": "2026-09-20T18:46:36Z",
+   "suit": "club",
+   "source": "github",
+   "text": "hazarxyz pushed to PROGRAMMABLE: 'Fix swap preparation and stale wallet locks; simplify coin pages (#814)'",
+   "url": "https://github.com/programmablehq/PROGRAMMABLE/commit/6f8c3903175c655eb360f8460176294e2c7bb4f0"
+  },
+  {
    "ts": "2026-09-20T17:30:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -182,34 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: FWA / ETH — $2,147,488 24h volume, $1,161,827 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d"
-  },
-  {
-   "ts": "2026-09-20T03:11:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26015950. Tokens: 0x0000000000000000000000000000000000000000 / 0x6930b9321f337c6b11c24d8a96af40a37fe58a5b. Fee:...",
-   "url": "https://etherscan.io/tx/0x87ad4d3d196ee8998d2bc0e3d29717592a27b636ec487cb21ed8822c59944fdb"
-  },
-  {
-   "ts": "2026-09-20T02:31:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26015749. Tokens: 0x450fe59fcf39cb76dbcbd40f67e1da3926660b07 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x3b4bf864e4ef6c22428a7a279c233a3554c18e8eea01501db7b9c34f6b203846"
-  },
-  {
-   "ts": "2026-09-20T01:16:47Z",
-   "suit": "spade",
-   "source": "unichain",
-   "text": "New Uniswap V4 hook pool initialized on Unichain at block 59118648. Tokens: 0x0000000000000000000000000000000000000000 / 0x19ae2d05ad44e8f081b0d74643b947c6fa...",
-   "url": "https://uniscan.xyz/tx/0xc567393f33e4883f78d333506b63c68021db0a5d28518767a45eecfffdd631a4"
-  },
-  {
-   "ts": "2026-09-20T00:29:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26015141. Tokens: 0x0000000000000000000000000000000000000000 / 0x279e916190ad2d6bd5e91c14c1a5476a90a8fc10. Fee:...",
-   "url": "https://etherscan.io/tx/0x2d67b90f8463de4503690735d326d73c3aa6c3c1564212a45f6040774b53e566"
   }
  ]
 }
