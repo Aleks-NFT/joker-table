@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-20T00:23:47Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 59115468. Tokens: 0x4200000000000000000000000000000000000006 / 0x53883a74dcd58db60568f597a1747cd75e...",
+   "url": "https://uniscan.xyz/tx/0x0ec63fb19eb91af4278d463d7a71fc73ccbf1d7df8cc83d3308568eb733229d5"
+  },
+  {
    "ts": "2026-09-19T23:51:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -149,6 +156,13 @@
    "url": "https://etherscan.io/tx/0x3f907d3cb7990e59efb9ceae84bfac9e732581b804be07b20cf47e325ab9c763"
   },
   {
+   "ts": "2026-09-19T23:35:24Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 59112565. Tokens: 0x4200000000000000000000000000000000000006 / 0xf88c03c5d86b146d594c2dd96002f79841...",
+   "url": "https://uniscan.xyz/tx/0xbce558190c19747f4abe374c0f2bff9d15328c2f5e15bce71f01e0ca0fa6a091"
+  },
+  {
    "ts": "2026-09-19T23:31:47Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26014850. Tokens: 0x0000000000000000000000000000000000000000 / 0xf36dd7f0e5631238a5695553dc2c6d92fcc92d1c. Fee:...",
    "url": "https://etherscan.io/tx/0x27af17df66a47a547c6cf17ebfa3846e160e447d8df68a56bcfc174a23b1ad57"
-  },
-  {
-   "ts": "2026-09-19T23:30:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26014849. Tokens: 0x0000000000000000000000000000000000000000 / 0xc0fc8c43481e72e3cd6e0be7b079b3353f23fd21. Fee:...",
-   "url": "https://etherscan.io/tx/0x3c58c43ab1508ef9f74c60fb8bc37dbc25395766d30adaa7079bde4bdac842b2"
-  },
-  {
-   "ts": "2026-09-19T23:30:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26014848. Tokens: 0x0000000000000000000000000000000000000000 / 0xdd61d725cb76cd043742467bdfeacc55a6ff1a66. Fee:...",
-   "url": "https://etherscan.io/tx/0xca95617d72720d47b4e714040ca60e6cfcef86174906174f25f1851dfceee81f"
   }
  ]
 }
