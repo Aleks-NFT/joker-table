@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-21T04:13:29Z",
+ "generated_at": "2026-09-21T05:13:30Z",
  "total_hooks": 5182,
  "total_pools": 15625,
  "multi_pool_hooks": 460,
@@ -7858,8 +7858,8 @@
   {
    "address": "0x5fd399753b9fa70698f24be4b398f32e810c80cc",
    "address_short": "0x5fd3…80cc",
-   "name": "",
-   "verified": false,
+   "name": "EtherStockHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x5fd399753b9fa70698f24be4b398f32e810c80cc",
    "pool_count": 2,
    "permissions_human": [
