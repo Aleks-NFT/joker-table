@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-20T23:13:30Z",
- "total_hooks": 5175,
- "total_pools": 15604,
- "multi_pool_hooks": 459,
- "shown": 459,
+ "generated_at": "2026-09-21T00:13:31Z",
+ "total_hooks": 5177,
+ "total_pools": 15610,
+ "multi_pool_hooks": 460,
+ "shown": 460,
  "more_count": 0,
  "hooks": [
   {
@@ -252,7 +252,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 227,
+   "pool_count": 228,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -261,8 +261,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26018922,
-   "last_deploy": "2026-09-20T14:00:02Z",
+   "last_block": 26021976,
+   "last_deploy": "2026-09-21T00:00:02Z",
    "active": true,
    "visible": false
   },
@@ -320,7 +320,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 178,
+   "pool_count": 179,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -334,8 +334,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 26012305,
-   "last_deploy": "2026-09-19T16:00:02Z",
+   "last_block": 26021821,
+   "last_deploy": "2026-09-21T00:00:02Z",
    "active": true,
    "visible": false
   },
@@ -5040,7 +5040,7 @@
    "first_block": 25971821,
    "last_block": 25971892,
    "last_deploy": "2026-09-14T00:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6268,6 +6268,32 @@
    "last_block": 25320721,
    "last_deploy": "2026-06-15T06:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xd3efcb655ef4d7ac9f8140fe4b7e833c46b728e0",
+   "address_short": "0xd3ef…28e0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xd3efcb655ef4d7ac9f8140fe4b7e833c46b728e0",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeDonate"
+   ],
+   "first_block": 26022000,
+   "last_block": 26022096,
+   "last_deploy": "2026-09-21T00:00:02Z",
+   "active": true,
    "visible": false
   },
   {
