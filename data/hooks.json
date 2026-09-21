@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-21T07:13:29Z",
+ "generated_at": "2026-09-21T08:13:29Z",
  "total_hooks": 5184,
- "total_pools": 15637,
+ "total_pools": 15644,
  "multi_pool_hooks": 461,
  "shown": 461,
  "more_count": 0,
@@ -293,7 +293,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 194,
+   "pool_count": 197,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -309,8 +309,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26023203,
-   "last_deploy": "2026-09-21T04:00:02Z",
+   "last_block": 26024356,
+   "last_deploy": "2026-09-21T08:00:02Z",
    "active": true,
    "visible": false
   },
@@ -320,7 +320,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 182,
+   "pool_count": 185,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -334,8 +334,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 26023658,
-   "last_deploy": "2026-09-21T06:00:03Z",
+   "last_block": 26024407,
+   "last_deploy": "2026-09-21T08:00:02Z",
    "active": true,
    "visible": false
   },
@@ -6039,6 +6039,32 @@
    "visible": false
   },
   {
+   "address": "0xb572c6169e96a85533b27a068f750c728f5ae8e0",
+   "address_short": "0xb572…e8e0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb572c6169e96a85533b27a068f750c728f5ae8e0",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeDonate"
+   ],
+   "first_block": 26023552,
+   "last_block": 26024184,
+   "last_deploy": "2026-09-21T08:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xba32c6ad6a1f3cfcab22123660f77ab4f4116aec",
    "address_short": "0xba32…6aec",
    "name": "ForgeHookV4",
@@ -9377,32 +9403,6 @@
    "last_block": 25705919,
    "last_deploy": "2026-08-07T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb572c6169e96a85533b27a068f750c728f5ae8e0",
-   "address_short": "0xb572…e8e0",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xb572c6169e96a85533b27a068f750c728f5ae8e0",
-   "pool_count": 2,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "handles donations"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeDonate"
-   ],
-   "first_block": 26023552,
-   "last_block": 26023590,
-   "last_deploy": "2026-09-21T06:00:03Z",
-   "active": true,
    "visible": false
   },
   {
