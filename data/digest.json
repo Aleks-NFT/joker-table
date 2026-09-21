@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-21",
+   "narrative": {
+    "en": "The night dealt from two different decks and pretended it was one hand. Two pools came up with zero fee, both holding ETH on one end — the first opened at block 26022498, hook 0xadb9..., spread at sixty ticks; the second at block 26022216, a different hook at 0xe9d9..., same mechanic, ETH against 0x2a64.... Nobody sets the house's cut to nothing because he expects to eat from the rake. Zero commission inside a V4 hook pool is either a rehearsal or a wager that the money arrives through the hook itself — order flow, sequencing, the quiet rearrangement of transactions before the felt ever sees them.\n\nThree more tables took the ordinary cut: fee 8388608, which lands somewhere near 0.01% once V4 scaling has its say. The eldest opened at block 26022191, ETH against 0xd979c..., hook 0x05c9..., sixty ticks. Then 26022284 pairing 0x3074... with 0x8de3..., tickSpacing 200 — wider teeth, a pair that expects to move, or a hook that manages its ranges with a heavier hand. The freshest came at 26022621: 0xc847... against USDT (0xdac1...), hook 0xb0bb..., sixty ticks again.\n\nEvery one of these hooks is a stranger. Not a single one wears an address from a deployment I know. Four new contracts, unverified, dealing into a room that has not been told the rules. The USDT table is the one worth the candle — if someone is routing stablecoin liquidity through a custom hook, that is either a protocol-specific optimization or a mechanism with a second purpose nobody has printed on the card.\n\nEleven new deals were laid out overnight. The question was never which of them wins. The question is which ones are still on the felt when the morning crowd walks in.",
+    "zh": "一夜之间，江湖上多出十一处新开的场子。其中两处的规矩最是古怪：抽成归零，内力却押在ETH一边。头一处开在26022498区块，hook是0xadb9...，寻常价差六十个tick；第二处在26022216，hook换了0xe9d9...，手法如出一辙——零费，ETH与0x2a64...相对。开门不收过路钱的人，若不是在试招，便是另有所图：费用不在场内取，而在hook之中取。\n\n另外三处仍按老规矩抽成，fee 8388608，折算下来约莫万分之一。最年长的一处开在26022191，ETH对0xd979c...，hook 0x05c9...，六十个tick。其后是26022284，0x3074...与0x8de3...相对，tickSpacing 200——价差拉得宽，说明这对内力浮躁，或是背后有个出手凶悍的hook在圈定范围。最新的一处落在26022621：0xc847...对USDT（0xdac1...），hook 0xb0bb...，仍旧是六十个tick。\n\n这几处的hook，没有一个是我认得的老面孔。四个新合约，未曾验明正身，就这么摆上了台面。尤其那处与USDT相对的——若真有人要把稳定币的内力经由自定义hook引进来，那是专为某一门派量身定制，还是暗藏机关，此刻还看不透。\n\n场子多，不等于热闹。零费的ETH盘子已经把话说得很明白：有人不在乎流动性提供者的进项，只在乎地基搭不搭得起来。这十一处新局，哪一处能撑到天明，天亮之前，谁也说不准。"
+   },
+   "take": {
+    "en": "Zero-fee ETH pools and four unverified hooks in a single night is not income being built — it is infrastructure being built, and infrastructure is always a stake placed before the odds are posted.",
+    "zh": "零费的ETH场子配上四个来路不明的hook——这不是冲着利钱去的，是在铺路。铺路的人，从不问今夜的输赢。"
+   }
+  },
+  {
    "date": "2026-09-20",
    "narrative": {
     "en": "Two pools on Unichain, and the felt barely quivered — a thin table, the kind you walk past without slowing. The first arrived at block 59118648: the zero address paired against token 0x19ae, fee 0, tickSpacing 200, hook 0x9463. Zero fee on a V4 with a hook is rarely charity — it usually means the hook itself is collecting through dynamic mechanisms. The second, block 59115468, was more conventional: WETH against 0x5388, fee 3000, tickSpacing 60, hook 0x6277. Two hands is not a table.\n\nEthereum was another room entirely. At block 26015141 the same hook contract, 0xb741, began opening pools against the zero address with different tokens — fee 0, tickSpacing 60, eight pools in a row, down through 26015120. That is not a gambler's improvisation. That is a dealer working from a script, laying a grid of liquidity around a single hook. Serial deployment, automated, either a test distribution or a strategy where the hook owns the whole logic.\n\nThen, at 26015133, a different hook — 0x5dab — with 0x823f against WETH, fee 3000. Single. Off-series. And notice what repeats: on Ethereum nearly every new pool holds the zero address on one side, which means the other side is an ERC-20 and the pool is built to trade against the native currency through a wrapper. Fee of zero on such pairs is rare — arbitrage, or fees collected externally by the hook.\n\nFor the record, the day's highlight facts: 19930, 19931, 19932, 19933, 19934. And the thing worth saying plainly — V4 with hooks is no longer liquidity. It is programmable liquidity. Someone is building something larger than a pool. The only open question is what.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Two hooks, a token repeated across pools, and a single off-grid tick spacing — this is not random grinding but a coordinated hand being dealt.",
     "zh": "这夜的新池并非乱撒，而是有人按着纹路布子——一币多池、双钩分压、tick 六十突兀，处处透着老手布局的气息。江湖夜雨，正有人借池为局，试水于乱象之中。"
-   }
-  },
-  {
-   "date": "2026-09-07",
-   "narrative": {
-    "en": "Fourteen pools, dealt across a handful of blocks — someone decided the night was not for sleeping. Most sit with zero fee, tickSpacing of 200, and every pair follows the same tell: WETH or native ETH against some token that doesn't even bother pretending to be known. The pattern is too clean for chance; it's a hand being arranged under the table, suit by suit, card by card.",
-    "zh": "数个区块之间，一十四口池子先后落成——有人显然没打算让这夜安眠。多数池子零费率，tickSpacing 200，每股对皆是同一路数：WETH或原生ETH，对面立着个连名号都懒得装的陌生代币。江湖夜雨，最怕的不是刀光，是这种按部就班的布子。"
-   },
-   "take": {
-    "en": "Someone is assembling a deck with the same configuration across varying tokens, and the night's deal has been dealt — but not yet played.",
-    "zh": "有人正用同一套心法，换着不同的兵器试招；布局已成，胜负尚在棋局之外。"
    }
   }
  ]
