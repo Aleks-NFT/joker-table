@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-21T13:13:30Z",
- "total_hooks": 5186,
- "total_pools": 15650,
+ "generated_at": "2026-09-21T14:13:30Z",
+ "total_hooks": 5189,
+ "total_pools": 15657,
  "multi_pool_hooks": 461,
  "shown": 461,
  "more_count": 0,
@@ -36,7 +36,7 @@
    "name": "UniversalKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x96b893683afbfec071e90f78d00de4bb932fe0cc",
-   "pool_count": 1155,
+   "pool_count": 1156,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -50,8 +50,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118285,
-   "last_block": 26025243,
-   "last_deploy": "2026-09-21T12:00:02Z",
+   "last_block": 26026028,
+   "last_deploy": "2026-09-21T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -206,7 +206,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 291,
+   "pool_count": 292,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -220,8 +220,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 25992116,
-   "last_deploy": "2026-09-16T20:00:02Z",
+   "last_block": 26026309,
+   "last_deploy": "2026-09-21T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -320,7 +320,7 @@
    "name": "LaunchpadHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x51768f5da32ba2008304cc81674da51acb802888",
-   "pool_count": 185,
+   "pool_count": 186,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -334,8 +334,8 @@
     "beforeSwapReturnDelta"
    ],
    "first_block": 25786048,
-   "last_block": 26024407,
-   "last_deploy": "2026-09-21T08:00:02Z",
+   "last_block": 26026135,
+   "last_deploy": "2026-09-21T14:00:02Z",
    "active": true,
    "visible": false
   },
@@ -485,7 +485,7 @@
    "name": "PositionManager",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
-   "pool_count": 107,
+   "pool_count": 108,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -504,8 +504,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25955044,
-   "last_block": 26020668,
-   "last_deploy": "2026-09-20T20:00:02Z",
+   "last_block": 26026187,
+   "last_deploy": "2026-09-21T14:00:02Z",
    "active": true,
    "visible": false
   },
