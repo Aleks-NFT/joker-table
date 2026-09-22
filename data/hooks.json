@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-22T19:13:27Z",
- "total_hooks": 5225,
- "total_pools": 15879,
+ "generated_at": "2026-09-22T20:13:29Z",
+ "total_hooks": 5229,
+ "total_pools": 15886,
  "multi_pool_hooks": 463,
  "shown": 463,
  "more_count": 0,
@@ -293,7 +293,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 207,
+   "pool_count": 209,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -309,8 +309,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26030519,
-   "last_deploy": "2026-09-22T06:00:02Z",
+   "last_block": 26035081,
+   "last_deploy": "2026-09-22T20:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4383,6 +4383,35 @@
    "visible": false
   },
   {
+   "address": "0xaa49adadd33c5e953b645567afb10cbbba63afc4",
+   "address_short": "0xaa49…afc4",
+   "name": "NFTXV4Hook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xaa49adadd33c5e953b645567afb10cbbba63afc4",
+   "pool_count": 7,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "afterAddLiquidity",
+    "beforeRemoveLiquidity",
+    "afterRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25638311,
+   "last_block": 26035106,
+   "last_deploy": "2026-09-22T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xadf955a44fd7f009380240d56d71dfafb46020cc",
    "address_short": "0xadf9…20cc",
    "name": "EthCreatorFeeHookV4",
@@ -4523,7 +4552,7 @@
    "first_block": 25984125,
    "last_block": 25984897,
    "last_deploy": "2026-09-15T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -4635,35 +4664,6 @@
    "last_block": 25934084,
    "last_deploy": "2026-09-08T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xaa49adadd33c5e953b645567afb10cbbba63afc4",
-   "address_short": "0xaa49…afc4",
-   "name": "NFTXV4Hook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xaa49adadd33c5e953b645567afb10cbbba63afc4",
-   "pool_count": 6,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "afterAddLiquidity",
-    "beforeRemoveLiquidity",
-    "afterRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25638311,
-   "last_block": 25992035,
-   "last_deploy": "2026-09-16T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -8307,7 +8307,7 @@
    "first_block": 25866462,
    "last_block": 25984670,
    "last_deploy": "2026-09-15T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
