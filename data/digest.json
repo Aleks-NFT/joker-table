@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-22",
+   "narrative": {
+    "en": "The night's mempool dealt a hand that doesn't smell like chance. Ten pools, zero fee, all from the same hook contract — 0xb741a710 — firing inside fourteen blocks, ETH paired against ten different tokens, spacing set at 60. Nobody deals ten identical structures by accident. Either a simulation swarm for hook mechanics, or a basket staged for a gas-priority arb bot. Too synchronized to be a stray shuffle.\n\nEarlier, block 26029489 laid down two more from 0xefe3aa7df: PYTH/USDC with one basis point and spacing 10, and a second pool, 0x22ae3d9a against 0x6c3ea903, zero fee, same spacing. Both in one block. Dense grid, high-volatility hunting — someone knows the felt and where to place the chips.\n\nThe pearl: block 26029503, USDT against 0xdae0fafd65385e7775cf75b1398735155ef6acd2, fee 8388608. That's the ceiling — one hundred percent. Not a trading pool. A hook intermediary taking the whole cut, or a way to pin flow direction without fear of withdrawal. The kind of move made when you want execution outside the standard route.\n\nThe deck is being seeded with every strategy from high-frequency grid to fee-locked exotics. The house doesn't shuffle this deliberately without a reason.",
+    "zh": "今夜 mempool 里递出的这一手，不像偶然。同一个 hook 合约 0xb741a710，在十四个区块内连续开出十个零费率池，以太坊对十个不同代币，间距 60。这不像随手落子，倒像有人在试招，或是在为某路抢跑机器人摆好棋阵。太整齐，整齐得不似江湖偶遇。\n\n更早，区块 26029489，0xefe3aa7df 出手两次：一对 PYTH/USDC，一点基点的费率，间距 10；另一对 0x22ae3d9a 与 0x6c3ea903，零费率，同一间距。同一区块，两处落子。间距密，网格细，是给波动大的对手留的陷阱，每一步都要算到毫厘。\n\n最后是那枚暗器。区块 26029503，USDT 对 0xdae0fafd65385e7775cf75b1398735155ef6acd2，费率 8388608。不是笔误。那是 V4 的极值——百分之百。此池不为交易，倒像是 hook 坐庄全取，或是锁住流向、不留撤池余地。行此手者，多半是想绕过寻常路径，确保一击必中。\n\n江湖一夜间，有人在高频网格与锁费异术之间逐一试剑。内力流向不是无故翻涌，牌已重新洗过。"
+   },
+   "take": {
+    "en": "Ten zero-fee pools in fourteen blocks from one hook contract is a stress test, not a trade; the signal is in the synchronization, not the liquidity.",
+    "zh": "同一个 hook 合约十四个区块内连开十池，这已是阵势，不是散户随手；真正值得看的，是这股同步的节奏，而非池中那点浅水。"
+   }
+  },
+  {
    "date": "2026-09-21",
    "narrative": {
     "en": "The night dealt from two different decks and pretended it was one hand. Two pools came up with zero fee, both holding ETH on one end — the first opened at block 26022498, hook 0xadb9..., spread at sixty ticks; the second at block 26022216, a different hook at 0xe9d9..., same mechanic, ETH against 0x2a64.... Nobody sets the house's cut to nothing because he expects to eat from the rake. Zero commission inside a V4 hook pool is either a rehearsal or a wager that the money arrives through the hook itself — order flow, sequencing, the quiet rearrangement of transactions before the felt ever sees them.\n\nThree more tables took the ordinary cut: fee 8388608, which lands somewhere near 0.01% once V4 scaling has its say. The eldest opened at block 26022191, ETH against 0xd979c..., hook 0x05c9..., sixty ticks. Then 26022284 pairing 0x3074... with 0x8de3..., tickSpacing 200 — wider teeth, a pair that expects to move, or a hook that manages its ranges with a heavier hand. The freshest came at 26022621: 0xc847... against USDT (0xdac1...), hook 0xb0bb..., sixty ticks again.\n\nEvery one of these hooks is a stranger. Not a single one wears an address from a deployment I know. Four new contracts, unverified, dealing into a room that has not been told the rules. The USDT table is the one worth the candle — if someone is routing stablecoin liquidity through a custom hook, that is either a protocol-specific optimization or a mechanism with a second purpose nobody has printed on the card.\n\nEleven new deals were laid out overnight. The question was never which of them wins. The question is which ones are still on the felt when the morning crowd walks in.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The era of passive hooks is dead — if you're not reading every bytecode, you're betting blind against a deck where someone has already marked the cards.",
     "zh": "江湖规矩变了：钩子早已不是守门人，而是能在交易途中临阵变卦的刺客。若不逐字节读清每一条暗道，你连对手的兵器谱都没瞧见，怎么死的都不知道。"
-   }
-  },
-  {
-   "date": "2026-09-08",
-   "narrative": {
-    "en": "Nineteen fresh pools across a handful of blocks—that is not a quiet night, that is someone dealing off the bottom of the deck at dealer speed. Two hooks split the deck between them. The first operates at fee 8388608, an unusual trump. The second works at zero commission, which often means either deep liquidity play or something nastier. Most pools are ETH against junk tokens, that 0x0000 being WETH or native, shuffled with a dozen addresses. Standard deal: someone pours pairs and sees what sticks. But three pools share a base asset, 0xc9eef266834730340a55b6cc24621b31baf55581, a token surfacing four times with different partners. Someone is building a cluster around a single coin. Then there's the odd pair, 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 and 0xff7589a22bb458e673f43067e5b1aced9213691e, with zero fee, an own hook, no WETH anchor—rare in such stacks. Usually that's preparation for a specific trading strategy not tied to native gas. And the one pool with tickSpacing 60 stands out from the uniform 200 step. 60 is for volatile or illiquid pairs, requiring finer tuning. Either a misstep or someone knows exactly what they're doing. Pool after pool, block after block—someone is assembling a puzzle. The question is what picture.",
-    "zh": "这一夜，V4 江湖上风起云涌，十九个新池子几乎同时出世。这绝非日行琐事，倒像是有人在以牌局对弈的手法分发筹码。两枚 hook 合约各掌半副牌。一枚收费 8388608，算是掌门信物般的非常规招数；另一枚分文不取，表面上像是内力深厚的大宗流动策略，背后却也可能藏着更阴的招。大多数池子都是 ETH 对杂牌代币——那一串 0x0000 便是 WETH 或原生 ETH，与若干个陌生地址混洗。通常这只是试探，倒水进去看看粘不粘。但有三个池子共用同一个基币 0xc9eef266834730340a55b6cc24621b31baf55581，这代币四下露面，身旁搭档每每不同。显然有人在围绕一枚小币布阵。更有一对 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 与 0xff7589a22bb458e673f43067e5b1aced9213691e，零费率，自带 hook，不挂 WETH，这在如此成批的新池中实属另类。这般动作，多半是在为某套不借原生气的交易策略搭建擂台。而全批池子 tickSpacing 一律二百，唯独最后一池用六十。六十常用于高波或稀薄流动，需要更细的格度。要么失手点了，要么那人胸中自有丘壑。池子连池子，区块接区块——有人正在拼一张图，只不知拼出来的是阵还是局。"
-   },
-   "take": {
-    "en": "Two hooks, a token repeated across pools, and a single off-grid tick spacing — this is not random grinding but a coordinated hand being dealt.",
-    "zh": "这夜的新池并非乱撒，而是有人按着纹路布子——一币多池、双钩分压、tick 六十突兀，处处透着老手布局的气息。江湖夜雨，正有人借池为局，试水于乱象之中。"
    }
   }
  ]
