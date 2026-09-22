@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-22T11:13:32Z",
- "total_hooks": 5212,
- "total_pools": 15846,
+ "generated_at": "2026-09-22T12:10:29Z",
+ "total_hooks": 5214,
+ "total_pools": 15850,
  "multi_pool_hooks": 462,
  "shown": 462,
  "more_count": 0,
@@ -5028,6 +5028,35 @@
    "visible": false
   },
   {
+   "address": "0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
+   "address_short": "0xbf98…bec4",
+   "name": "SimHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterInitialize",
+    "beforeAddLiquidity",
+    "afterAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25941862,
+   "last_block": 26032849,
+   "last_deploy": "2026-09-22T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xe551d395ab1c9c57684c8e0d94615c0e98b5c088",
    "address_short": "0xe551…c088",
    "name": "",
@@ -6117,35 +6146,6 @@
    "last_block": 25165059,
    "last_deploy": "2026-06-08T19:21:57Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
-   "address_short": "0xbf98…bec4",
-   "name": "SimHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xbf9828455cdc5f02771536e3ecb3c0f931eabec4",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterInitialize",
-    "beforeAddLiquidity",
-    "afterAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25941862,
-   "last_block": 26027206,
-   "last_deploy": "2026-09-21T18:00:02Z",
-   "active": true,
    "visible": false
   },
   {
