@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-22T04:13:30Z",
+ "generated_at": "2026-09-22T05:13:29Z",
  "total_hooks": 5207,
  "total_pools": 15836,
  "multi_pool_hooks": 462,
@@ -1392,8 +1392,8 @@
   {
    "address": "0xf067c780c18e230958fb35c2455cee381864e0c0",
    "address_short": "0xf067…e0c0",
-   "name": "",
-   "verified": false,
+   "name": "FusingFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf067c780c18e230958fb35c2455cee381864e0c0",
    "pool_count": 18,
    "permissions_human": [
