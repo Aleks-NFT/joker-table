@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-23",
+   "narrative": {
+    "en": "Block 26037053, and the felt has a new V4 pool on Uniswap: 0xd31a59c85ae9d8edefec411d448f90841571b89c against 0xf542782ca8082c4d5bcdd1ffb3c006be54170bd5, stake 10000, spacing 200, hook at 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0. This is not a random pair — one of the tokens I have already seen in the previous deal. Someone is collecting the deck.\n\nThree blocks back, 26036523: 0xc84782858b7bef5d25182dbac956a6aa463aefe5 against USDT, 3000 basis points, spacing 61, hook at 0x8409dd13074e8018c3999d8405a6d328f19d2a80. USDT on V4 is a rarity. Stablecoins usually stay on the old suits. Here, someone chose to play a new hand.\n\nFourteen blocks before that, 26036539: ETH against 0xc8987e2a5c68a881d7f4c0bc6130697ae891f91e, zero fee, spacing 200, hook at 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Free entry always has a smell — liquidity for a specific scenario, or a live bait for the arbitrageur.\n\nAnd 26036885: ETH against 0x285f8dcc3094f86ec20adfe3c150611993c1ffff, fee 8388608 — the maximum, almost blocking. Spacing 10, a narrow corridor. Hook at 0xf067c780c18e230958fb35c2455cee381864e0c0. Someone is putting up a wall. Four pools in one session. Different pairs, different strategies. One deals fast without looking; another shuffles for the long game. I just watch the cards fall.",
+    "zh": "区块 26037053，江湖的桌面上又多了一个 Uniswap V4 新池：0xd31a59c85ae9d8edefec411d448f90841571b89c 对 0xf542782ca8082c4d5bcdd1ffb3c006be54170bd5，费率 10000，步距 200，钩子在 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0。这不是随手一局——其中一个代币，我在上一场里见过。有人正在收牌。\n\n再往前三个区块，26036523：0xc84782858b7bef5d25182dbac956a6aa463aefe5 对 USDT，三千基点，步距 61，钩子在 0x8409dd13074e8018c3999d8405a6d328f19d2a80。USDT 落于 V4，是少见的事。稳定币素来守旧，多留在旧门派的牌桌上。此处却有人偏要换一种打法。\n\n再往前十四个区块，26036539：ETH 对 0xc8987e2a5c68a881d7f4c0bc6130697ae891f91e，零费，步距 200，钩子在 0x0d62529346ac2c61f5c0582210d01214687bc0cc。免费的入口，总带着气味。要么是为某种特定局面备下的内力，要么是给套利客下的活饵。\n\n还有 26036885：ETH 对 0x285f8dcc3094f86ec20adfe3c150611993c1ffff，费 8388608——极高，几乎封路。步距 10，窄巷一条。钩子在 0xf067c780c18e230958fb35c2455cee381864e0c0。有人在这里筑墙。一局四池，牌面各异，心法各异。有人发牌快而不看，有人洗牌图的是长局。我只在旁看牌落。"
+   },
+   "take": {
+    "en": "Four pools in one session, each with its own hook and appetite: someone is not playing a hand, they are building a deck. The pattern is the tell, not any single card.",
+    "zh": "一局四池，四枚钩子，四般心法：这不是随手押注，是有人在攒一副牌。信号在牌路，不在单张牌面。"
+   }
+  },
+  {
    "date": "2026-09-22",
    "narrative": {
     "en": "The night's mempool dealt a hand that doesn't smell like chance. Ten pools, zero fee, all from the same hook contract — 0xb741a710 — firing inside fourteen blocks, ETH paired against ten different tokens, spacing set at 60. Nobody deals ten identical structures by accident. Either a simulation swarm for hook mechanics, or a basket staged for a gas-priority arb bot. Too synchronized to be a stray shuffle.\n\nEarlier, block 26029489 laid down two more from 0xefe3aa7df: PYTH/USDC with one basis point and spacing 10, and a second pool, 0x22ae3d9a against 0x6c3ea903, zero fee, same spacing. Both in one block. Dense grid, high-volatility hunting — someone knows the felt and where to place the chips.\n\nThe pearl: block 26029503, USDT against 0xdae0fafd65385e7775cf75b1398735155ef6acd2, fee 8388608. That's the ceiling — one hundred percent. Not a trading pool. A hook intermediary taking the whole cut, or a way to pin flow direction without fear of withdrawal. The kind of move made when you want execution outside the standard route.\n\nThe deck is being seeded with every strategy from high-frequency grid to fee-locked exotics. The house doesn't shuffle this deliberately without a reason.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Two hooked V4 pools, one day, 323 blocks apart — that is a test rig, not a market. The only signal worth reading is whether the hook addresses trace to a single deployer; until liquidity shows up, the rest is noise wearing a suit.",
     "zh": "一日之内两处新池、相隔 323 个区块，这不是行情，是试阵。该看的不是费率，而是两只钩子是否同出一位 deployer——水未聚、气未成之前，热闹皆是虚声。"
-   }
-  },
-  {
-   "date": "2026-09-09",
-   "narrative": {
-    "en": "…and the night's mempool haul is in. Three fresh V4 pools, each with its own tell. The first, block 25936624, reeks of the sandbox — tokens that never saw a real ledger, fee set to zero, tickSpacing 200. Its hook at 0x322d… is an empty contract, no external functions at all. Someone just wanted to see if a transaction would clear with minimal gas. It did.\n\nThe second, sitting on 60 ticks, is more interesting. Fees still zero, but the hook address 0xba32c… hides a dynamic distributor. I dug into its bytecode: it's not listening, it's intercepting. beforeSwap rewrites the course by a couple of basis points depending on block time. That's not a toy — that's a temporal arb bot already embedded inside a single pool.\n\nThe third is the salt. Block 25936406, USDC against 0x4580…, fee 8388608 — the hex mask for 0.08%, but tickSpacing is only 10. A dense lattice. The hook at 0xbd90e… calls an external oracle on every beforeAddLiquidity. Not Chainlink. A custom contract I couldn't decrypt overnight. Somebody is building a managed pool with outside pricing — and they don't want it read too easily.\n\nThen came PR #599 from ccashwell in v4-periphery, a function called _mapSwapAmount. It lets the hook rewrite the swap amount mid-execution, not just before. Before, a hook could only say yes or no at the door. Now it can pull a knife and trim the bet if the pool starts slipping. The night made one thing clear: V4 is no longer a plaything. Hooks are growing muscle, and if you're not reading the bytecode of every new pool, you're sitting at the felt against a deck where half the cards are already marked.",
-    "zh": "……夜里从内存池里捞出的三条消息，各藏各的门道。第一池，区块25936624，满身沙尘味儿——代币像是刚从演武场放出来的，手续费零，tick间隔200。钩子0x322d…是个空壳，翻遍全身没找到外功招式。不过是个过路人，试探这江湖的水深火热带了多少气力。他过去了。\n\n第二池，六十格天罡，看着就非池中之物。同样零费用，钩子0xba32c…内藏一套动态乾坤。我拆其经脉，发现它不在前门听风，而是在beforeSwap处动手脚——按区块时辰改一丝折算价，几个基点的偏差。这不是木桩上练刀，而是有人已在单池之内布下了时间套利的暗器。\n\n第三池才是真正的江湖夜雨。区块25936406，USDC兑0x4580…，手续费8388608，即0.08%的十六进制面具，但tickSpacing却压到十格——阵眼密如棋局。钩子0xbd90e…每次入金前都要通灵一次外部预言，不是Chainlink那等名门正派，而是一个我连夜看不透的野狐禅。有人在铸一个由外部定价的managed池，不愿轻易让人读懂。\n\n紧接着，v4-periphery收到ccashwell的PR #599——_mapSwapAmount。此功能让钩子在交易执行中途改抹金额，而非仅在门前喝止。过去，钩子只能说‘可’或‘不可’；如今，它能在滑点袭来时抽刀割肉，半路截下仓位。此夜之后，V4已不再是少年游侠的玩具。钩子们长出了筋骨。你若还是只看招式、不察真气，那在江湖牌局上，你还没落座，便已输了三分——因为对家的牌，早做了手脚。"
-   },
-   "take": {
-    "en": "The era of passive hooks is dead — if you're not reading every bytecode, you're betting blind against a deck where someone has already marked the cards.",
-    "zh": "江湖规矩变了：钩子早已不是守门人，而是能在交易途中临阵变卦的刺客。若不逐字节读清每一条暗道，你连对手的兵器谱都没瞧见，怎么死的都不知道。"
    }
   }
  ]
