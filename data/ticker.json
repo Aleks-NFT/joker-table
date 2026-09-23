@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-23T14:48:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26040878. Tokens: 0x0000000000000000000000000000000000000000 / 0x69c869832f4f4dd714d9fae20331ce3567b57254. Fee:...",
+   "url": "https://etherscan.io/tx/0xb39906a31275eb239fd2490cc2af8488bbb451b8676625b1256fe369d2cd03c4"
+  },
+  {
    "ts": "2026-09-23T13:50:47Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "USDG / USDC TVL shrank 40% to $2,840,370",
    "url": "https://www.geckoterminal.com/eth/pools/0xeda62d2906d0edf26d40c793d581609552a44a87f618a98ff76ebe8dde4b7edb"
-  },
-  {
-   "ts": "2026-09-23T04:30:02Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: LBTC / cbBTC 0.02% — $4,296,695 24h volume, $11,973,592 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x90512722b19945c7ec2746e34f45c301a5dadc830bb669056fa5fd5ad943e06e"
   }
  ]
 }
