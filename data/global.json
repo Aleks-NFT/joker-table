@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-23T04:13:27Z",
+ "generated_at": "2026-09-23T05:13:30Z",
  "history": [
-  {
-   "date": "2026-08-24",
-   "volume_24h_usd": 920928546.0,
-   "fees_24h_usd": 2293633.0,
-   "eth_share_pct": 36.0
-  },
   {
    "date": "2026-08-25",
    "volume_24h_usd": 1052501330.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1599724446.0,
    "fees_24h_usd": 3240219.0,
    "eth_share_pct": 42.7
+  },
+  {
+   "date": "2026-09-23",
+   "volume_24h_usd": 1517767349.0,
+   "fees_24h_usd": 3498688.0,
+   "eth_share_pct": 42.7
   }
  ],
  "chains_top": {
-  "Ethereum": 675172369,
-  "Robinhood Chain": 599082184,
-  "Base": 93768063,
-  "BSC": 74452876,
-  "Arbitrum": 44997673,
-  "Monad": 33336722,
-  "Polygon": 30737944,
-  "Arc": 30092149
+  "Ethereum": 642229607,
+  "Robinhood Chain": 584515843,
+  "Base": 77824365,
+  "BSC": 67745164,
+  "Arc": 35292619,
+  "Arbitrum": 33950288,
+  "Polygon": 32935679,
+  "Monad": 28951087
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (10 posts)",
+   "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",
+   "occurred_at": "2026-09-23T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: PGov Delegate Platform (73 posts)",
    "url": "https://gov.uniswap.org/t/pgov-delegate-platform/22271",

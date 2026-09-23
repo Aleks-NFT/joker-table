@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-23T04:13:27Z",
+ "generated_at": "2026-09-23T05:13:30Z",
  "total_hooks": 5246,
  "total_pools": 15919,
  "multi_pool_hooks": 464,
@@ -3590,8 +3590,8 @@
   {
    "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
    "address_short": "0xc298…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "RobinVistaHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
    "pool_count": 10,
    "permissions_human": [
@@ -6425,8 +6425,8 @@
   {
    "address": "0xe99f1ebc0e0c95d8d65feb1cfc8d851dc5aea0c0",
    "address_short": "0xe99f…a0c0",
-   "name": "",
-   "verified": false,
+   "name": "FusingFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xe99f1ebc0e0c95d8d65feb1cfc8d851dc5aea0c0",
    "pool_count": 3,
    "permissions_human": [
