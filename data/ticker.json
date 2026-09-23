@@ -2,11 +2,46 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-23T05:49:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26038201. Tokens: 0x0000000000000000000000000000000000000000 / 0x5ffc25cc7d3b7e2e0d95eedc24b7079c0f716c1c. Fee:...",
+   "url": "https://etherscan.io/tx/0x5c7163e93ce1294c1503ed5a25f22959da3fc2b1f97cf4afa6cf87f07ef8d47e"
+  },
+  {
+   "ts": "2026-09-23T05:46:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26038188. Tokens: 0x0000000000000000000000000000000000000000 / 0x00c6a7b66eb8610d6f070038d583d20d349aec8b. Fee:...",
+   "url": "https://etherscan.io/tx/0x570b9063a82dbe5643e0a8bdf1732da30e6ccb4c20683b76d441c644fbfe069a"
+  },
+  {
+   "ts": "2026-09-23T05:35:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26038134. Tokens: 0x1e8e86acdd79a2f6e953cc6ffe566a57d8c74658 / 0x33483a58079b4225b10e57958ca28ad7b9cdbaf7. Fee:...",
+   "url": "https://etherscan.io/tx/0x9f439d895c43020e72dcf49b7b2b1a28ca8936165189c321b55fc59d87bc2e04"
+  },
+  {
+   "ts": "2026-09-23T05:26:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26038088. Tokens: 0x0000000000000000000000000000000000000000 / 0x702108b47585cfd76035210ed9406be08c7dda20. Fee:...",
+   "url": "https://etherscan.io/tx/0xa1ae3082309d7c9bdae8e08fb5e08c36520ebc21df48f095c1b606fc72fcf574"
+  },
+  {
    "ts": "2026-09-23T05:00:02Z",
    "suit": "spade",
    "source": "governance",
    "text": "Uniswap gov forum active thread: Axia Network Delegate Platform (10 posts)",
    "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036"
+  },
+  {
+   "ts": "2026-09-23T04:55:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26037934. Tokens: 0x0000000000000000000000000000000000000000 / 0xa69583ab9d44bde0c09fe823ca47e318975b82ca. Fee:...",
+   "url": "https://etherscan.io/tx/0xfad7632d30f546261a3d8025ba53c76ef88914a39fb89ff51a5d85b776deba4c"
   },
   {
    "ts": "2026-09-23T04:30:02Z",
@@ -49,6 +84,20 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: PST / PYUSD — $10,516,574 24h volume, $10,205,917 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0x0ff0ded171e15f11bb295eb08eb1dd11f405b71ea61f136c4b197cce78672edf"
+  },
+  {
+   "ts": "2026-09-23T04:16:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26037739. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xd0e57e8b46038268fcb09478054b6f08792bd786. Fee:...",
+   "url": "https://etherscan.io/tx/0xeb2ba914ac2f8d43907eb0d49ace8cd097edbc482e60c55ce194cf430b69f18b"
+  },
+  {
+   "ts": "2026-09-23T04:04:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26037679. Tokens: 0x0000000000000000000000000000000000000000 / 0x664bf7d7bb10a424c5977991351d2c4eed4fc2b0. Fee:...",
+   "url": "https://etherscan.io/tx/0xeaa8f35e15a7313d6f44e87cb5af0ed11fe90393b20bfaa644de17b5714a3c02"
   },
   {
    "ts": "2026-09-23T03:53:23Z",
@@ -161,55 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26036523. Tokens: 0xc84782858b7bef5d25182dbac956a6aa463aefe5 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
    "url": "https://etherscan.io/tx/0x6ad17a6b96a63605c60ab0b071d27f1af01593ed6dbb46fef0a5d6d10ed1f72d"
-  },
-  {
-   "ts": "2026-09-22T23:54:33Z",
-   "suit": "club",
-   "source": "github",
-   "text": "dianakocsis opened PR #605 in v4-periphery: 'dev UR 2.3.0'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/605"
-  },
-  {
-   "ts": "2026-09-22T23:54:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "dianakocsis merged PR #604 in v4-periphery: 'revert: restore hook-funded input tolerance on exact-output swaps (reverts #601)'",
-   "url": "https://github.com/Uniswap/v4-periphery/pull/604"
-  },
-  {
-   "ts": "2026-09-22T23:45:54Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: OrganikCncpt/qpull — 0★ — The Uniswap v4 tax hook behind QuoPull, and the onchain prize games it funds. Robinhood Chain.",
-   "url": "https://github.com/OrganikCncpt/qpull"
-  },
-  {
-   "ts": "2026-09-22T23:20:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26036267. Tokens: 0xb0a7c9dc97ebf0a7cc3db0a85d646d9d35c7c281 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
-   "url": "https://etherscan.io/tx/0xc522d207a34868c7ce8a0487acf042575ebc2b0317d9ed5f8fffa14fc8668f59"
-  },
-  {
-   "ts": "2026-09-22T23:16:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26036246. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xfa9565c8ef5448ad39fa7ab7db59bcd7cdc474b9. Fee:...",
-   "url": "https://etherscan.io/tx/0x0d9ef7550cca4b42a02c9da7323809647cf7af1680668fd2a8049608ad6a96d5"
-  },
-  {
-   "ts": "2026-09-22T22:45:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26036092. Tokens: 0x0000000000000000000000000000000000000000 / 0x11e29ea8da814fe24cfbbdbafd25e1197f0dba05. Fee:...",
-   "url": "https://etherscan.io/tx/0xf82652e2364fff3332b2ac609264af7ff99fed5e7542a0455e5d8edb4a340e46"
-  },
-  {
-   "ts": "2026-09-22T22:23:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26035983. Tokens: 0x58d7fa7356d68c494c2de09f95d55c2ff2d38bd3 / 0xd536e7a9543cf9867a580b45cec7f748a1fe11ec. Fee:...",
-   "url": "https://etherscan.io/tx/0xa410dbccb8840b33f90a3551fae39bae0e358f9bfa0514b6ba502fee1f1ffa98"
   }
  ]
 }
