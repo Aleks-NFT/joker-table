@@ -16,6 +16,13 @@
    "url": "https://etherscan.io/tx/0x290bdfd3f7a01c814ec9489ce6f825f4c7ceaac806c23674f7152196505e99db"
   },
   {
+   "ts": "2026-09-24T21:51:53Z",
+   "suit": "spade",
+   "source": "unichain",
+   "text": "New Uniswap V4 hook pool initialized on Unichain at block 59538354. Tokens: 0x0df53ed90454dc2981b94c4634aa2e355ba17b07 / 0x4200000000000000000000000000000000...",
+   "url": "https://uniscan.xyz/tx/0x594cd4fd791a3e9e476670efaf2f7377b7e5b7774bd413e5549d8fa8704516bb"
+  },
+  {
    "ts": "2026-09-24T21:49:59Z",
    "suit": "spade",
    "source": "etherscan",
@@ -203,13 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26049736. Tokens: 0x54d2252757e1672eead234d27b1270728ff90581 / 0xfa8915052a96108d597f0e01125c85e1683f8888. Fee:...",
    "url": "https://etherscan.io/tx/0xa22416a48cb7bed192d108dd712fd9026b648f1bbb9b34cde74db112913b34d0"
-  },
-  {
-   "ts": "2026-09-24T20:35:26Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: record the initialization baseline through _recordTickLowerLast'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/e798d75dddca9a1d830c7a5f291b06edbca3926b"
   }
  ]
 }
