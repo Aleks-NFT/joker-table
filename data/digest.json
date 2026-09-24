@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-24",
+   "narrative": {
+    "en": "Last night the deck dealt two cards in a row, same pattern showing. Two V4 pools with hooks, initialized 260 blocks apart — first at 26043662, second at 26043922 — both pairing native ETH with tokens walking in from the same back room. The addresses are 0xbc3a8ab9a5617d3f7a58df1b5a851c0254e970f7 and 0xf8bd4871a19acf8d1ffefbb6535d80677af0c740: not scrap, not test dummies, live contracts with history. The only tell between them is the spacing: one set at 200, the other at 60 — different depth, different crowd. 200 is for wide swings; 60 is for aggressive play inside a narrow range.\n\nBoth pools run zero fees. In V4 that means the rake doesn't move through the standard mechanism; it moves through hooks. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc and 0xe6a1b2c9ab579721cc82888ca7d1b07d7fe54500 aren't just contracts; they're the logic deciding who gets paid and how much. Somebody is clearly preparing mechanics where the cut isn't distributed by the old book.\n\nThe real tell is the window. Two pools, two hooks, two different parameter sets — all inside one narrow stretch. That isn't chance. Somebody is dealing a grid, testing a strategy, or laying groundwork for a more complex construction. Maybe one hook steers the other, or they're tied through a shared oracle. Pool IDs: 0x3796c7b34e56269629b6ffae92c2a6614f5eb1a9a3c705db4a4fe4bab9d579d3 and 0xc37eaf5b93ceaab0fa1aff3a1eb93e6701747e0e9aa0e5be089e916fae4ab82f. Different hands, same shuffling algorithm. All that's left is to wait for the next cards.",
+    "zh": "昨夜江湖并排亮起两盏灯：两座 V4 池，带钩，前后只差二百六十个区块落子——先者 26043662，后者 26043922。二者都以原生 ETH 配对外来代币，而那些代币同出一门。地址是 0xbc3a8ab9a5617d3f7a58df1b5a851c0254e970f7 与 0xf8bd4871a19acf8d1ffefbb6535d80677af0c740，不是废纸，也不是试剑石，是有过往的活契约。二者只差一线：刻度一宽二百，一窄六十。宽者容大开大合，窄者供人在狭处快进快出。内力深浅不同，来路自然不同。\n\n两池皆零费。V4 之中，这意味着收益不走旧路，而由钩来分。0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 与 0xe6a1b2c9ab579721cc82888ca7d1b07d7fe54500 不只是合约，是决定谁得多少的规矩。有人显然在布一套新算盘：抽成不再按老谱来分。\n\n最要紧的是时辰。两池、两钩、两套参数，却落在同一扇窗里。这不是偶然。有人在下网，或试阵，或在为更复杂的楼阁打地基。也许一钩驭另一钩，也许二者共用一座神谕。池引：0x3796c7b34e56269629b6ffae92c2a6614f5eb1a9a3c705db4a4fe4bab9d579d3 与 0xc37eaf5b93ceaab0fa1aff3a1eb93e6701747e0e9aa0e5be089e916fae4ab82f。看似不同，细看却像同一只手在洗牌，只是算法代了手。接下来翻什么牌，只能等。"
+   },
+   "take": {
+    "en": "Two pools, two hooks, one window — the house isn't decorating the felt, it's rewriting how the rake moves.",
+    "zh": "两池两钩同落一窗，说明有人不在装饰门面，而在改抽成的规矩。牌未翻尽，先看洗牌的手。"
+   }
+  },
+  {
    "date": "2026-09-23",
    "narrative": {
     "en": "Block 26037053, and the felt has a new V4 pool on Uniswap: 0xd31a59c85ae9d8edefec411d448f90841571b89c against 0xf542782ca8082c4d5bcdd1ffb3c006be54170bd5, stake 10000, spacing 200, hook at 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0. This is not a random pair — one of the tokens I have already seen in the previous deal. Someone is collecting the deck.\n\nThree blocks back, 26036523: 0xc84782858b7bef5d25182dbac956a6aa463aefe5 against USDT, 3000 basis points, spacing 61, hook at 0x8409dd13074e8018c3999d8405a6d328f19d2a80. USDT on V4 is a rarity. Stablecoins usually stay on the old suits. Here, someone chose to play a new hand.\n\nFourteen blocks before that, 26036539: ETH against 0xc8987e2a5c68a881d7f4c0bc6130697ae891f91e, zero fee, spacing 200, hook at 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Free entry always has a smell — liquidity for a specific scenario, or a live bait for the arbitrageur.\n\nAnd 26036885: ETH against 0x285f8dcc3094f86ec20adfe3c150611993c1ffff, fee 8388608 — the maximum, almost blocking. Spacing 10, a narrow corridor. Hook at 0xf067c780c18e230958fb35c2455cee381864e0c0. Someone is putting up a wall. Four pools in one session. Different pairs, different strategies. One deals fast without looking; another shuffles for the long game. I just watch the cards fall.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Four initializations within a few thousand blocks is a pattern, not a coincidence — someone is dealing the same hand onto different tables, and the only one that matters is the mirrored pair of zero-fee ETH pools.",
     "zh": "几千区块之内四次建池，不是风吹草动，而是有人反复试同一套招式；真正值得看的是那两口镜像的零费 ETH 池，池浅者不过回声。"
-   }
-  },
-  {
-   "date": "2026-09-10",
-   "narrative": {
-    "en": "The night deals again, and the felt takes two new pools — both on Uniswap V4, both wearing hooks, both cut into the ledger inside a single day. Set them side by side and the symmetry quits early.\n\nThe first: USDC against something calling itself DAE. The fee reads 8388608 — that is not a house percentage, no base rate ever printed a number like that. Numbers like that get placed on purpose, either to tax volatility hard or to wave liquidity in under a feather-light load. Hooks at 0xd06a... are a sealed box; who wrote the logic, and by what rule it takes its cut, is not on the table. Tick spacing 60 — too wide for the scalpers, too tight for the sleepers.\n\nThe second: ETH against 0x20d1..., an asset with no name worth repeating. Fee 3000, the plain three-tenths of a percent, no theatrics. The hooks at 0x39b2... are the one element at that table that can change the rules mid-hand; when one side of the pair is native ETH and the other is shallow, hooks tend to be filters against swaps nobody asked for, or brakes on slippage. Tick spacing 60 again. Standard.\n\nWhat ties them is that they did not arrive by accident: 323 blocks apart, same day, same infrastructure. Somebody is working the V4 rig — one hand laying hooks on different pairs to watch how they behave when the water turns, or two hands dealing from the same habits. The addresses will confess. If both hooks trace to a single deployer, that is not coincidence, that is a pattern. The deck is being shuffled, V4 hands out more degrees of freedom, and every new hook is a bet placed before the cards turn. 18003 and 18002 sit adjacent in the log; the only play left is to watch which pool fills first, and who moves the price.",
-    "zh": "夜里江湖又添两处新场子，都在 Uniswap V4 的地界上，都挂着钩子，前后不过一日之隔。摆在一处看，对称感很快就散了。\n\n头一处，USDC 对着一个唤作 DAE 的角色。费率写作 8388608，这不是寻常门派的规矩，江湖上没人这么收费。这样的数目是刻意落下的：要么在动荡时狠收一笔，要么以极轻的担子引内力入池。钩子 0xd06a... 是一只封着的匣子，谁写的、守的是什么规矩，外头看不出来。tick spacing 60，不快不慢，既不迎短线客，也不留久坐人。\n\n第二处更有意思。ETH 对着 0x20d1...，一个没名号的角色。费率 3000，老实的千分之三，没有花样。真正能动规矩的只有钩子 0x39b2...。一边是本门的 ETH，一边是水浅的资产，钩子多半用来挡掉不合心意的换手，或是压一压滑点。tick spacing 仍是 60，算是通例。\n\n两处为何同日现世、相隔 323 个区块？这不像偶遇。要么是同一位匠人给不同的对子试钩，看它们在各种局面下的反应；要么是两个门派路数相近，那便该去看钩子的地址——若同出一位 deployer，就不是巧合，是章法。V4 给的自由多了，可每挂一只新钩，都是一注。牌未翻，能做的只有看：谁先往里添内力，谁先动价。18003、18002，两条记在册上，挨着。"
-   },
-   "take": {
-    "en": "Two hooked V4 pools, one day, 323 blocks apart — that is a test rig, not a market. The only signal worth reading is whether the hook addresses trace to a single deployer; until liquidity shows up, the rest is noise wearing a suit.",
-    "zh": "一日之内两处新池、相隔 323 个区块，这不是行情，是试阵。该看的不是费率，而是两只钩子是否同出一位 deployer——水未聚、气未成之前，热闹皆是虚声。"
    }
   }
  ]
