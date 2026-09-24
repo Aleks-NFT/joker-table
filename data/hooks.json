@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-23T23:13:28Z",
- "total_hooks": 5268,
- "total_pools": 15966,
+ "generated_at": "2026-09-24T00:13:29Z",
+ "total_hooks": 5271,
+ "total_pools": 15972,
  "multi_pool_hooks": 465,
  "shown": 465,
  "more_count": 0,
@@ -181,7 +181,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 307,
+   "pool_count": 308,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -195,8 +195,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26042938,
-   "last_deploy": "2026-09-23T22:00:02Z",
+   "last_block": 26043548,
+   "last_deploy": "2026-09-24T00:00:02Z",
    "active": true,
    "visible": true
   },
@@ -952,7 +952,7 @@
    "first_block": 25125024,
    "last_block": 25993317,
    "last_deploy": "2026-09-17T00:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -2870,6 +2870,31 @@
    "visible": false
   },
   {
+   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "address_short": "0xc298…a0cc",
+   "name": "RobinVistaHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "pool_count": 12,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26033423,
+   "last_block": 26043570,
+   "last_deploy": "2026-09-24T00:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x8ed3501ed36784356a06b5bf6ec4d6fd6af940cc",
    "address_short": "0x8ed3…40cc",
    "name": "FiverHook",
@@ -3608,31 +3633,6 @@
    "last_block": 25558659,
    "last_deploy": "2026-07-18T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "address_short": "0xc298…a0cc",
-   "name": "RobinVistaHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 10,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26033423,
-   "last_block": 26037580,
-   "last_deploy": "2026-09-23T04:00:02Z",
-   "active": true,
    "visible": false
   },
   {
