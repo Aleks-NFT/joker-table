@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T04:13:29Z",
+ "generated_at": "2026-09-24T05:13:28Z",
  "history": [
-  {
-   "date": "2026-08-25",
-   "volume_24h_usd": 1052501330.0,
-   "fees_24h_usd": 2319118.0,
-   "eth_share_pct": 45.6
-  },
   {
    "date": "2026-08-26",
    "volume_24h_usd": 1179259585.0,
@@ -181,47 +175,53 @@
    "volume_24h_usd": 1517767349.0,
    "fees_24h_usd": 3498688.0,
    "eth_share_pct": 42.7
+  },
+  {
+   "date": "2026-09-24",
+   "volume_24h_usd": 1354615275.0,
+   "fees_24h_usd": 3163509.0,
+   "eth_share_pct": 39.5
   }
  ],
  "chains_top": {
-  "Ethereum": 642229607,
-  "Robinhood Chain": 584515843,
-  "Base": 77824365,
-  "BSC": 67745164,
-  "Arc": 35292619,
-  "Arbitrum": 33950288,
-  "Polygon": 32935679,
-  "Monad": 28951087
+  "Robinhood Chain": 536556408,
+  "Ethereum": 529735747,
+  "Base": 77663409,
+  "BSC": 71540372,
+  "Arc": 43575149,
+  "Arbitrum": 29451421,
+  "Monad": 28378082,
+  "Polygon": 25301399
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [Temp Check] Protocol Fee Expansion: Arc (5 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-protocol-fee-expansion-arc/26287",
+   "occurred_at": "2026-09-24T05:00:03Z",
+   "active": false
+  },
+  {
+   "event": "Uniswap gov forum active thread: [Temp Check] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (6 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",
+   "occurred_at": "2026-09-24T05:00:03Z",
+   "active": false
+  },
+  {
+   "event": "Uniswap governance (Snapshot) closed: Protocol Fee Expansion: Arc (ended 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e",
+   "occurred_at": "2026-09-24T05:00:02Z",
+   "active": false
+  },
+  {
+   "event": "Uniswap governance (Snapshot) closed: Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (ended 2026-09-23)",
+   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9",
+   "occurred_at": "2026-09-24T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (10 posts)",
    "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",
    "occurred_at": "2026-09-23T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: PGov Delegate Platform (73 posts)",
-   "url": "https://gov.uniswap.org/t/pgov-delegate-platform/22271",
-   "occurred_at": "2026-09-19T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap governance (Snapshot) active: Protocol Fee Expansion: Arc (ends 2026-09-23)",
-   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e",
-   "occurred_at": "2026-09-19T05:00:02Z",
-   "active": true
-  },
-  {
-   "event": "Uniswap governance (Snapshot) active: Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (ends 2026-09-23)",
-   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9",
-   "occurred_at": "2026-09-19T05:00:02Z",
-   "active": true
-  },
-  {
-   "event": "Uniswap gov forum active thread: [RFC] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (5 posts)",
-   "url": "https://gov.uniswap.org/t/rfc-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",
-   "occurred_at": "2026-09-17T05:00:03Z",
    "active": false
   }
  ],
