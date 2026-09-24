@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T17:13:29Z",
- "total_hooks": 5286,
- "total_pools": 16143,
+ "generated_at": "2026-09-24T18:11:52Z",
+ "total_hooks": 5291,
+ "total_pools": 16221,
  "multi_pool_hooks": 468,
  "shown": 468,
  "more_count": 0,
@@ -109,7 +109,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 366,
+   "pool_count": 435,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -118,8 +118,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26048363,
-   "last_deploy": "2026-09-24T16:00:02Z",
+   "last_block": 26048950,
+   "last_deploy": "2026-09-24T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -2426,6 +2426,31 @@
    "visible": false
   },
   {
+   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "address_short": "0xc298…a0cc",
+   "name": "RobinVistaHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26033423,
+   "last_block": 26048825,
+   "last_deploy": "2026-09-24T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xd3aee1d3d02ae89a7fae8e13e2868a473d4b9000",
    "address_short": "0xd3ae…9000",
    "name": "SaturnOmnichainV4Hook",
@@ -2890,31 +2915,6 @@
    "last_block": 25997620,
    "last_deploy": "2026-09-17T14:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "address_short": "0xc298…a0cc",
-   "name": "RobinVistaHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 12,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26033423,
-   "last_block": 26043570,
-   "last_deploy": "2026-09-24T00:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6166,6 +6166,29 @@
    "visible": false
   },
   {
+   "address": "0x8593d5f1fa2a074a257edacb6dd1cdf51d96c0cc",
+   "address_short": "0x8593…c0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x8593d5f1fa2a074a257edacb6dd1cdf51d96c0cc",
+   "pool_count": 3,
+   "permissions_human": [
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26047028,
+   "last_block": 26048944,
+   "last_deploy": "2026-09-24T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x924e5c44c3b82c2c0ba231cd0de7b581180e1bc0",
    "address_short": "0x924e…1bc0",
    "name": "EMADynamicFeeHook",
@@ -8647,29 +8670,6 @@
    "last_block": 25898644,
    "last_deploy": "2026-09-03T20:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8593d5f1fa2a074a257edacb6dd1cdf51d96c0cc",
-   "address_short": "0x8593…c0cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x8593d5f1fa2a074a257edacb6dd1cdf51d96c0cc",
-   "pool_count": 2,
-   "permissions_human": [
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26047028,
-   "last_block": 26047448,
-   "last_deploy": "2026-09-24T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
