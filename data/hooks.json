@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-25T09:13:30Z",
- "total_hooks": 5328,
- "total_pools": 16441,
+ "generated_at": "2026-09-25T10:13:30Z",
+ "total_hooks": 5329,
+ "total_pools": 16446,
  "multi_pool_hooks": 472,
  "shown": 472,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 573,
+   "pool_count": 576,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -70,8 +70,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26053083,
-   "last_deploy": "2026-09-25T08:00:02Z",
+   "last_block": 26053523,
+   "last_deploy": "2026-09-25T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1104,7 +1104,7 @@
    "name": "RobinVistaHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 32,
+   "pool_count": 33,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -1118,8 +1118,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26033423,
-   "last_block": 26052553,
-   "last_deploy": "2026-09-25T08:00:02Z",
+   "last_block": 26053351,
+   "last_deploy": "2026-09-25T10:00:02Z",
    "active": true,
    "visible": false
   },
