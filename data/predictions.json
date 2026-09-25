@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 27,
-  "miss": 20,
-  "open": 3,
-  "hit_rate": 0.574
+  "miss": 19,
+  "open": 4,
+  "hit_rate": 0.587
  },
  "items": [
+  {
+   "id": 80,
+   "made_at": "2026-09-25",
+   "text": "Over the next seven days I will take the over on the count clearing nine — the likely landing sits between seven and forty-seven, and I give the over about fifty-two percent. What we are watching is a single hand dealing pool after pool in unbroken succession, far quicker than the usual pace of anyone setting up a table.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-02",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 79,
    "made_at": "2026-09-24",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-18",
    "status": "miss",
    "resolution_note": "Confirmed: target +472 on metric tickspacing_lt10_hooks not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 30,
-   "made_at": "2026-07-10",
-   "text": "Over the next 7 days the count of pools using dynamic-fee hooks will exceed 10.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-17",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +10 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   }
  ]

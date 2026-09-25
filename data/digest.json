@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-25",
+   "narrative": {
+    "en": "Sixteen pools, thirty blocks, one hand dealing. The contract at 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0 does not hesitate — identical parameters every time, same commission, same spread, no pause between deals. That is not a gambler at the table. That is a croupier who has already counted the deck.\n\nLook at the pairs. Four of them open against the zero address — that is wrapped ether, the anchor, the base of the felt. The rest are tokens with short pedigrees, some with no liquidity behind them at all. PEPE surfaces twice, once against an unknown counterparty, once against 0x94eaa7251889269765eab45279741a3031840089. And 0x47accd13264d8f954105256faac8376ce6a55999 shows up three times, each time with a different quote on the other side. One base, three partners. Somebody is drawing a grid.\n\n0xc9eef266834730340a55b6cc24621b31baf55581 repeats too — two pools, different pairs, one block between them. And one hook binds them all. A hook like that is not a casual deployment; it is custom machinery, the kind that reaches into a swap before and after it lands, watching, adjusting. Someone is either running an experiment or laying pipe for something larger.\n\nEvery pool is initialized. That does not mean a single coin sits in any of them. If this is only the marking of the field, we hear nothing more. If deposits follow, the shuffle was real. For now: preparation. Clean, fast, no wasted motion. Not one duplicate, not one failure. Whoever this is, they know exactly what they are doing.",
+    "zh": "三十个区块，十六个池子，一条钩子合约一手落子。0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0，招招同式，费率如一，间距如一，中间不留喘息。这不是江湖人随手试剑，这是有人在自家山门前，一寸一寸地量地。\n\n看配对。四池以零地址为基，那是 wrapped ether，是内力最厚的地基。余下的多是新面孔，有些连起手的流动性都还没有。PEPE 现身两次，一次对着无名之辈，一次对着 0x94eaa7251889269765eab45279741a3031840089。而 0x47accd13264d8f954105256faac8376ce6a55999 三度登场，每次对家不同——一个底座，三种手法，这是在布阵，不是在下注。\n\n0xc9eef266834730340a55b6cc24621b31baf55581 也复现了，两池两对，相隔一个区块。十六池同归一钩。钩者，能在换手前后伸手，看得见、也改得动——这不是寻常的合约，这是某个门派的独门心法。有人在试招，也有人在为一场更大的开山做准备。\n\n池子都立起来了，但不等于里面有钱。若只是画地为界，此后当是一片沉寂；若真有人随后注入内力，那便是牌已洗过，局要开了。眼下的动作干净、快、不拖泥带水，无一招重复，无一招落空。此人心里有谱。"
+   },
+   "take": {
+    "en": "Sixteen pools in thirty blocks from a single hook is not noise and it is not a trade — it is infrastructure being laid, and the only question worth asking is whether liquidity follows the scaffolding or the field stays empty.",
+    "zh": "三十个区块十六池，同出一钩，这不是噪声也不是买卖，而是有人在山门前丈量地基——接下来要看的是内力会不会跟着涌进来，还是这片地就此空置。"
+   }
+  },
+  {
    "date": "2026-09-24",
    "narrative": {
     "en": "Last night the deck dealt two cards in a row, same pattern showing. Two V4 pools with hooks, initialized 260 blocks apart — first at 26043662, second at 26043922 — both pairing native ETH with tokens walking in from the same back room. The addresses are 0xbc3a8ab9a5617d3f7a58df1b5a851c0254e970f7 and 0xf8bd4871a19acf8d1ffefbb6535d80677af0c740: not scrap, not test dummies, live contracts with history. The only tell between them is the spacing: one set at 200, the other at 60 — different depth, different crowd. 200 is for wide swings; 60 is for aggressive play inside a narrow range.\n\nBoth pools run zero fees. In V4 that means the rake doesn't move through the standard mechanism; it moves through hooks. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc and 0xe6a1b2c9ab579721cc82888ca7d1b07d7fe54500 aren't just contracts; they're the logic deciding who gets paid and how much. Somebody is clearly preparing mechanics where the cut isn't distributed by the old book.\n\nThe real tell is the window. Two pools, two hooks, two different parameter sets — all inside one narrow stretch. That isn't chance. Somebody is dealing a grid, testing a strategy, or laying groundwork for a more complex construction. Maybe one hook steers the other, or they're tied through a shared oracle. Pool IDs: 0x3796c7b34e56269629b6ffae92c2a6614f5eb1a9a3c705db4a4fe4bab9d579d3 and 0xc37eaf5b93ceaab0fa1aff3a1eb93e6701747e0e9aa0e5be089e916fae4ab82f. Different hands, same shuffling algorithm. All that's left is to wait for the next cards.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "A house that deals without taking a cut is not being generous — it is telling you where it expects to be paid. The rake isn't gone; it's been moved to a different part of the table.",
     "zh": "不收抽成的庄，不是行善，是换了个地方收钱。你看不见的那一份，才最贵。"
-   }
-  },
-  {
-   "date": "2026-09-11",
-   "narrative": {
-    "en": "Four hands dealt inside a few thousand blocks, and the felt is still warm. The earliest landed at block 25950464: native ETH against 0x6605...e6b, zero fee, sixty ticks of spacing, hooks at 0x3ea1...aacc. Narrow, cheap, tidy — the shape of a man who already knows what he wants before he sits down.\n\nThen 25950896, ETH again, partner 0xcc78...1994, zero fee, sixty ticks, hooks 0x0679...faac. Two nearly mirrored hands with different counterparties — same structure, different asset. That is not decoration. Somebody is running one strategy across more than one table and wants the results comparable.\n\nThe house's own variation arrived at 25950888: ETH paired with 0x0101...871f, a hundred basis points of rake and two hundred ticks of spacing, hooks 0xb94c...60c4. Wide spread, heavy fee — a bet on volatility, or insurance around a range meant to stay narrow. Two hundred ticks is room to maneuver. It is not infinity.\n\nAnd 25950661 broke the pattern entirely: 0xc56c...12b8 against 0xdc08...6252, no ETH leg, zero fee, two hundred ticks, hooks 0x6d01...60cc. Two non-native tokens sitting on thin surface liquidity — a sandbox for hook experiments, not a table with real money on it. Thin pools are noise until proven otherwise, and with no ETH leg, any arbitrage has to route the long way around.",
-    "zh": "几千个区块之内，四张牌先后落桌。最早的一手在 25950464 区块：原生 ETH 对上 0x6605...e6b，零手续费，六十格间距，钩子落在 0x3ea1...aacc。路子收得极窄，出手之前心里已有定数。\n\n接着是 25950896，仍是 ETH，对手方 0xcc78...1994，同样零手续费、六十格，钩子 0x0679...faac。两处几乎镜像，只换了对手——这是同一位侠客，在不同资产上试同一套招式，要看内力走势是否一致。钩子不是门面，里面写着东西。\n\n25950888 这一手变了调：ETH 配 0x0101...871f，百分之一的手续费，两百格间距，钩子 0xb94c...60c4。网撒得宽，抽成也重——要么是押波动，要么是给一个本就想收窄的区间留退路。两百格是余地，不是无边。\n\n25950661 则离了 ETH：0xc56c...12b8 对 0xdc08...6252，零手续费，两百格，钩子 0x6d01...60cc。两个非原生代币，面上内力稀薄，是演练钩法的沙地，不是值得下注的擂台。少了 ETH 这条腿，想在此处套利，只能绕道而行。"
-   },
-   "take": {
-    "en": "Four initializations within a few thousand blocks is a pattern, not a coincidence — someone is dealing the same hand onto different tables, and the only one that matters is the mirrored pair of zero-fee ETH pools.",
-    "zh": "几千区块之内四次建池，不是风吹草动，而是有人反复试同一套招式；真正值得看的是那两口镜像的零费 ETH 池，池浅者不过回声。"
    }
   }
  ]
