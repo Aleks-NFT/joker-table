@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-25T04:13:28Z",
+ "generated_at": "2026-09-25T05:13:28Z",
  "total_hooks": 5326,
  "total_pools": 16405,
  "multi_pool_hooks": 472,
@@ -5546,8 +5546,8 @@
   {
    "address": "0xbc99208b0e967468b21e62fc9494d98f2bfb40cc",
    "address_short": "0xbc99…40cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbc99208b0e967468b21e62fc9494d98f2bfb40cc",
    "pool_count": 4,
    "permissions_human": [
@@ -5980,8 +5980,8 @@
   {
    "address": "0x3e0c640d5581b0f28cd2d520c94f88c24c0968cc",
    "address_short": "0x3e0c…68cc",
-   "name": "",
-   "verified": false,
+   "name": "SteadyHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x3e0c640d5581b0f28cd2d520c94f88c24c0968cc",
    "pool_count": 3,
    "permissions_human": [
@@ -7631,8 +7631,8 @@
   {
    "address": "0x466c8db79c6bc1516c462173a3a4ce891fe02080",
    "address_short": "0x466c…2080",
-   "name": "",
-   "verified": false,
+   "name": "StonksPadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x466c8db79c6bc1516c462173a3a4ce891fe02080",
    "pool_count": 2,
    "permissions_human": [
@@ -10379,8 +10379,8 @@
   {
    "address": "0xe074511b64f79f7259f5953afdc17220e534c040",
    "address_short": "0xe074…c040",
-   "name": "",
-   "verified": false,
+   "name": "WormsHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xe074511b64f79f7259f5953afdc17220e534c040",
    "pool_count": 2,
    "permissions_human": [
@@ -10739,8 +10739,8 @@
   {
    "address": "0xfdca76bcb9f811c43f08c18af0c546ba589bc0cc",
    "address_short": "0xfdca…c0cc",
-   "name": "",
-   "verified": false,
+   "name": "IMDSTRHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xfdca76bcb9f811c43f08c18af0c546ba589bc0cc",
    "pool_count": 2,
    "permissions_human": [
