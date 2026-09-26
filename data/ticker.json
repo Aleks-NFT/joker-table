@@ -2,6 +2,125 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-26T01:32:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058365. Tokens: 0x094e559de3f11a114ef3f1553d4913bb9e3cd9c6 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x33f14a9c724182db37f04103ee6851d74eaae180476f2b7d19fff342569b691b"
+  },
+  {
+   "ts": "2026-09-26T01:25:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058329. Tokens: 0x0000000000000000000000000000000000000000 / 0x2710cc54f272bf543cb45c2a8841e7cce8f8f1d4. Fee:...",
+   "url": "https://etherscan.io/tx/0x9e0eff22c70b74409f7f3c152a2170cd6544d94e09eb975fe9ec6412e19456df"
+  },
+  {
+   "ts": "2026-09-26T01:23:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058320. Tokens: 0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce / 0xf7ab3841cd556d4a328bc1082098d0c07d73a8c6. Fee:...",
+   "url": "https://etherscan.io/tx/0x6e58db376c4a44a0a7d7b43f09f5ec03c9cf79f11760f0a58dbd0fca8ab912bb"
+  },
+  {
+   "ts": "2026-09-26T01:12:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058265. Tokens: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 / 0xe10561bbd4c995b951878ff8c051279ad50440be. Fee:...",
+   "url": "https://etherscan.io/tx/0xfcf4d1605fc1d4ed3d3cd583224bcad30cb6591373d687b5f93d4538c2a2b044"
+  },
+  {
+   "ts": "2026-09-26T01:11:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058257. Tokens: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2 / 0x6c0ecbdb15f0143d537d1d4a3c56816d2405d2fb. Fee:...",
+   "url": "https://etherscan.io/tx/0xc678b9e682f4bb1830fb6172f522d96020e32ef43404e3c7bc311eec2649444e"
+  },
+  {
+   "ts": "2026-09-26T01:06:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058235. Tokens: 0x0000000000000000000000000000000000000000 / 0xc1dbf8ef5b51c44ac5be9a6b6085bcb9029ad6d8. Fee:...",
+   "url": "https://etherscan.io/tx/0xcf6fd722f4af110620d9e0c4c695dce3bb633d4227a469c6f3308d727e54e0b9"
+  },
+  {
+   "ts": "2026-09-26T00:56:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058183. Tokens: 0x0000000000000000000000000000000000000000 / 0x649c0809bb4ebcccfe45eecab04a2d374af74c0e. Fee:...",
+   "url": "https://etherscan.io/tx/0xe3360e14bd09d16cc1713839acc12f5f8987a3a336eb5a90096fcbf38f685b39"
+  },
+  {
+   "ts": "2026-09-26T00:21:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26058010. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xd01c752058c15fd72a44d2c6d382cd9a1dc94bc9. Fee:...",
+   "url": "https://etherscan.io/tx/0xd052c6715a111d9c68397145110a3953a180cf102bd4643b7295955a5c2b8549"
+  },
+  {
+   "ts": "2026-09-26T00:20:14Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #199 in uniswap-hooks: 'BaseHook: document non-forwarding overrides and the onlyValidPools scope'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/199"
+  },
+  {
+   "ts": "2026-09-26T00:20:09Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #198 in uniswap-hooks: 'BaseAsyncSwap: document that the LP fee is only reported'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/198"
+  },
+  {
+   "ts": "2026-09-26T00:20:05Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #197 in uniswap-hooks: 'BaseCustomCurve: test that removals settle both currencies before paying out'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/197"
+  },
+  {
+   "ts": "2026-09-26T00:20:01Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc opened PR #196 in uniswap-hooks: 'BaseCustomAccounting: skip the zero native refund'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/196"
+  },
+  {
+   "ts": "2026-09-26T00:10:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26057957. Tokens: 0x0000000000000000000000000000000000000000 / 0xa2ad623fde8421ad5c9f88c8e2d8d64067bfeaef. Fee:...",
+   "url": "https://etherscan.io/tx/0xa9400c26e15091d6c370a88a4ae55e439312a2c77ccf00e37afdd49db2be383d"
+  },
+  {
+   "ts": "2026-09-26T00:08:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26057946. Tokens: 0x0000000000000000000000000000000000000000 / 0x699896f0d2cd31c3cf2e867654e95936c53d7081. Fee:...",
+   "url": "https://etherscan.io/tx/0xed6070ae616565616ef722900cb67172d90e73cbb33d594ee357653d8091b493"
+  },
+  {
+   "ts": "2026-09-26T00:02:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26057918. Tokens: 0x0000000000000000000000000000000000000000 / 0x96b79168dfbc3a53c0e74b1e5a137aa76f2321af. Fee:...",
+   "url": "https://etherscan.io/tx/0xa263cb1e65a13bf24a0be2cd7a75777be8920574e1bfdc533a9e84f2f53417e0"
+  },
+  {
+   "ts": "2026-09-26T00:01:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26057913. Tokens: 0x72e4f9f808c49a2a61de9c5896298920dc4eeea9 / 0x9866b8ce4613d69feb3a043451b7d6232195d40a. Fee:...",
+   "url": "https://etherscan.io/tx/0x4a951214f01e30d1f0289cdc84a649f35f5b400c974d4f7a9bb1aeb69b8750ee"
+  },
+  {
+   "ts": "2026-09-26T00:00:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26057906. Tokens: 0x188b1eda9982384a9e3acc7a729415825618900b / 0xc82d535357bac93ff05a378a5ad5de1caebdd2ac. Fee:...",
+   "url": "https://etherscan.io/tx/0xad7cc9a614aee59b74399b115b546282c17ba6531082fc4d3762512eb288adda"
+  },
+  {
    "ts": "2026-09-25T23:54:17Z",
    "suit": "club",
    "source": "github",
@@ -91,125 +210,6 @@
    "source": "github",
    "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: document that observations record the pool tick (#185)'",
    "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/c77bacd5063feb30c3310c5c0e3cf3d0de0fb4cc"
-  },
-  {
-   "ts": "2026-09-25T23:36:08Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: cover partial consumption in the swap warning'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/8c5ed8fce814e3635e3619f5cb87c7d0fb08c329"
-  },
-  {
-   "ts": "2026-09-25T23:35:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/a26a345dc23063a325d4dd2cce8ba8d34af8cd51"
-  },
-  {
-   "ts": "2026-09-25T23:34:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #183 in uniswap-hooks: 'OracleHookWithV3Adapters: document the permissionless adapter deployment'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/183"
-  },
-  {
-   "ts": "2026-09-25T23:34:35Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'OracleHookWithV3Adapters: document the permissionless adapter deployment (#183)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/323d53fb7c17592b8637841fb298dee4c05000a6"
-  },
-  {
-   "ts": "2026-09-25T23:32:00Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/d41bf0c9a5a9c2e4ec1180076b07c625df271bdb"
-  },
-  {
-   "ts": "2026-09-25T23:31:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #181 in uniswap-hooks: 'BaseOracleHook: document the truncated clamp as a per-observation bound'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/181"
-  },
-  {
-   "ts": "2026-09-25T23:31:39Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: document the truncated clamp as a per-observation bound (#181)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/a664621c88ecfee824d66e1c1651e8ad8e9e53bd"
-  },
-  {
-   "ts": "2026-09-25T23:29:18Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/d65f907f28dbc517d4a49876dc75bfdb253fa0c3"
-  },
-  {
-   "ts": "2026-09-25T23:28:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #194 in uniswap-hooks: 'LimitOrderHook: update the fee accumulator and crossed-order comments'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/194"
-  },
-  {
-   "ts": "2026-09-25T23:28:53Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: update the fee accumulator and crossed-order comments (#194)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/b9f35b8529c2464ca2fd289fbad52feefae54fee"
-  },
-  {
-   "ts": "2026-09-25T23:28:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: apply review suggestions on the truncated clamp docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/42fba607de521d5dc1d715a6d5d81751fcf8e619"
-  },
-  {
-   "ts": "2026-09-25T23:27:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'Merge branch 'master' into oracle-truncated-clamp-docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/13737c4adb687b72f3004662424c883be86e6731"
-  },
-  {
-   "ts": "2026-09-25T23:25:32Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/ca3a83823f67671dfbe876ac8c0a3202ec78a3b8"
-  },
-  {
-   "ts": "2026-09-25T23:25:12Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #180 in uniswap-hooks: 'BaseOracleHook: L-03 revert on observe for uninitialized pools'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/180"
-  },
-  {
-   "ts": "2026-09-25T23:25:11Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: L-03 revert on observe for uninitialized pools (#180)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/e8b90af0cb8632c673c645e79bd7de00a0d5543c"
-  },
-  {
-   "ts": "2026-09-25T23:24:37Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'LimitOrderHook: note the added gas cost of filling crossed orders'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/2c3ebe744ff3012e5b7894f714523f3a48005d7d"
-  },
-  {
-   "ts": "2026-09-25T23:23:29Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'BaseOracleHook: apply review suggestions on the observe guard'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/f5cd3b6c6289fbcabc77bddbc3a0696fe9f91244"
   }
  ]
 }
