@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-26T11:17:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26061274. Tokens: 0x35a532d376ffd9a705d0bb319532837337a398e7 / 0xfc8dbd6f6f11c686f83b13651c1757cf85c21884. Fee:...",
+   "url": "https://etherscan.io/tx/0xe054aab1d5683c29a02de283842d127e75e5e54b1658d63ab5cce13ad69dedb8"
+  },
+  {
+   "ts": "2026-09-26T11:00:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26061190. Tokens: 0xc84782858b7bef5d25182dbac956a6aa463aefe5 / 0xdac17f958d2ee523a2206206994597c13d831ec7. Fee:...",
+   "url": "https://etherscan.io/tx/0x0634343d0e31d5bb9ee738291f275710d5c027eaadf3fab20571fc282ec7f68c"
+  },
+  {
+   "ts": "2026-09-26T10:39:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26061083. Tokens: 0x0000000000000000000000000000000000000000 / 0xa4fd867bf65191f0957c3c74e8a1461f3c9ad938. Fee:...",
+   "url": "https://etherscan.io/tx/0x50f9f82affe2f37d9adada5f6cdd2b963fcf85bbda35d380d717137e0fa77fb5"
+  },
+  {
    "ts": "2026-09-26T08:49:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -189,27 +210,6 @@
    "source": "github",
    "text": "New in the V4 hook niche: EarthIsMine/klamp — 0★ — Safer Uniswap v4 routing with verifiable pools and capped hooks, powered by ENSv2.",
    "url": "https://github.com/EarthIsMine/klamp"
-  },
-  {
-   "ts": "2026-09-26T03:20:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26058901. Tokens: 0x0e397938c1aa0680954093495b70a9f5e2249aba / 0x54d40fe94dabe046daba84db98699ec13a9bff0f. Fee:...",
-   "url": "https://etherscan.io/tx/0xedd9f2288dd5c3da704e11583200f1c54ba852f0511c0056f16f9c977c7cf9ca"
-  },
-  {
-   "ts": "2026-09-26T03:06:36Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: tonycai/StoikovHook — 0★ — Uniswap v4 hook using the Avellaneda-Stoikov model for dynamic fees that protect LPs from LVR",
-   "url": "https://github.com/tonycai/StoikovHook"
-  },
-  {
-   "ts": "2026-09-26T02:46:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26058734. Tokens: 0x0000000000000000000000000000000000000000 / 0x0a76f770255e8b56cb95c8a63b8e60417267cb1d. Fee:...",
-   "url": "https://etherscan.io/tx/0xb264d4e4aafed25ef47cb5eed0252611803ac1bd745d3960978ff1cd0ece9bed"
   }
  ]
 }
