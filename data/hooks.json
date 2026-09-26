@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-26T21:13:29Z",
- "total_hooks": 5350,
- "total_pools": 16583,
+ "generated_at": "2026-09-26T22:13:29Z",
+ "total_hooks": 5352,
+ "total_pools": 16588,
  "multi_pool_hooks": 477,
  "shown": 477,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 635,
+   "pool_count": 636,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -70,8 +70,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26063684,
-   "last_deploy": "2026-09-26T20:00:02Z",
+   "last_block": 26064303,
+   "last_deploy": "2026-09-26T22:00:03Z",
    "active": true,
    "visible": true
   },
@@ -907,6 +907,31 @@
    "visible": false
   },
   {
+   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "address_short": "0xc298…a0cc",
+   "name": "RobinVistaHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
+   "pool_count": 41,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26033423,
+   "last_block": 26064413,
+   "last_deploy": "2026-09-26T22:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x68935dcf688637463f8eda0f55c4fe416c1040cc",
    "address_short": "0x6893…40cc",
    "name": "TripoolsAntiSnipeHook",
@@ -927,31 +952,6 @@
    "last_block": 25780860,
    "last_deploy": "2026-08-18T10:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "address_short": "0xc298…a0cc",
-   "name": "RobinVistaHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 39,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26033423,
-   "last_block": 26063523,
-   "last_deploy": "2026-09-26T20:00:02Z",
-   "active": true,
    "visible": false
   },
   {
