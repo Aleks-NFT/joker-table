@@ -2,6 +2,13 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-26T05:08:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26059441. Tokens: 0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee / 0x82c55edb71656071c09f436dfacbda783a8dc2ed. Fee:...",
+   "url": "https://etherscan.io/tx/0xa419e94c1246ee36afe82468335b980b886f3afff4713569f3ddcf90fc919f6c"
+  },
+  {
    "ts": "2026-09-26T04:30:02Z",
    "suit": "spade",
    "source": "HOOK DISCOVERY",
@@ -42,6 +49,20 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: syrupUSDT / USDT 0.08% — $6,735,247 24h volume, $5,071,417 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xd861038a98942312d1495dd1313fb66c7e7de48f549a15edf3a45decf7338e1d"
+  },
+  {
+   "ts": "2026-09-26T04:27:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26059233. Tokens: 0x0000000000000000000000000000000000000000 / 0x903d385fdb1284741675e1c8c1e866709848700d. Fee:...",
+   "url": "https://etherscan.io/tx/0x449572fb7a47dbf602535965c54bcae7a3f8898e6394d60f62ae1056d844b55f"
+  },
+  {
+   "ts": "2026-09-26T04:20:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26059200. Tokens: 0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee / 0xed241e17deeea3b90485cbb4e0c3053c95b82f3f. Fee:...",
+   "url": "https://etherscan.io/tx/0x86d5bedbf5d1de8082cf34e5f9fbc463677e16a4b6902d479fa5b2adfe387300"
   },
   {
    "ts": "2026-09-26T03:53:06Z",
@@ -189,27 +210,6 @@
    "source": "github",
    "text": "gonzaotc opened PR #199 in uniswap-hooks: 'BaseHook: document non-forwarding overrides and the onlyValidPools scope'",
    "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/199"
-  },
-  {
-   "ts": "2026-09-26T00:20:09Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #198 in uniswap-hooks: 'BaseAsyncSwap: document that the LP fee is only reported'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/198"
-  },
-  {
-   "ts": "2026-09-26T00:20:05Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #197 in uniswap-hooks: 'BaseCustomCurve: test that removals settle both currencies before paying out'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/197"
-  },
-  {
-   "ts": "2026-09-26T00:20:01Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #196 in uniswap-hooks: 'BaseCustomAccounting: skip the zero native refund'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/196"
   }
  ]
 }
