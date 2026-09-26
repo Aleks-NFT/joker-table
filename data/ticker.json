@@ -2,6 +2,48 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $140,447,541   #2 USDT / USDS — $89,286,593   #3 RLUSD / USDS — $52,304,930   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "PYUSD / USDS volume surged 119% to $47,215,949 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45"
+  },
+  {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS volume surged 557% to $52,304,930 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $3,458,786 24h volume, $1,468,265 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: UNI / ETH 0.3% — $3,648,946 24h volume, $10,120,350 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0x053f6a47ccba79e7d5d623173ed6dd5a31cf19c28bae0fb8276f4506295f90da"
+  },
+  {
+   "ts": "2026-09-26T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: syrupUSDT / USDT 0.08% — $6,735,247 24h volume, $5,071,417 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xd861038a98942312d1495dd1313fb66c7e7de48f549a15edf3a45decf7338e1d"
+  },
+  {
    "ts": "2026-09-26T03:53:06Z",
    "suit": "club",
    "source": "github",
@@ -168,48 +210,6 @@
    "source": "github",
    "text": "gonzaotc opened PR #196 in uniswap-hooks: 'BaseCustomAccounting: skip the zero native refund'",
    "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/196"
-  },
-  {
-   "ts": "2026-09-26T00:10:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26057957. Tokens: 0x0000000000000000000000000000000000000000 / 0xa2ad623fde8421ad5c9f88c8e2d8d64067bfeaef. Fee:...",
-   "url": "https://etherscan.io/tx/0xa9400c26e15091d6c370a88a4ae55e439312a2c77ccf00e37afdd49db2be383d"
-  },
-  {
-   "ts": "2026-09-26T00:08:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26057946. Tokens: 0x0000000000000000000000000000000000000000 / 0x699896f0d2cd31c3cf2e867654e95936c53d7081. Fee:...",
-   "url": "https://etherscan.io/tx/0xed6070ae616565616ef722900cb67172d90e73cbb33d594ee357653d8091b493"
-  },
-  {
-   "ts": "2026-09-26T00:02:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26057918. Tokens: 0x0000000000000000000000000000000000000000 / 0x96b79168dfbc3a53c0e74b1e5a137aa76f2321af. Fee:...",
-   "url": "https://etherscan.io/tx/0xa263cb1e65a13bf24a0be2cd7a75777be8920574e1bfdc533a9e84f2f53417e0"
-  },
-  {
-   "ts": "2026-09-26T00:01:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26057913. Tokens: 0x72e4f9f808c49a2a61de9c5896298920dc4eeea9 / 0x9866b8ce4613d69feb3a043451b7d6232195d40a. Fee:...",
-   "url": "https://etherscan.io/tx/0x4a951214f01e30d1f0289cdc84a649f35f5b400c974d4f7a9bb1aeb69b8750ee"
-  },
-  {
-   "ts": "2026-09-26T00:00:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26057906. Tokens: 0x188b1eda9982384a9e3acc7a729415825618900b / 0xc82d535357bac93ff05a378a5ad5de1caebdd2ac. Fee:...",
-   "url": "https://etherscan.io/tx/0xad7cc9a614aee59b74399b115b546282c17ba6531082fc4d3762512eb288adda"
-  },
-  {
-   "ts": "2026-09-25T23:54:17Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/39b52d1e5aacd45c2880e28f97d6ae3dd500672c"
   }
  ]
 }
