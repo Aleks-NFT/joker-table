@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-25T23:13:28Z",
- "total_hooks": 5338,
- "total_pools": 16494,
- "multi_pool_hooks": 474,
- "shown": 474,
+ "generated_at": "2026-09-26T00:13:30Z",
+ "total_hooks": 5340,
+ "total_pools": 16499,
+ "multi_pool_hooks": 475,
+ "shown": 475,
  "more_count": 0,
  "hooks": [
   {
@@ -2261,6 +2261,31 @@
    "visible": false
   },
   {
+   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "address_short": "0x8ff5…e0cc",
+   "name": "LiquidGuard",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25194721,
+   "last_block": 26057791,
+   "last_deploy": "2026-09-26T00:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x921effef9aabbdc75685edf73e9dc1dea8a85000",
    "address_short": "0x921e…5000",
    "name": "SaturnOmnichainV4Hook",
@@ -2684,31 +2709,6 @@
    "last_block": 25975007,
    "last_deploy": "2026-09-14T12:00:03Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "address_short": "0x8ff5…e0cc",
-   "name": "LiquidGuard",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "pool_count": 14,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25194721,
-   "last_block": 26041638,
-   "last_deploy": "2026-09-23T18:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6142,6 +6142,31 @@
    "last_block": 25394473,
    "last_deploy": "2026-06-25T12:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x66b05c8eeca9329f7a2332c02ce3855cfab72444",
+   "address_short": "0x66b0…2444",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x66b05c8eeca9329f7a2332c02ce3855cfab72444",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26057076,
+   "last_block": 26057487,
+   "last_deploy": "2026-09-26T00:00:02Z",
+   "active": true,
    "visible": false
   },
   {
