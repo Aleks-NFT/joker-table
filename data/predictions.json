@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 27,
-  "miss": 19,
-  "open": 4,
-  "hit_rate": 0.587
+  "miss": 18,
+  "open": 5,
+  "hit_rate": 0.6
  },
  "items": [
+  {
+   "id": 81,
+   "made_at": "2026-09-26",
+   "text": "Over the next 7 days the count clears 48; the likely landing sits between 26 and 81, and I give the over about 61%. What we are watching is builders wiring the house's rake to move in real time — the hook itself decides what the swap costs, moment to moment, and that is the difference between a decoration and an economic primitive.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-03",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 80,
    "made_at": "2026-09-25",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-19",
    "status": "hit",
    "resolution_note": "Confirmed: target +23 on metric pools_by_hook reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 31,
-   "made_at": "2026-07-11",
-   "text": "Over the next 7 days the count will exceed 472 as more pools appear with very small tick spacing below 10, enabling fine-grained, concentrated liquidity placement.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-18",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +472 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
