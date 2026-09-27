@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-27",
+   "narrative": {
+    "en": "Seven tables opened since midnight, and the felt is still warm. One contract — 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0 — keeps showing up at the deal. The same address in the last three seatings, pairing its tokens off one after another, every one of them cut from the same cloth: the same cut of the house's rake, the same spacing on the grid. That is not a player. That is a dealer shuffling one deck and laying down different hands.\n\nEarlier, a different hand. Two tokens with nothing taken off the top — zero rake — and a fresh contract behind them, 0x322dcec4, not of the first one's bloodline. When a maker takes nothing at the door, he is not there to trade. He is there for a mechanic: something that moves the price, something that whispers to an oracle, something meant to be fed by other people's arbitrage. Then a table with real ether on it — the coin with the all-zero address — against 0xd3dfd3a7, again with no rake, behind hooks at 0xb8d9477e. Ether sits down rarely at this kind of table, and only when the purpose is specific: shielding a fill, or holding a lot for a set hour and no longer.\n\nAnd the latest, before all that — a plain-looking pair, the stable against 0xdae0fafd, with an ordinary rake of 3000 and a grid at 65, but a hook at 0xb9993c10 sitting behind it. Standard odds, unstandard hands. Somebody wants to steer the liquidity or sift the swaps as they pass through.\n\nSeven in a handful of hours is not impulse. Somebody is building furniture, not playing. The question was never what the chips are; it is who owns the chair. A hook is not decoration — it is a hand on the valve. And when one address keeps stacking tables, it is not gambling, it is preparation. I watch the deck assemble. I do not yet know who will move first.",
+    "zh": "自子夜起，江湖上已摆开七张桌子。同一个门派的手笔——合约 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0，在最近三次开坛中接连现身，所配之对虽各不相同，抽成与格距却如出一辙：同一种内力，同一种刻度。这不是散修的偶遇，是有人在同一副牌里，换着发不同的一手。\n\n更早之前，另一路人马。两枚代币，分文不取——抽成为零，背后的合约 0x322dcec4 尚且新嫩，与前者并非同门。开门不取分毫的人，从来不是来做买卖的。他要的是一门机关：或是随势而变的抽成，或是探听消息的耳目，或是专为承接他人套利而设的阵眼。而后又有一桌，摆的是真金——那枚全零地址的以太——对上 0xd3dfd3a7，同样不取分毫，钩子在 0xb8d9477e。以太在这类局上极少落座，一旦落座，必有专图：或为护住一笔成交，或为限定时辰的存押。\n\n最新的一桌，倒像是寻常生意：稳定币对 0xdae0fafd，抽成三千，格距六十五，规矩分明，钩子 0xb9993c10 却伏在暗处。寻常的赔率，不寻常的手法——有人要把流动性握在手里，或要在每一笔过路的水流上设一道筛。\n\n数个时辰之内摆出七桌，这不是随性，是有人在打地基。要紧的从来不是筹码是什么，而是谁坐在庄位上。钩子不是摆设，是按住水闸的那只手。同一个地址接连开坛，便不是赌，是备。我看着这副牌一张张铺开，还看不出是谁先出手。"
+   },
+   "take": {
+    "en": "This is not a hot streak at the tables — it is one hand quietly building the room, and rooms get built for someone else to walk into.",
+    "zh": "这不是赌桌上的一阵手气，而是有人在替别人把屋子盖好——屋子盖起来，总归是等着有人入席。"
+   }
+  },
+  {
    "date": "2026-09-26",
    "narrative": {
     "en": "Fourteen new pools on the V4 felt in a handful of hours, every one of them dealt with a hook attached. The deals came fast — the ledger barely breathes between them — and the same signature keeps surfacing: one hook address, 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0, four times, always with the same fee constant and the same wide spacing between its price rungs. Whoever is behind that one is not fishing for pennies. They are building for violent pairs that need room to thrash.\n\nThe other tell is quieter and stranger. Hook 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc showed up twice carrying a fee of nothing at all, ETH on one side against tokens nobody has named. A house that takes no rake is not a generous house — it is a house that has found another door to the money, and no one has shown us which door. Meanwhile the null address, plain ETH, walked into five separate pools; five new roads out of the same square.\n\nOne of them sits at a single point in the ledger — ETH against 0x2710cc54f272bf543cb45c2a8841e7cce8f8f1d4, fee of nothing, hook 0xcba49142a75da64a679f32a159f4316f11a7e0cc. The counterparty token is unreadable from here. But the pattern is legible enough: if someone will supply liquidity for free, the payment is arriving from somewhere off the table.\n\nAnd in the git, gonzaotc is closing gaps four at a time — overrides that do not forward, a fee that is only reported and never collected, tests for removals, the zero-native refund. That is not maintenance. That is a man nailing the floorboards down before the room fills. Documentation is what you write when you want strangers to copy your hooks and build on them. V4 is turning from a protocol into a platform. The deck is being assembled in plain sight. All that remains is to see who throws first.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Zero rake twice on the same suit — spacing of one and spacing of two hundred — says someone is building rails, not chasing spread; that is a setup, not yet a signal.",
     "zh": "零抽水连着出现两回，步距一与两百各执一端——这不是散手的随手一掷，是有人在为固定的路数铺内力。看牌可以，别把一套起手当成行情。"
-   }
-  },
-  {
-   "date": "2026-09-13",
-   "narrative": {
-    "en": "...Eighteen pools since midnight and the felt is still warm. Uniswap V4 with hooks is not an upgrade, it is a new deck — one where any hand at the table can write its own rules straight into the protocol. Three of the pools sit on the zero address, ETH pairs, one carrying a fee of 3000 and two carrying nothing at all. But the real meat is the faces I have never seen: 0x2a334870, 0x690f5ccf, 0xb9a9498 — fresh contracts, no history, no liquidity standing behind them. Somebody is dealing a new deck.\n\nThen the hooks. 0x27b1c29 comes up seven hands running, every one of them charging nothing, spacing set at 10 or 60. That is not chance, that is one hand shuffling. 0x58b0d156 shows twice, both times against 0xdc3c3d7d. 0x96b89368 appears once, paired with ETH. 0x10392843 once, alone, no partner worth the name. Twelve of the eighteen take nothing on the swap — that is not a commission play, that is a land grab. A hook can reach into every swap and rewrite the terms mid-hand: change the cut on the fly, refuse an address, bend the price. In one hand that is power enough to recut the whole board by morning.\n\nAnd 0x8e0ad08 keeps turning up in the last three pools, against a different partner each time. Either a stablecoin being seeded quietly, or a test run nobody was meant to watch. I do not know their names. I know they are shuffling. Nobody who is not watching the hooks is still holding a seat.",
-    "zh": "一夜之间，江湖上多开了十八个场子。Uniswap V4 挂上钩子之后，便不再是某一门派立下的旧规矩，而是人人可于山门之上自刻碑文的年月。\n\n零地址上立着三个场子，皆是 ETH 的对家：一个收三千的过路钱，另两个分文不取。真正有意思的是那几张生面孔——0x2a334870、0x690f5ccf、0xb9a9498，新铸的契约，无履历，无内力，背后空空荡荡。有人正在发新牌。\n\n再看钩子。0x27b1c29 连开七局，局局不收过路钱，间距或十或六十——这不是巧合，是同一只手在洗牌。0x58b0d156 现身两次，对手皆为 0xdc3c3d7d；0x96b89368 只此一回，配的是 ETH；0x10392843 孤身一人，无伴可称。十八局里十二局不收分文——这不是做买卖，这是抢地盘。钩子能探进每一次交手，把规矩在半途改写：过路钱随时可调，地址可拒，价可扭。一只手握着这些，天亮之前就能重划整片内力。\n\n0x8e0ad08 在最后三个场子里接连现身，每次换一个对手。或是新稳定币在悄然扎根，或是无人该看见的试招。我不认得这些名号。我只看见他们在洗牌。不盯钩子的人，位子早已不在。"
-   },
-   "take": {
-    "en": "Twelve of eighteen pools charging nothing is not generosity — it is a hook buying the whole table's attention, and the fee is whatever it decides to charge once you are sitting down.",
-    "zh": "十八局中十二局不收分文，这不是让利，是有人用钩子把整张桌子的注意力买了下来——真正要下的注，还在后头。"
    }
   }
  ]

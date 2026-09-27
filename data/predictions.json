@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 27,
+  "hit": 26,
   "miss": 18,
-  "open": 5,
-  "hit_rate": 0.6
+  "open": 6,
+  "hit_rate": 0.591
  },
  "items": [
+  {
+   "id": 82,
+   "made_at": "2026-09-27",
+   "text": "Over the next seven days the count clears 27 — one address keeps opening tables in quick succession, well above the pace the room is used to; the likely landing sits between 20 and 137, and I give the over about 52%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-04",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 81,
    "made_at": "2026-09-26",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-20",
    "status": "hit",
    "resolution_note": "Confirmed: target +10 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 32,
-   "made_at": "2026-07-12",
-   "text": "Over the next 7 days the count will exceed 23, as a single hook contract deploys pools in rapid succession, far above the pace of typical deployers.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-19",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +23 on metric pools_by_hook reached.",
    "phase": "v2"
   }
  ]
