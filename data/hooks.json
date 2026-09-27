@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T13:13:31Z",
- "total_hooks": 5358,
- "total_pools": 16630,
+ "generated_at": "2026-09-27T14:13:30Z",
+ "total_hooks": 5360,
+ "total_pools": 16672,
  "multi_pool_hooks": 477,
  "shown": 477,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0",
-   "pool_count": 657,
+   "pool_count": 695,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -70,8 +70,8 @@
     "afterSwap"
    ],
    "first_block": 25958908,
-   "last_block": 26068560,
-   "last_deploy": "2026-09-27T12:00:02Z",
+   "last_block": 26069243,
+   "last_deploy": "2026-09-27T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -387,7 +387,7 @@
    "name": "PositionManager",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc",
-   "pool_count": 139,
+   "pool_count": 140,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -406,8 +406,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25955044,
-   "last_block": 26063155,
-   "last_deploy": "2026-09-26T18:00:02Z",
+   "last_block": 26068890,
+   "last_deploy": "2026-09-27T14:00:02Z",
    "active": true,
    "visible": false
   },
@@ -868,7 +868,7 @@
    "name": "RobinVistaHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 46,
+   "pool_count": 47,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -882,8 +882,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26033423,
-   "last_block": 26068353,
-   "last_deploy": "2026-09-27T12:00:02Z",
+   "last_block": 26069134,
+   "last_deploy": "2026-09-27T14:00:02Z",
    "active": true,
    "visible": false
   },
