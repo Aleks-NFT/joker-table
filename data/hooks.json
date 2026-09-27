@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T04:14:17Z",
+ "generated_at": "2026-09-27T05:13:29Z",
  "total_hooks": 5353,
  "total_pools": 16604,
  "multi_pool_hooks": 477,
@@ -5767,8 +5767,8 @@
   {
    "address": "0xf72c3e2f83aef19d1917c7612a9473756f8ae0cc",
    "address_short": "0xf72c…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchTaxHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf72c3e2f83aef19d1917c7612a9473756f8ae0cc",
    "pool_count": 4,
    "permissions_human": [
@@ -9352,8 +9352,8 @@
   {
    "address": "0xa41fb79fbfad7de199a082e48255b9a3ffe360c0",
    "address_short": "0xa41f…60c0",
-   "name": "",
-   "verified": false,
+   "name": "HudPadV4Hook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa41fb79fbfad7de199a082e48255b9a3ffe360c0",
    "pool_count": 2,
    "permissions_human": [
