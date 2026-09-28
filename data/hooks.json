@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T09:13:29Z",
- "total_hooks": 5382,
- "total_pools": 17011,
+ "generated_at": "2026-09-28T10:13:28Z",
+ "total_hooks": 5383,
+ "total_pools": 17018,
  "multi_pool_hooks": 480,
  "shown": 480,
  "more_count": 0,
@@ -750,6 +750,26 @@
    "visible": false
   },
   {
+   "address": "0x014257c9bfb770a94065716188d60f881d1180c0",
+   "address_short": "0x0142…80c0",
+   "name": "LaunchGuardHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x014257c9bfb770a94065716188d60f881d1180c0",
+   "pool_count": 56,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 26071424,
+   "last_block": 26075212,
+   "last_deploy": "2026-09-28T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x90c67c1e866f86526f0e338459cd435e1f23a0cc",
    "address_short": "0x90c6…a0cc",
    "name": "QuoteAssetCreatorFeeHookV1",
@@ -824,26 +844,6 @@
    "last_block": 25975171,
    "last_deploy": "2026-09-14T12:00:03Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x014257c9bfb770a94065716188d60f881d1180c0",
-   "address_short": "0x0142…80c0",
-   "name": "LaunchGuardHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x014257c9bfb770a94065716188d60f881d1180c0",
-   "pool_count": 50,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeSwap",
-    "afterSwap"
-   ],
-   "first_block": 26071424,
-   "last_block": 26074466,
-   "last_deploy": "2026-09-28T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -5188,7 +5188,7 @@
    "first_block": 26023552,
    "last_block": 26024899,
    "last_deploy": "2026-09-21T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
