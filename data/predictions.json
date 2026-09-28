@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 25,
   "miss": 18,
-  "open": 6,
-  "hit_rate": 0.591
+  "open": 7,
+  "hit_rate": 0.581
  },
  "items": [
+  {
+   "id": 83,
+   "made_at": "2026-09-28",
+   "text": "Over the next 7 days the count of these narrow-spacing pools clears 13; the likely landing sits between 8 and 48, and I give the over about 55%. More pools are appearing with very small spacing—below 10—a tool for fine-grained, concentrated liquidity placement.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-05",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 82,
    "made_at": "2026-09-27",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-21",
    "status": "hit",
    "resolution_note": "Confirmed: target +269 on metric nonstd_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 33,
-   "made_at": "2026-07-13",
-   "text": "Over the next 7 days the count will exceed 10, as builders are deploying pools with the dynamic-fee flag: the hook contract sets the swap fee in real time instead of a fixed tier, the clearest sign of hooks used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-20",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +10 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]
