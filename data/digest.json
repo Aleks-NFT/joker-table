@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-09-29",
+   "narrative": {
+    "en": "The scanner blinked and the felt was already crowded — fifteen fresh pools on Uniswap V4 between midnight and morning, and that is only what the scan caught. One hook address keeps turning up in every second deal: 0x322dcec4958c14e021a9f1cd49df11b9457968cc. Same hand, laid over and over with surgical calm. The spacing is uniform at 200, the house takes nothing on the swap. That is a tell, not a mystery: pools built this way are not for trading across the spread, they are built for a script — staking, an order hook, a fee that moves with the weather.\n\nTwo of them sit against ETH. WETH against 0xa4717b31144d2cd0b5cdfa4ad8d650c2c7229294, and another against 0x34d50e4f5ff26f28a9bd8b61c327d9cd9dc85e70. Fresh addresses, no history worth reading. Either a new face at the table, or an old one in a new coat.\n\nThe interesting three are the ones paired with nothing at all — native ETH, the zero address. One charges 8388608 on the encoded scale, the smallest sliver of a percent, with a spacing of ten; a fine mesh, built for things that barely move. The other two charge nothing and carry different hooks: 0x834deb... and 0xcba491... Different hooks, different rules. One might simply watch the clock and average it; the other might hold orders until somebody wants them.\n\nAnd on GitHub, no fanfare: merge request #202 into uniswap-hooks, the static analyser's findings found and closed, and the author walked on without a word. The picture of the night is assembly. Someone is stacking a deck, and not on their knee. Every pool a card, every hook a suit. The only question left is who is dealing, and which trump is still in hand.",
+    "zh": "一夜之间，Uniswap V4 上多出十五个新池，这还只是扫描器扫到的数目。同一个钩子地址反复浮现——0x322dcec4958c14e021a9f1cd49df11b9457968cc，隔一个池便见一次。落子极稳，间距一律二百，抽成取零。江湖里这样做局的人，不为赚一买一卖的差价，而是另有章程：或为质押，或为挂单，或让抽成随行情自行起落。\n\n其中两个池以 ETH 相对：WETH 对 0xa4717b31144d2cd0b5cdfa4ad8d650c2c7229294，另一个对 0x34d50e4f5ff26f28a9bd8b61c327d9cd9dc85e70。地址新鲜，来历空白，或是新门派立山门，或是旧门派换了行头。\n\n真正耐看的是那三个与零地址相对的池，即以原生 ETH 为对。一个抽成记作 8388608，细到不足一分，间距只有十，网格极密，是为那些几乎不动的资产所设。另两个分文不取，却挂了不同的钩子：0x834deb... 与 0xcba491...。钩子不同，规矩便不同。一个或许专记时辰、取其均值；一个或许替人守住价位，等号令再动。\n\nGitHub 那边无声无息：uniswap-hooks 仓库的 #202 合并请求过了，静态分析查出的破绽已经补好，提剑的人收势便走，不留名号。今夜的图景是布阵。有人在码牌，码得齐整。每个池是一张牌，每个钩子是一门花色。剩下的问题只有：发牌的是谁，手里还捏着哪张王牌。"
+   },
+   "take": {
+    "en": "Fifteen pools and one hook address repeated like a signature — this is scaffolding being raised, not a trade being placed. The noise is the framework; the signal is the hand that keeps signing it.",
+    "zh": "十五个池，一个钩子地址如印记般反复加盖——这是有人在内力筑基，不是在赌桌上押注。噪声是脚手架，信号是那支始终在签名的笔。"
+   }
+  },
+  {
    "date": "2026-09-28",
    "narrative": {
     "en": "The deck was deep into the evening and the hand stayed steady. 0x014257c9bfb770a94065716188d60f881d1180c0—that hook provider's contract cuts through every second block like a house dealer's thumbprint. Seven pools in twenty-four hours, four of them wearing its mark. Tokens from 0x000...000 to WBTC, USDC, WETH. Fees pinned at 10000—one percent—across the felt. Don't ask why anyone nails that grid over stables; the house doesn't explain its tells.\n\nThen an odd run: two zero-fee hands in a row, 0xcba49142a75da64a679f32a159f4316f11a7e0cc. Three pools inside fifteen minutes. One on USDC, one on an ETH/USDT-like pair, one on some 0x4a220e... that smells like an internal service token. A zero-fee pool with spacing 200 is either a test or an arbitrage hub for a pair whose spread is already dead. Two more follow with the same hook contract but stamped 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc—also zero fee. Two competing hook providers on one chain have started a round.\n\nThe most interesting hand sat on block 26072583: ETH against 0xfd62d038... with 3000 and spacing 60. A classic mid-frequency pair, moderate fee. But the hook—0x579461052bbe2d8b6dcb0c97dfdc63da718280cc—I'd never seen before. Either a new project or someone testing a dynamic fee mechanism.\n\nBy night's end the deck was incomplete. Pool 0xecabdcad8f40745fa7addbc1b09dc3e857bd25482043f1bd7693c49088d76cfc—ETH on 0x76bf1591... with zero fee and spacing 60. Nonsense: with that narrow a step, zero fee hands perfect arbitrage to the bots. Either a trap or someone forgot to change the parameters. Exactly fifteen pools in twenty-four hours. Not one dynamic fee. All—zero, 3000, or 10000. Three different hook contracts, but 0x0142... dominates. The deck shuffles, but the suit is one: V4.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The tell is not the fourteen pools — it is that almost all of them were dealt at zero fee and spacing one, while the ETH pairs were deliberately given room to move. Somebody is laying quiet infrastructure and one loud bet, and the felt is honest about which one they expect to pay.",
     "zh": "今日真正的看点，不在十四池之数，而在于几乎全是零费率、间距为一，唯独 ETH 那几对被人留出了活动的余地。有人铺的是地基，押的是方向，两者本就不是一回事。至于那些零费率、间距为一的池子，纵然密集成阵，水浅处响动再大，也未必是江湖大势。"
-   }
-  },
-  {
-   "date": "2026-09-15",
-   "narrative": {
-    "en": "The night the felt went quiet, fourteen tables opened in the space of a few blocks — and fourteen is only the count the scanner was sober enough to catch. If you still think this was an upgrade, you weren't watching the hooks stamp liquidity like a press running overtime.\n\nLook at the shape of it. Almost every pool arrives in a pair: one side the native token, the other an alt — then the same asset again under a different hook. And every single one charges nothing. Nothing. That is not a business model for swaps. That is a business model for everything that happens before the swap.\n\nOne hook address shows up twice, different tokens, identical architecture: native plus alt. That is not chance; that is a hand that knows the count. Tight spacing for the strange tokens, wide spacing where the native sits — a tailor measuring each pair. And the last one: a one-percent cut, no native side, an odd couple, rare enough to smell like a test, or a bridge, or simply someone deciding the hour had come.\n\nThe pools are not the story. The window is. No pauses, no hesitation — a script, an algorithm, a whole grid laid down in minutes and then left to sit in silence, waiting for the first hand to move. You look at the addresses and you understand: the deck is shuffling itself. You only ever hold the cards.",
-    "zh": "夜里有十四个池子落在几个区块之内，十四不过是扫描器恰好看见的数目。若你还当这是一次寻常的升级，那便是没看清——钩子如铁匠铺的锤，一夜未歇， liquidity 被敲打得像流水线上的坯。\n\n看它的路数。几乎每个池子成对而来：一边是原生之息，一边是旁门小币；同一份资产再换一个钩子，重开一门。且每家都不收分文。不收分文，便不是为了过路的香火钱，而是为了香客进门之前的那一步棋。\n\n同一个钩子地址现身两次,所对之币不同,门中结构却一般无二——内力配旁支。这不是巧合,是有人心里有数。冷僻之币用极细的分寸,原生之息用极宽的分寸,如同老裁缝照着身量下刀。末尾那一池抽一分利,却不带原生之息,配对冷门,像是试招,像是搭桥,也像是有人觉得时辰已到。\n\n池子本身不是故事,那个时间窗才是。中间几乎没有停顿——是脚本,是算法,是一整套阵图在数分钟内布下,而后静默,等第一个出招的人。你看着那些地址,便懂了:牌是自己洗的,人不过握着牌而已。"
-   },
-   "take": {
-    "en": "Zero commission is never charity — it is the ante. The house is not charging because the house is buying the order flow before anyone else prices it.",
-    "zh": "不收分文的池子绝非善堂,那是入局前的押注。庄家不要过路钱,是因为他要的是别人定价之前的整条水流。"
    }
   }
  ]
