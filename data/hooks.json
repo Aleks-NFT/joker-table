@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-29T04:13:29Z",
+ "generated_at": "2026-09-29T05:13:28Z",
  "total_hooks": 5434,
  "total_pools": 17529,
  "multi_pool_hooks": 481,
@@ -4004,8 +4004,8 @@
   {
    "address": "0x1b861a59c420f704b7deac060d12f3a7296028cc",
    "address_short": "0x1b86…28cc",
-   "name": "",
-   "verified": false,
+   "name": "PumpHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x1b861a59c420f704b7deac060d12f3a7296028cc",
    "pool_count": 9,
    "permissions_human": [
@@ -6825,8 +6825,8 @@
   {
    "address": "0xfc97027f907d1637876eece30d8893c0361220cc",
    "address_short": "0xfc97…20cc",
-   "name": "",
-   "verified": false,
+   "name": "HandlesHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xfc97027f907d1637876eece30d8893c0361220cc",
    "pool_count": 3,
    "permissions_human": [
