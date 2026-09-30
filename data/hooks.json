@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-30T04:13:27Z",
+ "generated_at": "2026-09-30T05:13:32Z",
  "total_hooks": 5471,
  "total_pools": 17919,
  "multi_pool_hooks": 487,
@@ -6405,8 +6405,8 @@
   {
    "address": "0x88e3e342b50e3c2a6927af1a146f5a9891d768c4",
    "address_short": "0x88e3…68c4",
-   "name": "",
-   "verified": false,
+   "name": "NFTStrategyHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x88e3e342b50e3c2a6927af1a146f5a9891d768c4",
    "pool_count": 3,
    "permissions_human": [
@@ -7190,8 +7190,8 @@
   {
    "address": "0x0c665a813170dae33e33865b01fdb199d97f20cc",
    "address_short": "0x0c66…20cc",
-   "name": "",
-   "verified": false,
+   "name": "GoldHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0c665a813170dae33e33865b01fdb199d97f20cc",
    "pool_count": 2,
    "permissions_human": [
@@ -9914,8 +9914,8 @@
   {
    "address": "0xb3a92b1cdcf6e5f6717aaeda563bdb39ca9a68c0",
    "address_short": "0xb3a9…68c0",
-   "name": "",
-   "verified": false,
+   "name": "PackedFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb3a92b1cdcf6e5f6717aaeda563bdb39ca9a68c0",
    "pool_count": 2,
    "permissions_human": [
@@ -10868,8 +10868,8 @@
   {
    "address": "0xec1004c620da189ad00b08b7df772fce225380cc",
    "address_short": "0xec10…80cc",
-   "name": "",
-   "verified": false,
+   "name": "StockPadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xec1004c620da189ad00b08b7df772fce225380cc",
    "pool_count": 2,
    "permissions_human": [

@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-30T04:13:27Z",
+ "generated_at": "2026-09-30T05:13:32Z",
  "history": [
-  {
-   "date": "2026-08-31",
-   "volume_24h_usd": 973099470.0,
-   "fees_24h_usd": 4144849.0,
-   "eth_share_pct": 19.0
-  },
   {
    "date": "2026-09-01",
    "volume_24h_usd": 1261195533.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1554335531.0,
    "fees_24h_usd": 2885479.0,
    "eth_share_pct": 43.2
+  },
+  {
+   "date": "2026-09-30",
+   "volume_24h_usd": 1475515040.0,
+   "fees_24h_usd": 3671699.0,
+   "eth_share_pct": 37.3
   }
  ],
  "chains_top": {
-  "Ethereum": 665335108,
-  "Robinhood Chain": 523879267,
-  "BSC": 77106099,
-  "Base": 66392629,
-  "Polygon": 64126493,
-  "Monad": 60786893,
-  "Arc": 49849784,
-  "Arbitrum": 30948756
+  "Robinhood Chain": 648580096,
+  "Ethereum": 545055003,
+  "Base": 70398948,
+  "BSC": 59966345,
+  "Polygon": 52389134,
+  "Arc": 39258052,
+  "Monad": 22276059,
+  "Arbitrum": 22201182
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: Uniswap-Arbitrum Delegate Program (UADP) Communication Thread (40 posts)",
+   "url": "https://gov.uniswap.org/t/uniswap-arbitrum-delegate-program-uadp-communication-thread/22185",
+   "occurred_at": "2026-09-30T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: PGov Delegate Platform (74 posts)",
    "url": "https://gov.uniswap.org/t/pgov-delegate-platform/22271",
@@ -215,12 +221,6 @@
   {
    "event": "Uniswap governance (Snapshot) closed: Protocol Fee Expansion: Arc (ended 2026-09-23)",
    "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e",
-   "occurred_at": "2026-09-24T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap governance (Snapshot) closed: Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (ended 2026-09-23)",
-   "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9",
    "occurred_at": "2026-09-24T05:00:02Z",
    "active": false
   }
