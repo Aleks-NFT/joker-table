@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-01T04:13:29Z",
+ "generated_at": "2026-10-01T05:13:29Z",
  "total_hooks": 5493,
  "total_pools": 18174,
  "multi_pool_hooks": 491,
@@ -1344,8 +1344,8 @@
   {
    "address": "0x3e1ad2f53882c3b8a04706a86b127d71d4e480cc",
    "address_short": "0x3e1a…80cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x3e1ad2f53882c3b8a04706a86b127d71d4e480cc",
    "pool_count": 24,
    "permissions_human": [
@@ -5576,8 +5576,8 @@
   {
    "address": "0x7333edbaea3959ab6cf9e8c17824735463970044",
    "address_short": "0x7333…0044",
-   "name": "",
-   "verified": false,
+   "name": "EthXV4FeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7333edbaea3959ab6cf9e8c17824735463970044",
    "pool_count": 4,
    "permissions_human": [
@@ -7698,8 +7698,8 @@
   {
    "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
    "address_short": "0x337e…2444",
-   "name": "",
-   "verified": false,
+   "name": "InitialBuyNFTStrategyHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
    "pool_count": 2,
    "permissions_human": [
@@ -10539,8 +10539,8 @@
   {
    "address": "0xd4e721ade3c33d308428be4af123567a32ac60c0",
    "address_short": "0xd4e7…60c0",
-   "name": "",
-   "verified": false,
+   "name": "FusingFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd4e721ade3c33d308428be4af123567a32ac60c0",
    "pool_count": 2,
    "permissions_human": [
