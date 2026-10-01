@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-01T13:13:26Z",
- "total_hooks": 5498,
- "total_pools": 18207,
+ "generated_at": "2026-10-01T14:13:30Z",
+ "total_hooks": 5502,
+ "total_pools": 18226,
  "multi_pool_hooks": 492,
  "shown": 492,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 894,
+   "pool_count": 906,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26097318,
-   "last_deploy": "2026-10-01T12:00:02Z",
+   "last_block": 26097913,
+   "last_deploy": "2026-10-01T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -156,7 +156,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 399,
+   "pool_count": 400,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -170,8 +170,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26097310,
-   "last_deploy": "2026-10-01T12:00:02Z",
+   "last_block": 26097773,
+   "last_deploy": "2026-10-01T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -299,7 +299,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x014257c9bfb770a94065716188d60f881d1180c0",
-   "pool_count": 230,
+   "pool_count": 231,
    "permissions_human": [
     "intercepts swaps"
    ],
@@ -308,8 +308,8 @@
     "afterSwap"
    ],
    "first_block": 26071424,
-   "last_block": 26096485,
-   "last_deploy": "2026-10-01T10:00:02Z",
+   "last_block": 26097678,
+   "last_deploy": "2026-10-01T14:00:02Z",
    "active": true,
    "visible": false
   },
@@ -4256,7 +4256,7 @@
    "first_block": 25941862,
    "last_block": 26047703,
    "last_deploy": "2026-09-24T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -5114,6 +5114,33 @@
    "visible": false
   },
   {
+   "address": "0x1110a89be5f3656025f35514a173137b111128cc",
+   "address_short": "0x1110…28cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x1110a89be5f3656025f35514a173137b111128cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26089946,
+   "last_block": 26097601,
+   "last_deploy": "2026-10-01T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x1111a2074da79d99cd0aeca93ad5515281295000",
    "address_short": "0x1111…5000",
    "name": "SaturnOmnichainV4Hook",
@@ -5333,33 +5360,6 @@
    "last_block": 25971892,
    "last_deploy": "2026-09-14T00:00:03Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x1110a89be5f3656025f35514a173137b111128cc",
-   "address_short": "0x1110…28cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x1110a89be5f3656025f35514a173137b111128cc",
-   "pool_count": 4,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26089946,
-   "last_block": 26096038,
-   "last_deploy": "2026-10-01T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6244,7 +6244,7 @@
    "first_block": 26047272,
    "last_block": 26047362,
    "last_deploy": "2026-09-24T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
