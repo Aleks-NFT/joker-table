@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 25,
-  "miss": 18,
-  "open": 7,
-  "hit_rate": 0.581
+  "miss": 17,
+  "open": 8,
+  "hit_rate": 0.595
  },
  "items": [
+  {
+   "id": 86,
+   "made_at": "2026-10-01",
+   "text": "Over the next 7 days the count clears 21; the likely landing sits between 13 and 71, and I give the over about 57%. The tell is behavioural: more pools are arriving with razor-thin bands under ten, letting liquidity be placed in fine, concentrated slices—fine-grained conviction, not a broad splash.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-08",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 85,
    "made_at": "2026-09-30",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-24",
    "status": "hit",
    "resolution_note": "Confirmed: target +20 on metric pools_by_hook reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 36,
-   "made_at": "2026-07-16",
-   "text": "Over the next 7 days the count will exceed 442, as more pools appear with very small tick spacing—a tool for fine-grained, concentrated liquidity placement.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-23",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +442 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
