@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-01T11:13:32Z",
- "total_hooks": 5496,
- "total_pools": 18198,
+ "generated_at": "2026-10-01T12:13:30Z",
+ "total_hooks": 5498,
+ "total_pools": 18207,
  "multi_pool_hooks": 492,
  "shown": 492,
  "more_count": 0,
@@ -61,7 +61,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 889,
+   "pool_count": 894,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26096462,
-   "last_deploy": "2026-10-01T10:00:02Z",
+   "last_block": 26097318,
+   "last_deploy": "2026-10-01T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -156,7 +156,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 398,
+   "pool_count": 399,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -170,8 +170,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26095844,
-   "last_deploy": "2026-10-01T08:00:02Z",
+   "last_block": 26097310,
+   "last_deploy": "2026-10-01T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1480,6 +1480,31 @@
    "visible": false
   },
   {
+   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "address_short": "0x8ff5…e0cc",
+   "name": "LiquidGuard",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "pool_count": 20,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25194721,
+   "last_block": 26097252,
+   "last_deploy": "2026-10-01T12:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xafe727f2288e531184f5b9a81d3049b2f69a6880",
    "address_short": "0xafe7…6880",
    "name": "UnicurveHook",
@@ -1521,31 +1546,6 @@
    "first_block": 25975614,
    "last_block": 26063730,
    "last_deploy": "2026-09-26T20:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "address_short": "0x8ff5…e0cc",
-   "name": "LiquidGuard",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "pool_count": 19,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25194721,
-   "last_block": 26082182,
-   "last_deploy": "2026-09-29T10:00:02Z",
    "active": true,
    "visible": false
   },
