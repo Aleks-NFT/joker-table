@@ -2,6 +2,69 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-10-02T01:59:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc merged PR #213 in uniswap-hooks: 'BaseHook: M-10 document before-swap deltas in hook composition'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/213"
+  },
+  {
+   "ts": "2026-10-02T01:59:59Z",
+   "suit": "club",
+   "source": "github",
+   "text": "gonzaotc pushed to uniswap-hooks: 'BaseHook: M-10 document before-swap deltas in hook composition (#213)'",
+   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/25b0cfcf791edd5e8ec32bcbed9d876de82b8300"
+  },
+  {
+   "ts": "2026-10-02T01:39:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101409. Tokens: 0x859b25978d72306399e240a3775122af0951db68 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x09260a93224ea994fa37e519ad8ec4fbf878f17ecbe1f258c3b29b0e11069d1b"
+  },
+  {
+   "ts": "2026-10-02T01:37:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101398. Tokens: 0x47accd13264d8f954105256faac8376ce6a55999 / 0xc9af05623647359b77bea0e16fa75cf9b4570101. Fee:...",
+   "url": "https://etherscan.io/tx/0x859bfc2933ebc84af9c7334acb7ff8249096296d5f76e091fc8db9f70ad86c16"
+  },
+  {
+   "ts": "2026-10-02T00:52:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101174. Tokens: 0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee / 0x89d838629f88e4ab496536b88fc0599bc6e6dd38. Fee:...",
+   "url": "https://etherscan.io/tx/0xc4f423e58ee0d6b1d6a1649345f5e3e29b9f3582b905011e5f5e2fc663c32ba3"
+  },
+  {
+   "ts": "2026-10-02T00:50:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101165. Tokens: 0x0000000000000000000000000000000000000000 / 0xf8a670c6bc43ab5c85ae2052cd91df064963e76d. Fee:...",
+   "url": "https://etherscan.io/tx/0x7ace2ae96f41edd062252bf2cb6864e3686c590d5ae8d5d32576707723cd8338"
+  },
+  {
+   "ts": "2026-10-02T00:24:35Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101035. Tokens: 0x7015ee9bfc772952a9b9682c775cebd06da46c10 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0xa79b11152702486c354956ac82ae711292b908d13f996f6d1572389a930defc1"
+  },
+  {
+   "ts": "2026-10-02T00:20:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26101013. Tokens: 0x6dc07a9c0036693c97d1065b87e13d1698f76b26 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x64b51cd109c3fe937d5c15356ce3da8314fc00e38c0955698a5055c881d9b194"
+  },
+  {
+   "ts": "2026-10-02T00:10:47Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26100967. Tokens: 0xad5c8829c34771957de962e0ebae89c82b2c1d83 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x26e90c4fda73931c88f50d4492dc361f5f3df254cfa2722c65d3a33c8c708960"
+  },
+  {
    "ts": "2026-10-01T23:49:11Z",
    "suit": "spade",
    "source": "etherscan",
@@ -147,69 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26100287. Tokens: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 / 0x52b738bb15f9715a8997cb93ded54f6a110259a5. Fee:...",
    "url": "https://etherscan.io/tx/0x0e04d95ad09f3fb6c249edbd33c13c3fbbf62fc2b9fad2a7b9b05c1a3a099406"
-  },
-  {
-   "ts": "2026-10-01T21:51:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26100273. Tokens: 0x3a2c1f11911958ec1bce000c7f52bb9929879913 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x9f74eb7dc283e21f9eeb3954d7a9d64addbf69366e5cb85da51d35cee680a2d9"
-  },
-  {
-   "ts": "2026-10-01T21:45:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26100240. Tokens: 0x0bf1576f30cf9492fe9e7f8d058f15facdb85173 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xc67be4dea3da8c3f5eb8a345a186cd1334a65b0da93a28e51b322942a09cb0f7"
-  },
-  {
-   "ts": "2026-10-01T21:44:21Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc opened PR #213 in uniswap-hooks: 'BaseHook: M-10 document before-swap deltas in hook composition'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/213"
-  },
-  {
-   "ts": "2026-10-01T21:38:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26100206. Tokens: 0x0000000000000000000000000000000000000000 / 0xce5b6ccea9b6a31e9da7f2be5b31a56fac348c4c. Fee:...",
-   "url": "https://etherscan.io/tx/0xac2766dd200123a078af0faeb887fe2b7bedcecfe8047c315dfb049a6813c9df"
-  },
-  {
-   "ts": "2026-10-01T21:36:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26100196. Tokens: 0x80b34de62ad47c32f10b4b0db1ab60f4866c42a1 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0xb51332061a901307bce4b214de7e3d02fc16bb75adb3e6657b4d1427229df37b"
-  },
-  {
-   "ts": "2026-10-01T21:35:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26100193. Tokens: 0x0000000000000000000000000000000000000000 / 0xe51fd7a676ca2cf797b694d36f620ff4c49d5aef. Fee:...",
-   "url": "https://etherscan.io/tx/0xace3fa48e87ec3f38baae8945a1d6ea0d7cdb2c58dee0fdc2a37ce02969fc676"
-  },
-  {
-   "ts": "2026-10-01T21:29:47Z",
-   "suit": "club",
-   "source": "github",
-   "text": "github-actions[bot] pushed to uniswap-hooks: 'Update docs'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/44f83b8d72b1e2b397438565671e5b00227bc9a0"
-  },
-  {
-   "ts": "2026-10-01T21:29:28Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc merged PR #211 in uniswap-hooks: 'AntiSandwichHook, LiquidityPenaltyHook: M-03 document the default block number'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/pull/211"
-  },
-  {
-   "ts": "2026-10-01T21:29:27Z",
-   "suit": "club",
-   "source": "github",
-   "text": "gonzaotc pushed to uniswap-hooks: 'AntiSandwichHook, LiquidityPenaltyHook: M-03 document the default block number (#211)'",
-   "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/d1f993dd02c80c6f41348d321284390d126f9221"
   }
  ]
 }
