@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T04:13:29Z",
+ "generated_at": "2026-10-02T05:13:29Z",
  "history": [
-  {
-   "date": "2026-09-02",
-   "volume_24h_usd": 1360814448.0,
-   "fees_24h_usd": 7084537.0,
-   "eth_share_pct": 33.5
-  },
   {
    "date": "2026-09-03",
    "volume_24h_usd": 1637998748.0,
@@ -181,19 +175,37 @@
    "volume_24h_usd": 1453234576.0,
    "fees_24h_usd": 3305313.0,
    "eth_share_pct": 37.8
+  },
+  {
+   "date": "2026-10-02",
+   "volume_24h_usd": 1541636336.0,
+   "fees_24h_usd": 3229808.0,
+   "eth_share_pct": 34.1
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 572262905,
-  "Ethereum": 544258498,
-  "Base": 118289736,
-  "BSC": 68308730,
-  "Monad": 44773020,
-  "Polygon": 33924775,
-  "Arbitrum": 33837971,
-  "Arc": 25898251
+  "Robinhood Chain": 539868351,
+  "Ethereum": 512260214,
+  "OP Mainnet": 162591650,
+  "Base": 92662103,
+  "BSC": 63820248,
+  "Monad": 51308858,
+  "Polygon": 50124190,
+  "Arbitrum": 30306328
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [Temp Check] Protocol Fee Expansion: Arc (6 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-protocol-fee-expansion-arc/26287",
+   "occurred_at": "2026-10-02T05:00:02Z",
+   "active": false
+  },
+  {
+   "event": "Uniswap gov forum active thread: [Temp Check] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (7 posts)",
+   "url": "https://gov.uniswap.org/t/temp-check-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",
+   "occurred_at": "2026-10-02T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (11 posts)",
    "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T04:13:29Z",
+ "generated_at": "2026-10-02T05:13:29Z",
  "total_hooks": 5520,
  "total_pools": 18431,
  "multi_pool_hooks": 494,
@@ -6578,8 +6578,8 @@
   {
    "address": "0xb3cbeaa719f6c0b7b564ae8368a908f1301c20cc",
    "address_short": "0xb3cb…20cc",
-   "name": "",
-   "verified": false,
+   "name": "PrivateFiHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb3cbeaa719f6c0b7b564ae8368a908f1301c20cc",
    "pool_count": 3,
    "permissions_human": [
@@ -9465,8 +9465,8 @@
   {
    "address": "0x97953b0b8f37a0e87b220c8be1c0c72adfccc0cc",
    "address_short": "0x9795…c0cc",
-   "name": "",
-   "verified": false,
+   "name": "EstonksHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x97953b0b8f37a0e87b220c8be1c0c72adfccc0cc",
    "pool_count": 2,
    "permissions_human": [
