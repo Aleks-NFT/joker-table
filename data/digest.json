@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-02",
+   "narrative": {
+    "en": "The deck was already cut before most of the room noticed. Seven new V4 pools in a handful of blocks—26100967, 26101013, 26101035, 26101165, 26101174, 26101398, 26101409—first to last under four hundred blocks. That is not drift. That is a conveyor.\n\nWatch the hands. The hook contract 0x322d...88cc shows up in five of the seven. Same developer, same logic, different tokens. WETH is the recurring suit in four. Pure ETH paired with 0xf8a6...76d is a separate deal with another hook, 0xb8d9...0cc. The last pool carries the 10000 fee—1%—on 0x47ac...5999 and 0xc9af...0101. The only paid door among zero-fee rooms. That one is the joker in the sleeve.\n\nThe recurring hook runs M-10 from PR #213, just merged: documenting before-swap deltas in hook composition. Someone is already putting a production version of what passed review yesterday onto mainnet. No testnet. Straight to the felt.\n\nFact: the zero-fee pools are not about trading. They are about collecting data—how hooks interact before the swap, what deltas appear, how composition moves flow. The 1% pool may be the same mechanism tested under paid liquidity. The deck is not being assembled for play; it is being assembled to study the rules. Someone is methodically checking how V4 breathes under load. If the pattern repeats tomorrow, it is not another deal. It is a strategy.",
+    "zh": "牌未翻，桌边已有人换了坐法。七个新 V4 池在几块之内接连落地——26100967、26101013、26101035、26101165、26101174、26101398、26101409；首尾相距不足四百块。这不是偶然，是有人打通了流水线。\n\n看钩子。0x322d...88cc 在七池里出现五次，同一门户，同一路数，却换了不同兵刃。WETH 是四池里不变的底牌。纯 ETH 与 0xf8a6...76d 成对，是另一场局，用的是 0xb8d9...0cc。最后一池开价 10000，即百分之一，配 0x47ac...5999 与 0xc9af...0101——零费门中的唯一收费口。这一池，是袖里的杀着。\n\n那重复的钩子，用的是刚合入 PR #213 的 M-10：记录钩子组合中换币前的差额。也就是说，有人把昨日才过审的东西，直接放上主网。不试演，不设演武场。\n\n事实摆在眼前：零费池不为交易，只为采气。看钩子在换币前如何相接，差额如何生出，组合如何牵动内力。那百分之一的一池，或许只是同一路数在付费流动性下的试招。这副牌不是拿来赌，是拿来拆解规矩。有人在一板一眼量 V4 在重压之下如何呼吸。若明日仍是这个手法，便不是一场发牌，而是一整套策略。"
+   },
+   "take": {
+    "en": "The zero-fee pools are data traps, not trading venues; the one paid pool is the tell. If the same hook repeats tomorrow, the house is not dealing—it is mapping the felt.",
+    "zh": "零费池是采气的阵，不是交易的场；唯一收费的那池，才露了真意。若明日同一钩子再落，江湖看到的就不是散局，是布局。"
+   }
+  },
+  {
    "date": "2026-10-01",
    "narrative": {
     "en": "The deal was already in motion before the first card turned: Uniswap V4, twelve pools across eleven blocks, and nearly every one wearing a hook. That is not a night of idle hands; that is a volley. Two hook contracts sit at the center — 0x322dcec and 0x014257c — and they do not cross.\n\nThe first runs on zero fees; the second takes one percent. No zero-fee pool touches the second, no one-percent pool touches the first. A pattern, not a coincidence: two strategies dealt from separate shoes, each pulling liquidity through its own line. ETH/WETH shows up three times, with 0xc02aaa... paired against DOG, ELON, and another token — all on 0x322dcec at zero fees, the classic meme tray: low door, no rake, hooks doing the quiet work.\n\nThen the odd chip: an AAVE pool with token 0xc98de..., also at one percent and the same hook. AAVE does not usually sit at a table like that. Either someone is testing a new borrowing mechanism through hooks, or it is a warm-up before a larger hand. And two native ETH pools — 0x000... against different tokens — split their loyalties: one with hook 0xb8d94, the other with 0x014257c, different fees, different hooks, same base. Someone is trying configurations on one foundation.\n\nTwelve pools in eleven blocks. That is not drift; that is a batch of strategies set down at once, like cards fanned across the felt. Now the house waits to see which suit draws blood.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "A zero-fee pool is never charity — it's a declaration that the house intends to be paid from somewhere you cannot see yet. Three initializations, no swaps, no liquidity: cards face down until someone leans on them.",
     "zh": "零费的山门从不白开，只是账单还没递到眼前。三处新池，两岸无波——水面之下是否有暗流，得等第一笔兑换落笔才知。"
-   }
-  },
-  {
-   "date": "2026-09-18",
-   "narrative": {
-    "en": "The deal came from one hand. Contract 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0 shuffled seven of today's nine pool initializations across the felt — same hook, fee 10000, tickSpacing 200, the standard assembly for pairs where somebody has no intention of showing their strategy face-up. Not a scatter of bets; a grid. Token 0xaaee1a9723aadb7afa2810263653a34ba2c21c7a sits in two pools against different counterparts, and 0xc9eef266834730340a55b6cc24621b31baf55581 shows up twice as well, each time with a different pair.\n\nThen the zeroes. Two pools against ETH: 0x000...0000 paired with 0x91b90bc5204d824d2b581e17dff3c1e90c4ea69f and with 0xccc7e3188b081acba260634178272d3ef2373a76. Fee 0, tickSpacing 60, and two different hooks — 0x8d531dea551f999be6ce71149abb304d81d14500 and 0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc. A zero fee in V4 is not a trading proposition; it is a different game entirely. Either a dynamic fee routed through the hook, or an oracle, or a cheap attempt to drag liquidity onto a strange asset without charging the LPs for the privilege. The other variant runs fee 8388608 — 0.8388608% read raw in the standard interpretation — with tickSpacing 10, a micro-step meant for pairs that breathe harder than average.\n\nThe hook 0xcb69d5 keeps beating one pattern: fee 10000 (1%), tickSpacing 200, tokens drawn from a single list. It reads like a network being laid down for a particular market maker, or groundwork for a new strategy with a custom swap. The two zero-fee pools are the outliers, and that is exactly where to look if you want to catch who is shuffling off-suit.\n\nThe night's tally: somebody is sorting the deck by suits, but not every card is on the table.",
-    "zh": "今日九次开池，七次出自同一只手——合约 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0。同一个 hook，fee 10000，tickSpacing 200，招式一式不改，像是摆好了阵势等人入局。这不是散兵游勇，是一张网。代币 0xaaee1a9723aadb7afa2810263653a34ba2c21c7a 现身两池，对手方各不相同；0xc9eef266834730340a55b6cc24621b31baf55581 亦是两次，配的对子却不一样。\n\n零费处另有门道。两个 ETH 池：0x000...0000 分别与 0x91b90bc5204d824d2b581e17dff3c1e90c4ea69f 和 0xccc7e3188b081acba260634178272d3ef2373a76 结伴，fee 0，tickSpacing 60，hook 却分属两家——0x8d531dea551f999be6ce71149abb304d81d14500 与 0xb741a710e456fc6d7f76c88f5c56b27d05e8a5dc。零费在 V4 里不是做生意的路数，是别的心思：或借 hook 行动态费率，或设预言机，或只想把一个古怪资产的内力引过来，而不叫 LP 出半分力。另一路 fee 8388608，按常规读法是 0.8388608%，tickSpacing 10，步子极细，是给波动比常人更急的对手备下的路。\n\n那个 hook 只重复一招：fee 10000（1%）、tickSpacing 200、名单上的代币。像是替某位做市者铺网，或为一种自定义撮合的新法门打前站。余下两个零费池是异数；要看谁洗牌不按花色，就得往那里看。\n\n夜里留下的话不多：有人按花色理牌，可牌桌上并不齐全。"
-   },
-   "take": {
-    "en": "Seven of nine initializations from a single contract is coordination, not coincidence — yet the sharpest tell is not the pattern itself, it is the two pools where the fee is nothing at all. What that buys remains unstated by the numbers.",
-    "zh": "九次落子有七次出于同一只手，这不是巧合，是布阵；真正要看的是那两个零费池——规矩在那里被折了一下，而数字本身还没说清是为了什么。"
    }
   }
  ]

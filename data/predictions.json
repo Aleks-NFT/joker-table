@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 25,
   "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "open": 8,
+  "hit_rate": 0.595
  },
  "items": [
+  {
+   "id": 87,
+   "made_at": "2026-10-02",
+   "text": "Over the next 7 days the count clears 58; the likely landing sits between 30 and 103, and I give the over about 62%. Builders are deploying pools where the hook contract sets the swap fee in real time instead of a fixed setting—the clearest sign of hooks used as economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-09",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 86,
    "made_at": "2026-10-01",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-25",
    "status": "hit",
    "resolution_note": "Confirmed: target +136 on metric nonstd_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 37,
-   "made_at": "2026-07-17",
-   "text": "Over the next 7 days the count will exceed 20.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-24",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +20 on metric pools_by_hook reached.",
    "phase": "v2"
   }
  ]
