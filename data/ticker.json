@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-10-02T06:00:34Z",
+   "suit": "club",
+   "source": "github",
+   "text": "launch-572-build-orbital-uniswap-v4 updated README (sha 3bc8103)",
+   "url": "https://github.com/identity-md-launches/launch-572-build-orbital-uniswap-v4/blob/main/README.md"
+  },
+  {
+   "ts": "2026-10-02T05:56:23Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26102689. Tokens: 0x610ccaf87f4fe6bbb4d86ac37ca24a0f72bc9a54 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
+   "url": "https://etherscan.io/tx/0x68c5befcdf61033443b9671cc2b101adbe4afecb0cd7af8a06e9bfa8aa5eb0b3"
+  },
+  {
+   "ts": "2026-10-02T05:28:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26102553. Tokens: 0x0000000000000000000000000000000000000000 / 0x988f172256b13319c057a4ac291c03feac817e54. Fee:...",
+   "url": "https://etherscan.io/tx/0x0cb365a2800ec6084048b6d9862afcbcb5af2c8f3c581b95de606accb240298c"
+  },
+  {
    "ts": "2026-10-02T05:00:02Z",
    "suit": "spade",
    "source": "governance",
@@ -184,32 +205,11 @@
    "url": "https://github.com/OpenZeppelin/uniswap-hooks/commit/25b0cfcf791edd5e8ec32bcbed9d876de82b8300"
   },
   {
-   "ts": "2026-10-02T01:47:32Z",
+   "ts": "2026-10-02T01:47:33Z",
    "suit": "club",
    "source": "github",
-   "text": "New in the V4 hook niche: identity-md-launches/launch-572-build-orbital-uniswap-v4 — 0★ — Build Orbital, Uniswap v4 hook implementing Paradigm's Orbital stab...",
-   "url": "https://github.com/identity-md-launches/launch-572-build-orbital-uniswap-v4"
-  },
-  {
-   "ts": "2026-10-02T01:39:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26101409. Tokens: 0x859b25978d72306399e240a3775122af0951db68 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x09260a93224ea994fa37e519ad8ec4fbf878f17ecbe1f258c3b29b0e11069d1b"
-  },
-  {
-   "ts": "2026-10-02T01:37:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26101398. Tokens: 0x47accd13264d8f954105256faac8376ce6a55999 / 0xc9af05623647359b77bea0e16fa75cf9b4570101. Fee:...",
-   "url": "https://etherscan.io/tx/0x859bfc2933ebc84af9c7334acb7ff8249096296d5f76e091fc8db9f70ad86c16"
-  },
-  {
-   "ts": "2026-10-02T00:52:23Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26101174. Tokens: 0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee / 0x89d838629f88e4ab496536b88fc0599bc6e6dd38. Fee:...",
-   "url": "https://etherscan.io/tx/0xc4f423e58ee0d6b1d6a1649345f5e3e29b9f3582b905011e5f5e2fc663c32ba3"
+   "text": "surfer77 merged PR #1 in launch-572-build-orbital-uniswap-v4: 'Launch #572 — Build Orbital, Uniswap v4 hook implementing Paradigm's Orbital stableswap, where...",
+   "url": "https://github.com/identity-md-launches/launch-572-build-orbital-uniswap-v4/pull/1"
   }
  ]
 }
