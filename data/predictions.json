@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 25,
   "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "open": 8,
+  "hit_rate": 0.595
  },
  "items": [
+  {
+   "id": 88,
+   "made_at": "2026-10-03",
+   "text": "One contract is laying down pools in rapid succession, well past the pace of ordinary deployers. Over the next 7 days the count clears 74; the likely landing sits between 33 and 407, and I give the over about 55%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-10",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 87,
    "made_at": "2026-10-02",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-26",
    "status": "hit",
    "resolution_note": "Confirmed: target +52 on metric tickspacing_lt10_hooks reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 38,
-   "made_at": "2026-07-18",
-   "text": "Over the next 7 days the count will exceed 136.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-25",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +136 on metric nonstd_fee_pools reached.",
    "phase": "v2"
   }
  ]
