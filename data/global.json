@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T04:13:28Z",
+ "generated_at": "2026-10-04T05:13:28Z",
  "history": [
-  {
-   "date": "2026-09-04",
-   "volume_24h_usd": 1459747684.0,
-   "fees_24h_usd": 6740193.0,
-   "eth_share_pct": 28.5
-  },
   {
    "date": "2026-09-05",
    "volume_24h_usd": 2124814904.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1715552796.0,
    "fees_24h_usd": 2550883.0,
    "eth_share_pct": 39.2
+  },
+  {
+   "date": "2026-10-04",
+   "volume_24h_usd": 1317333042.0,
+   "fees_24h_usd": 3249606.0,
+   "eth_share_pct": 16.9
   }
  ],
  "chains_top": {
-  "Ethereum": 668319767,
-  "Robinhood Chain": 465355678,
-  "BSC": 264127174,
-  "Base": 167513434,
-  "Monad": 46019188,
-  "Arc": 35723751,
-  "Arbitrum": 31100460,
-  "Polygon": 24875314
+  "OP Mainnet": 479942222,
+  "Robinhood Chain": 328343165,
+  "Ethereum": 220914212,
+  "Base": 129525628,
+  "BSC": 55493959,
+  "Polygon": 42652553,
+  "Arc": 27861731,
+  "Monad": 19277580
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (12 posts)",
+   "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",
+   "occurred_at": "2026-10-04T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (42 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878",
@@ -216,12 +222,6 @@
    "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (11 posts)",
    "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",
    "occurred_at": "2026-10-01T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: Uniswap-Arbitrum Delegate Program (UADP) Communication Thread (40 posts)",
-   "url": "https://gov.uniswap.org/t/uniswap-arbitrum-delegate-program-uadp-communication-thread/22185",
-   "occurred_at": "2026-09-30T05:00:02Z",
    "active": false
   }
  ],

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T04:13:28Z",
+ "generated_at": "2026-10-04T05:13:28Z",
  "total_hooks": 5556,
  "total_pools": 18885,
  "multi_pool_hooks": 500,
@@ -1128,8 +1128,8 @@
   {
    "address": "0xee83560bb83fa38dcd3c1060233ddc7933c520cc",
    "address_short": "0xee83…20cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchGuardHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xee83560bb83fa38dcd3c1060233ddc7933c520cc",
    "pool_count": 36,
    "permissions_human": [
