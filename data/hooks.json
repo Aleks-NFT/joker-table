@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T09:13:28Z",
+ "generated_at": "2026-10-04T10:13:29Z",
  "total_hooks": 5557,
- "total_pools": 18903,
+ "total_pools": 18946,
  "multi_pool_hooks": 500,
  "shown": 500,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 1394,
+   "pool_count": 1431,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26117443,
-   "last_deploy": "2026-10-04T08:00:02Z",
+   "last_block": 26118244,
+   "last_deploy": "2026-10-04T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -156,7 +156,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 428,
+   "pool_count": 432,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -170,8 +170,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26117463,
-   "last_deploy": "2026-10-04T08:00:02Z",
+   "last_block": 26118206,
+   "last_deploy": "2026-10-04T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -365,7 +365,7 @@
    "name": "DirectAnyHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcba49142a75da64a679f32a159f4316f11a7e0cc",
-   "pool_count": 200,
+   "pool_count": 201,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -379,8 +379,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26051064,
-   "last_block": 26114341,
-   "last_deploy": "2026-10-03T22:00:02Z",
+   "last_block": 26118116,
+   "last_deploy": "2026-10-04T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -1131,7 +1131,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xee83560bb83fa38dcd3c1060233ddc7933c520cc",
-   "pool_count": 36,
+   "pool_count": 37,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -1145,8 +1145,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26110700,
-   "last_block": 26116186,
-   "last_deploy": "2026-10-04T04:00:02Z",
+   "last_block": 26117895,
+   "last_deploy": "2026-10-04T10:00:02Z",
    "active": true,
    "visible": false
   },
