@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 27,
   "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "open": 6,
+  "hit_rate": 0.614
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count of these narrow-spacing pools clears 13; the likely landing sits between 8 and 48, and I give the over about 55%. More pools are appearing with very small spacing—below 10—a tool for fine-grained, concentrated liquidity placement.",
    "horizon_days": 7,
    "resolve_after": "2026-10-05",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
