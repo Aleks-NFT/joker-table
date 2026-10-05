@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 27,
+  "hit": 26,
   "miss": 17,
-  "open": 6,
-  "hit_rate": 0.614
+  "open": 7,
+  "hit_rate": 0.605
  },
  "items": [
+  {
+   "id": 89,
+   "made_at": "2026-10-05",
+   "text": "One contract is dealing pools in rapid succession, far above the pace of typical deployers: over the next 7 days the count clears 80; the likely landing sits between 36 and 267, and I give the over about 57%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-12",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 88,
    "made_at": "2026-10-03",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-27",
    "status": "hit",
    "resolution_note": "Confirmed: target +16 on metric pools_by_hook reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 39,
-   "made_at": "2026-07-19",
-   "text": "Over the next 7 days the count of pools with tick spacing below 10 will exceed 52, as the behavior of placing more pools with very small tick spacing for fine-grained concentrated liquidity continues.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-26",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +52 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   }
  ]

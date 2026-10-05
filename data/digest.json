@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-05",
+   "narrative": {
+    "en": "The contract 0x322dcec4958c14e021a9f1cd49df11b9457968cc dealt pools like a dealer at rush hour. By evening, nine pairs with WETH, all at zero fee. Not chance—pattern: same contract, identical spacing, same anonymous architect behind the curtain.\n\nThirteen pools in a day is not activity; it is a land grab. Someone is building a deck, and the suits are not random. 0x322dcec4958c14e021a9f1cd49df11b9457968cc is a factory stamping pairs with ETH. Every pool is potential leverage, and zero fee says: I don't need your spread, I need your flow.\n\nBut other players are at the table. 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc opened a pool with a nonstandard fee—8388608, not a typo but a binary flag that changes how distribution works. And 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc waltzed: a zero-address pair with token 0xadae9284c5abae9eebf485ca0909c589ffa67624. Empty ETH against an unknown contract. That is not a pool—it is a bookmark.\n\nThe blocks tell the tempo: 26122441, 26122459, 26122634, 26122648... intervals compressed, roughly 10 to 20 blocks between initializations. Someone ran a script, no pauses, no second thoughts. Not research—network deployment. Overnight the deck filled with thirteen cards. Most in one suit, but two jokers already fell. The question is not who dealt them, but who first decides which combination to assemble.",
+    "zh": "合约 0x322dcec4958c14e021a9f1cd49df11b9457968cc 像江湖里最沉默的庄家，一夜间把池子一只只推上桌面。入夜之后，九对 WETH，皆零费。这不是巧合，是路数：同一个合约，同样的间距，同一个匿名的布局者藏在幕后。\n\n一日十三池，不是热闹，是圈地。有人在组一副牌，花色并非随手。0x322dcec4958c14e021a9f1cd49df11b9457968cc 是一座铸池的炉子，专打与 ETH 成对的牌。每一池都是潜在的杠杆，而零费只说一句：我不要你的点差，我要你的流水。\n\n但桌上另有高手。0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc 开了一池，费用非比寻常——8388608，不是笔误，是一枚改变分配逻辑的二进制令旗。0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 则踏了一步华尔兹：零地址与代币 0xadae9284c5abae9eebf485ca0909c589ffa67624 成对。空 ETH 对未知合约。那不是池，是暗桩。\n\n看区块：26122441、26122459、26122634、26122648……间隔收紧，约十到二十个区块便有一次初始化。有人以脚本行事，无停顿，无疑虑。不是试探，是铺网。一夜之间，牌堆添了十三张。多数同花色，但两张鬼牌已落。问题不在谁发牌，而在谁先决定如何凑出这一手。"
+   },
+   "take": {
+    "en": "Thirteen pools in one night, all stamped by a single hand, means the game has moved from finding liquidity to claiming it. The only question left is who reads the pattern first and moves before the house finishes the shuffle.",
+    "zh": "一夜十三池，皆出自同一只手，这不是试水，是落子圈地。要紧的不是谁布的局，而是谁先看懂牌面，赶在局面收拢之前落子。"
+   }
+  },
+  {
    "date": "2026-10-03",
    "narrative": {
     "en": "The mempool dealt fourteen V4 pools overnight, and every single one carried a hook contract — and every single one priced at zero. Not thirteen out of fourteen. All of them, no exception. That is not weather. That is a signature.\n\nTwo deployers did the dealing. 0x322d sits with WETH against a fistful of tokens — 0x2806, 0xc8b1, 0xbbe9, 0x5168, 0xabc6, 0xe240. 0xcba4 circles a single name, 0xe53e, which surfaces in three consecutive pools, each time against a fresh partner. 0xf861, 0xfbed, 0xffa4, 0xfbe9 — all new, all with no history to check. Then 0xc9ee, which shows up exactly five times, always a different counterparty, always under hook 0x322d — except the last one, paired with 0xec10 and a different hook entirely. Same shape regardless, and the same setting on every table.\n\nThe question was never who. The question is why. A hook can stand on both sides of every swap, before and after. When the house takes nothing off the top, the pool isn't a business — it's a listening post. Order flow, the shape of the liquidity, the privilege of seeing the move before it becomes public. Thirteen pools inside a handful of blocks, laid out in sequence, one after another. No hand deals like that. A machine does. The deck is cut, the suits are out, and now we watch for the first player to move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Zero-fee ETH pools and four unverified hooks in a single night is not income being built — it is infrastructure being built, and infrastructure is always a stake placed before the odds are posted.",
     "zh": "零费的ETH场子配上四个来路不明的hook——这不是冲着利钱去的，是在铺路。铺路的人，从不问今夜的输赢。"
-   }
-  },
-  {
-   "date": "2026-09-20",
-   "narrative": {
-    "en": "Two pools on Unichain, and the felt barely quivered — a thin table, the kind you walk past without slowing. The first arrived at block 59118648: the zero address paired against token 0x19ae, fee 0, tickSpacing 200, hook 0x9463. Zero fee on a V4 with a hook is rarely charity — it usually means the hook itself is collecting through dynamic mechanisms. The second, block 59115468, was more conventional: WETH against 0x5388, fee 3000, tickSpacing 60, hook 0x6277. Two hands is not a table.\n\nEthereum was another room entirely. At block 26015141 the same hook contract, 0xb741, began opening pools against the zero address with different tokens — fee 0, tickSpacing 60, eight pools in a row, down through 26015120. That is not a gambler's improvisation. That is a dealer working from a script, laying a grid of liquidity around a single hook. Serial deployment, automated, either a test distribution or a strategy where the hook owns the whole logic.\n\nThen, at 26015133, a different hook — 0x5dab — with 0x823f against WETH, fee 3000. Single. Off-series. And notice what repeats: on Ethereum nearly every new pool holds the zero address on one side, which means the other side is an ERC-20 and the pool is built to trade against the native currency through a wrapper. Fee of zero on such pairs is rare — arbitrage, or fees collected externally by the hook.\n\nFor the record, the day's highlight facts: 19930, 19931, 19932, 19933, 19934. And the thing worth saying plainly — V4 with hooks is no longer liquidity. It is programmable liquidity. Someone is building something larger than a pool. The only open question is what.",
-    "zh": "江湖一夜，Unichain 只摆开两处新池，内力稀薄，不成气候。第一处在 59118648 区块：零地址对 0x19ae，fee 为 0，tickSpacing 200，钩子 0x9463——过路钱分文不取，多半是钩子自己另设抽成之法。第二处在 59115468：WETH 对 0x5388，fee 3000，tickSpacing 60，另一枚钩子 0x6277。两池而已，不足挂齿。\n\n真正的动静在以太坊。自 26015141 区块起，同一枚钩子 0xb741 接连开池，皆以零地址配不同代币，fee 皆 0，tickSpacing 皆 60，一口气排到 26015120，八池成列。这不是随手落子，是有人按阵图布阵，多半是自动化的手笔——或为试演分派，或为一门由钩子独掌全局的功法。\n\n26015133，另有一枚钩子 0x5dab，0x823f 对 WETH，fee 3000，孤零零一池，不入阵。可留意者：以太坊新池几乎都以零地址为一方，另一方必是 ERC-20，此池多半是为借包装之币与原生之币相搏而设。此类对上 fee 为 0，实属罕见——或行走套利之途，或由钩子在池外收租。\n\n今日留档五个数字：19930、19931、19932、19933、19934。带钩的 V4，已不是死水般的内力，而是可编程的内力。有人所建，不止于池。至于建的是什么，江湖尚未见分晓。"
-   },
-   "take": {
-    "en": "Eight pools from one hook contract in a single run is not trading, it is construction — and V4 hooks have turned liquidity itself into code that can be written to order.",
-    "zh": "一枚钩子连开八池，是布阵，不是试手。V4 的流动性已被写成可编程的内力，规矩正在换。"
    }
   }
  ]
