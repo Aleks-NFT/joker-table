@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T13:13:29Z",
- "total_hooks": 5577,
- "total_pools": 19432,
+ "generated_at": "2026-10-05T14:13:32Z",
+ "total_hooks": 5580,
+ "total_pools": 19462,
  "multi_pool_hooks": 502,
  "shown": 502,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 1830,
+   "pool_count": 1855,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26125990,
-   "last_deploy": "2026-10-05T12:00:02Z",
+   "last_block": 26126609,
+   "last_deploy": "2026-10-05T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -156,7 +156,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 461,
+   "pool_count": 462,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -170,8 +170,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26125732,
-   "last_deploy": "2026-10-05T12:00:02Z",
+   "last_block": 26126444,
+   "last_deploy": "2026-10-05T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1241,6 +1241,31 @@
    "visible": false
   },
   {
+   "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
+   "address_short": "0x025a…20cc",
+   "name": "EthCreatorFeeHookV2",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x025a386eaa79f6067d29848fd05ccc71beab20cc",
+   "pool_count": 28,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25624511,
+   "last_block": 26126357,
+   "last_deploy": "2026-10-05T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x68c463f0c8ad1131eac043b035618223d3caeacc",
    "address_short": "0x68c4…eacc",
    "name": "LaunchHookLending",
@@ -1265,31 +1290,6 @@
    "first_block": 25274267,
    "last_block": 25644847,
    "last_deploy": "2026-07-30T10:00:02Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
-   "address_short": "0x025a…20cc",
-   "name": "EthCreatorFeeHookV2",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x025a386eaa79f6067d29848fd05ccc71beab20cc",
-   "pool_count": 27,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25624511,
-   "last_block": 25653685,
-   "last_deploy": "2026-07-31T16:00:02Z",
    "active": false,
    "visible": false
   },
