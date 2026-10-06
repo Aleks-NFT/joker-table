@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T03:13:29Z",
- "total_hooks": 5617,
- "total_pools": 19725,
+ "generated_at": "2026-10-06T04:13:27Z",
+ "total_hooks": 5619,
+ "total_pools": 19740,
  "multi_pool_hooks": 506,
  "shown": 506,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 2015,
+   "pool_count": 2026,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26130190,
-   "last_deploy": "2026-10-06T02:00:02Z",
+   "last_block": 26130787,
+   "last_deploy": "2026-10-06T04:00:02Z",
    "active": true,
    "visible": true
   },
@@ -2830,6 +2830,25 @@
    "visible": false
   },
   {
+   "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+   "address_short": "0x784f…6000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+   "pool_count": 14,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "beforeInitialize"
+   ],
+   "first_block": 26129224,
+   "last_block": 26130545,
+   "last_deploy": "2026-10-06T04:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xf1233150d60d96f4f9086a535738b53625a980cc",
    "address_short": "0xf123…80cc",
    "name": "OmniHook",
@@ -2869,25 +2888,6 @@
    "last_block": 25698685,
    "last_deploy": "2026-08-06T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "address_short": "0x784f…6000",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 13,
-   "permissions_human": [
-    "sets up pools"
-   ],
-   "permissions_technical": [
-    "beforeInitialize"
-   ],
-   "first_block": 26129224,
-   "last_block": 26130203,
-   "last_deploy": "2026-10-06T02:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -3798,6 +3798,31 @@
    "visible": false
   },
   {
+   "address": "0xb05f2e50e15a58270af53583b2b9a420ded228a0",
+   "address_short": "0xb05f…28a0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb05f2e50e15a58270af53583b2b9a420ded228a0",
+   "pool_count": 10,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "beforeDonate"
+   ],
+   "first_block": 26129956,
+   "last_block": 26130433,
+   "last_deploy": "2026-10-06T04:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xbe4b993be32558eaf50ac7140607e927f13e5000",
    "address_short": "0xbe4b…5000",
    "name": "SaturnOmnichainV4Hook",
@@ -4346,31 +4371,6 @@
    "last_block": 25769065,
    "last_deploy": "2026-08-16T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xb05f2e50e15a58270af53583b2b9a420ded228a0",
-   "address_short": "0xb05f…28a0",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0xb05f2e50e15a58270af53583b2b9a420ded228a0",
-   "pool_count": 9,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "handles donations"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "beforeDonate"
-   ],
-   "first_block": 26129956,
-   "last_block": 26130156,
-   "last_deploy": "2026-10-06T02:00:02Z",
-   "active": true,
    "visible": false
   },
   {
