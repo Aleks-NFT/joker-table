@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 27,
   "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "open": 6,
+  "hit_rate": 0.614
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Builders are now dropping pools whose hook sets the swap fee in real time, live, instead of taking whatever fixed rate the house posts — that is the behaviour worth watching. On that tell I will say it plain: over the next 7 days the count clears 50, the likely landing sits between 27 and 92, and I give the over about 61%.",
    "horizon_days": 7,
    "resolve_after": "2026-10-06",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +50 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
