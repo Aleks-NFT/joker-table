@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T11:12:30Z",
- "total_hooks": 5625,
- "total_pools": 19812,
+ "generated_at": "2026-10-06T12:11:04Z",
+ "total_hooks": 5629,
+ "total_pools": 19835,
  "multi_pool_hooks": 506,
  "shown": 506,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 2082,
+   "pool_count": 2100,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26132549,
-   "last_deploy": "2026-10-06T10:00:02Z",
+   "last_block": 26133176,
+   "last_deploy": "2026-10-06T12:00:02Z",
    "active": true,
    "visible": true
   },
@@ -752,7 +752,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xee83560bb83fa38dcd3c1060233ddc7933c520cc",
-   "pool_count": 63,
+   "pool_count": 64,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -766,8 +766,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26110700,
-   "last_block": 26129455,
-   "last_deploy": "2026-10-06T00:00:03Z",
+   "last_block": 26133189,
+   "last_deploy": "2026-10-06T12:00:02Z",
    "active": true,
    "visible": false
   },
@@ -11315,7 +11315,7 @@
    "first_block": 26081757,
    "last_block": 26082444,
    "last_deploy": "2026-09-29T12:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
