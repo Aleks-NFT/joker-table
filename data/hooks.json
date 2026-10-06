@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T04:13:27Z",
+ "generated_at": "2026-10-06T05:13:28Z",
  "total_hooks": 5619,
  "total_pools": 19740,
  "multi_pool_hooks": 506,
@@ -1347,8 +1347,8 @@
   {
    "address": "0x834deb445d44244ad1268f0149c7dfbbf9d5e0c0",
    "address_short": "0x834d…e0c0",
-   "name": "",
-   "verified": false,
+   "name": "FusingFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x834deb445d44244ad1268f0149c7dfbbf9d5e0c0",
    "pool_count": 26,
    "permissions_human": [
@@ -4204,8 +4204,8 @@
   {
    "address": "0x313ea55aa2df26138b1df5cf04fef6af030e98c0",
    "address_short": "0x313e…98c0",
-   "name": "",
-   "verified": false,
+   "name": "HalcyonHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x313ea55aa2df26138b1df5cf04fef6af030e98c0",
    "pool_count": 9,
    "permissions_human": [
@@ -7598,8 +7598,8 @@
   {
    "address": "0x11427e892e27e794179d28807c53de6fde92e0cc",
    "address_short": "0x1142…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "HindsightHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x11427e892e27e794179d28807c53de6fde92e0cc",
    "pool_count": 2,
    "permissions_human": [
