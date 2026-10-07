@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "miss": 18,
+  "open": 6,
+  "hit_rate": 0.591
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "One contract is dealing pools in rapid succession, faster than a typical deployer would ever move — a conveyor, not a hand. Over the next 7 days the count clears 42; the likely landing sits between 32 and 216, and I give the over about 54%.",
    "horizon_days": 7,
    "resolve_after": "2026-10-07",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +42 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {

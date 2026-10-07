@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T09:13:32Z",
- "total_hooks": 5747,
- "total_pools": 20307,
+ "generated_at": "2026-10-07T10:13:30Z",
+ "total_hooks": 5748,
+ "total_pools": 20318,
  "multi_pool_hooks": 523,
  "shown": 523,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 2355,
+   "pool_count": 2365,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26138866,
-   "last_deploy": "2026-10-07T08:00:02Z",
+   "last_block": 26139728,
+   "last_deploy": "2026-10-07T10:00:03Z",
    "active": true,
    "visible": true
   },
