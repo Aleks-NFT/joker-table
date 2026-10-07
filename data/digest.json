@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-07",
+   "narrative": {
+    "en": "The felt is already crowded: fourteen Uniswap V4 pools with hooks, all dealt inside a handful of blocks, every timestamp folded into ten or fifteen minutes. That is not a twitch—it is a conveyor. Someone is stamping pools and watching them stack.\n\nThe fee is zero across the board. Zero is not a trading posture; it is a signature. Contracts 0x322dce... and 0xb8d947... surface more than once, the same operator cutting the same deck. Three pools pair ETH against tokens I do not know on sight, each with the burn address on one side and a different hook on the other. That is not accident; that is a hand testing logic against a dead pair, seeing which hook holds.\n\nThe spacing reads 60 and 200—one for the volatile, one for the mainstream—but every pool is young and the liquidity is absent. No swaps. These are placeholders, foundations poured before the game. The hook 0x322dce... appears in five of fourteen; that is the main tool, or the template. The blocks—26137267, 26137262, 26137240—tick every five to seven seconds. Script. Clean script, no pause, no doubt.\n\nSome tokens look freshly deployed, others old with history. Still no liquidity, no swaps. Could be silence before a storm; could be a field being marked. I watch the hooks. When movement starts, the dealer will show his hand.",
+    "zh": "Uniswap V4 的十四口池子，带钩，几乎在同一炷香里落成。时间戳挤在一刻钟内。不是零星出手，是流水线：有人按下一次回车，池子便一口接一口地冒出来。\n\n手续费全是零。零不是做买卖的架势，是暗号。0x322dce... 与 0xb8d947... 反复现身，同一双手在洗同一副牌。三次以燃烧地址作对家，ETH 对上陌生代币，钩子每次不同。像在空池上试招，看哪一门钩法先露破绽。\n\n间距六十与二百，一给波动，一给主流；可池中内力未注，成交未起，只有壳。钩 0x322dce... 十四占五，是主兵器，或是模板。区块 26137267、26137262、26137240... 每五到七秒一跳。脚本，干净得像老手落子，不犹豫。\n\n有些代币像新开山门，有些则旧有履历。仍无内力，仍无成交。也许是风雨前的静，也许只是先圈地。先看钩。等有人真正下场，才知是谁在发牌。"
+   },
+   "take": {
+    "en": "Zero fees, repeated hooks, and pools with no liquidity are not a market yet—they are a rehearsal. The tell is 0x322dce... in five of fourteen: one hand is building the table before anyone is allowed to bet.",
+    "zh": "零费、空池、同钩复现，不是热闹，是布阵。0x322dce... 十四占五，先手已落，只待内力入局。"
+   }
+  },
+  {
    "date": "2026-10-06",
    "narrative": {
     "en": "The same hand keeps shuffling. 0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068 turns up in eight deals inside a single hour — eight pools, one and the same hook at 0xb05f2e50e15a58270af53583b2b9a420ded228a0, every one of them drawn with a fee of 8388608 and a spacing of 10. That is not a twitch at the table. That is a lattice going up rail by rail, and lattices are marathons, not sprints.\n\nMeanwhile a second line runs alongside. The hook at 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 opens pools with a fee of 12500 and a spacing of 60 — ETH against tokens nobody has named, unnamed tokens against each other. Ordinary pairings, custom logic written into the contract itself. Then 0x322dcec4958c14e021a9f1cd49df11b9457968cc: three pools, zero fee, spacing 200. Zero commission is not a way to earn on swaps. It is a way to do something else — gather data, feed an oracle, or feed something I will only understand once the first blocks with real liquidity land on the felt.\n\nNotice the small moves. A pool pairing UNI with 0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068, and right behind it LINK with the same coin — somebody is assembling a basket of blue chips and threading them through a single token. A bridge, built and not yet open to traffic. And the quietest table of all: 0x0000000000000000000000000000000000000000 against 0x0629c60759a8b876de2b4596b58284b36510013c — ETH against a token I cannot find anywhere in memory. Either brand new, or deliberately hidden.\n\nThere are no jokers in this deck. Only clever combinations, fanned out in plain sight. Somebody knows what they are doing. Or believes they do. We will see it when the cards lie down.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Four pools in one session, each with its own hook and appetite: someone is not playing a hand, they are building a deck. The pattern is the tell, not any single card.",
     "zh": "一局四池，四枚钩子，四般心法：这不是随手押注，是有人在攒一副牌。信号在牌路，不在单张牌面。"
-   }
-  },
-  {
-   "date": "2026-09-22",
-   "narrative": {
-    "en": "The night's mempool dealt a hand that doesn't smell like chance. Ten pools, zero fee, all from the same hook contract — 0xb741a710 — firing inside fourteen blocks, ETH paired against ten different tokens, spacing set at 60. Nobody deals ten identical structures by accident. Either a simulation swarm for hook mechanics, or a basket staged for a gas-priority arb bot. Too synchronized to be a stray shuffle.\n\nEarlier, block 26029489 laid down two more from 0xefe3aa7df: PYTH/USDC with one basis point and spacing 10, and a second pool, 0x22ae3d9a against 0x6c3ea903, zero fee, same spacing. Both in one block. Dense grid, high-volatility hunting — someone knows the felt and where to place the chips.\n\nThe pearl: block 26029503, USDT against 0xdae0fafd65385e7775cf75b1398735155ef6acd2, fee 8388608. That's the ceiling — one hundred percent. Not a trading pool. A hook intermediary taking the whole cut, or a way to pin flow direction without fear of withdrawal. The kind of move made when you want execution outside the standard route.\n\nThe deck is being seeded with every strategy from high-frequency grid to fee-locked exotics. The house doesn't shuffle this deliberately without a reason.",
-    "zh": "今夜 mempool 里递出的这一手，不像偶然。同一个 hook 合约 0xb741a710，在十四个区块内连续开出十个零费率池，以太坊对十个不同代币，间距 60。这不像随手落子，倒像有人在试招，或是在为某路抢跑机器人摆好棋阵。太整齐，整齐得不似江湖偶遇。\n\n更早，区块 26029489，0xefe3aa7df 出手两次：一对 PYTH/USDC，一点基点的费率，间距 10；另一对 0x22ae3d9a 与 0x6c3ea903，零费率，同一间距。同一区块，两处落子。间距密，网格细，是给波动大的对手留的陷阱，每一步都要算到毫厘。\n\n最后是那枚暗器。区块 26029503，USDT 对 0xdae0fafd65385e7775cf75b1398735155ef6acd2，费率 8388608。不是笔误。那是 V4 的极值——百分之百。此池不为交易，倒像是 hook 坐庄全取，或是锁住流向、不留撤池余地。行此手者，多半是想绕过寻常路径，确保一击必中。\n\n江湖一夜间，有人在高频网格与锁费异术之间逐一试剑。内力流向不是无故翻涌，牌已重新洗过。"
-   },
-   "take": {
-    "en": "Ten zero-fee pools in fourteen blocks from one hook contract is a stress test, not a trade; the signal is in the synchronization, not the liquidity.",
-    "zh": "同一个 hook 合约十四个区块内连开十池，这已是阵势，不是散户随手；真正值得看的，是这股同步的节奏，而非池中那点浅水。"
    }
   }
  ]

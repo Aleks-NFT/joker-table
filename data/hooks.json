@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T03:08:58Z",
- "total_hooks": 5726,
- "total_pools": 20228,
- "multi_pool_hooks": 520,
- "shown": 520,
+ "generated_at": "2026-10-07T04:08:55Z",
+ "total_hooks": 5734,
+ "total_pools": 20245,
+ "multi_pool_hooks": 521,
+ "shown": 521,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 2313,
+   "pool_count": 2320,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26137370,
-   "last_deploy": "2026-10-07T02:00:03Z",
+   "last_block": 26137721,
+   "last_deploy": "2026-10-07T04:00:02Z",
    "active": true,
    "visible": true
   },
@@ -65,7 +65,7 @@
    "name": "FeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0d62529346ac2c61f5c0582210d01214687bc0cc",
-   "pool_count": 1176,
+   "pool_count": 1177,
    "permissions_human": [
     "intercepts swaps",
     "adjusts swap amounts"
@@ -77,8 +77,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118578,
-   "last_block": 26131473,
-   "last_deploy": "2026-10-06T08:00:02Z",
+   "last_block": 26137511,
+   "last_deploy": "2026-10-07T04:00:02Z",
    "active": true,
    "visible": true
   },
@@ -8258,6 +8258,25 @@
    "visible": false
   },
   {
+   "address": "0x37bc9d1b9811bb1dd88f3b74bebbe4db16774080",
+   "address_short": "0x37bc…4080",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x37bc9d1b9811bb1dd88f3b74bebbe4db16774080",
+   "pool_count": 2,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap"
+   ],
+   "first_block": 26137514,
+   "last_block": 26137649,
+   "last_deploy": "2026-10-07T04:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x398c5fb8b13509375e54abd9e4b98316d79528cc",
    "address_short": "0x398c…28cc",
    "name": "",
@@ -11354,7 +11373,7 @@
    "first_block": 26087363,
    "last_block": 26087378,
    "last_deploy": "2026-09-30T04:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {

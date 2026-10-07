@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 27,
+  "hit": 26,
   "miss": 17,
-  "open": 6,
-  "hit_rate": 0.614
+  "open": 7,
+  "hit_rate": 0.605
  },
  "items": [
+  {
+   "id": 91,
+   "made_at": "2026-10-07",
+   "text": "Over the next 7 days the count clears 57; the likely landing sits between 29 and 95, and I give the over about 65%. What matters is the behaviour: builders are deploying pools where the hook itself sets the swap toll in real time instead of a fixed rate, the clearest sign that hooks are economic primitives, not decorative add-ons.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-14",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 90,
    "made_at": "2026-10-06",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-29",
    "status": "hit",
    "resolution_note": "Confirmed: target +5 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 41,
-   "made_at": "2026-07-21",
-   "text": "Over the next 7 days the count will exceed 11 — builders are deploying pools where the hook sets the swap fee in real time, not a fixed tier, and this is the clearest sign that hooks are being used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-28",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +11 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]
