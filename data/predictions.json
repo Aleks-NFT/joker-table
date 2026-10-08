@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 25,
   "miss": 18,
-  "open": 6,
-  "hit_rate": 0.591
+  "open": 7,
+  "hit_rate": 0.581
  },
  "items": [
+  {
+   "id": 92,
+   "made_at": "2026-10-08",
+   "text": "One hand is dealing pools faster than any dealer I've watched, and over the next 7 days the count clears 382; the likely landing sits between 149 and 1279, and I give the over about 55%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-15",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 91,
    "made_at": "2026-10-07",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-30",
    "status": "hit",
    "resolution_note": "Confirmed: target +213 on metric nonstd_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 42,
-   "made_at": "2026-07-22",
-   "text": "Over the next 7 days the count will exceed 5, as builders deploy pools with the dynamic-fee flag: the hook contract sets the swap fee in real time instead of a fixed tier, the clearest sign of hooks used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-29",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +5 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]

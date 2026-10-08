@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-08",
+   "narrative": {
+    "en": "The felt's still warm from the deal. Two dozen V4 pools in a single block — not an hour, not a day, but a few heartbeats. That's no accident; that's a cluster distribution.\n\nThe same hook, 0x322dcec4, repeats like a refrain. Five pools with it, all WETH, all with tickSpacing 200. Someone is stamping liquidity like cards from a single deck. Same hook, same settings, but different tokens: 0x0d3d06, 0x404ac3, 0x24668c, 0x1c4625, 0x260564. Five pairs, one master key.\n\nMore interesting: hook 0x7ba04134 sits on two pools with tickSpacing 1. Minimal step, maximum precision. One pool with 0xd27b1d0, another with 0x69825081 — and neither is WETH. A bet on pairs where every tick decides. Another hook, 0x0eeb7200, with a pool on 0x1b54e7 / 0x1fd57d, also tickSpacing 60. And 0x76876759 with 0xf15aa2c against WETH.\n\nAll pools zero-fee. None takes a cut. This isn't about trading — it's about something else. Maybe a test grid for strategies on hooks. Maybe preparation for something bigger. One pool stands out: 0x0000000... / 0x2bfbe07 — an address of zeros. Someone created a pair with an empty token. Either a mistake or a deliberate anomaly. Block 26144535 — the last in this series. 26144420 — the first. Fifteen pools over 115 blocks. About twenty minutes of network work. Someone clearly didn't sleep.",
+    "zh": "江湖上，一夜之间多了二十余个 V4 池子，不是一时半刻，而是瞬息之间。这不是偶然，是有人成批地布下棋局。同一个钩子地址 0x322dcec4 反复出现，如同老调重弹。五个池子用它，全是 WETH，tickSpacing 都是 200。有人像发牌一样成批地注入流动性，同一门派，同一招式，但对手不同：0x0d3d06、0x404ac3、0x24668c、0x1c4625、0x260564。五对棋子，一把总钥匙。\n\n更有意思的是，钩子 0x7ba04134 坐镇两个 tickSpacing 为 1 的池子。最小步长，最大精准。一个池子配 0xd27b1d0，另一个配 0x69825081——都不是 WETH。这是赌每一招都决定生死的对决。另一个钩子 0x0eeb7200，池子用 0x1b54e7 / 0x1fd57d，tickSpacing 60。还有 0x76876759，配 0xf15aa2c 对抗 WETH。\n\n所有池子都是零手续费。没有一个抽成。这不是为了交易，是为了别的。或许是测试新阵法的网格，或许是为更大的动作做准备。有一个池子格外扎眼：0x0000000... / 0x2bfbe07——零地址。有人用空代币建了一对。要么是失误，要么是故意留下的异常。\n\n区块 26144535 是这串动作的最后一手，26144420 是第一手。十五个池子，横跨 115 个区块。大约二十分钟的网络光景。有人显然没睡。"
+   },
+   "take": {
+    "en": "The house isn't taking a cut, which means the game is rigged for something other than profit. Watch the empty-token pool — that's the tell.",
+    "zh": "零手续费不是做慈善，是在布一个不需要抽成的局。那个空代币的池子，才是棋眼。"
+   }
+  },
+  {
    "date": "2026-10-07",
    "narrative": {
     "en": "The felt is already crowded: fourteen Uniswap V4 pools with hooks, all dealt inside a handful of blocks, every timestamp folded into ten or fifteen minutes. That is not a twitch—it is a conveyor. Someone is stamping pools and watching them stack.\n\nThe fee is zero across the board. Zero is not a trading posture; it is a signature. Contracts 0x322dce... and 0xb8d947... surface more than once, the same operator cutting the same deck. Three pools pair ETH against tokens I do not know on sight, each with the burn address on one side and a different hook on the other. That is not accident; that is a hand testing logic against a dead pair, seeing which hook holds.\n\nThe spacing reads 60 and 200—one for the volatile, one for the mainstream—but every pool is young and the liquidity is absent. No swaps. These are placeholders, foundations poured before the game. The hook 0x322dce... appears in five of fourteen; that is the main tool, or the template. The blocks—26137267, 26137262, 26137240—tick every five to seven seconds. Script. Clean script, no pause, no doubt.\n\nSome tokens look freshly deployed, others old with history. Still no liquidity, no swaps. Could be silence before a storm; could be a field being marked. I watch the hooks. When movement starts, the dealer will show his hand.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Two pools, two hooks, one window — the house isn't decorating the felt, it's rewriting how the rake moves.",
     "zh": "两池两钩同落一窗，说明有人不在装饰门面，而在改抽成的规矩。牌未翻尽，先看洗牌的手。"
-   }
-  },
-  {
-   "date": "2026-09-23",
-   "narrative": {
-    "en": "Block 26037053, and the felt has a new V4 pool on Uniswap: 0xd31a59c85ae9d8edefec411d448f90841571b89c against 0xf542782ca8082c4d5bcdd1ffb3c006be54170bd5, stake 10000, spacing 200, hook at 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0. This is not a random pair — one of the tokens I have already seen in the previous deal. Someone is collecting the deck.\n\nThree blocks back, 26036523: 0xc84782858b7bef5d25182dbac956a6aa463aefe5 against USDT, 3000 basis points, spacing 61, hook at 0x8409dd13074e8018c3999d8405a6d328f19d2a80. USDT on V4 is a rarity. Stablecoins usually stay on the old suits. Here, someone chose to play a new hand.\n\nFourteen blocks before that, 26036539: ETH against 0xc8987e2a5c68a881d7f4c0bc6130697ae891f91e, zero fee, spacing 200, hook at 0x0d62529346ac2c61f5c0582210d01214687bc0cc. Free entry always has a smell — liquidity for a specific scenario, or a live bait for the arbitrageur.\n\nAnd 26036885: ETH against 0x285f8dcc3094f86ec20adfe3c150611993c1ffff, fee 8388608 — the maximum, almost blocking. Spacing 10, a narrow corridor. Hook at 0xf067c780c18e230958fb35c2455cee381864e0c0. Someone is putting up a wall. Four pools in one session. Different pairs, different strategies. One deals fast without looking; another shuffles for the long game. I just watch the cards fall.",
-    "zh": "区块 26037053，江湖的桌面上又多了一个 Uniswap V4 新池：0xd31a59c85ae9d8edefec411d448f90841571b89c 对 0xf542782ca8082c4d5bcdd1ffb3c006be54170bd5，费率 10000，步距 200，钩子在 0xcb69d5abe0589af4c57b0dcca292980d5e52c0c0。这不是随手一局——其中一个代币，我在上一场里见过。有人正在收牌。\n\n再往前三个区块，26036523：0xc84782858b7bef5d25182dbac956a6aa463aefe5 对 USDT，三千基点，步距 61，钩子在 0x8409dd13074e8018c3999d8405a6d328f19d2a80。USDT 落于 V4，是少见的事。稳定币素来守旧，多留在旧门派的牌桌上。此处却有人偏要换一种打法。\n\n再往前十四个区块，26036539：ETH 对 0xc8987e2a5c68a881d7f4c0bc6130697ae891f91e，零费，步距 200，钩子在 0x0d62529346ac2c61f5c0582210d01214687bc0cc。免费的入口，总带着气味。要么是为某种特定局面备下的内力，要么是给套利客下的活饵。\n\n还有 26036885：ETH 对 0x285f8dcc3094f86ec20adfe3c150611993c1ffff，费 8388608——极高，几乎封路。步距 10，窄巷一条。钩子在 0xf067c780c18e230958fb35c2455cee381864e0c0。有人在这里筑墙。一局四池，牌面各异，心法各异。有人发牌快而不看，有人洗牌图的是长局。我只在旁看牌落。"
-   },
-   "take": {
-    "en": "Four pools in one session, each with its own hook and appetite: someone is not playing a hand, they are building a deck. The pattern is the tell, not any single card.",
-    "zh": "一局四池，四枚钩子，四般心法：这不是随手押注，是有人在攒一副牌。信号在牌路，不在单张牌面。"
    }
   }
  ]
