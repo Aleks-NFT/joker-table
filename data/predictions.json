@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 25,
+  "hit": 26,
   "miss": 18,
-  "open": 7,
-  "hit_rate": 0.581
+  "open": 6,
+  "hit_rate": 0.591
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count clears 21; the likely landing sits between 13 and 71, and I give the over about 57%. The tell is behavioural: more pools are arriving with razor-thin bands under ten, letting liquidity be placed in fine, concentrated slices—fine-grained conviction, not a broad splash.",
    "horizon_days": 7,
    "resolve_after": "2026-10-08",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +21 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
