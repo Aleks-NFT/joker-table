@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 25,
+  "hit": 26,
   "miss": 18,
-  "open": 7,
-  "hit_rate": 0.581
+  "open": 6,
+  "hit_rate": 0.591
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "Over the next 7 days the count clears 58; the likely landing sits between 30 and 103, and I give the over about 62%. Builders are deploying pools where the hook contract sets the swap fee in real time instead of a fixed setting—the clearest sign of hooks used as economic primitives, not decorative add-ons.",
    "horizon_days": 7,
    "resolve_after": "2026-10-09",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +58 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
