@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T04:09:53Z",
+ "generated_at": "2026-10-09T05:09:57Z",
  "history": [
-  {
-   "date": "2026-09-09",
-   "volume_24h_usd": 1482906316.0,
-   "fees_24h_usd": 4952254.0,
-   "eth_share_pct": 32.0
-  },
   {
    "date": "2026-09-10",
    "volume_24h_usd": 2278914054.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 1489900867.0,
    "fees_24h_usd": 2290557.0,
    "eth_share_pct": 47.3
+  },
+  {
+   "date": "2026-10-09",
+   "volume_24h_usd": 1433172667.0,
+   "fees_24h_usd": 2273845.0,
+   "eth_share_pct": 42.0
   }
  ],
  "chains_top": {
-  "Ethereum": 699995616,
-  "Robinhood Chain": 458665346,
-  "Base": 145781241,
-  "BSC": 56194779,
-  "Polygon": 35182205,
-  "Arc": 32298757,
-  "Monad": 27412194,
-  "Arbitrum": 24022258
+  "Ethereum": 596539648,
+  "Robinhood Chain": 459386918,
+  "Base": 188793475,
+  "BSC": 58080151,
+  "Polygon": 35287541,
+  "Monad": 31887521,
+  "Arc": 27047306,
+  "Arbitrum": 22900115
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (7 posts)",
+   "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297",
+   "occurred_at": "2026-10-09T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (5 posts)",
    "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297",
@@ -215,12 +221,6 @@
   {
    "event": "Uniswap gov forum active thread: [Temp Check] Protocol Fee Expansion: Arc (7 posts)",
    "url": "https://gov.uniswap.org/t/temp-check-protocol-fee-expansion-arc/26287",
-   "occurred_at": "2026-10-06T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: Uniswap Foundation Security Fund (UFSF): Announcement Thread (43 posts)",
-   "url": "https://gov.uniswap.org/t/uniswap-foundation-security-fund-ufsf-announcement-thread/24878",
    "occurred_at": "2026-10-06T05:00:02Z",
    "active": false
   }

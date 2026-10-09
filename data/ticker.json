@@ -2,6 +2,27 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-10-09T05:00:02Z",
+   "suit": "spade",
+   "source": "governance",
+   "text": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (7 posts)",
+   "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297"
+  },
+  {
+   "ts": "2026-10-09T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDT / USDS — $153,072,380   #2 USDC / USDT — $68,574,287   #3 PYUSD / USDS — $37,968,160   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-10-09T04:30:03Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS volume surged 102% to $10,692,701 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
    "ts": "2026-10-09T04:00:01Z",
    "suit": "club",
    "source": "github",
@@ -188,27 +209,6 @@
    "suit": "spade",
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26151956. Tokens: 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 / 0xff2b89ee8af5a581d9ee85d5674197a81bdefaaf. Fee:...",
-   "url": "https://etherscan.io/tx/0xedd1007f1ab4fdd932451d9c4e42bd23d0e452e9820b69e23926327e5c0f7dec"
-  },
-  {
-   "ts": "2026-10-09T02:47:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26151956. Tokens: 0x43c6b27489139debfdb71463f83552cc7264968b / 0xdd3f3711380fac0678356354ed1437182d977f4f. Fee:...",
-   "url": "https://etherscan.io/tx/0xedd1007f1ab4fdd932451d9c4e42bd23d0e452e9820b69e23926327e5c0f7dec"
-  },
-  {
-   "ts": "2026-10-09T02:47:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26151956. Tokens: 0xba47214edd2bb43099611b208f75e4b42fdcfedc / 0xdd3f3711380fac0678356354ed1437182d977f4f. Fee:...",
-   "url": "https://etherscan.io/tx/0xedd1007f1ab4fdd932451d9c4e42bd23d0e452e9820b69e23926327e5c0f7dec"
-  },
-  {
-   "ts": "2026-10-09T02:47:11Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26151956. Tokens: 0x43c6b27489139debfdb71463f83552cc7264968b / 0xcdd5b86b4d8d428aa18e0fba7731e322067c640b. Fee:...",
    "url": "https://etherscan.io/tx/0xedd1007f1ab4fdd932451d9c4e42bd23d0e452e9820b69e23926327e5c0f7dec"
   }
  ]
