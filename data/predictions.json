@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 25,
   "miss": 18,
-  "open": 6,
-  "hit_rate": 0.591
+  "open": 7,
+  "hit_rate": 0.581
  },
  "items": [
+  {
+   "id": 93,
+   "made_at": "2026-10-09",
+   "text": "Over the next seven days the count clears twenty; the likely landing sits between 13 and 64, and I give the over about 61%. The pattern behind it: more pools are being cut with a step finer than ten — a knife meant for placing liquidity with precision instead of breadth.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-16",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 92,
    "made_at": "2026-10-08",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-07-31",
    "status": "miss",
    "resolution_note": "Confirmed: target +67 on metric tickspacing_lt10_hooks not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 43,
-   "made_at": "2026-07-23",
-   "text": "Over the next 7 days the count clears 213; the likely landing sits between 124 and 365, and I give the over about 50%.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-30",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +213 on metric nonstd_fee_pools reached.",
    "phase": "v2"
   }
  ]

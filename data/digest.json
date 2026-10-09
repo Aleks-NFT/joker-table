@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-09",
+   "narrative": {
+    "en": "The deck for the ninth of October dealt fourteen new V4 pools — and those are only the ones I managed to mark before the chain went back to sleep.\n\nThe most interesting spread: three pools sitting at zero fee, six carrying the figure 8388608, which in Uniswap's language is a rate that moves on its own, steered by a hook. Contracts 0x322dcec... and 0x56f73a... — the same hand is shuffling both, cutting one with a step of 200 and the other at 60. Different styles, different appetites for volatility.\n\nWatch the pair holding WETH and token 0xef5ddadda1972b799199e20b41eea4aa486c8736 — zero fee, wide step of 200. That is not a scalper's table. That is someone pouring liquidity deep and leaving it there. But the real joker is PR #70 in v4-hooks-public: IndexLpVault, an index LP vault laid over StablePairHook pools. Someone is building machinery to run a basket of stable pairs on rails. And Robinhood Chain — if that is a network and not just a name, we are watching an institutional instrument try to land in a retail ecosystem.\n\nThree pools pair ETH with unknown tokens — a classic deal, cards thrown face-up hoping someone else picks them up. Two pools carry token 0xd34a99bc..., which smells like USDS from Maker, at a fee of 12500 — that is a considered bet, someone wanting to trade a stable pair with a moderate spread. Not one pool with WETH and USDC. Not one classic pair. The whole deck tonight is junk tokens, unknown contracts, and a single vault that could bind them all together. The deck is not fully turned yet. Morning will show who folded and who kept the aces back.",
+    "zh": "十月九日这一局，江湖上又添了十四个新开的池子——而且还只是链上打盹之前，我记下来的那些。\n\n最耐看的一手，是三口不收分文的池子，另有六口挂着 8388608 这个数——在 Uniswap 的地界上，它意味着一门由钩子暗中调息的活费率。0x322dcec... 与 0x56f73a... 两处合约，分明是同一只手在洗牌：一处步幅两百，一处六十。路子不同，对波动的胃口也不同。\n\n再看那对 WETH 与 0xef5ddadda1972b799199e20b41eea4aa486c8736 的池子——零费，步幅宽至两百。这不是给短线客摆的桌子，是有人要把内力埋得深、放得久。可真正的鬼牌，是 v4-hooks-public 里的 PR #70：IndexLpVault，一座架在 StablePairHook 池群之上的指数金库。有人正在修一条能自动调度整篮稳定币对的栈道。至于 Robinhood Chain——若那不只是个名号，而是一方network，那便是想把庙堂的兵器，安进市井的江湖。\n\n还有三口以 ETH 配无名代币的池子，是江湖上常见的散牌，牌面朝上扔出来，等人接手。另有两口带着 0xd34a99bc...（看着像 Maker 的 USDS），费率 12500——这一手是有算计的，想以不厚不薄的点差做稳定币对。整晚没有一口 WETH 对 USDC 的池子，没有一口老派的对子。今夜这一副牌，尽是废币、生面合约，和一座或许能把它们统起来的金库。牌还没发完。天亮时，才看得出谁已经弃牌，谁还攥着底牌。"
+   },
+   "take": {
+    "en": "Fourteen pools, not one of them a classic pair — the house is dealing infrastructure tonight, not trades, and the only card worth remembering is the vault being built to hold the rest.",
+    "zh": "十四口池子，竟无一口是正经老对子——今夜庄家发的不是买卖，是地基；真正值得记住的只有那一座正在修、打算把其余全部收拢进去的金库。"
+   }
+  },
+  {
    "date": "2026-10-08",
    "narrative": {
     "en": "The felt's still warm from the deal. Two dozen V4 pools in a single block — not an hour, not a day, but a few heartbeats. That's no accident; that's a cluster distribution.\n\nThe same hook, 0x322dcec4, repeats like a refrain. Five pools with it, all WETH, all with tickSpacing 200. Someone is stamping liquidity like cards from a single deck. Same hook, same settings, but different tokens: 0x0d3d06, 0x404ac3, 0x24668c, 0x1c4625, 0x260564. Five pairs, one master key.\n\nMore interesting: hook 0x7ba04134 sits on two pools with tickSpacing 1. Minimal step, maximum precision. One pool with 0xd27b1d0, another with 0x69825081 — and neither is WETH. A bet on pairs where every tick decides. Another hook, 0x0eeb7200, with a pool on 0x1b54e7 / 0x1fd57d, also tickSpacing 60. And 0x76876759 with 0xf15aa2c against WETH.\n\nAll pools zero-fee. None takes a cut. This isn't about trading — it's about something else. Maybe a test grid for strategies on hooks. Maybe preparation for something bigger. One pool stands out: 0x0000000... / 0x2bfbe07 — an address of zeros. Someone created a pair with an empty token. Either a mistake or a deliberate anomaly. Block 26144535 — the last in this series. 26144420 — the first. Fifteen pools over 115 blocks. About twenty minutes of network work. Someone clearly didn't sleep.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Sixteen pools in thirty blocks from a single hook is not noise and it is not a trade — it is infrastructure being laid, and the only question worth asking is whether liquidity follows the scaffolding or the field stays empty.",
     "zh": "三十个区块十六池，同出一钩，这不是噪声也不是买卖，而是有人在山门前丈量地基——接下来要看的是内力会不会跟着涌进来，还是这片地就此空置。"
-   }
-  },
-  {
-   "date": "2026-09-24",
-   "narrative": {
-    "en": "Last night the deck dealt two cards in a row, same pattern showing. Two V4 pools with hooks, initialized 260 blocks apart — first at 26043662, second at 26043922 — both pairing native ETH with tokens walking in from the same back room. The addresses are 0xbc3a8ab9a5617d3f7a58df1b5a851c0254e970f7 and 0xf8bd4871a19acf8d1ffefbb6535d80677af0c740: not scrap, not test dummies, live contracts with history. The only tell between them is the spacing: one set at 200, the other at 60 — different depth, different crowd. 200 is for wide swings; 60 is for aggressive play inside a narrow range.\n\nBoth pools run zero fees. In V4 that means the rake doesn't move through the standard mechanism; it moves through hooks. 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc and 0xe6a1b2c9ab579721cc82888ca7d1b07d7fe54500 aren't just contracts; they're the logic deciding who gets paid and how much. Somebody is clearly preparing mechanics where the cut isn't distributed by the old book.\n\nThe real tell is the window. Two pools, two hooks, two different parameter sets — all inside one narrow stretch. That isn't chance. Somebody is dealing a grid, testing a strategy, or laying groundwork for a more complex construction. Maybe one hook steers the other, or they're tied through a shared oracle. Pool IDs: 0x3796c7b34e56269629b6ffae92c2a6614f5eb1a9a3c705db4a4fe4bab9d579d3 and 0xc37eaf5b93ceaab0fa1aff3a1eb93e6701747e0e9aa0e5be089e916fae4ab82f. Different hands, same shuffling algorithm. All that's left is to wait for the next cards.",
-    "zh": "昨夜江湖并排亮起两盏灯：两座 V4 池，带钩，前后只差二百六十个区块落子——先者 26043662，后者 26043922。二者都以原生 ETH 配对外来代币，而那些代币同出一门。地址是 0xbc3a8ab9a5617d3f7a58df1b5a851c0254e970f7 与 0xf8bd4871a19acf8d1ffefbb6535d80677af0c740，不是废纸，也不是试剑石，是有过往的活契约。二者只差一线：刻度一宽二百，一窄六十。宽者容大开大合，窄者供人在狭处快进快出。内力深浅不同，来路自然不同。\n\n两池皆零费。V4 之中，这意味着收益不走旧路，而由钩来分。0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc 与 0xe6a1b2c9ab579721cc82888ca7d1b07d7fe54500 不只是合约，是决定谁得多少的规矩。有人显然在布一套新算盘：抽成不再按老谱来分。\n\n最要紧的是时辰。两池、两钩、两套参数，却落在同一扇窗里。这不是偶然。有人在下网，或试阵，或在为更复杂的楼阁打地基。也许一钩驭另一钩，也许二者共用一座神谕。池引：0x3796c7b34e56269629b6ffae92c2a6614f5eb1a9a3c705db4a4fe4bab9d579d3 与 0xc37eaf5b93ceaab0fa1aff3a1eb93e6701747e0e9aa0e5be089e916fae4ab82f。看似不同，细看却像同一只手在洗牌，只是算法代了手。接下来翻什么牌，只能等。"
-   },
-   "take": {
-    "en": "Two pools, two hooks, one window — the house isn't decorating the felt, it's rewriting how the rake moves.",
-    "zh": "两池两钩同落一窗，说明有人不在装饰门面，而在改抽成的规矩。牌未翻尽，先看洗牌的手。"
    }
   }
  ]
