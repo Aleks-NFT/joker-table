@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 26,
-  "miss": 18,
-  "open": 6,
-  "hit_rate": 0.591
+  "miss": 17,
+  "open": 7,
+  "hit_rate": 0.605
  },
  "items": [
+  {
+   "id": 94,
+   "made_at": "2026-10-10",
+   "text": "Over the next 7 days the count clears 75; the likely landing sits between 39 and 123, and I give the over about 66%. What's actually happening is builders seating pools whose house cut is set live by the hook rather than fixed on a printed card — hooks used as economic primitives, not decorative trim.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-17",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 93,
    "made_at": "2026-10-09",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-02",
    "status": "hit",
    "resolution_note": "Confirmed: target +266 on metric nonstd_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 44,
-   "made_at": "2026-07-24",
-   "text": "Over the next seven days the count clears 67; the likely landing sits between 46 and 183, and I give the over about 63%. More pools are appearing with very small tick spacing, a tool for fine-grained, concentrated liquidity placement.",
-   "horizon_days": 7,
-   "resolve_after": "2026-07-31",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +67 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
