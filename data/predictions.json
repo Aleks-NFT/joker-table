@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 26,
+  "hit": 27,
   "miss": 17,
-  "open": 7,
-  "hit_rate": 0.605
+  "open": 6,
+  "hit_rate": 0.614
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "One contract is laying down pools in rapid succession, well past the pace of ordinary deployers. Over the next 7 days the count clears 74; the likely landing sits between 33 and 407, and I give the over about 55%.",
    "horizon_days": 7,
    "resolve_after": "2026-10-10",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +74 on metric pools_by_hook reached.",
    "phase": "v2"
   },
   {
