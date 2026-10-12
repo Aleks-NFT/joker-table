@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T09:09:36Z",
- "total_hooks": 6506,
- "total_pools": 23109,
+ "generated_at": "2026-10-12T10:09:37Z",
+ "total_hooks": 6510,
+ "total_pools": 23132,
  "multi_pool_hooks": 559,
  "shown": 559,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 3891,
+   "pool_count": 3906,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26175014,
-   "last_deploy": "2026-10-12T08:00:02Z",
+   "last_block": 26175555,
+   "last_deploy": "2026-10-12T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 550,
+   "pool_count": 551,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -149,8 +149,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26174365,
-   "last_deploy": "2026-10-12T06:00:03Z",
+   "last_block": 26175353,
+   "last_deploy": "2026-10-12T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -605,6 +605,25 @@
    "visible": false
   },
   {
+   "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+   "address_short": "0x784f…6000",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+   "pool_count": 104,
+   "permissions_human": [
+    "sets up pools"
+   ],
+   "permissions_technical": [
+    "beforeInitialize"
+   ],
+   "first_block": 26129224,
+   "last_block": 26175448,
+   "last_deploy": "2026-10-12T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x488796ec3d30c76076719a0c3bd0e8fee98f4500",
    "address_short": "0x4887…4500",
    "name": "LauncherHook",
@@ -622,25 +641,6 @@
    "last_block": 25862472,
    "last_deploy": "2026-08-29T18:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "address_short": "0x784f…6000",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 102,
-   "permissions_human": [
-    "sets up pools"
-   ],
-   "permissions_technical": [
-    "beforeInitialize"
-   ],
-   "first_block": 26129224,
-   "last_block": 26174786,
-   "last_deploy": "2026-10-12T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -869,7 +869,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 56,
+   "pool_count": 57,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -883,8 +883,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26175033,
-   "last_deploy": "2026-10-12T08:00:02Z",
+   "last_block": 26175308,
+   "last_deploy": "2026-10-12T10:00:02Z",
    "active": true,
    "visible": false
   },
