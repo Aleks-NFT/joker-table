@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T04:09:27Z",
+ "generated_at": "2026-10-12T05:09:44Z",
  "total_hooks": 6504,
  "total_pools": 23071,
  "multi_pool_hooks": 559,
@@ -5591,8 +5591,8 @@
   {
    "address": "0xaf378f5a6fe10d1fedaf0882c0e64bb95efc2aec",
    "address_short": "0xaf37…2aec",
-   "name": "",
-   "verified": false,
+   "name": "TraitsHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xaf378f5a6fe10d1fedaf0882c0e64bb95efc2aec",
    "pool_count": 5,
    "permissions_human": [
@@ -9143,8 +9143,8 @@
   {
    "address": "0x499a724ab630549f14c995ec41a8e04fa3fd28c0",
    "address_short": "0x499a…28c0",
-   "name": "",
-   "verified": false,
+   "name": "PermissionedHooks",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x499a724ab630549f14c995ec41a8e04fa3fd28c0",
    "pool_count": 2,
    "permissions_human": [
@@ -9817,8 +9817,8 @@
   {
    "address": "0x7074e4a0f9c1ae1073c7e6fc7d07a843ecfd3fff",
    "address_short": "0x7074…3fff",
-   "name": "",
-   "verified": false,
+   "name": "BaulsHookProxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x7074e4a0f9c1ae1073c7e6fc7d07a843ecfd3fff",
    "pool_count": 2,
    "permissions_human": [
@@ -11363,8 +11363,8 @@
   {
    "address": "0xb1691d0e7a9fc12792cfcd5a06680ef10c1360cc",
    "address_short": "0xb169…60cc",
-   "name": "",
-   "verified": false,
+   "name": "TaxHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb1691d0e7a9fc12792cfcd5a06680ef10c1360cc",
    "pool_count": 2,
    "permissions_human": [
@@ -11814,8 +11814,8 @@
   {
    "address": "0xccd2376871a1dc6b64b40bf50d2d443754c628cc",
    "address_short": "0xccd2…28cc",
-   "name": "",
-   "verified": false,
+   "name": "MoonbaseHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xccd2376871a1dc6b64b40bf50d2d443754c628cc",
    "pool_count": 2,
    "permissions_human": [
