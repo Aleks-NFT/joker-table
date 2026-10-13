@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 25,
+  "hit": 26,
   "miss": 17,
-  "open": 8,
-  "hit_rate": 0.595
+  "open": 7,
+  "hit_rate": 0.605
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Count the deals coming over the next seven days: the tally clears 19, and the likely landing sits between 12 and 62 — I give the over about 59%. What you are watching is the table being carved finer and finer, pools cut with spacing below 10, narrow bands laid down for precise, concentrated placement: players positioning by the inch, not the yard.",
    "horizon_days": 7,
    "resolve_after": "2026-10-13",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +19 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
