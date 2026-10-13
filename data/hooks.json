@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T15:09:37Z",
- "total_hooks": 6590,
- "total_pools": 23649,
+ "generated_at": "2026-10-13T16:09:20Z",
+ "total_hooks": 6598,
+ "total_pools": 23700,
  "multi_pool_hooks": 568,
  "shown": 568,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4245,
+   "pool_count": 4276,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26184017,
-   "last_deploy": "2026-10-13T14:00:02Z",
+   "last_block": 26184618,
+   "last_deploy": "2026-10-13T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -108,7 +108,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 627,
+   "pool_count": 629,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -124,8 +124,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26178061,
-   "last_deploy": "2026-10-12T20:00:02Z",
+   "last_block": 26184302,
+   "last_deploy": "2026-10-13T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -462,7 +462,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 136,
+   "pool_count": 143,
    "permissions_human": [
     "sets up pools"
    ],
@@ -470,8 +470,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26183658,
-   "last_deploy": "2026-10-13T14:00:02Z",
+   "last_block": 26184607,
+   "last_deploy": "2026-10-13T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -533,7 +533,7 @@
    "name": "OndexHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf6ce7756e6813f259a2b2bcb746f8cf0042fe0cc",
-   "pool_count": 122,
+   "pool_count": 124,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -547,8 +547,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26158341,
-   "last_block": 26170528,
-   "last_deploy": "2026-10-11T18:00:03Z",
+   "last_block": 26184342,
+   "last_deploy": "2026-10-13T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -720,7 +720,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 79,
+   "pool_count": 80,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -734,8 +734,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26183949,
-   "last_deploy": "2026-10-13T14:00:02Z",
+   "last_block": 26184064,
+   "last_deploy": "2026-10-13T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -837,7 +837,7 @@
    "first_block": 26110700,
    "last_block": 26134007,
    "last_deploy": "2026-10-06T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -10621,7 +10621,7 @@
    "first_block": 26133916,
    "last_block": 26134072,
    "last_deploy": "2026-10-06T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
