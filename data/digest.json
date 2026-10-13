@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-13",
+   "narrative": {
+    "en": "The cards came off the sleeve all at once. Sixteen pools in a single evening, and nearly every one dealt by the same hand — that hook contract, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. One dealer, one deck after another, no hesitation between cuts.\n\nI look at the blocks and the gaps are minutes, sometimes seconds. The same block twice in a row, only the tokens change — first a5922c65fe, then 27ce7732ff. Somebody was working the machine without pausing for breath. WETH sits in every other deal, the joker that never leaves the table, the fixed partner for whatever new token walks in. The fee is set to nothing, the spacing locked at two hundred. The stakes were written before the first hand was played.\n\nOne pool refuses the pattern: the dead address, token 6e498018fc, and a different hook entirely — b8d9477eb6. That is not a mistake. That is a deliberate play. A test hand, perhaps, or a man deciding he will not wear the house suit.\n\nEvery one of these pools is a bare structure. No liquidity, no noise, nothing but the shape of a table waiting for players. Just initialized and standing there. But whoever laid them out knows the game. Sixteen deals in one night is not chaos. That is a strategy. Someone is stacking the deck, shuffling it, and waiting for the moment to throw the trump.\n\nSilence on the wire. But the cards are already on the felt.",
+    "zh": "一夜之间，十六座新门户拔地而起，几乎出自同一只手——同一个 hook 合约 0x322dcec4958c14e021a9f1cd49df11b9457968cc。同一位掌门，立完一山又立一山，中间连换气的功夫都省了。\n\n我看区块之间的间隔，不过数分钟，有时只隔数息。同一个区块连着出现两次，变的只是令牌：先是 a5922c65fe，再是 27ce7732ff。这是熟练的手法，不是初出茅庐的试探。WETH 隔一座便现身一次，像江湖里那位从不缺席的中间人，新来的令牌总要拉上它作保。入门之费为零，间距定死二百。规矩在开局之前就写好了。\n\n唯有一座门户不入此列：空无一物的旧地址，令牌 6e498018fc，用的又是另一套 hook —— b8d9477eb6。这不是失手，是有意为之。或许是试招，或许是有人不肯穿同一件门派衣裳。\n\n这些门户，眼下都是空架子。内劲未注，人气未聚，只是立在那里。但布下这一局的人，显然懂行。一夜十六局，不是乱走，是布阵。有人在攒牌，在洗牌，等一个出手的时辰。\n\n江湖无声，牌已在桌上。"
+   },
+   "take": {
+    "en": "Sixteen pools, one hand, zero liquidity — this is not a market yet, it is a deck being stacked in plain sight, and the only question worth asking is who is meant to sit down.",
+    "zh": "十六座门户，一只手掌，内力全无——这还不是市场，是有人在明处攒一副牌；真正要紧的，是谁会被请上桌。"
+   }
+  },
+  {
    "date": "2026-10-12",
    "narrative": {
     "en": "The deck moved fast on the tenth of October—V4 pools with hooks coming off in packets, like cards from a fresh pack. The same hook contract 0x322dcec4958c14e021a9f1cd49df11b9457968cc showed in nine of fifteen pools. All zero fees, spacing of 200—the standard deal for experiments with custom logic. WETH on one side, unknown tokens on the other.\n\nTwo native ETH pools: one through the zero address with token 0x5229d923a678d26f5029bdb40f1e927743ad59c4 on hook 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc, another with token 0xeeb10007a6d0ef9552eb048bf5fb192264a42099 on the same hook. A third ETH pool carried token 0x00552d041659f25dd4d1a87a38229a4fe9b56776, but the hook changed—0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc.\n\nOne pool broke rank: block 26173080, ETH against 0x13b224f8a161d552f5e1b7c82b2183e37815972f, fee 8388608 (0.8% in V4), spacing of 60, hook 0x56f73a2c6d34696eff111fff94addf92a1bc6aec. Someone laid a more aggressive strategy on that felt.\n\nTwo pools without WETH: pair 0x0bd58baaaa02866f17ab29db056cb900aa11db86 and 0x72e4f9f808c49a2a61de9c5896298920dc4eeea9 on hook 0x322dcec4958c14e021a9f1cd49df11b9457968cc, and pair 0x2211ff0abe6bd3ae27632888909a3b3b38704475 with WETH on the same hook. All zero fees, all hook-bearing. The picture: a network of pools with identical parameters, only base tokens swapped. Same hook contract means same logic; the only question is what that hook does—dynamic fees, oracles, or something sharper. But the fact stands: fifteen new pools in one day, eleven clones of one template. The deck is being shuffled for real.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Fifteen pools and one hook address repeated like a signature — this is scaffolding being raised, not a trade being placed. The noise is the framework; the signal is the hand that keeps signing it.",
     "zh": "十五个池，一个钩子地址如印记般反复加盖——这是有人在内力筑基，不是在赌桌上押注。噪声是脚手架，信号是那支始终在签名的笔。"
-   }
-  },
-  {
-   "date": "2026-09-28",
-   "narrative": {
-    "en": "The deck was deep into the evening and the hand stayed steady. 0x014257c9bfb770a94065716188d60f881d1180c0—that hook provider's contract cuts through every second block like a house dealer's thumbprint. Seven pools in twenty-four hours, four of them wearing its mark. Tokens from 0x000...000 to WBTC, USDC, WETH. Fees pinned at 10000—one percent—across the felt. Don't ask why anyone nails that grid over stables; the house doesn't explain its tells.\n\nThen an odd run: two zero-fee hands in a row, 0xcba49142a75da64a679f32a159f4316f11a7e0cc. Three pools inside fifteen minutes. One on USDC, one on an ETH/USDT-like pair, one on some 0x4a220e... that smells like an internal service token. A zero-fee pool with spacing 200 is either a test or an arbitrage hub for a pair whose spread is already dead. Two more follow with the same hook contract but stamped 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc—also zero fee. Two competing hook providers on one chain have started a round.\n\nThe most interesting hand sat on block 26072583: ETH against 0xfd62d038... with 3000 and spacing 60. A classic mid-frequency pair, moderate fee. But the hook—0x579461052bbe2d8b6dcb0c97dfdc63da718280cc—I'd never seen before. Either a new project or someone testing a dynamic fee mechanism.\n\nBy night's end the deck was incomplete. Pool 0xecabdcad8f40745fa7addbc1b09dc3e857bd25482043f1bd7693c49088d76cfc—ETH on 0x76bf1591... with zero fee and spacing 60. Nonsense: with that narrow a step, zero fee hands perfect arbitrage to the bots. Either a trap or someone forgot to change the parameters. Exactly fifteen pools in twenty-four hours. Not one dynamic fee. All—zero, 3000, or 10000. Three different hook contracts, but 0x0142... dominates. The deck shuffles, but the suit is one: V4.",
-    "zh": "夜色深沉，江湖上又起了几阵风。 合约 0x014257c9bfb770a94065716188d60f881d1180c0 如一枚旧令牌，在每个区块间闪烁。 二十四时内七池，四池有它。 代币从 0x000...000 到 WBTC、USDC、WETH。 手续费皆钉在 10000，即一分。 稳定币上布此阵，未免古怪；门派不说，旁人也不必问。\n\n另有一串零费之局：0xcba49142a75da64a679f32a159f4316f11a7e0cc，十五分钟内三池。 一池 USDC，一池似 ETH/USDT 之配，一池 0x4a220e... 像是内门信物。 零费而间距 200，非试炼，即套利死局。 随后两池同钩，却换作 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc，亦零费。 两派钩师，同链竞逐，一局已开。\n\n最奇者，块 26072583：ETH 对 0xfd62d038...，费 3000，间距 60。 中频之局，费率中庸。 然钩为 0x579461052bbe2d8b6dcb0c97dfdc63da718280cc，前所未见。 或新门派初立，或有人试动态费之机。\n\n夜尽，牌局未全。 池 0xecabdcad8f40745fa7addbc1b09dc3e857bd25482043f1bd7693c49088d76cfc：ETH 对 0x76bf1591...，零费，间距 60。 窄步零费，直为械斗之利。 若非陷阱，便是忘改参数。 二十四时内，恰十五池。 无一动态费。 费率非 0，即 3000，或 10000。 钩有三约，0x0142... 独大。 牌洗未停，花色唯 V4。"
-   },
-   "take": {
-    "en": "Fifteen pools in a day, fees clustered at zero, 3000, or 10000, and three hooks fighting for the same felt—V4 is not diversifying; it's consolidating its costume.",
-    "zh": "一日十五池，费率只三档，钩者三家，而 0x0142... 独揽大势。 江湖看似多门，其实衣钵仍归 V4。"
    }
   }
  ]
