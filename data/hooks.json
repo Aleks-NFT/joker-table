@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T23:09:16Z",
- "total_hooks": 6562,
- "total_pools": 23462,
+ "generated_at": "2026-10-13T00:09:10Z",
+ "total_hooks": 6575,
+ "total_pools": 23503,
  "multi_pool_hooks": 562,
  "shown": 562,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4129,
+   "pool_count": 4156,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26179139,
-   "last_deploy": "2026-10-12T22:00:03Z",
+   "last_block": 26179787,
+   "last_deploy": "2026-10-13T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -2978,6 +2978,31 @@
    "visible": false
   },
   {
+   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "address_short": "0x337e…2444",
+   "name": "InitialBuyNFTStrategyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "pool_count": 14,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26083879,
+   "last_block": 26179386,
+   "last_deploy": "2026-10-13T00:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xce7684c102347f0fda098cf60da37ad9e04bc088",
    "address_short": "0xce76…c088",
    "name": "",
@@ -3065,31 +3090,6 @@
    "last_block": 25698685,
    "last_deploy": "2026-08-06T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "address_short": "0x337e…2444",
-   "name": "InitialBuyNFTStrategyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "pool_count": 13,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26083879,
-   "last_block": 26171999,
-   "last_deploy": "2026-10-11T22:00:02Z",
-   "active": true,
    "visible": false
   },
   {
