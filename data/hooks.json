@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T04:09:19Z",
+ "generated_at": "2026-10-13T05:09:03Z",
  "total_hooks": 6582,
  "total_pools": 23565,
  "multi_pool_hooks": 564,
@@ -484,8 +484,8 @@
   {
    "address": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
    "address_short": "0x784f…6000",
-   "name": "",
-   "verified": false,
+   "name": "PoolInitializationGuard",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
    "pool_count": 124,
    "permissions_human": [
@@ -6137,8 +6137,8 @@
   {
    "address": "0x756b5215dbb53f65ce1a23b5ed67c827f941a8cc",
    "address_short": "0x756b…a8cc",
-   "name": "",
-   "verified": false,
+   "name": "UnrektHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x756b5215dbb53f65ce1a23b5ed67c827f941a8cc",
    "pool_count": 4,
    "permissions_human": [
@@ -6750,8 +6750,8 @@
   {
    "address": "0x0c987e52dd5f1523baef81fb701417ab6ccca8cc",
    "address_short": "0x0c98…a8cc",
-   "name": "",
-   "verified": false,
+   "name": "UnrektHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0c987e52dd5f1523baef81fb701417ab6ccca8cc",
    "pool_count": 3,
    "permissions_human": [
@@ -6991,8 +6991,8 @@
   {
    "address": "0x47b13704c4e6edd9ee8befb133930d587cf9a088",
    "address_short": "0x47b1…a088",
-   "name": "",
-   "verified": false,
+   "name": "GweiFunFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x47b13704c4e6edd9ee8befb133930d587cf9a088",
    "pool_count": 3,
    "permissions_human": [
@@ -8156,8 +8156,8 @@
   {
    "address": "0x09064d4af823ae2e1fd1540dc038296e006be0cc",
    "address_short": "0x0906…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "YDHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x09064d4af823ae2e1fd1540dc038296e006be0cc",
    "pool_count": 2,
    "permissions_human": [
