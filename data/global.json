@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T04:09:24Z",
+ "generated_at": "2026-10-14T05:09:32Z",
  "history": [
-  {
-   "date": "2026-09-14",
-   "volume_24h_usd": 1049091818.0,
-   "fees_24h_usd": 3028375.0,
-   "eth_share_pct": 23.1
-  },
   {
    "date": "2026-09-15",
    "volume_24h_usd": 1381014311.0,
@@ -181,17 +175,23 @@
    "volume_24h_usd": 1098417927.0,
    "fees_24h_usd": 2012558.0,
    "eth_share_pct": 40.3
+  },
+  {
+   "date": "2026-10-14",
+   "volume_24h_usd": 1246588824.0,
+   "fees_24h_usd": 1830389.0,
+   "eth_share_pct": 44.0
   }
  ],
  "chains_top": {
-  "Robinhood Chain": 479947075,
-  "Ethereum": 438181678,
-  "Base": 46202501,
-  "BSC": 36353166,
-  "Arc": 28330894,
-  "Arbitrum": 22195781,
-  "Polygon": 20064200,
-  "Monad": 15475155
+  "Ethereum": 544479018,
+  "Robinhood Chain": 503999666,
+  "Base": 64036307,
+  "BSC": 31319740,
+  "Arc": 30823223,
+  "Polygon": 25966298,
+  "Monad": 21457217,
+  "Arbitrum": 16645969
  },
  "governance": [
   {
@@ -210,18 +210,6 @@
    "event": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (5 posts)",
    "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297",
    "occurred_at": "2026-10-08T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [Temp Check] Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults (8 posts)",
-   "url": "https://gov.uniswap.org/t/temp-check-rotate-sentinel-addresses-on-the-duni-owned-uniswap-earn-vaults/26281",
-   "occurred_at": "2026-10-07T05:00:03Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: Axia Network Delegate Platform (13 posts)",
-   "url": "https://gov.uniswap.org/t/axia-network-delegate-platform/26036",
-   "occurred_at": "2026-10-07T05:00:03Z",
    "active": false
   }
  ],
