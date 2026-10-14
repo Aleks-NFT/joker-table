@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T14:09:33Z",
+ "generated_at": "2026-10-14T15:09:21Z",
  "new_pools_24h": 421,
  "new_pools_7d": 3702,
  "unique_hook_contracts": 6698,
@@ -9,7 +9,7 @@
    "ticker": "uPEG",
    "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
    "price_usd": 236.5540307859,
-   "pct_24h": -10.747,
+   "pct_24h": -21.148,
    "vol_24h_usd": 49093.0,
    "liquidity_usd": 3161153.3807024667,
    "liq_class": "deep",
@@ -23,32 +23,32 @@
   {
    "ticker": "01",
    "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
-   "price_usd": 0.2377266397,
-   "pct_24h": -9.539,
-   "vol_24h_usd": 46217.2273274272,
-   "liquidity_usd": 969822.3041,
+   "price_usd": 0.2400554785,
+   "pct_24h": -8.052,
+   "vol_24h_usd": 45218.9509699288,
+   "liquidity_usd": 965194.1586,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0,
    "vol_source": "dex",
-   "vol_24h_pool_usd": 46208.5806366187,
-   "vol_24h_dex_usd": 46217.2273274272,
+   "vol_24h_pool_usd": 45210.3042791203,
+   "vol_24h_dex_usd": 45218.9509699288,
    "venues": 0
   },
   {
    "ticker": "SATO",
    "pool": "0x341b24d8a7c8de2d372cd91dfcc1cfeb28656221af0162872462b4e28032a778",
-   "price_usd": 0.1627897405,
-   "pct_24h": 0.139,
-   "vol_24h_usd": 18872.5,
-   "liquidity_usd": 256962.85979027709,
+   "price_usd": 0.158296375,
+   "pct_24h": -3.556,
+   "vol_24h_usd": 16405.4487710283,
+   "liquidity_usd": 255686.7199902771,
    "liq_class": "deep",
    "vol_class": "mid",
    "stale_hours": 0,
-   "vol_source": "market",
-   "vol_24h_pool_usd": 321.8627115851,
-   "vol_24h_dex_usd": 16787.8438784434,
-   "venues": 6
+   "vol_source": "dex",
+   "vol_24h_pool_usd": 296.7431405851,
+   "vol_24h_dex_usd": 16405.4487710283,
+   "venues": 0
   },
   {
    "ticker": "SWING",
@@ -56,7 +56,7 @@
    "price_usd": 0.0003829343406,
    "pct_24h": -3.709,
    "vol_24h_usd": 2075.6870033487,
-   "liquidity_usd": 2308030.6006512293,
+   "liquidity_usd": 2307337.565251229,
    "liq_class": "deep",
    "vol_class": "low",
    "stale_hours": 0,
@@ -70,15 +70,15 @@
    "pool": "0xa40f7c9bf63bafe3d3bcd09066dabb6322e51bb9c4c4ae0e3c2758b4755031b5",
    "price_usd": 0.2198286012,
    "pct_24h": 0.0,
-   "vol_24h_usd": 64.65,
-   "liquidity_usd": 257389.0551,
+   "vol_24h_usd": 66.4325244872,
+   "liquidity_usd": 255623.3114,
    "liq_class": "deep",
    "vol_class": "low",
    "stale_hours": 0,
-   "vol_source": "market",
+   "vol_source": "dex",
    "vol_24h_pool_usd": 66.4325244872,
    "vol_24h_dex_usd": 66.4325244872,
-   "venues": 1
+   "venues": 0
   },
   {
    "ticker": "PRISM",
@@ -86,7 +86,7 @@
    "price_usd": 29.1252875741,
    "pct_24h": 0.0,
    "vol_24h_usd": 0.0,
-   "liquidity_usd": 22923.490939081352,
+   "liquidity_usd": 22921.728939081353,
    "liq_class": "thin",
    "vol_class": "low",
    "stale_hours": 0,
@@ -103,7 +103,7 @@
    "price_usd": 0.0127165883315984,
    "pct_24h": -0.433,
    "vol_24h_usd": 2493.3418666926,
-   "liquidity_usd": 6270207.0787,
+   "liquidity_usd": 6171883.2208,
    "liq_class": "deep",
    "vol_class": "low"
   }
@@ -114,14 +114,14 @@
    "pool": "0x76adac326f2b56cebf78f76d07edecf14c447236c57fcacb1e94d0e7de3c6152",
    "price_usd": 0.0009908341754,
    "pct_24h": 0.0,
-   "vol_24h_usd": 0.0,
+   "vol_24h_usd": 6.77,
    "liquidity_usd": 46018.9651,
    "liq_class": "thin",
    "vol_class": "low",
-   "vol_source": "pool",
+   "vol_source": "market",
    "vol_24h_pool_usd": 0.0,
    "vol_24h_dex_usd": 0.0,
-   "venues": 0
+   "venues": 1
   }
  ]
 }
