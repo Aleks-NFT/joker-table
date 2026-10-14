@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T23:09:33Z",
- "total_hooks": 6641,
- "total_pools": 23876,
- "multi_pool_hooks": 569,
- "shown": 569,
+ "generated_at": "2026-10-14T00:09:44Z",
+ "total_hooks": 6664,
+ "total_pools": 23928,
+ "multi_pool_hooks": 570,
+ "shown": 570,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4380,
+   "pool_count": 4405,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26186376,
-   "last_deploy": "2026-10-13T22:00:02Z",
+   "last_block": 26186996,
+   "last_deploy": "2026-10-14T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -411,7 +411,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 154,
+   "pool_count": 155,
    "permissions_human": [
     "sets up pools"
    ],
@@ -419,8 +419,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26186249,
-   "last_deploy": "2026-10-13T22:00:02Z",
+   "last_block": 26186988,
+   "last_deploy": "2026-10-14T00:00:03Z",
    "active": true,
    "visible": false
   },
@@ -1813,7 +1813,7 @@
    "first_block": 25375276,
    "last_block": 26136255,
    "last_deploy": "2026-10-07T00:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6723,6 +6723,25 @@
    "visible": false
   },
   {
+   "address": "0x0c3291d38f23042dab5a3f6c369488c77456c080",
+   "address_short": "0x0c32…c080",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x0c3291d38f23042dab5a3f6c369488c77456c080",
+   "pool_count": 3,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap"
+   ],
+   "first_block": 26181013,
+   "last_block": 26186826,
+   "last_deploy": "2026-10-14T00:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x0c665a813170dae33e33865b01fdb199d97f20cc",
    "address_short": "0x0c66…20cc",
    "name": "GoldHook",
@@ -7423,6 +7442,33 @@
    "visible": false
   },
   {
+   "address": "0xbb1722798f01b88283b0aaa63cd9fb07f650e8cc",
+   "address_short": "0xbb17…e8cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xbb1722798f01b88283b0aaa63cd9fb07f650e8cc",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26186902,
+   "last_block": 26186924,
+   "last_deploy": "2026-10-14T00:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xbde57447a88c5c7c212db4fc256f341b35bae0cc",
    "address_short": "0xbde5…e0cc",
    "name": "",
@@ -7912,7 +7958,7 @@
    "first_block": 26080296,
    "last_block": 26136579,
    "last_deploy": "2026-10-07T00:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -8302,25 +8348,6 @@
    "last_block": 25217360,
    "last_deploy": "2026-06-08T19:22:05Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x0c3291d38f23042dab5a3f6c369488c77456c080",
-   "address_short": "0x0c32…c080",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x0c3291d38f23042dab5a3f6c369488c77456c080",
-   "pool_count": 2,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeSwap"
-   ],
-   "first_block": 26181013,
-   "last_block": 26183598,
-   "last_deploy": "2026-10-13T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -11726,7 +11753,7 @@
    "first_block": 26116331,
    "last_block": 26136472,
    "last_deploy": "2026-10-07T00:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -12778,7 +12805,7 @@
    "first_block": 26136385,
    "last_block": 26136414,
    "last_deploy": "2026-10-07T00:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
