@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T15:09:21Z",
- "total_hooks": 6698,
- "total_pools": 24070,
- "multi_pool_hooks": 570,
- "shown": 570,
+ "generated_at": "2026-10-14T16:09:42Z",
+ "total_hooks": 6727,
+ "total_pools": 24127,
+ "multi_pool_hooks": 572,
+ "shown": 572,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4482,
+   "pool_count": 4499,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26191193,
-   "last_deploy": "2026-10-14T14:00:02Z",
+   "last_block": 26191786,
+   "last_deploy": "2026-10-14T16:00:03Z",
    "active": true,
    "visible": true
   },
@@ -319,7 +319,7 @@
    "name": "DirectAnyHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcba49142a75da64a679f32a159f4316f11a7e0cc",
-   "pool_count": 228,
+   "pool_count": 229,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -333,8 +333,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26051064,
-   "last_block": 26185580,
-   "last_deploy": "2026-10-13T20:00:02Z",
+   "last_block": 26191531,
+   "last_deploy": "2026-10-14T16:00:03Z",
    "active": true,
    "visible": false
   },
@@ -411,7 +411,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 164,
+   "pool_count": 165,
    "permissions_human": [
     "sets up pools"
    ],
@@ -419,8 +419,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26190190,
-   "last_deploy": "2026-10-14T12:00:02Z",
+   "last_block": 26191780,
+   "last_deploy": "2026-10-14T16:00:03Z",
    "active": true,
    "visible": false
   },
@@ -629,7 +629,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 104,
+   "pool_count": 106,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -643,8 +643,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26191152,
-   "last_deploy": "2026-10-14T14:00:02Z",
+   "last_block": 26191663,
+   "last_deploy": "2026-10-14T16:00:03Z",
    "active": true,
    "visible": false
   },
@@ -1620,7 +1620,7 @@
    "first_block": 26136185,
    "last_block": 26141463,
    "last_deploy": "2026-10-07T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -1666,6 +1666,33 @@
    "last_block": 26063730,
    "last_deploy": "2026-09-26T20:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x1110a89be5f3656025f35514a173137b111128cc",
+   "address_short": "0x1110…28cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x1110a89be5f3656025f35514a173137b111128cc",
+   "pool_count": 18,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26089946,
+   "last_block": 26191637,
+   "last_deploy": "2026-10-14T16:00:03Z",
+   "active": true,
    "visible": false
   },
   {
@@ -1787,33 +1814,6 @@
    "last_block": 25361289,
    "last_deploy": "2026-06-20T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x1110a89be5f3656025f35514a173137b111128cc",
-   "address_short": "0x1110…28cc",
-   "name": "",
-   "verified": false,
-   "etherscan_url": "https://etherscan.io/address/0x1110a89be5f3656025f35514a173137b111128cc",
-   "pool_count": 16,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26089946,
-   "last_block": 26191078,
-   "last_deploy": "2026-10-14T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -5717,6 +5717,31 @@
    "visible": false
   },
   {
+   "address": "0xde9ffdd1cd00e0e2c35d645e10998aa4c7cca0cc",
+   "address_short": "0xde9f…a0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xde9ffdd1cd00e0e2c35d645e10998aa4c7cca0cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26156178,
+   "last_block": 26191744,
+   "last_deploy": "2026-10-14T16:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xe551d395ab1c9c57684c8e0d94615c0e98b5c088",
    "address_short": "0xe551…c088",
    "name": "",
@@ -9521,6 +9546,33 @@
    "last_block": 25229650,
    "last_deploy": "2026-06-08T19:22:07Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x558e0c2e489491162c4d0a8bd5ea404bb491a8cc",
+   "address_short": "0x558e…a8cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x558e0c2e489491162c4d0a8bd5ea404bb491a8cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26191422,
+   "last_block": 26191480,
+   "last_deploy": "2026-10-14T16:00:03Z",
+   "active": true,
    "visible": false
   },
   {
