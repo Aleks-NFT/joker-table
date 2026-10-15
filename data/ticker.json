@@ -2,6 +2,41 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-10-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "GeckoTerminal top-5 Uniswap V4 hook pools by 24h volume:   #1 USDC / USDT — $115,446,620   #2 USDT / USDS — $68,869,348   #3 PYUSD / USDS — $63,690,709   #4 ...",
+   "url": "https://www.geckoterminal.com/eth/dexes/uniswap-v4-ethereum"
+  },
+  {
+   "ts": "2026-10-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "ETH / USDT 0.3% volume surged 153% to $17,852,475 in 24h",
+   "url": "https://www.geckoterminal.com/eth/pools/0x50b00c1a5a8e582ec808e97e71598cd135206a9f9c548eab2ed73659e7ee5fa8"
+  },
+  {
+   "ts": "2026-10-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "RLUSD / USDS TVL grew 77% to $49,895,526",
+   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
+  },
+  {
+   "ts": "2026-10-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: XAUt / USDT 0.05% — $3,292,398 24h volume, $4,033,601 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xd52eb9285b87e38e3c228b4e339bfe15f24888953966085cd25a2f6403a95326"
+  },
+  {
+   "ts": "2026-10-15T04:30:02Z",
+   "suit": "spade",
+   "source": "HOOK DISCOVERY",
+   "text": "New hook pool entered top-50 on GeckoTerminal: sUSDe / USDT 0.008% — $4,155,054 24h volume, $1,381,666 TVL",
+   "url": "https://www.geckoterminal.com/eth/pools/0xb20351bcf606dcc3525d2ed36760a86a5dec7423b77d41125bd4a416ba93448b"
+  },
+  {
    "ts": "2026-10-15T03:57:25Z",
    "suit": "club",
    "source": "github",
@@ -175,41 +210,6 @@
    "source": "etherscan",
    "text": "New Uniswap V4 hook pool initialized at block 26194814. Tokens: 0x3dd1dd7fee6e654284010dbed7d03bc9b66461cb / 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7. Fee:...",
    "url": "https://etherscan.io/tx/0x327ce3effb8abcd191b450c88c33723443ff5df233c6b125bcd0f5c70e64af16"
-  },
-  {
-   "ts": "2026-10-15T02:00:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26194790. Tokens: 0x0000000000000000000000000000000000000000 / 0x5a3ce200231e6a200b24535e16df173f3aafa172. Fee:...",
-   "url": "https://etherscan.io/tx/0xbbf56d0f6ca5c6ba861427d7e2522f38489ac57a38cc8dab703cffc7756e5a1e"
-  },
-  {
-   "ts": "2026-10-15T01:57:59Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26194777. Tokens: 0xa759821242afa075bca7d20c4bda7d54b7c306a8 / 0xc9eef266834730340a55b6cc24621b31baf55581. Fee:...",
-   "url": "https://etherscan.io/tx/0xecf715de8143aaacd5f3492a559b36ce8a93de197f5a6a1f457b1ff890d11dad"
-  },
-  {
-   "ts": "2026-10-15T01:53:40Z",
-   "suit": "club",
-   "source": "github",
-   "text": "New in the V4 hook niche: eabz/hookrig — 0★ — Composable building blocks for Uniswap v4 hooks",
-   "url": "https://github.com/eabz/hookrig"
-  },
-  {
-   "ts": "2026-10-15T01:46:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26194721. Tokens: 0x1b4bcbb9d395d0968cb77cf80ee93452cbd8ee35 / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x52bf3bec695e6fb8f76e8decc31b9dca4098d02923e637726dd5001bf70b98ef"
-  },
-  {
-   "ts": "2026-10-15T01:39:35Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26194685. Tokens: 0x259af523b5d5fe391713b2cabe402159990f019a / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x5f85dcc1e63ead5386842f119ad3c4a064c8d8f3f6638679c23018572546caaa"
   }
  ]
 }
