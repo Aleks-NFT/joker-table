@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 28,
-  "miss": 17,
-  "open": 5,
-  "hit_rate": 0.622
+  "miss": 16,
+  "open": 6,
+  "hit_rate": 0.636
  },
  "items": [
+  {
+   "id": 98,
+   "made_at": "2026-10-16",
+   "text": "Over the next seven days the count clears 28; the likely landing sits between 18 and 84, and I give the over about 62%. What I'm actually watching is the habit forming underneath it — more pools arriving with the finest possible grain of spacing, under ten, the kind of cut that only matters to someone who intends to place liquidity with a scalpel rather than a shovel.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-23",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 97,
    "made_at": "2026-10-13",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-06",
    "status": "hit",
    "resolution_note": "Confirmed: target +5 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 48,
-   "made_at": "2026-07-29",
-   "text": "Over the next seven days, the count of pools with very fine-grained liquidity placement (tick spacing below 10) will clear 54; the likely landing sits between 41 and 165, and I give the over about 62%.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-05",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +54 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]

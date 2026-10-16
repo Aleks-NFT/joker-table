@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-16",
+   "narrative": {
+    "en": "Thirteen pools in one night, and not one of them smells like accident. The deals land between block 26201755 and 26201940, pressed shoulder to shoulder with no pause from the dealer — the kind of run where you stop counting the hands and start counting the fingers. Address 0xf6b1117... shows up in six of them, zero take on every pot, spacing set at 200 each time. The same suit, repeated, and still no way to tell which card is burned.\n\nThe contract 0x322dcec... is the one worth a long look. Seven pools in a row, same hook, different pairs, nothing skimmed off the top. Somebody is collecting — or rehearsing a strategy where each pool is its own page in a book being written in real time. Then 0x0000000000..., two pools against native currency, also hooked, one stepping at 60, the other at 200. Different hands, different grain, as if testing how liquidity behaves when you change the size of the squares on the felt.\n\nAnd 0x784ff9a... is the only seat at the table charging 12500. It breaks the pattern of zeros. Either it's a marker left on purpose, or bait for anyone who trusts a pattern too early.\n\nNot one familiar name on the tokens. No mainstream house, no known face — every address a clean sheet. Five readings came down in a row, counting backward, tidy as a shuffle. Nobody sat down to trade tonight; they sat down to watch the deck get laid out, face down, before the real game starts.",
+    "zh": "一夜之间，十三口新池落地，彼此紧挨，像同一只手连发的暗器，中间不留换气的空隙。0xf6b1117... 这个名号在六处现身，每一处都不取分毫，价距一律二百——同一路数反复出现，却始终看不清底牌被扣在哪一张。\n\n0x322dcec... 更值得多看两眼。连开七池，同一枚钩子，配对各不相同，依旧分文不取。此人是在收敛藏品，还是在演练一门尚未示人的功法，把每一池当作心法中的一页，边打边写。另有 0x0000000000...，两口以本币为基的池子，同样挂着钩，一处步距六十，一处二百。手不同，格局亦不同，像是在试：棋盘格子换一个大小，内力会往哪里走。\n\n唯有 0x784ff9a... 这一口，收一百二五零零，独自破了零的沉默。是留给人认的记号，还是专为那些太早相信规律的人设下的局，江湖里从无定论。\n\n至于代币名号，一个都不认得。没有名门，没有大派，尽是白纸一张的新地址。另有一串读数自高向低，五步连落，齐整得像刚洗过的牌。今夜无人入场厮杀，只有人坐在案前，看别人如何把牌一张张扣在桌上——真正的局，还没开。"
+   },
+   "take": {
+    "en": "Nothing was traded tonight worth trading — this was a deck being built face-down, thirteen cards at a time, by hands that don't want to be recognized yet. The only honest position is the chair, and the only honest play is to keep watching.",
+    "zh": "今夜无战事可言，不过是有人背对着众人排兵布阵，十三池一次，手法尚未露形。此时最稳的一步，是按住不动，看清是谁在发牌。"
+   }
+  },
+  {
    "date": "2026-10-13",
    "narrative": {
     "en": "The cards came off the sleeve all at once. Sixteen pools in a single evening, and nearly every one dealt by the same hand — that hook contract, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. One dealer, one deck after another, no hesitation between cuts.\n\nI look at the blocks and the gaps are minutes, sometimes seconds. The same block twice in a row, only the tokens change — first a5922c65fe, then 27ce7732ff. Somebody was working the machine without pausing for breath. WETH sits in every other deal, the joker that never leaves the table, the fixed partner for whatever new token walks in. The fee is set to nothing, the spacing locked at two hundred. The stakes were written before the first hand was played.\n\nOne pool refuses the pattern: the dead address, token 6e498018fc, and a different hook entirely — b8d9477eb6. That is not a mistake. That is a deliberate play. A test hand, perhaps, or a man deciding he will not wear the house suit.\n\nEvery one of these pools is a bare structure. No liquidity, no noise, nothing but the shape of a table waiting for players. Just initialized and standing there. But whoever laid them out knows the game. Sixteen deals in one night is not chaos. That is a strategy. Someone is stacking the deck, shuffling it, and waiting for the moment to throw the trump.\n\nSilence on the wire. But the cards are already on the felt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "This is not a trader working a pool, it is a machine feeding a table — and the house never runs a conveyor this steady unless it already knows how the hand ends.",
     "zh": "这不是谁在池边讨生活，是有人在往桌上一口一口地灌内力——能这么匀、这么稳的，多半早已想好了这局要怎么收。"
-   }
-  },
-  {
-   "date": "2026-09-29",
-   "narrative": {
-    "en": "The scanner blinked and the felt was already crowded — fifteen fresh pools on Uniswap V4 between midnight and morning, and that is only what the scan caught. One hook address keeps turning up in every second deal: 0x322dcec4958c14e021a9f1cd49df11b9457968cc. Same hand, laid over and over with surgical calm. The spacing is uniform at 200, the house takes nothing on the swap. That is a tell, not a mystery: pools built this way are not for trading across the spread, they are built for a script — staking, an order hook, a fee that moves with the weather.\n\nTwo of them sit against ETH. WETH against 0xa4717b31144d2cd0b5cdfa4ad8d650c2c7229294, and another against 0x34d50e4f5ff26f28a9bd8b61c327d9cd9dc85e70. Fresh addresses, no history worth reading. Either a new face at the table, or an old one in a new coat.\n\nThe interesting three are the ones paired with nothing at all — native ETH, the zero address. One charges 8388608 on the encoded scale, the smallest sliver of a percent, with a spacing of ten; a fine mesh, built for things that barely move. The other two charge nothing and carry different hooks: 0x834deb... and 0xcba491... Different hooks, different rules. One might simply watch the clock and average it; the other might hold orders until somebody wants them.\n\nAnd on GitHub, no fanfare: merge request #202 into uniswap-hooks, the static analyser's findings found and closed, and the author walked on without a word. The picture of the night is assembly. Someone is stacking a deck, and not on their knee. Every pool a card, every hook a suit. The only question left is who is dealing, and which trump is still in hand.",
-    "zh": "一夜之间，Uniswap V4 上多出十五个新池，这还只是扫描器扫到的数目。同一个钩子地址反复浮现——0x322dcec4958c14e021a9f1cd49df11b9457968cc，隔一个池便见一次。落子极稳，间距一律二百，抽成取零。江湖里这样做局的人，不为赚一买一卖的差价，而是另有章程：或为质押，或为挂单，或让抽成随行情自行起落。\n\n其中两个池以 ETH 相对：WETH 对 0xa4717b31144d2cd0b5cdfa4ad8d650c2c7229294，另一个对 0x34d50e4f5ff26f28a9bd8b61c327d9cd9dc85e70。地址新鲜，来历空白，或是新门派立山门，或是旧门派换了行头。\n\n真正耐看的是那三个与零地址相对的池，即以原生 ETH 为对。一个抽成记作 8388608，细到不足一分，间距只有十，网格极密，是为那些几乎不动的资产所设。另两个分文不取，却挂了不同的钩子：0x834deb... 与 0xcba491...。钩子不同，规矩便不同。一个或许专记时辰、取其均值；一个或许替人守住价位，等号令再动。\n\nGitHub 那边无声无息：uniswap-hooks 仓库的 #202 合并请求过了，静态分析查出的破绽已经补好，提剑的人收势便走，不留名号。今夜的图景是布阵。有人在码牌，码得齐整。每个池是一张牌，每个钩子是一门花色。剩下的问题只有：发牌的是谁，手里还捏着哪张王牌。"
-   },
-   "take": {
-    "en": "Fifteen pools and one hook address repeated like a signature — this is scaffolding being raised, not a trade being placed. The noise is the framework; the signal is the hand that keeps signing it.",
-    "zh": "十五个池，一个钩子地址如印记般反复加盖——这是有人在内力筑基，不是在赌桌上押注。噪声是脚手架，信号是那支始终在签名的笔。"
    }
   }
  ]
