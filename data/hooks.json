@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T21:10:06Z",
- "total_hooks": 7081,
- "total_pools": 25015,
+ "generated_at": "2026-10-16T22:10:54Z",
+ "total_hooks": 7094,
+ "total_pools": 25044,
  "multi_pool_hooks": 580,
  "shown": 580,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4844,
+   "pool_count": 4850,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26207317,
-   "last_deploy": "2026-10-16T20:00:02Z",
+   "last_block": 26207873,
+   "last_deploy": "2026-10-16T22:00:03Z",
    "active": true,
    "visible": true
   },
@@ -108,7 +108,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 638,
+   "pool_count": 642,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -124,8 +124,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26207230,
-   "last_deploy": "2026-10-16T20:00:02Z",
+   "last_block": 26207439,
+   "last_deploy": "2026-10-16T22:00:03Z",
    "active": true,
    "visible": true
   },
@@ -253,7 +253,7 @@
    "name": "EthCreatorFeeHookV3",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x35fe236ea82f7cf525c9719d7df8f49f94d720cc",
-   "pool_count": 295,
+   "pool_count": 299,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -267,8 +267,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25639700,
-   "last_block": 26204944,
-   "last_deploy": "2026-10-16T12:00:02Z",
+   "last_block": 26207905,
+   "last_deploy": "2026-10-16T22:00:03Z",
    "active": true,
    "visible": false
   },
@@ -344,7 +344,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 219,
+   "pool_count": 221,
    "permissions_human": [
     "sets up pools"
    ],
@@ -352,8 +352,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26207273,
-   "last_deploy": "2026-10-16T20:00:02Z",
+   "last_block": 26207900,
+   "last_deploy": "2026-10-16T22:00:03Z",
    "active": true,
    "visible": false
   },
@@ -645,7 +645,7 @@
    "first_block": 26033423,
    "last_block": 26157339,
    "last_deploy": "2026-10-09T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -3114,7 +3114,7 @@
    "first_block": 25854486,
    "last_block": 26157451,
    "last_deploy": "2026-10-09T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -10775,7 +10775,7 @@
    "first_block": 26157093,
    "last_block": 26157156,
    "last_deploy": "2026-10-09T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
