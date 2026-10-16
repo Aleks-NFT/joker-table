@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T04:10:17Z",
+ "generated_at": "2026-10-16T05:10:17Z",
  "history": [
-  {
-   "date": "2026-09-16",
-   "volume_24h_usd": 1580176655.0,
-   "fees_24h_usd": 2887457.0,
-   "eth_share_pct": 43.3
-  },
   {
    "date": "2026-09-17",
    "volume_24h_usd": 2277442083.0,
@@ -181,29 +175,29 @@
    "volume_24h_usd": 1338922692.0,
    "fees_24h_usd": 2085504.0,
    "eth_share_pct": 41.3
+  },
+  {
+   "date": "2026-10-16",
+   "volume_24h_usd": 1452169905.0,
+   "fees_24h_usd": 1712860.0,
+   "eth_share_pct": 40.4
   }
  ],
  "chains_top": {
-  "Ethereum": 549357922,
-  "Robinhood Chain": 513214487,
-  "Base": 117756566,
-  "BSC": 44216378,
-  "Arc": 36889248,
-  "Polygon": 27445379,
-  "Monad": 21459540,
-  "Arbitrum": 18412816
+  "Ethereum": 579457110,
+  "Robinhood Chain": 439488097,
+  "Base": 281753312,
+  "BSC": 49336294,
+  "Arbitrum": 27493702,
+  "Monad": 23378533,
+  "Polygon": 22148404,
+  "X Layer": 12935878
  },
  "governance": [
   {
    "event": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (8 posts)",
    "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297",
    "occurred_at": "2026-10-10T05:00:02Z",
-   "active": false
-  },
-  {
-   "event": "Uniswap gov forum active thread: [Discussion] Should v4 hooks on Robinhood Chain standardize session-aware pricing? (7 posts)",
-   "url": "https://gov.uniswap.org/t/discussion-should-v4-hooks-on-robinhood-chain-standardize-session-aware-pricing/26297",
-   "occurred_at": "2026-10-09T05:00:02Z",
    "active": false
   }
  ],
