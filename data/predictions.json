@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 28,
+  "hit": 29,
   "miss": 16,
-  "open": 6,
-  "hit_rate": 0.636
+  "open": 5,
+  "hit_rate": 0.644
  },
  "items": [
   {
@@ -64,8 +64,8 @@
    "text": "Over the next seven days the count clears twenty; the likely landing sits between 13 and 64, and I give the over about 61%. The pattern behind it: more pools are being cut with a step finer than ten — a knife meant for placing liquidity with precision instead of breadth.",
    "horizon_days": 7,
    "resolve_after": "2026-10-16",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +20 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
