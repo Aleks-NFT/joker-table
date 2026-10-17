@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 28,
+  "hit": 29,
   "miss": 16,
-  "open": 6,
-  "hit_rate": 0.636
+  "open": 5,
+  "hit_rate": 0.644
  },
  "items": [
   {
@@ -64,8 +64,8 @@
    "text": "Over the next 7 days the count clears 75; the likely landing sits between 39 and 123, and I give the over about 66%. What's actually happening is builders seating pools whose house cut is set live by the hook rather than fixed on a printed card — hooks used as economic primitives, not decorative trim.",
    "horizon_days": 7,
    "resolve_after": "2026-10-17",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +75 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {

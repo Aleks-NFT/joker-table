@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T09:10:16Z",
- "total_hooks": 7118,
- "total_pools": 25105,
+ "generated_at": "2026-10-17T10:10:23Z",
+ "total_hooks": 7127,
+ "total_pools": 25121,
  "multi_pool_hooks": 582,
  "shown": 582,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4872,
+   "pool_count": 4877,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26210673,
-   "last_deploy": "2026-10-17T08:00:02Z",
+   "last_block": 26211526,
+   "last_deploy": "2026-10-17T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -344,7 +344,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 224,
+   "pool_count": 225,
    "permissions_human": [
     "sets up pools"
    ],
@@ -352,8 +352,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26209588,
-   "last_deploy": "2026-10-17T04:00:03Z",
+   "last_block": 26211352,
+   "last_deploy": "2026-10-17T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -1720,6 +1720,31 @@
    "visible": false
   },
   {
+   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "address_short": "0x337e…2444",
+   "name": "InitialBuyNFTStrategyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "pool_count": 18,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26083879,
+   "last_block": 26211363,
+   "last_deploy": "2026-10-17T10:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x7fa87cfaa45f45d762c085eea4870cb3706ca0cc",
    "address_short": "0x7fa8…a0cc",
    "name": "LaunchHook",
@@ -1768,31 +1793,6 @@
    "last_block": 26094638,
    "last_deploy": "2026-10-01T04:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "address_short": "0x337e…2444",
-   "name": "InitialBuyNFTStrategyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "pool_count": 17,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26083879,
-   "last_block": 26203237,
-   "last_deploy": "2026-10-16T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
