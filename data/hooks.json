@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T04:10:41Z",
+ "generated_at": "2026-10-17T05:10:16Z",
  "total_hooks": 7116,
  "total_pools": 25088,
  "multi_pool_hooks": 582,
@@ -5160,8 +5160,8 @@
   {
    "address": "0xed9a04fa6693e754661a22502524df9b1857e544",
    "address_short": "0xed9a…e544",
-   "name": "",
-   "verified": false,
+   "name": "ERC20THook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xed9a04fa6693e754661a22502524df9b1857e544",
    "pool_count": 7,
    "permissions_human": [
@@ -7111,8 +7111,8 @@
   {
    "address": "0x3578ecc1f906ae4bd2b52feaf9bea1eacec72acc",
    "address_short": "0x3578…2acc",
-   "name": "",
-   "verified": false,
+   "name": "FeePilotHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x3578ecc1f906ae4bd2b52feaf9bea1eacec72acc",
    "pool_count": 3,
    "permissions_human": [
@@ -8676,8 +8676,8 @@
   {
    "address": "0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
    "address_short": "0x15e5…a8cc",
-   "name": "",
-   "verified": false,
+   "name": "PangeaFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
    "pool_count": 2,
    "permissions_human": [
@@ -10163,8 +10163,8 @@
   {
    "address": "0x685d47ec7d39db26ea688a1ac80938a0d62b20cc",
    "address_short": "0x685d…20cc",
-   "name": "",
-   "verified": false,
+   "name": "MemestockHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x685d47ec7d39db26ea688a1ac80938a0d62b20cc",
    "pool_count": 2,
    "permissions_human": [
@@ -12884,8 +12884,8 @@
   {
    "address": "0xdc670ea3874e61b10813d0742d99e291489f6044",
    "address_short": "0xdc67…6044",
-   "name": "",
-   "verified": false,
+   "name": "LaunchpadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xdc670ea3874e61b10813d0742d99e291489f6044",
    "pool_count": 2,
    "permissions_human": [
