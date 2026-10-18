@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-18",
+   "narrative": {
+    "en": "The night of October 18 dealt fourteen new tables on Uniswap V4, all opened inside a narrow window of a couple thousand blocks — and more than half of them posted no rake at all. That is not a coincidence, that is a pattern. The hook contracts have taken the fee into their own hands, which means the standard mechanism for paying liquidity is switched off at the felt. Something else is running the economics — dynamic, external, or simply elsewhere.\n\nTwo hooks stand out. 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 sits behind three pools priced at 12500 — one hundred twenty-five hundredths of a percent — while 0x322dcec4958c14e021a9f1cd49df11b9457968cc holds two pools at zero. Same hand, clearly. A third active hook, 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc, carries three zero-fee pools, every one of them pairing WETH against tokens that do not announce themselves.\n\nAnd here is the tell: a zero-fee pool is not built for arbitrage. It is built for capturing order flow outright, or for trading that prefers to stay out of sight while the yield is swept up into the hook's own contract. Where the pool charges nothing, the profit moves to the layer of execution — and whoever holds the hook holds the game. A handful of pools pair ETH with tokens that appear on no public listing — 0x845eaf..., 0x07faa4..., 0xc5055b... — the shape of test distributions or private placements. Someone is laying the table before the announcement. First the pool, then the noise.\n\nFourteen tables dressed, chips placed, dealers at their stations. Now we wait to see who sits down.",
+    "zh": "十月十八这一夜，Uniswap V4 上又开出十四张新桌，前后不过数千个区块的功夫。怪的是，半数以上的桌子不收抽成。这不是偶然，是路数。hook 合约把费率之权收归己手，池子层面那道抽水的机关便等于废了——真正的账，另有一处算。\n\n其中两个 hook 最惹眼：0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 掌着三池，费率一百二十五百分之一；0x322dcec4958c14e021a9f1cd49df11b9457968cc 掌着两池，分文不取。出手的显然是同一个人。另有一路 hook——0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc——三池皆零费，且都以 WETH 对着一批来历不明的token。\n\n江湖上都懂：零费之池，不为套利而设。要么是抢单流，要么是暗中过手，把内力尽数导进 hook 自家的经脉里。池面不收，收益便全落在执行那一层——谁握着 hook，谁就握着这局棋的手筋。另有一二池，以 ETH 配着从未见于公开名册的 token——0x845eaf...、0x07faa4...、0xc5055b...——像是试招，也像是私下分派。有人先立山门，再放风声；先有池，后有喧嚣，历来如此。\n\n十四张桌已摆好，灯也点上，庄家各就各位。剩下的，只看谁先落座。"
+   },
+   "take": {
+    "en": "When more than half the new tables charge no rake, the money is not gone — it has simply moved to whoever owns the hook, and that is the only seat worth watching.",
+    "zh": "半数新池不收抽成，钱并未消失，只是从池面转到了握 hook 的那只手上——这一手，才是真正该看的位置。"
+   }
+  },
+  {
    "date": "2026-10-17",
    "narrative": {
     "en": "The felt was already warm when the night cut its first deal, and by the time the blocks stopped moving, seven fresh pools lay face-up on the table — not scattered, stacked. One address keeps coming back to the window: 0x322dcec4958c14e021a9f1cd49df11b9457968cc, four times over, the same hook machinery bolted onto different pairs. Ether against a counterparty that declines to give its name. No cut taken at the door, and the stride set wide at two hundred — not an accident, a system. Somebody is laying out a grid in which the house collects nothing and the space between bets is generous enough for manoeuvre, for arbitrage, for something that hasn't yet shown its face above the water.\n\nThe rest of the table is stranger. Pools opened against a zero token — ether paired with addresses that are junk, or nothing at all. Nothing taken at the door there either, and the stride narrow, ten or sixty. Two hook contracts sit in those seats, 0xbbc86e372b758064645e1a4ce958db81e07b68ec and 0x0acca8ed08d2e45e3edb195bddcb0877b21520cc, and no one at the table will say whose they are. They are already playing anyway.\n\nGitHub is not silent either. In the repo launch-1811-build-technical-foundation-hooks a commit arrives signed by IdentityMD Worker — not a man, a process, a hash for a name: ba1d5cc3-e7ed-4fb6-bdcf-87289ff0b534. And PR #11 from surfer77, titled plainly: 'Targeted patch, not a rebuild.' That is the tell. They know exactly which load-bearing wall they are touching, and they have no intention of bringing the house down to fix a door.\n\nNone of this is a night of random transactions. It is construction, and it is being done in the open because it does not need to hide. Blocks, hashes, hooks — the shape of a new suit is being cut on the table, and the suit has not been named yet. It has already been dealt.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The zero-fee pools are data traps, not trading venues; the one paid pool is the tell. If the same hook repeats tomorrow, the house is not dealing—it is mapping the felt.",
     "zh": "零费池是采气的阵，不是交易的场；唯一收费的那池，才露了真意。若明日同一钩子再落，江湖看到的就不是散局，是布局。"
-   }
-  },
-  {
-   "date": "2026-10-01",
-   "narrative": {
-    "en": "The deal was already in motion before the first card turned: Uniswap V4, twelve pools across eleven blocks, and nearly every one wearing a hook. That is not a night of idle hands; that is a volley. Two hook contracts sit at the center — 0x322dcec and 0x014257c — and they do not cross.\n\nThe first runs on zero fees; the second takes one percent. No zero-fee pool touches the second, no one-percent pool touches the first. A pattern, not a coincidence: two strategies dealt from separate shoes, each pulling liquidity through its own line. ETH/WETH shows up three times, with 0xc02aaa... paired against DOG, ELON, and another token — all on 0x322dcec at zero fees, the classic meme tray: low door, no rake, hooks doing the quiet work.\n\nThen the odd chip: an AAVE pool with token 0xc98de..., also at one percent and the same hook. AAVE does not usually sit at a table like that. Either someone is testing a new borrowing mechanism through hooks, or it is a warm-up before a larger hand. And two native ETH pools — 0x000... against different tokens — split their loyalties: one with hook 0xb8d94, the other with 0x014257c, different fees, different hooks, same base. Someone is trying configurations on one foundation.\n\nTwelve pools in eleven blocks. That is not drift; that is a batch of strategies set down at once, like cards fanned across the felt. Now the house waits to see which suit draws blood.",
-    "zh": "昨夜江湖不静。Uniswap V4 的门前，十一息之间挤出十二座新池，几乎座座都挂了钩子。不是零散脚步，是有人一口气布阵，先落子，再看风向。\n\n阵眼在两枚钩子合约：0x322dcec 与 0x014257c。前者走零费，后者抽一分；两条线互不交叉——零费之池不碰后者，一分之池不沾前者。这是两套心法，各引各的内力。ETH/WETH 三度现身，0xc02aaa... 分别与 DOG、ELON 及另一枚代币结伴，皆挂在 0x322dcec 的零费门下；低门槛，无抽水，钩子暗管调度，是典型的迷因江湖局。\n\n却有一手耐人寻味：AAVE 与 0xc98de... 同池，也是一分费、同一钩子。AAVE 这等老门派，向来少与激进招式同席。若非有人借钩子试新的借贷法门，便只是大阵前的一次试手。另有二池以原生 ETH 为底——0x000... 与不同代币相配，一挂 0xb8d94，一挂 0x014257c；费不同，钩不同，根却同。有人在同一块地基上试诸般构造。\n\n十二池，十一息。这不是偶遇，是齐射。像侠客把一整套招式同时摊在桌上，等哪一式先见血。"
-   },
-   "take": {
-    "en": "The signal is not the tokens on the table but the two non-intersecting hook contracts: two strategies, two fee regimes, deployed in a single volley, and the market will soon show which one the house respects.",
-    "zh": "今日看点不在代币名头，而在两枚互不相交的钩子：两套心法、两种抽成，同一夜齐出；江湖很快会告诉我们，哪一路内力更得人心。"
    }
   }
  ]
