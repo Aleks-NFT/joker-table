@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T04:10:21Z",
+ "generated_at": "2026-10-18T05:10:13Z",
  "total_hooks": 7220,
  "total_pools": 25320,
  "multi_pool_hooks": 585,
@@ -7925,8 +7925,8 @@
   {
    "address": "0xca3c2c9fd109817c45fe8b55d393a69bf5faa0cc",
    "address_short": "0xca3c…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "StockLaunchEthHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xca3c2c9fd109817c45fe8b55d393a69bf5faa0cc",
    "pool_count": 3,
    "permissions_human": [
