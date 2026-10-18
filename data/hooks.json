@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T11:10:17Z",
- "total_hooks": 7226,
- "total_pools": 25342,
- "multi_pool_hooks": 586,
- "shown": 586,
+ "generated_at": "2026-10-18T12:13:15Z",
+ "total_hooks": 7229,
+ "total_pools": 25353,
+ "multi_pool_hooks": 587,
+ "shown": 587,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 4923,
+   "pool_count": 4926,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26218662,
-   "last_deploy": "2026-10-18T10:00:02Z",
+   "last_block": 26219295,
+   "last_deploy": "2026-10-18T12:00:07Z",
    "active": true,
    "visible": true
   },
@@ -298,7 +298,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 250,
+   "pool_count": 253,
    "permissions_human": [
     "sets up pools"
    ],
@@ -306,8 +306,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26218310,
-   "last_deploy": "2026-10-18T10:00:02Z",
+   "last_block": 26219215,
+   "last_deploy": "2026-10-18T12:00:07Z",
    "active": true,
    "visible": false
   },
@@ -1696,6 +1696,31 @@
    "visible": false
   },
   {
+   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "address_short": "0x337e…2444",
+   "name": "InitialBuyNFTStrategyHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
+   "pool_count": 19,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26083879,
+   "last_block": 26219013,
+   "last_deploy": "2026-10-18T12:00:07Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x313ea55aa2df26138b1df5cf04fef6af030e98c0",
    "address_short": "0x313e…98c0",
    "name": "HalcyonHook",
@@ -1716,31 +1741,6 @@
    "first_block": 26128881,
    "last_block": 26199656,
    "last_deploy": "2026-10-15T20:00:03Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "address_short": "0x337e…2444",
-   "name": "InitialBuyNFTStrategyHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x337eee273d26bcfbbb772ea582331b1dfc882444",
-   "pool_count": 18,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26083879,
-   "last_block": 26211363,
-   "last_deploy": "2026-10-17T10:00:02Z",
    "active": true,
    "visible": false
   },
@@ -11278,6 +11278,27 @@
    "visible": false
   },
   {
+   "address": "0x9402f4c15ab320d35af6a5cb203a1c01e7645040",
+   "address_short": "0x9402…5040",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x9402f4c15ab320d35af6a5cb203a1c01e7645040",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "afterInitialize",
+    "afterSwap"
+   ],
+   "first_block": 26103383,
+   "last_block": 26219076,
+   "last_deploy": "2026-10-18T12:00:07Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x9447bb75b32db8f74d340287b3d3243ba47900cc",
    "address_short": "0x9447…00cc",
    "name": "KeplerHook",
@@ -12078,7 +12099,7 @@
    "first_block": 26166707,
    "last_block": 26168515,
    "last_deploy": "2026-10-11T12:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
