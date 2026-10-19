@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T13:13:30Z",
- "total_hooks": 7268,
- "total_pools": 25575,
- "multi_pool_hooks": 589,
- "shown": 589,
+ "generated_at": "2026-10-19T14:13:30Z",
+ "total_hooks": 7274,
+ "total_pools": 25603,
+ "multi_pool_hooks": 590,
+ "shown": 590,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5040,
+   "pool_count": 5053,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26226476,
-   "last_deploy": "2026-10-19T12:00:02Z",
+   "last_block": 26227070,
+   "last_deploy": "2026-10-19T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -298,7 +298,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 255,
+   "pool_count": 257,
    "permissions_human": [
     "sets up pools"
    ],
@@ -306,8 +306,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26223627,
-   "last_deploy": "2026-10-19T04:00:02Z",
+   "last_block": 26226962,
+   "last_deploy": "2026-10-19T14:00:02Z",
    "active": true,
    "visible": false
   },
@@ -425,6 +425,31 @@
    "visible": false
   },
   {
+   "address": "0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
+   "address_short": "0xa6cc…60cc",
+   "name": "LaunchGuardHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
+   "pool_count": 162,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26134790,
+   "last_block": 26226565,
+   "last_deploy": "2026-10-19T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xf6ce7756e6813f259a2b2bcb746f8cf0042fe0cc",
    "address_short": "0xf6ce…e0cc",
    "name": "OndexHook",
@@ -446,31 +471,6 @@
    "first_block": 26158341,
    "last_block": 26223912,
    "last_deploy": "2026-10-19T04:00:02Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "address_short": "0xa6cc…60cc",
-   "name": "LaunchGuardHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 160,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26134790,
-   "last_block": 26226235,
-   "last_deploy": "2026-10-19T12:00:02Z",
    "active": true,
    "visible": false
   },
@@ -2821,6 +2821,31 @@
    "visible": false
   },
   {
+   "address": "0xc3774a7456c4cfe8e44d780877c9771d6562e0cc",
+   "address_short": "0xc377…e0cc",
+   "name": "EtherealFactory",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xc3774a7456c4cfe8e44d780877c9771d6562e0cc",
+   "pool_count": 15,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26219661,
+   "last_block": 26226868,
+   "last_deploy": "2026-10-19T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xd3aee1d3d02ae89a7fae8e13e2868a473d4b9000",
    "address_short": "0xd3ae…9000",
    "name": "SaturnOmnichainV4Hook",
@@ -3115,31 +3140,6 @@
    "last_block": 26157451,
    "last_deploy": "2026-10-09T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xc3774a7456c4cfe8e44d780877c9771d6562e0cc",
-   "address_short": "0xc377…e0cc",
-   "name": "EtherealFactory",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xc3774a7456c4cfe8e44d780877c9771d6562e0cc",
-   "pool_count": 13,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26219661,
-   "last_block": 26225074,
-   "last_deploy": "2026-10-19T08:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -5134,6 +5134,29 @@
    "visible": false
   },
   {
+   "address": "0xdc670ea3874e61b10813d0742d99e291489f6044",
+   "address_short": "0xdc67…6044",
+   "name": "LaunchpadHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xdc670ea3874e61b10813d0742d99e291489f6044",
+   "pool_count": 7,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26180776,
+   "last_block": 26226600,
+   "last_deploy": "2026-10-19T14:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xdf5d5332c160d039e516871225014b4234ffca44",
    "address_short": "0xdf5d…ca44",
    "name": "",
@@ -5410,7 +5433,7 @@
    "first_block": 25576010,
    "last_block": 26176434,
    "last_deploy": "2026-10-12T14:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -5556,29 +5579,6 @@
    ],
    "first_block": 25755871,
    "last_block": 26222756,
-   "last_deploy": "2026-10-19T00:00:03Z",
-   "active": true,
-   "visible": false
-  },
-  {
-   "address": "0xdc670ea3874e61b10813d0742d99e291489f6044",
-   "address_short": "0xdc67…6044",
-   "name": "LaunchpadHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xdc670ea3874e61b10813d0742d99e291489f6044",
-   "pool_count": 6,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26180776,
-   "last_block": 26222467,
    "last_deploy": "2026-10-19T00:00:03Z",
    "active": true,
    "visible": false
@@ -7711,6 +7711,25 @@
    "last_block": 26100193,
    "last_deploy": "2026-10-01T22:00:03Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xba01b98382fc63aeb904c7844be703876bfcc800",
+   "address_short": "0xba01…c800",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xba01b98382fc63aeb904c7844be703876bfcc800",
+   "pool_count": 3,
+   "permissions_human": [
+    "manages liquidity"
+   ],
+   "permissions_technical": [
+    "beforeAddLiquidity"
+   ],
+   "first_block": 26225252,
+   "last_block": 26226847,
+   "last_deploy": "2026-10-19T14:00:02Z",
+   "active": true,
    "visible": false
   },
   {
