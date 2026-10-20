@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-20",
+   "narrative": {
+    "en": "The night's flip of the deck began at block 26230071, when the first hook-bearing pool was shoved into the chain. Nine initializations inside ten blocks followed—not noise, but a pattern with a tell: seven of the nine pit ETH against contracts carrying suspiciously fresh addresses. Only the USDC and USDT pools carry the familiar smell of liquidity, and even those come with hooks hanging off them.\n\nOne pool at block 26230235 cuts hardest: token 0x13be...a608 against WETH, zero fee, spacing 200, hook 0x322d...68. Zero fee paired with a wide spread is not a trading desk; it is a different game—data collection, oracle nudging, something with a purpose beyond market making. A hook is always another layer of logic, and when it is fitted to a fresh token with no liquidity, the house is not there to make markets.\n\nThen block 26230550: a pool with a 10000 fee and spacing 200 on an ETH-token pair. A 10000 fee is either a wrapper for a specific strategy or a velvet rope to keep retail out; hook 0x2f17...d040 is plainly not a passive AMM. The deck is being shuffled fast. Someone is testing new logic on V4, using pools as a sandbox. The question is not what these pools do now, but what they will do when liquidity is poured on them. For now they are marks on cards. The one dealing them knows which hand comes next.",
+    "zh": "夜里翻牌，从块高 26230071 开始。第一只带钩的池子被插进链上，随后十个区块里九次开池，这不是风过竹林，是有人按着节拍落子。九只里有七只把 ETH 与地址尚新的合约摆在对门；只有 USDC 与 USDT 那两只还带着旧江湖的流动性气味，可钩子依旧挂在门楣上。\n\n最刺眼的是块高 26230235 那只：代币 0x13be...a608 对 WETH，零费，间距二百，钩子 0x322d...68。零费配宽口，不像做买卖的摊位，更像设来听风、记路，或暗中拨动预言机的秤。钩子从来不是装饰，是把另一层规矩藏进池子；拿它挂在新代币、空内力的地方，便不是寻常做市。\n\n再到块高 26230550，费用一万、间距二百的 ETH 交易对，钩子 0x2f17...d040 明摆着不是那种只被动做市的旧机关。这样的门槛，要么是某种特定招式的鞘，要么是把散客挡在门外的绳。牌桌换牌很快，有人拿 V4 当演武场，先试机关，不问今日输赢。真正的问题不是这些空池此刻做什么，而是等内力灌进去以后，它们会做什么。眼下只是牌面上的记号；发牌的人，已经知道下一手该落在哪只手上。"
+   },
+   "take": {
+    "en": "The tell is not the empty pools; it is the hooks. Someone is rehearsing a new economic logic on V4, and the first real liquidity will reveal which hand was being dealt.",
+    "zh": "空池只是记号，钩子才是落子的手。等内力一灌，谁在借 V4 试招，牌面自会说话。"
+   }
+  },
+  {
    "date": "2026-10-19",
    "narrative": {
     "en": "The deck was dealt so fast last night that I stopped counting the individual cards. Fourteen new V4 pools inside a few hours is not a sprint — it is a heartbeat that has no intention of slowing down.\n\nSeven of them carry zero fee and a spacing of 200, spread across three different hook contracts — 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc, 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc and 0xc3774a7456c4cfe8e44d780877c9771d6562e0cc. Three hooks, one template: ETH against the long tail. Somebody is testing how liquidity behaves in real time, and they are not being shy about it. Two more sit under a single hook, 0x322dcec4958c14e021a9f1cd49df11b9457968cc, and the interesting part is the shape of the thing: one binds an unknown token to WETH, the other pairs two tokens where neither is ETH. That is no longer a test. That is a grid being built.\n\nOff to the side, one pool registers a fee of 8388608 — not a typo, a dynamic fee wired to its hook, and 0xe4345ccdb948e57a8440016f2912170e9bcce080 is clearly prepared to play by its own rules. Meanwhile on GitHub a commit lands in launch-1811-build-technical-foundation-hooks, SHA 5033182, no description, no context, just \"updated README\". If you have been watching this table, you already know what lives inside commits like that: not words, but schematics.\n\nThe night itself was quiet. But quiet in crypto is only ever the pause before somebody reshuffles the deck.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Thirteen pools in one night, all stamped by a single hand, means the game has moved from finding liquidity to claiming it. The only question left is who reads the pattern first and moves before the house finishes the shuffle.",
     "zh": "一夜十三池，皆出自同一只手，这不是试水，是落子圈地。要紧的不是谁布的局，而是谁先看懂牌面，赶在局面收拢之前落子。"
-   }
-  },
-  {
-   "date": "2026-10-03",
-   "narrative": {
-    "en": "The mempool dealt fourteen V4 pools overnight, and every single one carried a hook contract — and every single one priced at zero. Not thirteen out of fourteen. All of them, no exception. That is not weather. That is a signature.\n\nTwo deployers did the dealing. 0x322d sits with WETH against a fistful of tokens — 0x2806, 0xc8b1, 0xbbe9, 0x5168, 0xabc6, 0xe240. 0xcba4 circles a single name, 0xe53e, which surfaces in three consecutive pools, each time against a fresh partner. 0xf861, 0xfbed, 0xffa4, 0xfbe9 — all new, all with no history to check. Then 0xc9ee, which shows up exactly five times, always a different counterparty, always under hook 0x322d — except the last one, paired with 0xec10 and a different hook entirely. Same shape regardless, and the same setting on every table.\n\nThe question was never who. The question is why. A hook can stand on both sides of every swap, before and after. When the house takes nothing off the top, the pool isn't a business — it's a listening post. Order flow, the shape of the liquidity, the privilege of seeing the move before it becomes public. Thirteen pools inside a handful of blocks, laid out in sequence, one after another. No hand deals like that. A machine does. The deck is cut, the suits are out, and now we watch for the first player to move.",
-    "zh": "一夜之间从 mem池里捞出十四个 V4 池子，个个带着 hook 契约，个个零费。不是十四个里挑出十三个——是全部，无一例外。这不是偶然，是留下的脚印。\n\n落子的只有两个人。0x322d 一手握着 WETH，一手撒开一串名号——0x2806、0xc8b1、0xbbe9、0x5168、0xabc6、0xe240。0xcba4 则只绕着 0xe53e 打转，这个名字接连在三口池子里浮出水面，每一次都换一个对手。0xf861、0xfbed、0xffa4、0xfbe9，全是生面孔，无门无派，查不到来历。还有 0xc9ee，现身五次，次次不同伙伴，次次挂在 0x322d 的 hook 之下；唯独最后一口池子配的是 0xec10，hook 也换了人。招式却不变，摆法也一模一样。\n\n问题从来不在于谁在出手，而在于图什么。hook 能站在每一笔交换的前后。当抽头归零，池子便不再是买卖的铺面，而是一双耳朵：订单的流向、内力的深浅、在众人看清之前先看清的那点先机。几口区块之间连着摆下十三口池子，次序分明。人手做不到这个，是机器在下棋。牌已发完，只看谁先落第一子。"
-   },
-   "take": {
-    "en": "When the house stops taking a cut, it isn't being generous — it's buying the view. Fourteen pools, zero rake, one purpose: information.",
-    "zh": "一门不露锋芒的手，出招却快过寻常部署者。七日内数目过 74 在意料之中，最可能落在 33 到 407 之间，我押大，约莫五成五。"
    }
   }
  ]
