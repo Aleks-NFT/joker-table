@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T04:13:31Z",
+ "generated_at": "2026-10-20T05:13:29Z",
  "total_hooks": 7308,
  "total_pools": 25751,
  "multi_pool_hooks": 592,
@@ -4482,8 +4482,8 @@
   {
    "address": "0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
    "address_short": "0x05e1…2544",
-   "name": "",
-   "verified": false,
+   "name": "ERC20THook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
    "pool_count": 9,
    "permissions_human": [
@@ -6940,8 +6940,8 @@
   {
    "address": "0xf7c8df4d233fd76eafdde6ac3b3334569930e0cc",
    "address_short": "0xf7c8…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "HookereumHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf7c8df4d233fd76eafdde6ac3b3334569930e0cc",
    "pool_count": 4,
    "permissions_human": [
