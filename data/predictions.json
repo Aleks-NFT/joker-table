@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 16,
-  "open": 5,
-  "hit_rate": 0.644
+  "miss": 15,
+  "open": 6,
+  "hit_rate": 0.659
  },
  "items": [
+  {
+   "id": 103,
+   "made_at": "2026-10-21",
+   "text": "A single hook contract is dealing pools in rapid succession, far beyond the typical dealer's pace. Over the next seven days the count clears 2225; the likely landing sits between 870 and 12195, and I give the over about 59%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-28",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 102,
    "made_at": "2026-10-20",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-18",
    "status": "miss",
    "resolution_note": "Confirmed: target +128 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 53,
-   "made_at": "2026-08-10",
-   "text": "Over the next seven days the count clears 24; the likely landing sits between 17 and 35, and I give the over about 53%. What is happening: more pools are appearing with very small spacing below 10—a tool for fine-grained, concentrated liquidity placement.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-17",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +24 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
