@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T05:13:29Z",
- "total_hooks": 7456,
- "total_pools": 26098,
- "multi_pool_hooks": 596,
- "shown": 596,
+ "generated_at": "2026-10-21T06:13:32Z",
+ "total_hooks": 7458,
+ "total_pools": 26107,
+ "multi_pool_hooks": 597,
+ "shown": 597,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5230,
+   "pool_count": 5235,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26237942,
-   "last_deploy": "2026-10-21T04:00:02Z",
+   "last_block": 26239005,
+   "last_deploy": "2026-10-21T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -108,7 +108,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 666,
+   "pool_count": 667,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -124,8 +124,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26233862,
-   "last_deploy": "2026-10-20T14:00:02Z",
+   "last_block": 26238876,
+   "last_deploy": "2026-10-21T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -3483,7 +3483,7 @@
    "first_block": 26155113,
    "last_block": 26188371,
    "last_deploy": "2026-10-14T06:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -12292,6 +12292,31 @@
    "last_block": 26168515,
    "last_deploy": "2026-10-11T12:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xb1e04874b59faa44ca49ed50e2fbdd9d11d5e0cc",
+   "address_short": "0xb1e0…e0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xb1e04874b59faa44ca49ed50e2fbdd9d11d5e0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26238417,
+   "last_block": 26238439,
+   "last_deploy": "2026-10-21T06:00:02Z",
+   "active": true,
    "visible": false
   },
   {
