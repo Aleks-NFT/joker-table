@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-22",
+   "narrative": {
+    "en": "Fourteen new V4 hook pools hit the felt — fourteen, initialized on different blocks, all keeping the same rhythm. Most ask nothing at the door: zero fee, a spacing of sixty, and the same hook contract, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, breathing in every second pool. ETH-WETH? No — WETH barely sits at this table. The pairs mostly run against the zero address, with tokens whose names end in \"6ea,\" like one family, one cluster, or a dealer handing out a single suit.\n\nThen there is the other hand: block 26244955, a partnership with WETH, spacing 200, and a different hook, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. This is not the same deck. A test, a strategy, or someone deciding to play larger. And at block 26244820, the fee reads 8388608. Not zero. Not standard. A statement.\n\nLook at the pool IDs. They do not read like random hashes; they read like signatures, like tracks. Someone pressed them into blocks seconds apart. Machine? A human with a hot key? Doesn't matter. V4 is already here, and the deck is not being shuffled by hand — it is being shuffled by code. Hooks are not just smart contracts. They are side doors, chances to do what the pool rules never wrote down.\n\nI don't know what tomorrow deals. I know that tonight someone laid the cards out quietly, without noise. Now there is nothing to do but wait for the first move.",
+    "zh": "夜色未散，江湖又起微澜。十四口新池落在不同区块，却踏着同一拍子。多数不收过路费，间距六十；同一枚 hook 合约 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc，像同一门派的暗号，隔一口池便出现一次。与 WETH 结伴？不，WETH 几乎不露面；多数池与零地址相对，代币名字都以“6ea”收尾，像同门弟子，也像有人只发一种花色。\n\n另一路却不同：区块 26244955，一口池与 WETH 结伴，间距二百，hook 换成 0x322dcec4958c14e021a9f1cd49df11b9457968cc。这不是同一套剑法。是试招，是另立门户，还是有人准备以内力硬撼，暂且不知。区块 26244820 那口池，费用写作 8388608——不是零，也不是寻常路数。数字像碑上的记号，不是随手刻的。\n\n池的编号也不像散乱哈希，更像暗记、脚印。有人隔着几息就把它们按进区块。是机关，还是手快，已不重要。V4 的门已经开在此处，牌局由代码洗过。Hook 不只是契约，是门规之外的缝隙，是能做池规未写之事的余地。\n\n明日棋局未知。今夜只看见有人不声不响把牌摊在桌面，等第一手。"
+   },
+   "take": {
+    "en": "The tell is not the fourteen pools; it is the same hook sitting in most of them while a different hook and a non-zero fee wait off to the side like a separate stack. The deck is being shuffled by code, and the first hand has not been played.",
+    "zh": "真正的信号不在十四口池，而在同一枚 hook 反复落子；另一枚 hook 与一笔不寻常的费用在旁静立，像另一副牌。牌已由代码洗好，先手未出。"
+   }
+  },
+  {
    "date": "2026-10-21",
    "narrative": {
     "en": "0x322dcec... shows up at the table again, and it doesn't come alone. Six pools in a day, every one with the house's cut set to zero, every one with WETH sitting at one end. When the same hook contract keeps stamping tickSpacing 200 and no fee, that's not an experiment — that's a deal being dealt before the marks even know the game.\n\n0x322dcec... went on a tear: ETH/BTCde... at 26237531, ETH/924885a... at 26237532, ETH/9382f4a... at 26237563, and three more before the ink dried. Eight pools in a day from one hand if you count them all. No fee. Liquidity hasn't walked in yet — the felt is set, the chairs are empty. The question isn't who made them; it's who knows what card comes next.\n\nOther hands weren't sleeping. 0x15e5e720... opened two zero-fee pools — ETH/ed5c03b... at 26237832, ETH/988a0de... at 26237412. Both tickSpacing 60. Small step, tight range. Someone's getting ready for dense trade. And 0x21258f2... took PEPE for a spin: two pools, one on WETH at 26237408, another on 0xd82653... at 26237297, both zero fee, tickSpacing 200. PEPE going two ways — either an arbitrage setup or a shuffle with no tell.\n\nThe classics still hold a seat: ETH/983f603... with a 3000 cut, tickSpacing 200, hook 0xcbc1fe9... A bet on stability, not volume. By evening of October 21, Ethereum had 14 V4 pools on the table. Not one with a fee above zero but for a single exception. Hooks are the new back of the deck — whoever shuffles them knows where the next ace lies.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Zero fees, repeated hooks, and pools with no liquidity are not a market yet—they are a rehearsal. The tell is 0x322dce... in five of fourteen: one hand is building the table before anyone is allowed to bet.",
     "zh": "零费、空池、同钩复现，不是热闹，是布阵。0x322dce... 十四占五，先手已落，只待内力入局。"
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "narrative": {
-    "en": "The same hand keeps shuffling. 0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068 turns up in eight deals inside a single hour — eight pools, one and the same hook at 0xb05f2e50e15a58270af53583b2b9a420ded228a0, every one of them drawn with a fee of 8388608 and a spacing of 10. That is not a twitch at the table. That is a lattice going up rail by rail, and lattices are marathons, not sprints.\n\nMeanwhile a second line runs alongside. The hook at 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 opens pools with a fee of 12500 and a spacing of 60 — ETH against tokens nobody has named, unnamed tokens against each other. Ordinary pairings, custom logic written into the contract itself. Then 0x322dcec4958c14e021a9f1cd49df11b9457968cc: three pools, zero fee, spacing 200. Zero commission is not a way to earn on swaps. It is a way to do something else — gather data, feed an oracle, or feed something I will only understand once the first blocks with real liquidity land on the felt.\n\nNotice the small moves. A pool pairing UNI with 0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068, and right behind it LINK with the same coin — somebody is assembling a basket of blue chips and threading them through a single token. A bridge, built and not yet open to traffic. And the quietest table of all: 0x0000000000000000000000000000000000000000 against 0x0629c60759a8b876de2b4596b58284b36510013c — ETH against a token I cannot find anywhere in memory. Either brand new, or deliberately hidden.\n\nThere are no jokers in this deck. Only clever combinations, fanned out in plain sight. Somebody knows what they are doing. Or believes they do. We will see it when the cards lie down.",
-    "zh": "同一只手，一夜之间洗了八次牌。0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068 这个名号，在一个时辰里出现在八个盘口，八处机关挂钩皆是 0xb05f2e50e15a58270af53583b2b9a420ded228a0，抽成 8388608，格距 10，一处不差。这不是随手落子，是在布阵。阵要慢慢摆，急不得。\n\n另一路也动了。0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 这门机关，开出抽成 12500、格距 60 的局，以太对无名之币，无名之币对无名之币。招式是寻常招式，走的内力却是自定义的经脉——契约里自有章法。再看 0x322dcec4958c14e021a9f1cd49df11b9457968cc：三局，抽成零，格距 200。不取分文，便不为赚过路钱。或是采数据，或是探天机，或是在喂养某种我此刻看不穿的东西，要等真有内力注入的第一批区块落下，才见分晓。\n\n细处更值得看。一局将 UNI 与 0x2b82510ea45f2bbb59416e77c7f0dc4818f4a068 牵在一处，紧接着 LINK 又与同一枚币同局。有人在收拢名门正派的招牌，用一根线串起来，桥已搭好，却尚未放行。最安静的一局：0x0000000000000000000000000000000000000000 对 0x0629c60759a8b876de2b4596b58284b36510013c，以太对一枚我翻遍记忆也查不出来历的币。要么新出山，要么刻意藏了名姓。\n\n这副牌里没有小丑，只有摆得极巧的连招，明明白白摊在桌上。摆牌的人知道自己在做什么，或者自以为知道。牌落定之时，自见分晓。"
-   },
-   "take": {
-    "en": "Nobody is at this table to collect the rake today — they are here to lay track, one identical deal at a time. Watch the pots with no house edge at all, because those players are not gambling for chips.",
-    "zh": "今日无人来抽水，众人都在铺路——一模一样的局，一局一局地铺。真正要看的是那些不收分文的盘口：不为筹码而来的人，所图必在别处。"
    }
   }
  ]
