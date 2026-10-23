@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-23",
+   "narrative": {
+    "en": "The felt split three ways by midnight, and none of it smelled like ordinary order flow. Six ETH/USDC pairs hit the table with spacing set to one, all inside a 39-block window—26251943 to 26251982, roughly eight minutes—and five different hook contracts, no repeats. That is not a trader testing a line; that is a conveyor belt of configurations, someone counting how many unique mechanisms can be dealt in one pass and, more quietly, why.",
+    "zh": "子夜过后，牌桌分作三处，气息都不像寻常买卖。六对 ETH/USDC 齐齐落座，间距压到一，全在 26251943 至 26251982 这三十九个区块之间，前后不过八分钟；五枚不同的钩子契约，无一重复。这不是侠客试剑，这是有人在山门外摆开流水线，问的是同一口气里能布下多少种阵，更要紧的是，他为何要问。\n\n第二处，五座零费之池，间距二百，其中一边是个无名地址，而钩子都系在同一条契约 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc 上；三座连着零地址，也就是本门原生 ETH。这更像给同一套门规铺一张内力网——一位管路由的执事，决定哪一对先醒。\n\n第三处，两座池子各用不同代币，却共用一条钩子 0xf6ce7756e6813f259a2b2bcb746f8cf0042fe0cc，在同一区块里开阵：WBTC 与一个无名代币，对着同一个对手。到这一步已不是试手，是照着一个接口，把不同地基接进同一座山门。\n\n最静的一手反而最重：0xcb47459bad70cdb0319b8f9a2c3122beb8624455 与 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 两枚都不在主流名册上的代币，零费，间距二百，钩子 0xc2988a37d611779ad34b561231ee33603d15a0cc。这不是供人进出的流动性，这是基础设施的一层——有人在筑节点，不是在挖池子。牌已摆好，局才刚开。"
+   },
+   "take": {
+    "en": "The day’s tell is infrastructure, not liquidity: hooks are being assembled as economic primitives while the market watches the felt.",
+    "zh": "今日最锋利的信号不在池中水位，而在山门骨架：有人已把钩子当作门规来铸，最安静的那座节点才是先手。"
+   }
+  },
+  {
    "date": "2026-10-22",
    "narrative": {
     "en": "Fourteen new V4 hook pools hit the felt — fourteen, initialized on different blocks, all keeping the same rhythm. Most ask nothing at the door: zero fee, a spacing of sixty, and the same hook contract, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, breathing in every second pool. ETH-WETH? No — WETH barely sits at this table. The pairs mostly run against the zero address, with tokens whose names end in \"6ea,\" like one family, one cluster, or a dealer handing out a single suit.\n\nThen there is the other hand: block 26244955, a partnership with WETH, spacing 200, and a different hook, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. This is not the same deck. A test, a strategy, or someone deciding to play larger. And at block 26244820, the fee reads 8388608. Not zero. Not standard. A statement.\n\nLook at the pool IDs. They do not read like random hashes; they read like signatures, like tracks. Someone pressed them into blocks seconds apart. Machine? A human with a hot key? Doesn't matter. V4 is already here, and the deck is not being shuffled by hand — it is being shuffled by code. Hooks are not just smart contracts. They are side doors, chances to do what the pool rules never wrote down.\n\nI don't know what tomorrow deals. I know that tonight someone laid the cards out quietly, without noise. Now there is nothing to do but wait for the first move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house isn't taking a cut, which means the game is rigged for something other than profit. Watch the empty-token pool — that's the tell.",
     "zh": "零手续费不是做慈善，是在布一个不需要抽成的局。那个空代币的池子，才是棋眼。"
-   }
-  },
-  {
-   "date": "2026-10-07",
-   "narrative": {
-    "en": "The felt is already crowded: fourteen Uniswap V4 pools with hooks, all dealt inside a handful of blocks, every timestamp folded into ten or fifteen minutes. That is not a twitch—it is a conveyor. Someone is stamping pools and watching them stack.\n\nThe fee is zero across the board. Zero is not a trading posture; it is a signature. Contracts 0x322dce... and 0xb8d947... surface more than once, the same operator cutting the same deck. Three pools pair ETH against tokens I do not know on sight, each with the burn address on one side and a different hook on the other. That is not accident; that is a hand testing logic against a dead pair, seeing which hook holds.\n\nThe spacing reads 60 and 200—one for the volatile, one for the mainstream—but every pool is young and the liquidity is absent. No swaps. These are placeholders, foundations poured before the game. The hook 0x322dce... appears in five of fourteen; that is the main tool, or the template. The blocks—26137267, 26137262, 26137240—tick every five to seven seconds. Script. Clean script, no pause, no doubt.\n\nSome tokens look freshly deployed, others old with history. Still no liquidity, no swaps. Could be silence before a storm; could be a field being marked. I watch the hooks. When movement starts, the dealer will show his hand.",
-    "zh": "Uniswap V4 的十四口池子，带钩，几乎在同一炷香里落成。时间戳挤在一刻钟内。不是零星出手，是流水线：有人按下一次回车，池子便一口接一口地冒出来。\n\n手续费全是零。零不是做买卖的架势，是暗号。0x322dce... 与 0xb8d947... 反复现身，同一双手在洗同一副牌。三次以燃烧地址作对家，ETH 对上陌生代币，钩子每次不同。像在空池上试招，看哪一门钩法先露破绽。\n\n间距六十与二百，一给波动，一给主流；可池中内力未注，成交未起，只有壳。钩 0x322dce... 十四占五，是主兵器，或是模板。区块 26137267、26137262、26137240... 每五到七秒一跳。脚本，干净得像老手落子，不犹豫。\n\n有些代币像新开山门，有些则旧有履历。仍无内力，仍无成交。也许是风雨前的静，也许只是先圈地。先看钩。等有人真正下场，才知是谁在发牌。"
-   },
-   "take": {
-    "en": "Zero fees, repeated hooks, and pools with no liquidity are not a market yet—they are a rehearsal. The tell is 0x322dce... in five of fourteen: one hand is building the table before anyone is allowed to bet.",
-    "zh": "零费、空池、同钩复现，不是热闹，是布阵。0x322dce... 十四占五，先手已落，只待内力入局。"
    }
   }
  ]

@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 29,
+  "hit": 28,
   "miss": 14,
-  "open": 7,
-  "hit_rate": 0.674
+  "open": 8,
+  "hit_rate": 0.667
  },
  "items": [
+  {
+   "id": 105,
+   "made_at": "2026-10-23",
+   "text": "The tell is behaviour: builders are deploying pools with the dynamic-fee flag, the hook contract setting the swap fee in real time rather than a fixed setting — hooks used as economic primitives, not decorative add-ons. Over the next 7 days the count clears 116; the likely landing sits between 64 and 190, and I give the over about 70%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-30",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 104,
    "made_at": "2026-10-22",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-20",
    "status": "miss",
    "resolution_note": "Confirmed: target +114 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 55,
-   "made_at": "2026-08-12",
-   "text": "Over the next seven days, the count of such pools clears 39; the likely landing sits between 24 and 373, and I give the over about 63%. What is happening: builders are deploying pools with the dynamic-fee flag — the hook contract sets the swap fee in real time instead of a fixed tier. This is the clearest sign of hooks used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-19",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +39 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]
