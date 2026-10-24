@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T15:13:29Z",
- "total_hooks": 7673,
- "total_pools": 27067,
+ "generated_at": "2026-10-24T16:13:29Z",
+ "total_hooks": 7676,
+ "total_pools": 27083,
  "multi_pool_hooks": 612,
  "shown": 612,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5375,
+   "pool_count": 5380,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26262502,
-   "last_deploy": "2026-10-24T14:00:02Z",
+   "last_block": 26263557,
+   "last_deploy": "2026-10-24T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -108,7 +108,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 718,
+   "pool_count": 720,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -124,8 +124,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26262941,
-   "last_deploy": "2026-10-24T14:00:02Z",
+   "last_block": 26263377,
+   "last_deploy": "2026-10-24T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 640,
+   "pool_count": 641,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -149,8 +149,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26262204,
-   "last_deploy": "2026-10-24T12:00:02Z",
+   "last_block": 26263161,
+   "last_deploy": "2026-10-24T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -305,7 +305,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 313,
+   "pool_count": 317,
    "permissions_human": [
     "sets up pools"
    ],
@@ -313,8 +313,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26262945,
-   "last_deploy": "2026-10-24T14:00:02Z",
+   "last_block": 26263492,
+   "last_deploy": "2026-10-24T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -558,7 +558,7 @@
    "name": "RobinVistaHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc2988a37d611779ad34b561231ee33603d15a0cc",
-   "pool_count": 145,
+   "pool_count": 146,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -572,8 +572,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26033423,
-   "last_block": 26257248,
-   "last_deploy": "2026-10-23T20:00:03Z",
+   "last_block": 26263234,
+   "last_deploy": "2026-10-24T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -1220,7 +1220,7 @@
    "first_block": 25916087,
    "last_block": 26213236,
    "last_deploy": "2026-10-17T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
