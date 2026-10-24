@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 29,
+  "hit": 30,
   "miss": 13,
-  "open": 8,
-  "hit_rate": 0.69
+  "open": 7,
+  "hit_rate": 0.698
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count clears 31; the likely landing sits between 20 and 87, and I give the over about 63%. Watch the behaviour rather than the label: more pools are opening with a very fine step, below ten, which is the hand of someone placing liquidity with precision instead of spreading it wide.",
    "horizon_days": 7,
    "resolve_after": "2026-10-24",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +31 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
