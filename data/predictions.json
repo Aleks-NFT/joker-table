@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 14,
-  "open": 7,
-  "hit_rate": 0.674
+  "miss": 13,
+  "open": 8,
+  "hit_rate": 0.69
  },
  "items": [
+  {
+   "id": 106,
+   "made_at": "2026-10-24",
+   "text": "I will call it plain: over the next 7 days the count clears 28 — the likely landing sits between 18 and 76, and I give the over about 64%. Watch the shape rather than the total: more pools are appearing with very small tick spacing, below 10, and that is a tool for placing liquidity in fine, concentrated slices rather than scattering it across the whole felt.",
+   "horizon_days": 7,
+   "resolve_after": "2026-10-31",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 105,
    "made_at": "2026-10-23",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-21",
    "status": "miss",
    "resolution_note": "Confirmed: target +113 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 56,
-   "made_at": "2026-08-13",
-   "text": "Over the next seven days the count clears 114, and the likely landing sits between 114 and 114 — I give the over about 71%. What is happening is not randomness: a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-20",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +114 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]
