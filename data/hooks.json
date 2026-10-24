@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T04:13:29Z",
+ "generated_at": "2026-10-24T05:13:31Z",
  "total_hooks": 7670,
  "total_pools": 27028,
  "multi_pool_hooks": 612,
@@ -3942,8 +3942,8 @@
   {
    "address": "0x620f75080ec7ee84d53addace146e1da54b460cc",
    "address_short": "0x620f…60cc",
-   "name": "",
-   "verified": false,
+   "name": "StockwaveHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x620f75080ec7ee84d53addace146e1da54b460cc",
    "pool_count": 10,
    "permissions_human": [
@@ -6342,8 +6342,8 @@
   {
    "address": "0x1848fe7f5be9ddce5e8ba6c22ae9d1dc27c1e8cc",
    "address_short": "0x1848…e8cc",
-   "name": "",
-   "verified": false,
+   "name": "LaunchHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x1848fe7f5be9ddce5e8ba6c22ae9d1dc27c1e8cc",
    "pool_count": 4,
    "permissions_human": [
@@ -11916,8 +11916,8 @@
   {
    "address": "0x98a09039fd1f48b61ea55884bc99d9ab231e20cc",
    "address_short": "0x98a0…20cc",
-   "name": "",
-   "verified": false,
+   "name": "NoerraLaunchProtectionHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x98a09039fd1f48b61ea55884bc99d9ab231e20cc",
    "pool_count": 2,
    "permissions_human": [
