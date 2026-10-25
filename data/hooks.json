@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T04:13:28Z",
+ "generated_at": "2026-10-25T05:13:29Z",
  "total_hooks": 7697,
  "total_pools": 27198,
  "multi_pool_hooks": 613,
@@ -5144,8 +5144,8 @@
   {
    "address": "0x0207bcb5fc4b740167c578e59bde59801e78e888",
    "address_short": "0x0207…e888",
-   "name": "",
-   "verified": false,
+   "name": "UniswapV2Aggregator",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0207bcb5fc4b740167c578e59bde59801e78e888",
    "pool_count": 7,
    "permissions_human": [
@@ -8311,8 +8311,8 @@
   {
    "address": "0xbe7cf8fd75f7522999f97f14e38a6602eb592acc",
    "address_short": "0xbe7c…2acc",
-   "name": "",
-   "verified": false,
+   "name": "PerpHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbe7cf8fd75f7522999f97f14e38a6602eb592acc",
    "pool_count": 3,
    "permissions_human": [
