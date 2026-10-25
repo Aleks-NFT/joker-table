@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 30,
-  "miss": 13,
-  "open": 7,
-  "hit_rate": 0.698
+  "miss": 12,
+  "open": 8,
+  "hit_rate": 0.714
  },
  "items": [
+  {
+   "id": 107,
+   "made_at": "2026-10-25",
+   "text": "Over the next seven days the count clears 29, the likely landing sits between 19 and 79, and I give the over about 66%. Watch the pattern rather than the number: more of these pools are being laid down with very fine spacing, the kind of precision that only matters when someone intends to place liquidity tight and keep it there.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-01",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 106,
    "made_at": "2026-10-24",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-24",
    "status": "hit",
    "resolution_note": "Confirmed: target +60 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 57,
-   "made_at": "2026-08-14",
-   "text": "Over the next seven days, the count clears 113, and the likely landing sits between 113 and 113 — I give the over about 71%. One hook contract is dealing pools back to back, far faster than the usual run of players.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-21",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +113 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]
