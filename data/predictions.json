@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 30,
+  "hit": 31,
   "miss": 12,
-  "open": 8,
-  "hit_rate": 0.714
+  "open": 7,
+  "hit_rate": 0.721
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next seven days the count of these hook-managed pools clears 101; the likely landing sits between 53 and 167, and I give the over about 69%. Watch the behaviour, not the label: builders are opening pools where the hook contract sets the fee in real time instead of posting a fixed rate — hooks as economic primitives, not decoration.",
    "horizon_days": 7,
    "resolve_after": "2026-10-25",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +101 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
