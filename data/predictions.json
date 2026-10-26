@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 30,
-  "miss": 12,
-  "open": 8,
-  "hit_rate": 0.714
+  "miss": 13,
+  "open": 7,
+  "hit_rate": 0.698
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count clears 2225; the likely landing sits between 992 and 12195, and I give the over about 61%. One hand at this table keeps dealing pools in rapid succession, well past the pace of everyone else in the room, and that rhythm is what the number is riding on.",
    "horizon_days": 7,
    "resolve_after": "2026-10-26",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +2225 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
