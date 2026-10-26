@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-26",
+   "narrative": {
+    "en": "Twenty-sixth of October, and the table is set with a house rule that costs nothing: pool after pool opens at zero, the creators taking not one satoshi. The same hook — 0x15e5e7 — deals six pools inside an hour, token addresses 0x0000, 0x04d6b9, 0xb45934 sliding across the felt, spacing fixed at sixty or two hundred. That is not a market finding its price; that is a deck being shuffled in public.\n\nAnother hook, 0x322dcec, keeps the same zero and the two-hundred spacing, working WETH against 0xc3a90d, 0x07599a, 0x7364b7 — three pools in an evening. 0xff3055 puts its chips on 0x8be5ac and 0xafb38f, same terms, same zero. Then the exception: one pool, 0x49977f, hooked through 0x784ff9, asks 12500. Somebody decided to charge the table. Why? Maybe not a meme; maybe liquidity with a pulse.\n\nMost pairs run to the zero address — ETH — and the tokens end in 6ea, 92a, 8ea, a serial print rather than a guest list. The blocks stack seconds apart; no human hand moves that fast, or if one does, it is a metronome pressing create. Pool IDs are only hashes, but behind each is a believer or a dealer who hopes one card turns trump. Tomorrow they die or they ignite. I will watch, as always.",
+    "zh": "十月二十六日，江湖上开了一场不收过路费的局。同一个钩子 0x15e5e7 在一个时辰内连开六池，零费，刻度六十或二百；0x0000、0x04d6b9、0xb45934 这些名号像同一门派连夜递出的拜帖，不像各路侠客偶然相逢。\n\n另一个钩子 0x322dcec 也是零费、二百刻度，拿 WETH 与 0xc3a90d、0x07599a、0x7364b7 结伴，一个晚上布下三池。0xff3055 押在 0x8be5ac 与 0xafb38f 上，规矩一样，仍是零。唯一的异数是 0x49977f，经 0x784ff9 之手，收 12500——有人偏要在免费局里摆一张收费的桌，或许不是玩笑，而是有内力的真流动性。\n\n多数池子对着零地址，那是 ETH；代币名尾数 6ea、92a、8ea，像同一炉铸出的暗器，一串接一串。区块挨得只差几息，不像人手，像机关；池 ID 只是哈希，背后却有人信它会亮，或只是发牌，等一张成王。明日这些池子或死或燃，我依旧在看。"
+   },
+   "take": {
+    "en": "The day’s tell is serial zero-fee pool creation by repeat hooks, not discovery; the one paid exception is the only hand that looks like it expects real liquidity.",
+    "zh": "今日的江湖气不在零费本身，而在同一钩子连开六池的节奏：那是发牌，不是寻价；唯一收费的池子，是唯一像在等真内力入局的异数。"
+   }
+  },
+  {
    "date": "2026-10-25",
    "narrative": {
     "en": "The night deals itself. Fifteen pools in a single session, one initialization after another, cards sliding off a deck nobody bothered to shuffle — block 26266006 opens the hand with a D34A/F832 pair, and from there the felt just keeps filling. Four different houses are working the table, and most of them take nothing at the door: zero commission, again and again, which tells you the money is being made somewhere other than the obvious place. Mev-shaped, oracle-shaped, something else shaped. The house always collects; it just doesn't always collect at the window.\n\nThe main dealer has a face: one hook contract running ETH pairs like a machine, five pools in an hour — 0xd062, 0x8941, 0x3ca0, 0xcf97, the whole run under a single hand, all at nothing. Somebody is laying out a grid, not placing a bet. Another player takes the table with two pairs and a commission of 8388608 — not a typo, a rare suit for this game, and worth watching to see what logic justifies it. A third spreads three pools across the space of a few deals, all with a coarse two-hundred step and no rake at all: a wide net for volatile pairs. And off to the side, one pool on a non-standard token, dealt by its own rules.\n\nFifteen hands, four hooks, one session. The deck is full and the deal continues. I observe.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Nobody lays out fifteen fee-less pools with custom hook logic in one night to run a test — they are building instruments, and the deployer behind that 0cc signature is the only name that matters tomorrow.",
     "zh": "一夜之间十五口不收分文的池子，还各配自定钩子，这不是试水，是铸器；真正该盯的不是池子，是那个尾数都收在 0cc 的落款人。"
-   }
-  },
-  {
-   "date": "2026-10-10",
-   "narrative": {
-    "en": "The night dealt heavy, and the V4 hook flow reads like a man laying out a deck with intent. Fourteen fresh pools inside a hundred and fifty blocks is not appetite — appetite is sloppy, appetite is one pool and a prayer. Fourteen identical gestures is installation.\n\nWatch the pattern. Hook contract 0x322dcec4958c14e021a9f1cd49df11b9457968cc shows up six times: one scheme, run through different pairs — WETH against a handful of small tokens, and a recurring entanglement with 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7. All of them at zero fee, all with the price granularity set coarse. Nobody builds that combination to catch traders. You build it to hold something else.\n\nThen the tell: a pool initialized against 0x0000000000000000000000000000000000000000. The null address is not a typo at this table, it's a deliberate construction — hook 0xc5cf75480e587f678b8a16b0a7ab15e8715150cc knows exactly what it's doing. You seat the void as a counterparty when you're testing the edges of the machine, or when you're building something that was never meant to pass through an ordinary swap. And one pool breaks the zero-fee liturgy entirely: 0x0f61a3529b5b745657ad0c3626d89c5ed4e1ce57273fa46e0c517c0411a11ae4, hook 0x4d6f947d2c5b7377f7594a0702267c54ffc960c4, charging 12500 — a mechanic that wants its cut at the door, or at the exit.\n\n0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7 is the pivot of the whole hand, appearing across four pools. Someone is stacking liquidity on several fronts at once — a launch, or a migration. None of this is about price. When fourteen pools land in a single night, you don't read the tape, you read the architecture. The deck is being shuffled, and the deal hasn't started yet.",
-    "zh": "夜裡擺開的這局，不像買賣，像布陣。一百五十個區塊之間，十四座新池立起。一時興起的人只會開一座池子試水；連開十四座，是有人在按圖下子。\n\n先看那個身影：hook 契約 0x322dcec4958c14e021a9f1cd49df11b9457968cc，六度現身。同一套心法，換不同的對手——WETH 對上幾個小門派，又反覆與 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7 纏在一處。手續費一概為零，價格刻度放得極粗。這種組合不是用來接散客的，是用來裝別的東西。\n\n再看那處破綻：有座池子，以 0x0000000000000000000000000000000000000000——空無之址——為幣。這不是手誤，是刻意。守著 0xc5cf75480e587f678b8a16b0a7ab15e8715150cc 的人，清楚自己在做什麼。把虛無請進池中，要麼是在試這套機關的邊界，要麼是在造一件本就不為尋常兌換所用的器物。另有一座池子偏離了零費的規矩：0x0f61a3529b5b745657ad0c3626d89c5ed4e1ce57273fa46e0c517c0411a11ae4，hook 0x4d6f947d2c5b7377f7594a0702267c54ffc960c4，收 12500——進門要錢，或者出門要錢。\n\n而 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7，是這一局的軸心，四池同現。有人在數路並進地為它鋪內力，像是起壇，也像是遷宗。這一夜看的不是價，是架構。江湖上先修路的人，從不急著趕路。"
-   },
-   "take": {
-    "en": "Fourteen pools in one night is not trading, it's construction — whoever is laying these rails isn't looking at the price, and neither should you.",
-    "zh": "一夜十四池，看的不是價，是陣。先立規矩者，後得江湖。"
    }
   }
  ]

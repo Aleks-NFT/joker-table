@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 31,
+  "hit": 30,
   "miss": 12,
-  "open": 7,
-  "hit_rate": 0.721
+  "open": 8,
+  "hit_rate": 0.714
  },
  "items": [
+  {
+   "id": 108,
+   "made_at": "2026-10-26",
+   "text": "Builders are deploying pools where the hook contract resets the swap fee in real time instead of a fixed setting; over the next 7 days the count clears 132, the likely landing sits between 74 and 216, and I give the over about 72%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-02",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 107,
    "made_at": "2026-10-25",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-25",
    "status": "hit",
    "resolution_note": "Confirmed: target +11 on metric tickspacing_lt10_hooks reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 58,
-   "made_at": "2026-08-17",
-   "text": "Over the next seven days the count clears 60; the likely landing sits between 29 and 352, and I give the over about 65%. Builders are deploying pools with the dynamic-fee flag: the hook contract sets the swap fee in real time instead of a fixed tier. That is the clearest sign of hooks used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-24",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +60 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]
