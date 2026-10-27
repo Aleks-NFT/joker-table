@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T19:13:31Z",
- "total_hooks": 7761,
- "total_pools": 27809,
- "multi_pool_hooks": 625,
- "shown": 625,
+ "generated_at": "2026-10-27T20:13:27Z",
+ "total_hooks": 7768,
+ "total_pools": 27837,
+ "multi_pool_hooks": 627,
+ "shown": 627,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5514,
+   "pool_count": 5515,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26285686,
-   "last_deploy": "2026-10-27T18:00:02Z",
+   "last_block": 26285970,
+   "last_deploy": "2026-10-27T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -160,7 +160,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 620,
+   "pool_count": 634,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -176,8 +176,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26285655,
-   "last_deploy": "2026-10-27T18:00:02Z",
+   "last_block": 26286230,
+   "last_deploy": "2026-10-27T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1518,6 +1518,31 @@
    "visible": false
   },
   {
+   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "address_short": "0x8ff5…e0cc",
+   "name": "LiquidGuard",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
+   "pool_count": 25,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 25194721,
+   "last_block": 26285788,
+   "last_deploy": "2026-10-27T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x3e1ad2f53882c3b8a04706a86b127d71d4e480cc",
    "address_short": "0x3e1a…80cc",
    "name": "LaunchHook",
@@ -1537,31 +1562,6 @@
    "first_block": 26039069,
    "last_block": 26088314,
    "last_deploy": "2026-09-30T06:00:03Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "address_short": "0x8ff5…e0cc",
-   "name": "LiquidGuard",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x8ff5660951c974f4806f0bef9a32bcf35d3ae0cc",
-   "pool_count": 24,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 25194721,
-   "last_block": 26216886,
-   "last_deploy": "2026-10-18T04:00:02Z",
    "active": false,
    "visible": false
   },
@@ -6353,6 +6353,31 @@
    "visible": false
   },
   {
+   "address": "0x824c819a2f5b5f31d0437eebdb5ec9aa668ce0cc",
+   "address_short": "0x824c…e0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x824c819a2f5b5f31d0437eebdb5ec9aa668ce0cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26286154,
+   "last_block": 26286282,
+   "last_deploy": "2026-10-27T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x9b3c44cba730cc4654df10f111c4bd5440ac80cc",
    "address_short": "0x9b3c…80cc",
    "name": "TunaHook",
@@ -11047,6 +11072,33 @@
    "last_block": 26099309,
    "last_deploy": "2026-10-01T20:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x6a03ac8c887cdec254cade95a9b1ae83ab2a28cc",
+   "address_short": "0x6a03…28cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x6a03ac8c887cdec254cade95a9b1ae83ab2a28cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26286122,
+   "last_block": 26286150,
+   "last_deploy": "2026-10-27T20:00:02Z",
+   "active": true,
    "visible": false
   },
   {
