@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T01:13:40Z",
- "total_hooks": 7739,
- "total_pools": 27631,
+ "generated_at": "2026-10-27T02:13:29Z",
+ "total_hooks": 7740,
+ "total_pools": 27651,
  "multi_pool_hooks": 623,
  "shown": 623,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5479,
+   "pool_count": 5482,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26280205,
-   "last_deploy": "2026-10-27T00:00:02Z",
+   "last_block": 26280786,
+   "last_deploy": "2026-10-27T02:00:02Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 649,
+   "pool_count": 650,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -149,8 +149,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26279941,
-   "last_deploy": "2026-10-27T00:00:02Z",
+   "last_block": 26280781,
+   "last_deploy": "2026-10-27T02:00:02Z",
    "active": true,
    "visible": true
   },
@@ -160,7 +160,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 546,
+   "pool_count": 559,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -176,8 +176,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26280260,
-   "last_deploy": "2026-10-27T00:00:02Z",
+   "last_block": 26280579,
+   "last_deploy": "2026-10-27T02:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1337,6 +1337,36 @@
    "visible": false
   },
   {
+   "address": "0xff3055fa6cc7133af009bb1c266130a73405aaec",
+   "address_short": "0xff30…aaec",
+   "name": "SignalV4HookV43",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xff3055fa6cc7133af009bb1c266130a73405aaec",
+   "pool_count": 29,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeDonate",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26270567,
+   "last_block": 26280821,
+   "last_deploy": "2026-10-27T02:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x025a386eaa79f6067d29848fd05ccc71beab20cc",
    "address_short": "0x025a…20cc",
    "name": "EthCreatorFeeHookV2",
@@ -1438,36 +1468,6 @@
    "last_block": 25404565,
    "last_deploy": "2026-06-26T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xff3055fa6cc7133af009bb1c266130a73405aaec",
-   "address_short": "0xff30…aaec",
-   "name": "SignalV4HookV43",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xff3055fa6cc7133af009bb1c266130a73405aaec",
-   "pool_count": 27,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "handles donations",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeRemoveLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeDonate",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26270567,
-   "last_block": 26276815,
-   "last_deploy": "2026-10-26T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -6661,7 +6661,7 @@
    "first_block": 26052832,
    "last_block": 26230212,
    "last_deploy": "2026-10-20T02:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
