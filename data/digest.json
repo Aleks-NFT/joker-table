@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-27",
+   "narrative": {
+    "en": "The deal came before the dawn, and the table shows sixteen fresh V4 pools. Not a sprint—a volley. Three hook contracts hold the line: 0x15e5e...8cc, 0x322dc...8cc, and 0xff305...ec. The first took ETH pairs at tickSpacing 60—six pools in a row, all zero fee, addresses ending *ea. The second laid four pools at tickSpacing 200 with token 0xc9eef...581 at the center. The third placed two ETH pools at tickSpacing 200.\n\nLook at the token addresses and the pattern is a dealt hand: 0x...6ea, 0x...ea—a cluster, not a random scatter. Block timestamps run from 26280435 through 26280859, with some initializations less than a minute apart. That is a script, not a hand.\n\nEvery pool carries zero fee. On V4 that means the economics ride on hooks, not the standard fee tier. The hooks are not listeners; they are the extraction mechanism. And the spacing—60 for ETH pairs against 200 for the rest—splits liquidity strategy: tighter for active trade, wider for volatile pairs.\n\nWETH pools (0xc02...) run through 0xff305 and 0x322dc, a different set from the ETH pairs through 0x15e5e. Different hooks, different logic—different teams, or one team with different plays. What the hooks actually do—dynamic fees, oracles, MEV protection—is not on the table. But sixteen pools in a night, all zero fee, all one coordinated deal: the deck is assembled and the cards are dealt. Now we watch who makes the first move.",
+    "zh": "天色未亮，江湖上已多了十六个V4池子。不是单骑试探，是一阵连发。三个钩子合约站在台前：0x15e5e...8cc、0x322dc...8cc、0xff305...ec。第一个接下ETH交易对，间距六十，六个池子连成一排，皆为零费，地址收在*ea。第二个布下四个池子，间距二百，0xc9eef...581在阵心。第三个只放两个ETH池，间距仍是二百。\n\n再看代币地址，0x...6ea与0x...ea排成一线，这不是散落的暗器，是同一门派的手笔。区块时间从26280435到26280859，有些初始化相隔不足一分钟。手动布阵没有这般整齐，背后是脚本在走。\n\n所有池子都不收标准费用。V4之中，这意味着内力不在常规费用层，而灌入钩子。钩子不是旁听者，是取值的机关。间距六十对ETH交易对，二百对其余，是两套流动性心法：一紧一松，一为快打，一为宽守。\n\nWETH（0xc02...）的池子走0xff305与0x322dc，与走0x15e5e的ETH池并非同一路数。不同钩子，不同逻辑，或许是不同门派，或许是一派多术。钩子究竟在做什么——动态费用、预言机、MEV防护——尚未见底。但一夜十六池、全零费、步调一致，这已是布好的局。牌在桌上，且看谁先落子。"
+   },
+   "take": {
+    "en": "Sixteen zero-fee V4 pools in one night from three dominant hooks and a tight token-address cluster is coordinated deployment, not market signal.",
+    "zh": "一夜十六个零费V4池，三处钩子主导，代币地址成串，这是有组织的布阵，不是散乱的市场信号。"
+   }
+  },
+  {
    "date": "2026-10-26",
    "narrative": {
     "en": "Twenty-sixth of October, and the table is set with a house rule that costs nothing: pool after pool opens at zero, the creators taking not one satoshi. The same hook — 0x15e5e7 — deals six pools inside an hour, token addresses 0x0000, 0x04d6b9, 0xb45934 sliding across the felt, spacing fixed at sixty or two hundred. That is not a market finding its price; that is a deck being shuffled in public.\n\nAnother hook, 0x322dcec, keeps the same zero and the two-hundred spacing, working WETH against 0xc3a90d, 0x07599a, 0x7364b7 — three pools in an evening. 0xff3055 puts its chips on 0x8be5ac and 0xafb38f, same terms, same zero. Then the exception: one pool, 0x49977f, hooked through 0x784ff9, asks 12500. Somebody decided to charge the table. Why? Maybe not a meme; maybe liquidity with a pulse.\n\nMost pairs run to the zero address — ETH — and the tokens end in 6ea, 92a, 8ea, a serial print rather than a guest list. The blocks stack seconds apart; no human hand moves that fast, or if one does, it is a metronome pressing create. Pool IDs are only hashes, but behind each is a believer or a dealer who hopes one card turns trump. Tomorrow they die or they ignite. I will watch, as always.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The house isn't watching tokens; it's watching the template—fifteen deals, eleven from the same sleeve, and the hook is the only card that matters.",
     "zh": "今日最锋利的一刀：不是哪枚代币，而是那张模板——十五池同开，十一池同源，钩子才是内力所在。"
-   }
-  },
-  {
-   "date": "2026-10-11",
-   "narrative": {
-    "en": "The deal came down overnight and the felt is still warm: fifteen new Uniswap V4 hook pools on Ethereum before the sun bothered to show. Fifteen is a number that means nothing until you sit with it — and fourteen of them carry no fee on the surface at all. The hook contract takes the money; the pool's base cut is a formality. Tick spacing sixty is the house standard for pairs that move, but two tables were set at two hundred, and that says someone is braced for wide swings and has no patience for reshuffling mid-hand.\n\nOne seat is playing it old. A pair at 0x384f… against 0xd34a…, a cut of one-eighth of one percent, and a hook contract at 0x784f… that doesn't answer to the same cluster as the rest — an independent hand, maybe. Meanwhile nearly every hook ends in 0cc: 0x348c…0cc, 0xc13c…0cc, 0xdf8e…0cc. That is not luck, that is a script. One factory, one deployer, one signature. The only question worth asking is whose.\n\nEight of the pools lean on WETH — classic, liquidity tethered to ether. Three don't: 0x1b54… against 0x2447…, 0x384f… against 0xd34a…, 0x4c68… against 0xcabd…. Cross-pair tables, which means someone is building a web of liquidity that doesn't need ether at the center. And the strangest tell of the night: the token 0x1b54e762… shows up three times, three different partners, three different hooks — one base asset, several satellites, each with its own logic.\n\nThe card is dated 11 October 2026. A pool with no fee and a custom hook is not a pool — it is a tool. Fifteen tools were laid out tonight, and hooks give their owner a hand on every single swap. Nobody sharpens fifteen blades to test the whetstone.",
-    "zh": "子时刚过，以太坊上便落了十五口新池。十五这个数，本身不算什么，要看你肯不肯坐下来细看。十四口池，面上不收分文——收钱的不是池子，是那枚钩子合约。基础抽成只是走个过场。六十的刻度间距，是江湖里波动之对的常规做法；另有两处设在两百，那是备好了应付大起大落的人，懒得中途挪桩。\n\n席上有一家走的是老路：0x384f… 对 0xd34a…，抽一分二厘五，钩子合约 0x784f… 不在同一脉，许是独行的散人。再看其余钩子，尾数几乎都收在 0cc——0x348c…0cc、0xc13c…0cc、0xdf8e…0cc。这不是巧合，是一套铸模，一个师门，一个落款。值得问的只有一句：是谁。\n\n八口池把内力系在 WETH 上，这是老规矩。另有三口不系：0x1b54… 对 0x2447…，0x384f… 对 0xd34a…，0x4c68… 对 0xcabd…。不借以太而立，说明有人在织一张不以以太为轴的网。最耐人寻味的是 0x1b54e762… 这个名号，一夜出现三次，三次配不同的对手，三次换一枚新钩子——一个根，几处分枝，各自一套心法。\n\n日子是二〇二六年十月十一。不收费的池子配上自定的钩子，那便不是池子，是兵器。今夜摆出了十五件，而钩子在手，每一笔换手都在其掌控之中。磨刀的人，不会一次磨十五把，只为试试石头。"
-   },
-   "take": {
-    "en": "Nobody lays out fifteen fee-less pools with custom hook logic in one night to run a test — they are building instruments, and the deployer behind that 0cc signature is the only name that matters tomorrow.",
-    "zh": "一夜之间十五口不收分文的池子，还各配自定钩子，这不是试水，是铸器；真正该盯的不是池子，是那个尾数都收在 0cc 的落款人。"
    }
   }
  ]
