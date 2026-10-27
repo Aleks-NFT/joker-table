@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T04:13:29Z",
+ "generated_at": "2026-10-27T05:13:28Z",
  "total_hooks": 7746,
  "total_pools": 27667,
  "multi_pool_hooks": 623,
@@ -580,8 +580,8 @@
   {
    "address": "0x0246a4307c13bfe516139f55eaaedd3483882888",
    "address_short": "0x0246…2888",
-   "name": "",
-   "verified": false,
+   "name": "UniswapV2Aggregator",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0246a4307c13bfe516139f55eaaedd3483882888",
    "pool_count": 129,
    "permissions_human": [
@@ -698,8 +698,8 @@
   {
    "address": "0x0359e30d4e8e098f1033f948182f88e43efd6888",
    "address_short": "0x0359…6888",
-   "name": "",
-   "verified": false,
+   "name": "UniswapV3Aggregator",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x0359e30d4e8e098f1033f948182f88e43efd6888",
    "pool_count": 97,
    "permissions_human": [
@@ -918,8 +918,8 @@
   {
    "address": "0x9338644744b78a28db36cbf535c7d4e4eb17a888",
    "address_short": "0x9338…a888",
-   "name": "",
-   "verified": false,
+   "name": "PancakeSwapV3Aggregator",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x9338644744b78a28db36cbf535c7d4e4eb17a888",
    "pool_count": 57,
    "permissions_human": [
@@ -5436,8 +5436,8 @@
   {
    "address": "0xe86e44a89f547946b622b9607d55a3912cec20cc",
    "address_short": "0xe86e…20cc",
-   "name": "",
-   "verified": false,
+   "name": "EtherealFactory",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xe86e44a89f547946b622b9607d55a3912cec20cc",
    "pool_count": 7,
    "permissions_human": [
@@ -6979,8 +6979,8 @@
   {
    "address": "0x820f741576eb257f72f59572e8b07d1bfc4560cc",
    "address_short": "0x820f…60cc",
-   "name": "",
-   "verified": false,
+   "name": "MultistockHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x820f741576eb257f72f59572e8b07d1bfc4560cc",
    "pool_count": 4,
    "permissions_human": [
@@ -7004,8 +7004,8 @@
   {
    "address": "0x8db0839238dccdf31eb3adabba16c204ef5620cc",
    "address_short": "0x8db0…20cc",
-   "name": "",
-   "verified": false,
+   "name": "HawthornHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x8db0839238dccdf31eb3adabba16c204ef5620cc",
    "pool_count": 4,
    "permissions_human": [
@@ -10842,8 +10842,8 @@
   {
    "address": "0x60ba0b87055ad06d5430bca353140c85c586e888",
    "address_short": "0x60ba…e888",
-   "name": "",
-   "verified": false,
+   "name": "PonypadHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x60ba0b87055ad06d5430bca353140c85c586e888",
    "pool_count": 2,
    "permissions_human": [
@@ -13268,8 +13268,8 @@
   {
    "address": "0xc799c6098fb98e39338f17d660caa3c896c200cc",
    "address_short": "0xc799…00cc",
-   "name": "",
-   "verified": false,
+   "name": "FeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xc799c6098fb98e39338f17d660caa3c896c200cc",
    "pool_count": 2,
    "permissions_human": [
