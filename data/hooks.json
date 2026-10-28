@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T21:13:32Z",
- "total_hooks": 7815,
- "total_pools": 28078,
- "multi_pool_hooks": 634,
- "shown": 634,
+ "generated_at": "2026-10-28T22:13:32Z",
+ "total_hooks": 7818,
+ "total_pools": 28090,
+ "multi_pool_hooks": 636,
+ "shown": 636,
  "more_count": 0,
  "hooks": [
   {
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 684,
+   "pool_count": 687,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26293462,
-   "last_deploy": "2026-10-28T20:00:02Z",
+   "last_block": 26293748,
+   "last_deploy": "2026-10-28T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -162,7 +162,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 663,
+   "pool_count": 664,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -176,8 +176,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26292889,
-   "last_deploy": "2026-10-28T20:00:02Z",
+   "last_block": 26293495,
+   "last_deploy": "2026-10-28T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -208,7 +208,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 345,
+   "pool_count": 347,
    "permissions_human": [
     "sets up pools"
    ],
@@ -216,8 +216,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26293321,
-   "last_deploy": "2026-10-28T20:00:02Z",
+   "last_block": 26293639,
+   "last_deploy": "2026-10-28T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1110,7 +1110,7 @@
    "name": "SignalV4HookV43",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xff3055fa6cc7133af009bb1c266130a73405aaec",
-   "pool_count": 43,
+   "pool_count": 44,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -1129,8 +1129,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26270567,
-   "last_block": 26292265,
-   "last_deploy": "2026-10-28T16:00:02Z",
+   "last_block": 26293836,
+   "last_deploy": "2026-10-28T22:00:02Z",
    "active": true,
    "visible": false
   },
@@ -7505,7 +7505,7 @@
    "first_block": 26080296,
    "last_block": 26243616,
    "last_deploy": "2026-10-21T22:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -10646,6 +10646,27 @@
    "last_block": 25322816,
    "last_deploy": "2026-06-15T14:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x4e7bcc40e981ae45a4af22e8890bd2173a0a6040",
+   "address_short": "0x4e7b…6040",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x4e7bcc40e981ae45a4af22e8890bd2173a0a6040",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterSwap"
+   ],
+   "first_block": 26294005,
+   "last_block": 26294052,
+   "last_deploy": "2026-10-28T22:00:02Z",
+   "active": true,
    "visible": false
   },
   {
@@ -14271,6 +14292,28 @@
    "last_block": 25321091,
    "last_deploy": "2026-06-15T08:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xe4a3bf7680a4824c77f7f54dd19989b617cc20c0",
+   "address_short": "0xe4a3…20c0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xe4a3bf7680a4824c77f7f54dd19989b617cc20c0",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 26293581,
+   "last_block": 26293791,
+   "last_deploy": "2026-10-28T22:00:02Z",
+   "active": true,
    "visible": false
   },
   {
