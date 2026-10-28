@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-28",
+   "narrative": {
+    "en": "The night opens on the same hook contract again, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, surfacing like a card shuffled one time too many. Five pools, every one of them carrying a zero fee, every one on the same step of sixty, and in each case the chair across the felt is the native coin — with a different second token sitting down each time. Somebody is dealing one card per block and watching which one lands face up.\n\nThen there is the other hand. 0x322dcec4958c14e021a9f1cd49df11b9457968cc prefers a wider step, two hundred, and runs four pools, two of which are not native at all — token against token, no ether at the base. The fee is zero here too. Which means this table was never built to rake chips; it was built for something else. Volume, perhaps. Perhaps the shape of an order someone wants to move without being seen moving it.\n\nFarther down the room sit two pools charging ten thousand, and those are not seats for tourists. 0x948916f1… and 0xbdef42b3… — both paired with the native coin, both on the step of two hundred, yet each behind a different hook, 0x02a319b… and 0xda9993…. Someone is buying distance, not action.\n\nThe real tell is density. Ten pools standing up inside thirteen blocks is not improvisation, it is a volley. A deck was prepared in advance and simply dealt onto the table. The question was never what these tokens are. The question is who holds the hooks — one contract running five pools, another running four. Those are not strangers who happened to sit down at the same time. The night on Ethereum was quiet, apart from the riffling.",
+    "zh": "又是夜里的以太坊。同一个钩子合约反复出手，像一副被洗得太勤的牌：五个池子，费用俱为零，步距皆是六十，且每一处都与原生之币相对而坐，另一侧则每每换一张新面孔。有人一格一格地发牌，看哪一张翻过来能立住。\n\n另有一只手，步距二百，四个池子，其中两个已不与原生币配对，而是币对币——基底不再是内力最厚的那一个。费用仍是零。可见此处图的不是收租，而是别的东西：或是流水，或是某个不愿被人看清的落子次序。\n\n更远处还坐着两处，费用一万，那不是新入江湖的人该坐的位置。两处皆配原生币，皆步距二百，钩子却各自不同，一为 0x02a319b…，一为 0xda9993…。有人押的是长路，不是眼前这一手。\n\n真正耐人寻味的是密度。十三个区块之内，十个池子先后落地。这不是兴之所至的随手落子，是一次齐射——牌早就备好，只是一张张推到桌上。要紧的从来不是这些代币姓甚名谁，而是谁握着这些钩子：一个合约管五个池子，另一个管四个。江湖上没有这么多恰好同席的陌生人。以太坊这一夜本是静的，唯有洗牌之声不绝。"
+   },
+   "take": {
+    "en": "Nobody prepares ten pools in thirteen blocks by accident — the tokens are the noise, the hand holding every hook is the signal.",
+    "zh": "十三个区块里立起十个池子，绝非偶然；代币是幌子，握着全部钩子的那只手，才是真章。"
+   }
+  },
+  {
    "date": "2026-10-27",
    "narrative": {
     "en": "The deal came before the dawn, and the table shows sixteen fresh V4 pools. Not a sprint—a volley. Three hook contracts hold the line: 0x15e5e...8cc, 0x322dc...8cc, and 0xff305...ec. The first took ETH pairs at tickSpacing 60—six pools in a row, all zero fee, addresses ending *ea. The second laid four pools at tickSpacing 200 with token 0xc9eef...581 at the center. The third placed two ETH pools at tickSpacing 200.\n\nLook at the token addresses and the pattern is a dealt hand: 0x...6ea, 0x...ea—a cluster, not a random scatter. Block timestamps run from 26280435 through 26280859, with some initializations less than a minute apart. That is a script, not a hand.\n\nEvery pool carries zero fee. On V4 that means the economics ride on hooks, not the standard fee tier. The hooks are not listeners; they are the extraction mechanism. And the spacing—60 for ETH pairs against 200 for the rest—splits liquidity strategy: tighter for active trade, wider for volatile pairs.\n\nWETH pools (0xc02...) run through 0xff305 and 0x322dc, a different set from the ETH pairs through 0x15e5e. Different hooks, different logic—different teams, or one team with different plays. What the hooks actually do—dynamic fees, oracles, MEV protection—is not on the table. But sixteen pools in a night, all zero fee, all one coordinated deal: the deck is assembled and the cards are dealt. Now we watch who makes the first move.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Sixteen pools, one hand, zero liquidity — this is not a market yet, it is a deck being stacked in plain sight, and the only question worth asking is who is meant to sit down.",
     "zh": "十六座门户，一只手掌，内力全无——这还不是市场，是有人在明处攒一副牌；真正要紧的，是谁会被请上桌。"
-   }
-  },
-  {
-   "date": "2026-10-12",
-   "narrative": {
-    "en": "The deck moved fast on the tenth of October—V4 pools with hooks coming off in packets, like cards from a fresh pack. The same hook contract 0x322dcec4958c14e021a9f1cd49df11b9457968cc showed in nine of fifteen pools. All zero fees, spacing of 200—the standard deal for experiments with custom logic. WETH on one side, unknown tokens on the other.\n\nTwo native ETH pools: one through the zero address with token 0x5229d923a678d26f5029bdb40f1e927743ad59c4 on hook 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc, another with token 0xeeb10007a6d0ef9552eb048bf5fb192264a42099 on the same hook. A third ETH pool carried token 0x00552d041659f25dd4d1a87a38229a4fe9b56776, but the hook changed—0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc.\n\nOne pool broke rank: block 26173080, ETH against 0x13b224f8a161d552f5e1b7c82b2183e37815972f, fee 8388608 (0.8% in V4), spacing of 60, hook 0x56f73a2c6d34696eff111fff94addf92a1bc6aec. Someone laid a more aggressive strategy on that felt.\n\nTwo pools without WETH: pair 0x0bd58baaaa02866f17ab29db056cb900aa11db86 and 0x72e4f9f808c49a2a61de9c5896298920dc4eeea9 on hook 0x322dcec4958c14e021a9f1cd49df11b9457968cc, and pair 0x2211ff0abe6bd3ae27632888909a3b3b38704475 with WETH on the same hook. All zero fees, all hook-bearing. The picture: a network of pools with identical parameters, only base tokens swapped. Same hook contract means same logic; the only question is what that hook does—dynamic fees, oracles, or something sharper. But the fact stands: fifteen new pools in one day, eleven clones of one template. The deck is being shuffled for real.",
-    "zh": "十月初十，江湖上的牌局开得极快。V4 带钩的池子一批批落下，像新拆的一叠牌。同一个钩子合约 0x322dcec4958c14e021a9f1cd49df11b9457968cc，在十五个池子里出现了九次。全是零费，间距二百，是给自定义逻辑试手的标准盘口。一边是 WETH，一边是未见过的代币。\n\n两个池子用原生 ETH：一个经零地址，代币 0x5229d923a678d26f5029bdb40f1e927743ad59c4，钩子 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc；另一个代币 0xeeb10007a6d0ef9552eb048bf5fb192264a42099，同一个钩子。还有第三个 ETH 池，代币 0x00552d041659f25dd4d1a87a38229a4fe9b56776，钩子却换了——0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc。\n\n有一个池子不随大流：26173080 那块，ETH 对 0x13b224f8a161d552f5e1b7c82b2183e37815972f，费用 8388608（V4 里的 0.8%），间距六十，钩子 0x56f73a2c6d34696eff111fff94addf92a1bc6aec。出招的人，显然想走更急的路子。\n\n两个池子没有 WETH：一对 0x0bd58baaaa02866f17ab29db056cb900aa11db86 与 0x72e4f9f808c49a2a61de9c5896298920dc4eeea9，钩子 0x322dcec4958c14e021a9f1cd49df11b9457968cc；另一对 0x2211ff0abe6bd3ae27632888909a3b3b38704475 与 WETH，还是同一个钩子。零费，带钩。局面清楚：有人铺开一张同一参数的网，只换基础代币。钩子合约一样，逻辑便一样；只是这钩子究竟做什么——动态费用，预言机，或更深的机关——尚未见底。但事实是：一日十五个新池，十一个同出一模。江湖在换牌。"
-   },
-   "take": {
-    "en": "The house isn't watching tokens; it's watching the template—fifteen deals, eleven from the same sleeve, and the hook is the only card that matters.",
-    "zh": "今日最锋利的一刀：不是哪枚代币，而是那张模板——十五池同开，十一池同源，钩子才是内力所在。"
    }
   }
  ]
