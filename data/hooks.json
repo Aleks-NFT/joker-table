@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T11:10:36Z",
+ "generated_at": "2026-10-29T12:11:06Z",
  "total_hooks": 7829,
- "total_pools": 28155,
+ "total_pools": 28159,
  "multi_pool_hooks": 637,
  "shown": 637,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5595,
+   "pool_count": 5596,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26297527,
-   "last_deploy": "2026-10-29T10:00:02Z",
+   "last_block": 26297914,
+   "last_deploy": "2026-10-29T12:00:03Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 691,
+   "pool_count": 692,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26297314,
-   "last_deploy": "2026-10-29T10:00:02Z",
+   "last_block": 26298047,
+   "last_deploy": "2026-10-29T12:00:03Z",
    "active": true,
    "visible": true
   },
@@ -1110,7 +1110,7 @@
    "name": "SignalV4HookV43",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xff3055fa6cc7133af009bb1c266130a73405aaec",
-   "pool_count": 46,
+   "pool_count": 47,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -1129,8 +1129,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26270567,
-   "last_block": 26297385,
-   "last_deploy": "2026-10-29T10:00:02Z",
+   "last_block": 26298193,
+   "last_deploy": "2026-10-29T12:00:03Z",
    "active": true,
    "visible": false
   },
@@ -7240,6 +7240,33 @@
    "visible": false
   },
   {
+   "address": "0xa89083083119b70c06b372dc85dc6155a8f568cc",
+   "address_short": "0xa890…68cc",
+   "name": "PepesFamily",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xa89083083119b70c06b372dc85dc6155a8f568cc",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26153728,
+   "last_block": 26297796,
+   "last_deploy": "2026-10-29T12:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0xb16739898acf51096d6c24067139c55b18522acc",
    "address_short": "0xb167…2acc",
    "name": "PortXHook",
@@ -8496,33 +8523,6 @@
    "last_block": 26252470,
    "last_deploy": "2026-10-23T04:00:02Z",
    "active": true,
-   "visible": false
-  },
-  {
-   "address": "0xa89083083119b70c06b372dc85dc6155a8f568cc",
-   "address_short": "0xa890…68cc",
-   "name": "PepesFamily",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xa89083083119b70c06b372dc85dc6155a8f568cc",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeAddLiquidity",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26153728,
-   "last_block": 26154978,
-   "last_deploy": "2026-10-09T14:00:02Z",
-   "active": false,
    "visible": false
   },
   {
