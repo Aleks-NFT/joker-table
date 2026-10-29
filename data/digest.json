@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-29",
+   "narrative": {
+    "en": "Someone worked the felt overnight and laid down two pools on V4 through the same hook contract — 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc — both cut at a zero fee, both set at the same spacing, both pairing native ETH against tokens that carry the look of a fresh distribution. First one styled b4981f34, second 75c88cb7. Neither has surfaced on a serious listing desk. Neither has shown its face on a centralized exchange. These are not memes with history, not projects with a site and a voice on the timeline. Just contracts somebody deployed, funded, and left standing like chips stacked at an empty seat.\n\nThe hook is the tell. One hand, twice played. That address signs under no protocol anyone recognizes — no dynamic fees, no oracles, no aggregator counting its take. An empty sleeve that lets a pool exist and asks nothing further. The house sees that shape when it wants the table occupied but doesn't care to answer questions about who's sitting there.\n\nWhat sharpens it is the clock. Two deployments, an hour apart, the same shape both times. No fiddling with the parameters, no second guess on the cut, no attempt to find a different geometry. Just two different tokens, both against ETH, pressed into an identical mold by someone who had already decided. Could be a test. Could be a warm-up. Could be a man parking a pair of contracts where the market isn't looking. But two pools inside an hour, zero fee, one hook — the deck isn't dealt yet, and the cards are already on the table.",
+    "zh": "夜里有人出手，在同一条脉络上连开两池——皆由同一个钩子契约 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc 所化，抽成归零，间距一致，皆以原生以太为对手，配的是两枚看着像新发份子的代币。头一池唤作 b4981f34，第二池唤作 75c88cb7。两者都不曾在大门派的名册上留名，也不曾在中心化的山门前露过脸。不是有年头的旧物，也不是立了山门、开了号、天天在江湖上讲话的帮派。不过是有人布下的契约，灌了内力，便撒手任其悬着。\n\n钩子是同一只手。那处地址不挂任何名门，不识什么动态抽成，不请什么 oracle，也不入什么 TVL 榜。只是一层空壳，容得下池子活着，却不愿多答一句。江湖上常见这种手法——想让一个池子存在，却不想让人追问它为何存在。\n\n真正耐人寻味的，是时辰。两池相隔不过一个时辰，规格分毫不差。不曾试别的抽成，不曾换别的间距，也不曾想着把形状调一调。只是取了两枚不同的代币，都以以太为底，按同一个模子压下去。或许是试探，或许是起手，或许只是有人在市井睡去时，把两纸契约搁在了 V4 这块地方。可一个时辰之内、零抽成、一只手，连落两子——这就不是随手了。这是有人心里早就知道下一局怎么走，牌还没发，牌面已经摊在桌上。"
+   },
+   "take": {
+    "en": "The same hand built two identical pools an hour apart, and identical hands don't guess — they rehearse. The cards are on the table before the deck is even cut.",
+    "zh": "同一只手在同一个时辰里落下两枚一模一样的子，一模一样便不是随手——是演练。牌未发，牌面已摊在桌上。"
+   }
+  },
+  {
    "date": "2026-10-28",
    "narrative": {
     "en": "The night opens on the same hook contract again, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, surfacing like a card shuffled one time too many. Five pools, every one of them carrying a zero fee, every one on the same step of sixty, and in each case the chair across the felt is the native coin — with a different second token sitting down each time. Somebody is dealing one card per block and watching which one lands face up.\n\nThen there is the other hand. 0x322dcec4958c14e021a9f1cd49df11b9457968cc prefers a wider step, two hundred, and runs four pools, two of which are not native at all — token against token, no ether at the base. The fee is zero here too. Which means this table was never built to rake chips; it was built for something else. Volume, perhaps. Perhaps the shape of an order someone wants to move without being seen moving it.\n\nFarther down the room sit two pools charging ten thousand, and those are not seats for tourists. 0x948916f1… and 0xbdef42b3… — both paired with the native coin, both on the step of two hundred, yet each behind a different hook, 0x02a319b… and 0xda9993…. Someone is buying distance, not action.\n\nThe real tell is density. Ten pools standing up inside thirteen blocks is not improvisation, it is a volley. A deck was prepared in advance and simply dealt onto the table. The question was never what these tokens are. The question is who holds the hooks — one contract running five pools, another running four. Those are not strangers who happened to sit down at the same time. The night on Ethereum was quiet, apart from the riffling.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Nothing was traded tonight worth trading — this was a deck being built face-down, thirteen cards at a time, by hands that don't want to be recognized yet. The only honest position is the chair, and the only honest play is to keep watching.",
     "zh": "今夜无战事可言，不过是有人背对着众人排兵布阵，十三池一次，手法尚未露形。此时最稳的一步，是按住不动，看清是谁在发牌。"
-   }
-  },
-  {
-   "date": "2026-10-13",
-   "narrative": {
-    "en": "The cards came off the sleeve all at once. Sixteen pools in a single evening, and nearly every one dealt by the same hand — that hook contract, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. One dealer, one deck after another, no hesitation between cuts.\n\nI look at the blocks and the gaps are minutes, sometimes seconds. The same block twice in a row, only the tokens change — first a5922c65fe, then 27ce7732ff. Somebody was working the machine without pausing for breath. WETH sits in every other deal, the joker that never leaves the table, the fixed partner for whatever new token walks in. The fee is set to nothing, the spacing locked at two hundred. The stakes were written before the first hand was played.\n\nOne pool refuses the pattern: the dead address, token 6e498018fc, and a different hook entirely — b8d9477eb6. That is not a mistake. That is a deliberate play. A test hand, perhaps, or a man deciding he will not wear the house suit.\n\nEvery one of these pools is a bare structure. No liquidity, no noise, nothing but the shape of a table waiting for players. Just initialized and standing there. But whoever laid them out knows the game. Sixteen deals in one night is not chaos. That is a strategy. Someone is stacking the deck, shuffling it, and waiting for the moment to throw the trump.\n\nSilence on the wire. But the cards are already on the felt.",
-    "zh": "一夜之间，十六座新门户拔地而起，几乎出自同一只手——同一个 hook 合约 0x322dcec4958c14e021a9f1cd49df11b9457968cc。同一位掌门，立完一山又立一山，中间连换气的功夫都省了。\n\n我看区块之间的间隔，不过数分钟，有时只隔数息。同一个区块连着出现两次，变的只是令牌：先是 a5922c65fe，再是 27ce7732ff。这是熟练的手法，不是初出茅庐的试探。WETH 隔一座便现身一次，像江湖里那位从不缺席的中间人，新来的令牌总要拉上它作保。入门之费为零，间距定死二百。规矩在开局之前就写好了。\n\n唯有一座门户不入此列：空无一物的旧地址，令牌 6e498018fc，用的又是另一套 hook —— b8d9477eb6。这不是失手，是有意为之。或许是试招，或许是有人不肯穿同一件门派衣裳。\n\n这些门户，眼下都是空架子。内劲未注，人气未聚，只是立在那里。但布下这一局的人，显然懂行。一夜十六局，不是乱走，是布阵。有人在攒牌，在洗牌，等一个出手的时辰。\n\n江湖无声，牌已在桌上。"
-   },
-   "take": {
-    "en": "Sixteen pools, one hand, zero liquidity — this is not a market yet, it is a deck being stacked in plain sight, and the only question worth asking is who is meant to sit down.",
-    "zh": "十六座门户，一只手掌，内力全无——这还不是市场，是有人在明处攒一副牌；真正要紧的，是谁会被请上桌。"
    }
   }
  ]

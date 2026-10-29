@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 30,
+  "hit": 29,
   "miss": 14,
-  "open": 6,
-  "hit_rate": 0.682
+  "open": 7,
+  "hit_rate": 0.674
  },
  "items": [
+  {
+   "id": 110,
+   "made_at": "2026-10-29",
+   "text": "Same hand, same shape, and a hand that repeats itself rarely stops at two — over the next 7 days the count clears 9. The likely landing sits between 5 and 34, and I give the over about 55%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-05",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 109,
    "made_at": "2026-10-27",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-08-27",
    "status": "hit",
    "resolution_note": "Confirmed: target +68 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 60,
-   "made_at": "2026-08-19",
-   "text": "Over the next seven days, the tally of these newly dealt pools clears 11; the likely landing sits between 6 and 18, and I give the over about 49%. More pools are appearing with steps too fine for the naked eye—granularity below ten—a tool for placing liquidity with surgical precision.",
-   "horizon_days": 7,
-   "resolve_after": "2026-08-26",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +11 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   }
  ]
