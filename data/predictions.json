@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 14,
-  "open": 7,
-  "hit_rate": 0.674
+  "miss": 15,
+  "open": 6,
+  "hit_rate": 0.659
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "One hook contract is dealing pools in rapid succession, far above the pace of typical deployers. Over the next 7 days the count clears 2225; the likely landing sits between 870 and 12195, and I give the over about 59%.",
    "horizon_days": 7,
    "resolve_after": "2026-10-29",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +2225 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
