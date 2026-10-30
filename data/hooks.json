@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T15:13:32Z",
+ "generated_at": "2026-10-30T16:13:28Z",
  "total_hooks": 7856,
- "total_pools": 28319,
+ "total_pools": 28330,
  "multi_pool_hooks": 642,
  "shown": 642,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5643,
+   "pool_count": 5652,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26305772,
-   "last_deploy": "2026-10-30T14:00:02Z",
+   "last_block": 26306607,
+   "last_deploy": "2026-10-30T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 702,
+   "pool_count": 703,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26304865,
-   "last_deploy": "2026-10-30T12:00:02Z",
+   "last_block": 26306160,
+   "last_deploy": "2026-10-30T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -7215,6 +7215,27 @@
    "visible": false
   },
   {
+   "address": "0x89ea496c2d7a8834b85249984dc0279eddaea080",
+   "address_short": "0x89ea…a080",
+   "name": "ChangingFeeHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x89ea496c2d7a8834b85249984dc0279eddaea080",
+   "pool_count": 4,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap"
+   ],
+   "first_block": 26245129,
+   "last_block": 26306321,
+   "last_deploy": "2026-10-30T16:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x8db0839238dccdf31eb3adabba16c204ef5620cc",
    "address_short": "0x8db0…20cc",
    "name": "HawthornHook",
@@ -8526,27 +8547,6 @@
    "first_block": 26047028,
    "last_block": 26048944,
    "last_deploy": "2026-09-24T18:00:02Z",
-   "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x89ea496c2d7a8834b85249984dc0279eddaea080",
-   "address_short": "0x89ea…a080",
-   "name": "ChangingFeeHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x89ea496c2d7a8834b85249984dc0279eddaea080",
-   "pool_count": 3,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap"
-   ],
-   "first_block": 26245129,
-   "last_block": 26252470,
-   "last_deploy": "2026-10-23T04:00:02Z",
    "active": false,
    "visible": false
   },
