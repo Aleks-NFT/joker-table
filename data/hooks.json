@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T21:13:32Z",
- "total_hooks": 7862,
- "total_pools": 28353,
+ "generated_at": "2026-10-30T22:13:33Z",
+ "total_hooks": 7868,
+ "total_pools": 28362,
  "multi_pool_hooks": 642,
  "shown": 642,
  "more_count": 0,
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 706,
+   "pool_count": 707,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26307548,
-   "last_deploy": "2026-10-30T20:00:02Z",
+   "last_block": 26308048,
+   "last_deploy": "2026-10-30T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -208,7 +208,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 350,
+   "pool_count": 351,
    "permissions_human": [
     "sets up pools"
    ],
@@ -216,8 +216,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26307259,
-   "last_deploy": "2026-10-30T20:00:02Z",
+   "last_block": 26307932,
+   "last_deploy": "2026-10-30T22:00:02Z",
    "active": true,
    "visible": true
   },
@@ -390,7 +390,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 225,
+   "pool_count": 226,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -404,8 +404,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26300269,
-   "last_deploy": "2026-10-29T20:00:03Z",
+   "last_block": 26308314,
+   "last_deploy": "2026-10-30T22:00:02Z",
    "active": true,
    "visible": false
   },
