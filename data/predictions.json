@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 14,
-  "open": 7,
-  "hit_rate": 0.674
+  "miss": 15,
+  "open": 6,
+  "hit_rate": 0.659
  },
  "items": [
   {
@@ -74,8 +74,8 @@
    "text": "I will call it plain: over the next 7 days the count clears 28 — the likely landing sits between 18 and 76, and I give the over about 64%. Watch the shape rather than the total: more pools are appearing with very small tick spacing, below 10, and that is a tool for placing liquidity in fine, concentrated slices rather than scattering it across the whole felt.",
    "horizon_days": 7,
    "resolve_after": "2026-10-31",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +28 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   },
   {
