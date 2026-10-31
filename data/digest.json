@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-10-31",
+   "narrative": {
+    "en": "Eight fresh V4 hook pools hit the felt in a single day, and the eye goes straight to the pattern rather than the noise. Six of them are running the same hook contract — 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc — with identical settings across the board and a different token underneath each one. Almost every pair sits against WETH. That is not a coincidence; that is a hand shuffling from a stacked deck, one system, one operator, a web of pools spun outward from a single algorithm.\n\nThe other two play a different game: zero fee, a different hook — 0x322dcec4958c14e021a9f1cd49df11b9457968cc — and one of them paired against native ETH itself. Zero fee on a hooked V4 pool means the money isn't being made at the swap window, and the house never works for free. Something else is being monetised — an oracle feed, an LP incentive design, a rebalancing strategy. The fee is the tell, or rather the absence of it.\n\nAnd the date is the thirty-first of October. Halloween. Don't read too much into it, but in this casino the calendar rarely deals at random — someone chose the day. We don't yet know whose hand is on these hooks. But eight new pools, one structure, split cleanly into two families by contract, is not debris on the floor. It is somebody's plan, and it has only just begun to unfold.",
+    "zh": "江湖一夜之间多了八处新开的门户，全立在 V4 的hook之上。其中六处用的是同一套心法——0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc，规矩一模一样，门下的弟子却各不相同，且几乎都以 WETH 为伴。这不是巧合，是同一只手在落子：一个侠客以一套算法为根，向外织网，一处处接引 liquidity 如引内力入脉。\n\n另有两处走的是另一条路：零费，另一套 hook——0x322dcec4958c14e021a9f1cd49df11b9457968cc，其中一处直接以原生 ETH 为对。开池不收过路钱，说明这门派的香火不烧在换手处；江湖上没有白给的内力。或是指路之眼，或是引 LP 之法，或是再平衡之术——费率为零本身，就是话里有话。\n\n再看日子：十月三十一日，万圣。不必多想，但江湖里的日子少有随手的，总有人特意挑了这一天。眼下还看不清这几个 hook 背后是谁的门派，可八处新池、一套结构、按契约清清楚楚分作两路——这不是地上的碎屑，是有人布的局，棋子才刚落下第一枚。"
+   },
+   "take": {
+    "en": "Eight new hooked pools, one repeated contract, two distinct families, and a date chosen on purpose — someone is building infrastructure, and the game has only just been dealt.",
+    "zh": "八处新池、一套重复的心法、两路分明，再加上一个被刻意挑中的日子——有人在内功层面筑基，棋局才刚开。"
+   }
+  },
+  {
    "date": "2026-10-30",
    "narrative": {
     "en": "Two blocks apart, two holes in the ledger, and the felt is still warm. At 26302194 the table is set with WETH and a small token answering to 0x228af — zero fee, tick spacing sixty, hooks nailed to 0x15e5e. One block earlier, 26301930, the same shape with a different hand: WETH and 0xa12cc, a ten-thousand fee, a two-hundred-tick spread, hooks at 0x444085. Two pools in two minutes. Both with the thin token as the base. Both carrying custom logic on the hooks. Somebody is not shuffling. Somebody is dealing.\n\nUnderstand what a zero fee actually is. It is honey poured on the felt — the arbitrageurs come first, then the ants, and the liquidity provider is the one holding the sieve. A high fee is the opposite: a velvet rope, a filter that keeps the small money outside and lets the heavy money lean on the rail. Neither is a virtue. Both are settings. But the hooks — the hooks are the joker slipped into the deck. They can rewrite the rules of the deal while the deal is running. Restrict who enters, change how a swap behaves, reverse liquidity out from under the people who thought they were providing it.\n\nLook at the hook addresses. Both fresh. No history, no scars, no record of anything. Nobody at this table knows what those contracts do, and that is the part that should keep you awake. When V4 was announced the word everyone used was flexibility. Flexibility is a dark room now — and nobody has found the switch. Two pools, the same zero underneath, different settings on top. One architect or two? If one, he is gathering data. If two, the race has already started and nobody fired a gun. Either way, tomorrow morning someone wakes up to find his liquidity re-coded by a hook he never met.\n\nThe deal is in motion. Cards are on the felt. I am watching.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "When more than half the new tables charge no rake, the money is not gone — it has simply moved to whoever owns the hook, and that is the only seat worth watching.",
     "zh": "半数新池不收抽成，钱并未消失，只是从池面转到了握 hook 的那只手上——这一手，才是真正该看的位置。"
-   }
-  },
-  {
-   "date": "2026-10-17",
-   "narrative": {
-    "en": "The felt was already warm when the night cut its first deal, and by the time the blocks stopped moving, seven fresh pools lay face-up on the table — not scattered, stacked. One address keeps coming back to the window: 0x322dcec4958c14e021a9f1cd49df11b9457968cc, four times over, the same hook machinery bolted onto different pairs. Ether against a counterparty that declines to give its name. No cut taken at the door, and the stride set wide at two hundred — not an accident, a system. Somebody is laying out a grid in which the house collects nothing and the space between bets is generous enough for manoeuvre, for arbitrage, for something that hasn't yet shown its face above the water.\n\nThe rest of the table is stranger. Pools opened against a zero token — ether paired with addresses that are junk, or nothing at all. Nothing taken at the door there either, and the stride narrow, ten or sixty. Two hook contracts sit in those seats, 0xbbc86e372b758064645e1a4ce958db81e07b68ec and 0x0acca8ed08d2e45e3edb195bddcb0877b21520cc, and no one at the table will say whose they are. They are already playing anyway.\n\nGitHub is not silent either. In the repo launch-1811-build-technical-foundation-hooks a commit arrives signed by IdentityMD Worker — not a man, a process, a hash for a name: ba1d5cc3-e7ed-4fb6-bdcf-87289ff0b534. And PR #11 from surfer77, titled plainly: 'Targeted patch, not a rebuild.' That is the tell. They know exactly which load-bearing wall they are touching, and they have no intention of bringing the house down to fix a door.\n\nNone of this is a night of random transactions. It is construction, and it is being done in the open because it does not need to hide. Blocks, hashes, hooks — the shape of a new suit is being cut on the table, and the suit has not been named yet. It has already been dealt.",
-    "zh": "夜半时分，江湖上忽然多出七处新池。不是零星散落，是有人一口气布下的局。同一个地址 0x322dcec4958c14e021a9f1cd49df11b9457968cc 在眼前晃了四次，同一套机关，配的却是不同的对手：以太对上一个不肯报名的门派，抽成归零，步子放宽到两百。这不是随手落子，是有人在地上画格。不取分文，却把间距留得极宽——那是给腾挪留的地，给套利留的地，给那些还沉在水面之下的东西留的地。\n\n其余几处更叫人看不透。池子对面是个空号，以太配着无名废址，同样分文不取，步子却收得极窄，十步，或六十步。两道机关坐在那里：0xbbc86e372b758064645e1a4ce958db81e07b68ec 与 0x0acca8ed08d2e45e3edb195bddcb0877b21520cc，无人识得其主，可它们已经入席了。\n\n山门那边也没闲着。launch-1811-build-technical-foundation-hooks 之中落下一笔，署名 IdentityMD Worker——不是人，是流程，一串 hash 便是它的名号：ba1d5cc3-e7ed-4fb6-bdcf-87289ff0b534。又有 PR #11，出自 surfer77，题名只一句：'Targeted patch, not a rebuild.' 点穴，而非重铸筋骨。他们清楚哪一根梁承重，也清楚不必为了修一扇门而拆掉整座屋。\n\n这一夜的招式都不散乱，是在搭台。新的一门尚未挂匾，内力却已先一步入了场。"
-   },
-   "take": {
-    "en": "Seven pools, one hook contract repeated four times, two hooks nobody will claim, and a patch instead of a rebuild: this is not noise on the felt, it is a foundation being poured.",
-    "zh": "同一机关四次落子，两处无主之池开户，山门里点穴而不重铸——今夜值得看的从来不是池子，而是有人正在悄悄立派。"
    }
   }
  ]

@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 15,
-  "open": 6,
-  "hit_rate": 0.659
+  "miss": 14,
+  "open": 7,
+  "hit_rate": 0.674
  },
  "items": [
+  {
+   "id": 112,
+   "made_at": "2026-10-31",
+   "text": "Over the next seven days the count clears 139; the likely landing sits between 86 and 206, and I give the over about 73%. What's behind it is behaviour, not paperwork: builders are dealing pools where the hook contract itself resets the swap fee in real time instead of leaving a fixed, preset rate at the door — the clearest tell that these mechanisms are economic primitives now, not decoration.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-07",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 111,
    "made_at": "2026-10-30",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-04",
    "status": "miss",
    "resolution_note": "Confirmed: target +75 on metric dyn_fee_pools not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 62,
-   "made_at": "2026-08-27",
-   "text": "Over the next seven days the count clears 49; the likely landing sits between 14 and 148, and I give the over about 60%. One hook contract is laying down new tables one after another, far faster than any typical player moves.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-03",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +49 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]
