@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T17:13:33Z",
- "total_hooks": 7880,
- "total_pools": 28466,
- "multi_pool_hooks": 642,
- "shown": 642,
+ "generated_at": "2026-10-31T18:13:33Z",
+ "total_hooks": 7886,
+ "total_pools": 28485,
+ "multi_pool_hooks": 643,
+ "shown": 643,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5703,
+   "pool_count": 5713,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26313721,
-   "last_deploy": "2026-10-31T16:00:03Z",
+   "last_block": 26314293,
+   "last_deploy": "2026-10-31T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -208,7 +208,7 @@
    "name": "PoolInitializationGuard",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
-   "pool_count": 351,
+   "pool_count": 352,
    "permissions_human": [
     "sets up pools"
    ],
@@ -216,8 +216,8 @@
     "beforeInitialize"
    ],
    "first_block": 26129224,
-   "last_block": 26307932,
-   "last_deploy": "2026-10-30T22:00:02Z",
+   "last_block": 26314104,
+   "last_deploy": "2026-10-31T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1490,6 +1490,32 @@
    "visible": false
   },
   {
+   "address": "0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
+   "address_short": "0x05e1…2544",
+   "name": "ERC20THook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
+   "pool_count": 26,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterAddLiquidity",
+    "afterRemoveLiquidity",
+    "afterSwap",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26228317,
+   "last_block": 26313946,
+   "last_deploy": "2026-10-31T18:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x834deb445d44244ad1268f0149c7dfbbf9d5e0c0",
    "address_short": "0x834d…e0c0",
    "name": "FusingFeeHook",
@@ -1509,32 +1535,6 @@
    "last_block": 26080754,
    "last_deploy": "2026-09-29T06:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
-   "address_short": "0x05e1…2544",
-   "name": "ERC20THook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
-   "pool_count": 25,
-   "permissions_human": [
-    "sets up pools",
-    "manages liquidity",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "afterAddLiquidity",
-    "afterRemoveLiquidity",
-    "afterSwap",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26228317,
-   "last_block": 26309859,
-   "last_deploy": "2026-10-31T04:00:02Z",
-   "active": true,
    "visible": false
   },
   {
@@ -14174,6 +14174,31 @@
    "last_block": 25708579,
    "last_deploy": "2026-08-08T08:00:03Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xd7b877cc835a4476adfb71383154eb092793e0cc",
+   "address_short": "0xd7b8…e0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xd7b877cc835a4476adfb71383154eb092793e0cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26314150,
+   "last_block": 26314200,
+   "last_deploy": "2026-10-31T18:00:02Z",
+   "active": true,
    "visible": false
   },
   {
