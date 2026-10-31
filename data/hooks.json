@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T05:13:31Z",
- "total_hooks": 7868,
- "total_pools": 28396,
+ "generated_at": "2026-10-31T06:13:30Z",
+ "total_hooks": 7869,
+ "total_pools": 28403,
  "multi_pool_hooks": 642,
  "shown": 642,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5678,
+   "pool_count": 5681,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26310056,
-   "last_deploy": "2026-10-31T04:00:02Z",
+   "last_block": 26310424,
+   "last_deploy": "2026-10-31T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 848,
+   "pool_count": 849,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26309695,
-   "last_deploy": "2026-10-31T04:00:02Z",
+   "last_block": 26310679,
+   "last_deploy": "2026-10-31T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 709,
+   "pool_count": 710,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26309799,
-   "last_deploy": "2026-10-31T04:00:02Z",
+   "last_block": 26310450,
+   "last_deploy": "2026-10-31T06:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1657,6 +1657,31 @@
    "visible": false
   },
   {
+   "address": "0xe86e44a89f547946b622b9607d55a3912cec20cc",
+   "address_short": "0xe86e…20cc",
+   "name": "EtherealFactory",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0xe86e44a89f547946b622b9607d55a3912cec20cc",
+   "pool_count": 23,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26276619,
+   "last_block": 26310388,
+   "last_deploy": "2026-10-31T06:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x2cc18ffd4d21d457ab493e8223f140aa84080fc0",
    "address_short": "0x2cc1…0fc0",
    "name": "",
@@ -1679,31 +1704,6 @@
    "last_block": 25626452,
    "last_deploy": "2026-07-27T22:00:02Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0xe86e44a89f547946b622b9607d55a3912cec20cc",
-   "address_short": "0xe86e…20cc",
-   "name": "EtherealFactory",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0xe86e44a89f547946b622b9607d55a3912cec20cc",
-   "pool_count": 22,
-   "permissions_human": [
-    "sets up pools",
-    "intercepts swaps",
-    "adjusts swap amounts"
-   ],
-   "permissions_technical": [
-    "beforeInitialize",
-    "beforeSwap",
-    "afterSwap",
-    "beforeSwapReturnDelta",
-    "afterSwapReturnDelta"
-   ],
-   "first_block": 26276619,
-   "last_block": 26298513,
-   "last_deploy": "2026-10-29T14:00:02Z",
-   "active": true,
    "visible": false
   },
   {
