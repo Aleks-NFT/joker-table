@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T04:13:31Z",
+ "generated_at": "2026-11-01T05:13:31Z",
  "total_hooks": 7910,
  "total_pools": 28558,
  "multi_pool_hooks": 645,
@@ -7636,8 +7636,8 @@
   {
    "address": "0xda9993623e1ec76ec433e59003d7a42895c6a8c4",
    "address_short": "0xda99…a8c4",
-   "name": "",
-   "verified": false,
+   "name": "TransparentUpgradeableProxy",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xda9993623e1ec76ec433e59003d7a42895c6a8c4",
    "pool_count": 4,
    "permissions_human": [
@@ -10818,8 +10818,8 @@
   {
    "address": "0x54bedd41afdf57722518cf6dd826a70d81e9a5dc",
    "address_short": "0x54be…a5dc",
-   "name": "",
-   "verified": false,
+   "name": "PositionManager",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x54bedd41afdf57722518cf6dd826a70d81e9a5dc",
    "pool_count": 2,
    "permissions_human": [
@@ -14229,8 +14229,8 @@
   {
    "address": "0xd7b877cc835a4476adfb71383154eb092793e0cc",
    "address_short": "0xd7b8…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "OnBeatFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xd7b877cc835a4476adfb71383154eb092793e0cc",
    "pool_count": 2,
    "permissions_human": [
