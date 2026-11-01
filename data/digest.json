@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-01",
+   "narrative": {
+    "en": "The felt was still warm when the count came in — eleven pools in a matter of hours, and that is not activity, that is a dealer working a deck with intent. Three of them sit at zero fee with a sixty-step spacing, and all three route through the same hook contract, 0x3fe89e06db6ed230809c84fef8121b5b7474e0cc. Four times that address surfaces. Nobody stumbles onto the same door four times in an hour; somebody found a mechanism and is running it across different pairs to see which one gives.\n\nThe pool at block 26316431 is the tell — 0x0000... paired against 0xfbe91409d6c5e77bacccf86def1251ef6f7b6c30, a token from a known lineup, not scrap metal off the street. Zero fee, sixty-step spacing, same hook. So the play is not commission collection. Dynamic adjustments? Front-run filters? Or a test grid stretched over real liquidity to see where it tears. Then ETH against 0xafea1be69d058f86d4e1387d4a5b301c1c6e0cf1, zero fee again, but a different hook entirely — 0xff8a13b49b20cfe30df4af5ad313b6cbc881a0cc — a table cut for something specific, likely where every basis point is the whole game.\n\nETH against junk addresses is the oldest trick in the house and means nothing on its own. But 0x0000... / 0x75a3646cb756188bfc9005d82a46abf21d674509 arrives at a hundred with a one-step spacing, and beside it the identical pair at ten thousand with the same one-step spacing — different hooks, different logic. One table for the narrow spread, one for the wide. That is not a trader; that is a man measuring the edges of the table with his thumb.\n\nEvery one of them was dealt inside the same hour. Not scattered acts — a series, stamped one after another like cards out of a fresh deck. The question was never whether this is a test. The question is what, precisely, they are looking at now.",
+    "zh": "天还没亮，江湖上就多了十一处新开的场子。这不是寻常的热闹，而是有人成心在发牌。其中三处，不收过路钱，步子迈得极细，且都供着同一尊神——同一个挂钩法门，四个时辰内现身四回。没有人会一小时内四次误入同一扇门；这是有人摸到了一门功法，正拿不同的对手试它的深浅。\n\n最耐人寻味的是那一处：0x0000... 对着 0xfbe91409d6c5e77bacccf86def1251ef6f7b6c30。这枚令牌不是路边捡的废铁，出自名门正派。可它依旧不收过路钱，步子依旧极细，法门依旧是那一尊。可见此局所图，不在抽成。是随势调息？是专防暗箭？还是有人把一张网铺在真金白银上，先看它哪里先破。另有一处以太坊对着 0xafea1be69d058f86d4e1387d4a5b301c1c6e0cf1，同样分文不取，却换了另一门法门——0xff8a13b49b20cfe30df4af5ad313b6cbc881a0cc——这是为某种极窄的路数专门开的场，一步之差便是生死。\n\n以太坊配无名小卒，本是江湖里最烂的招数，不值一看。可 0x0000... 与 0x75a3646cb756188bfc9005d82a46abf21d674509 这一对，过路钱取一百，步幅只给一步；旁边同样一对，过路钱取一万，步幅还是那一步。法门不同，心法亦不同。一处为窄处发力，一处为宽处留手。这不是在行商，这是在用拇指丈量桌沿，试这块台面究竟能承多重。\n\n更要紧的是——这十一处，全在同一个时辰之内落成。不是零散的举动，是一串。有人坐在那里，一张一张地发，如同拆一副新牌。这局是不是试探，从来不是问题。问题是：他们此刻，究竟在看向何处。"
+   },
+   "take": {
+    "en": "Eleven pools inside an hour, one hook address surfacing four times — this is a mechanic being auditioned across pairs, not liquidity being deployed. Watch the repeats, not the noise.",
+    "zh": "一个时辰，十一处场子，同一门法门四度现身——这不是内力外放，这是在试功法。看重复的那几处，别听人声喧哗。"
+   }
+  },
+  {
    "date": "2026-10-31",
    "narrative": {
     "en": "Eight fresh V4 hook pools hit the felt in a single day, and the eye goes straight to the pattern rather than the noise. Six of them are running the same hook contract — 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc — with identical settings across the board and a different token underneath each one. Almost every pair sits against WETH. That is not a coincidence; that is a hand shuffling from a stacked deck, one system, one operator, a web of pools spun outward from a single algorithm.\n\nThe other two play a different game: zero fee, a different hook — 0x322dcec4958c14e021a9f1cd49df11b9457968cc — and one of them paired against native ETH itself. Zero fee on a hooked V4 pool means the money isn't being made at the swap window, and the house never works for free. Something else is being monetised — an oracle feed, an LP incentive design, a rebalancing strategy. The fee is the tell, or rather the absence of it.\n\nAnd the date is the thirty-first of October. Halloween. Don't read too much into it, but in this casino the calendar rarely deals at random — someone chose the day. We don't yet know whose hand is on these hooks. But eight new pools, one structure, split cleanly into two families by contract, is not debris on the floor. It is somebody's plan, and it has only just begun to unfold.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Fourteen pools in a few hours is not accumulation, it is calibration — and calibration always comes before the hand that actually matters.",
     "zh": "十四口池子不是积蓄，是校准；而校准，永远发生在真正那一手之前。"
-   }
-  },
-  {
-   "date": "2026-10-18",
-   "narrative": {
-    "en": "The night of October 18 dealt fourteen new tables on Uniswap V4, all opened inside a narrow window of a couple thousand blocks — and more than half of them posted no rake at all. That is not a coincidence, that is a pattern. The hook contracts have taken the fee into their own hands, which means the standard mechanism for paying liquidity is switched off at the felt. Something else is running the economics — dynamic, external, or simply elsewhere.\n\nTwo hooks stand out. 0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 sits behind three pools priced at 12500 — one hundred twenty-five hundredths of a percent — while 0x322dcec4958c14e021a9f1cd49df11b9457968cc holds two pools at zero. Same hand, clearly. A third active hook, 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc, carries three zero-fee pools, every one of them pairing WETH against tokens that do not announce themselves.\n\nAnd here is the tell: a zero-fee pool is not built for arbitrage. It is built for capturing order flow outright, or for trading that prefers to stay out of sight while the yield is swept up into the hook's own contract. Where the pool charges nothing, the profit moves to the layer of execution — and whoever holds the hook holds the game. A handful of pools pair ETH with tokens that appear on no public listing — 0x845eaf..., 0x07faa4..., 0xc5055b... — the shape of test distributions or private placements. Someone is laying the table before the announcement. First the pool, then the noise.\n\nFourteen tables dressed, chips placed, dealers at their stations. Now we wait to see who sits down.",
-    "zh": "十月十八这一夜，Uniswap V4 上又开出十四张新桌，前后不过数千个区块的功夫。怪的是，半数以上的桌子不收抽成。这不是偶然，是路数。hook 合约把费率之权收归己手，池子层面那道抽水的机关便等于废了——真正的账，另有一处算。\n\n其中两个 hook 最惹眼：0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000 掌着三池，费率一百二十五百分之一；0x322dcec4958c14e021a9f1cd49df11b9457968cc 掌着两池，分文不取。出手的显然是同一个人。另有一路 hook——0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc——三池皆零费，且都以 WETH 对着一批来历不明的token。\n\n江湖上都懂：零费之池，不为套利而设。要么是抢单流，要么是暗中过手，把内力尽数导进 hook 自家的经脉里。池面不收，收益便全落在执行那一层——谁握着 hook，谁就握着这局棋的手筋。另有一二池，以 ETH 配着从未见于公开名册的 token——0x845eaf...、0x07faa4...、0xc5055b...——像是试招，也像是私下分派。有人先立山门，再放风声；先有池，后有喧嚣，历来如此。\n\n十四张桌已摆好，灯也点上，庄家各就各位。剩下的，只看谁先落座。"
-   },
-   "take": {
-    "en": "When more than half the new tables charge no rake, the money is not gone — it has simply moved to whoever owns the hook, and that is the only seat worth watching.",
-    "zh": "半数新池不收抽成，钱并未消失，只是从池面转到了握 hook 的那只手上——这一手，才是真正该看的位置。"
    }
   }
  ]
