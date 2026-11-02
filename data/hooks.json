@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T13:13:17Z",
- "total_hooks": 7939,
- "total_pools": 28706,
+ "generated_at": "2026-11-02T14:13:32Z",
+ "total_hooks": 7942,
+ "total_pools": 28718,
  "multi_pool_hooks": 645,
  "shown": 645,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5768,
+   "pool_count": 5770,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26326862,
-   "last_deploy": "2026-11-02T12:00:02Z",
+   "last_block": 26327550,
+   "last_deploy": "2026-11-02T14:00:03Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 900,
+   "pool_count": 905,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26326187,
-   "last_deploy": "2026-11-02T10:00:02Z",
+   "last_block": 26327469,
+   "last_deploy": "2026-11-02T14:00:03Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 722,
+   "pool_count": 724,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26323286,
-   "last_deploy": "2026-11-02T00:00:02Z",
+   "last_block": 26327379,
+   "last_deploy": "2026-11-02T14:00:03Z",
    "active": true,
    "visible": true
   },
