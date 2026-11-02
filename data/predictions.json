@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 29,
+  "hit": 28,
   "miss": 15,
-  "open": 6,
-  "hit_rate": 0.659
+  "open": 7,
+  "hit_rate": 0.651
  },
  "items": [
+  {
+   "id": 114,
+   "made_at": "2026-11-02",
+   "text": "Over the next 7 days the count clears 22; the likely landing sits between 15 and 50, and I give the over about 62%. The tell is in the behaviour, not the jargon: more pools are being dealt with a very fine step, and that kind of narrow slicing only pays when a man intends to place chips with a scalpel.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-09",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 113,
    "made_at": "2026-11-01",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-06",
    "status": "miss",
    "resolution_note": "Confirmed: target +124 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 64,
-   "made_at": "2026-08-29",
-   "text": "Over the next seven days, the count clears 11. The likely landing sits between 7 and 35, and I give the over about 54% — because more pools are sliding in with razor-thin spacing below 10, the kind of fine-grained tooling for those who want to place liquidity with surgical precision.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-05",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +11 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   }
  ]

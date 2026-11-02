@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-02",
+   "narrative": {
+    "en": "Six fresh deals came off the Uniswap deck before the night was through, and not one of them was a careless shuffle. Two of them sat down wearing the same hook — 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc — same house cut at 8388608, same step of 200; one straddling 0x818a5ce... against WETH, the other 0x64ef573... against WETH, laid at 26323569 and 26323399. Same contract, same logic, two different tokens on the same WETH base. That is not a coincidence; that is a man testing one strategy on two seats of the table.\n\nThen the odd card. A single pool with a 12500 cut and a step of 60, pairing 0x2e0e395... with 0xd34a99bc..., under a hook I had not seen before — 0x784ff9a.... Everything else in the shuffle stood at 0 or 8388608; this one broke ranks. A step that narrow does not whisper mainstream — it whispers chips placed in a very small square, with a very steady hand.\n\nAnd the free seats: WETH against 0xf376875... at 26323899, native ETH against 0xf946cba... at 26323933, the freshest of the lot, plus a USDC pairing with 0xca14007... that still carried a live cut at 8388608. Zero fee is never charity; it is advertising, or a down payment on something larger. Every one of the six landed inside a five-block window, 26323399 through 26323933. That is no sprint — that is a man with a multicall and a plan, dealing from the top of the deck in one motion.",
+    "zh": "夜里，Uniswap 的牌桌上又摆开六副新局，落子之间看不出半分随意。其中两副出自同一位出手人——0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc，抽成同为 8388608，步幅同为 200；一副以 0x818a5ce… 对 WETH，一副以 0x64ef573… 对 WETH，分别落在 26323569 与 26323399。同一份心法，两件兵器，同一个 WETH 作根基——这不是巧合，是有人拿两处山头试同一套招式。\n\n另有一副格外扎眼：抽成 12500，步幅 60，0x2e0e395… 对 0xd34a99bc…，背后是一张新面孔 0x784ff9a…。其余诸局不是 0 便是 8388608，唯独它另立门户。步幅收得这样窄，多半不为热闹，而是要把内力压在极小的方圆里，走的是精细路数。\n\n再看那几处不抽成的场子：WETH 对 0xf376875…（26323899），原生 ETH 对 0xf946cba…（26323933，最新的一手），以及 USDC 对 0xca14007…，抽成 8388608。免抽成从来不是白送的善缘，要么为扬名，要么是为后面的大事铺路。六副局在五个区块之内接连落定，自 26323399 至 26323933——这不是随手应付，是握着多笔合一的法门，一气呵成。"
+   },
+   "take": {
+    "en": "Six pools, one short window, one hand on the deck — that was a coordinated deal, not six accidents; the hooks are quiet now, and quiet is exactly where the house keeps its tell.",
+    "zh": "六局落于一个短窗之内，一手成局——这不是六次偶遇，是一场有章法的排布；钩子此刻沉默，而江湖里最要紧的话，往往就藏在沉默里。"
+   }
+  },
+  {
    "date": "2026-11-01",
    "narrative": {
     "en": "The felt was still warm when the count came in — eleven pools in a matter of hours, and that is not activity, that is a dealer working a deck with intent. Three of them sit at zero fee with a sixty-step spacing, and all three route through the same hook contract, 0x3fe89e06db6ed230809c84fef8121b5b7474e0cc. Four times that address surfaces. Nobody stumbles onto the same door four times in an hour; somebody found a mechanism and is running it across different pairs to see which one gives.\n\nThe pool at block 26316431 is the tell — 0x0000... paired against 0xfbe91409d6c5e77bacccf86def1251ef6f7b6c30, a token from a known lineup, not scrap metal off the street. Zero fee, sixty-step spacing, same hook. So the play is not commission collection. Dynamic adjustments? Front-run filters? Or a test grid stretched over real liquidity to see where it tears. Then ETH against 0xafea1be69d058f86d4e1387d4a5b301c1c6e0cf1, zero fee again, but a different hook entirely — 0xff8a13b49b20cfe30df4af5ad313b6cbc881a0cc — a table cut for something specific, likely where every basis point is the whole game.\n\nETH against junk addresses is the oldest trick in the house and means nothing on its own. But 0x0000... / 0x75a3646cb756188bfc9005d82a46abf21d674509 arrives at a hundred with a one-step spacing, and beside it the identical pair at ten thousand with the same one-step spacing — different hooks, different logic. One table for the narrow spread, one for the wide. That is not a trader; that is a man measuring the edges of the table with his thumb.\n\nEvery one of them was dealt inside the same hour. Not scattered acts — a series, stamped one after another like cards out of a fresh deck. The question was never whether this is a test. The question is what, precisely, they are looking at now.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The tell is not the empty pools; it is the hooks. Someone is rehearsing a new economic logic on V4, and the first real liquidity will reveal which hand was being dealt.",
     "zh": "空池只是记号，钩子才是落子的手。等内力一灌，谁在借 V4 试招，牌面自会说话。"
-   }
-  },
-  {
-   "date": "2026-10-19",
-   "narrative": {
-    "en": "The deck was dealt so fast last night that I stopped counting the individual cards. Fourteen new V4 pools inside a few hours is not a sprint — it is a heartbeat that has no intention of slowing down.\n\nSeven of them carry zero fee and a spacing of 200, spread across three different hook contracts — 0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc, 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc and 0xc3774a7456c4cfe8e44d780877c9771d6562e0cc. Three hooks, one template: ETH against the long tail. Somebody is testing how liquidity behaves in real time, and they are not being shy about it. Two more sit under a single hook, 0x322dcec4958c14e021a9f1cd49df11b9457968cc, and the interesting part is the shape of the thing: one binds an unknown token to WETH, the other pairs two tokens where neither is ETH. That is no longer a test. That is a grid being built.\n\nOff to the side, one pool registers a fee of 8388608 — not a typo, a dynamic fee wired to its hook, and 0xe4345ccdb948e57a8440016f2912170e9bcce080 is clearly prepared to play by its own rules. Meanwhile on GitHub a commit lands in launch-1811-build-technical-foundation-hooks, SHA 5033182, no description, no context, just \"updated README\". If you have been watching this table, you already know what lives inside commits like that: not words, but schematics.\n\nThe night itself was quiet. But quiet in crypto is only ever the pause before somebody reshuffles the deck.",
-    "zh": "昨夜发牌太快，快到我不再数单张的牌。几个时辰之内，十四口新的 V4 池子落地——这不是冲刺，是一颗不打算停下来的心跳。\n\n其中七口，零手续费，间距二百，分落在三份不同的钩子契约之下：0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc、0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc、0xc3774a7456c4cfe8e44d780877c9771d6562e0cc。三个钩子，一副模板：ETH 对长尾。有人正在实时试探内力的走向，且毫不遮掩。另有两口同出一门，0x322dcec4958c14e021a9f1cd49df11b9457968cc——形状更有意思：一口将无名之币系于 WETH，另一口两币皆非 ETH。这已不是试招，是在布阵。\n\n侧旁一口池子，费用记作 8388608。那不是笔误，是挂在钩子上的活费；而 0xe4345ccdb948e57a8440016f2912170e9bcce080 这一门，显然打算按自己的规矩行走江湖。GitHub 上亦有一笔提交，落在 launch-1811-build-technical-foundation-hooks，SHA 5033182，无说明，无上下文，只写着 \"updated README\"。若你一路看着这张桌面，便知此类提交里藏的多半不是字，是图谱。\n\n夜里很静。可江湖的静，从来只是有人要重新洗牌之前的停顿。"
-   },
-   "take": {
-    "en": "Fourteen pools in a few hours is not accumulation, it is calibration — and calibration always comes before the hand that actually matters.",
-    "zh": "十四口池子不是积蓄，是校准；而校准，永远发生在真正那一手之前。"
    }
   }
  ]
