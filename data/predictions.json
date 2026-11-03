@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 29,
-  "miss": 15,
-  "open": 6,
-  "hit_rate": 0.659
+  "miss": 14,
+  "open": 7,
+  "hit_rate": 0.674
  },
  "items": [
+  {
+   "id": 115,
+   "made_at": "2026-11-03",
+   "text": "Over the next 7 days the count clears 156; the likely landing sits between 103 and 238, and I give the over about 74%. The behaviour is the tell — builders are laying down pools where the contract itself sets the swap fee in real time rather than a flat posted rate, which is what this machinery looks like once it stops being decoration and starts being economics.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-10",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 114,
    "made_at": "2026-11-02",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-07",
    "status": "miss",
    "resolution_note": "Confirmed: target +75 on metric dyn_fee_pools not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 65,
-   "made_at": "2026-08-30",
-   "text": "Over the next 7 days the count clears 124, the likely landing sits between 36 and 377, and I give the over about 60% — a single hook contract is deploying pools in rapid succession, far above the pace of typical deployers.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-06",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +124 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]

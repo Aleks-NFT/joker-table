@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-03",
+   "narrative": {
+    "en": "The felt was already warm when the eighth pool landed. One contract — 0x322dcec4958c14e021a9f1cd49df11b9457968cc — dealt seven of them across a single evening on Uniswap V4, and every one ran the same house rules: the cut set to nothing, the same wide spacing between price marks, wrapped ether on one side of the table every single time. On the other side, strangers. 0xe54c3da9687de4071b10ab50565ce74415daae47. 0xb990d8290913f69f4b4788c0300f0a8c27347334. 0x2189c3fdba8fa997ba07de6f90d1279ad1759390. Names that had not burned through any wallet leaderboard before the night began, and not one of them introduced itself.\n\nThen the dealer changed hands. Two more pools, a different hook contract entirely — 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc — and this time no wrapper at all: the native coin, the zero address every soul in this room knows by heart, raw ether against 0xcc59e03f8728b24027f67657e30a5d026d93c1c6 and 0x34cf1dff8e2517da9f1fac3529dc59e1d8fa678d. Same zero on the house cut. Same spacing. Different machinery underneath, and machinery that behaves differently is machinery with opinions.\n\nEight pools in one night, two hook contracts, one of them repeating. No announcement, no public channel, no courtesy knock at the door. Whoever this is, they are not decorating a table — they are assembling a factory, and the machinery is the part that sets the price of admission in the middle of the hand rather than posting it on a sign out front. A zero fee is never charity. It is a statement about where the margin comes from, and it does not come from the swaps. Either a test run, or rehearsal for a game whose rake is taken somewhere else entirely.\n\nWatch your feet. When the deck is shuffled in the dark, not every card stays on the table.",
+    "zh": "一夜之间，江湖上多出八口池子。先是 0x322dcec4958c14e021a9f1cd49df11b9457968cc 这一份合约出手，在 Uniswap V4 的地界上一夜摆了七座擂台，规矩一模一样：分文不取，价码之间的间距宽得能容人侧身走过，一边永远是裹好的 WETH，另一边永远是生面孔——0xe54c3da9687de4071b10ab50565ce74415daae47、0xb990d8290913f69f4b4788c0300f0a8c27347334、0x2189c3fdba8fa997ba07de6f90d1279ad1759390。这些名号，昨夜之前不曾出现在任何钱包榜上，也无人递过拜帖。\n\n随后换了手法。两座新池，机关换成 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc，这回连裹都不裹了，直接以本币出场，对上 0xcc59e03f8728b24027f67657e30a5d026d93c1c6 与 0x34cf1dff8e2517da9f1fac3529dc59e1d8fa678d。过路钱仍是零，间距仍是那般宽，可机关换了，机关不同，行事的章法便不同。\n\n八口池，两副机关，其中一副用了又用。不吆喝，不登门，不在公开的门户里留一句话。此人不是在摆一桌酒席，是在起一间作坊：让机关在交手当中随行就市地定价，而不是把价钱刻在门楣上。内力不从过路费里取——那便是从别处取。或者是试手，或者是在为一场更大的局备料。\n\n夜里洗牌的时候，脚下的路要看清楚；不是所有牌，最后都会留在桌上。"
+   },
+   "take": {
+    "en": "Eight pools, two hook contracts, one evening, and not a cent charged at the door — someone is dealing new tokens against ETH in the dark, and a house that waives the seat is collecting somewhere else on the felt.",
+    "zh": "八口池、两副机关、一夜之间开齐，却分文不取过路钱——有人借着夜色把新代币与以太成对摆上台面，而不收费的地方，往往才是真正的局。"
+   }
+  },
+  {
    "date": "2026-11-02",
    "narrative": {
     "en": "Six fresh deals came off the Uniswap deck before the night was through, and not one of them was a careless shuffle. Two of them sat down wearing the same hook — 0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc — same house cut at 8388608, same step of 200; one straddling 0x818a5ce... against WETH, the other 0x64ef573... against WETH, laid at 26323569 and 26323399. Same contract, same logic, two different tokens on the same WETH base. That is not a coincidence; that is a man testing one strategy on two seats of the table.\n\nThen the odd card. A single pool with a 12500 cut and a step of 60, pairing 0x2e0e395... with 0xd34a99bc..., under a hook I had not seen before — 0x784ff9a.... Everything else in the shuffle stood at 0 or 8388608; this one broke ranks. A step that narrow does not whisper mainstream — it whispers chips placed in a very small square, with a very steady hand.\n\nAnd the free seats: WETH against 0xf376875... at 26323899, native ETH against 0xf946cba... at 26323933, the freshest of the lot, plus a USDC pairing with 0xca14007... that still carried a live cut at 8388608. Zero fee is never charity; it is advertising, or a down payment on something larger. Every one of the six landed inside a five-block window, 26323399 through 26323933. That is no sprint — that is a man with a multicall and a plan, dealing from the top of the deck in one motion.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Eight pools from one hand, fourteen on the night, almost none asking a cut — the house is stacking the deck and waiting for the first mark to sit.",
     "zh": "一纸钩子合约一日布八池，十四池中几乎全零费——这不是试水，是庄家摆好了牌局，只等第一个入座的人。"
-   }
-  },
-  {
-   "date": "2026-10-20",
-   "narrative": {
-    "en": "The night's flip of the deck began at block 26230071, when the first hook-bearing pool was shoved into the chain. Nine initializations inside ten blocks followed—not noise, but a pattern with a tell: seven of the nine pit ETH against contracts carrying suspiciously fresh addresses. Only the USDC and USDT pools carry the familiar smell of liquidity, and even those come with hooks hanging off them.\n\nOne pool at block 26230235 cuts hardest: token 0x13be...a608 against WETH, zero fee, spacing 200, hook 0x322d...68. Zero fee paired with a wide spread is not a trading desk; it is a different game—data collection, oracle nudging, something with a purpose beyond market making. A hook is always another layer of logic, and when it is fitted to a fresh token with no liquidity, the house is not there to make markets.\n\nThen block 26230550: a pool with a 10000 fee and spacing 200 on an ETH-token pair. A 10000 fee is either a wrapper for a specific strategy or a velvet rope to keep retail out; hook 0x2f17...d040 is plainly not a passive AMM. The deck is being shuffled fast. Someone is testing new logic on V4, using pools as a sandbox. The question is not what these pools do now, but what they will do when liquidity is poured on them. For now they are marks on cards. The one dealing them knows which hand comes next.",
-    "zh": "夜里翻牌，从块高 26230071 开始。第一只带钩的池子被插进链上，随后十个区块里九次开池，这不是风过竹林，是有人按着节拍落子。九只里有七只把 ETH 与地址尚新的合约摆在对门；只有 USDC 与 USDT 那两只还带着旧江湖的流动性气味，可钩子依旧挂在门楣上。\n\n最刺眼的是块高 26230235 那只：代币 0x13be...a608 对 WETH，零费，间距二百，钩子 0x322d...68。零费配宽口，不像做买卖的摊位，更像设来听风、记路，或暗中拨动预言机的秤。钩子从来不是装饰，是把另一层规矩藏进池子；拿它挂在新代币、空内力的地方，便不是寻常做市。\n\n再到块高 26230550，费用一万、间距二百的 ETH 交易对，钩子 0x2f17...d040 明摆着不是那种只被动做市的旧机关。这样的门槛，要么是某种特定招式的鞘，要么是把散客挡在门外的绳。牌桌换牌很快，有人拿 V4 当演武场，先试机关，不问今日输赢。真正的问题不是这些空池此刻做什么，而是等内力灌进去以后，它们会做什么。眼下只是牌面上的记号；发牌的人，已经知道下一手该落在哪只手上。"
-   },
-   "take": {
-    "en": "The tell is not the empty pools; it is the hooks. Someone is rehearsing a new economic logic on V4, and the first real liquidity will reveal which hand was being dealt.",
-    "zh": "空池只是记号，钩子才是落子的手。等内力一灌，谁在借 V4 试招，牌面自会说话。"
    }
   }
  ]
