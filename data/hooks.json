@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T04:13:31Z",
+ "generated_at": "2026-11-03T05:13:18Z",
  "total_hooks": 7953,
  "total_pools": 28820,
  "multi_pool_hooks": 647,
@@ -9253,8 +9253,8 @@
   {
    "address": "0xfd6ec66d4755eff09a404af8bec55bab7440a8cc",
    "address_short": "0xfd6e…a8cc",
-   "name": "",
-   "verified": false,
+   "name": "TaxHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xfd6ec66d4755eff09a404af8bec55bab7440a8cc",
    "pool_count": 3,
    "permissions_human": [
@@ -10925,8 +10925,8 @@
   {
    "address": "0x593638b3ad63af78ea2830428da8f3015e0620cc",
    "address_short": "0x5936…20cc",
-   "name": "",
-   "verified": false,
+   "name": "KettoHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x593638b3ad63af78ea2830428da8f3015e0620cc",
    "pool_count": 2,
    "permissions_human": [
