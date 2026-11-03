@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T23:13:28Z",
- "total_hooks": 7951,
- "total_pools": 28777,
+ "generated_at": "2026-11-03T00:13:30Z",
+ "total_hooks": 7953,
+ "total_pools": 28804,
  "multi_pool_hooks": 647,
  "shown": 647,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5785,
+   "pool_count": 5791,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26329556,
-   "last_deploy": "2026-11-02T22:00:02Z",
+   "last_block": 26330386,
+   "last_deploy": "2026-11-03T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 914,
+   "pool_count": 918,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26329812,
-   "last_deploy": "2026-11-02T22:00:02Z",
+   "last_block": 26330239,
+   "last_deploy": "2026-11-03T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -135,7 +135,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 738,
+   "pool_count": 746,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -151,8 +151,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26329804,
-   "last_deploy": "2026-11-02T22:00:02Z",
+   "last_block": 26330325,
+   "last_deploy": "2026-11-03T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -162,7 +162,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 712,
+   "pool_count": 714,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -176,8 +176,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26327896,
-   "last_deploy": "2026-11-02T16:00:02Z",
+   "last_block": 26330256,
+   "last_deploy": "2026-11-03T00:00:03Z",
    "active": true,
    "visible": true
   },
@@ -344,7 +344,7 @@
    "name": "DirectAnyHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xcba49142a75da64a679f32a159f4316f11a7e0cc",
-   "pool_count": 242,
+   "pool_count": 243,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -358,8 +358,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26051064,
-   "last_block": 26290978,
-   "last_deploy": "2026-10-28T12:00:02Z",
+   "last_block": 26330405,
+   "last_deploy": "2026-11-03T00:00:03Z",
    "active": true,
    "visible": false
   },
@@ -726,7 +726,7 @@
    "name": "KlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x1d06faa7ff674ccfd8a5736c0c0973cb0a8fa0cc",
-   "pool_count": 81,
+   "pool_count": 83,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -740,9 +740,9 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25901287,
-   "last_block": 26151956,
-   "last_deploy": "2026-10-09T04:00:02Z",
-   "active": false,
+   "last_block": 26330133,
+   "last_deploy": "2026-11-03T00:00:03Z",
+   "active": true,
    "visible": false
   },
   {
@@ -3768,6 +3768,25 @@
    "visible": false
   },
   {
+   "address": "0x0c3291d38f23042dab5a3f6c369488c77456c080",
+   "address_short": "0x0c32…c080",
+   "name": "ReplicaWhitelistHook",
+   "verified": true,
+   "etherscan_url": "https://etherscan.io/address/0x0c3291d38f23042dab5a3f6c369488c77456c080",
+   "pool_count": 10,
+   "permissions_human": [
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeSwap"
+   ],
+   "first_block": 26181013,
+   "last_block": 26330149,
+   "last_deploy": "2026-11-03T00:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x111157d643499ed3870cb7bdb848303c85fb9000",
    "address_short": "0x1111…9000",
    "name": "SaturnOmnichainV4Hook",
@@ -5044,25 +5063,6 @@
    "last_block": 25955907,
    "last_deploy": "2026-09-11T20:00:01Z",
    "active": false,
-   "visible": false
-  },
-  {
-   "address": "0x0c3291d38f23042dab5a3f6c369488c77456c080",
-   "address_short": "0x0c32…c080",
-   "name": "ReplicaWhitelistHook",
-   "verified": true,
-   "etherscan_url": "https://etherscan.io/address/0x0c3291d38f23042dab5a3f6c369488c77456c080",
-   "pool_count": 8,
-   "permissions_human": [
-    "intercepts swaps"
-   ],
-   "permissions_technical": [
-    "beforeSwap"
-   ],
-   "first_block": 26181013,
-   "last_block": 26329842,
-   "last_deploy": "2026-11-02T22:00:02Z",
-   "active": true,
    "visible": false
   },
   {
