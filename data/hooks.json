@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T15:13:18Z",
- "total_hooks": 7958,
- "total_pools": 28892,
+ "generated_at": "2026-11-03T16:13:33Z",
+ "total_hooks": 7962,
+ "total_pools": 28904,
  "multi_pool_hooks": 648,
  "shown": 648,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5845,
+   "pool_count": 5851,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26334685,
-   "last_deploy": "2026-11-03T14:00:02Z",
+   "last_block": 26335222,
+   "last_deploy": "2026-11-03T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 924,
+   "pool_count": 925,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26333923,
-   "last_deploy": "2026-11-03T12:00:02Z",
+   "last_block": 26335021,
+   "last_deploy": "2026-11-03T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -162,7 +162,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 723,
+   "pool_count": 724,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -176,8 +176,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26334725,
-   "last_deploy": "2026-11-03T14:00:02Z",
+   "last_block": 26334930,
+   "last_deploy": "2026-11-03T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -8779,7 +8779,7 @@
    "first_block": 26284898,
    "last_block": 26284982,
    "last_deploy": "2026-10-27T16:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -12709,7 +12709,7 @@
    "first_block": 26284728,
    "last_block": 26284959,
    "last_deploy": "2026-10-27T16:00:03Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
