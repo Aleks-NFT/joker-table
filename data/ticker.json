@@ -2,6 +2,20 @@
  "schema_version": 2,
  "items": [
   {
+   "ts": "2026-11-04T09:24:59Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26340535. Tokens: 0x0000000000000000000000000000000000000000 / 0xaa48f13785d07f753249c66ba5c5244200744ac1. Fee:...",
+   "url": "https://etherscan.io/tx/0xe48346b81b875c5a3bbe0653211c80fa0eca36a6da42c091bb0d8bb00f0d5f54"
+  },
+  {
+   "ts": "2026-11-04T08:38:11Z",
+   "suit": "spade",
+   "source": "etherscan",
+   "text": "New Uniswap V4 hook pool initialized at block 26340301. Tokens: 0xc9eef266834730340a55b6cc24621b31baf55581 / 0xf56cc5614c22efb491d4da0a6cebf0947ce3dfb8. Fee:...",
+   "url": "https://etherscan.io/tx/0x68cecfabcec991fbe231591f684e0bdc925fb25e8cb50a4508821965c75287ec"
+  },
+  {
    "ts": "2026-11-04T07:07:23Z",
    "suit": "spade",
    "source": "etherscan",
@@ -196,20 +210,6 @@
    "source": "HOOK DISCOVERY",
    "text": "New hook pool entered top-50 on GeckoTerminal: SNOWMOON / ETH — $5,677,751 24h volume, $270,830 TVL",
    "url": "https://www.geckoterminal.com/eth/pools/0xd03a0d50dae6a65968d662c0d9aa915ebf0469358f2b05f4dc2615dd0fa83dee"
-  },
-  {
-   "ts": "2026-11-04T04:30:01Z",
-   "suit": "spade",
-   "source": "HOOK DISCOVERY",
-   "text": "New hook pool entered top-50 on GeckoTerminal: RLUSD / USDS — $19,630,067 24h volume, $1,000,385 TVL",
-   "url": "https://www.geckoterminal.com/eth/pools/0x9035721b23481db3888fd201b9c2b26dbc3af60258bca65e669f2ed98dc8eb4f"
-  },
-  {
-   "ts": "2026-11-04T04:12:47Z",
-   "suit": "spade",
-   "source": "etherscan",
-   "text": "New Uniswap V4 hook pool initialized at block 26338981. Tokens: 0xbcdfed4140f297d0f0a06d4497abd39c6da88c5b / 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2. Fee:...",
-   "url": "https://etherscan.io/tx/0x58b57e2535474773aa4ab7d6ebea66db58c222cf2b7d3d8bf2293d165b75ade2"
   }
  ]
 }
