@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 30,
-  "miss": 14,
-  "open": 6,
-  "hit_rate": 0.682
+  "miss": 13,
+  "open": 7,
+  "hit_rate": 0.698
  },
  "items": [
+  {
+   "id": 116,
+   "made_at": "2026-11-04",
+   "text": "One hand keeps dealing: over the next 7 days the count clears 426, the likely landing sits between 103 and 2346, and I give the over about 55%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-11",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 115,
    "made_at": "2026-11-03",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-08",
    "status": "miss",
    "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 66,
-   "made_at": "2026-08-31",
-   "text": "In the next seven days, the count clears 75 — the likely landing between 37 and 201, and I give the over about 72%. The tell is the builders deploying pools with the dynamic-fee flag, the hook contract setting the swap fee in real time instead of a fixed tier: hooks used as economic primitives, not decorative add-ons.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-07",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +75 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   }
  ]
