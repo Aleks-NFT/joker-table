@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-05",
+   "narrative": {
+    "en": "The night dealt a generous hand of initiations — seven new V4 hook pools inside a stretch short enough that the script nearly missed the shuffle, and the count is the least interesting thing about it. What matters is the spread of mechanics on the felt. Three of them cluster around a single hook contract, all three carrying the same aggressive grid and the same wide spacing — one against WETH, one the reverse of that very pair, one a third token against WETH, with a second contract standing in for the quote side on each of the first two. Same hook, same style, three seats at once. Someone is laying a wide net and keeping the house's cut thin.\n\nA second hook showed up twice, both times with USDT as the counterweight — once against the same token that anchors the first cluster, at a slim commission, and once against a different contract at a slightly fatter one. Different assets, different tolls, one hand on the dial. That reads less like a bet and more like a man testing how the felt behaves at different price points.\n\nThen the two native-ETH tables. One carries a heavy commission, the kind you post when you expect violence in the pair. The other charges nothing at all — a free table, which is either a market maker's instrument or bait for the arbitrage crowd. Nobody builds a free table out of generosity.\n\nThe curious part: not one of these pools has shown volume. All initialized, all silent. The deck is spread, the cards are face up on the felt, and the chairs are empty. Someone is either waiting for their moment to sit down — or simply marking territory before the game begins.",
+    "zh": "夜里江湖上多了七处新开的门户，都是V4的钩子所立，前后不过一炷香的功夫。数目本身不打紧，要紧的是各家门内的路数全然不同。\n\n头一处，三座门户连着开在同一个钩子之下，阵型一样，宽而疏，收的过路钱极薄。一座对着WETH，一座是同一对的反手，第三座是另一枚代币对着WETH——同一只手，同一套拳，三处同时落子。这不是随意布点，是有人张了一张大网，只留一线薄利给庄家。\n\n第二处钩子出现两回，皆以USDT为对手盘：一回对的是先前那枚代币，抽头轻；一回换了另一枚，抽头略重。兵器不同，关卡不同，调弦的还是同一个人。像是在试，在不同的收费道上，池子里的水会如何走。\n\n另有两人以太为局。一座抽头极重，非预料到大风大浪不会如此设卡；另一座分文不取，间距也放得开。免费的门户在江湖上向来少见——要么是坐市者的器具，要么是钓套利客的饵。没人会凭白送人情。\n\n耐人寻味的是：这七处门户,至今一口成交量也未吐。门户立好，门前无人。有人是在等一个入场的时辰，有人不过是先在地上插了旗，圈了地。"
+   },
+   "take": {
+    "en": "Seven pools initialized and not a single one has printed volume — this is territory being marked, not a game being played.",
+    "zh": "七处门户皆已立好，却无一处有过成交量——这不是开战，这只是有人在地上插旗划界。"
+   }
+  },
+  {
    "date": "2026-11-04",
    "narrative": {
     "en": "The night of the fourth came in quiet, but the deck was being shuffled with intent. Six new pools carrying hooks landed on Etherscan, and one more on Unichain — no announcements, no fanfare, just contracts stepping up to the table and taking a seat.\n\nThe Unichain arrival is the one worth watching. Its commission is set at 8388608, which is nobody's standard. A number like that is a signature, not a default — someone is experimenting with fees or liquidity that move on their own schedule. The spacing on that pool is tight, ten to the unit, the way teeth sit in an old comb: dense, orderly, built for fine positioning. The hook behind it, 0x9e8202, is a fresh address with no history to read. A new face who bought in without introduction.\n\nThe Etherscan sheet spelled out five. Two of them carry a commission of zero, and 0x322dcec4958c14e021a9f1cd49df11b9457968cc clearly fancies itself the house — it dealt both a WETH/USDT pair and a WETH pairing against an unfamiliar token, both with the same wide spacing of 200. That is not furniture for retail traffic. That is a tool for large positions, where slippage is the only enemy worth fearing and the commission is just another cost of doing weight. Then the classic: two pools against ETH at the zero address, one with commission 100, one with 500, spacing 60 — the golden middle — and two different hooks, 0x54d1f5 and 0x2c3b64. Someone is running two strategies against the same pair and letting them race.\n\nOne more earned a second look: a token at 0x9895d58e2ff3c20eda8f2f60504cc27ff91adb4f set against WETH, commission zero, spacing 200, and the same hook as the house player. That is not coincidence. Someone is laying a grid of wide spreads with no rake at all. No famous names anywhere on the felt, no tokens anybody would recognize — only grey cards sliding onto the table without a word. Somebody is building infrastructure. Not for today, not for tomorrow, but for the moment when the deck is already assembled.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The day’s tell is infrastructure, not liquidity: hooks are being assembled as economic primitives while the market watches the felt.",
     "zh": "今日最锋利的信号不在池中水位，而在山门骨架：有人已把钩子当作门规来铸，最安静的那座节点才是先手。"
-   }
-  },
-  {
-   "date": "2026-10-22",
-   "narrative": {
-    "en": "Fourteen new V4 hook pools hit the felt — fourteen, initialized on different blocks, all keeping the same rhythm. Most ask nothing at the door: zero fee, a spacing of sixty, and the same hook contract, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, breathing in every second pool. ETH-WETH? No — WETH barely sits at this table. The pairs mostly run against the zero address, with tokens whose names end in \"6ea,\" like one family, one cluster, or a dealer handing out a single suit.\n\nThen there is the other hand: block 26244955, a partnership with WETH, spacing 200, and a different hook, 0x322dcec4958c14e021a9f1cd49df11b9457968cc. This is not the same deck. A test, a strategy, or someone deciding to play larger. And at block 26244820, the fee reads 8388608. Not zero. Not standard. A statement.\n\nLook at the pool IDs. They do not read like random hashes; they read like signatures, like tracks. Someone pressed them into blocks seconds apart. Machine? A human with a hot key? Doesn't matter. V4 is already here, and the deck is not being shuffled by hand — it is being shuffled by code. Hooks are not just smart contracts. They are side doors, chances to do what the pool rules never wrote down.\n\nI don't know what tomorrow deals. I know that tonight someone laid the cards out quietly, without noise. Now there is nothing to do but wait for the first move.",
-    "zh": "夜色未散，江湖又起微澜。十四口新池落在不同区块，却踏着同一拍子。多数不收过路费，间距六十；同一枚 hook 合约 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc，像同一门派的暗号，隔一口池便出现一次。与 WETH 结伴？不，WETH 几乎不露面；多数池与零地址相对，代币名字都以“6ea”收尾，像同门弟子，也像有人只发一种花色。\n\n另一路却不同：区块 26244955，一口池与 WETH 结伴，间距二百，hook 换成 0x322dcec4958c14e021a9f1cd49df11b9457968cc。这不是同一套剑法。是试招，是另立门户，还是有人准备以内力硬撼，暂且不知。区块 26244820 那口池，费用写作 8388608——不是零，也不是寻常路数。数字像碑上的记号，不是随手刻的。\n\n池的编号也不像散乱哈希，更像暗记、脚印。有人隔着几息就把它们按进区块。是机关，还是手快，已不重要。V4 的门已经开在此处，牌局由代码洗过。Hook 不只是契约，是门规之外的缝隙，是能做池规未写之事的余地。\n\n明日棋局未知。今夜只看见有人不声不响把牌摊在桌面，等第一手。"
-   },
-   "take": {
-    "en": "The tell is not the fourteen pools; it is the same hook sitting in most of them while a different hook and a non-zero fee wait off to the side like a separate stack. The deck is being shuffled by code, and the first hand has not been played.",
-    "zh": "真正的信号不在十四口池，而在同一枚 hook 反复落子；另一枚 hook 与一笔不寻常的费用在旁静立，像另一副牌。牌已由代码洗好，先手未出。"
    }
   }
  ]

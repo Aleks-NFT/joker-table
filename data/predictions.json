@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 30,
-  "miss": 13,
-  "open": 7,
-  "hit_rate": 0.698
+  "miss": 12,
+  "open": 8,
+  "hit_rate": 0.714
  },
  "items": [
+  {
+   "id": 117,
+   "made_at": "2026-11-05",
+   "text": "Over the next 7 days the count clears 173; the likely landing sits between 113 and 260, and I give the over about 74%. Watch the behaviour, not the label: builders are laying down pools where the hook itself sets the swap fee in real time rather than accepting a fixed toll posted in advance — that is a hook used as an economic instrument, not as decoration on the table.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-12",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 116,
    "made_at": "2026-11-04",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-09",
    "status": "miss",
    "resolution_note": "Confirmed: target +144 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 67,
-   "made_at": "2026-09-01",
-   "text": "Over the next seven days the count clears 13, and I give the over about 54%. The likely landing sits between 9 and 47—more pools are cropping up with gaps set below ten, a fine-tooth comb for placing liquidity exactly where the market breathes.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-08",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
