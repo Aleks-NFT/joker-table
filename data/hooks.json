@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T19:13:18Z",
- "total_hooks": 8018,
- "total_pools": 29253,
- "multi_pool_hooks": 659,
- "shown": 659,
+ "generated_at": "2026-11-06T20:13:28Z",
+ "total_hooks": 8032,
+ "total_pools": 29276,
+ "multi_pool_hooks": 661,
+ "shown": 661,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 5976,
+   "pool_count": 5978,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26357182,
-   "last_deploy": "2026-11-06T18:00:02Z",
+   "last_block": 26357960,
+   "last_deploy": "2026-11-06T20:00:02Z",
    "active": true,
    "visible": true
   },
@@ -1366,7 +1366,7 @@
    "name": "ERC20THook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x05e1934d8b52a8ded4f3f42aa9a7a12244192544",
-   "pool_count": 29,
+   "pool_count": 32,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -1381,8 +1381,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26228317,
-   "last_block": 26352809,
-   "last_deploy": "2026-11-06T04:00:02Z",
+   "last_block": 26357767,
+   "last_deploy": "2026-11-06T20:00:02Z",
    "active": true,
    "visible": false
   },
@@ -8225,6 +8225,27 @@
    "visible": false
   },
   {
+   "address": "0x36d0a8a985bee6251d239afef766b04de107a040",
+   "address_short": "0x36d0…a040",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x36d0a8a985bee6251d239afef766b04de107a040",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterSwap"
+   ],
+   "first_block": 26357807,
+   "last_block": 26357807,
+   "last_deploy": "2026-11-06T20:00:02Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x3e0c640d5581b0f28cd2d520c94f88c24c0968cc",
    "address_short": "0x3e0c…68cc",
    "name": "SteadyHook",
@@ -9182,6 +9203,27 @@
    "last_block": 26157891,
    "last_deploy": "2026-10-10T00:00:03Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xdc91aeb77596f3da9817e9580f36b12500312040",
+   "address_short": "0xdc91…2040",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xdc91aeb77596f3da9817e9580f36b12500312040",
+   "pool_count": 3,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "afterSwap"
+   ],
+   "first_block": 26357668,
+   "last_block": 26357668,
+   "last_deploy": "2026-11-06T20:00:02Z",
+   "active": true,
    "visible": false
   },
   {
