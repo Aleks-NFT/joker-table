@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 31,
-  "miss": 12,
-  "open": 7,
-  "hit_rate": 0.721
+  "miss": 11,
+  "open": 8,
+  "hit_rate": 0.738
  },
  "items": [
+  {
+   "id": 118,
+   "made_at": "2026-11-06",
+   "text": "A single hook contract is dealing pools in rapid succession, far above the pace of typical deployers — that is the behaviour, not the label. Over the next 7 days the count clears 409; the likely landing sits between 157 and 2567, and I give the over about 56%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-13",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 117,
    "made_at": "2026-11-05",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-10",
    "status": "miss",
    "resolution_note": "Confirmed: target +71 on metric dyn_fee_pools not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 68,
-   "made_at": "2026-09-02",
-   "text": "The hand is moving too fast for the room — one player laying pool after pool, far beyond the usual pace. Over the next seven days the count clears 144; the likely landing sits between 41 and 437, and I give the over about 60%.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-09",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +144 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]

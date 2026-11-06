@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-06",
+   "narrative": {
+    "en": "Three pools initialized overnight on V4, all with hooks — that is the deal, not the noise. First: USDT against token 0x0349, a 75 fee, tick spacing 1, hooks at 0x0c3291. Tick spacing 1 is the tell of a hand ready to catch every twitch of price, every point of movement; someone is setting the table for active trading in a narrow range.\n\nSecond: the same token 0x0349, now against WETH, fee 8388608 — the maximum V4 allows, not a typo. On the standard scale that is 100%, not 0.83%. That pool is not built for ordinary flow; it is built for mechanics where the fee is part of the strategy, not payment for liquidity. Tick spacing 200, wide as an institutional table. Third: 0x7154 with WETH, fee zero, hooks at 0x322d, tick spacing 200. Zero fee usually means a test or a pool whose yield comes from somewhere other than swaps.\n\nWhat unites them is hooks. V4 without hooks is just a DEX; V4 with hooks is programmable liquidity. Someone is assembling a puzzle: one token appears with USDT, then with WETH, then another token with WETH — a route being tested, a combination being felt out. The blocks run 26352382, 26352450, 26352619, minutes apart. Someone sat and initialized them one after another like dealing cards. What grows from this is not yet known; for now it is three pools in the dark, and I have marked them.",
+    "zh": "三更之后，江湖上忽然多了三处新开的池子，皆在 V4，皆带钩子。第一处，USDT 对 0x0349，费用七十五，步距一，钩子落在 0x0c3291。步距一，是准备贴着每一次价格呼吸走的人才会摆出的阵；有人要在窄处勤换手。\n\n第二处，同一个 0x0349，这次对 WETH。费用 8388608，不是笔误，是 V4 所能给出的最大数；按寻常尺度，那是百分之百，不是零点八三。这样的池子，不是给寻常过客走的，费用本身成了机关的一部分。步距二百，宽得像门派大堂。第三处，0x7154 对 WETH，费用为零，钩子在 0x322d，步距仍是二百。零费用，多为试阵，或另有所图，不靠过路钱吃饭。\n\n三处相通之处，只在钩子。V4 无钩子，不过一座普通擂台；V4 有钩子，便是可编程的内力。有人在拼一张图：先让一个 token 与 USDT 搭手，再让它与 WETH 照面，随后另一个 token 又与 WETH 结伴——像是在试一条路线，或探一套合击。区块 26352382、26352450、26352619，前后不过几分钟，像同一只手连发三张牌。能长出什么，尚未可知；此刻只是暗处三口新池，我记下了。"
+   },
+   "take": {
+    "en": "Three hook-enabled pools dealt minutes apart are not a market yet — they are a tell that someone is rehearsing a route, and the felt will show whether it was practice or a hand.",
+    "zh": "三处带钩子的新池在几分钟内接连落子，还不是市场，只是一只手在试路；牌已发出，且看江湖如何接。"
+   }
+  },
+  {
    "date": "2026-11-05",
    "narrative": {
     "en": "The night dealt a generous hand of initiations — seven new V4 hook pools inside a stretch short enough that the script nearly missed the shuffle, and the count is the least interesting thing about it. What matters is the spread of mechanics on the felt. Three of them cluster around a single hook contract, all three carrying the same aggressive grid and the same wide spacing — one against WETH, one the reverse of that very pair, one a third token against WETH, with a second contract standing in for the quote side on each of the first two. Same hook, same style, three seats at once. Someone is laying a wide net and keeping the house's cut thin.\n\nA second hook showed up twice, both times with USDT as the counterweight — once against the same token that anchors the first cluster, at a slim commission, and once against a different contract at a slightly fatter one. Different assets, different tolls, one hand on the dial. That reads less like a bet and more like a man testing how the felt behaves at different price points.\n\nThen the two native-ETH tables. One carries a heavy commission, the kind you post when you expect violence in the pair. The other charges nothing at all — a free table, which is either a market maker's instrument or bait for the arbitrage crowd. Nobody builds a free table out of generosity.\n\nThe curious part: not one of these pools has shown volume. All initialized, all silent. The deck is spread, the cards are face up on the felt, and the chairs are empty. Someone is either waiting for their moment to sit down — or simply marking territory before the game begins.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Fourteen pools in ninety minutes, six of them one identical configuration under a single hook — that is not noise, that is a hand being dealt on purpose.",
     "zh": "九十分钟十四口池，其中六口用同一套布置系在同一个钩子上——这不是杂音，是有人刻意在叠牌。"
-   }
-  },
-  {
-   "date": "2026-10-23",
-   "narrative": {
-    "en": "The felt split three ways by midnight, and none of it smelled like ordinary order flow. Six ETH/USDC pairs hit the table with spacing set to one, all inside a 39-block window—26251943 to 26251982, roughly eight minutes—and five different hook contracts, no repeats. That is not a trader testing a line; that is a conveyor belt of configurations, someone counting how many unique mechanisms can be dealt in one pass and, more quietly, why.",
-    "zh": "子夜过后，牌桌分作三处，气息都不像寻常买卖。六对 ETH/USDC 齐齐落座，间距压到一，全在 26251943 至 26251982 这三十九个区块之间，前后不过八分钟；五枚不同的钩子契约，无一重复。这不是侠客试剑，这是有人在山门外摆开流水线，问的是同一口气里能布下多少种阵，更要紧的是，他为何要问。\n\n第二处，五座零费之池，间距二百，其中一边是个无名地址，而钩子都系在同一条契约 0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc 上；三座连着零地址，也就是本门原生 ETH。这更像给同一套门规铺一张内力网——一位管路由的执事，决定哪一对先醒。\n\n第三处，两座池子各用不同代币，却共用一条钩子 0xf6ce7756e6813f259a2b2bcb746f8cf0042fe0cc，在同一区块里开阵：WBTC 与一个无名代币，对着同一个对手。到这一步已不是试手，是照着一个接口，把不同地基接进同一座山门。\n\n最静的一手反而最重：0xcb47459bad70cdb0319b8f9a2c3122beb8624455 与 0xfedc5f4a6c38211c1338aa411018dfaf26612c08 两枚都不在主流名册上的代币，零费，间距二百，钩子 0xc2988a37d611779ad34b561231ee33603d15a0cc。这不是供人进出的流动性，这是基础设施的一层——有人在筑节点，不是在挖池子。牌已摆好，局才刚开。"
-   },
-   "take": {
-    "en": "The day’s tell is infrastructure, not liquidity: hooks are being assembled as economic primitives while the market watches the felt.",
-    "zh": "今日最锋利的信号不在池中水位，而在山门骨架：有人已把钩子当作门规来铸，最安静的那座节点才是先手。"
    }
   }
  ]
