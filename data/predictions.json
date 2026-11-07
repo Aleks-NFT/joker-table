@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 32,
+  "hit": 33,
   "miss": 10,
-  "open": 8,
-  "hit_rate": 0.762
+  "open": 7,
+  "hit_rate": 0.767
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next seven days the count clears 139; the likely landing sits between 86 and 206, and I give the over about 73%. What's behind it is behaviour, not paperwork: builders are dealing pools where the hook contract itself resets the swap fee in real time instead of leaving a fixed, preset rate at the door — the clearest tell that these mechanisms are economic primitives now, not decoration.",
    "horizon_days": 7,
    "resolve_after": "2026-11-07",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +139 on metric dyn_fee_pools reached.",
    "phase": "v2"
   },
   {
