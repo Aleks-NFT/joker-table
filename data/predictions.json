@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 32,
-  "miss": 11,
-  "open": 7,
-  "hit_rate": 0.744
+  "miss": 10,
+  "open": 8,
+  "hit_rate": 0.762
  },
  "items": [
+  {
+   "id": 119,
+   "made_at": "2026-11-07",
+   "text": "Over the next seven days the count clears 405 — that much I will say aloud; the likely landing sits between 155 and 2220, and I give the over about 57%. One hook is dealing pools faster than the ordinary hand ever does, and the felt is still being covered.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-14",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 118,
    "made_at": "2026-11-06",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-11",
    "status": "miss",
    "resolution_note": "Confirmed: target +89 on metric pools_by_hook not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 69,
-   "made_at": "2026-09-03",
-   "text": "Over the next seven days the count clears 71; the likely landing sits between 36 and 186, and I give the over about 71%. The real tell is not the arithmetic: the toll is being computed live by the contract as each swap crosses the table, so the door fee breathes with the trade — a hook used as an economic instrument, not a signature charm.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-10",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +71 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   }
  ]

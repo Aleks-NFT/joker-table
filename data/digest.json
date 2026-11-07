@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-07",
+   "narrative": {
+    "en": "The deck cut itself tonight, and the felt is crowded. Sixteen pools inside a couple of hours, hooks laid down one after another like cards from a fresh pack, every suit smelling of raw code — someone is not playing, someone is building a wing of the house.\n\nThree of them come in at zero commission with a spacing of sixty, all bound to WETH, hooks at 0x5f7d, 0x7804, 0xf7c7 — the classic arrangement for a strategy that wants to feel every twitch of price without paying the dealer on the way in. Then 0x35a5 with 0x4a9d, spacing widened to 200, and the hook again 0x322d — a contract I have already seen seated beside WETH and CAKE at 0x0e09. That is not improvisation; that is a liquidity assembler tuned to specific builds.\n\nNext the run where the commission itself becomes a parameter rather than a fixed house cut, and 0x6c24d0 is the name doing the work — I counted it at least four times, paired with PEPE at 0x6982, with 0x94e4, with 0xce7d, with 0x9b60. One hook, a whole web strung from it, spacing 200 across the board: wider positions, fewer gas bruises when the table tilts.\n\nAnd the pearl: USDC at 0xa0b8 against an unknown token 0xf6b1, hook 0xf833a6, spacing of ten — a rarity in this game. Either a stable pairing hunting the thinnest spread on the floor, or someone rehearsing a fast-handed strategy behind that hook. I keep that one in the sleeve, face down. The night was dense; the ground is being prepared for more than liquidity. The only question left on the table is who folds first.",
+    "zh": "今夜江湖不静。两个时辰之内，十六个池子接连落成，像是同一双手在山门上连开十六道侧门——不是路过的人，是打算在此久居的人。\n\n先看那三处不取分文的池子，间距六十，皆系于 WETH，钩子分别是 0x5f7d、0x7804、0xf7c7。这是老江湖的布置：不设门槛，只为听清风里每一次呼吸的变化。再看 0x35a5 与 0x4a9d，间距放至两百，钩子仍是 0x322d——此物我先前已在 WETH 与 CAKE（0x0e09）之侧见过。门派虽新，招式却有来历：这不是随手落子，是依着特定功法攒起来的一座内力池。\n\n随后是一串把抽成写成参数、而非写死数的池子，其中 0x6c24d0 这一个钩子最是勤快，我数了至少四回：配 PEPE（0x6982），配 0x94e4，配 0xce7d，配 0x9b60。一处钩子，牵出一整张网，间距一律两百——位开得宽，翻桌时便少些内耗。\n\n最后是那颗珠子：USDC（0xa0b8）对上一个尚不知名的 0xf6b1，钩子 0xf833a6，间距只有十。在这套功法里，十是罕见的数字。或是稳定之物求最窄的缝隙，或是有人在钩子后头悄悄练一门快手的功夫。此池我不声张，收在袖中。今夜落子密集，铺的不是流动性，是地。剩下的只有一问：谁先弃牌。"
+   },
+   "take": {
+    "en": "Sixteen pools in a couple of hours, one hook contract counted at least four times over, is not accumulation — it is a single hand arranging the table before the rest of the room sits down.",
+    "zh": "两个时辰十六个池子，同一个钩子被数出至少四回——这不是零散的积蓄，是一双手在众人落座之前，先把桌子摆好。"
+   }
+  },
+  {
    "date": "2026-11-06",
    "narrative": {
     "en": "Three pools initialized overnight on V4, all with hooks — that is the deal, not the noise. First: USDT against token 0x0349, a 75 fee, tick spacing 1, hooks at 0x0c3291. Tick spacing 1 is the tell of a hand ready to catch every twitch of price, every point of movement; someone is setting the table for active trading in a narrow range.\n\nSecond: the same token 0x0349, now against WETH, fee 8388608 — the maximum V4 allows, not a typo. On the standard scale that is 100%, not 0.83%. That pool is not built for ordinary flow; it is built for mechanics where the fee is part of the strategy, not payment for liquidity. Tick spacing 200, wide as an institutional table. Third: 0x7154 with WETH, fee zero, hooks at 0x322d, tick spacing 200. Zero fee usually means a test or a pool whose yield comes from somewhere other than swaps.\n\nWhat unites them is hooks. V4 without hooks is just a DEX; V4 with hooks is programmable liquidity. Someone is assembling a puzzle: one token appears with USDT, then with WETH, then another token with WETH — a route being tested, a combination being felt out. The blocks run 26352382, 26352450, 26352619, minutes apart. Someone sat and initialized them one after another like dealing cards. What grows from this is not yet known; for now it is three pools in the dark, and I have marked them.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Fifteen pools in one session, four separate houses, and almost every one of them taking zero at the door — the revenue is hiding off the table, and only the dealer knows where.",
     "zh": "一夜十五池，四门并起，几乎个个不取过路钱——真正挣钱的地方不在台面上，只有布阵的人知道在哪里。"
-   }
-  },
-  {
-   "date": "2026-10-24",
-   "narrative": {
-    "en": "The night dealt strange. Fourteen new V4 pools on Uniswap inside ninety minutes — and that is only the ones the scanner caught, the ones that lingered long enough on the felt to be counted. Blocks came one after another like cards off a shoe, and somewhere behind the curtain a hand was not shuffling. It was stacking.\n\nThe tell sits in the cluster: six pairs bound to a single hook, 0x0207, every one of them with a 2500 fee and a tick spacing of 1. WBTC/WETH, USDT/WETH, and two tokens whose addresses I did not trouble to memorise — all of it wired to the same hook. Six identical configurations in a row is not a deal, it is a strategy. A liquidity net with a lattice fine enough to place capital to the inch. Why that inch, I do not ask. I only note that nobody builds a lattice by accident.\n\nThen two pools on hook 0x322d, both with zero fee and a tick spacing of 200. One carries a token with something onion-shaped in its name; the other pairs to WETH. A hook that takes nothing is either a laboratory, a way to rearrange the order of execution, or something the house has not yet named.\n\nAnd last, one pool on hook 0xf583 — fee 10000, tick spacing 200, and a token whose address reads like it was minted minutes ago. Wide step, steep rake: the classic posture of a player who expects little movement and intends to collect rent while the table is looking elsewhere. No conclusions. Only what the felt showed. But if you watch V4, you already know: this was not a night of random initialisations. Someone knows precisely what they are doing. The only open question is which card they mean to play.",
-    "zh": "今夜江湖不静。九十分钟之内，十四口新池在 Uniswap 上开张——而这还只是被扫描到的那些，是那些在台面上停留得够久、被数进来的。区块一个一个过去，像发牌，而帘子后面那只手不是在洗牌,是在叠牌。\n\n破绽在那一簇：六对池子系于同一个钩子 0x0207，费率一律 2500，刻度间距为 1。WBTC/WETH、USDT/WETH，另有两枚代币，地址我懒得去记——全都接在同一个钩子上。六次相同的布置接连出现，那不叫巧合，那叫布阵。这是一张织得极密的内力网，力道可以精确到寸。为何要精确到寸，我不问。我只记下一件事：没有人会无意间织出这样的网。\n\n随后两口池，钩子 0x322d，费用为零，刻度间距 200。一口里那代币的名字，带着几分葱蒜气；另一口对着 WETH。不取分文的钩子，要么是试剑之地，要么是为了挪动出手的先后次序，要么是某种尚未命名的东西。\n\n最后一口，钩子 0xf583，费率一万，刻度间距 200，而那代币的地址看着像刚刚铸成。步子宽，抽头重——这是料定风浪不大、趁众人不备收租的架势。不下断语，只叙事实。但若你也盯着 V4，你已明白：今夜不是随手开局，有人清楚自己在做什么。剩下的问题只有一个——他要打出哪一张牌。"
-   },
-   "take": {
-    "en": "Fourteen pools in ninety minutes, six of them one identical configuration under a single hook — that is not noise, that is a hand being dealt on purpose.",
-    "zh": "九十分钟十四口池，其中六口用同一套布置系在同一个钩子上——这不是杂音，是有人刻意在叠牌。"
    }
   }
  ]
