@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T04:13:30Z",
+ "generated_at": "2026-11-07T05:13:31Z",
  "total_hooks": 8040,
  "total_pools": 29360,
  "multi_pool_hooks": 663,
@@ -5673,8 +5673,8 @@
   {
    "address": "0xef7c1890edef34954844e207f7f802ea21dea0cc",
    "address_short": "0xef7c…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "PulseFeeHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xef7c1890edef34954844e207f7f802ea21dea0cc",
    "pool_count": 7,
    "permissions_human": [
@@ -13957,8 +13957,8 @@
   {
    "address": "0xbb10beffcae36fbde7869ab3c3be37b24cc910c4",
    "address_short": "0xbb10…10c4",
-   "name": "",
-   "verified": false,
+   "name": "EthgasHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xbb10beffcae36fbde7869ab3c3be37b24cc910c4",
    "pool_count": 2,
    "permissions_human": [
