@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 33,
+  "hit": 34,
   "miss": 9,
-  "open": 8,
-  "hit_rate": 0.786
+  "open": 7,
+  "hit_rate": 0.791
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next seven days the count clears 22; the likely landing sits between 15 and 52, and I give the over about 64%. Watch for it: more of these tables are being set with the finest possible step between positions — below ten — a way of placing liquidity with needle-point precision rather than broad strokes.",
    "horizon_days": 7,
    "resolve_after": "2026-11-08",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +22 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
