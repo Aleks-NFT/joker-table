@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-08",
+   "narrative": {
+    "en": "Four pools in a single day, and every one of them with a hook. Uniswap V4 is dealing, and somebody is shuffling a marked deck.\n\nThe first: zero address holding some token, fee set to nothing, a 60-wide spread, hook 0x620b. I have seen that contract before — it surfaced in other deployments. A fee of zero means the house isn't taking its cut at the swap. The revenue lives somewhere inside the hook's own logic. Liquidity as bait; the machinery sits outside the room.\n\nThen two pools from one and the same hook, 0x322d, minutes apart — one a token paired against WETH, the other an alt-on-alt pairing, both set to a 200 spacing. That is a wide corridor and an aggressive setting. Someone wants to catch large moves, not pennies of arbitrage. Or the opposite: feeding the oracle prices that were never true. The last is the zero address again with a different hook, 0x15e5, and again a fee of zero.\n\nTwo zero-fee pools in one day is not accident. Either a new strategy is being tested, or ground is being prepared for something that cannot tolerate public logs. Not one of the four carries a classic fee. Hooks grant total freedom, and someone clearly does not want the table to see what they are doing with it. Four initializations in a row with the same shape is not scattered play. It is a deal. I would watch which cards come off the deck next.",
+    "zh": "一日之内四座新池，四座皆带钩。Uniswap V4 开了新局，有人洗的却是一副做了记号的牌。\n\n第一座，零地址持着一个无名代币，费用归零，价差六十，钩为 0x620b。这枚合约我见过——它在别的开池中也露过面。费用为零，说明收益不在兑换处收取，而藏在钩自身的逻辑里。流动性是饵，绞肉机在门外。\n\n随后两座出自同一枚钩 0x322d，相隔不过数分钟：一座是某代币对 WETH，另一座是山寨对山寨，间距都设为 200。宽廊道，激进的手笔。这是想接大波动，而非捡几文钱的套利；又或者相反——往神谕里喂假价。最后一座仍是零地址，钩换了 0x15e5，费用依旧为零。\n\n一日之内两座零费之池，绝非偶然。要么在试一门新功夫，要么在为某件见不得公开日志的事铺路。四座池，无一座用寻常费率——钩给了十足的自由，而有人显然不愿让人看清他拿这自由做了什么。四度开池，路数如出一辙，这不是散手，是发牌。接下来该看谁摸到什么牌了。"
+   },
+   "take": {
+    "en": "Four hooks, four experiments, not a single conventional fee — this is a table being set, not a market being made.",
+    "zh": "四钩四试，无一常规收费——这是在摆局，不是在造市。"
+   }
+  },
+  {
    "date": "2026-11-07",
    "narrative": {
     "en": "The deck cut itself tonight, and the felt is crowded. Sixteen pools inside a couple of hours, hooks laid down one after another like cards from a fresh pack, every suit smelling of raw code — someone is not playing, someone is building a wing of the house.\n\nThree of them come in at zero commission with a spacing of sixty, all bound to WETH, hooks at 0x5f7d, 0x7804, 0xf7c7 — the classic arrangement for a strategy that wants to feel every twitch of price without paying the dealer on the way in. Then 0x35a5 with 0x4a9d, spacing widened to 200, and the hook again 0x322d — a contract I have already seen seated beside WETH and CAKE at 0x0e09. That is not improvisation; that is a liquidity assembler tuned to specific builds.\n\nNext the run where the commission itself becomes a parameter rather than a fixed house cut, and 0x6c24d0 is the name doing the work — I counted it at least four times, paired with PEPE at 0x6982, with 0x94e4, with 0xce7d, with 0x9b60. One hook, a whole web strung from it, spacing 200 across the board: wider positions, fewer gas bruises when the table tilts.\n\nAnd the pearl: USDC at 0xa0b8 against an unknown token 0xf6b1, hook 0xf833a6, spacing of ten — a rarity in this game. Either a stable pairing hunting the thinnest spread on the floor, or someone rehearsing a fast-handed strategy behind that hook. I keep that one in the sleeve, face down. The night was dense; the ground is being prepared for more than liquidity. The only question left on the table is who folds first.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The day’s tell is serial zero-fee pool creation by repeat hooks, not discovery; the one paid exception is the only hand that looks like it expects real liquidity.",
     "zh": "今日的江湖气不在零费本身，而在同一钩子连开六池的节奏：那是发牌，不是寻价；唯一收费的池子，是唯一像在等真内力入局的异数。"
-   }
-  },
-  {
-   "date": "2026-10-25",
-   "narrative": {
-    "en": "The night deals itself. Fifteen pools in a single session, one initialization after another, cards sliding off a deck nobody bothered to shuffle — block 26266006 opens the hand with a D34A/F832 pair, and from there the felt just keeps filling. Four different houses are working the table, and most of them take nothing at the door: zero commission, again and again, which tells you the money is being made somewhere other than the obvious place. Mev-shaped, oracle-shaped, something else shaped. The house always collects; it just doesn't always collect at the window.\n\nThe main dealer has a face: one hook contract running ETH pairs like a machine, five pools in an hour — 0xd062, 0x8941, 0x3ca0, 0xcf97, the whole run under a single hand, all at nothing. Somebody is laying out a grid, not placing a bet. Another player takes the table with two pairs and a commission of 8388608 — not a typo, a rare suit for this game, and worth watching to see what logic justifies it. A third spreads three pools across the space of a few deals, all with a coarse two-hundred step and no rake at all: a wide net for volatile pairs. And off to the side, one pool on a non-standard token, dealt by its own rules.\n\nFifteen hands, four hooks, one session. The deck is full and the deal continues. I observe.",
-    "zh": "这一夜的牌局，是从第六个区块开始的。十五个池子，一手接一手地摊开，像有人不肯洗牌，只管发牌。四个不同的门派同时下场，各有各的路数。最惹眼的是那位只用一个招式、连开五池的——同一门手法，五对手牌,像是布阵，不是下注。\n\n更有意思的是抽水的方式。大多数池子不收过路钱，一分不取。江湖上真正赚钱的地方，从来不在门口。可能在暗处，可能在别处，只有布阵的人自己清楚。另有一门，出手的筹码是八百三十八万那一路的稀罕数目，不是笔误，是极少见的招式——值得记下，看它日后如何自圆其说。还有一位侠客，短短几手之间连开三池，步子迈得极宽，专挑水深的对子下手，零抽成，广撒网。角落里另有一池，走的是不常见的路子，配的也是不常见的对手。\n\n十五个池，四门手法，一夜之间。牌面已满，发牌未停。我看着。"
-   },
-   "take": {
-    "en": "Fifteen pools in one session, four separate houses, and almost every one of them taking zero at the door — the revenue is hiding off the table, and only the dealer knows where.",
-    "zh": "一夜十五池，四门并起，几乎个个不取过路钱——真正挣钱的地方不在台面上，只有布阵的人知道在哪里。"
    }
   }
  ]

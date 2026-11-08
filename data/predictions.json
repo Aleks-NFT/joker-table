@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 33,
-  "miss": 10,
-  "open": 7,
-  "hit_rate": 0.767
+  "miss": 9,
+  "open": 8,
+  "hit_rate": 0.786
  },
  "items": [
+  {
+   "id": 120,
+   "made_at": "2026-11-08",
+   "text": "Over the next seven days the count clears 181; the likely landing sits between 129 and 267, and I give the over about 74%. The behaviour behind it: builders are opening pools where the hook contract sets the swap fee in real time instead of a fixed tier — hooks used as economic primitives, not decoration.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-15",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 119,
    "made_at": "2026-11-07",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-12",
    "status": "miss",
    "resolution_note": "Confirmed: target +66 on metric dyn_fee_pools not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 70,
-   "made_at": "2026-09-04",
-   "text": "The same hand is dealing pool after pool onto the felt at a pace no regular dealer matches. Over the next seven days the count clears 89; the likely landing sits between 43 and 488, and I give the over about 57%.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-11",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +89 on metric pools_by_hook not reached.",
    "phase": "v2"
   }
  ]
