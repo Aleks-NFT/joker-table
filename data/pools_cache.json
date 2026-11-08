@@ -2,13 +2,13 @@
  "UPEG": {
   "ticker": "uPEG",
   "pool": "0x94af294207a2c592c08a39c82a7df42a18613d986eeb520b7164fe9ccd66a000",
-  "price_usd": 116.27891496267,
-  "pct_24h": 0.106,
-  "vol_24h_usd": 13121.5051227717,
-  "liquidity_usd": 114143.4779,
+  "price_usd": 114.665007615721,
+  "pct_24h": -2.039,
+  "vol_24h_usd": 13769.7865112324,
+  "liquidity_usd": 113412.2342,
   "liq_class": "mid",
   "vol_class": "mid",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  },
  "SATO": {
   "ticker": "SATO",
@@ -16,10 +16,10 @@
   "price_usd": 0.128735027609174,
   "pct_24h": -0.655,
   "vol_24h_usd": 127.759452879,
-  "liquidity_usd": 8540.9176,
+  "liquidity_usd": 8542.5967,
   "liq_class": "thin",
   "vol_class": "low",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  },
  "SLOP": {
   "ticker": "SLOP",
@@ -27,10 +27,10 @@
   "price_usd": 0.176528350627978,
   "pct_24h": 0.0,
   "vol_24h_usd": 13.7896158732,
-  "liquidity_usd": 91634.8718,
+  "liquidity_usd": 91652.8876,
   "liq_class": "mid",
   "vol_class": "low",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  },
  "UPEGSTR": {
   "ticker": "UPEGSTR",
@@ -68,24 +68,24 @@
  "01": {
   "ticker": "01",
   "pool": "0x15d657e5b397f126387281f813af11d4a4f2d49c88b72f9b94d20a1f83381935",
-  "price_usd": 0.160862540666625,
-  "pct_24h": -1.593,
-  "vol_24h_usd": 29106.4385510331,
-  "liquidity_usd": 325864.1336,
+  "price_usd": 0.164336820312267,
+  "pct_24h": -0.875,
+  "vol_24h_usd": 29142.3528813888,
+  "liquidity_usd": 332368.9712,
   "liq_class": "deep",
   "vol_class": "mid",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  },
  "SWING": {
   "ticker": "SWING",
   "pool": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
-  "price_usd": 0.000273274178142405,
-  "pct_24h": -0.61,
-  "vol_24h_usd": 686.4016706781,
-  "liquidity_usd": 36496.6775,
+  "price_usd": 0.00027081591917527,
+  "pct_24h": -1.505,
+  "vol_24h_usd": 719.8723047727,
+  "liquidity_usd": 36330.6467,
   "liq_class": "thin",
   "vol_class": "low",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  },
  "PRISM": {
   "ticker": "PRISM",
@@ -96,6 +96,6 @@
   "liquidity_usd": 15855.3178,
   "liq_class": "thin",
   "vol_class": "low",
-  "cached_at": "2026-11-08T15:09:18Z"
+  "cached_at": "2026-11-08T16:09:13Z"
  }
 }
