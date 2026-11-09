@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 34,
-  "miss": 9,
-  "open": 7,
-  "hit_rate": 0.791
+  "miss": 8,
+  "open": 8,
+  "hit_rate": 0.81
  },
  "items": [
+  {
+   "id": 121,
+   "made_at": "2026-11-09",
+   "text": "Over the next 7 days the count clears 21; the likely landing sits between 15 and 49, and I give the over about 64%. The tell is the table itself: more pools are appearing with very fine-grained spacing—below 10—a tool for placing concentrated liquidity with precision.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-16",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 120,
    "made_at": "2026-11-08",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-13",
    "status": "miss",
    "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks not reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 71,
-   "made_at": "2026-09-05",
-   "text": "Over the next seven days the count clears 66; the likely landing sits between 33 and 181, and I give the over about 67%. The tell is behavioral: builders keep opening pools with the live-cost flag, so the hook contract names the toll at the moment of the trade rather than at creation — economic muscle inside the deal, not decoration.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-12",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +66 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   }
  ]

@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-09",
+   "narrative": {
+    "en": "The deal comes again in a run of five hook pools, 26373674 through 26374170, and it is not the deployment that matters; it is the pattern. Two pools carry a zero token, both routed through the same hook contract 0xb8d947, fee at zero and spacing at 200—native ETH paired to some ERC-20, but the house is taking no cut. That is not a trading table. That is a rehearsal with the cards face down.\n\nThird pool at 26373845—0xa0df17 against 0xd279a0, fee 0, spacing 60, hooks 0x05e1934. Narrow step, aggressive liquidity. Fourth is nearly a mirror, same tokens in another pair, same hook contract. Fifth is 0x2d1f72 and 0x3ab7e3, fee 0, spacing 200, hooks 0x322dcec. The suits change but the deck is being stacked by the same hand: 0xb8d947 twice, 0x05e1934 twice, 0x322dcec once. Someone is laying a grid, testing a hypothesis; possibly one operator with different modules.\n\nNo pool uses the standard V3 floating-fee approach. All fee=0. That means hooks are taking the collection logic—offchain calculations, internal tokens, or no profit at all but orchestration. Pool at 26374092: ETH vs 0xd8a29c, fee 0, same hook 0xb8d947. At 26374170: 0xab4cbb vs WETH, fee 10000, spacing 200, hook 0x2ac9dac. The only nonzero commission—looks like a real liquidity pool, while the rest are experimental. The deck shuffles: hooks as jokers, fee as suit, spacing as wager. Someone is building infrastructure before the crowd notices.",
+    "zh": "夜里又见五口新池从同一片区块里冒出来，26373674 到 26374170，像五位不报师门的侠客先后落座。两口池子挂着零号代币，都走同一个钩子合约 0xb8d947，费用为零，间距 200；看似以原生 ETH 对某种 ERC-20，实则主人不收过路钱。这不是开门做买卖，是在后山试阵。\n\n第三口在 26373845，0xa0df17 对 0xd279a0，费用仍为零，间距 60，钩子 0x05e1934。步子收得细，内力压得紧。第四口几乎是镜中影，同一对代币换了搭配，钩子仍是 0x05e1934。第五口是 0x2d1f72 对 0x3ab7e3，费用为零，间距 200，钩子换成 0x322dcec。看合约的出手：0xb8d947 两次，0x05e1934 两次，0x322dcec 一次。像同一位掌门派出不同弟子，各试一路心法；也可能本就是一人布阵，分模块落子。\n\n这些池子没有一口沿用旧日门派的浮动抽成规矩，费用全为零。抽成要么被钩子接到链外，要么藏进自家代币，要么根本不为利，只为调度。26374092 那口，ETH 对 0xd8a29c，费用为零，钩子仍是 0xb8d947。26374170 那口，0xab4cbb 对 WETH，费用 10000，间距 200，钩子 0x2ac9dac——唯一收过路费的，像是真正铺开的内力池；其余多属试招。江湖上，钩子是百变牌，费用是花色，间距是下注；有人趁众人未觉，先修栈道。"
+   },
+   "take": {
+    "en": "This is not a trading floor yet; it is a modular hook grid being rehearsed, and only the single nonzero-fee pool looks like real liquidity.",
+    "zh": "今日最清楚的结论：这不是开市做生意，而是在试一套模块化的钩子阵；真正像流动性池的，只有那口收 10000 费用的池子，其余多是试招。"
+   }
+  },
+  {
    "date": "2026-11-08",
    "narrative": {
     "en": "Four pools in a single day, and every one of them with a hook. Uniswap V4 is dealing, and somebody is shuffling a marked deck.\n\nThe first: zero address holding some token, fee set to nothing, a 60-wide spread, hook 0x620b. I have seen that contract before — it surfaced in other deployments. A fee of zero means the house isn't taking its cut at the swap. The revenue lives somewhere inside the hook's own logic. Liquidity as bait; the machinery sits outside the room.\n\nThen two pools from one and the same hook, 0x322d, minutes apart — one a token paired against WETH, the other an alt-on-alt pairing, both set to a 200 spacing. That is a wide corridor and an aggressive setting. Someone wants to catch large moves, not pennies of arbitrage. Or the opposite: feeding the oracle prices that were never true. The last is the zero address again with a different hook, 0x15e5, and again a fee of zero.\n\nTwo zero-fee pools in one day is not accident. Either a new strategy is being tested, or ground is being prepared for something that cannot tolerate public logs. Not one of the four carries a classic fee. Hooks grant total freedom, and someone clearly does not want the table to see what they are doing with it. Four initializations in a row with the same shape is not scattered play. It is a deal. I would watch which cards come off the deck next.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Sixteen zero-fee V4 pools in one night from three dominant hooks and a tight token-address cluster is coordinated deployment, not market signal.",
     "zh": "一夜十六个零费V4池，三处钩子主导，代币地址成串，这是有组织的布阵，不是散乱的市场信号。"
-   }
-  },
-  {
-   "date": "2026-10-26",
-   "narrative": {
-    "en": "Twenty-sixth of October, and the table is set with a house rule that costs nothing: pool after pool opens at zero, the creators taking not one satoshi. The same hook — 0x15e5e7 — deals six pools inside an hour, token addresses 0x0000, 0x04d6b9, 0xb45934 sliding across the felt, spacing fixed at sixty or two hundred. That is not a market finding its price; that is a deck being shuffled in public.\n\nAnother hook, 0x322dcec, keeps the same zero and the two-hundred spacing, working WETH against 0xc3a90d, 0x07599a, 0x7364b7 — three pools in an evening. 0xff3055 puts its chips on 0x8be5ac and 0xafb38f, same terms, same zero. Then the exception: one pool, 0x49977f, hooked through 0x784ff9, asks 12500. Somebody decided to charge the table. Why? Maybe not a meme; maybe liquidity with a pulse.\n\nMost pairs run to the zero address — ETH — and the tokens end in 6ea, 92a, 8ea, a serial print rather than a guest list. The blocks stack seconds apart; no human hand moves that fast, or if one does, it is a metronome pressing create. Pool IDs are only hashes, but behind each is a believer or a dealer who hopes one card turns trump. Tomorrow they die or they ignite. I will watch, as always.",
-    "zh": "十月二十六日，江湖上开了一场不收过路费的局。同一个钩子 0x15e5e7 在一个时辰内连开六池，零费，刻度六十或二百；0x0000、0x04d6b9、0xb45934 这些名号像同一门派连夜递出的拜帖，不像各路侠客偶然相逢。\n\n另一个钩子 0x322dcec 也是零费、二百刻度，拿 WETH 与 0xc3a90d、0x07599a、0x7364b7 结伴，一个晚上布下三池。0xff3055 押在 0x8be5ac 与 0xafb38f 上，规矩一样，仍是零。唯一的异数是 0x49977f，经 0x784ff9 之手，收 12500——有人偏要在免费局里摆一张收费的桌，或许不是玩笑，而是有内力的真流动性。\n\n多数池子对着零地址，那是 ETH；代币名尾数 6ea、92a、8ea，像同一炉铸出的暗器，一串接一串。区块挨得只差几息，不像人手，像机关；池 ID 只是哈希，背后却有人信它会亮，或只是发牌，等一张成王。明日这些池子或死或燃，我依旧在看。"
-   },
-   "take": {
-    "en": "The day’s tell is serial zero-fee pool creation by repeat hooks, not discovery; the one paid exception is the only hand that looks like it expects real liquidity.",
-    "zh": "今日的江湖气不在零费本身，而在同一钩子连开六池的节奏：那是发牌，不是寻价；唯一收费的池子，是唯一像在等真内力入局的异数。"
    }
   }
  ]
