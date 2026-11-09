@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T15:13:29Z",
- "total_hooks": 8070,
- "total_pools": 29702,
- "multi_pool_hooks": 667,
- "shown": 667,
+ "generated_at": "2026-11-09T16:13:03Z",
+ "total_hooks": 8071,
+ "total_pools": 29732,
+ "multi_pool_hooks": 668,
+ "shown": 668,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 6094,
+   "pool_count": 6114,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26377683,
-   "last_deploy": "2026-11-09T14:00:02Z",
+   "last_block": 26378374,
+   "last_deploy": "2026-11-09T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 1016,
+   "pool_count": 1017,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26377734,
-   "last_deploy": "2026-11-09T14:00:02Z",
+   "last_block": 26377800,
+   "last_deploy": "2026-11-09T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -115,7 +115,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 833,
+   "pool_count": 834,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -131,8 +131,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26372845,
-   "last_deploy": "2026-11-08T22:00:02Z",
+   "last_block": 26378284,
+   "last_deploy": "2026-11-09T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -142,7 +142,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 770,
+   "pool_count": 772,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -156,8 +156,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26376759,
-   "last_deploy": "2026-11-09T12:00:02Z",
+   "last_block": 26378296,
+   "last_deploy": "2026-11-09T16:00:02Z",
    "active": true,
    "visible": true
   },
@@ -365,7 +365,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 248,
+   "pool_count": 249,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -379,8 +379,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26374664,
-   "last_deploy": "2026-11-09T04:00:03Z",
+   "last_block": 26378084,
+   "last_deploy": "2026-11-09T16:00:02Z",
    "active": true,
    "visible": false
   },
@@ -574,7 +574,7 @@
    "first_block": 25955044,
    "last_block": 26327690,
    "last_deploy": "2026-11-02T16:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -6536,6 +6536,31 @@
    "last_block": 25242757,
    "last_deploy": "2026-06-08T19:22:10Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x555260abd724090f250092ef542661c89232a0cc",
+   "address_short": "0x5552…a0cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x555260abd724090f250092ef542661c89232a0cc",
+   "pool_count": 5,
+   "permissions_human": [
+    "sets up pools",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26377766,
+   "last_block": 26378142,
+   "last_deploy": "2026-11-09T16:00:02Z",
+   "active": true,
    "visible": false
   },
   {
