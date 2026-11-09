@@ -2,10 +2,10 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 34,
+  "hit": 35,
   "miss": 8,
-  "open": 8,
-  "hit_rate": 0.81
+  "open": 7,
+  "hit_rate": 0.814
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count clears 22; the likely landing sits between 15 and 50, and I give the over about 62%. The tell is in the behaviour, not the jargon: more pools are being dealt with a very fine step, and that kind of narrow slicing only pays when a man intends to place chips with a scalpel.",
    "horizon_days": 7,
    "resolve_after": "2026-11-09",
-   "status": "open",
-   "resolution_note": null,
+   "status": "hit",
+   "resolution_note": "Confirmed: target +22 on metric tickspacing_lt10_hooks reached.",
    "phase": "v2"
   },
   {
