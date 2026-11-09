@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T17:13:14Z",
- "total_hooks": 8071,
- "total_pools": 29732,
- "multi_pool_hooks": 668,
- "shown": 668,
+ "generated_at": "2026-11-09T18:13:18Z",
+ "total_hooks": 8073,
+ "total_pools": 29761,
+ "multi_pool_hooks": 669,
+ "shown": 669,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 6114,
+   "pool_count": 6139,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26378374,
-   "last_deploy": "2026-11-09T16:00:02Z",
+   "last_block": 26378926,
+   "last_deploy": "2026-11-09T18:00:02Z",
    "active": true,
    "visible": true
   },
@@ -365,7 +365,7 @@
    "name": "LaunchGuardHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xa6cc4ffa9ebaefd8ab7d3d018b0ae31ec5b760cc",
-   "pool_count": 249,
+   "pool_count": 250,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -379,8 +379,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26134790,
-   "last_block": 26378084,
-   "last_deploy": "2026-11-09T16:00:02Z",
+   "last_block": 26378572,
+   "last_deploy": "2026-11-09T18:00:02Z",
    "active": true,
    "visible": false
   },
@@ -15348,6 +15348,30 @@
    "last_block": 25709148,
    "last_deploy": "2026-08-08T10:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0xf3c54f44acb6c0c8b3156d26222f80ea996fa8c0",
+   "address_short": "0xf3c5…a8c0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0xf3c54f44acb6c0c8b3156d26222f80ea996fa8c0",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap"
+   ],
+   "first_block": 26372287,
+   "last_block": 26378455,
+   "last_deploy": "2026-11-09T18:00:02Z",
+   "active": true,
    "visible": false
   },
   {
