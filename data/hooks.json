@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T04:13:29Z",
+ "generated_at": "2026-11-10T05:13:31Z",
  "total_hooks": 8079,
  "total_pools": 29844,
  "multi_pool_hooks": 671,
@@ -6541,8 +6541,8 @@
   {
    "address": "0x555260abd724090f250092ef542661c89232a0cc",
    "address_short": "0x5552…a0cc",
-   "name": "",
-   "verified": false,
+   "name": "DiceRandomHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x555260abd724090f250092ef542661c89232a0cc",
    "pool_count": 5,
    "permissions_human": [
@@ -11131,8 +11131,8 @@
   {
    "address": "0x4c3561d685c3858e58aa7c135ead337ec351e0cc",
    "address_short": "0x4c35…e0cc",
-   "name": "",
-   "verified": false,
+   "name": "SweepHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x4c3561d685c3858e58aa7c135ead337ec351e0cc",
    "pool_count": 2,
    "permissions_human": [
@@ -15397,8 +15397,8 @@
   {
    "address": "0xf3c54f44acb6c0c8b3156d26222f80ea996fa8c0",
    "address_short": "0xf3c5…a8c0",
-   "name": "",
-   "verified": false,
+   "name": "GladiatorHook",
+   "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xf3c54f44acb6c0c8b3156d26222f80ea996fa8c0",
    "pool_count": 2,
    "permissions_human": [

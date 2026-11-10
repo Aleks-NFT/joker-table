@@ -1,13 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T04:13:29Z",
+ "generated_at": "2026-11-10T05:13:31Z",
  "history": [
-  {
-   "date": "2026-10-11",
-   "volume_24h_usd": 699761272.0,
-   "fees_24h_usd": 1572160.0,
-   "eth_share_pct": 29.8
-  },
   {
    "date": "2026-10-12",
    "volume_24h_usd": 749485024.0,
@@ -181,19 +175,31 @@
    "volume_24h_usd": 607784264.0,
    "fees_24h_usd": 863745.0,
    "eth_share_pct": 50.6
+  },
+  {
+   "date": "2026-11-10",
+   "volume_24h_usd": 890603104.0,
+   "fees_24h_usd": 1006656.0,
+   "eth_share_pct": 60.0
   }
  ],
  "chains_top": {
-  "Ethereum": 303214328,
-  "Robinhood Chain": 189914414,
-  "Base": 29766890,
-  "BSC": 25645377,
-  "Arbitrum": 17623088,
-  "Polygon": 17563602,
-  "Arc": 10326095,
-  "Monad": 4859889
+  "Ethereum": 522332067,
+  "Robinhood Chain": 212578729,
+  "Base": 39512923,
+  "BSC": 30311504,
+  "Arbitrum": 26345023,
+  "Polygon": 19895818,
+  "Monad": 10176995,
+  "Elysium Kinetiq": 9611543
  },
  "governance": [
+  {
+   "event": "Uniswap gov forum active thread: URC-5: Token Venue Policy (6 posts)",
+   "url": "https://gov.uniswap.org/t/urc-5-token-venue-policy/26307",
+   "occurred_at": "2026-11-10T05:00:02Z",
+   "active": false
+  },
   {
    "event": "Uniswap gov forum active thread: Uniswap Incentive Design Analysis (12 posts)",
    "url": "https://gov.uniswap.org/t/uniswap-incentive-design-analysis/21662",
