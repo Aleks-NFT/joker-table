@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-10",
+   "narrative": {
+    "en": "The log does not blink: four pools in a single block, one a breath earlier, and the same hook contract 0x322dcec... keeps surfacing like a marked card. Three are paired with WETH, one with an unnamed ERC-20, and another strange duo whose tokens do not wear mainstream colors. The fee is zero across the felt, the spacing two hundred ticks—too wide for scalp hunters, sized for whoever wants broad moves without extra discretization.\n\nThe last one draws the eye: block 26380850, a different hook, a different spacing, sixty ticks. 0x347b895d... and 0x6434e57e... are a pair that never showed in any mempool before; hook 0x15e5e720... is a new player. Zero fee and a narrow spacing read like either a test or someone laying liquidity for a hand not yet announced.\n\nThe first pool with 0x35a532d... and 0x49b8836... also carries no fee. Read the sequence of initializations and it is not chaos—it is assembly. Someone is rolling out a whole web of V4 hooks under one contract, and doing it in one block means the transactions came as a batch, likely one multicall.\n\nZero fee is not charity. It is either a marking stage or preparation for flash swaps with extra conditions in the hook; in V4 a hook can charge dynamically, change by pool state, or hide the charge until execution. When the fee is fixed at zero at pool level but the hook can take its own, that is the invisible hand. The deck is shuffled, but the suits are visible: these pools are not for trading today—they are infrastructure, a floor being built under what will be played later. I just watch the cards fall.",
+    "zh": "日志里那张牌翻来覆去：同一个钩子合约 0x322dcec... 在一个区块里连开四个池子，稍早还有一个；三个与 WETH 同席，一个配着某个 ERC-20，另有一对冷门代币，眉眼不像名门正派。手续费一律为零，刻度相隔二百——这不是给短线客磨刀的，是给愿意等大势的人留的余地。\n\n最耐看的是最后一笔：另一个钩子，另一种间距，六十格。0x347b895d... 与 0x6434e57e... 这一对，此前在任何内存池里都未露过面；钩子 0x15e5e720... 是新入局的门派。零费配窄间距，要么是在试招，要么是有人替尚未宣布的局先铺内力。\n\n最早那个池子，0x35a532d... 与 0x49b8836...，同样不收分文。顺着初始化的次序看，这不是乱局，是在布阵：有人把一整张 V4 钩子的网挂在一个合约之下，而且在一个区块里落子，说明交易是成批走的，可能出自一次多调用。\n\n零费不是善心。它要么是画押标记，要么是为带条件的闪电交换备路；V4 的钩子可以动态收费，随池中状态变，也可以藏到执行那一刻才亮刀。池面把费写死为零，钩子却能自取——这才是看不见的手。牌已洗过，花色却露了：这些池子不是今天拿来下注的，是地基，是给以后那场局铺的台。我只在旁边看牌落。"
+   },
+   "take": {
+    "en": "Today’s deal is infrastructure, not trade: the zero on the felt is a mask, and the hook is the hand that takes its cut later.",
+    "zh": "今日不是下注的日子，是搭台的日子：台面写零费，真正的手在钩子里，等局开时才收账。"
+   }
+  },
+  {
    "date": "2026-11-09",
    "narrative": {
     "en": "The deal comes again in a run of five hook pools, 26373674 through 26374170, and it is not the deployment that matters; it is the pattern. Two pools carry a zero token, both routed through the same hook contract 0xb8d947, fee at zero and spacing at 200—native ETH paired to some ERC-20, but the house is taking no cut. That is not a trading table. That is a rehearsal with the cards face down.\n\nThird pool at 26373845—0xa0df17 against 0xd279a0, fee 0, spacing 60, hooks 0x05e1934. Narrow step, aggressive liquidity. Fourth is nearly a mirror, same tokens in another pair, same hook contract. Fifth is 0x2d1f72 and 0x3ab7e3, fee 0, spacing 200, hooks 0x322dcec. The suits change but the deck is being stacked by the same hand: 0xb8d947 twice, 0x05e1934 twice, 0x322dcec once. Someone is laying a grid, testing a hypothesis; possibly one operator with different modules.\n\nNo pool uses the standard V3 floating-fee approach. All fee=0. That means hooks are taking the collection logic—offchain calculations, internal tokens, or no profit at all but orchestration. Pool at 26374092: ETH vs 0xd8a29c, fee 0, same hook 0xb8d947. At 26374170: 0xab4cbb vs WETH, fee 10000, spacing 200, hook 0x2ac9dac. The only nonzero commission—looks like a real liquidity pool, while the rest are experimental. The deck shuffles: hooks as jokers, fee as suit, spacing as wager. Someone is building infrastructure before the crowd notices.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Nobody prepares ten pools in thirteen blocks by accident — the tokens are the noise, the hand holding every hook is the signal.",
     "zh": "十三个区块里立起十个池子，绝非偶然；代币是幌子，握着全部钩子的那只手，才是真章。"
-   }
-  },
-  {
-   "date": "2026-10-27",
-   "narrative": {
-    "en": "The deal came before the dawn, and the table shows sixteen fresh V4 pools. Not a sprint—a volley. Three hook contracts hold the line: 0x15e5e...8cc, 0x322dc...8cc, and 0xff305...ec. The first took ETH pairs at tickSpacing 60—six pools in a row, all zero fee, addresses ending *ea. The second laid four pools at tickSpacing 200 with token 0xc9eef...581 at the center. The third placed two ETH pools at tickSpacing 200.\n\nLook at the token addresses and the pattern is a dealt hand: 0x...6ea, 0x...ea—a cluster, not a random scatter. Block timestamps run from 26280435 through 26280859, with some initializations less than a minute apart. That is a script, not a hand.\n\nEvery pool carries zero fee. On V4 that means the economics ride on hooks, not the standard fee tier. The hooks are not listeners; they are the extraction mechanism. And the spacing—60 for ETH pairs against 200 for the rest—splits liquidity strategy: tighter for active trade, wider for volatile pairs.\n\nWETH pools (0xc02...) run through 0xff305 and 0x322dc, a different set from the ETH pairs through 0x15e5e. Different hooks, different logic—different teams, or one team with different plays. What the hooks actually do—dynamic fees, oracles, MEV protection—is not on the table. But sixteen pools in a night, all zero fee, all one coordinated deal: the deck is assembled and the cards are dealt. Now we watch who makes the first move.",
-    "zh": "天色未亮，江湖上已多了十六个V4池子。不是单骑试探，是一阵连发。三个钩子合约站在台前：0x15e5e...8cc、0x322dc...8cc、0xff305...ec。第一个接下ETH交易对，间距六十，六个池子连成一排，皆为零费，地址收在*ea。第二个布下四个池子，间距二百，0xc9eef...581在阵心。第三个只放两个ETH池，间距仍是二百。\n\n再看代币地址，0x...6ea与0x...ea排成一线，这不是散落的暗器，是同一门派的手笔。区块时间从26280435到26280859，有些初始化相隔不足一分钟。手动布阵没有这般整齐，背后是脚本在走。\n\n所有池子都不收标准费用。V4之中，这意味着内力不在常规费用层，而灌入钩子。钩子不是旁听者，是取值的机关。间距六十对ETH交易对，二百对其余，是两套流动性心法：一紧一松，一为快打，一为宽守。\n\nWETH（0xc02...）的池子走0xff305与0x322dc，与走0x15e5e的ETH池并非同一路数。不同钩子，不同逻辑，或许是不同门派，或许是一派多术。钩子究竟在做什么——动态费用、预言机、MEV防护——尚未见底。但一夜十六池、全零费、步调一致，这已是布好的局。牌在桌上，且看谁先落子。"
-   },
-   "take": {
-    "en": "Sixteen zero-fee V4 pools in one night from three dominant hooks and a tight token-address cluster is coordinated deployment, not market signal.",
-    "zh": "一夜十六个零费V4池，三处钩子主导，代币地址成串，这是有组织的布阵，不是散乱的市场信号。"
    }
   }
  ]

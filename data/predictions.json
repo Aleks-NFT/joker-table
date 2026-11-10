@@ -3,11 +3,21 @@
  "stats": {
   "total": 50,
   "hit": 35,
-  "miss": 8,
-  "open": 7,
-  "hit_rate": 0.814
+  "miss": 7,
+  "open": 8,
+  "hit_rate": 0.833
  },
  "items": [
+  {
+   "id": 122,
+   "made_at": "2026-11-10",
+   "text": "The table is showing more pools with very fine spacing below ten—a quiet craft for fine-grained, concentrated liquidity placement—and over the next 7 days the count clears 21; the likely landing sits between 15 and 49, and I give the over about 64%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-17",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 121,
    "made_at": "2026-11-09",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-19",
    "status": "hit",
    "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 72,
-   "made_at": "2026-09-06",
-   "text": "Over the next 7 days the count clears 13; the likely landing sits between 7 and 40, and I give the over about 56%. The activity shows more pools arriving with intervals below ten—a fine-grained tool for placing concentrated liquidity on razor-thin ranges; that behavior is the one to watch.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-13",
-   "status": "miss",
-   "resolution_note": "Confirmed: target +13 on metric tickspacing_lt10_hooks not reached.",
    "phase": "v2"
   }
  ]
