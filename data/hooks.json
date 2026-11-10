@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T09:13:29Z",
- "total_hooks": 8080,
- "total_pools": 29850,
+ "generated_at": "2026-11-10T10:13:29Z",
+ "total_hooks": 8081,
+ "total_pools": 29857,
  "multi_pool_hooks": 671,
  "shown": 671,
  "more_count": 0,
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 6180,
+   "pool_count": 6182,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26382915,
-   "last_deploy": "2026-11-10T08:00:02Z",
+   "last_block": 26383769,
+   "last_deploy": "2026-11-10T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 1022,
+   "pool_count": 1023,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26383136,
-   "last_deploy": "2026-11-10T08:00:02Z",
+   "last_block": 26383614,
+   "last_deploy": "2026-11-10T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -115,7 +115,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 850,
+   "pool_count": 851,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -131,8 +131,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26381922,
-   "last_deploy": "2026-11-10T04:00:02Z",
+   "last_block": 26383292,
+   "last_deploy": "2026-11-10T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -142,7 +142,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 778,
+   "pool_count": 780,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -156,8 +156,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26381697,
-   "last_deploy": "2026-11-10T04:00:02Z",
+   "last_block": 26383764,
+   "last_deploy": "2026-11-10T10:00:02Z",
    "active": true,
    "visible": true
   },
@@ -8182,7 +8182,7 @@
    "first_block": 25128407,
    "last_block": 26333114,
    "last_deploy": "2026-11-03T10:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {

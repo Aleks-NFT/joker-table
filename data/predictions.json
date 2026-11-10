@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 35,
-  "miss": 7,
-  "open": 8,
-  "hit_rate": 0.833
+  "miss": 8,
+  "open": 7,
+  "hit_rate": 0.814
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count clears 156; the likely landing sits between 103 and 238, and I give the over about 74%. The behaviour is the tell — builders are laying down pools where the contract itself sets the swap fee in real time rather than a flat posted rate, which is what this machinery looks like once it stops being decoration and starts being economics.",
    "horizon_days": 7,
    "resolve_after": "2026-11-10",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +156 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   },
   {
