@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-11",
+   "narrative": {
+    "en": "Five pools before dawn, every one with the fee set to zero. Don’t ask who these people are; I only watched them lay out the deck. But blocks 26387982, 26388232, 26388235, 26388339, and 26388340 are no accident. That is a rhythm.\n\nThe first pool, in block 26387982, is the lone pair that doesn’t carry the native token: 0x476a...ec73 against WETH, hook 0x322d...68cc, spacing 200—wide grid, large bets. The other four all sit on the zero address, ETH or its wrapper, which in V4 is a distinction without a difference. Three of those share one hook, 0xb8d9...0cc, across three different tokens: same hand, different suits. Fee at zero means the income isn’t the rake; it’s something else—maybe order-flow manipulation, maybe front-running, maybe rebalancing through the hook.\n\nThe fourth pool runs spacing 60, denser liquidity, and a different hook. That one wants precision. Maybe it plays a different game—not volume, but spread. Five pools in one night is not spontaneity; it is assembly. Someone has built a deck and is dealing.\n\nThe question isn’t what these tokens are. The question is which hooks fire when someone steps into those pools. Until then the hook stays silent—and silence is part of the game.",
+    "zh": "一夜五池，费率为零。这不是随手摆摊，是有人在江湖上试阵。第一池落在高块 26387982，唯一不以原生币作对：0x476a...ec73 对 WETH，钩子 0x322d...68cc，步距二百——大网，大注。其余四池皆挂零地址，ETH 或其包裹，在 V4 里已不必细分。三池共用同一钩子 0xb8d9...0cc，三个不同代币，三副牌，同一套手法：有人在不同交易对上试同一门内功，不换招式。\n\n费率为零，说明过路钱不是收入所在；或许是指令流的引导，或许是抢先手，或许是借钩子重排仓位。第四池步距六十，内力更密，钩子另换——此人要的是准头，可能不赌量，赌的是价差。\n\n五池一夜，不是即兴，是布阵。有人搭好牌桌，开始发牌。要紧的不是这些代币叫什么，而是哪一个钩子会先动。等第一个外人踏进池子，钩子才会露出真意；此刻它沉默，沉默也是局的一部分。"
+   },
+   "take": {
+    "en": "Five zero-fee pools in one night are not noise; they are a deck being assembled, and the only card that matters is which hook turns over when the first outsider sits down.",
+    "zh": "五池一夜、费率为零，不是散局，是有人在布阵；真正要看的不是币名，而是第一个外人落座时，哪一枚钩子先响。"
+   }
+  },
+  {
    "date": "2026-11-10",
    "narrative": {
     "en": "The log does not blink: four pools in a single block, one a breath earlier, and the same hook contract 0x322dcec... keeps surfacing like a marked card. Three are paired with WETH, one with an unnamed ERC-20, and another strange duo whose tokens do not wear mainstream colors. The fee is zero across the felt, the spacing two hundred ticks—too wide for scalp hunters, sized for whoever wants broad moves without extra discretization.\n\nThe last one draws the eye: block 26380850, a different hook, a different spacing, sixty ticks. 0x347b895d... and 0x6434e57e... are a pair that never showed in any mempool before; hook 0x15e5e720... is a new player. Zero fee and a narrow spacing read like either a test or someone laying liquidity for a hand not yet announced.\n\nThe first pool with 0x35a532d... and 0x49b8836... also carries no fee. Read the sequence of initializations and it is not chaos—it is assembly. Someone is rolling out a whole web of V4 hooks under one contract, and doing it in one block means the transactions came as a batch, likely one multicall.\n\nZero fee is not charity. It is either a marking stage or preparation for flash swaps with extra conditions in the hook; in V4 a hook can charge dynamically, change by pool state, or hide the charge until execution. When the fee is fixed at zero at pool level but the hook can take its own, that is the invisible hand. The deck is shuffled, but the suits are visible: these pools are not for trading today—they are infrastructure, a floor being built under what will be played later. I just watch the cards fall.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "The same hand built two identical pools an hour apart, and identical hands don't guess — they rehearse. The cards are on the table before the deck is even cut.",
     "zh": "同一只手在同一个时辰里落下两枚一模一样的子，一模一样便不是随手——是演练。牌未发，牌面已摊在桌上。"
-   }
-  },
-  {
-   "date": "2026-10-28",
-   "narrative": {
-    "en": "The night opens on the same hook contract again, 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc, surfacing like a card shuffled one time too many. Five pools, every one of them carrying a zero fee, every one on the same step of sixty, and in each case the chair across the felt is the native coin — with a different second token sitting down each time. Somebody is dealing one card per block and watching which one lands face up.\n\nThen there is the other hand. 0x322dcec4958c14e021a9f1cd49df11b9457968cc prefers a wider step, two hundred, and runs four pools, two of which are not native at all — token against token, no ether at the base. The fee is zero here too. Which means this table was never built to rake chips; it was built for something else. Volume, perhaps. Perhaps the shape of an order someone wants to move without being seen moving it.\n\nFarther down the room sit two pools charging ten thousand, and those are not seats for tourists. 0x948916f1… and 0xbdef42b3… — both paired with the native coin, both on the step of two hundred, yet each behind a different hook, 0x02a319b… and 0xda9993…. Someone is buying distance, not action.\n\nThe real tell is density. Ten pools standing up inside thirteen blocks is not improvisation, it is a volley. A deck was prepared in advance and simply dealt onto the table. The question was never what these tokens are. The question is who holds the hooks — one contract running five pools, another running four. Those are not strangers who happened to sit down at the same time. The night on Ethereum was quiet, apart from the riffling.",
-    "zh": "又是夜里的以太坊。同一个钩子合约反复出手，像一副被洗得太勤的牌：五个池子，费用俱为零，步距皆是六十，且每一处都与原生之币相对而坐，另一侧则每每换一张新面孔。有人一格一格地发牌，看哪一张翻过来能立住。\n\n另有一只手，步距二百，四个池子，其中两个已不与原生币配对，而是币对币——基底不再是内力最厚的那一个。费用仍是零。可见此处图的不是收租，而是别的东西：或是流水，或是某个不愿被人看清的落子次序。\n\n更远处还坐着两处，费用一万，那不是新入江湖的人该坐的位置。两处皆配原生币，皆步距二百，钩子却各自不同，一为 0x02a319b…，一为 0xda9993…。有人押的是长路，不是眼前这一手。\n\n真正耐人寻味的是密度。十三个区块之内，十个池子先后落地。这不是兴之所至的随手落子，是一次齐射——牌早就备好，只是一张张推到桌上。要紧的从来不是这些代币姓甚名谁，而是谁握着这些钩子：一个合约管五个池子，另一个管四个。江湖上没有这么多恰好同席的陌生人。以太坊这一夜本是静的，唯有洗牌之声不绝。"
-   },
-   "take": {
-    "en": "Nobody prepares ten pools in thirteen blocks by accident — the tokens are the noise, the hand holding every hook is the signal.",
-    "zh": "十三个区块里立起十个池子，绝非偶然；代币是幌子，握着全部钩子的那只手，才是真章。"
    }
   }
  ]

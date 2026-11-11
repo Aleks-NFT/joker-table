@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T03:13:30Z",
- "total_hooks": 8093,
- "total_pools": 29941,
+ "generated_at": "2026-11-11T04:13:30Z",
+ "total_hooks": 8097,
+ "total_pools": 29946,
  "multi_pool_hooks": 673,
  "shown": 673,
  "more_count": 0,
@@ -88,7 +88,7 @@
    "name": "ClankerHookStaticFeeV2",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x6c24d0bcc264ef6a740754a11ca579b9d225e8cc",
-   "pool_count": 1026,
+   "pool_count": 1027,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -104,8 +104,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25118924,
-   "last_block": 26386277,
-   "last_deploy": "2026-11-10T20:00:02Z",
+   "last_block": 26389140,
+   "last_deploy": "2026-11-11T04:00:03Z",
    "active": true,
    "visible": true
   },

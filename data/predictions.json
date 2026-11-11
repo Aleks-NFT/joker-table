@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 35,
+  "hit": 34,
   "miss": 8,
-  "open": 7,
-  "hit_rate": 0.814
+  "open": 8,
+  "hit_rate": 0.81
  },
  "items": [
+  {
+   "id": 123,
+   "made_at": "2026-11-11",
+   "text": "Over the next 7 days the count clears 171; the likely landing sits between 121 and 255, and I give the over about 73%. The tell is builders laying pools where the hook resets the swap charge in real time rather than a preset table—hooks as working economic primitives, not decoration.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-18",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 122,
    "made_at": "2026-11-10",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-20",
    "status": "hit",
    "resolution_note": "Confirmed: target +33 on metric dyn_fee_pools reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 73,
-   "made_at": "2026-09-12",
-   "text": "Over the next 7 days the count clears 5. The likely landing sits between 5 and 13, and I give the over about 50%. One hand is dealing pools back to back in the same breath — a single contract laying pair after pair at a pace the rest of the room cannot match.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-19",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +5 on metric pools_by_hook reached.",
    "phase": "v2"
   }
  ]
