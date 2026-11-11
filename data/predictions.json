@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 34,
-  "miss": 8,
-  "open": 8,
-  "hit_rate": 0.81
+  "miss": 9,
+  "open": 7,
+  "hit_rate": 0.791
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "One hand keeps dealing: over the next 7 days the count clears 426, the likely landing sits between 103 and 2346, and I give the over about 55%.",
    "horizon_days": 7,
    "resolve_after": "2026-11-11",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +426 on metric pools_by_hook not reached.",
    "phase": "v2"
   },
   {
