@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T13:13:25Z",
- "total_hooks": 8106,
- "total_pools": 29964,
- "multi_pool_hooks": 673,
- "shown": 673,
+ "generated_at": "2026-11-11T14:13:06Z",
+ "total_hooks": 8108,
+ "total_pools": 29972,
+ "multi_pool_hooks": 674,
+ "shown": 674,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 6222,
+   "pool_count": 6226,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26391483,
-   "last_deploy": "2026-11-11T12:00:02Z",
+   "last_block": 26392135,
+   "last_deploy": "2026-11-11T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -115,7 +115,7 @@
    "name": "PangeaFeeHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
-   "pool_count": 863,
+   "pool_count": 864,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -131,8 +131,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 26204772,
-   "last_block": 26389697,
-   "last_deploy": "2026-11-11T06:00:02Z",
+   "last_block": 26391903,
+   "last_deploy": "2026-11-11T14:00:02Z",
    "active": true,
    "visible": true
   },
@@ -10757,7 +10757,7 @@
    "first_block": 26341503,
    "last_block": 26341503,
    "last_deploy": "2026-11-04T14:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -12598,6 +12598,33 @@
    "last_block": 25709148,
    "last_deploy": "2026-08-08T10:00:02Z",
    "active": false,
+   "visible": false
+  },
+  {
+   "address": "0x895c0f32fb444a2059fba0bdfb6d742b8e0ce8cc",
+   "address_short": "0x895c…e8cc",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x895c0f32fb444a2059fba0bdfb6d742b8e0ce8cc",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "adjusts swap amounts"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeSwap",
+    "afterSwap",
+    "beforeSwapReturnDelta",
+    "afterSwapReturnDelta"
+   ],
+   "first_block": 26391607,
+   "last_block": 26391624,
+   "last_deploy": "2026-11-11T14:00:02Z",
+   "active": true,
    "visible": false
   },
   {
