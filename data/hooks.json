@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T19:13:02Z",
+ "generated_at": "2026-11-11T20:13:29Z",
  "total_hooks": 8111,
- "total_pools": 29984,
- "multi_pool_hooks": 674,
- "shown": 674,
+ "total_pools": 30004,
+ "multi_pool_hooks": 675,
+ "shown": 675,
  "more_count": 0,
  "hooks": [
   {
@@ -13,7 +13,7 @@
    "name": "LaunchHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0x322dcec4958c14e021a9f1cd49df11b9457968cc",
-   "pool_count": 6232,
+   "pool_count": 6248,
    "permissions_human": [
     "sets up pools",
     "manages liquidity",
@@ -29,8 +29,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25910806,
-   "last_block": 26393121,
-   "last_deploy": "2026-11-11T18:00:03Z",
+   "last_block": 26393653,
+   "last_deploy": "2026-11-11T20:00:03Z",
    "active": true,
    "visible": true
   },
@@ -142,7 +142,7 @@
    "name": "ConfigurableKlikHook",
    "verified": true,
    "etherscan_url": "https://etherscan.io/address/0xb8d9477eb6ef5f0df5219cf0c8130dd7e520e0cc",
-   "pool_count": 794,
+   "pool_count": 797,
    "permissions_human": [
     "sets up pools",
     "intercepts swaps",
@@ -156,8 +156,8 @@
     "afterSwapReturnDelta"
    ],
    "first_block": 25676343,
-   "last_block": 26389433,
-   "last_deploy": "2026-11-11T06:00:02Z",
+   "last_block": 26393661,
+   "last_deploy": "2026-11-11T20:00:03Z",
    "active": true,
    "visible": true
   },
@@ -5210,7 +5210,7 @@
    "first_block": 26316431,
    "last_block": 26343250,
    "last_deploy": "2026-11-04T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
@@ -11789,6 +11789,32 @@
    "visible": false
   },
   {
+   "address": "0x6155e39835451b1105e1a5758f21d39083a12aa0",
+   "address_short": "0x6155…2aa0",
+   "name": "",
+   "verified": false,
+   "etherscan_url": "https://etherscan.io/address/0x6155e39835451b1105e1a5758f21d39083a12aa0",
+   "pool_count": 2,
+   "permissions_human": [
+    "sets up pools",
+    "manages liquidity",
+    "intercepts swaps",
+    "handles donations"
+   ],
+   "permissions_technical": [
+    "beforeInitialize",
+    "beforeAddLiquidity",
+    "beforeRemoveLiquidity",
+    "beforeSwap",
+    "beforeDonate"
+   ],
+   "first_block": 26393190,
+   "last_block": 26393437,
+   "last_deploy": "2026-11-11T20:00:03Z",
+   "active": true,
+   "visible": false
+  },
+  {
    "address": "0x62b2969b19f00aa3827d864689d4712ec6c8c0cc",
    "address_short": "0x62b2…c0cc",
    "name": "HookPadHook",
@@ -14960,7 +14986,7 @@
    "first_block": 26343220,
    "last_block": 26343520,
    "last_deploy": "2026-11-04T20:00:02Z",
-   "active": true,
+   "active": false,
    "visible": false
   },
   {
