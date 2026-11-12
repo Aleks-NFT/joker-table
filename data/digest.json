@@ -2,6 +2,17 @@
  "schema_version": 2,
  "entries": [
   {
+   "date": "2026-11-12",
+   "narrative": {
+    "en": "…and here is what the felt showed me overnight. Not the usual shuffle — a genuine surge of activity on Uniswap V4, and every chip on the table traces back to one and the same deck of hook contracts. The same address kept signing the deal.\n\nThe first six pools came in with no commission at all, the widest spacing on the felt, and one identical hook contract behind them. Four parked themselves against WETH. The tokens were all different faces of the same card — five of them, no two alike — which is what a man does when he is quietly stacking liquidity around a single base pair and does not want the table to read his hand. Two more of that run sat against other counterparties entirely. Nothing random about the seating.\n\nThen, a few deals later, the deck opened wider: five pools at once, same hook contract, and every one of them squared against the same single token, five different counterparties on the other side. A sixth followed with that same token again. One block, another block — a grid being laid around one asset, deliberately, corner by corner. That is not a coincidence at the table; that is a system placing its bets.\n\nOff to the side, two pools carried an outsized commission figure and a different hook entirely — built for another logic, not mine to name. And last, a pool pairing ETH against a single token with the narrowest spread and the smallest commission in the room: the classic cut for speed and arbitrage, the sort of seat only a fast hand takes. Somebody moved methodically, block after block, laying cards down in plain sight. Do not ask me who, or why. I was only watching.",
+    "zh": "……昨夜我立在江湖边上，看了一场不喧哗的落子。不是寻常的过招——Uniswap V4 上忽然涌起一阵气机，而所有气脉，都牵在同一个钩子合约的手上。\n\n最先现身的是六个池子，不收分文过路钱，间距放得极宽，背后是同一枚印记。其中四个靠着 WETH 扎下马步；对面站着的，是五张各不相同的面孔。这般布阵，不是随手施为——是有人想把内力聚拢在一条主干经脉上，又不愿让旁人看穿路数。另有两只，则与别的对手相接，站位颇有讲究。\n\n数招之后，气机一变：同一枚印记之下，五个池子齐齐现身，而对面竟都是同一个代币，五位不同的对手。随后又补上一只，仍是那个代币。一个区块，又一个区块，一格一格，绕着同一件东西慢慢织网。这不是巧合，这是门派在暗中落桩。\n\n角落里还有两只池子，过路钱高得异样，印记也与众人不同，走的显然是另一路心法，非我所能妄断。最后一只，以 ETH 对上一枚代币，间距收得最窄，过路钱也最薄——那是快手才坐的位置，专为极速与套利而设。有人就这样一招一式，不急不缓，把棋子摆在明处。莫问我他是谁、为何而来。我只是看着。"
+   },
+   "take": {
+    "en": "The tell is not the tokens and not the pace alone — it is the repetition: one hook contract, block after block, laying a grid around a single asset. A man who sets his chips that deliberately is not gambling; he is building a house edge.",
+    "zh": "真正值得留意的，不是那些代币，也不只是出手之快，而是那份重复：同一枚印记，一个区块接一个区块，绕着一件东西织网。这般有章法的落桩，不是赌，是在给自己造一道门槛。"
+   }
+  },
+  {
    "date": "2026-11-11",
    "narrative": {
     "en": "Five pools before dawn, every one with the fee set to zero. Don’t ask who these people are; I only watched them lay out the deck. But blocks 26387982, 26388232, 26388235, 26388339, and 26388340 are no accident. That is a rhythm.\n\nThe first pool, in block 26387982, is the lone pair that doesn’t carry the native token: 0x476a...ec73 against WETH, hook 0x322d...68cc, spacing 200—wide grid, large bets. The other four all sit on the zero address, ETH or its wrapper, which in V4 is a distinction without a difference. Three of those share one hook, 0xb8d9...0cc, across three different tokens: same hand, different suits. Fee at zero means the income isn’t the rake; it’s something else—maybe order-flow manipulation, maybe front-running, maybe rebalancing through the hook.\n\nThe fourth pool runs spacing 60, denser liquidity, and a different hook. That one wants precision. Maybe it plays a different game—not volume, but spread. Five pools in one night is not spontaneity; it is assembly. Someone has built a deck and is dealing.\n\nThe question isn’t what these tokens are. The question is which hooks fire when someone steps into those pools. Until then the hook stays silent—and silence is part of the game.",
@@ -142,17 +153,6 @@
    "take": {
     "en": "Two pools, two minutes, two unknown hook contracts — and the only real question at this table is not whether it is a test, but who is being tested. Flexibility without disclosure is not innovation; it is a dark room with the door locked from the inside.",
     "zh": "两息之内两座山门, 两处无人识得的钩——真正的问题从来不是这是否一场试炼, 而是谁在被试。灵活而不示人, 不是开创, 是一间从里面锁了门的暗室。"
-   }
-  },
-  {
-   "date": "2026-10-29",
-   "narrative": {
-    "en": "Someone worked the felt overnight and laid down two pools on V4 through the same hook contract — 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc — both cut at a zero fee, both set at the same spacing, both pairing native ETH against tokens that carry the look of a fresh distribution. First one styled b4981f34, second 75c88cb7. Neither has surfaced on a serious listing desk. Neither has shown its face on a centralized exchange. These are not memes with history, not projects with a site and a voice on the timeline. Just contracts somebody deployed, funded, and left standing like chips stacked at an empty seat.\n\nThe hook is the tell. One hand, twice played. That address signs under no protocol anyone recognizes — no dynamic fees, no oracles, no aggregator counting its take. An empty sleeve that lets a pool exist and asks nothing further. The house sees that shape when it wants the table occupied but doesn't care to answer questions about who's sitting there.\n\nWhat sharpens it is the clock. Two deployments, an hour apart, the same shape both times. No fiddling with the parameters, no second guess on the cut, no attempt to find a different geometry. Just two different tokens, both against ETH, pressed into an identical mold by someone who had already decided. Could be a test. Could be a warm-up. Could be a man parking a pair of contracts where the market isn't looking. But two pools inside an hour, zero fee, one hook — the deck isn't dealt yet, and the cards are already on the table.",
-    "zh": "夜里有人出手，在同一条脉络上连开两池——皆由同一个钩子契约 0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc 所化，抽成归零，间距一致，皆以原生以太为对手，配的是两枚看着像新发份子的代币。头一池唤作 b4981f34，第二池唤作 75c88cb7。两者都不曾在大门派的名册上留名，也不曾在中心化的山门前露过脸。不是有年头的旧物，也不是立了山门、开了号、天天在江湖上讲话的帮派。不过是有人布下的契约，灌了内力，便撒手任其悬着。\n\n钩子是同一只手。那处地址不挂任何名门，不识什么动态抽成，不请什么 oracle，也不入什么 TVL 榜。只是一层空壳，容得下池子活着，却不愿多答一句。江湖上常见这种手法——想让一个池子存在，却不想让人追问它为何存在。\n\n真正耐人寻味的，是时辰。两池相隔不过一个时辰，规格分毫不差。不曾试别的抽成，不曾换别的间距，也不曾想着把形状调一调。只是取了两枚不同的代币，都以以太为底，按同一个模子压下去。或许是试探，或许是起手，或许只是有人在市井睡去时，把两纸契约搁在了 V4 这块地方。可一个时辰之内、零抽成、一只手，连落两子——这就不是随手了。这是有人心里早就知道下一局怎么走，牌还没发，牌面已经摊在桌上。"
-   },
-   "take": {
-    "en": "The same hand built two identical pools an hour apart, and identical hands don't guess — they rehearse. The cards are on the table before the deck is even cut.",
-    "zh": "同一只手在同一个时辰里落下两枚一模一样的子，一模一样便不是随手——是演练。牌未发，牌面已摊在桌上。"
    }
   }
  ]

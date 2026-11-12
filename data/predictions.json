@@ -2,12 +2,22 @@
  "schema_version": 1,
  "stats": {
   "total": 50,
-  "hit": 34,
+  "hit": 33,
   "miss": 9,
-  "open": 7,
-  "hit_rate": 0.791
+  "open": 8,
+  "hit_rate": 0.786
  },
  "items": [
+  {
+   "id": 124,
+   "made_at": "2026-11-12",
+   "text": "Watch the behaviour, not the label: one contract is dealing pools in rapid succession, well ahead of the pace ordinary deployers keep. Over the next 7 days the count clears 409; the likely landing sits between 157 and 2250, and I give the over about 56%.",
+   "horizon_days": 7,
+   "resolve_after": "2026-11-19",
+   "status": "open",
+   "resolution_note": null,
+   "phase": "v2"
+  },
   {
    "id": 123,
    "made_at": "2026-11-11",
@@ -496,16 +506,6 @@
    "resolve_after": "2026-09-21",
    "status": "hit",
    "resolution_note": "Confirmed: target +7 on metric tickspacing_lt10_hooks reached.",
-   "phase": "v2"
-  },
-  {
-   "id": 74,
-   "made_at": "2026-09-13",
-   "text": "Over the next seven days the count clears 33; the likely landing sits between 19 and 72, and I give the over about 59%. What we are watching is builders deploying pools with the dynamic-fee flag — the hook contract setting the swap cut in real time rather than picking from a fixed menu — and that is the clearest sign hooks are being played as economic primitives, not decoration.",
-   "horizon_days": 7,
-   "resolve_after": "2026-09-20",
-   "status": "hit",
-   "resolution_note": "Confirmed: target +33 on metric dyn_fee_pools reached.",
    "phase": "v2"
   }
  ]
