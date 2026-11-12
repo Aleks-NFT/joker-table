@@ -3,9 +3,9 @@
  "stats": {
   "total": 50,
   "hit": 33,
-  "miss": 9,
-  "open": 8,
-  "hit_rate": 0.786
+  "miss": 10,
+  "open": 7,
+  "hit_rate": 0.767
  },
  "items": [
   {
@@ -84,8 +84,8 @@
    "text": "Over the next 7 days the count clears 173; the likely landing sits between 113 and 260, and I give the over about 74%. Watch the behaviour, not the label: builders are laying down pools where the hook itself sets the swap fee in real time rather than accepting a fixed toll posted in advance — that is a hook used as an economic instrument, not as decoration on the table.",
    "horizon_days": 7,
    "resolve_after": "2026-11-12",
-   "status": "open",
-   "resolution_note": null,
+   "status": "miss",
+   "resolution_note": "Confirmed: target +173 on metric dyn_fee_pools not reached.",
    "phase": "v2"
   },
   {
